@@ -16,12 +16,16 @@
   var params = new URLSearchParams(location.search);
   if (params.get('lab') !== '1') return;
 
+  // First value in each list is the default, so the lab opens on the
+  // combination that has been chosen rather than on the control.
   var AXES = [
-    { key: 'skin',   label: 'Skin',   values: ['broadsheet', 'editorial', 'feature'] },
-    { key: 'layout', label: 'Layout', values: ['stacked', 'rail', 'frontispiece'] },
-    { key: 'accent', label: 'Accent', values: ['ink', 'aubergine', 'ochre'] }
+    { key: 'skin',     label: 'Skin',     values: ['editorial', 'feature', 'broadsheet'] },
+    { key: 'layout',   label: 'Layout',   values: ['frontispiece', 'rail', 'stacked'] },
+    { key: 'accent',   label: 'Accent',   values: ['aubergine', 'ink', 'ochre'] },
+    { key: 'masthead', label: 'Masthead', values: ['cinzel', 'caslon', 'garamond'] },
+    { key: 'paper',    label: 'Paper',    values: ['cream', 'ivory', 'manila'] }
   ];
-  var STORE = 'coffeedesk.lab';
+  var STORE = 'coffeedesk.lab.v2';   // bumped: ignore state saved before the new axes existed
   var root = document.documentElement;
 
   function saved() {

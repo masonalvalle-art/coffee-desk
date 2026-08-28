@@ -20,12 +20,12 @@
   // combination that has been chosen rather than on the control.
   var AXES = [
     { key: 'skin',     label: 'Skin',     values: ['editorial', 'feature', 'broadsheet'] },
-    { key: 'layout',   label: 'Layout',   values: ['frontispiece', 'rail', 'stacked'] },
+    { key: 'layout',   label: 'Layout',   values: ['stacked', 'frontispiece', 'rail'] },
     { key: 'accent',   label: 'Accent',   values: ['aubergine', 'ink', 'ochre'] },
     { key: 'masthead', label: 'Masthead', values: ['cinzel', 'caslon', 'garamond'] },
-    { key: 'paper',    label: 'Paper',    values: ['cream', 'ivory', 'manila'] }
+    { key: 'paper',    label: 'Paper',    values: ['manila', 'cream', 'ivory'] }
   ];
-  var STORE = 'coffeedesk.lab.v2';   // bumped: ignore state saved before the new axes existed
+  var STORE = 'coffeedesk.lab.v3';   // bumped again so the chosen combination is what opens
   var root = document.documentElement;
 
   function saved() {

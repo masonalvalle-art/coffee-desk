@@ -347,29 +347,7 @@
 [data-skin="feature"] .ro-tag,
 [data-skin="feature"] .slide-region { border-radius: 0; }
 
-/* Slider dots become primitives rather than dashes. */
-[data-skin="editorial"] .slider-dot,
-[data-skin="feature"] .slider-dot {
-  width: 9px; height: 9px; border-radius: 50%;
-  background: transparent; border: 1px solid var(--rule);
-}
-[data-skin="editorial"] .slider-dot.is-current,
-[data-skin="feature"] .slider-dot.is-current { background: var(--accent); border-color: var(--accent); }
 
-/* A circle / square / triangle motif under the nameplate. */
-[data-skin="editorial"] .masthead-rule.bottom,
-[data-skin="feature"] .masthead-rule.bottom { position: relative; }
-[data-skin="editorial"] .masthead-rule.bottom::after {
-  content: "";
-  position: absolute;
-  left: 50%; transform: translateX(-50%);
-  top: -11px;
-  width: 46px; height: 8px;
-  background:
-    radial-gradient(circle at 4px 4px, var(--accent) 3.5px, transparent 3.6px) left center / 16px 8px no-repeat,
-    linear-gradient(var(--accent), var(--accent)) center center / 7px 7px no-repeat,
-    conic-gradient(from -90deg at 50% 100%, transparent 0 25%, var(--accent) 0 50%, transparent 0) right center / 9px 8px no-repeat;
-}
 
 
 /* ============================================================

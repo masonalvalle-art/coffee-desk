@@ -533,7 +533,6 @@ td.muted, .muted { color: var(--muted); }
   width: max-content;
   animation: ticker-scroll var(--ticker-duration, 60s) linear infinite;
 }
-.ticker-reverse .ticker-lane { animation-direction: reverse; }
 .ticker:hover .ticker-lane,
 .ticker:focus-within .ticker-lane { animation-play-state: paused; }
 
@@ -547,13 +546,13 @@ td.muted, .muted { color: var(--muted); }
 .ticker-item {
   display: inline-flex;
   align-items: baseline;
-  gap: .5rem;
-  padding: .55rem 1.4rem .55rem 0;
-  margin-right: 1.4rem;
+  gap: .7rem;
+  padding: 1rem 1.8rem 1rem 0;
+  margin-right: 1.8rem;
   border-right: 1px solid var(--rule-faint);
   white-space: nowrap;
   text-decoration: none;
-  font-size: .86rem;
+  font-size: 1.02rem;
 }
 a.ticker-item:hover .ticker-text { text-decoration: underline; text-underline-offset: 3px; }
 
@@ -741,3 +740,75 @@ a.ticker-item:hover .ticker-text { text-decoration: underline; text-underline-of
 .wx-cond-cloudy   { color: var(--muted); }
 .wx-cond-wet      { color: var(--wet); }
 .wx-cond-very-wet { color: var(--wet); font-weight: 600; }
+
+/* ---------------- Ticker: larger, calmer ---------------- */
+
+.ticker-label {
+  font-size: .64rem;
+  padding: 0 1.1rem;
+  letter-spacing: .2em;
+}
+.ticker-region {
+  font-size: .62rem;
+  padding: .18rem .45rem;
+}
+.ticker-pub, .ticker-age { font-size: .62rem; }
+.ticker-text { font-family: var(--text); }
+
+/* ---------------- Condensed citations ---------------- */
+
+.cite {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: .3rem .55rem;
+  margin: .7rem 0 0;
+  padding-top: .5rem;
+  border-top: 1px dotted var(--rule);
+  font-family: var(--mono);
+  font-size: .56rem;
+  letter-spacing: .09em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.cite a { color: var(--muted); text-underline-offset: 2px; }
+.cite a:hover { color: var(--ink); }
+
+.fx-note {
+  font-family: var(--text);
+  font-size: .78rem;
+  font-style: italic;
+  text-transform: none;
+  letter-spacing: 0;
+  white-space: normal;
+  min-width: 16ch;
+}
+
+/* Method notes in Sources: term and explanation, tight. */
+.method-list { margin: 0; }
+.method-list dt {
+  font-family: var(--mono);
+  font-size: .58rem;
+  letter-spacing: .13em;
+  text-transform: uppercase;
+  color: var(--ink);
+  margin-top: .6rem;
+}
+.method-list dt:first-child { margin-top: 0; }
+.method-list dd {
+  margin: .15rem 0 0;
+  font-size: .84rem;
+  color: var(--ink-soft);
+  max-width: 68ch;
+}
+
+/* Grid items default to min-width:auto, so a wide table inside one refuses to
+   shrink and pushes its track past the viewport. Letting them shrink to zero
+   hands the scrolling back to .table-scroll where it belongs. */
+.lead-grid > *,
+.chart-grid > *,
+.tech-grid > *,
+.phys-grid > *,
+.stories > * { min-width: 0; }
+
+.table-scroll { min-width: 0; max-width: 100%; }

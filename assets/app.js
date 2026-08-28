@@ -85,6 +85,25 @@
     return (sp > n * 0.6 ? cut.slice(0, sp) : cut).replace(/[,;:.\s]+$/, '') + '…';
   }
 
+  /**
+   * A compact citation line: source and scope only, separated by middots, with
+   * a pointer to the full method at the foot of the page. The reasoning behind
+   * each number lives in Sources & Method rather than under every table.
+   */
+  function cite(parts, opts) {
+    opts = opts || {};
+    var kids = [];
+    parts.filter(Boolean).forEach(function (p, i) {
+      if (i) kids.push(el('span', { class: 'dot', text: '·' }));
+      kids.push(typeof p === 'string' ? el('span', { text: p }) : p);
+    });
+    if (opts.method !== false) {
+      kids.push(el('span', { class: 'dot', text: '·' }));
+      kids.push(el('a', { href: '#sources', text: 'method' }));
+    }
+    return el('p', { class: 'cite' }, kids);
+  }
+
   function notice(head, lines) {
     return el('div', { class: 'notice' }, [
       el('div', { class: 'notice-head', text: head })
@@ -366,7 +385,7 @@
               el('tbody', {}, rows)
             ])
           ]),
-          el('p', { class: 'panel-foot', text: 'Later months trading above the near month is carry; below it is backwardation, which usually means the market wants coffee now.' })
+          cite(['Above = carry, below = backwardation', 'TradingView'])
         ]));
       }
     });
@@ -509,7 +528,7 @@
         ])
       ]));
 
-      panel.appendChild(el('p', { class: 'panel-foot', text: t.method || '' }));
+      panel.appendChild(cite(['Wilder RSI(14)', 'MACD(12,26,9)', 'ATR(14)']));
       host.appendChild(panel);
 
       // Levels get their own panel alongside, so the pair fills the row.
@@ -548,11 +567,7 @@
             el('tbody', {}, lvRows)
           ])
         ]));
-        levelsPanel.appendChild(el('p', {
-          class: 'panel-foot',
-          text: 'A level is a bar whose high (or low) was the highest (or lowest) within five ' +
-                'sessions either side — a price the market turned at, not a line drawn by eye.'
-        }));
+        levelsPanel.appendChild(cite(['5-bar swing pivots']));
       } else {
         levelsPanel.appendChild(notice('No clear levels', [
           'No swing pivot in the visible history sits above or below the current price.'
@@ -597,9 +612,10 @@
       var p = fx.pairs[k];
       return el('tr', {}, [
         el('td', { class: 'name', text: p.pair }),
-        el('td', { class: 'num', text: num(p.rate, 4) }),
+        el('td', { class: 'num', text: num(p.rate, p.dp == null ? 4 : p.dp) }),
         el('td', { class: 'num ' + dirClass(p.changePct), text: signed(p.changePct, 2) + '%' }),
-        el('td', { class: 'num ' + dirClass(p.change1m), text: signed(p.change1m, 2) + '%' })
+        el('td', { class: 'num ' + dirClass(p.change1m), text: signed(p.change1m, 2) + '%' }),
+        el('td', { class: 'muted fx-note', text: p.note || '' })
       ]);
     });
 
@@ -607,11 +623,12 @@
       rows.push(el('tr', {}, [
         el('td', { class: 'name' }, [
           'USD/BRL ',
-          el('span', { class: 'badge', text: 'PTAX official' })
+          el('span', { class: 'badge', text: 'PTAX' })
         ]),
         el('td', { class: 'num', text: num(fx.ptax.sell, 4) }),
         el('td', { class: 'num muted', text: '—' }),
-        el('td', { class: 'muted', text: (fx.ptax.quotedAt || '').slice(0, 16) })
+        el('td', { class: 'num muted', text: '—' }),
+        el('td', { class: 'muted fx-note', text: 'Official Brazilian fixing, ' + (fx.ptax.quotedAt || '').slice(0, 10) })
       ]));
     }
 
@@ -621,17 +638,14 @@
           el('th', { text: 'Pair' }),
           el('th', { class: 'num', text: 'Rate' }),
           el('th', { class: 'num', text: 'Day' }),
-          el('th', { class: 'num', text: '1 month' })
+          el('th', { class: 'num', text: '1 month' }),
+          el('th', { text: '' })
         ])]),
         el('tbody', {}, rows)
       ])
     ]));
 
-    host.appendChild(el('p', {
-      class: 'panel-foot',
-      text: 'ECB daily reference rates as of ' + (fx.asOf || '—') +
-            '. A weaker real (higher USD/BRL) typically encourages Brazilian producer selling.'
-    }));
+    host.appendChild(cite(['ECB ' + (fx.asOf || '—'), 'BCB PTAX']));
   }
 
   function renderPhysical(data) {
@@ -847,15 +861,7 @@
       ].concat(alerts.map(function (t) { return el('p', { text: t }); }))));
     }
 
-    var th = wx.thresholds || {};
-    host.appendChild(el('p', {
-      class: 'panel-foot',
-      text: 'Flags are rule-based, not forecasts of price: frost at or below ' + th.frostC +
-            '°C in a Brazilian region, wet above ' + th.heavyRainMm +
-            ' mm forecast over seven days, dry at or below ' + th.dryMm +
-            ' mm observed over fourteen. "Max °C" is the most recent observed day. ' +
-            (wx.conditionMethod || '')
-    }));
+    host.appendChild(cite(['Open-Meteo', '12 regions', 'flags are rules, not forecasts']));
   }
 
   /**
@@ -870,7 +876,7 @@
     // a composited layer at roughly 16,384px and silently fail to paint past
     // it, so the item count is capped to keep the lane comfortably inside that
     // limit. Callers truncate the text for the same reason.
-    var MAX_ITEMS = opts.maxItems || 11;
+    var MAX_ITEMS = opts.maxItems || 10;
     var shown = items.slice(0, MAX_ITEMS);
 
     function track(ariaHidden) {
@@ -878,7 +884,7 @@
       if (ariaHidden) t.setAttribute('aria-hidden', 'true');
       return t;
     }
-    var speed = Math.max(30, Math.min(180, shown.length * (opts.secondsPerItem || 5)));
+    var speed = Math.max(60, Math.min(400, shown.length * (opts.secondsPerItem || 12)));
     var lane = el('div', { class: 'ticker-lane', style: '--ticker-duration:' + speed + 's' }, [
       track(false), track(true)
     ]);
@@ -916,20 +922,13 @@
           el('span', { class: 'ticker-age', text: relTime(h.published) || fmtDate(h.published) })
         ]);
       };
-    }), { label: 'Origin wire', secondsPerItem: 6 }));
+    }), { label: 'Origin wire', secondsPerItem: 13 }));
 
-    var regions = Object.keys(wire.byRegion || {}).filter(function (k) { return wire.byRegion[k]; });
-    host.appendChild(el('p', {
-      class: 'panel-foot',
-      text: 'General headlines from the growing regions over the last ' +
-            Math.round(wire.lookbackHours / 24) + ' days, from the BBC, the Guardian, the ' +
-            'Financial Times, Al Jazeera and VnExpress International, tagged to a region by ' +
-            'the countries and cities they name. ' + wire.totalTagged + ' stories matched ' +
-            'across ' + (regions.length || 0) + ' regions; the ticker rotates between them so ' +
-            'one busy country cannot crowd out the rest. The window is three weeks because ' +
-            'these origins are not covered daily by the international press — each headline ' +
-            'carries its own age.'
-    }));
+    host.appendChild(cite([
+      'BBC, Guardian, FT, Al Jazeera, VnExpress',
+      wire.totalTagged + ' matched, ' + Math.min(10, wire.headlines.length) + ' shown',
+      Math.round(wire.lookbackHours / 24) + '-day window'
+    ]));
   }
 
   function renderRoundup(roundup) {
@@ -955,7 +954,7 @@
           ? el('a', { class: 'ticker-item', href: it.url, target: '_blank', rel: 'noopener noreferrer' }, kids)
           : el('span', { class: 'ticker-item' }, kids);
       };
-    }), { label: 'Week in coffee', modifier: 'ticker-reverse', secondsPerItem: 7, maxItems: 11 }));
+    }), { label: 'Week in coffee', secondsPerItem: 13, maxItems: 10 }));
 
     var head = el('p', { class: 'roundup-source' }, [
       el('a', {
@@ -966,22 +965,14 @@
     ]);
     host.appendChild(head);
 
-    var shownCount = Math.min(11, roundup.items.length);
-    var scope = shownCount < roundup.items.length
-      ? 'Showing ' + shownCount + ' of ' + roundup.items.length +
-        ' headlines from this week’s recap — the full round-up is linked above. '
-      : roundup.items.length + ' headlines. ';
-
-    host.appendChild(el('p', {
-      class: 'panel-foot',
-      text: scope + 'Each links to the original source, not to the recap. ' +
-        (roundup.source === 'manual'
-          ? 'Perfect Daily Grind blocks automated clients, so this recap was captured by hand ' +
-            'from the published article on ' + fmtDateTime(roundup.capturedAt) +
-            '. The pipeline still attempts the live fetch on every run and will use it the ' +
-            'moment it succeeds.'
-          : 'Fetched live from Perfect Daily Grind’s weekly round-up.')
-    }));
+    var shownCount = Math.min(10, roundup.items.length);
+    host.appendChild(cite([
+      shownCount + ' of ' + roundup.items.length + ' headlines',
+      'links go to the original source',
+      roundup.source === 'manual'
+        ? 'captured ' + fmtDate(roundup.capturedAt)
+        : 'fetched live'
+    ]));
   }
 
   function renderDailyRead(daily) {
@@ -1003,12 +994,11 @@
       ' · ' + (relTime(a.published) || fmtDate(a.published))
     ]));
     host.appendChild(el('div', { class: 'story story-single' }, kids));
-    host.appendChild(el('p', {
-      class: 'panel-foot',
-      text: 'One article, chosen from ' + (daily.considered || 0) +
-            ' in the Daily Coffee News feed by relevance to the physical trade and recency. ' +
-            'The summary is the publisher’s own feed text.'
-    }));
+    host.appendChild(cite([
+      'Daily Coffee News',
+      '1 of ' + (daily.considered || 0),
+      'publisher’s own summary'
+    ]));
   }
 
   function renderSources(data) {
@@ -1049,6 +1039,59 @@
           el('a', { href: 'https://dailycoffeenews.com/', target: '_blank', rel: 'noopener noreferrer', text: 'Daily Coffee News' })
         ])
       ])
+    ]));
+
+    // The reasoning that used to sit under every table lives here instead, so
+    // the page above stays readable and nothing is actually lost.
+    var wx = data.weather || {};
+    var th = wx.thresholds || {};
+    var t = data.futures && data.futures.arabica && data.futures.arabica.technicals;
+    var wire = (data.news || {}).originWire || {};
+
+    var method = [];
+    if (t) {
+      method.push(['Indicators',
+        (t.method || '') + ' Computed on ' + (data.futures.arabica.barsAnalysed || t.observations) +
+        ' daily bars; the chart draws the most recent ' +
+        (data.futures.arabica.barsPublished || 0) + '.']);
+    }
+    method.push(['Support & resistance',
+      'A level is a bar whose high (or low) was the highest (or lowest) within five sessions ' +
+      'either side — a price the market actually turned at, not a line drawn by eye.']);
+    method.push(['Forward curve',
+      'Later months trading above the near month is carry; below it is backwardation, which ' +
+      'usually means the market wants coffee now.']);
+    method.push(['Currency',
+      'Each pair is requested in its own quoting convention rather than fetched in one base ' +
+      'and inverted, so the rate shown is the rate the source published.']);
+    if (wx.conditionMethod) {
+      method.push(['Weather conditions', wx.conditionMethod]);
+    }
+    if (th.frostC != null) {
+      method.push(['Weather flags',
+        'Rule-based, and descriptions of weather rather than forecasts of price: frost at or ' +
+        'below ' + th.frostC + '°C in a Brazilian region, wet above ' + th.heavyRainMm +
+        ' mm forecast over seven days, dry at or below ' + th.dryMm +
+        ' mm observed over fourteen. "Max °C" is the most recent observed day.']);
+    }
+    if (wire.lookbackHours) {
+      method.push(['Origin wire',
+        'Headlines are tagged to a region by the countries and cities they name, and the ticker ' +
+        'rotates between regions so one busy country cannot crowd out the rest. The window is ' +
+        Math.round(wire.lookbackHours / 24) + ' days because these origins are not covered daily ' +
+        'by the international press — every headline carries its own age.']);
+    }
+    method.push(['Missing data',
+      'Where a source fails or none exists, the section says so. No figure on this page is ' +
+      'estimated, interpolated or carried forward.']);
+
+    groups.push(el('div', { class: 'src-group' }, [
+      el('h4', { text: 'Method' }),
+      el('dl', { class: 'method-list' }, method.reduce(function (acc, m) {
+        acc.push(el('dt', { text: m[0] }));
+        acc.push(el('dd', { text: m[1] }));
+        return acc;
+      }, []))
     ]));
 
     groups.forEach(function (g) { host.appendChild(g); });

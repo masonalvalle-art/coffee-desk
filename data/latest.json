@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-28T14:15:40.354Z",
+ "generatedAt": "2026-08-28T14:32:27.340Z",
  "schema": 3,
  "futures": {
   "arabica": {
@@ -32,50 +32,50 @@
     {
      "code": "KCZ26",
      "label": "Dec 2026",
-     "close": 310.9,
-     "volume": 6010
+     "close": 312.8,
+     "volume": 6473
     },
     {
      "code": "KCH27",
      "label": "Mar 2027",
-     "close": 299.6,
-     "volume": 2235
+     "close": 301.5,
+     "volume": 2429
     },
     {
      "code": "KCK27",
      "label": "May 2027",
-     "close": 296.1,
-     "volume": 849
+     "close": 297.5,
+     "volume": 895
     },
     {
      "code": "KCN27",
      "label": "Jul 2027",
-     "close": 293.4,
-     "volume": 260
+     "close": 295.8,
+     "volume": 283
     },
     {
      "code": "KCU27",
      "label": "Sep 2027",
-     "close": 289.45,
-     "volume": 152
+     "close": 293.15,
+     "volume": 157
     },
     {
      "code": "KCZ27",
      "label": "Dec 2027",
-     "close": 286.35,
-     "volume": 52
+     "close": 290,
+     "volume": 64
     }
    ],
    "quote": {
-    "last": 309.15,
+    "last": 312.95,
     "open": 311.5,
     "high": 314.29998779296875,
     "low": 308.8500061035156,
     "previousClose": 309.6499938964844,
-    "change": -0.5,
-    "changePct": -0.161,
-    "volume": 5834,
-    "asOf": "2026-08-28T13:55:34.000Z"
+    "change": 3.3,
+    "changePct": 1.066,
+    "volume": 6253,
+    "asOf": "2026-08-28T14:12:23.000Z"
    },
    "bars": [
     {
@@ -2155,15 +2155,15 @@
      "open": 311.5,
      "high": 314.29998779296875,
      "low": 308.8500061035156,
-     "close": 309.1499938964844,
-     "volume": 5834
+     "close": 312.95001220703125,
+     "volume": 6253
     }
    ],
    "crossCheck": {
-    "tradingView": 310.9,
-    "yahoo": 309.15,
-    "diff": 1.75,
-    "diffPct": 0.566,
+    "tradingView": 312.8,
+    "yahoo": 312.95,
+    "diff": -0.15,
+    "diffPct": -0.048,
     "agree": true
    },
    "sources": [
@@ -2180,14 +2180,14 @@
    ],
    "technicals": {
     "observations": 505,
-    "sma20": 318.60999908447263,
-    "sma50": 304.88799926757815,
-    "sma200": 291.16425010681155,
-    "rsi14": 46.74828829255625,
+    "sma20": 318.8,
+    "sma50": 304.96399963378906,
+    "sma200": 291.18325019836425,
+    "rsi14": 48.66730333816975,
     "macd": {
-     "line": 4.771897113215402,
-     "signal": 7.028996864082536,
-     "histogram": -2.257099750867134
+     "line": 5.075032477019647,
+     "signal": 7.089623936843385,
+     "histogram": -2.0145914598237376
     },
     "atr14": 13.416234849158894,
     "donchian20": {
@@ -2198,30 +2198,30 @@
     "levels": {
      "support": [
       {
+       "price": 310.75,
+       "date": "2025-10-10"
+      },
+      {
        "price": 308.75,
        "date": "2026-01-21"
       },
       {
        "price": 308.1000061035156,
        "date": "2025-09-02"
-      },
-      {
-       "price": 307.54998779296875,
-       "date": "2025-10-28"
       }
      ],
      "resistance": [
       {
-       "price": 310,
-       "date": "2025-04-02"
-      },
-      {
-       "price": 310.04998779296875,
-       "date": "2025-02-11"
-      },
-      {
        "price": 316.8500061035156,
        "date": "2025-05-21"
+      },
+      {
+       "price": 318.70001220703125,
+       "date": "2025-06-06"
+      },
+      {
+       "price": 323.75,
+       "date": "2026-07-28"
       }
      ]
     },
@@ -2239,357 +2239,255 @@
  "fx": {
   "asOf": "2026-08-28",
   "pairs": {
-   "USDGBP": {
-    "pair": "USD/GBP",
-    "rate": 0.73624,
-    "previous": 0.73628,
-    "change": -0.00004,
-    "changePct": -0.005,
-    "change1m": -1.43,
+   "GBPUSD": {
+    "pair": "GBP/USD",
+    "rate": 1.3583,
+    "previous": 1.3582,
+    "dp": 4,
+    "note": "Sterling stronger means a dollar-priced contract costs a UK buyer less.",
+    "change": 0.0001,
+    "changePct": 0.007,
+    "change1m": 1.45,
     "history": [
      {
-      "date": "2026-04-30",
-      "rate": 0.74026
-     },
-     {
-      "date": "2026-05-04",
-      "rate": 0.7381
-     },
-     {
-      "date": "2026-05-05",
-      "rate": 0.73886
-     },
-     {
-      "date": "2026-05-06",
-      "rate": 0.73431
-     },
-     {
-      "date": "2026-05-07",
-      "rate": 0.73415
-     },
-     {
-      "date": "2026-05-08",
-      "rate": 0.73472
-     },
-     {
-      "date": "2026-05-11",
-      "rate": 0.73513
-     },
-     {
-      "date": "2026-05-12",
-      "rate": 0.7395
-     },
-     {
-      "date": "2026-05-13",
-      "rate": 0.74019
-     },
-     {
-      "date": "2026-05-14",
-      "rate": 0.7402
-     },
-     {
-      "date": "2026-05-15",
-      "rate": 0.74862
-     },
-     {
-      "date": "2026-05-18",
-      "rate": 0.74708
-     },
-     {
-      "date": "2026-05-19",
-      "rate": 0.74588
-     },
-     {
-      "date": "2026-05-20",
-      "rate": 0.74616
-     },
-     {
-      "date": "2026-05-21",
-      "rate": 0.74518
-     },
-     {
-      "date": "2026-05-22",
-      "rate": 0.7453
-     },
-     {
-      "date": "2026-05-25",
-      "rate": 0.74083
-     },
-     {
-      "date": "2026-05-26",
-      "rate": 0.74244
-     },
-     {
-      "date": "2026-05-27",
-      "rate": 0.74433
-     },
-     {
-      "date": "2026-05-28",
-      "rate": 0.74602
-     },
-     {
-      "date": "2026-05-29",
-      "rate": 0.74479
-     },
-     {
-      "date": "2026-06-01",
-      "rate": 0.74268
-     },
-     {
-      "date": "2026-06-02",
-      "rate": 0.74225
-     },
-     {
-      "date": "2026-06-03",
-      "rate": 0.74367
-     },
-     {
-      "date": "2026-06-04",
-      "rate": 0.74304
-     },
-     {
-      "date": "2026-06-05",
-      "rate": 0.74255
-     },
-     {
       "date": "2026-06-08",
-      "rate": 0.74835
+      "rate": 1.3363
      },
      {
       "date": "2026-06-09",
-      "rate": 0.74605
+      "rate": 1.3404
      },
      {
       "date": "2026-06-10",
-      "rate": 0.74727
+      "rate": 1.3382
      },
      {
       "date": "2026-06-11",
-      "rate": 0.74829
+      "rate": 1.3364
      },
      {
       "date": "2026-06-12",
-      "rate": 0.74613
+      "rate": 1.3402
      },
      {
       "date": "2026-06-15",
-      "rate": 0.74509
+      "rate": 1.3421
      },
      {
       "date": "2026-06-16",
-      "rate": 0.74583
+      "rate": 1.3408
      },
      {
       "date": "2026-06-17",
-      "rate": 0.74595
+      "rate": 1.3406
      },
      {
       "date": "2026-06-18",
-      "rate": 0.75594
+      "rate": 1.3229
      },
      {
       "date": "2026-06-19",
-      "rate": 0.75567
+      "rate": 1.3233
      },
      {
       "date": "2026-06-22",
-      "rate": 0.75478
+      "rate": 1.3249
      },
      {
       "date": "2026-06-23",
-      "rate": 0.75667
+      "rate": 1.3216
      },
      {
       "date": "2026-06-24",
-      "rate": 0.75983
+      "rate": 1.3161
      },
      {
       "date": "2026-06-25",
-      "rate": 0.75986
+      "rate": 1.316
      },
      {
       "date": "2026-06-26",
-      "rate": 0.75654
+      "rate": 1.3218
      },
      {
       "date": "2026-06-29",
-      "rate": 0.75587
+      "rate": 1.323
      },
      {
       "date": "2026-06-30",
-      "rate": 0.75635
+      "rate": 1.3221
      },
      {
       "date": "2026-07-01",
-      "rate": 0.75528
+      "rate": 1.324
      },
      {
       "date": "2026-07-02",
-      "rate": 0.75151
+      "rate": 1.3306
      },
      {
       "date": "2026-07-03",
-      "rate": 0.74878
+      "rate": 1.3355
      },
      {
       "date": "2026-07-06",
-      "rate": 0.74935
+      "rate": 1.3345
      },
      {
       "date": "2026-07-07",
-      "rate": 0.74706
+      "rate": 1.3386
      },
      {
       "date": "2026-07-08",
-      "rate": 0.74917
+      "rate": 1.3348
      },
      {
       "date": "2026-07-09",
-      "rate": 0.74651
+      "rate": 1.3396
      },
      {
       "date": "2026-07-10",
-      "rate": 0.74501
+      "rate": 1.3423
      },
      {
       "date": "2026-07-13",
-      "rate": 0.74694
+      "rate": 1.3388
      },
      {
       "date": "2026-07-14",
-      "rate": 0.74717
+      "rate": 1.3384
      },
      {
       "date": "2026-07-15",
-      "rate": 0.74604
+      "rate": 1.3404
      },
      {
       "date": "2026-07-16",
-      "rate": 0.74015
+      "rate": 1.3511
      },
      {
       "date": "2026-07-17",
-      "rate": 0.74419
+      "rate": 1.3437
      },
      {
       "date": "2026-07-20",
-      "rate": 0.74294
+      "rate": 1.346
      },
      {
       "date": "2026-07-21",
-      "rate": 0.74623
+      "rate": 1.3401
      },
      {
       "date": "2026-07-22",
-      "rate": 0.74807
+      "rate": 1.3368
      },
      {
       "date": "2026-07-23",
-      "rate": 0.74893
+      "rate": 1.3352
      },
      {
       "date": "2026-07-24",
-      "rate": 0.75053
+      "rate": 1.3324
      },
      {
       "date": "2026-07-27",
-      "rate": 0.75094
+      "rate": 1.3317
      },
      {
       "date": "2026-07-28",
-      "rate": 0.75262
+      "rate": 1.3287
      },
      {
       "date": "2026-07-29",
-      "rate": 0.7525
+      "rate": 1.3289
      },
      {
       "date": "2026-07-30",
-      "rate": 0.74691
+      "rate": 1.3389
      },
      {
       "date": "2026-07-31",
-      "rate": 0.74508
+      "rate": 1.3421
      },
      {
       "date": "2026-08-03",
-      "rate": 0.74238
+      "rate": 1.347
      },
      {
       "date": "2026-08-04",
-      "rate": 0.74372
+      "rate": 1.3446
      },
      {
       "date": "2026-08-05",
-      "rate": 0.74191
+      "rate": 1.3479
      },
      {
       "date": "2026-08-06",
-      "rate": 0.74255
+      "rate": 1.3467
      },
      {
       "date": "2026-08-07",
-      "rate": 0.74352
+      "rate": 1.345
      },
      {
       "date": "2026-08-10",
-      "rate": 0.7405
+      "rate": 1.3504
      },
      {
       "date": "2026-08-11",
-      "rate": 0.74075
+      "rate": 1.35
      },
      {
       "date": "2026-08-12",
-      "rate": 0.73935
+      "rate": 1.3525
      },
      {
       "date": "2026-08-13",
-      "rate": 0.7412
+      "rate": 1.3492
      },
      {
       "date": "2026-08-14",
-      "rate": 0.73874
+      "rate": 1.3537
      },
      {
       "date": "2026-08-17",
-      "rate": 0.73751
+      "rate": 1.3559
      },
      {
       "date": "2026-08-18",
-      "rate": 0.73933
+      "rate": 1.3526
      },
      {
       "date": "2026-08-19",
-      "rate": 0.73768
+      "rate": 1.3556
      },
      {
       "date": "2026-08-20",
-      "rate": 0.73388
+      "rate": 1.3626
      },
      {
       "date": "2026-08-21",
-      "rate": 0.73228
+      "rate": 1.3656
      },
      {
       "date": "2026-08-24",
-      "rate": 0.73345
+      "rate": 1.3634
      },
      {
       "date": "2026-08-25",
-      "rate": 0.73358
+      "rate": 1.3632
      },
      {
       "date": "2026-08-26",
-      "rate": 0.73368
+      "rate": 1.363
      },
      {
       "date": "2026-08-27",
-      "rate": 0.73628
+      "rate": 1.3582
      },
      {
       "date": "2026-08-28",
-      "rate": 0.73624
+      "rate": 1.3583
      }
     ]
    },
@@ -2597,114 +2495,12 @@
     "pair": "USD/BRL",
     "rate": 5.1641,
     "previous": 5.142,
+    "dp": 4,
+    "note": "A weaker real encourages Brazilian producer selling.",
     "change": 0.0221,
     "changePct": 0.43,
     "change1m": 1.24,
     "history": [
-     {
-      "date": "2026-04-30",
-      "rate": 4.9814
-     },
-     {
-      "date": "2026-05-04",
-      "rate": 4.9661
-     },
-     {
-      "date": "2026-05-05",
-      "rate": 4.9525
-     },
-     {
-      "date": "2026-05-06",
-      "rate": 4.9092
-     },
-     {
-      "date": "2026-05-07",
-      "rate": 4.9167
-     },
-     {
-      "date": "2026-05-08",
-      "rate": 4.914
-     },
-     {
-      "date": "2026-05-11",
-      "rate": 4.9019
-     },
-     {
-      "date": "2026-05-12",
-      "rate": 4.9038
-     },
-     {
-      "date": "2026-05-13",
-      "rate": 4.9039
-     },
-     {
-      "date": "2026-05-14",
-      "rate": 4.997
-     },
-     {
-      "date": "2026-05-15",
-      "rate": 5.0324
-     },
-     {
-      "date": "2026-05-18",
-      "rate": 5.0392
-     },
-     {
-      "date": "2026-05-19",
-      "rate": 5.0232
-     },
-     {
-      "date": "2026-05-20",
-      "rate": 5.0299
-     },
-     {
-      "date": "2026-05-21",
-      "rate": 5.012
-     },
-     {
-      "date": "2026-05-22",
-      "rate": 5.0164
-     },
-     {
-      "date": "2026-05-25",
-      "rate": 5.0026
-     },
-     {
-      "date": "2026-05-26",
-      "rate": 5.0201
-     },
-     {
-      "date": "2026-05-27",
-      "rate": 5.0458
-     },
-     {
-      "date": "2026-05-28",
-      "rate": 5.0726
-     },
-     {
-      "date": "2026-05-29",
-      "rate": 5.0453
-     },
-     {
-      "date": "2026-06-01",
-      "rate": 5.0245
-     },
-     {
-      "date": "2026-06-02",
-      "rate": 5.0056
-     },
-     {
-      "date": "2026-06-03",
-      "rate": 5.0184
-     },
-     {
-      "date": "2026-06-04",
-      "rate": 5.0645
-     },
-     {
-      "date": "2026-06-05",
-      "rate": 5.0599
-     },
      {
       "date": "2026-06-08",
       "rate": 5.1432
@@ -2957,7 +2753,7 @@
    {
     "name": "European Central Bank daily reference rates (via Frankfurter)",
     "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
-    "role": "USD/GBP, USD/BRL"
+    "role": "GBP/USD and USD/BRL, each requested in its own quoting convention"
    },
    {
     "name": "Banco Central do Brasil — PTAX",
@@ -2967,7 +2763,7 @@
   ]
  },
  "weather": {
-  "fetchedAt": "2026-08-28T14:15:29.585Z",
+  "fetchedAt": "2026-08-28T14:32:16.461Z",
   "thresholds": {
    "frostC": 4,
    "heavyRainMm": 50,
@@ -3332,7 +3128,7 @@
  },
  "news": {
   "originWire": {
-   "fetchedAt": "2026-08-28T14:15:40.329Z",
+   "fetchedAt": "2026-08-28T14:32:27.305Z",
    "lookbackHours": 504,
    "headlines": [
     {
@@ -3528,10 +3324,10 @@
      "published": "Fri, 28 Aug 2026 11:13:24 GMT"
     }
    ],
-   "totalTagged": 96,
+   "totalTagged": 95,
    "feedsQueried": 14,
    "byRegion": {
-    "Brazil": 10,
+    "Brazil": 9,
     "Vietnam": 44,
     "Indonesia": 12,
     "Colombia": 13,
@@ -3774,14 +3570,14 @@
    ]
   },
   "dailyRead": {
-   "fetchedAt": "2026-08-28T14:15:32.426Z",
+   "fetchedAt": "2026-08-28T14:32:18.335Z",
    "article": {
     "title": "High-Scoring Microlots Head to Best of Congo Cooperatives Auction",
     "summary": "The third Best of Congo Cooperatives coffee auction runs Sept. 1-3, giving green coffee buyers a rare chance to buy high-scoring, traceable microlots from the Democratic Republic of Congo. Beyond...",
     "url": "https://dailycoffeenews.com/2026/08/26/high-scoring-microlots-head-to-best-of-congo-cooperatives-auction/",
     "publisher": "Daily Coffee News",
     "published": "Wed, 26 Aug 2026 14:21:32 +0000",
-    "score": 8
+    "score": 7.99
    },
    "considered": 10
   }
@@ -3805,33 +3601,33 @@
   {
    "source": "weather",
    "ok": true,
-   "ms": 1306
+   "ms": 1561
   },
   {
    "source": "pdg-roundup",
    "ok": false,
-   "ms": 3998,
+   "ms": 3213,
    "error": "no recap link found on the PDG archive page"
   },
   {
    "source": "daily-read",
    "ok": true,
-   "ms": 4144
+   "ms": 3433
   },
   {
    "source": "arabica-futures",
    "ok": true,
-   "ms": 9087
+   "ms": 9103
   },
   {
    "source": "fx",
    "ok": true,
-   "ms": 10004
+   "ms": 10100
   },
   {
    "source": "origin-wire",
    "ok": true,
-   "ms": 12050
+   "ms": 12404
   }
  ]
 }

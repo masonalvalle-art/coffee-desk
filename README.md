@@ -19,7 +19,7 @@ happened.
 | Price Action | Daily chart with 20/50-day means and swing-pivot support & resistance | derived from the price history below |
 | Momentum & trend | RSI(14), MACD(12,26,9), moving averages, ATR(14), Donchian(20), 52-week range | computed from real settlement prices |
 | Support & resistance | Swing levels with the distance from the current price and the date each was set | computed from real settlement prices |
-| Currency | USD/GBP and USD/BRL, plus Brazil's official PTAX fixing | European Central Bank; Banco Central do Brasil |
+| Currency | GBP/USD (cable, ~1.36) and USD/BRL, plus Brazil's official PTAX fixing | European Central Bank; Banco Central do Brasil |
 | Physical Market | Differentials and certified stocks | **no verified free source — see below** |
 | At Origin | 12 growing regions grouped by country, with a condition icon, observed and forecast temperature and rainfall, and frost/wet/dry flags | Open-Meteo |
 | Origin Wire | Ticker of general headlines from Brazil, Vietnam, Indonesia, Colombia, South & Central America and East Africa | BBC, Guardian, FT, Al Jazeera, VnExpress International |
@@ -52,6 +52,13 @@ Arabica is fetched from two independent feeds and the page publishes the gap
 between them. If they ever disagree by more than 1% the page flags it rather
 than silently picking one. The session change is always derived from the same
 series as the price beside it, never mixed between feeds.
+
+### Currency conventions
+
+GBP/USD is quoted the way the market quotes it (cable, around 1.36), and
+USD/BRL likewise. Each pair is requested from the ECB in its own convention
+rather than fetched in one base and inverted here, so the rate on the page is
+the rate the source published.
 
 ### Weather conditions
 
@@ -105,7 +112,7 @@ today's `capturedAt`, and one entry per headline:
 { "section": "Top stories of the week", "date": "Fri, 28 Aug", "headline": "…", "url": "https://original-source…" }
 ```
 
-Headlines and links are the publisher's own; the ticker shows the first 11 and
+Headlines and links are the publisher's own; the ticker shows the first 10 and
 links to the full recap.
 
 ---
@@ -187,6 +194,16 @@ and `POST /save?path=data/…`, which writes a pipeline result to disk. Both are
 development conveniences — do not run this where anything else can reach the
 port. With Node installed, `node scripts/fetch-data.mjs` does the same job
 properly.
+
+---
+
+## Where the reasoning lives
+
+Each section carries a one-line citation — source, scope, and a link to
+**Sources & Method** at the foot of the page, which holds the full reasoning:
+indicator formulas, how support and resistance are found, the weather
+thresholds and condition rule, and how the origin wire is tagged and windowed.
+Keeping it in one place stops every table growing a paragraph underneath it.
 
 ---
 

@@ -2,6 +2,6 @@
   "updatedAt": null,
   "sourceDocument": null,
   "sourceType": null,
-  "note": "ICE publishes certified stocks daily but only behind bot protection; every free API found was a paid reseller. Populated by hand or by PDF upload.",
+  "note": "PRIVATE DATA WARNING: this repository is public — do not commit figures you are not content to publish, and never paste broker or trader material here. ICE publishes certified stocks daily but only behind bot protection; every free API found was a paid reseller. Populated by hand or by PDF upload.",
   "series": []
 }

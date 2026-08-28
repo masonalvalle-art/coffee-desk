@@ -48,7 +48,7 @@ async function main() {
     attempt('arabica-futures', fetchArabica),
     attempt('fx', fetchFx),
     attempt('weather', fetchWeather),
-    attempt('origin-wire', () => fetchOriginWire({ limit: 24 })),
+    attempt('origin-wire', fetchOriginWire),
     attempt('pdg-roundup', fetchRoundup),
     attempt('daily-read', fetchDailyArticle),
   ]);

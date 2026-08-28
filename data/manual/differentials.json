@@ -3,6 +3,6 @@
   "sourceDocument": null,
   "sourceType": null,
   "enteredBy": null,
-  "note": "Physical differentials have no free machine-readable feed. This file is populated by hand, or by the planned ICO / trade-report PDF upload. Until then the dashboard shows an explicit 'no verified source' state.",
+  "note": "PRIVATE DATA WARNING: this repository is public. Broker differentials and trader circulars are proprietary — committing them here makes them world-readable and permanent in git history. Keep this file to figures you are content to publish, or move the site to a private repo on a paid plan first. Physical differentials have no free machine-readable feed; this file is populated by hand, or by the planned ICO / trade-report PDF upload.",
   "entries": []
 }

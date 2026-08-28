@@ -84,6 +84,13 @@ USD/BRL is cross-checked against Banco Central do Brasil's official PTAX fixing.
 That comparison is reported in Sources & Method, with the current gap, rather
 than as a second near-identical row in the table.
 
+### The look
+
+Editorial magazine on manila stock: air rather than rules, one aubergine accent
+on the structural furniture, and Cinzel — an inscriptional Roman set as
+capitals — on the nameplate. Green and red are reserved for price direction and
+weather risk, so the accent was chosen to sit well clear of them.
+
 ### Weather conditions
 
 Each region carries an icon *and* the condition in words. The classification is
@@ -168,6 +175,12 @@ the recap, each linking to its original source.
 
 Everything runs on GitHub's infrastructure. There is nothing to install and no
 API keys to manage — every source used is free and unauthenticated.
+
+> **The repository is public.** Free GitHub Pages requires it. Everything
+> committed today comes from public sources, but the planned differentials and
+> trader-report uploads are proprietary: committing those here would make them
+> world-readable and permanent in git history. Keep private figures out, or
+> move to a private repo on a paid plan first.
 
 1. Create an empty repository on GitHub.
 2. Push this directory to it:

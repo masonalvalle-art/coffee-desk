@@ -1,74 +1,89 @@
 /* ============================================================
    The Coffee Desk
 
-   A newspaper for a screen. Black and white does all the
-   structural work; the only colour on the page is semantic —
-   price direction and weather risk. Nothing is coloured for
-   decoration, so when something is coloured, it means something.
+   An editorial magazine on manila stock: air rather than rules,
+   with one aubergine accent on the structural furniture.
 
-   Type: Bodoni Moda (Didone — the newspaper nameplate
-   tradition) for display only, where its thin strokes hold up;
-   Newsreader for headlines and running text; IBM Plex Mono for
-   figures, labels and anything that needs to line up.
+   Colour is disciplined. Green and red mean price direction and
+   weather risk and nothing else; the accent was chosen to sit
+   well clear of them, so colour that carries meaning stays the
+   only colour that means anything.
+
+   Type: Cinzel (an inscriptional Roman, set as capitals) for
+   display; Newsreader for headlines and running text; IBM Plex
+   Mono for figures, labels and anything that needs to line up.
    ============================================================ */
 
 /* ---- Light: the complete palette lives here ---- */
 :root {
-  --paper:       #fcfbf9;  /* barely warm white — paper, not cream */
-  --paper-deep:  #f3f1ec;
+  --paper:       #F0E8D5;  /* manila — newsprint stock, not white */
+  --paper-deep:  #E5DBC3;
   --ink:         #0d0d0c;
   --ink-soft:    #33322e;
   --muted:       #6e6b64;
-  --rule:        #c8c4ba;
-  --rule-faint:  #e3dfd7;
+  --rule:        #BFB396;
+  --rule-faint:  #D5CAAF;
 
-  /* Semantic only. These are the page's entire colour budget. */
+  /* Semantic. Green and red mean price direction and weather risk, and
+     nothing else on this page is allowed to use them. */
   --up:          #12664a;
   --down:        #a81f1f;
   --alert:       #a81f1f;
   --dry:         #8a5a0f;
   --wet:         #24597d;
 
-  --display: "Bodoni Moda", "Didot", "Times New Roman", Times, serif;
+  /* The one editorial accent. Aubergine sits well clear of the semantic
+     green/red pair on purpose: colour that carries meaning has to stay the
+     only colour that means anything. */
+  --accent:          #5B2A4E;
+  --accent-contrast: #ffffff;
+
+  --display: "Cinzel", "Trajan Pro", Georgia, serif;
   --text:    "Newsreader", Georgia, "Times New Roman", serif;
   --mono:    "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
 
-  --gutter: 2rem;
-  --measure: 1180px;
+  --gutter: 3rem;
+  --measure: 1080px;
 }
 
 /* ---- Dark: OS preference, unless an explicit light choice overrides ---- */
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --paper:      #0e0e0d;
-    --paper-deep: #171614;
-    --ink:        #eeebe4;
-    --ink-soft:   #cbc7bd;
-    --muted:      #8d8a80;
-    --rule:       #3d3a33;
-    --rule-faint: #262420;
+    /* Warmed rather than neutral, so the page reads as the same object at
+       night as it does on manila by day. */
+    --paper:      #14120E;
+    --paper-deep: #1D1A14;
+    --ink:        #F2ECDD;
+    --ink-soft:   #D0C8B6;
+    --muted:      #938B78;
+    --rule:       #423C30;
+    --rule-faint: #2A251D;
     --up:         #57b98c;
     --down:       #e0736c;
     --alert:      #e0736c;
     --dry:        #d3a250;
     --wet:        #7cb0d6;
+    --accent:          #D69FC4;
+    --accent-contrast: #0e0e0d;
   }
 }
 
 /* ---- Dark: explicit choice wins in the other direction ---- */
 :root[data-theme="dark"] {
-  --paper:      #0e0e0d;
-  --paper-deep: #171614;
-  --ink:        #eeebe4;
-  --ink-soft:   #cbc7bd;
-  --muted:      #8d8a80;
-  --rule:       #3d3a33;
-  --rule-faint: #262420;
+  --paper:      #14120E;
+  --paper-deep: #1D1A14;
+  --ink:        #F2ECDD;
+  --ink-soft:   #D0C8B6;
+  --muted:      #938B78;
+  --rule:       #423C30;
+  --rule-faint: #2A251D;
   --up:         #57b98c;
   --down:       #e0736c;
   --alert:      #e0736c;
   --dry:        #d3a250;
   --wet:        #7cb0d6;
+  --accent:          #D69FC4;
+  --accent-contrast: #0e0e0d;
 }
 
 * { box-sizing: border-box; }
@@ -80,8 +95,8 @@ body {
   background: var(--paper);
   color: var(--ink);
   font-family: var(--text);
-  font-size: 17px;
-  line-height: 1.55;
+  font-size: 18px;
+  line-height: 1.65;
   font-synthesis-weight: none;
 }
 
@@ -102,17 +117,18 @@ a { color: inherit; }
 .masthead {
   max-width: var(--measure);
   margin: 0 auto;
-  padding: 2.2rem var(--gutter) 0;
+  padding: 3.5rem var(--gutter) 0;
   text-align: center;
 }
 
 .masthead-rule { border-top: 1px solid var(--ink); }
-.masthead-rule.top { border-top-width: 3px; }
+.masthead-rule.top { border-top-width: 1px; }
 .masthead-rule.bottom {
-  border-top-width: 3px;
-  border-bottom: 1px solid var(--ink);
-  height: 4px;
-  margin-top: .5rem;
+  border-top-width: 1px;
+  border-bottom: none;
+  border-color: var(--accent);
+  height: 0;
+  margin-top: 1.4rem;
 }
 
 .masthead-meta {
@@ -126,11 +142,12 @@ a { color: inherit; }
 
 .nameplate {
   font-family: var(--display);
-  font-weight: 900;
-  font-size: clamp(2.7rem, 9.5vw, 5.6rem);
-  line-height: .92;
-  letter-spacing: -0.01em;
-  margin: .1rem 0 .3rem;
+  font-weight: 600;
+  font-size: clamp(1.8rem, 5.2vw, 3.1rem);
+  line-height: 1.1;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  margin: .3rem 0 .5rem;
   text-wrap: balance;
 }
 
@@ -139,8 +156,8 @@ a { color: inherit; }
   font-style: italic;
   font-weight: 300;
   color: var(--muted);
-  font-size: .95rem;
-  margin: 0 0 .45rem;
+  font-size: 1.02rem;
+  margin: 0 0 1rem;
 }
 
 .strap {
@@ -167,29 +184,33 @@ main {
   padding: 0 var(--gutter) 3rem;
   display: flex;
   flex-direction: column;
-  gap: 2.6rem;
+  gap: 4.5rem;
 }
 
 main > section { margin: 0; }
 
 .section-head {
   font-family: var(--mono);
-  font-size: .68rem;
+  font-size: .62rem;
   font-weight: 600;
-  letter-spacing: .26em;
+  letter-spacing: .32em;
   text-transform: uppercase;
-  margin: 0 0 1.1rem;
+  color: var(--accent);
+  margin: 0 0 1.8rem;
   display: flex;
   align-items: center;
   gap: 1rem;
   white-space: nowrap;
 }
+/* Bauhaus: a thick accent bar against a hairline, deliberately
+   asymmetric rather than a centred pair of rules. */
 .section-head::after {
   content: "";
   flex: 1;
-  border-top: 1px solid var(--ink);
-  border-bottom: 1px solid var(--ink);
-  height: 3px;
+  height: 4px;
+  background:
+    linear-gradient(var(--accent), var(--accent)) left center / 2.5rem 4px no-repeat,
+    linear-gradient(var(--rule-faint), var(--rule-faint)) left center / 100% 1px no-repeat;
 }
 
 /* ---------------- The board ---------------- */
@@ -197,12 +218,10 @@ main > section { margin: 0; }
 .lead-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  border-top: 1px solid var(--rule);
-  border-bottom: 1px solid var(--rule);
 }
 
-.contract { padding: 1.4rem 1.6rem; }
-.contract + .contract { border-left: 1px solid var(--rule); }
+.contract { padding: 0 2.5rem 0 0; }
+.contract + .contract { border-left: 1px solid var(--rule-faint); padding-left: 2.5rem; }
 
 .contract-kicker {
   font-family: var(--mono);
@@ -295,9 +314,9 @@ main > section { margin: 0; }
 .chart-grid { display: grid; grid-template-columns: 1fr; gap: 1.6rem; }
 
 .chart-card {
-  border: 1px solid var(--rule);
-  padding: 1rem 1.1rem .7rem;
-  background: var(--paper-deep);
+  border: none;
+  padding: 0;
+  background: transparent;
   display: flex;
   flex-direction: column;
   gap: .7rem;
@@ -353,13 +372,13 @@ table.sheet th {
   font-size: .6rem;
   letter-spacing: .13em;
   text-transform: uppercase;
-  color: var(--muted);
-  border-bottom: 1px solid var(--ink);
-  padding: .4rem .6rem .35rem 0;
+  color: var(--accent);
+  border-bottom: 1px solid var(--rule-faint);
+  padding: .4rem .6rem .6rem 0;
   white-space: nowrap;
 }
 table.sheet td {
-  padding: .42rem .6rem .42rem 0;
+  padding: .6rem .6rem .6rem 0;
   border-bottom: 1px solid var(--rule-faint);
   vertical-align: baseline;
 }
@@ -375,8 +394,8 @@ td.muted, .muted { color: var(--muted); }
 .tech-grid, .phys-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.6rem; }
 
 .panel {
-  border-top: 2px solid var(--ink);
-  padding-top: .9rem;
+  border-top: 1px solid var(--ink);
+  padding-top: 1.2rem;
   display: flex;
   flex-direction: column;
   gap: .55rem;
@@ -520,8 +539,8 @@ td.muted, .muted { color: var(--muted); }
 }
 .story h3 {
   font-family: var(--text);
-  font-size: 1.06rem;
-  font-weight: 600;
+  font-size: 1.35rem;
+  font-weight: 400;
   line-height: 1.3;
   margin: 0 0 .4rem;
   text-wrap: balance;
@@ -637,7 +656,7 @@ td.muted, .muted { color: var(--muted); }
   text-transform: uppercase;
   color: var(--muted);
 }
-.cite a { color: var(--muted); text-underline-offset: 2px; }
+.cite a { color: var(--accent); text-underline-offset: 2px; }
 .cite a:hover { color: var(--ink); }
 
 .fx-note {
@@ -698,9 +717,9 @@ td.muted, .muted { color: var(--muted); }
 }
 .tf-btn:hover { color: var(--ink); border-color: var(--ink); }
 .tf-btn.is-active {
-  background: var(--ink);
-  border-color: var(--ink);
-  color: var(--paper);
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--accent-contrast);
 }
 
 /* Exact figures for the hovered session. Sits in the card header rather than
@@ -720,8 +739,8 @@ td.muted, .muted { color: var(--muted); }
   font-size: .58rem;
   letter-spacing: .12em;
   text-transform: uppercase;
-  color: var(--paper);
-  background: var(--ink);
+  color: var(--accent-contrast);
+  background: var(--accent);
   padding: .1rem .4rem;
 }
 .ro-pair { display: inline-flex; gap: .3rem; align-items: baseline; }
@@ -736,25 +755,21 @@ td.muted, .muted { color: var(--muted); }
    News slider — one story at a time, with its summary
    ============================================================ */
 
-.slider {
-  border-top: 1px solid var(--ink);
-  border-bottom: 1px solid var(--ink);
-  background: var(--paper-deep);
-}
+.slider { border: none; background: transparent; }
 
 .slider-head {
   display: flex;
   align-items: stretch;
   justify-content: space-between;
   gap: 1rem;
-  border-bottom: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule-faint);
 }
 .slider-label {
   display: flex;
   align-items: center;
   padding: .5rem 1.1rem;
-  background: var(--ink);
-  color: var(--paper);
+  background: var(--accent);
+  color: var(--accent-contrast);
   font-family: var(--mono);
   font-size: .6rem;
   font-weight: 600;
@@ -792,7 +807,7 @@ td.muted, .muted { color: var(--muted); }
 
 /* Slides stack; only the current one is laid out, so the window takes the
    height of whichever story is showing. */
-.slider-window { padding: 1.2rem 1.4rem; }
+.slider-window { padding: 1.6rem 0; }
 .slider-track { display: grid; }
 /* Visibility, not an opacity transition, decides which slide is showing: the
    state is then structural rather than dependent on an animation finishing.
@@ -830,8 +845,8 @@ td.muted, .muted { color: var(--muted); }
 .slide-pub { color: var(--ink); }
 .slide-title {
   font-family: var(--text);
-  font-size: 1.22rem;
-  font-weight: 600;
+  font-size: 1.5rem;
+  font-weight: 400;
   line-height: 1.28;
   margin: 0 0 .45rem;
   text-wrap: balance;
@@ -851,7 +866,7 @@ td.muted, .muted { color: var(--muted); }
   display: flex;
   flex-wrap: wrap;
   gap: .3rem;
-  padding: 0 1.4rem 1rem;
+  padding: 0 0 .5rem;
 }
 .slider-dot {
   width: 1.5rem;
@@ -879,10 +894,10 @@ td.muted, .muted { color: var(--muted); }
   font-weight: 600;
   letter-spacing: .16em;
   text-transform: uppercase;
-  color: var(--ink);
+  color: var(--accent);
   margin: 0 0 .35rem;
   padding-bottom: .25rem;
-  border-bottom: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule-faint);
 }
 .recap-list { list-style: none; margin: 0; padding: 0; }
 .recap-list li {
@@ -907,6 +922,31 @@ td.muted, .muted { color: var(--muted); }
 }
 .recap-list a { text-decoration: none; }
 .recap-list a:hover .recap-text { text-decoration: underline; text-underline-offset: 3px; }
+
+/* ============================================================
+   The accent, further in â still quiet
+
+   Aubergine picks up the small structural furniture rather than
+   shouting: headings, borders, chips and states. Semantic green
+   and red are untouched, so colour that carries meaning stays
+   the only colour that means anything.
+   ============================================================ */
+
+.roll-note { border-left-color: var(--accent); }
+.notice { border-left-color: var(--accent); }
+.notice-head { color: var(--accent); }
+.country-head { color: var(--accent); }
+.badge { border-color: var(--accent); color: var(--accent); }
+.slide-region { border-color: var(--accent); color: var(--accent); }
+.wx-key-label { color: var(--accent); }
+.curve-current td.name { color: var(--accent); }
+.level-here td { border-color: var(--accent); }
+.slider-nav:hover { border-color: var(--accent); color: var(--accent); }
+.strap a:hover { color: var(--accent); border-color: var(--accent); }
+.src-group h4 { color: var(--accent); }
+.method-list dt { color: var(--accent); }
+:focus-visible { outline-color: var(--accent); }
+
 
 /* ============================================================
    Responsive — last in the file on purpose.

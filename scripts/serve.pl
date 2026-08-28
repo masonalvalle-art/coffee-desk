@@ -22,6 +22,10 @@ use strict;
 use warnings;
 use IO::Socket::INET;
 
+# A browser that disconnects mid-response otherwise kills the server with
+# SIGPIPE, which is easy to mistake for the page being broken.
+$SIG{PIPE} = 'IGNORE';
+
 my $port = $ARGV[0] || 8787;
 my $root = '.';
 

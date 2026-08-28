@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-28T18:12:45.320Z",
+ "generatedAt": "2026-08-28T19:02:48.610Z",
  "schema": 3,
  "futures": {
   "arabica": {
@@ -3243,7 +3243,7 @@
   ]
  },
  "weather": {
-  "fetchedAt": "2026-08-28T18:12:37.777Z",
+  "fetchedAt": "2026-08-28T19:02:37.770Z",
   "thresholds": {
    "frostC": 4,
    "heavyRainMm": 50,
@@ -3259,7 +3259,6 @@
    "Peru"
   ],
   "conditionMethod": "The condition icon reads the last three observed days: 30 mm of rain in total, 20 mm in any one day, or a heavy-rain code is very wet; 5 mm is wet; 60% mean cloud cover is cloudy; anything else is clear.",
-  "conditionWindowDays": 3,
   "regions": [
    {
     "key": "sul-de-minas",
@@ -3268,9 +3267,6 @@
     "species": "Arabica",
     "lat": -21.55,
     "lon": -45.43,
-    "note": "Largest single arabica belt; frost-exposed Jun–Aug, flowering Sep–Oct.",
-    "timezone": "America/Sao_Paulo",
-    "elevation": 916,
     "current": {
      "date": "2026-08-27",
      "tMax": 24.6,
@@ -3283,9 +3279,8 @@
     "condition": "wet",
     "conditionLabel": "Wet",
     "rain14": 12.9,
-    "rainForecast7": 13,
-    "minForecast7": 13.1,
-    "maxForecast7": 32.3,
+    "rainForecast7": 10.7,
+    "minForecast7": 12.9,
     "alerts": []
    },
    {
@@ -3295,9 +3290,6 @@
     "species": "Arabica",
     "lat": -18.94,
     "lon": -46.99,
-    "note": "Mechanised and largely irrigated; rain timing sets flowering uniformity.",
-    "timezone": "America/Sao_Paulo",
-    "elevation": 952,
     "current": {
      "date": "2026-08-27",
      "tMax": 25.9,
@@ -3310,9 +3302,8 @@
     "condition": "very-wet",
     "conditionLabel": "Very wet",
     "rain14": 33.3,
-    "rainForecast7": 11.1,
-    "minForecast7": 17.4,
-    "maxForecast7": 31.7,
+    "rainForecast7": 5,
+    "minForecast7": 16.9,
     "alerts": []
    },
    {
@@ -3322,9 +3313,6 @@
     "species": "Robusta",
     "lat": -19.39,
     "lon": -40.07,
-    "note": "Conilon heartland — Brazil’s robusta supply.",
-    "timezone": "America/Sao_Paulo",
-    "elevation": 35,
     "current": {
      "date": "2026-08-27",
      "tMax": 25.4,
@@ -3337,9 +3325,8 @@
     "condition": "very-wet",
     "conditionLabel": "Very wet",
     "rain14": 35.6,
-    "rainForecast7": 1.7,
-    "minForecast7": 20.4,
-    "maxForecast7": 31.2,
+    "rainForecast7": 3,
+    "minForecast7": 20,
     "alerts": []
    },
    {
@@ -3349,9 +3336,6 @@
     "species": "Robusta",
     "lat": 12.68,
     "lon": 108.05,
-    "note": "Central Highlands; the single largest robusta origin.",
-    "timezone": "Asia/Ho_Chi_Minh",
-    "elevation": 487,
     "current": {
      "date": "2026-08-27",
      "tMax": 30.6,
@@ -3364,14 +3348,13 @@
     "condition": "very-wet",
     "conditionLabel": "Very wet",
     "rain14": 106.5,
-    "rainForecast7": 140.6,
-    "minForecast7": 21.8,
-    "maxForecast7": 30.1,
+    "rainForecast7": 151.4,
+    "minForecast7": 21.7,
     "alerts": [
      {
       "type": "wet",
       "severity": "watch",
-      "text": "141 mm forecast over 7 days — harvest/drying disruption risk."
+      "text": "151 mm forecast over 7 days — harvest/drying disruption risk."
      }
     ]
    },
@@ -3382,9 +3365,6 @@
     "species": "Robusta",
     "lat": 11.55,
     "lon": 107.81,
-    "note": "Second Vietnamese robusta province.",
-    "timezone": "Asia/Ho_Chi_Minh",
-    "elevation": 845,
     "current": {
      "date": "2026-08-27",
      "tMax": 24.7,
@@ -3397,14 +3377,13 @@
     "condition": "very-wet",
     "conditionLabel": "Very wet",
     "rain14": 196.7,
-    "rainForecast7": 122.6,
+    "rainForecast7": 124.7,
     "minForecast7": 20.2,
-    "maxForecast7": 24.8,
     "alerts": [
      {
       "type": "wet",
       "severity": "watch",
-      "text": "123 mm forecast over 7 days — harvest/drying disruption risk."
+      "text": "125 mm forecast over 7 days — harvest/drying disruption risk."
      }
     ]
    },
@@ -3415,9 +3394,6 @@
     "species": "Arabica",
     "lat": 1.85,
     "lon": -76.05,
-    "note": "Washed mild arabica; two harvests a year.",
-    "timezone": "America/Bogota",
-    "elevation": 1271,
     "current": {
      "date": "2026-08-27",
      "tMax": 25.5,
@@ -3430,9 +3406,8 @@
     "condition": "wet",
     "conditionLabel": "Wet",
     "rain14": 71.1,
-    "rainForecast7": 25.5,
-    "minForecast7": 14.8,
-    "maxForecast7": 27.8,
+    "rainForecast7": 40,
+    "minForecast7": 15.2,
     "alerts": []
    },
    {
@@ -3442,9 +3417,6 @@
     "species": "Arabica",
     "lat": 6.25,
     "lon": -75.56,
-    "note": "Northern Colombian belt.",
-    "timezone": "America/Bogota",
-    "elevation": 1509,
     "current": {
      "date": "2026-08-27",
      "tMax": 29.5,
@@ -3457,9 +3429,8 @@
     "condition": "cloudy",
     "conditionLabel": "Cloudy",
     "rain14": 32.3,
-    "rainForecast7": 16.4,
-    "minForecast7": 16.6,
-    "maxForecast7": 30.2,
+    "rainForecast7": 22.9,
+    "minForecast7": 16.5,
     "alerts": []
    },
    {
@@ -3469,9 +3440,6 @@
     "species": "Arabica",
     "lat": 4.63,
     "lon": 96.85,
-    "note": "Sumatran arabica.",
-    "timezone": "Asia/Jakarta",
-    "elevation": 1243,
     "current": {
      "date": "2026-08-27",
      "tMax": 25.6,
@@ -3484,9 +3452,8 @@
     "condition": "cloudy",
     "conditionLabel": "Cloudy",
     "rain14": 10.2,
-    "rainForecast7": 17.2,
+    "rainForecast7": 23.3,
     "minForecast7": 15,
-    "maxForecast7": 26.8,
     "alerts": []
    },
    {
@@ -3496,9 +3463,6 @@
     "species": "Robusta",
     "lat": -5.45,
     "lon": 105.27,
-    "note": "Indonesian robusta export hub.",
-    "timezone": "Asia/Jakarta",
-    "elevation": 3,
     "current": {
      "date": "2026-08-27",
      "tMax": 30.7,
@@ -3511,9 +3475,8 @@
     "condition": "wet",
     "conditionLabel": "Wet",
     "rain14": 38.6,
-    "rainForecast7": 13.1,
-    "minForecast7": 22.9,
-    "maxForecast7": 33.6,
+    "rainForecast7": 11.6,
+    "minForecast7": 23.7,
     "alerts": []
    },
    {
@@ -3523,9 +3486,6 @@
     "species": "Arabica",
     "lat": 7.67,
     "lon": 36.83,
-    "note": "Origin of arabica; largely forest and garden coffee.",
-    "timezone": "Africa/Addis_Ababa",
-    "elevation": 1734,
     "current": {
      "date": "2026-08-27",
      "tMax": 24.3,
@@ -3538,9 +3498,8 @@
     "condition": "wet",
     "conditionLabel": "Wet",
     "rain14": 89.4,
-    "rainForecast7": 33.4,
+    "rainForecast7": 27,
     "minForecast7": 12.8,
-    "maxForecast7": 25.2,
     "alerts": []
    },
    {
@@ -3550,9 +3509,6 @@
     "species": "Arabica",
     "lat": 14.16,
     "lon": -88.02,
-    "note": "Central America’s largest arabica exporter.",
-    "timezone": "America/Tegucigalpa",
-    "elevation": 1226,
     "current": {
      "date": "2026-08-27",
      "tMax": 29.5,
@@ -3565,9 +3521,8 @@
     "condition": "wet",
     "conditionLabel": "Wet",
     "rain14": 45.9,
-    "rainForecast7": 27.9,
-    "minForecast7": 16.7,
-    "maxForecast7": 31.6,
+    "rainForecast7": 12.4,
+    "minForecast7": 17.1,
     "alerts": []
    },
    {
@@ -3577,9 +3532,6 @@
     "species": "Arabica",
     "lat": -11.05,
     "lon": -75.33,
-    "note": "Peruvian organic and washed arabica.",
-    "timezone": "America/Lima",
-    "elevation": 834,
     "current": {
      "date": "2026-08-27",
      "tMax": 30.2,
@@ -3592,9 +3544,8 @@
     "condition": "cloudy",
     "conditionLabel": "Cloudy",
     "rain14": 66.1,
-    "rainForecast7": 16.6,
+    "rainForecast7": 15.4,
     "minForecast7": 17.2,
-    "maxForecast7": 31.5,
     "alerts": []
    }
   ],
@@ -3608,7 +3559,7 @@
  },
  "news": {
   "originWire": {
-   "fetchedAt": "2026-08-28T18:12:45.298Z",
+   "fetchedAt": "2026-08-28T19:02:48.588Z",
    "lookbackHours": 504,
    "headlines": [
     {
@@ -3617,7 +3568,6 @@
      "url": "https://www.theguardian.com/food/2026/aug/28/uk-urged-ban-import-brazil-meat-health-concerns",
      "publisher": "The Guardian",
      "region": "Brazil",
-     "regionKey": "brazil",
      "published": "Fri, 28 Aug 2026 15:13:43 GMT"
     },
     {
@@ -3626,7 +3576,6 @@
      "url": "https://e.vnexpress.net/news/news/vietnam-opposes-illegal-reclamation-in-paracels-demands-immediate-halt-5114746.html",
      "publisher": "VnExpress International",
      "region": "Vietnam",
-     "regionKey": "vietnam",
      "published": "Fri, 28 Aug 2026 22:59:31 +0700"
     },
     {
@@ -3635,7 +3584,6 @@
      "url": "https://e.vnexpress.net/news/business/billionaires/4-richest-indonesians-add-6b-to-wealth-in-a-month-5113721.html",
      "publisher": "VnExpress International",
      "region": "Indonesia",
-     "regionKey": "indonesia",
      "published": "Fri, 28 Aug 2026 11:20:59 +0700"
     },
     {
@@ -3644,7 +3592,6 @@
      "url": "https://www.bbc.co.uk/news/articles/cvgy45zv8e2o?at_medium=RSS&amp;at_campaign=rss",
      "publisher": "BBC News",
      "region": "Colombia",
-     "regionKey": "colombia",
      "published": "Thu, 27 Aug 2026 20:10:30 GMT"
     },
     {
@@ -3653,7 +3600,6 @@
      "url": "https://www.theguardian.com/world/2026/aug/28/us-venezuela-oil-gas-stake",
      "publisher": "The Guardian",
      "region": "South & Central America",
-     "regionKey": "latam",
      "published": "Fri, 28 Aug 2026 17:41:37 GMT"
     },
     {
@@ -3662,7 +3608,6 @@
      "url": "https://www.aljazeera.com/news/2026/8/28/kenyan-police-fire-tear-gas-at-nairobi-protest-against-import-duty-hike?traffic_source=rss",
      "publisher": "Al Jazeera",
      "region": "East Africa",
-     "regionKey": "eastafrica",
      "published": "Fri, 28 Aug 2026 16:12:16 +0000"
     },
     {
@@ -3671,7 +3616,6 @@
      "url": "https://www.theguardian.com/global-development/gallery/2026/aug/21/brazils-vast-iron-mine-that-supplies-the-world-and-fractures-the-amazon-in-pictures",
      "publisher": "The Guardian",
      "region": "Brazil",
-     "regionKey": "brazil",
      "published": "Fri, 21 Aug 2026 12:00:35 GMT"
     },
     {
@@ -3680,7 +3624,6 @@
      "url": "https://e.vnexpress.net/news/news/education/bis-hcmc-marks-20-years-of-ib-with-largest-cohort-and-two-perfect-scorers-5114762.html",
      "publisher": "VnExpress International",
      "region": "Vietnam",
-     "regionKey": "vietnam",
      "published": "Fri, 28 Aug 2026 22:54:53 +0700"
     },
     {
@@ -3689,7 +3632,6 @@
      "url": "https://e.vnexpress.net/news/business/companies/singapore-born-billionaire-low-tuck-kwong-reportedly-negotiating-sale-of-majority-stake-in-flagship-coal-mining-firm-5114015.html",
      "publisher": "VnExpress International",
      "region": "Indonesia",
-     "regionKey": "indonesia",
      "published": "Thu, 27 Aug 2026 11:55:11 +0700"
     },
     {
@@ -3698,7 +3640,6 @@
      "url": "https://www.theguardian.com/world/2026/aug/25/colombia-immigration-crackdown-president-abelardo-de-la-espriella",
      "publisher": "The Guardian",
      "region": "Colombia",
-     "regionKey": "colombia",
      "published": "Tue, 25 Aug 2026 00:34:47 GMT"
     },
     {
@@ -3707,7 +3648,6 @@
      "url": "https://www.ft.com/content/0cdeb545-f6fe-4d97-aa1a-5933e58773c6",
      "publisher": "Financial Times",
      "region": "South & Central America",
-     "regionKey": "latam",
      "published": "Fri, 28 Aug 2026 10:00:07 GMT"
     },
     {
@@ -3716,7 +3656,6 @@
      "url": "https://www.aljazeera.com/news/2026/8/28/dutch-court-hands-life-sentence-to-rwandan-man-for-genocide-role?traffic_source=rss",
      "publisher": "Al Jazeera",
      "region": "East Africa",
-     "regionKey": "eastafrica",
      "published": "Fri, 28 Aug 2026 13:17:34 +0000"
     },
     {
@@ -3725,7 +3664,6 @@
      "url": "https://www.theguardian.com/football/2026/aug/20/maracana-to-host-opening-game-and-final-at-next-years-womens-world-cup",
      "publisher": "The Guardian",
      "region": "Brazil",
-     "regionKey": "brazil",
      "published": "Thu, 20 Aug 2026 15:25:54 GMT"
     },
     {
@@ -3734,20 +3672,11 @@
      "url": "https://e.vnexpress.net/news/news/vietnam-to-offer-preferential-visas-to-foreign-visitors-who-spend-more-stay-longer-5114649.html",
      "publisher": "VnExpress International",
      "region": "Vietnam",
-     "regionKey": "vietnam",
      "published": "Fri, 28 Aug 2026 16:56:31 +0700"
     }
    ],
    "totalTagged": 99,
    "feedsQueried": 14,
-   "byRegion": {
-    "Brazil": 10,
-    "Vietnam": 46,
-    "Indonesia": 12,
-    "Colombia": 13,
-    "South & Central America": 8,
-    "East Africa": 10
-   },
    "errors": [],
    "note": "General headlines from the growing regions, taken from outlets of record and tagged to a region by the countries and cities they name."
   },
@@ -3984,14 +3913,13 @@
    ]
   },
   "dailyRead": {
-   "fetchedAt": "2026-08-28T18:12:39.449Z",
+   "fetchedAt": "2026-08-28T19:02:39.843Z",
    "article": {
     "title": "Hawaii Coffee Farms Face Long Recovery After Hurricane Lala",
     "summary": "Coffee farms across southern Hawaii Island are assessing crop, tree and infrastructure losses following Hurricane Lala, which brought damaging winds and extreme rainfall to some of the state’s key coffee-growing...",
     "url": "https://dailycoffeenews.com/2026/08/28/hawaii-coffee-farms-face-long-recovery-after-hurricane-lala/",
     "publisher": "Daily Coffee News",
-    "published": "Fri, 28 Aug 2026 14:32:20 +0000",
-    "score": 12.85
+    "published": "Fri, 28 Aug 2026 14:32:20 +0000"
    },
    "considered": 10
   }
@@ -4017,11 +3945,12 @@
    "ok": true
   },
   {
-   "source": "pdg-roundup",
-   "ok": false
+   "source": "pdg",
+   "ok": false,
+   "error": "no recap link found on the PDG archive page"
   },
   {
-   "source": "daily-read",
+   "source": "daily",
    "ok": true
   },
   {
@@ -4029,11 +3958,11 @@
    "ok": true
   },
   {
-   "source": "arabica-futures",
+   "source": "arabica",
    "ok": true
   },
   {
-   "source": "origin-wire",
+   "source": "wire",
    "ok": true
   }
  ]

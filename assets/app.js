@@ -514,8 +514,7 @@
         });
 
         host.appendChild(el('div', { class: 'contract curve-panel' }, [
-          el('div', { class: 'contract-kicker' }, [el('span', { text: 'Forward curve' })]),
-          el('h3', { class: 'contract-name', text: 'The rest of the board' }),
+          el('h3', { class: 'contract-name', text: 'Forward Months' }),
           el('p', { class: 'contract-sub', text: 'Every Coffee C month currently quoting, against ' + c.contract.code }),
           el('div', { class: 'table-scroll' }, [
             el('table', { class: 'sheet' }, [
@@ -851,19 +850,6 @@
       ]);
     });
 
-    if (fx.ptax && fx.ptax.sell != null) {
-      rows.push(el('tr', {}, [
-        el('td', { class: 'name' }, [
-          'USD/BRL ',
-          el('span', { class: 'badge', text: 'PTAX' })
-        ]),
-        el('td', { class: 'num', text: num(fx.ptax.sell, 4) }),
-        el('td', { class: 'num muted', text: '—' }),
-        el('td', { class: 'num muted', text: '—' }),
-        el('td', { class: 'muted fx-note', text: 'Official Brazilian fixing, ' + (fx.ptax.quotedAt || '').slice(0, 10) })
-      ]));
-    }
-
     host.appendChild(el('div', { class: 'table-scroll' }, [
       el('table', { class: 'sheet' }, [
         el('thead', {}, [el('tr', {}, [
@@ -909,11 +895,11 @@
           }))
         ])
       ]));
-      dPanel.appendChild(el('p', {
-        class: 'panel-foot',
-        text: 'Manually entered from ' + (diff.sourceDocument || 'a trade document') +
-              ', updated ' + fmtDateTime(diff.updatedAt) + '. Not machine-verified.'
-      }));
+      dPanel.appendChild(cite([
+        'Manually entered from ' + (diff.sourceDocument || 'a trade document'),
+        'updated ' + fmtDateTime(diff.updatedAt),
+        'not machine-verified'
+      ]));
     } else {
       dPanel.appendChild(notice('No verified source', [
         'Physical differentials are circulated privately by brokers and exporters. No free, ' +
@@ -935,10 +921,10 @@
         el('span', { class: 'price', text: num(latest.bags, 0) }),
         el('span', { class: 'price-unit', text: 'bags' })
       ]));
-      sPanel.appendChild(el('p', {
-        class: 'panel-foot',
-        text: 'As at ' + (latest.date || '—') + ', entered from ' + (cs.sourceDocument || 'a published report') + '.'
-      }));
+      sPanel.appendChild(cite([
+        'As at ' + (latest.date || '—'),
+        'entered from ' + (cs.sourceDocument || 'a published report')
+      ]));
     } else {
       sPanel.appendChild(notice('No verified source', [
         'ICE publishes certified stocks daily, but the report sits behind bot protection and ' +
@@ -1061,8 +1047,8 @@
         el('thead', {}, [el('tr', {}, [
           el('th', { text: 'Region' }),
           el('th', { text: 'Type' }),
-          el('th', { class: 'num', text: 'Max °C' }),
-          el('th', { class: 'num', text: 'Min 7d' }),
+          el('th', { class: 'num', text: 'Max °C obs' }),
+          el('th', { class: 'num', text: 'Min °C fc' }),
           el('th', { class: 'num', text: 'Rain 14d' })
         ])]),
         el('tbody', {}, body)
@@ -1376,12 +1362,24 @@
     method.push(['Forward curve',
       'Later months trading above the near month is carry; below it is backwardation, which ' +
       'usually means the market wants coffee now.']);
-    method.push(['Currency',
-      'Each pair is requested in its own quoting convention rather than fetched in one base ' +
-      'and inverted, so the rate shown is the rate the source published.']);
+    var ptaxLine = 'Each pair is requested in its own quoting convention rather than fetched ' +
+      'in one base and inverted, so the rate shown is the rate the source published.';
+    var ptax = data.fx && data.fx.ptax;
+    var brl = data.fx && data.fx.pairs && data.fx.pairs.USDBRL;
+    if (ptax && ptax.sell != null && brl && brl.rate != null) {
+      ptaxLine += ' USD/BRL is cross-checked against Banco Central do Brasil’s official ' +
+        'PTAX fixing, which reads ' + num(ptax.sell, 4) + ' against the ECB’s ' +
+        num(brl.rate, 4) + ' — a gap of ' + num(Math.abs(ptax.sell - brl.rate), 4) + '.';
+    }
+    method.push(['Currency', ptaxLine]);
     if (wx.conditionMethod) {
       method.push(['Weather conditions', wx.conditionMethod]);
     }
+    method.push(['Weather columns',
+      '"Max °C obs" is the highest temperature on the most recent observed day. ' +
+      '"Min °C fc" is the lowest in the seven-day forecast — the frost warning for Brazil, ' +
+      'which is why it looks forward while the columns beside it look back. ' +
+      '"Rain 14d" is observed rainfall over the past fortnight.']);
     if (th.frostC != null) {
       method.push(['Weather flags',
         'Rule-based, and descriptions of weather rather than forecasts of price: frost at or ' +

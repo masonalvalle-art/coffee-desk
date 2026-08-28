@@ -137,17 +137,16 @@ export async function fetchOriginWire({ limit = 14, lookbackHours = 504 } = {}) 
     }
   }
 
-  const counts = {};
-  for (const r of WIRE_REGIONS) counts[r.label] = (byRegion.get(r.key)?.length ?? 0);
-  for (const t of interleaved) counts[t.region] = (counts[t.region] ?? 0) + 1;
-
   return {
     fetchedAt: new Date().toISOString(),
     lookbackHours,
-    headlines: interleaved.map(({ ts, ...rest }) => rest),
+    // ts and regionKey are working fields for sorting and interleaving; the
+    // page reads neither, so they do not go into the committed file.
+    headlines: interleaved.map(({ ts, regionKey, ...rest }) => rest),
     totalTagged: tagged.length,
     feedsQueried: WIRE_FEEDS.length,
-    byRegion: counts,
+    // Kept even though nothing renders it: this is the only record of which
+    // feed failed on a run where the wire comes back thin. Empty on a good day.
     errors,
     note: 'General headlines from the growing regions, taken from outlets of record and ' +
           'tagged to a region by the countries and cities they name.',
@@ -284,6 +283,9 @@ export async function fetchDailyArticle({ lookbackHours = 168 } = {}) {
 
   const cutoff = Date.now() - lookbackHours * 3600 * 1000;
   let best = null;
+  // The score selects the article but is not published, so it is tracked here
+  // rather than on the returned object.
+  let bestScore = -Infinity;
 
   for (const it of items) {
     const ts = it.published ? Date.parse(it.published) : NaN;
@@ -294,14 +296,14 @@ export async function fetchDailyArticle({ lookbackHours = 168 } = {}) {
     for (const [re, w] of TRADE_NOISE) if (re.test(hay)) score += w;
     const ageHours = Number.isFinite(ts) ? (Date.now() - ts) / 3600000 : lookbackHours;
     score += Math.max(0, 4 - ageHours / 24);
-    if (!best || score > best.score) {
+    if (score > bestScore) {
+      bestScore = score;
       best = {
         title: it.title,
         summary: it.summary || null,
         url: it.link,
         publisher: 'Daily Coffee News',
         published: it.published ?? null,
-        score: +score.toFixed(2),
       };
     }
   }

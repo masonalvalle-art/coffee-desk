@@ -19,9 +19,9 @@ happened.
 | Price Action | Daily chart over 1M / 3M / 6M / 1Y, with 20/50-day means, swing-pivot support & resistance, round-number gridlines and a hover readout of exact OHLC | derived from the price history below |
 | Momentum & trend | RSI(14), MACD(12,26,9), moving averages, ATR(14), Donchian(20), 52-week range | computed from real settlement prices |
 | Support & resistance | Swing levels with the distance from the current price and the date each was set | computed from real settlement prices |
-| Currency | GBP/USD (cable, ~1.36) and USD/BRL, plus Brazil's official PTAX fixing | European Central Bank; Banco Central do Brasil |
+| Currency | GBP/USD (cable, ~1.36) and USD/BRL, cross-checked against Brazil's official PTAX fixing | European Central Bank; Banco Central do Brasil |
 | Physical Market | Differentials and certified stocks | **no verified free source — see below** |
-| At Origin | 12 growing regions grouped by country, with a condition icon and words, observed rainfall and temperature, and frost/wet/dry flags | Open-Meteo |
+| At Origin | 12 growing regions grouped by country, with a condition icon and words, observed temperature and rainfall, a forecast low for frost, and wet/dry flags | Open-Meteo |
 | Origin Wire | Slider of general headlines with the publisher's own summary, from Brazil, Vietnam, Indonesia, Colombia, South & Central America and East Africa | BBC, Guardian, FT, Al Jazeera, VnExpress International |
 | The Week in Coffee | The headlines from Perfect Daily Grind's Friday round-up, grouped by section | Perfect Daily Grind |
 | Today's Read | One article worth a buyer's time | Daily Coffee News |
@@ -75,10 +75,14 @@ the pipeline publishes a 60-bar shoulder beyond the longest window.
 
 ### Currency conventions
 
-GBP/USD is quoted the way the market quotes it (cable, around 1.36), and
-USD/BRL likewise. Each pair is requested from the ECB in its own convention
-rather than fetched in one base and inverted here, so the rate on the page is
-the rate the source published.
+GBP/USD is quoted the way the market quotes it (cable, around 1.36), and USD/BRL
+likewise. Each pair is requested from the ECB in its own convention rather than
+fetched in one base and inverted here, so the rate on the page is the rate the
+source published.
+
+USD/BRL is cross-checked against Banco Central do Brasil's official PTAX fixing.
+That comparison is reported in Sources & Method, with the current gap, rather
+than as a second near-identical row in the table.
 
 ### Weather conditions
 
@@ -92,10 +96,15 @@ The window is three days rather than one on purpose. A single-day snapshot
 classified almost every origin as wet, because the WMO weather code counts
 light drizzle the same as real rain.
 
-The table shows observed rainfall over 14 days. Forecast 7-day rainfall is
-still calculated — it is what raises the **wet** flag, and the millimetre
-figure appears in the flagged note — but it no longer has a column of its own,
-because two rainfall numbers side by side competed for attention.
+The columns are headed **"Max °C obs"**, **"Min °C fc"** and **"Rain 14d"**, so
+it is clear which look back and which looks forward: the first and last are
+observed, while the middle one is the lowest temperature in the seven-day
+forecast — the frost warning for Brazil.
+
+Forecast 7-day rainfall is still calculated — it is what raises the **wet**
+flag, and the millimetre figure appears in the flagged note — but it no longer
+has a column of its own, because two rainfall numbers side by side competed for
+attention.
 
 ### The news desk
 

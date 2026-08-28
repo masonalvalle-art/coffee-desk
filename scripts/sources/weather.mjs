@@ -134,20 +134,20 @@ export async function fetchWeather() {
 
     const condition = classifyCondition(days);
 
+    // Published deliberately: lat/lon say which point was sampled, so a reader
+    // can check the figures against the source themselves. The descriptive
+    // note, timezone and elevation are not — nothing renders them.
+    const { note, ...published } = region;
+
     return {
-      ...region,
-      timezone: list[i].timezone ?? null,
-      elevation: list[i].elevation ?? null,
+      ...published,
       current,
       condition,
       conditionLabel: condition ? CONDITION_LABELS[condition] : null,
       rain14,
+      // Still computed because it raises the wet flag, but it has no column.
       rainForecast7: rainFwd,
       minForecast7: minFwd,
-      maxForecast7: (() => {
-        const v = fwd7.map(x => x.tMax).filter(x => x != null);
-        return v.length ? Math.max(...v) : null;
-      })(),
       // The per-day series is deliberately not published: nothing on the page
       // reads it, and across twelve regions it was the single largest
       // contributor to the size of the committed data file.
@@ -162,7 +162,6 @@ export async function fetchWeather() {
     conditionMethod: 'The condition icon reads the last three observed days: 30 mm of rain ' +
                      'in total, 20 mm in any one day, or a heavy-rain code is very wet; 5 mm ' +
                      'is wet; 60% mean cloud cover is cloudy; anything else is clear.',
-    conditionWindowDays: CONDITION_WINDOW_DAYS,
     regions,
     sources: [
       { name: 'Open-Meteo forecast API', url: 'https://open-meteo.com/', role: 'observed + forecast temperature, precipitation and weather code' },

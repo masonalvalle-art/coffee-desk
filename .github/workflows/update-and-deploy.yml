@@ -1,0 +1,70 @@
+name: Update data and deploy
+
+# Two runs a day on weekdays:
+#   06:00 UTC — the morning brief, before the European day gets going.
+#   18:30 UTC — after both ICE US (Coffee C) and ICE Europe (Robusta) have
+#               closed, which is the snapshot that lands in the Robusta
+#               history series.
+# Times are UTC and GitHub may delay scheduled runs under load.
+on:
+  schedule:
+    - cron: '0 6 * * 1-5'
+    - cron: '30 18 * * 1-5'
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+# Never let two runs write the data file at once.
+concurrency:
+  group: coffee-desk
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # No dependencies by design: the fetch script uses only Node built-ins,
+      # so there is nothing to install and nothing to audit.
+      - name: Fetch market data
+        run: node scripts/fetch-data.mjs
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name "coffee-desk-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/latest.json data/history/robusta.json
+          if git diff --staged --quiet; then
+            echo "No data changes to commit."
+          else
+            git commit -m "Data refresh: $(date -u '+%Y-%m-%d %H:%M UTC')"
+            # Rebase rather than force: the history of this file is the audit trail.
+            git pull --rebase --autostash origin main
+            git push
+          fi
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

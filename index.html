@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Coffee Desk — Daily Market Brief</title>
+<meta name="description" content="A daily snapshot of coffee futures, currencies, origin weather and news for coffee buyers. Every figure is sourced and timestamped.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,700;6..96,900&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,600;1,6..72,300;1,6..72,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="masthead">
+  <div class="masthead-rule top"></div>
+  <div class="masthead-meta">
+    <span id="edition-place">World Edition</span>
+    <span class="dot">&middot;</span>
+    <span id="edition-date">—</span>
+  </div>
+  <h1 class="nameplate">The Coffee Desk</h1>
+  <p class="tagline">A daily brief for people who buy coffee</p>
+  <div class="masthead-rule bottom"></div>
+  <div class="strap">
+    <span>Prices are exchange-delayed, not live settlements</span>
+    <span class="dot">&middot;</span>
+    <span id="generated-at">Loading…</span>
+    <span class="dot">&middot;</span>
+    <a href="#sources">Sources &amp; method</a>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- Lead: the two contracts -->
+  <section class="lead" aria-labelledby="lead-h">
+    <h2 id="lead-h" class="section-head"><span>The Board</span></h2>
+    <div class="lead-grid" id="board">
+      <div class="skeleton">Loading the board…</div>
+    </div>
+  </section>
+
+  <!-- Charts -->
+  <section aria-labelledby="charts-h">
+    <h2 id="charts-h" class="section-head"><span>Price Action</span></h2>
+    <div class="chart-grid" id="charts"></div>
+  </section>
+
+  <!-- Technicals -->
+  <section aria-labelledby="tech-h">
+    <h2 id="tech-h" class="section-head"><span>Technical Picture</span></h2>
+    <div class="tech-grid" id="technicals"></div>
+  </section>
+
+  <!-- Currency -->
+  <section aria-labelledby="fx-h">
+    <h2 id="fx-h" class="section-head"><span>Currency</span></h2>
+    <div id="fx"></div>
+  </section>
+
+  <!-- Physical market: differentials + certified stocks -->
+  <section aria-labelledby="phys-h">
+    <h2 id="phys-h" class="section-head"><span>Physical Market</span></h2>
+    <div class="phys-grid" id="physical"></div>
+  </section>
+
+  <!-- Weather -->
+  <section aria-labelledby="wx-h">
+    <h2 id="wx-h" class="section-head"><span>At Origin</span></h2>
+    <div id="weather"></div>
+  </section>
+
+  <!-- News -->
+  <section aria-labelledby="news-h">
+    <h2 id="news-h" class="section-head"><span>What to Read Today</span></h2>
+    <div id="news"></div>
+  </section>
+
+  <!-- Sources -->
+  <section id="sources" aria-labelledby="src-h">
+    <h2 id="src-h" class="section-head"><span>Sources &amp; Method</span></h2>
+    <div id="source-list"></div>
+  </section>
+
+</main>
+
+<footer class="colophon">
+  <p class="rule-above">
+    <strong>The Coffee Desk</strong> is an automated brief. Every figure on this page is fetched
+    from the source named beside it and stamped with the time it was retrieved. Nothing is
+    estimated, interpolated or filled in; where a source is unavailable the page says so.
+  </p>
+  <p class="fine">
+    Exchange prices are delayed and are shown for information only. This is not trading,
+    investment or hedging advice, and it is not a substitute for your broker&rsquo;s
+    confirmations or the exchange&rsquo;s own settlement data.
+  </p>
+  <p class="fine" id="build-status"></p>
+</footer>
+
+<script src="assets/app.js"></script>
+</body>
+</html>

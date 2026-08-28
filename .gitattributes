@@ -1,0 +1,5 @@
+# The workflow runs on Ubuntu: CRLF in a shell run-block breaks bash, and the
+# committed JSON should have stable line endings across machines.
+* text=auto eol=lf
+*.png binary
+*.jpg binary

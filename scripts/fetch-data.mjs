@@ -55,9 +55,14 @@ async function main() {
 
   // Technicals come from Yahoo's per-contract daily history. Indicators are
   // computed on the FULL series (the 200-day mean needs it), then the bars are
-  // trimmed before publishing: the chart draws 180 sessions and this file is
-  // committed twice a day, so shipping two years of bars was pure weight.
-  const PUBLISHED_BARS = 260;
+  // trimmed before publishing, because this file is committed twice a day and
+  // shipping two years of bars was pure weight.
+  //
+  // The longest chart window is 260 sessions, and the chart's own 50-day mean
+  // needs 49 bars of run-up before that window starts — so publish 260 + a
+  // 60-bar shoulder. Without it the moving averages begin partway into the
+  // 1Y view while spanning the whole of every shorter one.
+  const PUBLISHED_BARS = 320;
   if (arabica?.bars?.length) {
     const full = arabica.bars;
     arabica.technicals = buildTechnicals(full);

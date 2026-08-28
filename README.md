@@ -16,14 +16,14 @@ happened.
 | Section | Contents | Source |
 |---|---|---|
 | The Board | Arabica **KCZ6** — second traded month, resolved automatically — plus the full forward curve and the spread of every other month against it | Yahoo Finance + TradingView (both ICE, delayed) |
-| Price Action | Daily chart with 20/50-day means and swing-pivot support & resistance | derived from the price history below |
+| Price Action | Daily chart over 1M / 3M / 6M / 1Y, with 20/50-day means, swing-pivot support & resistance, round-number gridlines and a hover readout of exact OHLC | derived from the price history below |
 | Momentum & trend | RSI(14), MACD(12,26,9), moving averages, ATR(14), Donchian(20), 52-week range | computed from real settlement prices |
 | Support & resistance | Swing levels with the distance from the current price and the date each was set | computed from real settlement prices |
 | Currency | GBP/USD (cable, ~1.36) and USD/BRL, plus Brazil's official PTAX fixing | European Central Bank; Banco Central do Brasil |
 | Physical Market | Differentials and certified stocks | **no verified free source — see below** |
-| At Origin | 12 growing regions grouped by country, with a condition icon, observed and forecast temperature and rainfall, and frost/wet/dry flags | Open-Meteo |
-| Origin Wire | Ticker of general headlines from Brazil, Vietnam, Indonesia, Colombia, South & Central America and East Africa | BBC, Guardian, FT, Al Jazeera, VnExpress International |
-| The Week in Coffee | Ticker of the headlines from Perfect Daily Grind's Friday round-up | Perfect Daily Grind |
+| At Origin | 12 growing regions grouped by country, with a condition icon and words, observed rainfall and temperature, and frost/wet/dry flags | Open-Meteo |
+| Origin Wire | Slider of general headlines with the publisher's own summary, from Brazil, Vietnam, Indonesia, Colombia, South & Central America and East Africa | BBC, Guardian, FT, Al Jazeera, VnExpress International |
+| The Week in Coffee | The headlines from Perfect Daily Grind's Friday round-up, grouped by section | Perfect Daily Grind |
 | Today's Read | One article worth a buyer's time | Daily Coffee News |
 
 ### Arabica only
@@ -53,6 +53,26 @@ between them. If they ever disagree by more than 1% the page flags it rather
 than silently picking one. The session change is always derived from the same
 series as the price beside it, never mixed between feeds.
 
+### Reading the chart
+
+The chart opens on **3 months** and offers 1M / 3M / 6M / 1Y; the choice is
+remembered in the browser. All the bars are already loaded, so switching is
+instant and fetches nothing.
+
+Gridlines land on round numbers rather than interpolated ones, months are
+marked along the date axis, and the closing price is pinned against the right
+edge to two decimal places. **Hover, tap, or focus the chart and use the arrow
+keys** to read the exact open, high, low, close and day's change for any
+session.
+
+Two details that matter for the short windows: the moving averages are
+computed over the whole published series and then sliced, so both span the
+full chart at every timeframe rather than starting partway in; and a support
+or resistance level is only drawn when it falls inside the visible range,
+since levels are found over years of history and an off-chart one would
+otherwise flatten the price line. To make the 1Y view's 50-day mean complete,
+the pipeline publishes a 60-bar shoulder beyond the longest window.
+
 ### Currency conventions
 
 GBP/USD is quoted the way the market quotes it (cable, around 1.36), and
@@ -71,6 +91,24 @@ wet**; 5 mm is **wet**; 60% mean cloud cover is **cloudy**; anything else is
 The window is three days rather than one on purpose. A single-day snapshot
 classified almost every origin as wet, because the WMO weather code counts
 light drizzle the same as real rain.
+
+The table shows observed rainfall over 14 days. Forecast 7-day rainfall is
+still calculated — it is what raises the **wet** flag, and the millimetre
+figure appears in the flagged note — but it no longer has a column of its own,
+because two rainfall numbers side by side competed for attention.
+
+### The news desk
+
+The origin wire is a **slider**: one story at a time, with the publisher's own
+summary, advancing every ten seconds. It pauses on hover and on focus, stops
+for good once you use the arrows or dots, and does not advance at all while
+the tab is in the background. Which slide is showing is decided by visibility
+rather than by an opacity transition, so the state is always correct even if
+the animation is throttled or never runs.
+
+The weekly recap is a **static list** grouped by the recap's own sections, with
+"Top stories of the week" and "Trade & production" first. It is a weekly digest
+of one-line headlines with no summaries to show, so motion would add nothing.
 
 ---
 
@@ -97,7 +135,7 @@ the article, the RSS feed, the sitemap, even through a reader proxy — regardle
 of headers, because the block is on TLS/client fingerprint rather than address.
 A GitHub Actions runner will almost certainly be refused too.
 
-So the round-up ticker reads from `data/manual/pdg-roundup.json`, captured by
+So the round-up list reads from `data/manual/pdg-roundup.json`, captured by
 hand from the published article. **The pipeline still attempts the live fetch on
 every run and will prefer it the moment it succeeds** — nothing needs changing
 if PDG ever relaxes the block. The page always states which of the two it is
@@ -112,8 +150,8 @@ today's `capturedAt`, and one entry per headline:
 { "section": "Top stories of the week", "date": "Fri, 28 Aug", "headline": "…", "url": "https://original-source…" }
 ```
 
-Headlines and links are the publisher's own; the ticker shows the first 10 and
-links to the full recap.
+Headlines and links are the publisher's own; the list shows every headline in
+the recap, each linking to its original source.
 
 ---
 

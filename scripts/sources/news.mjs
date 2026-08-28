@@ -68,7 +68,7 @@ export const WIRE_REGIONS = [
 // seven days old and its newest Vietnam story thirty-nine. A one-week window
 // silently emptied the two most important origins off the wire. Every item
 // carries its date so the reader can see what is fresh and what is not.
-export async function fetchOriginWire({ limit = 24, lookbackHours = 504 } = {}) {
+export async function fetchOriginWire({ limit = 14, lookbackHours = 504 } = {}) {
   const results = await mapLimit(WIRE_FEEDS, 4, async (feed) => {
     const xml = await getText(feed.url, { timeout: 20000, retries: 1 });
     return parseFeed(xml).map(item => ({ ...item, feed }));
@@ -102,6 +102,10 @@ export async function fetchOriginWire({ limit = 24, lookbackHours = 504 } = {}) 
 
     tagged.push({
       title: it.title,
+      // The publisher's own standfirst. Carried through so the wire can show a
+      // headline with its summary rather than a headline alone; it was already
+      // being parsed for the region match above and then thrown away.
+      summary: it.summary || null,
       url: it.link,
       publisher: it.feed.name,
       region: region.label,
@@ -111,7 +115,7 @@ export async function fetchOriginWire({ limit = 24, lookbackHours = 504 } = {}) 
     });
   }
 
-  // Newest first, then interleave regions so the ticker does not run six
+  // Newest first, then interleave regions so the slider does not run six
   // Brazil stories in a row when Brazil has had a busy week.
   tagged.sort((a, b) => b.ts - a.ts);
   const byRegion = new Map();
@@ -158,7 +162,7 @@ const PDG_ARCHIVE = 'https://perfectdailygrind.com/category/weekly-round-up/';
 
 /**
  * PDG publishes a Friday round-up whose body is a list of dated one-line
- * headlines, each linking to the original source. That is exactly a ticker.
+ * headlines, each linking to the original source.
  *
  * Their WAF rejects non-browser clients outright (a 403 on every path,
  * including the RSS feed and the sitemap, regardless of headers), so this may
@@ -344,10 +348,17 @@ function tag(block, name) {
 
 function clean(s) {
   if (!s) return '';
-  return decodeEntities(
-    s.replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')  // unwrap CDATA
-     .replace(/<[^>]+>/g, ' ')                       // strip markup
-  ).replace(/\s+/g, ' ').trim();
+  // Strip, decode, strip again. Some feeds (the Guardian among them) escape
+  // their markup, so a single strip-then-decode pass turns &lt;p&gt; into a
+  // visible <p> in the output. The second pass removes whatever the decode
+  // revealed.
+  const stripped = s
+    .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')   // unwrap CDATA
+    .replace(/<[^>]+>/g, ' ');                       // strip markup
+  return decodeEntities(stripped)
+    .replace(/<[^>]+>/g, ' ')                        // markup revealed by decoding
+    .replace(/\s+/g, ' ')
+    .trim();
 }
 
 function decodeEntities(s) {

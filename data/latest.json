@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-28T14:32:27.340Z",
+ "generatedAt": "2026-08-28T18:12:45.320Z",
  "schema": 3,
  "futures": {
   "arabica": {
@@ -17,8 +17,8 @@
    "frontMonth": {
     "code": "KCU26",
     "label": "Sep 2026",
-    "close": 341.9,
-    "volume": 39
+    "close": 347.95,
+    "volume": 16
    },
    "rolled": true,
    "mostActive": "KCZ26",
@@ -26,58 +26,538 @@
     {
      "code": "KCU26",
      "label": "Sep 2026",
-     "close": 341.9,
-     "volume": 39
+     "close": 347.95,
+     "volume": 16
     },
     {
      "code": "KCZ26",
      "label": "Dec 2026",
-     "close": 312.8,
-     "volume": 6473
+     "close": 312.6,
+     "volume": 11539
     },
     {
      "code": "KCH27",
      "label": "Mar 2027",
-     "close": 301.5,
-     "volume": 2429
+     "close": 299.35,
+     "volume": 4835
     },
     {
      "code": "KCK27",
      "label": "May 2027",
-     "close": 297.5,
-     "volume": 895
+     "close": 295.45,
+     "volume": 1916
     },
     {
      "code": "KCN27",
      "label": "Jul 2027",
-     "close": 295.8,
-     "volume": 283
+     "close": 293.15,
+     "volume": 681
     },
     {
      "code": "KCU27",
      "label": "Sep 2027",
-     "close": 293.15,
-     "volume": 157
+     "close": 291.4,
+     "volume": 300
     },
     {
      "code": "KCZ27",
      "label": "Dec 2027",
-     "close": 290,
-     "volume": 64
+     "close": 288.8,
+     "volume": 143
     }
    ],
    "quote": {
-    "last": 312.95,
+    "last": 312.6,
     "open": 311.5,
-    "high": 314.29998779296875,
-    "low": 308.8500061035156,
+    "high": 316.8500061035156,
+    "low": 308.70001220703125,
     "previousClose": 309.6499938964844,
-    "change": 3.3,
-    "changePct": 1.066,
-    "volume": 6253,
-    "asOf": "2026-08-28T14:12:23.000Z"
+    "change": 2.95,
+    "changePct": 0.953,
+    "volume": 11539,
+    "asOf": "2026-08-28T17:29:56.000Z"
    },
    "bars": [
+    {
+     "date": "2025-05-23",
+     "open": 306.6499938964844,
+     "high": 307.8500061035156,
+     "low": 302.3500061035156,
+     "close": 307.70001220703125,
+     "volume": 92
+    },
+    {
+     "date": "2025-05-26",
+     "open": 306.6499938964844,
+     "high": 307.8500061035156,
+     "low": 302.3500061035156,
+     "close": 307.70001220703125,
+     "volume": 0
+    },
+    {
+     "date": "2025-05-27",
+     "open": 308.20001220703125,
+     "high": 309.1000061035156,
+     "low": 307.45001220703125,
+     "close": 308.6499938964844,
+     "volume": 74
+    },
+    {
+     "date": "2025-05-28",
+     "open": 305.70001220703125,
+     "high": 305.70001220703125,
+     "low": 298.6499938964844,
+     "close": 302.1499938964844,
+     "volume": 189
+    },
+    {
+     "date": "2025-05-29",
+     "open": 299.45001220703125,
+     "high": 302.3500061035156,
+     "low": 296.1000061035156,
+     "close": 298.1499938964844,
+     "volume": 133
+    },
+    {
+     "date": "2025-05-30",
+     "open": 297.1499938964844,
+     "high": 298.95001220703125,
+     "low": 292.3999938964844,
+     "close": 294.20001220703125,
+     "volume": 163
+    },
+    {
+     "date": "2025-06-02",
+     "open": 291,
+     "high": 294.95001220703125,
+     "low": 291,
+     "close": 294.75,
+     "volume": 50
+    },
+    {
+     "date": "2025-06-03",
+     "open": 291.45001220703125,
+     "high": 295.75,
+     "low": 290,
+     "close": 294.29998779296875,
+     "volume": 158
+    },
+    {
+     "date": "2025-06-04",
+     "open": 297.5,
+     "high": 301.3500061035156,
+     "low": 295,
+     "close": 300.95001220703125,
+     "volume": 111
+    },
+    {
+     "date": "2025-06-05",
+     "open": 299.45001220703125,
+     "high": 310.25,
+     "low": 299.45001220703125,
+     "close": 309.54998779296875,
+     "volume": 178
+    },
+    {
+     "date": "2025-06-06",
+     "open": 310,
+     "high": 318.70001220703125,
+     "low": 303.75,
+     "close": 309.1499938964844,
+     "volume": 325
+    },
+    {
+     "date": "2025-06-09",
+     "open": 308.54998779296875,
+     "high": 311.8500061035156,
+     "low": 308.54998779296875,
+     "close": 310.79998779296875,
+     "volume": 99
+    },
+    {
+     "date": "2025-06-10",
+     "open": 312.29998779296875,
+     "high": 316.79998779296875,
+     "low": 304.25,
+     "close": 305.54998779296875,
+     "volume": 186
+    },
+    {
+     "date": "2025-06-11",
+     "open": 304.5,
+     "high": 306.6499938964844,
+     "low": 300,
+     "close": 301.3999938964844,
+     "volume": 82
+    },
+    {
+     "date": "2025-06-12",
+     "open": 298.1000061035156,
+     "high": 300.3500061035156,
+     "low": 296.8500061035156,
+     "close": 298.1499938964844,
+     "volume": 100
+    },
+    {
+     "date": "2025-06-13",
+     "open": 298,
+     "high": 302,
+     "low": 290.3999938964844,
+     "close": 299.8500061035156,
+     "volume": 273
+    },
+    {
+     "date": "2025-06-16",
+     "open": 300.3500061035156,
+     "high": 300.3500061035156,
+     "low": 295.79998779296875,
+     "close": 295.5,
+     "volume": 22
+    },
+    {
+     "date": "2025-06-17",
+     "open": 296.3500061035156,
+     "high": 296.3500061035156,
+     "low": 290,
+     "close": 291.79998779296875,
+     "volume": 195
+    },
+    {
+     "date": "2025-06-18",
+     "open": 289.04998779296875,
+     "high": 289.8500061035156,
+     "low": 280.3500061035156,
+     "close": 283.04998779296875,
+     "volume": 0
+    },
+    {
+     "date": "2025-06-20",
+     "open": 286.3500061035156,
+     "high": 286.6000061035156,
+     "low": 275.25,
+     "close": 277.5,
+     "volume": 335
+    },
+    {
+     "date": "2025-06-23",
+     "open": 276.3500061035156,
+     "high": 286.45001220703125,
+     "low": 276,
+     "close": 285.95001220703125,
+     "volume": 250
+    },
+    {
+     "date": "2025-06-24",
+     "open": 281.29998779296875,
+     "high": 282.20001220703125,
+     "low": 273.29998779296875,
+     "close": 274.29998779296875,
+     "volume": 263
+    },
+    {
+     "date": "2025-06-25",
+     "open": 282,
+     "high": 283.6000061035156,
+     "low": 265.6499938964844,
+     "close": 268.8500061035156,
+     "volume": 327
+    },
+    {
+     "date": "2025-06-26",
+     "open": 266.5,
+     "high": 270.70001220703125,
+     "low": 265.70001220703125,
+     "close": 271.25,
+     "volume": 138
+    },
+    {
+     "date": "2025-06-27",
+     "open": 270,
+     "high": 271.3999938964844,
+     "low": 259.20001220703125,
+     "close": 269.1499938964844,
+     "volume": 436
+    },
+    {
+     "date": "2025-06-30",
+     "open": 268.79998779296875,
+     "high": 270.79998779296875,
+     "low": 265.75,
+     "close": 267.20001220703125,
+     "volume": 405
+    },
+    {
+     "date": "2025-07-01",
+     "open": 262.3999938964844,
+     "high": 265.6499938964844,
+     "low": 255.25,
+     "close": 259.29998779296875,
+     "volume": 669
+    },
+    {
+     "date": "2025-07-02",
+     "open": 256.1000061035156,
+     "high": 259.29998779296875,
+     "low": 249,
+     "close": 258.79998779296875,
+     "volume": 431
+    },
+    {
+     "date": "2025-07-03",
+     "open": 255.14999389648438,
+     "high": 260.1000061035156,
+     "low": 254.14999389648438,
+     "close": 258.25,
+     "volume": 0
+    },
+    {
+     "date": "2025-07-04",
+     "open": 258.25,
+     "high": 258.25,
+     "low": 258.25,
+     "close": 258.25,
+     "volume": 0
+    },
+    {
+     "date": "2025-07-07",
+     "open": 254.39999389648438,
+     "high": 257.45001220703125,
+     "low": 246.60000610351562,
+     "close": 247.35000610351562,
+     "volume": 133
+    },
+    {
+     "date": "2025-07-08",
+     "open": 247,
+     "high": 252.75,
+     "low": 246.5500030517578,
+     "close": 254.14999389648438,
+     "volume": 91
+    },
+    {
+     "date": "2025-07-09",
+     "open": 252.60000610351562,
+     "high": 255.85000610351562,
+     "low": 250.3000030517578,
+     "close": 252.64999389648438,
+     "volume": 65
+    },
+    {
+     "date": "2025-07-10",
+     "open": 246.4499969482422,
+     "high": 260,
+     "low": 246.4499969482422,
+     "close": 255.10000610351562,
+     "volume": 322
+    },
+    {
+     "date": "2025-07-11",
+     "open": 255,
+     "high": 264.1499938964844,
+     "low": 253.35000610351562,
+     "close": 253.75,
+     "volume": 209
+    },
+    {
+     "date": "2025-07-14",
+     "open": 260,
+     "high": 266.95001220703125,
+     "low": 257.3500061035156,
+     "close": 265.6499938964844,
+     "volume": 261
+    },
+    {
+     "date": "2025-07-15",
+     "open": 267,
+     "high": 270,
+     "low": 260.29998779296875,
+     "close": 261.1000061035156,
+     "volume": 324
+    },
+    {
+     "date": "2025-07-16",
+     "open": 270,
+     "high": 271,
+     "low": 267.29998779296875,
+     "close": 269.54998779296875,
+     "volume": 345
+    },
+    {
+     "date": "2025-07-17",
+     "open": 270.54998779296875,
+     "high": 270.54998779296875,
+     "low": 263.8999938964844,
+     "close": 266.70001220703125,
+     "volume": 343
+    },
+    {
+     "date": "2025-07-18",
+     "open": 270.3999938964844,
+     "high": 270.3999938964844,
+     "low": 263.1000061035156,
+     "close": 264.54998779296875,
+     "volume": 196
+    },
+    {
+     "date": "2025-07-21",
+     "open": 262.6000061035156,
+     "high": 262.6000061035156,
+     "low": 256.5,
+     "close": 257.6000061035156,
+     "volume": 545
+    },
+    {
+     "date": "2025-07-22",
+     "open": 255.4499969482422,
+     "high": 261.54998779296875,
+     "low": 255.4499969482422,
+     "close": 260.1499938964844,
+     "volume": 347
+    },
+    {
+     "date": "2025-07-23",
+     "open": 259.25,
+     "high": 264.54998779296875,
+     "low": 258.6000061035156,
+     "close": 264.1000061035156,
+     "volume": 249
+    },
+    {
+     "date": "2025-07-24",
+     "open": 263.3999938964844,
+     "high": 267.8500061035156,
+     "low": 263.20001220703125,
+     "close": 266.95001220703125,
+     "volume": 169
+    },
+    {
+     "date": "2025-07-25",
+     "open": 266.95001220703125,
+     "high": 268.5,
+     "low": 261.3999938964844,
+     "close": 261.8999938964844,
+     "volume": 190
+    },
+    {
+     "date": "2025-07-28",
+     "open": 265.29998779296875,
+     "high": 268.1499938964844,
+     "low": 264,
+     "close": 266.20001220703125,
+     "volume": 527
+    },
+    {
+     "date": "2025-07-29",
+     "open": 264.79998779296875,
+     "high": 264.79998779296875,
+     "low": 257.1000061035156,
+     "close": 263.8999938964844,
+     "volume": 326
+    },
+    {
+     "date": "2025-07-30",
+     "open": 262.75,
+     "high": 266.3999938964844,
+     "low": 259.45001220703125,
+     "close": 261,
+     "volume": 176
+    },
+    {
+     "date": "2025-07-31",
+     "open": 267.8999938964844,
+     "high": 267.95001220703125,
+     "low": 261.45001220703125,
+     "close": 262.3500061035156,
+     "volume": 177
+    },
+    {
+     "date": "2025-08-01",
+     "open": 258.25,
+     "high": 261.3999938964844,
+     "low": 251.25,
+     "close": 251.39999389648438,
+     "volume": 291
+    },
+    {
+     "date": "2025-08-04",
+     "open": 255.3000030517578,
+     "high": 258.95001220703125,
+     "low": 254.6999969482422,
+     "close": 255.35000610351562,
+     "volume": 82
+    },
+    {
+     "date": "2025-08-05",
+     "open": 255.5,
+     "high": 262.5,
+     "low": 255.5,
+     "close": 262.6000061035156,
+     "volume": 71
+    },
+    {
+     "date": "2025-08-06",
+     "open": 261.95001220703125,
+     "high": 261.95001220703125,
+     "low": 256.29998779296875,
+     "close": 258.3500061035156,
+     "volume": 268
+    },
+    {
+     "date": "2025-08-07",
+     "open": 260.5,
+     "high": 262.5,
+     "low": 258.75,
+     "close": 263,
+     "volume": 287
+    },
+    {
+     "date": "2025-08-08",
+     "open": 262.45001220703125,
+     "high": 271.79998779296875,
+     "low": 262.45001220703125,
+     "close": 271.6000061035156,
+     "volume": 641
+    },
+    {
+     "date": "2025-08-11",
+     "open": 269.8500061035156,
+     "high": 281.79998779296875,
+     "low": 269.70001220703125,
+     "close": 280.20001220703125,
+     "volume": 1019
+    },
+    {
+     "date": "2025-08-12",
+     "open": 281.5,
+     "high": 281.5,
+     "low": 271.5,
+     "close": 274.79998779296875,
+     "volume": 700
+    },
+    {
+     "date": "2025-08-13",
+     "open": 276.20001220703125,
+     "high": 280.79998779296875,
+     "low": 276,
+     "close": 278.70001220703125,
+     "volume": 964
+    },
+    {
+     "date": "2025-08-14",
+     "open": 280.3500061035156,
+     "high": 285.54998779296875,
+     "low": 274.8500061035156,
+     "close": 284.1499938964844,
+     "volume": 413
+    },
+    {
+     "date": "2025-08-15",
+     "open": 283.75,
+     "high": 295.5,
+     "low": 283.6000061035156,
+     "close": 294.1000061035156,
+     "volume": 1320
+    },
     {
      "date": "2025-08-18",
      "open": 292.8500061035156,
@@ -2153,17 +2633,17 @@
     {
      "date": "2026-08-28",
      "open": 311.5,
-     "high": 314.29998779296875,
-     "low": 308.8500061035156,
-     "close": 312.95001220703125,
-     "volume": 6253
+     "high": 316.8500061035156,
+     "low": 308.70001220703125,
+     "close": 312.6000061035156,
+     "volume": 11539
     }
    ],
    "crossCheck": {
-    "tradingView": 312.8,
-    "yahoo": 312.95,
-    "diff": -0.15,
-    "diffPct": -0.048,
+    "tradingView": 312.6,
+    "yahoo": 312.6,
+    "diff": 0,
+    "diffPct": 0,
     "agree": true
    },
    "sources": [
@@ -2180,16 +2660,16 @@
    ],
    "technicals": {
     "observations": 505,
-    "sma20": 318.8,
-    "sma50": 304.96399963378906,
-    "sma200": 291.18325019836425,
-    "rsi14": 48.66730333816975,
+    "sma20": 318.7824996948242,
+    "sma50": 304.9569995117188,
+    "sma200": 291.1815001678467,
+    "rsi14": 48.493550555133226,
     "macd": {
-     "line": 5.075032477019647,
-     "signal": 7.089623936843385,
-     "histogram": -2.0145914598237376
+     "line": 5.04711176220934,
+     "signal": 7.084039793881324,
+     "histogram": -2.0369280316719838
     },
-    "atr14": 13.416234849158894,
+    "atr14": 13.60909286394684,
     "donchian20": {
      "high": 345.6499938964844,
      "low": 302.6000061035156,
@@ -2232,7 +2712,7 @@
     "method": "Wilder RSI(14); MACD(12,26,9) on EMA; ATR(14); pivots = 5-bar swing highs/lows; Donchian(20).",
     "basis": "505 daily bars for KCZ26"
    },
-   "barsPublished": 260,
+   "barsPublished": 320,
    "barsAnalysed": 505
   }
  },
@@ -2745,9 +3225,9 @@
    }
   },
   "ptax": {
-   "buy": 5.1637,
-   "sell": 5.1642,
-   "quotedAt": "2026-08-27 13:10:22.548239"
+   "buy": 5.1999,
+   "sell": 5.2005,
+   "quotedAt": "2026-08-28 13:11:19.963529"
   },
   "sources": [
    {
@@ -2763,7 +3243,7 @@
   ]
  },
  "weather": {
-  "fetchedAt": "2026-08-28T14:32:16.461Z",
+  "fetchedAt": "2026-08-28T18:12:37.777Z",
   "thresholds": {
    "frostC": 4,
    "heavyRainMm": 50,
@@ -2883,15 +3363,15 @@
     },
     "condition": "very-wet",
     "conditionLabel": "Very wet",
-    "rain14": 117.1,
-    "rainForecast7": 123.4,
+    "rain14": 106.5,
+    "rainForecast7": 140.6,
     "minForecast7": 21.8,
     "maxForecast7": 30.1,
     "alerts": [
      {
       "type": "wet",
       "severity": "watch",
-      "text": "123 mm forecast over 7 days — harvest/drying disruption risk."
+      "text": "141 mm forecast over 7 days — harvest/drying disruption risk."
      }
     ]
    },
@@ -2916,15 +3396,15 @@
     },
     "condition": "very-wet",
     "conditionLabel": "Very wet",
-    "rain14": 206.9,
-    "rainForecast7": 108.4,
+    "rain14": 196.7,
+    "rainForecast7": 122.6,
     "minForecast7": 20.2,
     "maxForecast7": 24.8,
     "alerts": [
      {
       "type": "wet",
       "severity": "watch",
-      "text": "108 mm forecast over 7 days — harvest/drying disruption risk."
+      "text": "123 mm forecast over 7 days — harvest/drying disruption risk."
      }
     ]
    },
@@ -3004,7 +3484,7 @@
     "condition": "cloudy",
     "conditionLabel": "Cloudy",
     "rain14": 10.2,
-    "rainForecast7": 9.6,
+    "rainForecast7": 17.2,
     "minForecast7": 15,
     "maxForecast7": 26.8,
     "alerts": []
@@ -3030,10 +3510,10 @@
     },
     "condition": "wet",
     "conditionLabel": "Wet",
-    "rain14": 39.4,
-    "rainForecast7": 11.3,
+    "rain14": 38.6,
+    "rainForecast7": 13.1,
     "minForecast7": 22.9,
-    "maxForecast7": 32.5,
+    "maxForecast7": 33.6,
     "alerts": []
    },
    {
@@ -3128,27 +3608,30 @@
  },
  "news": {
   "originWire": {
-   "fetchedAt": "2026-08-28T14:32:27.305Z",
+   "fetchedAt": "2026-08-28T18:12:45.298Z",
    "lookbackHours": 504,
    "headlines": [
     {
-     "title": "Brazil’s vast iron mine that supplies the world and fractures the Amazon – in pictures",
-     "url": "https://www.theguardian.com/global-development/gallery/2026/aug/21/brazils-vast-iron-mine-that-supplies-the-world-and-fractures-the-amazon-in-pictures",
+     "title": "UK urged to ban imports of Brazilian meat over health concerns",
+     "summary": "Brazil has failed to prove compliance with EU rules on use of antibiotics in cattle and poultry farming The UK’s leading farming organisations and animal health experts have called for an urgent ban on imports of Brazilian meat, in light of concerns over the…",
+     "url": "https://www.theguardian.com/food/2026/aug/28/uk-urged-ban-import-brazil-meat-health-concerns",
      "publisher": "The Guardian",
      "region": "Brazil",
      "regionKey": "brazil",
-     "published": "Fri, 21 Aug 2026 12:00:35 GMT"
+     "published": "Fri, 28 Aug 2026 15:13:43 GMT"
     },
     {
-     "title": "Vietnam to offer preferential visas to foreign visitors who spend more, stay longer",
-     "url": "https://e.vnexpress.net/news/news/vietnam-to-offer-preferential-visas-to-foreign-visitors-who-spend-more-stay-longer-5114649.html",
+     "title": "Vietnam opposes illegal reclamation in Paracels, demands immediate halt",
+     "summary": "Vietnam firmly opposes illegal reclamation, construction activities in Hoang Sa (Paracel) Islands and has lodged a serious diplomatic representation over and reiterated its position on the matter, affirmed Spokesperson of the Ministry of Foreign Affairs Pham…",
+     "url": "https://e.vnexpress.net/news/news/vietnam-opposes-illegal-reclamation-in-paracels-demands-immediate-halt-5114746.html",
      "publisher": "VnExpress International",
      "region": "Vietnam",
      "regionKey": "vietnam",
-     "published": "Fri, 28 Aug 2026 16:56:31 +0700"
+     "published": "Fri, 28 Aug 2026 22:59:31 +0700"
     },
     {
      "title": "4 richest Indonesians add $6B to wealth in a month",
+     "summary": "Indonesia’s four richest men added $6.3 billion to their combined fortunes in August, driven by a recovery in the stock market and improved performance at their companies.",
      "url": "https://e.vnexpress.net/news/business/billionaires/4-richest-indonesians-add-6b-to-wealth-in-a-month-5113721.html",
      "publisher": "VnExpress International",
      "region": "Indonesia",
@@ -3157,6 +3640,7 @@
     },
     {
      "title": "Colombia's new president approves extradition of rebel leaders to US",
+     "summary": "It is a step towards ending a plan to stop violence by bringing rebel and criminal groups to the negotiating table.",
      "url": "https://www.bbc.co.uk/news/articles/cvgy45zv8e2o?at_medium=RSS&amp;at_campaign=rss",
      "publisher": "BBC News",
      "region": "Colombia",
@@ -3164,39 +3648,44 @@
      "published": "Thu, 27 Aug 2026 20:10:30 GMT"
     },
     {
-     "title": "The first Aman in Mexico is $6,000 a night. Is it worth it?",
-     "url": "https://www.ft.com/content/0cdeb545-f6fe-4d97-aa1a-5933e58773c6",
-     "publisher": "Financial Times",
+     "title": "Venezuelan opposition up in arms over reports US wants big stake in oil and gas",
+     "summary": "Critics call move to gain long-term access to country’s massive energy reserves ‘predatory’ and ‘unconstitutional’ Reports that the US is preparing to claim a big stake in Venezuela’s massive energy reserves have sparked an outcry, with critics describing the…",
+     "url": "https://www.theguardian.com/world/2026/aug/28/us-venezuela-oil-gas-stake",
+     "publisher": "The Guardian",
      "region": "South & Central America",
      "regionKey": "latam",
-     "published": "Fri, 28 Aug 2026 10:00:07 GMT"
+     "published": "Fri, 28 Aug 2026 17:41:37 GMT"
     },
     {
-     "title": "Dutch court hands life sentence to Rwandan man for genocide role",
-     "url": "https://www.aljazeera.com/news/2026/8/28/dutch-court-hands-life-sentence-to-rwandan-man-for-genocide-role?traffic_source=rss",
+     "title": "Kenyan police fire tear gas at Nairobi protest against import duty hike",
+     "summary": "Traders frustrated by more than $5,000 duty hike they say will hurt small businesses.",
+     "url": "https://www.aljazeera.com/news/2026/8/28/kenyan-police-fire-tear-gas-at-nairobi-protest-against-import-duty-hike?traffic_source=rss",
      "publisher": "Al Jazeera",
      "region": "East Africa",
      "regionKey": "eastafrica",
-     "published": "Fri, 28 Aug 2026 13:17:34 +0000"
+     "published": "Fri, 28 Aug 2026 16:12:16 +0000"
     },
     {
-     "title": "Maracanã to host opening game and final at next year’s Women’s World Cup",
-     "url": "https://www.theguardian.com/football/2026/aug/20/maracana-to-host-opening-game-and-final-at-next-years-womens-world-cup",
+     "title": "Brazil’s vast iron mine that supplies the world and fractures the Amazon – in pictures",
+     "summary": "The Grand Carajás project has made the country a mining superpower, but communities living in its shadow face pollution, displacement and silenced histories Continue reading...",
+     "url": "https://www.theguardian.com/global-development/gallery/2026/aug/21/brazils-vast-iron-mine-that-supplies-the-world-and-fractures-the-amazon-in-pictures",
      "publisher": "The Guardian",
      "region": "Brazil",
      "regionKey": "brazil",
-     "published": "Thu, 20 Aug 2026 15:25:54 GMT"
+     "published": "Fri, 21 Aug 2026 12:00:35 GMT"
     },
     {
-     "title": "Southeast Asia’s richest man ranks among world’s top 5 one-day wealth gainers",
-     "url": "https://e.vnexpress.net/news/business/billionaires/southeast-asia-s-richest-man-ranks-among-world-s-top-5-one-day-wealth-gainers-5114631.html",
+     "title": "BIS HCMC marks 20 years of IB with largest cohort and two perfect scorers",
+     "summary": "The British International School Ho Chi Minh City’s Class of 2026 achieved an average IB Diploma score of 36.7, above the global average of 30.9, as the school marked 20 years of the program.",
+     "url": "https://e.vnexpress.net/news/news/education/bis-hcmc-marks-20-years-of-ib-with-largest-cohort-and-two-perfect-scorers-5114762.html",
      "publisher": "VnExpress International",
      "region": "Vietnam",
      "regionKey": "vietnam",
-     "published": "Fri, 28 Aug 2026 15:55:14 +0700"
+     "published": "Fri, 28 Aug 2026 22:54:53 +0700"
     },
     {
      "title": "Singapore-born billionaire Low Tuck Kwong reportedly negotiating sale of majority stake in flagship coal mining firm",
+     "summary": "Singapore-born Indonesian billionaire Low Tuck Kwong is reportedly negotiating the sale of a majority stake in his flagship coal mining firm PT Bayan Resources, with potential buyers including a rival tycoon.",
      "url": "https://e.vnexpress.net/news/business/companies/singapore-born-billionaire-low-tuck-kwong-reportedly-negotiating-sale-of-majority-stake-in-flagship-coal-mining-firm-5114015.html",
      "publisher": "VnExpress International",
      "region": "Indonesia",
@@ -3205,6 +3694,7 @@
     },
     {
      "title": "Colombia’s new president Abelardo de la Espriella announces immigration crackdown",
+     "summary": "Far-right leader echoes ally Donald Trump and says operations to ‘track down illegal immigrants’ should begin this week, amid earthquake aftermath Colombia’s far-right president, Abelardo de la Espriella, has announced a crackdown on immigrants, ordering…",
      "url": "https://www.theguardian.com/world/2026/aug/25/colombia-immigration-crackdown-president-abelardo-de-la-espriella",
      "publisher": "The Guardian",
      "region": "Colombia",
@@ -3212,126 +3702,50 @@
      "published": "Tue, 25 Aug 2026 00:34:47 GMT"
     },
     {
-     "title": "Wife of US soldier deported after Trump rollback on military family protections",
-     "url": "https://www.theguardian.com/us-news/2026/aug/25/soldier-wife-deported-honduras",
-     "publisher": "The Guardian",
+     "title": "The first Aman in Mexico is $6,000 a night. Is it worth it?",
+     "summary": "The HTSI travel editor checks into the new arrival in Baja California Sur",
+     "url": "https://www.ft.com/content/0cdeb545-f6fe-4d97-aa1a-5933e58773c6",
+     "publisher": "Financial Times",
      "region": "South & Central America",
      "regionKey": "latam",
-     "published": "Tue, 25 Aug 2026 20:23:55 GMT"
+     "published": "Fri, 28 Aug 2026 10:00:07 GMT"
     },
     {
-     "title": "Dutch court sentences man to life over Rwanda genocide",
-     "url": "https://www.bbc.co.uk/news/articles/ce8x96rw79ro?at_medium=RSS&amp;at_campaign=rss",
-     "publisher": "BBC News",
-     "region": "East Africa",
-     "regionKey": "eastafrica",
-     "published": "Fri, 28 Aug 2026 12:15:46 GMT"
-    },
-    {
-     "title": "Brazil’s Lula launches historic fourth term bid – but son of jailed Bolsonaro stands in his way",
-     "url": "https://www.theguardian.com/world/2026/aug/16/lula-brazil-president-fourth-term-jair-flavio-bolsonaro",
-     "publisher": "The Guardian",
-     "region": "Brazil",
-     "regionKey": "brazil",
-     "published": "Sun, 16 Aug 2026 18:44:41 GMT"
-    },
-    {
-     "title": "4 Southeast Asian countries among world’s 10 biggest instant noodles markets",
-     "url": "https://e.vnexpress.net/news/business/economy/4-southeast-asian-countries-among-world-s-10-biggest-instant-noodles-markets-5114049.html",
-     "publisher": "VnExpress International",
-     "region": "Vietnam",
-     "regionKey": "vietnam",
-     "published": "Fri, 28 Aug 2026 11:21:25 +0700"
-    },
-    {
-     "title": "‘Like smoking a cigarette’: Indonesia chokes on haze as blazes intensify amid super ‘El Niño’",
-     "url": "https://www.theguardian.com/world/2026/aug/25/indonesia-wildfires-kalimantan-smoke-super-el-nino",
-     "publisher": "The Guardian",
-     "region": "Indonesia",
-     "regionKey": "indonesia",
-     "published": "Tue, 25 Aug 2026 04:17:06 GMT"
-    },
-    {
-     "title": "Landslide at unlicensed Colombian gold mine kills 13",
-     "url": "https://www.bbc.co.uk/news/articles/czxel9lz3vqo?at_medium=RSS&amp;at_campaign=rss",
-     "publisher": "BBC News",
-     "region": "Colombia",
-     "regionKey": "colombia",
-     "published": "Thu, 20 Aug 2026 15:07:57 GMT"
-    },
-    {
-     "title": "Peru earthquake damages buildings and causes power cuts",
-     "url": "https://www.bbc.co.uk/news/articles/c0km6n3ng7ko?at_medium=RSS&amp;at_campaign=rss",
-     "publisher": "BBC News",
-     "region": "South & Central America",
-     "regionKey": "latam",
-     "published": "Fri, 21 Aug 2026 11:14:38 GMT"
-    },
-    {
-     "title": "Armed raid on cattle camp kills at least 49 in South Sudan",
-     "url": "https://www.aljazeera.com/news/2026/8/28/armed-raid-on-cattle-camp-kills-at-least-49-in-south-sudan?traffic_source=rss",
+     "title": "Dutch court hands life sentence to Rwandan man for genocide role",
+     "summary": "Eugene N. was convicted for his part in a massacre at a stadium in which 3,000 Tutsis were slaughtered.",
+     "url": "https://www.aljazeera.com/news/2026/8/28/dutch-court-hands-life-sentence-to-rwandan-man-for-genocide-role?traffic_source=rss",
      "publisher": "Al Jazeera",
      "region": "East Africa",
      "regionKey": "eastafrica",
-     "published": "Fri, 28 Aug 2026 11:56:26 +0000"
+     "published": "Fri, 28 Aug 2026 13:17:34 +0000"
     },
     {
-     "title": "‘He had magnetism’: Lula returns to site of political origins to launch fourth-term campaign",
-     "url": "https://www.theguardian.com/world/2026/aug/15/brazil-president-lula-strikes-launch-fourth-term-campaign",
+     "title": "Maracanã to host opening game and final at next year’s Women’s World Cup",
+     "summary": "Stadium has hosted two men’s World Cup finals Arena Itaquera in São Paulo will host 10 matches The Maracanã in Rio de Janeiro will host the opening game and the final of next year’s Women’s World Cup. The 78,838-capacity stadium, which hosted the finals of…",
+     "url": "https://www.theguardian.com/football/2026/aug/20/maracana-to-host-opening-game-and-final-at-next-years-womens-world-cup",
      "publisher": "The Guardian",
      "region": "Brazil",
      "regionKey": "brazil",
-     "published": "Sat, 15 Aug 2026 13:00:56 GMT"
+     "published": "Thu, 20 Aug 2026 15:25:54 GMT"
     },
     {
-     "title": "Gold prices slide",
-     "url": "https://e.vnexpress.net/news/business/markets/gold-prices-slide-5114474.html",
+     "title": "Vietnam to offer preferential visas to foreign visitors who spend more, stay longer",
+     "summary": "Vietnam will introduce preferential visas for foreign visitors who contribute most to its tourism industry, under a Politburo resolution that also widens visa waivers and requires international travelers to carry insurance.",
+     "url": "https://e.vnexpress.net/news/news/vietnam-to-offer-preferential-visas-to-foreign-visitors-who-spend-more-stay-longer-5114649.html",
      "publisher": "VnExpress International",
      "region": "Vietnam",
      "regionKey": "vietnam",
-     "published": "Fri, 28 Aug 2026 11:20:30 +0700"
-    },
-    {
-     "title": "World’s second largest instant noodles market posts first demand fall in 5 years",
-     "url": "https://e.vnexpress.net/news/business/economy/world-s-second-largest-instant-noodles-market-posts-first-demand-fall-in-5-years-5112834.html",
-     "publisher": "VnExpress International",
-     "region": "Indonesia",
-     "regionKey": "indonesia",
-     "published": "Mon, 24 Aug 2026 19:52:12 +0700"
-    },
-    {
-     "title": "Activist forced out of US after criticising Trump-aligned Colombian politician",
-     "url": "https://www.theguardian.com/world/2026/aug/19/activist-forced-out-of-us-after-criticising-trump-aligned-colombian-politician",
-     "publisher": "The Guardian",
-     "region": "Colombia",
-     "regionKey": "colombia",
-     "published": "Wed, 19 Aug 2026 09:00:12 GMT"
-    },
-    {
-     "title": "Panama Canal to cut number of ships passing through due to El Niño",
-     "url": "https://www.bbc.co.uk/news/articles/cwyl0jkxxryo?at_medium=RSS&amp;at_campaign=rss",
-     "publisher": "BBC News",
-     "region": "South & Central America",
-     "regionKey": "latam",
-     "published": "Fri, 21 Aug 2026 06:46:08 GMT"
-    },
-    {
-     "title": "World's youngest reigning traditional monarch dies aged 34",
-     "url": "https://www.bbc.co.uk/news/articles/c0j38d9v40po?at_medium=RSS&amp;at_campaign=rss",
-     "publisher": "BBC News",
-     "region": "East Africa",
-     "regionKey": "eastafrica",
-     "published": "Fri, 28 Aug 2026 11:13:24 GMT"
+     "published": "Fri, 28 Aug 2026 16:56:31 +0700"
     }
    ],
-   "totalTagged": 95,
+   "totalTagged": 99,
    "feedsQueried": 14,
    "byRegion": {
-    "Brazil": 9,
-    "Vietnam": 44,
+    "Brazil": 10,
+    "Vietnam": 46,
     "Indonesia": 12,
     "Colombia": 13,
-    "South & Central America": 7,
+    "South & Central America": 8,
     "East Africa": 10
    },
    "errors": [],
@@ -3570,14 +3984,14 @@
    ]
   },
   "dailyRead": {
-   "fetchedAt": "2026-08-28T14:32:18.335Z",
+   "fetchedAt": "2026-08-28T18:12:39.449Z",
    "article": {
-    "title": "High-Scoring Microlots Head to Best of Congo Cooperatives Auction",
-    "summary": "The third Best of Congo Cooperatives coffee auction runs Sept. 1-3, giving green coffee buyers a rare chance to buy high-scoring, traceable microlots from the Democratic Republic of Congo. Beyond...",
-    "url": "https://dailycoffeenews.com/2026/08/26/high-scoring-microlots-head-to-best-of-congo-cooperatives-auction/",
+    "title": "Hawaii Coffee Farms Face Long Recovery After Hurricane Lala",
+    "summary": "Coffee farms across southern Hawaii Island are assessing crop, tree and infrastructure losses following Hurricane Lala, which brought damaging winds and extreme rainfall to some of the state’s key coffee-growing...",
+    "url": "https://dailycoffeenews.com/2026/08/28/hawaii-coffee-farms-face-long-recovery-after-hurricane-lala/",
     "publisher": "Daily Coffee News",
-    "published": "Wed, 26 Aug 2026 14:21:32 +0000",
-    "score": 7.99
+    "published": "Fri, 28 Aug 2026 14:32:20 +0000",
+    "score": 12.85
    },
    "considered": 10
   }
@@ -3600,34 +4014,27 @@
  "status": [
   {
    "source": "weather",
-   "ok": true,
-   "ms": 1561
+   "ok": true
   },
   {
    "source": "pdg-roundup",
-   "ok": false,
-   "ms": 3213,
-   "error": "no recap link found on the PDG archive page"
+   "ok": false
   },
   {
    "source": "daily-read",
-   "ok": true,
-   "ms": 3433
-  },
-  {
-   "source": "arabica-futures",
-   "ok": true,
-   "ms": 9103
+   "ok": true
   },
   {
    "source": "fx",
-   "ok": true,
-   "ms": 10100
+   "ok": true
+  },
+  {
+   "source": "arabica-futures",
+   "ok": true
   },
   {
    "source": "origin-wire",
-   "ok": true,
-   "ms": 12404
+   "ok": true
   }
  ]
 }

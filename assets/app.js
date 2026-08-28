@@ -76,7 +76,7 @@
     return Math.round(hrs / 24) + ' d ago';
   }
 
-  /** Shorten a headline for a ticker, on a word boundary where possible. */
+  /** Shorten a headline or summary, on a word boundary where possible. */
   function clip(s, n) {
     if (!s) return '';
     if (s.length <= n) return s;
@@ -123,14 +123,48 @@
   }
 
   /**
-   * A deliberately plain line chart: hairline axes, no fills, no gradients.
-   * Draws the close series, optional moving averages, and horizontal
-   * support/resistance rules taken from real swing pivots.
+   * Choose a gridline step that lands on round numbers — 1, 2, 2.5, 5 or 10
+   * times a power of ten. Without this the axis is drawn at interpolated
+   * values and the labels read 287.43 rather than 290.
+   */
+  function niceStep(range, targetTicks) {
+    if (!(range > 0)) return 1;
+    var raw = range / Math.max(1, targetTicks);
+    var mag = Math.pow(10, Math.floor(Math.log10(raw)));
+    var norm = raw / mag;
+    var step = norm <= 1 ? 1 : norm <= 2 ? 2 : norm <= 2.5 ? 2.5 : norm <= 5 ? 5 : 10;
+    return step * mag;
+  }
+
+  /** Index of the first bar of each month in the window, for the date axis. */
+  function monthBoundaries(bars) {
+    var out = [];
+    var seen = null;
+    bars.forEach(function (b, i) {
+      var key = (b.date || '').slice(0, 7);
+      if (key && key !== seen) { seen = key; out.push(i); }
+    });
+    return out;
+  }
+
+  function monthLabel(iso, showYear) {
+    var d = new Date(iso);
+    if (isNaN(d)) return '';
+    var mon = d.toLocaleDateString('en-GB', { month: 'short' });
+    return showYear ? mon + ' ' + String(d.getFullYear()).slice(2) : mon;
+  }
+
+  /**
+   * A deliberately plain line chart: hairline axes, no gradients. Draws the
+   * close series, moving averages, support/resistance rules from real swing
+   * pivots, round-number gridlines, month markers, the last price pinned to
+   * the right edge, and a crosshair that reports the exact bar under the
+   * pointer through opts.onHover.
    */
   function lineChart(opts) {
     var bars = opts.bars || [];
-    var W = 620, H = 260;
-    var m = { top: 14, right: 54, bottom: 26, left: 8 };
+    var W = 900, H = 300;
+    var m = { top: 16, right: 76, bottom: 30, left: 10 };
 
     var svg = svgEl('svg', {
       viewBox: '0 0 ' + W + ' ' + H,
@@ -154,57 +188,90 @@
       return svg;
     }
 
+    var dp = opts.dp == null ? 0 : opts.dp;
     var closes = bars.map(function (b) { return b.close; });
     var extraSeries = (opts.series || []).filter(function (s) { return s.values && s.values.length; });
 
+    // The y-domain is built from price and moving averages ONLY. Levels are
+    // found over the whole analysed history, so a level set six months ago
+    // would otherwise squash a three-month window into a band.
     var all = closes.slice();
     extraSeries.forEach(function (s) {
       s.values.forEach(function (v) { if (v != null) all.push(v); });
     });
-    (opts.levels || []).forEach(function (l) { all.push(l.price); });
 
     var lo = Math.min.apply(null, all);
     var hi = Math.max.apply(null, all);
     var pad = (hi - lo) * 0.08 || 1;
     lo -= pad; hi += pad;
 
+    // Snap the domain outward to whole multiples of a round step.
+    var step = niceStep(hi - lo, 6);
+    lo = Math.floor(lo / step) * step;
+    hi = Math.ceil(hi / step) * step;
+
     var plotW = W - m.left - m.right;
     var plotH = H - m.top - m.bottom;
     var x = function (i) { return m.left + (i / (bars.length - 1)) * plotW; };
     var y = function (v) { return m.top + (1 - (v - lo) / (hi - lo)) * plotH; };
 
-    // Horizontal gridlines with right-hand price labels.
-    var ticks = 4;
-    for (var g = 0; g <= ticks; g++) {
-      var val = lo + (hi - lo) * (g / ticks);
+    // Horizontal gridlines on round values, labelled at the right edge.
+    for (var val = lo; val <= hi + step * 0.001; val += step) {
       var yy = y(val);
       svg.appendChild(svgEl('line', {
         x1: m.left, y1: yy, x2: W - m.right, y2: yy,
-        stroke: 'currentColor', 'stroke-width': 0.5, opacity: 0.13
+        stroke: 'currentColor', 'stroke-width': 0.5, opacity: 0.14
       }));
       var lbl = svgEl('text', {
-        x: W - m.right + 6, y: yy + 3.5, 'font-size': 9.5,
-        fill: 'currentColor', opacity: .55,
+        x: W - m.right + 7, y: yy + 3.5, 'font-size': 10.5,
+        fill: 'currentColor', opacity: .6,
         'font-family': 'IBM Plex Mono, monospace'
       });
-      lbl.textContent = num(val, opts.dp == null ? 0 : opts.dp);
+      lbl.textContent = num(val, dp);
       svg.appendChild(lbl);
     }
 
-    // Support / resistance as dotted rules.
-    (opts.levels || []).forEach(function (l) {
-      var yy = y(l.price);
+    // Month markers: a faint rule and a label at each month boundary.
+    var months = monthBoundaries(bars);
+    var crossesYear = bars.length > 1 &&
+      (bars[0].date || '').slice(0, 4) !== (bars[bars.length - 1].date || '').slice(0, 4);
+    var minGap = plotW / 14; // drop labels that would collide
+    var lastLabelX = -Infinity;
+    months.forEach(function (i) {
+      if (i === 0) return;
+      var xx = x(i);
       svg.appendChild(svgEl('line', {
-        x1: m.left, y1: yy, x2: W - m.right, y2: yy,
+        x1: xx, y1: m.top, x2: xx, y2: H - m.bottom,
+        stroke: 'currentColor', 'stroke-width': 0.5, opacity: 0.1
+      }));
+      if (xx - lastLabelX < minGap) return;
+      lastLabelX = xx;
+      var mt = svgEl('text', {
+        x: xx, y: H - 10, 'font-size': 10, 'text-anchor': 'middle',
+        fill: 'currentColor', opacity: .6,
+        'font-family': 'IBM Plex Mono, monospace'
+      });
+      mt.textContent = monthLabel(bars[i].date, crossesYear);
+      svg.appendChild(mt);
+    });
+
+    // Support / resistance, but only where the level actually falls inside the
+    // visible range — an off-chart level is noise, not information.
+    (opts.levels || []).filter(function (l) {
+      return l.price != null && l.price >= lo && l.price <= hi;
+    }).forEach(function (l) {
+      var ly = y(l.price);
+      svg.appendChild(svgEl('line', {
+        x1: m.left, y1: ly, x2: W - m.right, y2: ly,
         stroke: 'currentColor', 'stroke-width': 1,
         'stroke-dasharray': '1 4', opacity: .5
       }));
       var tag = svgEl('text', {
-        x: m.left + 4, y: yy - 4, 'font-size': 8.5,
-        fill: 'currentColor', opacity: .65,
+        x: m.left + 4, y: ly - 4, 'font-size': 9.5,
+        fill: 'currentColor', opacity: .7,
         'font-family': 'IBM Plex Mono, monospace'
       });
-      tag.textContent = (l.kind === 'r' ? 'R ' : 'S ') + num(l.price, opts.dp == null ? 0 : opts.dp);
+      tag.textContent = (l.kind === 'r' ? 'R ' : 'S ') + num(l.price, dp);
       svg.appendChild(tag);
     });
 
@@ -243,23 +310,100 @@
       'stroke-width': 1.6, 'stroke-linejoin': 'round', 'stroke-linecap': 'round'
     }));
 
-    // Last point, marked and labelled.
+    // Last point, marked, with the closing value pinned against the right
+    // axis so the current number is legible without hovering.
     var lastI = closes.length - 1;
+    var lastY = y(closes[lastI]);
     svg.appendChild(svgEl('circle', {
-      cx: x(lastI), cy: y(closes[lastI]), r: 2.6, fill: 'currentColor'
+      cx: x(lastI), cy: lastY, r: 3, fill: 'currentColor'
     }));
 
-    // Date axis: first, middle, last.
-    [0, Math.floor((bars.length - 1) / 2), bars.length - 1].forEach(function (i, k) {
+    // The gridlines round to whole numbers so they stay legible, but the
+    // pinned close is the one figure a buyer reads off directly — it gets the
+    // full precision the exchange quotes.
+    var pinText = num(closes[lastI], 2);
+    var pinW = Math.max(44, pinText.length * 7 + 12);
+    svg.appendChild(svgEl('rect', {
+      x: W - m.right + 3, y: lastY - 8, width: pinW, height: 16,
+      fill: 'currentColor', rx: 1
+    }));
+    var pin = svgEl('text', {
+      x: W - m.right + 3 + pinW / 2, y: lastY + 3.5, 'font-size': 10.5,
+      'text-anchor': 'middle', 'font-weight': 600,
+      fill: 'var(--paper-deep)', 'font-family': 'IBM Plex Mono, monospace'
+    });
+    pin.textContent = pinText;
+    svg.appendChild(pin);
+
+    // First and last dates bracket the month markers.
+    [[0, 'start'], [bars.length - 1, 'end']].forEach(function (p) {
       var tx = svgEl('text', {
-        x: x(i), y: H - 8, 'font-size': 9,
-        fill: 'currentColor', opacity: .5,
-        'text-anchor': k === 0 ? 'start' : (k === 2 ? 'end' : 'middle'),
+        x: x(p[0]), y: H - 10, 'font-size': 10,
+        fill: 'currentColor', opacity: .6, 'text-anchor': p[1],
         'font-family': 'IBM Plex Mono, monospace'
       });
-      tx.textContent = fmtDate(bars[i].date);
+      tx.textContent = fmtDate(bars[p[0]].date);
       svg.appendChild(tx);
     });
+
+    // ---- crosshair ----------------------------------------------------
+    // A transparent rect over the plot captures pointer movement; the values
+    // are reported back through opts.onHover and rendered as HTML in the
+    // chart header, where they can use the page's own type and cannot
+    // overflow the viewBox.
+    var cross = svgEl('g', { opacity: 0 });
+    var crossLine = svgEl('line', {
+      y1: m.top, y2: H - m.bottom, stroke: 'currentColor',
+      'stroke-width': 1, 'stroke-dasharray': '2 3', opacity: .75
+    });
+    var crossDot = svgEl('circle', { r: 3.5, fill: 'currentColor' });
+    cross.appendChild(crossLine);
+    cross.appendChild(crossDot);
+    svg.appendChild(cross);
+
+    var current = -1;
+    function showAt(i) {
+      if (i < 0 || i >= bars.length || i === current) return;
+      current = i;
+      var cx = x(i);
+      crossLine.setAttribute('x1', cx);
+      crossLine.setAttribute('x2', cx);
+      crossDot.setAttribute('cx', cx);
+      crossDot.setAttribute('cy', y(closes[i]));
+      cross.setAttribute('opacity', 1);
+      if (opts.onHover) opts.onHover(bars[i], i, bars[i - 1] || null);
+    }
+    function clear() {
+      current = -1;
+      cross.setAttribute('opacity', 0);
+      if (opts.onHover) opts.onHover(null);
+    }
+    function indexFromEvent(ev) {
+      var r = svg.getBoundingClientRect();
+      if (!r.width) return -1;
+      var vx = ((ev.clientX - r.left) / r.width) * W;   // client px -> viewBox
+      var frac = (vx - m.left) / plotW;
+      return Math.max(0, Math.min(bars.length - 1, Math.round(frac * (bars.length - 1))));
+    }
+
+    var capture = svgEl('rect', {
+      x: m.left, y: m.top, width: plotW, height: plotH,
+      fill: 'transparent', style: 'cursor:crosshair'
+    });
+    capture.addEventListener('pointermove', function (ev) { showAt(indexFromEvent(ev)); });
+    capture.addEventListener('pointerdown', function (ev) { showAt(indexFromEvent(ev)); });
+    capture.addEventListener('pointerleave', clear);
+    svg.appendChild(capture);
+
+    // Keyboard: the exact figures should not need a mouse.
+    svg.setAttribute('tabindex', '0');
+    svg.addEventListener('keydown', function (ev) {
+      if (ev.key !== 'ArrowLeft' && ev.key !== 'ArrowRight') return;
+      ev.preventDefault();
+      var base = current < 0 ? bars.length - 1 : current;
+      showAt(base + (ev.key === 'ArrowRight' ? 1 : -1));
+    });
+    svg.addEventListener('blur', clear);
 
     return svg;
   }
@@ -405,65 +549,153 @@
     ]);
   }
 
+  // Roughly 22 trading sessions to the month.
+  var TIMEFRAMES = [
+    { key: '1M', label: '1M', sessions: 22 },
+    { key: '3M', label: '3M', sessions: 65 },
+    { key: '6M', label: '6M', sessions: 130 },
+    { key: '1Y', label: '1Y', sessions: 260 }
+  ];
+  var TF_STORAGE_KEY = 'coffeedesk.timeframe';
+  var DEFAULT_TF = '3M';
+
+  // Storage can throw outright in a private window or with site data blocked,
+  // so every read and write is guarded and the page falls back to the default.
+  function readTimeframe() {
+    try {
+      var v = window.localStorage.getItem(TF_STORAGE_KEY);
+      return TIMEFRAMES.some(function (t) { return t.key === v; }) ? v : DEFAULT_TF;
+    } catch (e) { return DEFAULT_TF; }
+  }
+  function writeTimeframe(v) {
+    try { window.localStorage.setItem(TF_STORAGE_KEY, v); } catch (e) { /* not essential */ }
+  }
+
   function renderCharts(futures) {
     var host = $('#charts');
     host.innerHTML = '';
 
-    ['arabica'].forEach(function (key) {
-      var c = futures && futures[key];
-      if (!c) return;
-      var bars = (c.bars || []).slice(-180);
-      var dp = c.market === 'Arabica' ? 0 : 0;
-      var closes = bars.map(function (b) { return b.close; });
+    var c = futures && futures.arabica;
+    if (!c || !(c.bars || []).length) {
+      host.appendChild(notice('No chart', ['No price history was available on this run.']));
+      return;
+    }
 
-      var levels = [];
-      var t = c.technicals;
-      if (t && t.levels) {
-        (t.levels.resistance || []).slice(0, 2).forEach(function (l) {
-          levels.push({ price: l.price, kind: 'r' });
-        });
-        (t.levels.support || []).slice(0, 2).forEach(function (l) {
-          levels.push({ price: l.price, kind: 's' });
-        });
-      }
+    var dp = 0;
+    var full = c.bars || [];
+    var fullCloses = full.map(function (b) { return b.close; });
+
+    // Moving averages are computed over the FULL published series and sliced
+    // afterwards. Computing them inside the window left the 50-day line
+    // covering only the last 15 points of a three-month chart.
+    var ma20Full = fullCloses.length >= 20 ? movingAverage(fullCloses, 20) : null;
+    var ma50Full = fullCloses.length >= 50 ? movingAverage(fullCloses, 50) : null;
+
+    var levels = [];
+    var t = c.technicals;
+    if (t && t.levels) {
+      (t.levels.resistance || []).slice(0, 2).forEach(function (l) {
+        levels.push({ price: l.price, kind: 'r' });
+      });
+      (t.levels.support || []).slice(0, 2).forEach(function (l) {
+        levels.push({ price: l.price, kind: 's' });
+      });
+    }
+
+    var active = readTimeframe();
+    var card = el('div', { class: 'chart-card' });
+    host.appendChild(card);
+
+    function draw() {
+      card.innerHTML = '';
+      var tf = TIMEFRAMES.filter(function (x) { return x.key === active; })[0] ||
+               TIMEFRAMES[1];
+      var n = Math.min(tf.sessions, full.length);
+      var bars = full.slice(-n);
 
       var series = [];
-      if (closes.length >= 20) {
-        series.push({ values: movingAverage(closes, 20), dash: '4 3', opacity: .5 });
+      if (ma20Full) series.push({ values: ma20Full.slice(-n), dash: '4 3', opacity: .5 });
+      if (ma50Full) series.push({ values: ma50Full.slice(-n), dash: '1 3', opacity: .45 });
+
+      // Timeframe control.
+      var buttons = el('div', { class: 'tf-group', role: 'group', 'aria-label': 'Chart timeframe' },
+        TIMEFRAMES.filter(function (x) { return full.length > x.sessions * 0.5; }).map(function (x) {
+          var b = el('button', {
+            type: 'button', class: 'tf-btn' + (x.key === active ? ' is-active' : ''),
+            'aria-pressed': x.key === active ? 'true' : 'false',
+            text: x.label
+          });
+          b.addEventListener('click', function () {
+            if (active === x.key) return;
+            active = x.key;
+            writeTimeframe(active);
+            draw();
+          });
+          return b;
+        }));
+
+      var readout = el('div', { class: 'chart-readout' });
+      function setReadout(bar, prev) {
+        readout.innerHTML = '';
+        if (!bar) {
+          var last = bars[bars.length - 1];
+          var before = bars[bars.length - 2];
+          bar = last; prev = before;
+          readout.appendChild(el('span', { class: 'ro-tag', text: 'Latest' }));
+        } else {
+          readout.appendChild(el('span', { class: 'ro-tag', text: fmtDate(bar.date) }));
+        }
+        if (!bar) return;
+        [['O', bar.open], ['H', bar.high], ['L', bar.low], ['C', bar.close]].forEach(function (p) {
+          if (p[1] == null) return;
+          readout.appendChild(el('span', { class: 'ro-pair' }, [
+            el('span', { class: 'ro-k', text: p[0] }),
+            el('span', { class: 'ro-v', text: num(p[1], 2) })
+          ]));
+        });
+        if (prev && prev.close != null && bar.close != null) {
+          var ch = bar.close - prev.close;
+          readout.appendChild(el('span', {
+            class: 'ro-chg ' + dirClass(ch),
+            text: signed(ch, 2) + ' (' + signed((ch / prev.close) * 100, 2) + '%)'
+          }));
+        }
       }
-      if (closes.length >= 50) {
-        series.push({ values: movingAverage(closes, 50), dash: '1 3', opacity: .45 });
-      }
 
-      var legend = [el('span', {}, [
-        el('span', { class: 'swatch' }), 'Settlement'
-      ])];
-      if (closes.length >= 20) legend.push(el('span', {}, [el('span', { class: 'swatch dash' }), '20-day']));
-      if (closes.length >= 50) legend.push(el('span', {}, [el('span', { class: 'swatch dash' }), '50-day']));
-      if (levels.length) legend.push(el('span', {}, ['S/R from swing pivots']));
+      card.appendChild(el('div', { class: 'chart-title' }, [
+        el('span', { text: c.contract.code + ' · ' + c.unit }),
+        buttons
+      ]));
+      card.appendChild(readout);
+      card.appendChild(lineChart({
+        bars: bars, series: series, levels: levels, dp: dp,
+        ariaLabel: c.market + ' ' + c.contract.code + ' price history, ' + tf.label,
+        onHover: function (bar, i, prev) { setReadout(bar, prev); }
+      }));
 
-      var card = el('div', { class: 'chart-card' }, [
-        el('div', { class: 'chart-title' }, [
-          el('span', { text: c.contract.code + ' · ' + c.unit }),
-          el('span', { text: bars.length + ' sessions' })
-        ]),
-        lineChart({
-          bars: bars, series: series, levels: levels, dp: dp,
-          ariaLabel: c.market + ' ' + c.contract.code + ' price history'
-        }),
-        el('div', { class: 'chart-legend' }, legend)
-      ]);
+      var legend = [el('span', {}, [el('span', { class: 'swatch' }), 'Settlement'])];
+      if (ma20Full) legend.push(el('span', {}, [el('span', { class: 'swatch dash' }), '20-day']));
+      if (ma50Full) legend.push(el('span', {}, [el('span', { class: 'swatch dot' }), '50-day']));
+      var shownLevels = levels.filter(function (l) { return l.price != null; }).length;
+      if (shownLevels) legend.push(el('span', {}, ['S/R where in range']));
+      // Show the year when the window straddles one, otherwise a 260-session
+      // range reads as "18 Aug – 28 Aug" and looks like ten days.
+      var from = bars[0].date, to = bars[bars.length - 1].date;
+      var spansYears = (from || '').slice(0, 4) !== (to || '').slice(0, 4);
+      var fmtEnd = function (d) {
+        return spansYears
+          ? new Date(d).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' })
+          : fmtDate(d);
+      };
+      legend.push(el('span', { class: 'legend-range', text:
+        bars.length + ' sessions · ' + fmtEnd(from) + ' – ' + fmtEnd(to) }));
+      card.appendChild(el('div', { class: 'chart-legend' }, legend));
+      card.appendChild(cite(['Hover, tap or use arrow keys for exact figures', 'Yahoo Finance']));
 
-      if (c.historyNote && bars.length < 40) {
-        card.appendChild(el('p', { class: 'panel-foot', text: c.historyNote }));
-      }
-
-      host.appendChild(card);
-    });
-
-    if (!host.children.length) {
-      host.appendChild(notice('No charts', ['No price history was available on this run.']));
+      setReadout(null);
     }
+
+    draw();
   }
 
   function renderTechnicals(futures) {
@@ -789,14 +1021,14 @@
     var body = [];
     countries.forEach(function (country) {
       body.push(el('tr', { class: 'country-row' }, [
-        el('th', { colspan: 6, scope: 'rowgroup', class: 'country-head', text: country })
+        el('th', { colspan: 5, scope: 'rowgroup', class: 'country-head', text: country })
       ]));
 
       byCountry[country].forEach(function (r) {
         if (r.error) {
           body.push(el('tr', {}, [
             el('td', { class: 'name region-cell', text: r.name }),
-            el('td', { colspan: 5, class: 'err', text: 'unavailable' })
+            el('td', { colspan: 4, class: 'err', text: 'unavailable' })
           ]));
           return;
         }
@@ -819,8 +1051,7 @@
           el('td', {}, [el('span', { class: 'species', text: r.species })]),
           el('td', { class: 'num', text: r.current && r.current.tMax != null ? num(r.current.tMax, 0) + '°' : '—' }),
           el('td', { class: 'num', text: r.minForecast7 == null ? '—' : num(r.minForecast7, 0) + '°' }),
-          el('td', { class: 'num', text: r.rain14 == null ? '—' : num(r.rain14, 0) }),
-          el('td', { class: 'num', text: r.rainForecast7 == null ? '—' : num(r.rainForecast7, 0) })
+          el('td', { class: 'num', text: r.rain14 == null ? '—' : num(r.rain14, 0) })
         ]));
       });
     });
@@ -832,8 +1063,7 @@
           el('th', { text: 'Type' }),
           el('th', { class: 'num', text: 'Max °C' }),
           el('th', { class: 'num', text: 'Min 7d' }),
-          el('th', { class: 'num', text: 'Rain 14d mm' }),
-          el('th', { class: 'num', text: 'Rain 7d fc' })
+          el('th', { class: 'num', text: 'Rain 14d' })
         ])]),
         el('tbody', {}, body)
       ])
@@ -864,34 +1094,92 @@
     host.appendChild(cite(['Open-Meteo', '12 regions', 'flags are rules, not forecasts']));
   }
 
-  /**
-   * A ticker. The track is duplicated so the scroll loops seamlessly; the copy
-   * is hidden from assistive tech so headlines are not announced twice. Under
-   * prefers-reduced-motion the CSS stops the animation and the strip becomes a
-   * normal horizontally scrollable list.
-   */
-  function ticker(items, opts) {
-    opts = opts || {};
-    // The lane is duplicated, so its width is twice the content. Browsers cap
-    // a composited layer at roughly 16,384px and silently fail to paint past
-    // it, so the item count is capped to keep the lane comfortably inside that
-    // limit. Callers truncate the text for the same reason.
-    var MAX_ITEMS = opts.maxItems || 10;
-    var shown = items.slice(0, MAX_ITEMS);
+  var reducedMotion = (function () {
+    try { return window.matchMedia('(prefers-reduced-motion: reduce)').matches; }
+    catch (e) { return false; }
+  })();
 
-    function track(ariaHidden) {
-      var t = el('div', { class: 'ticker-track' }, shown.map(function (mk) { return mk(); }));
-      if (ariaHidden) t.setAttribute('aria-hidden', 'true');
-      return t;
+  /**
+   * A slide-at-a-time reader. One story is composited at a time, so unlike the
+   * scrolling ticker it replaced there is no enormous animated lane to run into
+   * the browser's texture limit, and there is room for a summary.
+   *
+   * Auto-advance stops for good once the reader touches a control: a slider
+   * that keeps moving after you have taken charge of it is hostile.
+   */
+  function slider(slides, opts) {
+    opts = opts || {};
+    var interval = (opts.seconds || 10) * 1000;
+    var i = 0, timer = null, surrendered = reducedMotion;
+
+    var track = el('div', { class: 'slider-track' }, slides.map(function (mk, n) {
+      var s = el('div', { class: 'slide' + (n === 0 ? ' is-current' : '') }, [mk()]);
+      if (n !== 0) s.setAttribute('aria-hidden', 'true');
+      return s;
+    }));
+
+    var dots = el('div', { class: 'slider-dots', role: 'tablist', 'aria-label': 'Choose a story' },
+      slides.map(function (_, n) {
+        var d = el('button', {
+          type: 'button', class: 'slider-dot' + (n === 0 ? ' is-current' : ''),
+          role: 'tab', 'aria-selected': n === 0 ? 'true' : 'false',
+          'aria-label': 'Story ' + (n + 1) + ' of ' + slides.length
+        });
+        d.addEventListener('click', function () { surrender(); go(n); });
+        return d;
+      }));
+
+    function go(n) {
+      var next = (n + slides.length) % slides.length;
+      if (next === i) return;
+      var kids = track.children;
+      kids[i].classList.remove('is-current');
+      kids[i].setAttribute('aria-hidden', 'true');
+      kids[next].classList.add('is-current');
+      kids[next].removeAttribute('aria-hidden');
+      dots.children[i].classList.remove('is-current');
+      dots.children[i].setAttribute('aria-selected', 'false');
+      dots.children[next].classList.add('is-current');
+      dots.children[next].setAttribute('aria-selected', 'true');
+      i = next;
+      counter.textContent = (i + 1) + ' / ' + slides.length;
     }
-    var speed = Math.max(60, Math.min(400, shown.length * (opts.secondsPerItem || 12)));
-    var lane = el('div', { class: 'ticker-lane', style: '--ticker-duration:' + speed + 's' }, [
-      track(false), track(true)
+
+    function start() { if (!surrendered && !timer) timer = setInterval(function () { go(i + 1); }, interval); }
+    function stop() { if (timer) { clearInterval(timer); timer = null; } }
+    function surrender() { surrendered = true; stop(); }
+
+    var prev = el('button', { type: 'button', class: 'slider-nav', 'aria-label': 'Previous story', text: '‹' });
+    var next = el('button', { type: 'button', class: 'slider-nav', 'aria-label': 'Next story', text: '›' });
+    prev.addEventListener('click', function () { surrender(); go(i - 1); });
+    next.addEventListener('click', function () { surrender(); go(i + 1); });
+
+    var counter = el('span', { class: 'slider-count', text: '1 / ' + slides.length });
+
+    var wrap = el('div', { class: 'slider' }, [
+      el('div', { class: 'slider-head' }, [
+        opts.label ? el('span', { class: 'slider-label', text: opts.label }) : null,
+        el('div', { class: 'slider-controls' }, [prev, counter, next])
+      ]),
+      // aria-live off: an auto-advancing region must not interrupt a screen
+      // reader mid-sentence. The controls are the way in.
+      el('div', { class: 'slider-window', 'aria-live': 'off' }, [track]),
+      dots
     ]);
-    return el('div', { class: 'ticker' + (opts.modifier ? ' ' + opts.modifier : '') }, [
-      opts.label ? el('span', { class: 'ticker-label', text: opts.label }) : null,
-      el('div', { class: 'ticker-window' }, [lane])
-    ]);
+
+    wrap.addEventListener('mouseenter', stop);
+    wrap.addEventListener('mouseleave', start);
+    wrap.addEventListener('focusin', stop);
+    wrap.addEventListener('focusout', start);
+
+    // Timers keep firing in a hidden tab while the fade is frozen, so a reader
+    // coming back would find the slider several stories along for no reason.
+    document.addEventListener('visibilitychange', function () {
+      if (document.hidden) stop(); else start();
+    });
+
+    if (!document.hidden) start();
+    return wrap;
   }
 
   function renderOriginWire(wire) {
@@ -909,24 +1197,30 @@
       return;
     }
 
-    host.appendChild(ticker(wire.headlines.map(function (h) {
+    host.appendChild(slider(wire.headlines.map(function (h) {
       return function () {
-        return el('a', {
-          class: 'ticker-item', href: h.url, target: '_blank', rel: 'noopener noreferrer'
-        }, [
-          el('span', { class: 'ticker-region', text: h.region }),
-          el('span', { class: 'ticker-text', text: clip(h.title, 62) }),
-          el('span', { class: 'ticker-pub', text: h.publisher }),
-          // The wire runs three weeks deep because the origins are not covered
-          // daily, so every item states its age rather than implying it is new.
-          el('span', { class: 'ticker-age', text: relTime(h.published) || fmtDate(h.published) })
-        ]);
+        var kids = [
+          el('div', { class: 'slide-meta' }, [
+            el('span', { class: 'slide-region', text: h.region }),
+            el('span', { class: 'slide-pub', text: h.publisher }),
+            // The wire runs three weeks deep because the origins are not
+            // covered daily, so every story states its age rather than
+            // implying it is new.
+            el('span', { class: 'slide-age', text: relTime(h.published) || fmtDate(h.published) })
+          ]),
+          el('h3', { class: 'slide-title' }, [
+            el('a', { href: h.url, target: '_blank', rel: 'noopener noreferrer', text: h.title })
+          ])
+        ];
+        // Not every feed carries a standfirst; the slide simply runs shorter.
+        if (h.summary) kids.push(el('p', { class: 'slide-summary', text: clip(h.summary, 260) }));
+        return el('article', { class: 'slide-body' }, kids);
       };
-    }), { label: 'Origin wire', secondsPerItem: 13 }));
+    }), { label: 'Origin wire', seconds: 10 }));
 
     host.appendChild(cite([
       'BBC, Guardian, FT, Al Jazeera, VnExpress',
-      wire.totalTagged + ' matched, ' + Math.min(10, wire.headlines.length) + ' shown',
+      wire.totalTagged + ' matched, ' + wire.headlines.length + ' shown',
       Math.round(wire.lookbackHours / 24) + '-day window'
     ]));
   }
@@ -943,31 +1237,52 @@
       return;
     }
 
-    host.appendChild(ticker(roundup.items.map(function (it) {
-      return function () {
-        var kids = [
-          el('span', { class: 'ticker-region', text: it.date }),
-          el('span', { class: 'ticker-text', text: clip(it.headline, 62) })
-        ];
-        if (it.section) kids.push(el('span', { class: 'ticker-pub', text: it.section }));
-        return it.url
-          ? el('a', { class: 'ticker-item', href: it.url, target: '_blank', rel: 'noopener noreferrer' }, kids)
-          : el('span', { class: 'ticker-item' }, kids);
-      };
-    }), { label: 'Week in coffee', secondsPerItem: 13, maxItems: 10 }));
-
-    var head = el('p', { class: 'roundup-source' }, [
+    host.appendChild(el('p', { class: 'roundup-source' }, [
       el('a', {
         href: roundup.articleUrl, target: '_blank', rel: 'noopener noreferrer',
         text: roundup.title || 'Coffee News Recap'
       }),
       el('span', { class: 'badge', text: 'Perfect Daily Grind' })
-    ]);
-    host.appendChild(head);
+    ]));
 
-    var shownCount = Math.min(10, roundup.items.length);
+    // A weekly digest of one-line headlines: a static list reads far better
+    // than motion, and there are no summaries to slide through anyway.
+    // Sections that matter to someone buying physical coffee come first; the
+    // rest keep the order the recap gave them.
+    var PRIORITY = ['Top stories of the week', 'Trade & production'];
+    var groups = [];
+    var bySection = {};
+    roundup.items.forEach(function (it) {
+      var s = it.section || 'Other';
+      if (!bySection[s]) { bySection[s] = []; groups.push(s); }
+      bySection[s].push(it);
+    });
+    groups.sort(function (a, b) {
+      var ia = PRIORITY.indexOf(a), ib = PRIORITY.indexOf(b);
+      return (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib);
+    });
+
+    var list = el('div', { class: 'recap' });
+    groups.forEach(function (s) {
+      var block = el('section', { class: 'recap-group' }, [
+        el('h3', { class: 'recap-head', text: s })
+      ]);
+      var ul = el('ul', { class: 'recap-list' }, bySection[s].map(function (it) {
+        var label = el('span', { class: 'recap-text', text: it.headline });
+        return el('li', {}, [
+          el('span', { class: 'recap-date', text: it.date || '' }),
+          it.url
+            ? el('a', { href: it.url, target: '_blank', rel: 'noopener noreferrer' }, [label])
+            : label
+        ]);
+      }));
+      block.appendChild(ul);
+      list.appendChild(block);
+    });
+    host.appendChild(list);
+
     host.appendChild(cite([
-      shownCount + ' of ' + roundup.items.length + ' headlines',
+      roundup.items.length + ' headlines',
       'links go to the original source',
       roundup.source === 'manual'
         ? 'captured ' + fmtDate(roundup.capturedAt)
@@ -1076,7 +1391,7 @@
     }
     if (wire.lookbackHours) {
       method.push(['Origin wire',
-        'Headlines are tagged to a region by the countries and cities they name, and the ticker ' +
+        'Headlines are tagged to a region by the countries and cities they name, and the slider ' +
         'rotates between regions so one busy country cannot crowd out the rest. The window is ' +
         Math.round(wire.lookbackHours / 24) + ' days because these origins are not covered daily ' +
         'by the international press — every headline carries its own age.']);

@@ -493,96 +493,6 @@ td.muted, .muted { color: var(--muted); }
 }
 .origin-country { color: var(--muted); }
 
-/* ---------------- Tickers ---------------- */
-
-.ticker {
-  display: flex;
-  align-items: stretch;
-  border-top: 1px solid var(--ink);
-  border-bottom: 1px solid var(--ink);
-  background: var(--paper-deep);
-  overflow: hidden;
-}
-
-.ticker-label {
-  flex: 0 0 auto;
-  display: flex;
-  align-items: center;
-  padding: 0 .8rem;
-  background: var(--ink);
-  color: var(--paper);
-  font-family: var(--mono);
-  font-size: .58rem;
-  font-weight: 600;
-  letter-spacing: .18em;
-  text-transform: uppercase;
-  white-space: nowrap;
-}
-
-.ticker-window {
-  flex: 1 1 auto;
-  overflow: hidden;
-  position: relative;
-  min-width: 0;
-}
-
-/* Two identical tracks side by side; translating the lane by half its width
-   returns it to an identical frame, so the loop has no visible seam. */
-.ticker-lane {
-  display: flex;
-  width: max-content;
-  animation: ticker-scroll var(--ticker-duration, 60s) linear infinite;
-}
-.ticker:hover .ticker-lane,
-.ticker:focus-within .ticker-lane { animation-play-state: paused; }
-
-.ticker-track { display: flex; }
-
-@keyframes ticker-scroll {
-  from { transform: translateX(0); }
-  to   { transform: translateX(-50%); }
-}
-
-.ticker-item {
-  display: inline-flex;
-  align-items: baseline;
-  gap: .7rem;
-  padding: 1rem 1.8rem 1rem 0;
-  margin-right: 1.8rem;
-  border-right: 1px solid var(--rule-faint);
-  white-space: nowrap;
-  text-decoration: none;
-  font-size: 1.02rem;
-}
-a.ticker-item:hover .ticker-text { text-decoration: underline; text-underline-offset: 3px; }
-
-.ticker-region {
-  font-family: var(--mono);
-  font-size: .56rem;
-  font-weight: 600;
-  letter-spacing: .14em;
-  text-transform: uppercase;
-  color: var(--ink);
-  border: 1px solid var(--rule);
-  padding: .1rem .35rem;
-  white-space: nowrap;
-}
-.ticker-text { color: var(--ink); }
-.ticker-pub {
-  font-family: var(--mono);
-  font-size: .56rem;
-  letter-spacing: .1em;
-  text-transform: uppercase;
-  color: var(--muted);
-}
-
-/* No motion: the strip becomes a plain scrollable list. */
-@media (prefers-reduced-motion: reduce) {
-  .ticker-lane { animation: none; }
-  .ticker-window { overflow-x: auto; }
-  .ticker-lane > .ticker-track[aria-hidden="true"] { display: none; }
-}
-
 .roundup-source {
   margin: .8rem 0 0;
   font-family: var(--text);
@@ -717,15 +627,6 @@ a.ticker-item:hover .ticker-text { text-decoration: underline; text-underline-of
 }
 .curve-panel .panel-foot { margin-top: auto; }
 
-.ticker-age {
-  font-family: var(--mono);
-  font-size: .54rem;
-  letter-spacing: .08em;
-  text-transform: uppercase;
-  color: var(--muted);
-  opacity: .8;
-}
-
 /* Condition in words beside the icon: the picture is scannable, the text is
    unambiguous. Both are kept so neither has to be inferred from the other. */
 .wx-cond {
@@ -740,20 +641,6 @@ a.ticker-item:hover .ticker-text { text-decoration: underline; text-underline-of
 .wx-cond-cloudy   { color: var(--muted); }
 .wx-cond-wet      { color: var(--wet); }
 .wx-cond-very-wet { color: var(--wet); font-weight: 600; }
-
-/* ---------------- Ticker: larger, calmer ---------------- */
-
-.ticker-label {
-  font-size: .64rem;
-  padding: 0 1.1rem;
-  letter-spacing: .2em;
-}
-.ticker-region {
-  font-size: .62rem;
-  padding: .18rem .45rem;
-}
-.ticker-pub, .ticker-age { font-size: .62rem; }
-.ticker-text { font-family: var(--text); }
 
 /* ---------------- Condensed citations ---------------- */
 
@@ -812,3 +699,242 @@ a.ticker-item:hover .ticker-text { text-decoration: underline; text-underline-of
 .stories > * { min-width: 0; }
 
 .table-scroll { min-width: 0; max-width: 100%; }
+
+/* ============================================================
+   Chart controls and readout
+   ============================================================ */
+
+.tf-group { display: flex; gap: 1px; }
+.tf-btn {
+  font-family: var(--mono);
+  font-size: .58rem;
+  font-weight: 500;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  background: transparent;
+  border: 1px solid var(--rule);
+  padding: .22rem .5rem;
+  cursor: pointer;
+  line-height: 1;
+}
+.tf-btn:hover { color: var(--ink); border-color: var(--ink); }
+.tf-btn.is-active {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--paper);
+}
+
+/* Exact figures for the hovered session. Sits in the card header rather than
+   inside the SVG, so it uses the page's own type and cannot overflow. */
+.chart-readout {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: .3rem .85rem;
+  font-family: var(--mono);
+  font-size: .68rem;
+  font-variant-numeric: tabular-nums;
+  min-height: 1.1rem;
+  padding-bottom: .2rem;
+}
+.ro-tag {
+  font-size: .58rem;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--paper);
+  background: var(--ink);
+  padding: .1rem .4rem;
+}
+.ro-pair { display: inline-flex; gap: .3rem; align-items: baseline; }
+.ro-k { color: var(--muted); font-size: .58rem; }
+.ro-v { color: var(--ink); }
+.ro-chg { font-weight: 500; }
+
+.chart-card svg:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+.legend-range { margin-left: auto; }
+
+/* ============================================================
+   News slider — one story at a time, with its summary
+   ============================================================ */
+
+.slider {
+  border-top: 1px solid var(--ink);
+  border-bottom: 1px solid var(--ink);
+  background: var(--paper-deep);
+}
+
+.slider-head {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 1rem;
+  border-bottom: 1px solid var(--rule);
+}
+.slider-label {
+  display: flex;
+  align-items: center;
+  padding: .5rem 1.1rem;
+  background: var(--ink);
+  color: var(--paper);
+  font-family: var(--mono);
+  font-size: .6rem;
+  font-weight: 600;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.slider-controls {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  padding: 0 .8rem;
+}
+.slider-nav {
+  font-family: var(--display);
+  font-size: 1.2rem;
+  line-height: 1;
+  color: var(--ink);
+  background: transparent;
+  border: 1px solid var(--rule);
+  width: 1.9rem;
+  height: 1.9rem;
+  cursor: pointer;
+}
+.slider-nav:hover { border-color: var(--ink); background: var(--paper); }
+.slider-count {
+  font-family: var(--mono);
+  font-size: .58rem;
+  letter-spacing: .1em;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  min-width: 3.5rem;
+  text-align: center;
+}
+
+/* Slides stack; only the current one is laid out, so the window takes the
+   height of whichever story is showing. */
+.slider-window { padding: 1.2rem 1.4rem; }
+.slider-track { display: grid; }
+/* Visibility, not an opacity transition, decides which slide is showing: the
+   state is then structural rather than dependent on an animation finishing.
+   Hidden slides still occupy the grid cell, so the window keeps the height of
+   the longest story and does not jump as slides change. The fade is a pure
+   entry animation 2014 if it never runs, the slide is simply there. */
+.slide { grid-area: 1 / 1; visibility: hidden; }
+.slide.is-current { visibility: visible; animation: slide-in .45s ease; }
+@keyframes slide-in { from { opacity: 0; } to { opacity: 1; } }
+
+.slide-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: .5rem .7rem;
+  margin-bottom: .5rem;
+}
+.slide-region {
+  font-family: var(--mono);
+  font-size: .58rem;
+  font-weight: 600;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--ink);
+  border: 1px solid var(--rule);
+  padding: .12rem .4rem;
+}
+.slide-pub, .slide-age {
+  font-family: var(--mono);
+  font-size: .58rem;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.slide-pub { color: var(--ink); }
+.slide-title {
+  font-family: var(--text);
+  font-size: 1.22rem;
+  font-weight: 600;
+  line-height: 1.28;
+  margin: 0 0 .45rem;
+  text-wrap: balance;
+  max-width: 60ch;
+}
+.slide-title a { text-decoration: none; }
+.slide-title a:hover { text-decoration: underline; text-underline-offset: 3px; }
+.slide-summary {
+  margin: 0;
+  font-size: .95rem;
+  line-height: 1.5;
+  color: var(--ink-soft);
+  max-width: 68ch;
+}
+
+.slider-dots {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .3rem;
+  padding: 0 1.4rem 1rem;
+}
+.slider-dot {
+  width: 1.5rem;
+  height: 3px;
+  padding: 0;
+  border: none;
+  background: var(--rule);
+  cursor: pointer;
+}
+.slider-dot:hover { background: var(--muted); }
+.slider-dot.is-current { background: var(--ink); }
+
+/* Reduced motion is already handled globally further up, where every
+   animation and transition is switched off. */
+
+/* ============================================================
+   Weekly recap — a static digest, not a moving strip
+   ============================================================ */
+
+.recap { columns: 2; column-gap: 2.2rem; margin-top: 1rem; }
+.recap-group { break-inside: avoid; margin: 0 0 1.1rem; }
+.recap-head {
+  font-family: var(--mono);
+  font-size: .58rem;
+  font-weight: 600;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: var(--ink);
+  margin: 0 0 .35rem;
+  padding-bottom: .25rem;
+  border-bottom: 1px solid var(--rule);
+}
+.recap-list { list-style: none; margin: 0; padding: 0; }
+.recap-list li {
+  display: flex;
+  gap: .55rem;
+  align-items: baseline;
+  padding: .28rem 0;
+  border-bottom: 1px solid var(--rule-faint);
+  font-size: .88rem;
+  line-height: 1.35;
+}
+.recap-list li:last-child { border-bottom: none; }
+.recap-date {
+  font-family: var(--mono);
+  font-size: .55rem;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  white-space: nowrap;
+  flex: 0 0 auto;
+  min-width: 5.2rem;
+}
+.recap-list a { text-decoration: none; }
+.recap-list a:hover .recap-text { text-decoration: underline; text-underline-offset: 3px; }
+
+@media (max-width: 820px) {
+  .recap { columns: 1; }
+  .slider-window { padding: 1rem 1.1rem; }
+  .slider-dots { padding: 0 1.1rem 1rem; }
+  .slide-title { font-size: 1.1rem; }
+  .chart-readout { font-size: .62rem; gap: .25rem .6rem; }
+  .legend-range { margin-left: 0; width: 100%; }
+}

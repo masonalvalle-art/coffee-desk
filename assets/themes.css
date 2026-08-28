@@ -1,0 +1,271 @@
+/* ============================================================
+   DESIGN PHASE ONLY — variant skins, layouts and accents.
+
+   This is an override layer on top of style.css, not a
+   replacement. With no data- attributes on <html> nothing here
+   applies and the page renders exactly as it does today, so the
+   real site is unaffected while we experiment.
+
+   Three independent switches:
+     <html data-skin="broadsheet | editorial | feature"
+           data-layout="stacked | rail | frontispiece"
+           data-accent="ink | aubergine | ochre">
+
+   When a combination is chosen, the winning rules get folded
+   into style.css and this file is deleted.
+   ============================================================ */
+
+
+/* ============================================================
+   ACCENTS
+
+   Deliberately nowhere near red or green: those already mean
+   price direction and weather risk on this page, and an accent
+   that collided with them would make a decorative choice read
+   as data. Each has a light and a dark value so it holds
+   contrast on both grounds.
+   ============================================================ */
+
+:root { --accent: var(--ink); --accent-contrast: var(--paper); }
+
+[data-accent="ink"]       { --accent: #22406B; --accent-contrast: #ffffff; }
+[data-accent="aubergine"] { --accent: #5B2A4E; --accent-contrast: #ffffff; }
+[data-accent="ochre"]     { --accent: #8A6A18; --accent-contrast: #ffffff; }
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"])[data-accent="ink"]       { --accent: #8FB3E0; --accent-contrast: #0e0e0d; }
+  :root:not([data-theme="light"])[data-accent="aubergine"] { --accent: #D69FC4; --accent-contrast: #0e0e0d; }
+  :root:not([data-theme="light"])[data-accent="ochre"]     { --accent: #DCBA62; --accent-contrast: #0e0e0d; }
+}
+[data-theme="dark"][data-accent="ink"]       { --accent: #8FB3E0; --accent-contrast: #0e0e0d; }
+[data-theme="dark"][data-accent="aubergine"] { --accent: #D69FC4; --accent-contrast: #0e0e0d; }
+[data-theme="dark"][data-accent="ochre"]     { --accent: #DCBA62; --accent-contrast: #0e0e0d; }
+
+
+/* ============================================================
+   SKIN — editorial
+   The brief, delivered with restraint. Air instead of rules:
+   whitespace does the separating that hairlines do today.
+   ============================================================ */
+
+[data-skin="editorial"] {
+  --measure: 1080px;
+  --gutter: 3rem;
+}
+
+[data-skin="editorial"] body { font-size: 18px; line-height: 1.65; }
+
+[data-skin="editorial"] main { gap: 4.5rem; }
+
+/* Nameplate: smaller but far more letterspaced — magazine, not front page. */
+[data-skin="editorial"] .nameplate {
+  font-size: clamp(2.2rem, 6vw, 3.6rem);
+  font-weight: 700;
+  letter-spacing: .06em;
+  margin: .3rem 0 .5rem;
+}
+[data-skin="editorial"] .masthead { padding-top: 3.5rem; text-align: center; }
+[data-skin="editorial"] .masthead-rule.top { border-top-width: 1px; }
+[data-skin="editorial"] .masthead-rule.bottom {
+  border-top-width: 1px;
+  border-bottom: none;
+  height: 0;
+  margin-top: 1.4rem;
+  border-color: var(--accent);
+}
+[data-skin="editorial"] .tagline { font-size: 1.02rem; margin-bottom: 1rem; }
+
+/* Section heads: quiet letterspaced caps, no double rule. */
+[data-skin="editorial"] .section-head {
+  color: var(--accent);
+  font-size: .62rem;
+  letter-spacing: .32em;
+  margin-bottom: 1.8rem;
+}
+[data-skin="editorial"] .section-head::after {
+  border-top: 1px solid var(--rule-faint);
+  border-bottom: none;
+  height: 0;
+}
+
+/* Strip the boxes. Whitespace separates instead. */
+[data-skin="editorial"] .lead-grid { border: none; }
+[data-skin="editorial"] .contract { padding: 0 2.5rem 0 0; }
+[data-skin="editorial"] .contract + .contract { border-left: 1px solid var(--rule-faint); padding-left: 2.5rem; }
+[data-skin="editorial"] .chart-card { border: none; background: transparent; padding: 0; }
+[data-skin="editorial"] .slider { border: none; background: transparent; }
+[data-skin="editorial"] .slider-head { border-bottom: 1px solid var(--rule-faint); }
+[data-skin="editorial"] .slider-label { background: var(--accent); color: var(--accent-contrast); }
+[data-skin="editorial"] .slider-window { padding: 1.6rem 0; }
+[data-skin="editorial"] .slider-dots { padding: 0 0 .5rem; }
+[data-skin="editorial"] .panel { border-top-width: 1px; padding-top: 1.2rem; }
+
+/* Tables: horizontal rhythm only. */
+[data-skin="editorial"] table.sheet th {
+  border-bottom-color: var(--rule-faint);
+  color: var(--accent);
+  padding-bottom: .6rem;
+}
+[data-skin="editorial"] table.sheet td { padding-top: .6rem; padding-bottom: .6rem; }
+
+[data-skin="editorial"] .slide-title { font-size: 1.5rem; font-weight: 400; }
+[data-skin="editorial"] .story h3 { font-size: 1.35rem; font-weight: 400; }
+[data-skin="editorial"] .recap-head { color: var(--accent); border-bottom-color: var(--rule-faint); }
+[data-skin="editorial"] .cite a { color: var(--accent); }
+[data-skin="editorial"] .tf-btn.is-active { background: var(--accent); border-color: var(--accent); color: var(--accent-contrast); }
+[data-skin="editorial"] .ro-tag { background: var(--accent); color: var(--accent-contrast); }
+
+
+/* ============================================================
+   SKIN — feature
+   The same direction pushed: dramatic scale contrast, the
+   accent as a filled field rather than a line, maximum air.
+   ============================================================ */
+
+[data-skin="feature"] {
+  --measure: 1000px;
+  --gutter: 3.5rem;
+}
+
+[data-skin="feature"] body { font-size: 18px; line-height: 1.7; }
+[data-skin="feature"] main { gap: 6rem; }
+
+/* A masthead band: the accent as a field. */
+[data-skin="feature"] .masthead {
+  background: var(--accent);
+  color: var(--accent-contrast);
+  max-width: none;
+  padding: 3rem var(--gutter) 2.4rem;
+  margin-bottom: 3.5rem;
+}
+[data-skin="feature"] .masthead-rule { border: none; height: 0; }
+[data-skin="feature"] .nameplate {
+  font-size: clamp(3rem, 11vw, 6.5rem);
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  line-height: .9;
+}
+[data-skin="feature"] .masthead-meta,
+[data-skin="feature"] .tagline,
+[data-skin="feature"] .strap { color: var(--accent-contrast); opacity: .85; }
+[data-skin="feature"] .strap a { border-bottom-color: currentColor; }
+
+/* Oversized quiet labels against the big display type. */
+[data-skin="feature"] .section-head {
+  font-size: .58rem;
+  letter-spacing: .4em;
+  margin-bottom: 2.2rem;
+  color: var(--muted);
+}
+[data-skin="feature"] .section-head::after { border: none; height: 0; }
+
+[data-skin="feature"] .lead-grid { border: none; }
+[data-skin="feature"] .contract { padding: 0 3rem 0 0; }
+[data-skin="feature"] .contract + .contract { border-left: none; padding-left: 0; }
+[data-skin="feature"] .price { font-size: clamp(3rem, 9vw, 4.6rem); }
+[data-skin="feature"] .contract-name { font-family: var(--display); font-size: 2.1rem; font-weight: 700; }
+
+[data-skin="feature"] .chart-card { border: none; background: transparent; padding: 0; }
+[data-skin="feature"] .panel { border-top: none; }
+[data-skin="feature"] .panel h3 { font-family: var(--display); font-size: 1.5rem; font-weight: 700; }
+
+/* Label chips: accent as a filled field. */
+[data-skin="feature"] .slider-label,
+[data-skin="feature"] .ro-tag,
+[data-skin="feature"] .tf-btn.is-active,
+[data-skin="feature"] .slide-region {
+  background: var(--accent);
+  color: var(--accent-contrast);
+  border-color: var(--accent);
+}
+[data-skin="feature"] .slider { border: none; background: transparent; }
+[data-skin="feature"] .slider-head { border-bottom: none; }
+[data-skin="feature"] .slider-window { padding: 1.8rem 0; }
+[data-skin="feature"] .slider-dots { padding: 0 0 .5rem; }
+[data-skin="feature"] .slide-title { font-family: var(--display); font-size: 2rem; font-weight: 700; line-height: 1.15; }
+[data-skin="feature"] .story h3 { font-family: var(--display); font-size: 1.8rem; font-weight: 700; }
+
+[data-skin="feature"] table.sheet th { border-bottom: none; color: var(--muted); }
+[data-skin="feature"] table.sheet td { border-bottom-color: var(--rule-faint); padding-top: .7rem; padding-bottom: .7rem; }
+[data-skin="feature"] .recap-head { color: var(--accent); border-bottom: none; }
+[data-skin="feature"] .cite a { color: var(--accent); }
+
+
+/* ============================================================
+   LAYOUT — rail
+   Main column plus a quieter right-hand rail. The rail takes
+   the reference material; the main column takes what you came
+   for. Collapses back to stacked on mobile.
+   ============================================================ */
+
+@media (min-width: 900px) {
+  [data-layout="rail"] main {
+    display: grid;
+    grid-template-columns: minmax(0, 2.1fr) minmax(0, 1fr);
+    column-gap: 3.5rem;
+    row-gap: 3rem;
+    align-items: start;
+  }
+  [data-layout="rail"] .sec-board,
+  [data-layout="rail"] .sec-chart,
+  [data-layout="rail"] .sec-tech,
+  [data-layout="rail"] .sec-wire,
+  [data-layout="rail"] .sec-recap,
+  [data-layout="rail"] .sec-read { grid-column: 1; }
+
+  [data-layout="rail"] .sec-fx,
+  [data-layout="rail"] .sec-phys,
+  [data-layout="rail"] .sec-weather,
+  [data-layout="rail"] .sec-sources { grid-column: 2; }
+
+  /* The rail is reference, so it is set quieter and tighter. */
+  [data-layout="rail"] .sec-fx,
+  [data-layout="rail"] .sec-phys,
+  [data-layout="rail"] .sec-weather,
+  [data-layout="rail"] .sec-sources { font-size: .92em; }
+
+  [data-layout="rail"] .phys-grid,
+  [data-layout="rail"] .tech-grid { grid-template-columns: 1fr; }
+}
+
+
+/* ============================================================
+   LAYOUT — frontispiece
+   A magazine front: the price and chart share a hero band, then
+   the rest flows in a balanced two-column grid.
+   ============================================================ */
+
+@media (min-width: 900px) {
+  [data-layout="frontispiece"] main {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 3.5rem;
+    row-gap: 3.5rem;
+    align-items: start;
+  }
+  /* Hero: board and chart side by side, above everything else. */
+  [data-layout="frontispiece"] .sec-board { grid-column: 1; }
+  [data-layout="frontispiece"] .sec-chart { grid-column: 2; }
+  [data-layout="frontispiece"] .sec-board .lead-grid { grid-template-columns: 1fr; }
+  [data-layout="frontispiece"] .sec-board .contract + .contract {
+    border-left: none;
+    border-top: 1px solid var(--rule-faint);
+    padding-left: 0;
+    margin-top: 1.2rem;
+    padding-top: 1.2rem;
+  }
+  [data-layout="frontispiece"] .sec-board .price { font-size: clamp(2.6rem, 7vw, 4rem); }
+
+  /* Full-width bands for the things that need the room. */
+  [data-layout="frontispiece"] .sec-tech,
+  [data-layout="frontispiece"] .sec-weather,
+  [data-layout="frontispiece"] .sec-wire,
+  [data-layout="frontispiece"] .sec-recap,
+  [data-layout="frontispiece"] .sec-sources { grid-column: 1 / -1; }
+
+  [data-layout="frontispiece"] .sec-fx { grid-column: 1; }
+  [data-layout="frontispiece"] .sec-phys { grid-column: 2; }
+  [data-layout="frontispiece"] .sec-read { grid-column: 1 / -1; }
+
+  [data-layout="frontispiece"] .phys-grid { grid-template-columns: 1fr; }
+}

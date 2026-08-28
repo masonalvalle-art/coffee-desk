@@ -9,6 +9,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,700;6..96,900&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,600;1,6..72,300;1,6..72,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css">
+<!-- Design phase only: variant skins/layouts. Folded into style.css when we bake. -->
+<link rel="stylesheet" href="assets/themes.css">
 </head>
 <body>
 
@@ -34,7 +36,7 @@
 <main id="main">
 
   <!-- Lead: the two contracts -->
-  <section class="lead" aria-labelledby="lead-h">
+  <section class="sec sec-board" aria-labelledby="lead-h">
     <h2 id="lead-h" class="section-head"><span>The Board</span></h2>
     <div class="lead-grid" id="board">
       <div class="skeleton">Loading the board…</div>
@@ -42,53 +44,53 @@
   </section>
 
   <!-- Charts -->
-  <section aria-labelledby="charts-h">
+  <section class="sec sec-chart" aria-labelledby="charts-h">
     <h2 id="charts-h" class="section-head"><span>Price Action</span></h2>
     <div class="chart-grid" id="charts"></div>
   </section>
 
   <!-- Technicals -->
-  <section aria-labelledby="tech-h">
+  <section class="sec sec-tech" aria-labelledby="tech-h">
     <h2 id="tech-h" class="section-head"><span>Technical Picture</span></h2>
     <div class="tech-grid" id="technicals"></div>
   </section>
 
   <!-- Currency -->
-  <section aria-labelledby="fx-h">
+  <section class="sec sec-fx" aria-labelledby="fx-h">
     <h2 id="fx-h" class="section-head"><span>Currency</span></h2>
     <div id="fx"></div>
   </section>
 
   <!-- Physical market: differentials + certified stocks -->
-  <section aria-labelledby="phys-h">
+  <section class="sec sec-phys" aria-labelledby="phys-h">
     <h2 id="phys-h" class="section-head"><span>Physical Market</span></h2>
     <div class="phys-grid" id="physical"></div>
   </section>
 
   <!-- Weather -->
-  <section aria-labelledby="wx-h">
+  <section class="sec sec-weather" aria-labelledby="wx-h">
     <h2 id="wx-h" class="section-head"><span>At Origin</span></h2>
     <div id="weather"></div>
   </section>
 
   <!-- News desk: origin wire, weekly recap, today's read -->
-  <section aria-labelledby="wire-h">
+  <section class="sec sec-wire" aria-labelledby="wire-h">
     <h2 id="wire-h" class="section-head"><span>Origin Wire</span></h2>
     <div id="origin-wire"></div>
   </section>
 
-  <section aria-labelledby="recap-h">
+  <section class="sec sec-recap" aria-labelledby="recap-h">
     <h2 id="recap-h" class="section-head"><span>The Week in Coffee</span></h2>
     <div id="roundup"></div>
   </section>
 
-  <section aria-labelledby="read-h">
+  <section class="sec sec-read" aria-labelledby="read-h">
     <h2 id="read-h" class="section-head"><span>Today&rsquo;s Read</span></h2>
     <div id="daily-read"></div>
   </section>
 
   <!-- Sources -->
-  <section id="sources" aria-labelledby="src-h">
+  <section class="sec sec-sources" id="sources" aria-labelledby="src-h">
     <h2 id="src-h" class="section-head"><span>Sources &amp; Method</span></h2>
     <div id="source-list"></div>
   </section>
@@ -110,5 +112,7 @@
 </footer>
 
 <script src="assets/app.js"></script>
+<!-- Design phase only: the variant switcher. Activates on ?lab=1. Removed at bake time. -->
+<script src="assets/lab.js" defer></script>
 </body>
 </html>

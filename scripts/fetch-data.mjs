@@ -11,10 +11,10 @@ import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-import { fetchArabica, fetchRobusta } from './sources/futures.mjs';
+import { fetchArabica } from './sources/futures.mjs';
 import { fetchFx } from './sources/fx.mjs';
 import { fetchWeather } from './sources/weather.mjs';
-import { fetchNews } from './sources/news.mjs';
+import { fetchOriginWire, fetchRoundup, fetchDailyArticle } from './sources/news.mjs';
 import { buildTechnicals } from './lib/indicators.mjs';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
@@ -41,68 +41,30 @@ async function readJson(path, fallback) {
   catch { return fallback; }
 }
 
-/**
- * No free source publishes Robusta daily history, so we build our own by
- * appending each day's snapshot. Every bar is stamped with when we recorded it
- * so the series is auditable against the git history of this file.
- */
-async function appendRobustaHistory(robusta) {
-  const path = p('data/history/robusta.json');
-  const store = await readJson(path, { series: {}, note: 'Accumulated from daily ICE Europe snapshots; each bar records when it was captured.' });
-
-  if (robusta?.quote?.last != null) {
-    const code = robusta.contract.code;
-    const date = new Date().toISOString().slice(0, 10);
-    store.series[code] ??= [];
-    const series = store.series[code];
-    const bar = {
-      date,
-      open: robusta.quote.open ?? null,
-      high: robusta.quote.high ?? null,
-      low: robusta.quote.low ?? null,
-      close: robusta.quote.last,
-      volume: robusta.quote.volume ?? null,
-      recordedAt: new Date().toISOString(),
-    };
-    const existing = series.findIndex(b => b.date === date);
-    if (existing >= 0) series[existing] = bar; // intraday re-run overwrites today
-    else series.push(bar);
-    series.sort((a, b) => a.date.localeCompare(b.date));
-  }
-
-  await writeFile(path, JSON.stringify(store, null, 2) + '\n');
-  return store;
-}
-
 async function main() {
   console.log('Fetching coffee market data…');
 
-  const [arabica, robusta, fx, weather, news] = await Promise.all([
+  const [arabica, fx, weather, originWire, roundupFetched, dailyRead] = await Promise.all([
     attempt('arabica-futures', fetchArabica),
-    attempt('robusta-futures', fetchRobusta),
     attempt('fx', fetchFx),
     attempt('weather', fetchWeather),
-    attempt('news', () => fetchNews({ limit: 5 })),
+    attempt('origin-wire', () => fetchOriginWire({ limit: 24 })),
+    attempt('pdg-roundup', fetchRoundup),
+    attempt('daily-read', fetchDailyArticle),
   ]);
 
-  // Arabica technicals come from Yahoo's per-contract daily history.
+  // Technicals come from Yahoo's per-contract daily history. Indicators are
+  // computed on the FULL series (the 200-day mean needs it), then the bars are
+  // trimmed before publishing: the chart draws 180 sessions and this file is
+  // committed twice a day, so shipping two years of bars was pure weight.
+  const PUBLISHED_BARS = 260;
   if (arabica?.bars?.length) {
-    arabica.technicals = buildTechnicals(arabica.bars);
-    arabica.technicals.basis = `${arabica.bars.length} daily bars for ${arabica.contract.code}`;
-  }
-
-  // Robusta technicals come from our own accumulated series.
-  const rcStore = await appendRobustaHistory(robusta);
-  if (robusta) {
-    const series = rcStore.series[robusta.contract.code] ?? [];
-    robusta.bars = series;
-    robusta.technicals = buildTechnicals(series);
-    robusta.technicals.basis =
-      `${series.length} daily closes recorded since ${series[0]?.date ?? 'n/a'}`;
-    robusta.technicals.limited = series.length < 35;
-    robusta.historyNote =
-      'No free provider publishes Robusta daily history, so this series is built from ' +
-      'our own daily snapshots. Indicators activate as the record lengthens.';
+    const full = arabica.bars;
+    arabica.technicals = buildTechnicals(full);
+    arabica.technicals.basis = `${full.length} daily bars for ${arabica.contract.code}`;
+    arabica.bars = full.slice(-PUBLISHED_BARS);
+    arabica.barsPublished = arabica.bars.length;
+    arabica.barsAnalysed = full.length;
   }
 
   // Manually-maintained blocks. These stay empty until populated -- the page
@@ -110,13 +72,26 @@ async function main() {
   const differentials = await readJson(p('data/manual/differentials.json'), null);
   const certifiedStocks = await readJson(p('data/manual/certified-stocks.json'), null);
 
+  // Perfect Daily Grind blocks non-browser clients, so the live fetch is
+  // expected to fail from CI. Fall back to the manually captured copy, and
+  // label which one the page is showing so the reader is never misled about
+  // how fresh it is.
+  let roundup = roundupFetched;
+  if (!roundup) {
+    const manual = await readJson(p('data/manual/pdg-roundup.json'), null);
+    if (manual && manual.items?.length) {
+      roundup = { ...manual, source: 'manual' };
+      console.log('  · PDG round-up: live fetch blocked, using the manually captured copy');
+    }
+  }
+
   const payload = {
     generatedAt: new Date().toISOString(),
-    schema: 2,
-    futures: { arabica, robusta },
+    schema: 3,
+    futures: { arabica },
     fx,
     weather,
-    news,
+    news: { originWire, roundup, dailyRead },
     differentials,
     certifiedStocks,
     status,

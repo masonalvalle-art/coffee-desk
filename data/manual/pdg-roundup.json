@@ -1,0 +1,53 @@
+{
+  "source": "manual",
+  "articleUrl": "https://perfectdailygrind.com/2026/08/coffee-news-recap-28-august-2026/",
+  "title": "Coffee News Recap, 28 Aug: ICE-certified arabica stocks fall close to lowest levels since 1999, C price forecast at US$3/lb by year-end & other stories",
+  "publisher": "Perfect Daily Grind",
+  "capturedAt": "2026-08-28T14:04:31Z",
+  "note": "Perfect Daily Grind's WAF rejects non-browser clients: every path, including the RSS feed and the sitemap, returns 403 regardless of headers, so the scheduled fetch cannot reach it. This copy was captured from the published article by hand. The pipeline still attempts the live fetch each run and will prefer it the moment it succeeds; until then, refresh this file each Friday.",
+  "items": [
+    { "section": "Top stories of the week", "date": "Mon, 24 Aug", "headline": "National Federation of Colombian Coffee Growers says El Niño, not earthquake, is the biggest threat to Colombia's coffee sector", "url": "https://bworldonline.com/agribusiness/2026/08/24/771859/el-nino-not-quake-seen-as-biggest-threat-to-colombia-coffee-harvest/" },
+    { "section": "Top stories of the week", "date": "Mon, 24 Aug", "headline": "Blank Street raises US$75m for West Coast expansion", "url": "https://app.dealroom.co/news/feed/blank-street-raises-75m-to-expand-on-us-west-coast-and-add-ice-cream-to-menu" },
+    { "section": "Top stories of the week", "date": "Tue, 25 Aug", "headline": "Saudi coffee and tea market hits US$1.87bn as imports and exports surge", "url": "https://www.einnews.com/pr_news/936304534/saudi-coffee-market-hits-sar-7b-as-imports-and-exports-surge" },
+    { "section": "Top stories of the week", "date": "Wed, 26 Aug", "headline": "ICE certified arabica stocks near their lowest levels since 1999", "url": "https://sucafina.com/na/lp/market-report" },
+    { "section": "Top stories of the week", "date": "Wed, 26 Aug", "headline": "Reuters poll forecasts arabica at US$3/lb and robusta at US$3,900/tonne by year-end", "url": "https://www.facebook.com/100063818177439/posts/coffee-futures-slip-back-into-negative-territory-reuters-poll-forecasts-arabica-/1597109462426311/" },
+    { "section": "Top stories of the week", "date": "Fri, 28 Aug", "headline": "Glacial lake outburst causes devastating floods in Nepal", "url": "https://www.reuters.com/world/nepal-floods-live-nearly-1500-missing-including-tourists-death-toll-rises-2026-08-27/" },
+
+    { "section": "Industry news", "date": "Mon, 24 Aug", "headline": "Anneli Ellsäter appointed new CEO of Löfbergs", "url": "https://www.linkedin.com/posts/l%C3%B6fbergs-group_welcome-anneli-ells%C3%A4ter-our-new-ceo-activity-7496190668193767425-8vLp" },
+    { "section": "Industry news", "date": "Mon, 24 Aug", "headline": "US consumers tighten spending as inflation rises, but still splurge on coffee", "url": "https://www.tbsnews.net/world/us-shoppers-tighten-budgets-still-find-room-treats-and-splurges-1521736" },
+    { "section": "Industry news", "date": "Tue, 25 Aug", "headline": "Reysol Coffee Roasters runs fundraiser for the earthquake-affected community in Balboa", "url": "https://www.gofundme.com/f/help-reysol-rebuild-home?cp_src=d" },
+    { "section": "Industry news", "date": "Tue, 25 Aug", "headline": "Copenhagen's Coffee Collective announces exclusive pop-up at Rosslyn", "url": "https://www.linkedin.com/posts/coffee-collective-london-pop-up-cafe-at-rosslyn-ugcPost-7495866579453411328-pO9K/" },
+    { "section": "Industry news", "date": "Wed, 26 Aug", "headline": "Scooter's Coffee names Anna Faktorovich as Chief Marketing Officer", "url": "https://www.scooterscoffee.com/" },
+    { "section": "Industry news", "date": "Wed, 26 Aug", "headline": "Coffee Futures Fund seeks independent café owners for second cohort", "url": "https://www.coffeefutures.fund/" },
+    { "section": "Industry news", "date": "Thu, 27 Aug", "headline": "Neumann Kaffee Gruppe publishes its CSRD-aligned 2026 Sustainability Report", "url": "https://www.nkg.net/sustainabilityreport/" },
+    { "section": "Industry news", "date": "Thu, 27 Aug", "headline": "Specialty Coffee Association presents the Slate of Candidates for the 2027-29 Board of Directors election and appoints Second Vice President", "url": "https://sca.coffee/sca-news/announcement/presenting-the-slate-of-candidates-for-the-2026-2028-sca-board-of-directors-elections-and-appointment-of-the-2nd-vice-president-2026" },
+    { "section": "Industry news", "date": "Fri, 28 Aug", "headline": "J. M. Smucker forecasts smaller-than-expected annual sales decline on steady coffee demand", "url": "https://www.ctvnews.ca/business/article/jm-smucker-forecasts-smaller-than-expected-annual-sales-decline-on-steady-coffee-demand/" },
+
+    { "section": "New launch", "date": "Mon, 24 Aug", "headline": "7Brew launches canned coffee lineup and new 7Brew Energy", "url": "https://www.businesswire.com/news/home/20260820423109/en/7-Brew-Grows-From-Stands-to-Stores-With-National-Ready-To-Drink-Coffee-and-Energy-Beverage-Expansion-at-Walmart" },
+    { "section": "New launch", "date": "Mon, 24 Aug", "headline": "Loring launches new knowledge base for customer support", "url": "https://www.linkedin.com/posts/loring-launches-new-knowledge-base-ugcPost-7492692244190121985-9jbt/" },
+    { "section": "New launch", "date": "Tue, 25 Aug", "headline": "Subko Coffee launches Indian Gesha", "url": "https://www.instagram.com/p/Db5gtHmCGnf/?img_index=1" },
+    { "section": "New launch", "date": "Tue, 25 Aug", "headline": "Dunkin' to return to Puerto Rico in 2027", "url": "https://www.restaurantdive.com/news/dunkin-puerto-rico-new-opening/828686/" },
+    { "section": "New launch", "date": "Wed, 26 Aug", "headline": "Dalla Corte launches Zero Plus Series to support workflow and consistency", "url": "https://www.dallacorte.com/professional-espresso-machines/zero-plus-barista.html" },
+    { "section": "New launch", "date": "Thu, 27 Aug", "headline": "Koppie launches OtherKinds, a D2C test bed for coffee complements", "url": "https://www.otherkinds.co/" },
+    { "section": "New launch", "date": "Thu, 27 Aug", "headline": "Peter Roberts publishes new book unpacking the commodification of specialty coffee producers", "url": "https://global.oup.com/academic/product/from-supply-and-demand-to-numbers-networks-and-narratives-9780198871460?cc=us&lang=en&" },
+    { "section": "New launch", "date": "Fri, 28 Aug", "headline": "Stumptown Coffee Roasters returns to LA with flagship café and regional training space", "url": "https://www.stumptowncoffee.com/" },
+
+    { "section": "Milestone", "date": "Mon, 24 Aug", "headline": "Everyday Dose expands into Sam's Club in the US and appoints Kyle Thibaut as CEO", "url": "https://www.prnewswire.com/news-releases/functional-coffee-leader-everyday-dose-expands-into-sams-club-nationwide-and-appoints-kyle-thibaut-as-chief-executive-officer-302855939.html" },
+    { "section": "Milestone", "date": "Wed, 26 Aug", "headline": "J.M. Smucker Co. announces Jeff Varcoe as Senior Vice President, Science and Technical Excellence", "url": "https://www.prnewswire.com/news-releases/the-jm-smucker-co-announces-the-election-of-jeff-varcoe-to-senior-vice-president-science-and-technical-excellence-302855765.html" },
+
+    { "section": "Trade & production", "date": "Tue, 25 Aug", "headline": "Arabica coffee harvest jumps to 87% in the Expocacer region", "url": "https://globorural.globo.com/agricultura/cafe/noticia/2026/08/colheita-de-cafe-arabica-chega-a-87percent-na-regiao-da-expocacer.ghtml" },
+
+    { "section": "Research", "date": "Mon, 24 Aug", "headline": "BrewAtlas publishes The State of Specialty Coffee 2026 report", "url": "https://brewatlas.co/contact" },
+    { "section": "Research", "date": "Wed, 26 Aug", "headline": "Researchers build dual-sided green coffee inspection system", "url": "https://www.mdpi.com/2077-0472/16/16/1796" },
+    { "section": "Research", "date": "Thu, 27 Aug", "headline": "Study finds independent third wave coffee shop interior design has become its own distinct brand", "url": "https://www.sciencedirect.com/science/article/pii/S1877916626000056" },
+
+    { "section": "Events & competitions", "date": "Mon, 24 Aug", "headline": "Mercadao to host Brazil Latte Art and Coffee in Good Spirits Championships in September", "url": "https://www.bsca.com.br/sp-mercadao-sediara-campeonatos-brasileiros-de-barismo-em-setembro/" },
+    { "section": "Events & competitions", "date": "Tue, 25 Aug", "headline": "Brazilian Specialty Coffee Association and Alliance for Coffee Excellence to host Best of Canephora Brazil 2026", "url": "https://www.bsca.com.br/event/the-best-of-canephora-2026/" },
+    { "section": "Events & competitions", "date": "Tue, 25 Aug", "headline": "Ljubljana Coffee Festival 2026 finds a new home and promises biggest edition yet", "url": "https://ljubljanacoffeefestival.si/en/" },
+    { "section": "Events & competitions", "date": "Wed, 26 Aug", "headline": "The 48th SIGEP World to be held from 23 to 27 January 2027 at Rimini Expo Centre", "url": "https://www.sigep.it/en" },
+    { "section": "Events & competitions", "date": "Thu, 27 Aug", "headline": "Asia International Hotel Supplies & Food Expo to take place from 18 to 20 November", "url": "https://www.ahsemacao.com/" },
+    { "section": "Events & competitions", "date": "Fri, 28 Aug", "headline": "Nordic Coffee Fest announces the judges for the 2027 Nordic Best Roaster", "url": "https://www.instagram.com/p/DciJd1rDNhh/" },
+    { "section": "Events & competitions", "date": "Fri, 28 Aug", "headline": "International jury completes cuppings for Taiwan Coffee Auction 2026: Reimagining the Cup", "url": "https://www.linkedin.com/posts/cityfulpress_taiwancoffee-taiwanspecialty-coffeeauction-ugcPost-7498365651938492416-0zZ2/" },
+    { "section": "Events & competitions", "date": "Fri, 28 Aug", "headline": "Winners of the inaugural Kenneth Davids Cup announced", "url": "https://www.coffeereview.com/kenneth-davids-cup-winners/" }
+  ]
+}

@@ -1,40 +1,90 @@
 // Weather in the origins that actually move the board.
-// Source: Open-Meteo (free, no key, no attribution barrier). It blends
-// national met-service models -- for Brazil and Vietnam that is primarily
-// ECMWF/GFS. We publish observed past days and forecast days side by side and
-// never smooth between them.
+// Source: Open-Meteo (free, no key). It blends national met-service models —
+// for Brazil and Vietnam that is primarily ECMWF/GFS. We publish observed past
+// days and forecast days side by side and never smooth between them.
+//
+// Regions are grouped by country and capped at three per country, so the table
+// stays readable. Where a country has one region that is because one is enough
+// to represent it, not because the others were trimmed.
 
 import { getJson } from '../lib/http.mjs';
 
-// Ordered roughly by weight in the world balance.
+// Countries in rough order of weight in the world balance; regions within a
+// country likewise. Maximum three regions per country.
 export const REGIONS = [
-  { key: 'sul-de-minas',   name: 'Sul de Minas',      country: 'Brazil',    species: 'Arabica', lat: -21.55, lon: -45.43, note: 'Largest single arabica belt; frost-exposed Jun–Aug, flowering Sep–Oct.' },
-  { key: 'cerrado',        name: 'Cerrado Mineiro',   country: 'Brazil',    species: 'Arabica', lat: -18.94, lon: -46.99, note: 'Mechanised, irrigated; rain timing sets flowering uniformity.' },
-  { key: 'mogiana',        name: 'Mogiana',           country: 'Brazil',    species: 'Arabica', lat: -20.54, lon: -47.40, note: 'São Paulo arabica belt.' },
-  { key: 'matas-de-minas', name: 'Matas de Minas',    country: 'Brazil',    species: 'Arabica', lat: -20.26, lon: -42.03, note: 'Hillside, largely rainfed — drought-sensitive.' },
-  { key: 'espirito-santo', name: 'Espírito Santo',    country: 'Brazil',    species: 'Robusta', lat: -19.39, lon: -40.07, note: 'Conilon heartland; Brazil’s robusta supply.' },
-  { key: 'dak-lak',        name: 'Dak Lak',           country: 'Vietnam',   species: 'Robusta', lat:  12.68, lon: 108.05, note: 'Central Highlands; the single largest robusta origin.' },
-  { key: 'lam-dong',       name: 'Lam Dong',          country: 'Vietnam',   species: 'Robusta', lat:  11.55, lon: 107.81, note: 'Second Vietnamese robusta province.' },
-  { key: 'huila',          name: 'Huila',             country: 'Colombia',  species: 'Arabica', lat:   1.85, lon: -76.05, note: 'Washed mild arabica; two harvests a year.' },
-  { key: 'antioquia',      name: 'Antioquia',         country: 'Colombia',  species: 'Arabica', lat:   6.25, lon: -75.56, note: 'Northern Colombian belt.' },
-  { key: 'gayo',           name: 'Gayo Highlands',    country: 'Indonesia', species: 'Arabica', lat:   4.63, lon:  96.85, note: 'Sumatran arabica.' },
-  { key: 'lampung',        name: 'Lampung',           country: 'Indonesia', species: 'Robusta', lat:  -5.45, lon: 105.27, note: 'Indonesian robusta export hub.' },
-  { key: 'jimma',          name: 'Jimma',             country: 'Ethiopia',  species: 'Arabica', lat:   7.67, lon:  36.83, note: 'Origin of arabica; largely forest and garden coffee.' },
-  { key: 'marcala',        name: 'Marcala',           country: 'Honduras',  species: 'Arabica', lat:  14.16, lon: -88.02, note: 'Central America’s largest arabica exporter.' },
-  { key: 'chanchamayo',    name: 'Chanchamayo',       country: 'Peru',      species: 'Arabica', lat: -11.05, lon: -75.33, note: 'Peruvian organic/washed arabica.' },
+  // Brazil — two largest arabica belts plus the conilon heartland, so both
+  // species are represented.
+  { key: 'sul-de-minas',   name: 'Sul de Minas',    country: 'Brazil',    species: 'Arabica', lat: -21.55, lon: -45.43, note: 'Largest single arabica belt; frost-exposed Jun–Aug, flowering Sep–Oct.' },
+  { key: 'cerrado',        name: 'Cerrado Mineiro', country: 'Brazil',    species: 'Arabica', lat: -18.94, lon: -46.99, note: 'Mechanised and largely irrigated; rain timing sets flowering uniformity.' },
+  { key: 'espirito-santo', name: 'Espírito Santo',  country: 'Brazil',    species: 'Robusta', lat: -19.39, lon: -40.07, note: 'Conilon heartland — Brazil’s robusta supply.' },
+
+  { key: 'dak-lak',        name: 'Dak Lak',         country: 'Vietnam',   species: 'Robusta', lat:  12.68, lon: 108.05, note: 'Central Highlands; the single largest robusta origin.' },
+  { key: 'lam-dong',       name: 'Lam Dong',        country: 'Vietnam',   species: 'Robusta', lat:  11.55, lon: 107.81, note: 'Second Vietnamese robusta province.' },
+
+  { key: 'huila',          name: 'Huila',           country: 'Colombia',  species: 'Arabica', lat:   1.85, lon: -76.05, note: 'Washed mild arabica; two harvests a year.' },
+  { key: 'antioquia',      name: 'Antioquia',       country: 'Colombia',  species: 'Arabica', lat:   6.25, lon: -75.56, note: 'Northern Colombian belt.' },
+
+  { key: 'gayo',           name: 'Gayo Highlands',  country: 'Indonesia', species: 'Arabica', lat:   4.63, lon:  96.85, note: 'Sumatran arabica.' },
+  { key: 'lampung',        name: 'Lampung',         country: 'Indonesia', species: 'Robusta', lat:  -5.45, lon: 105.27, note: 'Indonesian robusta export hub.' },
+
+  { key: 'jimma',          name: 'Jimma',           country: 'Ethiopia',  species: 'Arabica', lat:   7.67, lon:  36.83, note: 'Origin of arabica; largely forest and garden coffee.' },
+  { key: 'marcala',        name: 'Marcala',         country: 'Honduras',  species: 'Arabica', lat:  14.16, lon: -88.02, note: 'Central America’s largest arabica exporter.' },
+  { key: 'chanchamayo',    name: 'Chanchamayo',     country: 'Peru',      species: 'Arabica', lat: -11.05, lon: -75.33, note: 'Peruvian organic and washed arabica.' },
 ];
 
-// Thresholds are stated so a reader can check our reasoning.
+export const COUNTRY_ORDER = ['Brazil', 'Vietnam', 'Colombia', 'Indonesia', 'Ethiopia', 'Honduras', 'Peru'];
+
+// Thresholds are stated on the page so a reader can check the reasoning.
 const FROST_C = 4;        // radiative frost damage risk in Brazilian arabica
 const HEAVY_RAIN_MM = 50; // over the forecast week, harvest/drying disruption
 const DRY_MM = 5;         // over the past fortnight, moisture stress
+
+// WMO weather codes, as returned by Open-Meteo.
+const WMO_HEAVY = new Set([65, 67, 82, 95, 96, 99]);           // heavy rain, storms
+const WMO_CLOUD = new Set([2, 3, 45, 48]);                     // part cloud, overcast, fog
+
+/**
+ * Reduce the last few observed days to one of four plain conditions, used for
+ * the icon beside each region.
+ *
+ * Deliberately a three-day window rather than a single day. A one-day snapshot
+ * classified almost every origin as "wet", because the WMO code counts light
+ * drizzle the same as real rain and one passing shower is not what a buyer
+ * means by wet. Rainfall totals lead; the weather code only escalates to
+ * "very wet" for genuinely heavy events.
+ */
+const CONDITION_WINDOW_DAYS = 3;
+
+function classifyCondition(days) {
+  const recent = (days || []).filter(d => d.observed).slice(-CONDITION_WINDOW_DAYS);
+  if (!recent.length) return null;
+
+  const rainTotal = recent.reduce((a, d) => a + (d.rain ?? 0), 0);
+  const rainMax = Math.max(...recent.map(d => d.rain ?? 0));
+  const clouds = recent.map(d => d.cloud).filter(c => c != null);
+  const cloudMean = clouds.length ? clouds.reduce((a, b) => a + b, 0) / clouds.length : null;
+  const heavyCode = recent.some(d => d.code != null && WMO_HEAVY.has(d.code));
+
+  if (rainTotal >= 30 || rainMax >= 20 || heavyCode) return 'very-wet';
+  if (rainTotal >= 5) return 'wet';
+  if ((cloudMean != null && cloudMean >= 60) ||
+      recent.some(d => d.code != null && WMO_CLOUD.has(d.code))) return 'cloudy';
+  return 'dry';
+}
+
+export const CONDITION_LABELS = {
+  'dry':      'Clear / dry',
+  'cloudy':   'Cloudy',
+  'wet':      'Wet',
+  'very-wet': 'Very wet',
+};
 
 export async function fetchWeather() {
   const lats = REGIONS.map(r => r.lat).join(',');
   const lons = REGIONS.map(r => r.lon).join(',');
   const url = 'https://api.open-meteo.com/v1/forecast' +
     `?latitude=${lats}&longitude=${lons}` +
-    '&daily=temperature_2m_max,temperature_2m_min,precipitation_sum' +
+    '&daily=temperature_2m_max,temperature_2m_min,precipitation_sum,weather_code,cloud_cover_mean' +
     '&timezone=auto&past_days=14&forecast_days=7';
 
   const raw = await getJson(url);
@@ -47,9 +97,11 @@ export async function fetchWeather() {
 
     const days = d.time.map((date, j) => ({
       date,
-      tMax: d.temperature_2m_max?.[j] ?? null,
-      tMin: d.temperature_2m_min?.[j] ?? null,
-      rain: d.precipitation_sum?.[j] ?? null,
+      tMax:  d.temperature_2m_max?.[j] ?? null,
+      tMin:  d.temperature_2m_min?.[j] ?? null,
+      rain:  d.precipitation_sum?.[j] ?? null,
+      code:  d.weather_code?.[j] ?? null,
+      cloud: d.cloud_cover_mean?.[j] ?? null,
       observed: date < today,
     }));
 
@@ -64,6 +116,7 @@ export async function fetchWeather() {
     const rain14 = +sum(past14, 'rain').toFixed(1);
     const rainFwd = +sum(fwd7, 'rain').toFixed(1);
     const minFwd = minOf(fwd7, 'tMin');
+    const current = past14.at(-1) ?? null;
 
     const alerts = [];
     if (region.country === 'Brazil' && minFwd != null && minFwd <= FROST_C) {
@@ -79,17 +132,25 @@ export async function fetchWeather() {
         text: `Only ${rain14.toFixed(0)} mm in the past 14 days — moisture stress.` });
     }
 
+    const condition = classifyCondition(days);
+
     return {
       ...region,
       timezone: list[i].timezone ?? null,
       elevation: list[i].elevation ?? null,
-      current: past14.at(-1) ?? null,
-      rain14, rainForecast7: rainFwd, minForecast7: minFwd,
+      current,
+      condition,
+      conditionLabel: condition ? CONDITION_LABELS[condition] : null,
+      rain14,
+      rainForecast7: rainFwd,
+      minForecast7: minFwd,
       maxForecast7: (() => {
         const v = fwd7.map(x => x.tMax).filter(x => x != null);
         return v.length ? Math.max(...v) : null;
       })(),
-      days,
+      // The per-day series is deliberately not published: nothing on the page
+      // reads it, and across twelve regions it was the single largest
+      // contributor to the size of the committed data file.
       alerts,
     };
   });
@@ -97,9 +158,14 @@ export async function fetchWeather() {
   return {
     fetchedAt: new Date().toISOString(),
     thresholds: { frostC: FROST_C, heavyRainMm: HEAVY_RAIN_MM, dryMm: DRY_MM },
+    countryOrder: COUNTRY_ORDER,
+    conditionMethod: 'The condition icon reads the last three observed days: 30 mm of rain ' +
+                     'in total, 20 mm in any one day, or a heavy-rain code is very wet; 5 mm ' +
+                     'is wet; 60% mean cloud cover is cloudy; anything else is clear.',
+    conditionWindowDays: CONDITION_WINDOW_DAYS,
     regions,
     sources: [
-      { name: 'Open-Meteo forecast API', url: 'https://open-meteo.com/', role: 'observed + forecast daily temperature and precipitation' },
+      { name: 'Open-Meteo forecast API', url: 'https://open-meteo.com/', role: 'observed + forecast temperature, precipitation and weather code' },
     ],
   };
 }

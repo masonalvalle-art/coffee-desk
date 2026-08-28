@@ -1,5 +1,6 @@
 preview.html
 curl_tmp_*.txt
+proxy_tmp_*.bin
 .tmp-tests/
 node_modules/
 .DS_Store

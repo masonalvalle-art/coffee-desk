@@ -1,1 +1,3837 @@
-{"generatedAt":"2026-08-28T13:40:24Z","schema":2,"futures":{"arabica":{"market":"Arabica","contractName":"Coffee C","exchange":"ICE Futures U.S.","unit":"US cents / lb","lotSize":"37,500 lb","contract":{"code":"KCZ26","label":"Dec 2026","yahooSymbol":"KCZ26.NYB","tvSymbol":"ICEUS:KCZ2026"},"frontMonth":{"code":"KCU26","label":"Sep 2026","close":341.9,"volume":39},"rolled":true,"mostActive":"KCZ26","curve":[{"code":"KCU26","label":"Sep 2026","close":341.9,"volume":39},{"code":"KCZ26","label":"Dec 2026","close":310.15,"volume":5103},{"code":"KCH27","label":"Mar 2027","close":298.8,"volume":1940},{"code":"KCK27","label":"May 2027","close":295.35,"volume":712},{"code":"KCN27","label":"Jul 2027","close":292.8,"volume":233}],"quote":{"last":309.25,"open":311.50,"high":314.30,"low":308.85,"previousClose":309.65,"change":-0.4000,"changePct":-0.129,"volume":5103,"asOf":"2026-08-28T13:40:24Z"},"bars":[{"date":"2026-03-10","open":277.90,"high":279.40,"low":275.00,"close":278.70,"volume":null},{"date":"2026-03-11","open":277.00,"high":277.00,"low":267.20,"close":271.20,"volume":null},{"date":"2026-03-12","open":271.20,"high":279.00,"low":270.40,"close":274.55,"volume":null},{"date":"2026-03-13","open":273.40,"high":273.40,"low":265.00,"close":267.30,"volume":null},{"date":"2026-03-16","open":267.00,"high":271.60,"low":264.30,"close":271.30,"volume":null},{"date":"2026-03-17","open":271.30,"high":276.20,"low":270.00,"close":271.85,"volume":null},{"date":"2026-03-18","open":271.00,"high":271.50,"low":266.90,"close":270.80,"volume":null},{"date":"2026-03-19","open":273.00,"high":278.20,"low":269.00,"close":276.70,"volume":null},{"date":"2026-03-20","open":278.65,"high":282.90,"low":273.65,"close":280.40,"volume":null},{"date":"2026-03-23","open":279.60,"high":280.00,"low":271.50,"close":276.15,"volume":null},{"date":"2026-03-24","open":276.35,"high":284.50,"low":275.90,"close":283.30,"volume":null},{"date":"2026-03-25","open":282.80,"high":286.10,"low":279.55,"close":284.35,"volume":null},{"date":"2026-03-26","open":283.70,"high":285.65,"low":279.45,"close":280.20,"volume":null},{"date":"2026-03-27","open":279.80,"high":280.55,"low":273.60,"close":274.70,"volume":null},{"date":"2026-03-30","open":273.00,"high":273.00,"low":265.80,"close":266.80,"volume":null},{"date":"2026-03-31","open":267.40,"high":269.70,"low":266.25,"close":268.95,"volume":null},{"date":"2026-04-01","open":268.05,"high":270.15,"low":263.55,"close":268.40,"volume":null},{"date":"2026-04-02","open":269.90,"high":271.30,"low":264.65,"close":266.55,"volume":null},{"date":"2026-04-06","open":266.15,"high":270.00,"low":265.05,"close":269.20,"volume":null},{"date":"2026-04-07","open":269.20,"high":269.20,"low":260.00,"close":260.20,"volume":null},{"date":"2026-04-08","open":260.00,"high":266.90,"low":258.95,"close":266.55,"volume":null},{"date":"2026-04-09","open":265.60,"high":268.30,"low":263.35,"close":266.50,"volume":null},{"date":"2026-04-10","open":265.60,"high":272.05,"low":264.75,"close":271.25,"volume":null},{"date":"2026-04-13","open":271.25,"high":274.60,"low":269.30,"close":272.20,"volume":null},{"date":"2026-04-14","open":271.60,"high":276.40,"low":269.60,"close":274.30,"volume":null},{"date":"2026-04-15","open":274.10,"high":276.50,"low":272.45,"close":275.50,"volume":null},{"date":"2026-04-16","open":274.85,"high":275.20,"low":266.25,"close":268.95,"volume":null},{"date":"2026-04-17","open":269.35,"high":271.25,"low":263.75,"close":264.90,"volume":null},{"date":"2026-04-20","open":266.55,"high":270.20,"low":265.55,"close":269.55,"volume":null},{"date":"2026-04-21","open":267.55,"high":269.15,"low":260.35,"close":264.40,"volume":null},{"date":"2026-04-22","open":269.00,"high":271.95,"low":268.60,"close":270.20,"volume":null},{"date":"2026-04-23","open":269.00,"high":281.45,"low":269.00,"close":279.45,"volume":null},{"date":"2026-04-24","open":278.90,"high":285.50,"low":276.20,"close":277.00,"volume":null},{"date":"2026-04-27","open":274.10,"high":277.05,"low":269.60,"close":271.15,"volume":null},{"date":"2026-04-28","open":271.75,"high":276.50,"low":270.95,"close":272.85,"volume":null},{"date":"2026-04-29","open":273.15,"high":275.85,"low":270.95,"close":272.75,"volume":null},{"date":"2026-04-30","open":271.70,"high":273.20,"low":266.25,"close":267.65,"volume":null},{"date":"2026-05-01","open":268.80,"high":271.00,"low":263.25,"close":267.50,"volume":null},{"date":"2026-05-04","open":269.50,"high":272.60,"low":268.00,"close":268.60,"volume":null},{"date":"2026-05-05","open":269.60,"high":278.15,"low":269.10,"close":272.65,"volume":null},{"date":"2026-05-06","open":273.50,"high":275.75,"low":268.20,"close":269.35,"volume":null},{"date":"2026-05-07","open":268.65,"high":269.10,"low":257.40,"close":258.85,"volume":null},{"date":"2026-05-08","open":258.70,"high":263.60,"low":258.10,"close":260.60,"volume":null},{"date":"2026-05-11","open":261.35,"high":268.55,"low":254.25,"close":268.25,"volume":null},{"date":"2026-05-12","open":267.25,"high":268.95,"low":262.30,"close":266.30,"volume":null},{"date":"2026-05-13","open":269.50,"high":272.40,"low":265.75,"close":267.05,"volume":null},{"date":"2026-05-14","open":267.25,"high":267.25,"low":260.50,"close":261.60,"volume":null},{"date":"2026-05-15","open":260.80,"high":263.90,"low":251.90,"close":253.45,"volume":null},{"date":"2026-05-18","open":253.25,"high":256.25,"low":249.15,"close":249.80,"volume":null},{"date":"2026-05-19","open":252.00,"high":255.35,"low":248.75,"close":254.65,"volume":null},{"date":"2026-05-20","open":254.65,"high":256.45,"low":249.75,"close":252.90,"volume":null},{"date":"2026-05-21","open":253.15,"high":258.00,"low":251.30,"close":257.25,"volume":null},{"date":"2026-05-22","open":258.85,"high":258.95,"low":254.30,"close":256.95,"volume":null},{"date":"2026-05-26","open":256.20,"high":259.55,"low":252.40,"close":258.30,"volume":null},{"date":"2026-05-27","open":258.35,"high":260.35,"low":253.15,"close":254.20,"volume":null},{"date":"2026-05-28","open":255.20,"high":262.10,"low":255.20,"close":258.90,"volume":null},{"date":"2026-05-29","open":259.15,"high":259.30,"low":250.95,"close":251.20,"volume":null},{"date":"2026-06-01","open":251.80,"high":254.65,"low":245.90,"close":246.75,"volume":null},{"date":"2026-06-02","open":246.60,"high":248.20,"low":244.45,"close":245.25,"volume":null},{"date":"2026-06-03","open":247.45,"high":247.80,"low":240.00,"close":240.45,"volume":null},{"date":"2026-06-04","open":240.20,"high":241.60,"low":235.25,"close":235.35,"volume":null},{"date":"2026-06-05","open":236.30,"high":237.55,"low":231.95,"close":234.85,"volume":null},{"date":"2026-06-08","open":234.75,"high":238.45,"low":232.45,"close":234.35,"volume":null},{"date":"2026-06-09","open":234.50,"high":237.25,"low":231.80,"close":233.90,"volume":null},{"date":"2026-06-10","open":234.55,"high":238.65,"low":233.80,"close":237.25,"volume":null},{"date":"2026-06-11","open":236.50,"high":244.70,"low":236.50,"close":243.20,"volume":null},{"date":"2026-06-12","open":244.25,"high":247.30,"low":242.35,"close":246.45,"volume":null},{"date":"2026-06-15","open":244.80,"high":253.60,"low":244.80,"close":251.75,"volume":null},{"date":"2026-06-16","open":251.75,"high":265.45,"low":249.15,"close":263.60,"volume":null},{"date":"2026-06-17","open":263.25,"high":265.65,"low":258.45,"close":263.15,"volume":null},{"date":"2026-06-18","open":263.85,"high":268.45,"low":255.25,"close":257.90,"volume":null},{"date":"2026-06-22","open":254.10,"high":257.05,"low":250.55,"close":256.00,"volume":null},{"date":"2026-06-23","open":254.40,"high":265.85,"low":251.55,"close":261.95,"volume":null},{"date":"2026-06-24","open":259.65,"high":270.45,"low":259.65,"close":263.85,"volume":null},{"date":"2026-06-25","open":265.40,"high":269.65,"low":258.30,"close":263.40,"volume":null},{"date":"2026-06-26","open":262.30,"high":265.00,"low":257.45,"close":260.90,"volume":null},{"date":"2026-06-29","open":259.45,"high":265.15,"low":256.90,"close":263.40,"volume":null},{"date":"2026-06-30","open":263.50,"high":287.55,"low":263.50,"close":282.10,"volume":null},{"date":"2026-07-01","open":284.10,"high":300.55,"low":278.45,"close":294.85,"volume":null},{"date":"2026-07-02","open":296.50,"high":301.00,"low":285.30,"close":286.30,"volume":null},{"date":"2026-07-06","open":285.30,"high":341.80,"low":285.25,"close":335.40,"volume":null},{"date":"2026-07-07","open":331.50,"high":335.00,"low":302.50,"close":305.00,"volume":null},{"date":"2026-07-08","open":305.00,"high":311.70,"low":295.20,"close":297.25,"volume":null},{"date":"2026-07-09","open":300.65,"high":328.80,"low":300.25,"close":328.20,"volume":null},{"date":"2026-07-10","open":321.00,"high":321.00,"low":301.30,"close":316.00,"volume":null},{"date":"2026-07-13","open":314.90,"high":320.25,"low":302.75,"close":311.05,"volume":null},{"date":"2026-07-14","open":309.45,"high":332.60,"low":305.15,"close":308.00,"volume":null},{"date":"2026-07-15","open":309.00,"high":318.55,"low":304.70,"close":309.95,"volume":null},{"date":"2026-07-16","open":306.70,"high":307.80,"low":295.20,"close":297.25,"volume":null},{"date":"2026-07-17","open":298.15,"high":308.00,"low":296.55,"close":303.80,"volume":null},{"date":"2026-07-20","open":302.60,"high":311.75,"low":300.15,"close":309.45,"volume":null},{"date":"2026-07-21","open":306.00,"high":319.95,"low":306.00,"close":307.90,"volume":null},{"date":"2026-07-22","open":307.00,"high":310.10,"low":300.45,"close":303.70,"volume":null},{"date":"2026-07-23","open":306.55,"high":307.70,"low":295.15,"close":296.45,"volume":null},{"date":"2026-07-24","open":297.70,"high":303.30,"low":293.25,"close":298.05,"volume":null},{"date":"2026-07-27","open":298.00,"high":311.10,"low":297.80,"close":305.90,"volume":null},{"date":"2026-07-28","open":308.10,"high":323.75,"low":308.10,"close":317.30,"volume":null},{"date":"2026-07-29","open":312.80,"high":319.40,"low":306.50,"close":308.55,"volume":null},{"date":"2026-07-30","open":314.35,"high":317.45,"low":307.15,"close":307.70,"volume":null},{"date":"2026-07-31","open":310.35,"high":316.85,"low":305.05,"close":314.65,"volume":null},{"date":"2026-08-03","open":313.75,"high":314.80,"low":302.60,"close":304.70,"volume":null},{"date":"2026-08-04","open":307.50,"high":311.00,"low":304.00,"close":308.80,"volume":null},{"date":"2026-08-05","open":309.60,"high":316.25,"low":307.05,"close":311.45,"volume":null},{"date":"2026-08-06","open":310.70,"high":314.10,"low":303.50,"close":306.10,"volume":null},{"date":"2026-08-07","open":305.85,"high":319.80,"low":305.85,"close":315.90,"volume":null},{"date":"2026-08-10","open":314.20,"high":318.90,"low":309.10,"close":313.90,"volume":null},{"date":"2026-08-11","open":314.55,"high":327.55,"low":312.50,"close":315.70,"volume":null},{"date":"2026-08-12","open":315.50,"high":321.20,"low":313.55,"close":319.95,"volume":null},{"date":"2026-08-13","open":317.45,"high":320.80,"low":310.40,"close":312.80,"volume":null},{"date":"2026-08-14","open":312.00,"high":319.00,"low":308.95,"close":314.30,"volume":null},{"date":"2026-08-17","open":314.10,"high":324.90,"low":313.70,"close":317.90,"volume":null},{"date":"2026-08-18","open":317.50,"high":333.25,"low":315.05,"close":332.45,"volume":null},{"date":"2026-08-19","open":330.65,"high":337.15,"low":323.20,"close":328.20,"volume":null},{"date":"2026-08-20","open":328.15,"high":332.70,"low":320.50,"close":329.30,"volume":null},{"date":"2026-08-21","open":329.00,"high":335.50,"low":321.70,"close":322.65,"volume":null},{"date":"2026-08-24","open":324.90,"high":342.55,"low":321.50,"close":341.65,"volume":null},{"date":"2026-08-25","open":342.80,"high":345.65,"low":329.00,"close":335.50,"volume":null},{"date":"2026-08-26","open":332.05,"high":333.05,"low":319.80,"close":322.15,"volume":null},{"date":"2026-08-27","open":316.90,"high":317.00,"low":306.45,"close":309.65,"volume":null},{"date":"2026-08-28","open":311.50,"high":314.30,"low":308.85,"close":309.25,"volume":null}],"crossCheck":{"tradingView":310.15,"yahoo":309.25,"diff":0.9000,"diffPct":0.291,"agree":true},"technicals":{"observations":130,"sma20":318.615,"sma50":304.89,"sma200":null,"rsi14":46.7954,"macd":{"line":4.7808,"signal":7.032,"histogram":-2.2512},"atr14":13.4161,"donchian20":{"high":345.65,"low":302.6,"period":20},"levels":{"resistance":[{"price":323.75,"date":"2026-07-28"},{"price":341.8,"date":"2026-07-06"}],"support":[{"price":293.25,"date":"2026-07-24"},{"price":264.3,"date":"2026-03-16"},{"price":260.35,"date":"2026-04-21"}]},"fiftyTwoWeek":{"high":345.65,"low":231.8},"method":"Wilder RSI(14); MACD(12,26,9) on EMA; ATR(14); pivots = 5-bar swing highs/lows; Donchian(20).","basis":"130 daily bars for KCZ26"},"sources":[{"name":"Yahoo Finance (ICE delayed)","url":"https://finance.yahoo.com/quote/KCZ26.NYB","role":"price history + last"},{"name":"TradingView (ICE delayed)","url":"https://www.tradingview.com/symbols/ICEUS-KCZ2026/","role":"live snapshot + contract curve"}]},"robusta":{"market":"Robusta","contractName":"Robusta Coffee","exchange":"ICE Futures Europe","unit":"USD / tonne","lotSize":"10 tonnes","contract":{"code":"RCX26","label":"Nov 2026","tvSymbol":"ICEEUR:RCX2026"},"frontMonth":{"code":"RCU26","label":"Sep 2026","close":3518,"volume":1199},"rolled":false,"mostActive":"RCX26","curve":[{"code":"RCU26","label":"Sep 2026","close":3518,"volume":1199},{"code":"RCX26","label":"Nov 2026","close":3547,"volume":3744},{"code":"RCF27","label":"Jan 2027","close":3536,"volume":2106},{"code":"RCH27","label":"Mar 2027","close":3518,"volume":748},{"code":"RCK27","label":"May 2027","close":3502,"volume":385}],"quote":{"last":3547,"open":3590,"high":3590,"low":3539,"previousClose":null,"change":-8,"changePct":-0.2250351617440225,"volume":3744,"asOf":"2026-08-28T13:40:24Z"},"bars":[{"date":"2026-08-28","open":3590,"high":3590,"low":3539,"close":3547,"volume":3744,"recordedAt":"2026-08-28T13:40:24Z"}],"technicals":{"observations":1,"sma20":null,"sma50":null,"sma200":null,"rsi14":null,"macd":null,"atr14":null,"donchian20":null,"levels":{"support":[],"resistance":[]},"fiftyTwoWeek":null,"method":"Wilder RSI(14); MACD(12,26,9) on EMA; ATR(14); pivots = 5-bar swing highs/lows; Donchian(20).","basis":"1 daily close recorded since 2026-08-28","limited":true},"historyNote":"No free provider publishes Robusta daily history, so this series is built from our own daily snapshots. Indicators activate as the record lengthens.","sources":[{"name":"TradingView (ICE Europe delayed)","url":"https://www.tradingview.com/symbols/ICEEUR-RCX2026/","role":"live snapshot + contract curve"}]}},"fx":{"asOf":"2026-08-27","pairs":{"USDGBP":{"pair":"USD/GBP","rate":0.73628,"previous":null,"change":null,"changePct":0.354,"change1m":-2.155,"history":[{"date":"2026-05-29","rate":0.74479},{"date":"2026-06-01","rate":0.74268},{"date":"2026-06-02","rate":0.74225},{"date":"2026-06-03","rate":0.74367},{"date":"2026-06-04","rate":0.74304},{"date":"2026-06-05","rate":0.74255},{"date":"2026-06-08","rate":0.74835},{"date":"2026-06-09","rate":0.74605},{"date":"2026-06-10","rate":0.74727},{"date":"2026-06-11","rate":0.74829},{"date":"2026-06-12","rate":0.74613},{"date":"2026-06-15","rate":0.74509},{"date":"2026-06-16","rate":0.74583},{"date":"2026-06-17","rate":0.74595},{"date":"2026-06-18","rate":0.75594},{"date":"2026-06-19","rate":0.75567},{"date":"2026-06-22","rate":0.75478},{"date":"2026-06-23","rate":0.75667},{"date":"2026-06-24","rate":0.75983},{"date":"2026-06-25","rate":0.75986},{"date":"2026-06-26","rate":0.75654},{"date":"2026-06-29","rate":0.75587},{"date":"2026-06-30","rate":0.75635},{"date":"2026-07-01","rate":0.75528},{"date":"2026-07-02","rate":0.75151},{"date":"2026-07-03","rate":0.74878},{"date":"2026-07-06","rate":0.74935},{"date":"2026-07-07","rate":0.74706},{"date":"2026-07-08","rate":0.74917},{"date":"2026-07-09","rate":0.74651},{"date":"2026-07-10","rate":0.74501},{"date":"2026-07-13","rate":0.74694},{"date":"2026-07-14","rate":0.74717},{"date":"2026-07-15","rate":0.74604},{"date":"2026-07-16","rate":0.74015},{"date":"2026-07-17","rate":0.74419},{"date":"2026-07-20","rate":0.74294},{"date":"2026-07-21","rate":0.74623},{"date":"2026-07-22","rate":0.74807},{"date":"2026-07-23","rate":0.74893},{"date":"2026-07-24","rate":0.75053},{"date":"2026-07-27","rate":0.75094},{"date":"2026-07-28","rate":0.75262},{"date":"2026-07-29","rate":0.7525},{"date":"2026-07-30","rate":0.74691},{"date":"2026-07-31","rate":0.74508},{"date":"2026-08-03","rate":0.74238},{"date":"2026-08-04","rate":0.74372},{"date":"2026-08-05","rate":0.74191},{"date":"2026-08-06","rate":0.74255},{"date":"2026-08-07","rate":0.74352},{"date":"2026-08-10","rate":0.7405},{"date":"2026-08-11","rate":0.74075},{"date":"2026-08-12","rate":0.73935},{"date":"2026-08-13","rate":0.7412},{"date":"2026-08-14","rate":0.73874},{"date":"2026-08-17","rate":0.73751},{"date":"2026-08-18","rate":0.73933},{"date":"2026-08-19","rate":0.73768},{"date":"2026-08-20","rate":0.73388},{"date":"2026-08-21","rate":0.73228},{"date":"2026-08-24","rate":0.73345},{"date":"2026-08-25","rate":0.73358},{"date":"2026-08-26","rate":0.73368},{"date":"2026-08-27","rate":0.73628}]},"USDBRL":{"pair":"USD/BRL","rate":5.142,"previous":null,"change":null,"changePct":-0.087,"change1m":0.426,"history":[{"date":"2026-05-29","rate":5.0453},{"date":"2026-06-01","rate":5.0245},{"date":"2026-06-02","rate":5.0056},{"date":"2026-06-03","rate":5.0184},{"date":"2026-06-04","rate":5.0645},{"date":"2026-06-05","rate":5.0599},{"date":"2026-06-08","rate":5.1432},{"date":"2026-06-09","rate":5.163},{"date":"2026-06-10","rate":5.1907},{"date":"2026-06-11","rate":5.1604},{"date":"2026-06-12","rate":5.1073},{"date":"2026-06-15","rate":5.0498},{"date":"2026-06-16","rate":5.0603},{"date":"2026-06-17","rate":5.084},{"date":"2026-06-18","rate":5.1469},{"date":"2026-06-19","rate":5.1603},{"date":"2026-06-22","rate":5.1519},{"date":"2026-06-23","rate":5.1725},{"date":"2026-06-24","rate":5.1996},{"date":"2026-06-25","rate":5.2019},{"date":"2026-06-26","rate":5.1759},{"date":"2026-06-29","rate":5.1639},{"date":"2026-06-30","rate":5.1784},{"date":"2026-07-01","rate":5.1874},{"date":"2026-07-02","rate":5.201},{"date":"2026-07-03","rate":5.1962},{"date":"2026-07-06","rate":5.18},{"date":"2026-07-07","rate":5.1413},{"date":"2026-07-08","rate":5.1563},{"date":"2026-07-09","rate":5.1453},{"date":"2026-07-10","rate":5.1185},{"date":"2026-07-13","rate":5.1155},{"date":"2026-07-14","rate":5.1233},{"date":"2026-07-15","rate":5.081},{"date":"2026-07-16","rate":5.0857},{"date":"2026-07-17","rate":5.1158},{"date":"2026-07-20","rate":5.1043},{"date":"2026-07-21","rate":5.0794},{"date":"2026-07-22","rate":5.0797},{"date":"2026-07-23","rate":5.0715},{"date":"2026-07-24","rate":5.0827},{"date":"2026-07-27","rate":5.0825},{"date":"2026-07-28","rate":5.1164},{"date":"2026-07-29","rate":5.1202},{"date":"2026-07-30","rate":5.1006},{"date":"2026-07-31","rate":5.0583},{"date":"2026-08-03","rate":5.0675},{"date":"2026-08-04","rate":5.0806},{"date":"2026-08-05","rate":5.1153},{"date":"2026-08-06","rate":5.1237},{"date":"2026-08-07","rate":5.0998},{"date":"2026-08-10","rate":5.0856},{"date":"2026-08-11","rate":5.1049},{"date":"2026-08-12","rate":5.1557},{"date":"2026-08-13","rate":5.1811},{"date":"2026-08-14","rate":5.1762},{"date":"2026-08-17","rate":5.2102},{"date":"2026-08-18","rate":5.2074},{"date":"2026-08-19","rate":5.2041},{"date":"2026-08-20","rate":5.1936},{"date":"2026-08-21","rate":5.1729},{"date":"2026-08-24","rate":5.1499},{"date":"2026-08-25","rate":5.158},{"date":"2026-08-26","rate":5.1465},{"date":"2026-08-27","rate":5.142}]}},"ptax":{"buy":5.16370,"sell":5.16420,"quotedAt":"2026-08-27 13:10:22.548239"},"sources":[{"name":"European Central Bank daily reference rates (via Frankfurter)","url":"https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html","role":"USD/GBP, USD/BRL"},{"name":"Banco Central do Brasil â PTAX","url":"https://www.bcb.gov.br/estabilidadefinanceira/historicocotacoes","role":"official USD/BRL fixing"}]},"weather":{"fetchedAt":"2026-08-28T13:40:24Z","thresholds":{"frostC":4,"heavyRainMm":50,"dryMm":5},"regions":[{"key":"sul-de-minas","name":"Sul de Minas","country":"Brazil","species":"Arabica","lat":-21.55,"lon":-45.43,"current":{"date":"2026-08-27","tMax":24.6,"tMin":16.4,"rain":8.80,"observed":true},"rain14":12.9,"rainForecast7":13.0,"minForecast7":13.1,"maxForecast7":32.3,"alerts":[]},{"key":"cerrado","name":"Cerrado Mineiro","country":"Brazil","species":"Arabica","lat":-18.94,"lon":-46.99,"current":{"date":"2026-08-27","tMax":25.9,"tMin":15.9,"rain":18.80,"observed":true},"rain14":33.3,"rainForecast7":11.1,"minForecast7":17.4,"maxForecast7":31.7,"alerts":[]},{"key":"mogiana","name":"Mogiana","country":"Brazil","species":"Arabica","lat":-20.54,"lon":-47.4,"current":{"date":"2026-08-27","tMax":28.1,"tMin":14.9,"rain":1.70,"observed":true},"rain14":3.9,"rainForecast7":6.3,"minForecast7":15.5,"maxForecast7":32.8,"alerts":[{"type":"dry","severity":"watch","text":"Only 4 mm in the past 14 days â moisture stress."}]},{"key":"matas-de-minas","name":"Matas de Minas","country":"Brazil","species":"Arabica","lat":-20.26,"lon":-42.03,"current":{"date":"2026-08-27","tMax":19.9,"tMin":15.0,"rain":31.10,"observed":true},"rain14":44.5,"rainForecast7":9.4,"minForecast7":14.8,"maxForecast7":30.5,"alerts":[]},{"key":"espirito-santo","name":"Espírito Santo","country":"Brazil","species":"Robusta","lat":-19.39,"lon":-40.07,"current":{"date":"2026-08-27","tMax":25.4,"tMin":20.8,"rain":20.20,"observed":true},"rain14":35.6,"rainForecast7":1.7,"minForecast7":20.4,"maxForecast7":31.2,"alerts":[]},{"key":"dak-lak","name":"Dak Lak","country":"Vietnam","species":"Robusta","lat":12.68,"lon":108.05,"current":{"date":"2026-08-27","tMax":30.6,"tMin":23.0,"rain":9.00,"observed":true},"rain14":117.1,"rainForecast7":123.4,"minForecast7":21.8,"maxForecast7":30.1,"alerts":[{"type":"wet","severity":"watch","text":"123 mm forecast over 7 days â harvest/drying disruption risk."}]},{"key":"lam-dong","name":"Lam Dong","country":"Vietnam","species":"Robusta","lat":11.55,"lon":107.81,"current":{"date":"2026-08-27","tMax":24.7,"tMin":20.6,"rain":17.40,"observed":true},"rain14":206.9,"rainForecast7":108.4,"minForecast7":20.2,"maxForecast7":24.8,"alerts":[{"type":"wet","severity":"watch","text":"108 mm forecast over 7 days â harvest/drying disruption risk."}]},{"key":"huila","name":"Huila","country":"Colombia","species":"Arabica","lat":1.85,"lon":-76.05,"current":{"date":"2026-08-27","tMax":25.5,"tMin":17.8,"rain":6.30,"observed":true},"rain14":71.1,"rainForecast7":25.5,"minForecast7":14.8,"maxForecast7":27.8,"alerts":[]},{"key":"antioquia","name":"Antioquia","country":"Colombia","species":"Arabica","lat":6.25,"lon":-75.56,"current":{"date":"2026-08-27","tMax":29.5,"tMin":17.5,"rain":0.50,"observed":true},"rain14":32.3,"rainForecast7":16.4,"minForecast7":16.6,"maxForecast7":30.2,"alerts":[]},{"key":"gayo","name":"Gayo Highlands","country":"Indonesia","species":"Arabica","lat":4.63,"lon":96.85,"current":{"date":"2026-08-27","tMax":25.6,"tMin":14.4,"rain":1.00,"observed":true},"rain14":10.2,"rainForecast7":9.6,"minForecast7":15.0,"maxForecast7":26.8,"alerts":[]},{"key":"lampung","name":"Lampung","country":"Indonesia","species":"Robusta","lat":-5.45,"lon":105.27,"current":{"date":"2026-08-27","tMax":30.7,"tMin":24.3,"rain":2.70,"observed":true},"rain14":39.4,"rainForecast7":11.3,"minForecast7":22.9,"maxForecast7":32.5,"alerts":[]},{"key":"jimma","name":"Jimma","country":"Ethiopia","species":"Arabica","lat":7.67,"lon":36.83,"current":{"date":"2026-08-27","tMax":24.3,"tMin":13.6,"rain":1.30,"observed":true},"rain14":89.4,"rainForecast7":33.4,"minForecast7":12.8,"maxForecast7":25.2,"alerts":[]},{"key":"marcala","name":"Marcala","country":"Honduras","species":"Arabica","lat":14.16,"lon":-88.02,"current":{"date":"2026-08-27","tMax":29.5,"tMin":17.9,"rain":2.40,"observed":true},"rain14":45.9,"rainForecast7":27.9,"minForecast7":16.7,"maxForecast7":31.6,"alerts":[]},{"key":"chanchamayo","name":"Chanchamayo","country":"Peru","species":"Arabica","lat":-11.05,"lon":-75.33,"current":{"date":"2026-08-27","tMax":30.2,"tMin":17.9,"rain":0.00,"observed":true},"rain14":66.1,"rainForecast7":16.6,"minForecast7":17.2,"maxForecast7":31.5,"alerts":[]}],"sources":[{"name":"Open-Meteo forecast API","url":"https://open-meteo.com/","role":"observed + forecast daily temperature and precipitation"}]},"news":{"fetchedAt":"2026-08-28T13:40:24Z","lookbackHours":96,"minScore":8,"articles":[{"title":"Social Forestry in Indonesia Seeks Room for Coffee and Conservation","summary":"Sri Atmiatun, a farmer in Indonesiaâs Batutegi forest landscape, is among hundreds of community members participating in the countryâs social forestry program, which grants legal access to state f","url":"https://dailycoffeenews.com/2026/08/25/social-forestry-in-indonesia-seeks-room-for-coffee-and-conservation/","publisher":"Daily Coffee News","section":"News","tier":2,"published":"Tue, 25 Aug 2026 18:56:52 +0000","score":9.66,"marketScore":8,"noiseScore":0},{"title":"Florida-Grown Coffee Gets Its First Serious Field Test","summary":"A new study from University of Florida researchers floats the idea that Florida-grown coffee could someday become a viable specialty crop. The study, titled âFirst assessment of agronomical performa","url":"https://dailycoffeenews.com/2026/08/26/florida-grown-coffee-gets-its-first-serious-field-test/","publisher":"Daily Coffee News","section":"News","tier":2,"published":"Wed, 26 Aug 2026 12:26:38 +0000","score":9.54,"marketScore":7,"noiseScore":0},{"title":"High-Scoring Microlots Head to Best of Congo Cooperatives Auction","summary":"The third Best of Congo Cooperatives coffee auction runs Sept. 1-3, giving green coffee buyers a rare chance to buy high-scoring, traceable microlots from the Democratic Republic of Congo. Beyond...","url":"https://dailycoffeenews.com/2026/08/26/high-scoring-microlots-head-to-best-of-congo-cooperatives-auction/","publisher":"Daily Coffee News","section":"News","tier":2,"published":"Wed, 26 Aug 2026 14:21:32 +0000","score":8.63,"marketScore":6,"noiseScore":0}],"totalCoffeeStories":20,"totalEligible":3,"feedsQueried":8,"errors":[],"note":"Publisher feeds only. Ranked by outlet, physical-trade relevance and recency, and scored down for cafe and corporate-affairs stories. Summaries are the publishers own feed text, not generated."},"differentials":{"updatedAt":null,"sourceDocument":null,"sourceType":null,"enteredBy":null,"note":"Physical differentials have no free machine-readable feed.","entries":[]},"certifiedStocks":{"updatedAt":null,"sourceDocument":null,"sourceType":null,"note":"ICE publishes certified stocks daily but only behind bot protection.","series":[]},"status":[{"source":"arabica-futures","ok":true,"ms":0},{"source":"robusta-futures","ok":true,"ms":0},{"source":"fx","ok":true,"ms":0},{"source":"weather","ok":true,"ms":0},{"source":"news","ok":true,"ms":0}]}
+{
+ "generatedAt": "2026-08-28T14:15:40.354Z",
+ "schema": 3,
+ "futures": {
+  "arabica": {
+   "market": "Arabica",
+   "contractName": "Coffee C",
+   "exchange": "ICE Futures U.S.",
+   "unit": "US cents / lb",
+   "lotSize": "37,500 lb",
+   "contract": {
+    "code": "KCZ26",
+    "label": "Dec 2026",
+    "yahooSymbol": "KCZ26.NYB",
+    "tvSymbol": "ICEUS:KCZ2026"
+   },
+   "frontMonth": {
+    "code": "KCU26",
+    "label": "Sep 2026",
+    "close": 341.9,
+    "volume": 39
+   },
+   "rolled": true,
+   "mostActive": "KCZ26",
+   "curve": [
+    {
+     "code": "KCU26",
+     "label": "Sep 2026",
+     "close": 341.9,
+     "volume": 39
+    },
+    {
+     "code": "KCZ26",
+     "label": "Dec 2026",
+     "close": 310.9,
+     "volume": 6010
+    },
+    {
+     "code": "KCH27",
+     "label": "Mar 2027",
+     "close": 299.6,
+     "volume": 2235
+    },
+    {
+     "code": "KCK27",
+     "label": "May 2027",
+     "close": 296.1,
+     "volume": 849
+    },
+    {
+     "code": "KCN27",
+     "label": "Jul 2027",
+     "close": 293.4,
+     "volume": 260
+    },
+    {
+     "code": "KCU27",
+     "label": "Sep 2027",
+     "close": 289.45,
+     "volume": 152
+    },
+    {
+     "code": "KCZ27",
+     "label": "Dec 2027",
+     "close": 286.35,
+     "volume": 52
+    }
+   ],
+   "quote": {
+    "last": 309.15,
+    "open": 311.5,
+    "high": 314.29998779296875,
+    "low": 308.8500061035156,
+    "previousClose": 309.6499938964844,
+    "change": -0.5,
+    "changePct": -0.161,
+    "volume": 5834,
+    "asOf": "2026-08-28T13:55:34.000Z"
+   },
+   "bars": [
+    {
+     "date": "2025-08-18",
+     "open": 292.8500061035156,
+     "high": 297.5,
+     "low": 287.1499938964844,
+     "close": 295.8999938964844,
+     "volume": 564
+    },
+    {
+     "date": "2025-08-19",
+     "open": 299.45001220703125,
+     "high": 305.04998779296875,
+     "low": 296.6000061035156,
+     "close": 303.20001220703125,
+     "volume": 1279
+    },
+    {
+     "date": "2025-08-20",
+     "open": 301.3999938964844,
+     "high": 310.3500061035156,
+     "low": 297.1499938964844,
+     "close": 307.45001220703125,
+     "volume": 1358
+    },
+    {
+     "date": "2025-08-21",
+     "open": 307.29998779296875,
+     "high": 313.20001220703125,
+     "low": 304.6000061035156,
+     "close": 312.3999938964844,
+     "volume": 1775
+    },
+    {
+     "date": "2025-08-22",
+     "open": 309.75,
+     "high": 322.54998779296875,
+     "low": 309.75,
+     "close": 321.20001220703125,
+     "volume": 1102
+    },
+    {
+     "date": "2025-08-25",
+     "open": 319.1000061035156,
+     "high": 328,
+     "low": 318.1499938964844,
+     "close": 322.3500061035156,
+     "volume": 495
+    },
+    {
+     "date": "2025-08-26",
+     "open": 319.1000061035156,
+     "high": 321.3500061035156,
+     "low": 311.95001220703125,
+     "close": 318.95001220703125,
+     "volume": 637
+    },
+    {
+     "date": "2025-08-27",
+     "open": 317,
+     "high": 326.3999938964844,
+     "low": 313.79998779296875,
+     "close": 325.70001220703125,
+     "volume": 936
+    },
+    {
+     "date": "2025-08-28",
+     "open": 321.95001220703125,
+     "high": 329.1000061035156,
+     "low": 318.5,
+     "close": 321.6000061035156,
+     "volume": 735
+    },
+    {
+     "date": "2025-08-29",
+     "open": 320.3999938964844,
+     "high": 327.6000061035156,
+     "low": 316.6000061035156,
+     "close": 326.3500061035156,
+     "volume": 825
+    },
+    {
+     "date": "2025-09-02",
+     "open": 315.3500061035156,
+     "high": 320.3500061035156,
+     "low": 308.1000061035156,
+     "close": 311.25,
+     "volume": 626
+    },
+    {
+     "date": "2025-09-03",
+     "open": 312.8500061035156,
+     "high": 317,
+     "low": 311.54998779296875,
+     "close": 313.79998779296875,
+     "volume": 371
+    },
+    {
+     "date": "2025-09-04",
+     "open": 311.20001220703125,
+     "high": 316.5,
+     "low": 308.3999938964844,
+     "close": 313.5,
+     "volume": 983
+    },
+    {
+     "date": "2025-09-05",
+     "open": 313.1499938964844,
+     "high": 314.5,
+     "low": 308.95001220703125,
+     "close": 313.1499938964844,
+     "volume": 208
+    },
+    {
+     "date": "2025-09-08",
+     "open": 310,
+     "high": 322.04998779296875,
+     "low": 310,
+     "close": 321.6000061035156,
+     "volume": 703
+    },
+    {
+     "date": "2025-09-09",
+     "open": 322.20001220703125,
+     "high": 324.8500061035156,
+     "low": 317.8500061035156,
+     "close": 318.8999938964844,
+     "volume": 997
+    },
+    {
+     "date": "2025-09-10",
+     "open": 321.29998779296875,
+     "high": 323.5,
+     "low": 318,
+     "close": 322.25,
+     "volume": 469
+    },
+    {
+     "date": "2025-09-11",
+     "open": 321.79998779296875,
+     "high": 324.6000061035156,
+     "low": 319.25,
+     "close": 323.3500061035156,
+     "volume": 457
+    },
+    {
+     "date": "2025-09-12",
+     "open": 324.95001220703125,
+     "high": 330.8500061035156,
+     "low": 323.29998779296875,
+     "close": 329.6000061035156,
+     "volume": 1061
+    },
+    {
+     "date": "2025-09-15",
+     "open": 329.75,
+     "high": 346.70001220703125,
+     "low": 328.75,
+     "close": 345.25,
+     "volume": 1584
+    },
+    {
+     "date": "2025-09-16",
+     "open": 341.79998779296875,
+     "high": 348.54998779296875,
+     "low": 335.6499938964844,
+     "close": 337.25,
+     "volume": 1792
+    },
+    {
+     "date": "2025-09-17",
+     "open": 332.5,
+     "high": 332.5,
+     "low": 306.29998779296875,
+     "close": 307.5,
+     "volume": 1835
+    },
+    {
+     "date": "2025-09-18",
+     "open": 308.1499938964844,
+     "high": 311.3500061035156,
+     "low": 304.6000061035156,
+     "close": 309.29998779296875,
+     "volume": 827
+    },
+    {
+     "date": "2025-09-19",
+     "open": 310.45001220703125,
+     "high": 311.1499938964844,
+     "low": 289,
+     "close": 298.1499938964844,
+     "volume": 1549
+    },
+    {
+     "date": "2025-09-22",
+     "open": 299.25,
+     "high": 300.6499938964844,
+     "low": 294.04998779296875,
+     "close": 299.25,
+     "volume": 374
+    },
+    {
+     "date": "2025-09-23",
+     "open": 296.70001220703125,
+     "high": 303.5,
+     "low": 290.79998779296875,
+     "close": 291.54998779296875,
+     "volume": 905
+    },
+    {
+     "date": "2025-09-24",
+     "open": 292.6000061035156,
+     "high": 304.04998779296875,
+     "low": 292.6000061035156,
+     "close": 303,
+     "volume": 618
+    },
+    {
+     "date": "2025-09-25",
+     "open": 305,
+     "high": 310.54998779296875,
+     "low": 297.75,
+     "close": 303.6000061035156,
+     "volume": 967
+    },
+    {
+     "date": "2025-09-26",
+     "open": 310,
+     "high": 315,
+     "low": 308.1499938964844,
+     "close": 311.95001220703125,
+     "volume": 798
+    },
+    {
+     "date": "2025-09-29",
+     "open": 315,
+     "high": 320.79998779296875,
+     "low": 310.5,
+     "close": 312.5,
+     "volume": 644
+    },
+    {
+     "date": "2025-09-30",
+     "open": 313.3999938964844,
+     "high": 319.1000061035156,
+     "low": 309.79998779296875,
+     "close": 316.6000061035156,
+     "volume": 497
+    },
+    {
+     "date": "2025-10-01",
+     "open": 315.20001220703125,
+     "high": 327.6499938964844,
+     "low": 309.75,
+     "close": 326.79998779296875,
+     "volume": 690
+    },
+    {
+     "date": "2025-10-02",
+     "open": 328.1499938964844,
+     "high": 328.95001220703125,
+     "low": 318.8999938964844,
+     "close": 321.8999938964844,
+     "volume": 502
+    },
+    {
+     "date": "2025-10-03",
+     "open": 325,
+     "high": 331.3500061035156,
+     "low": 324,
+     "close": 331.25,
+     "volume": 1475
+    },
+    {
+     "date": "2025-10-06",
+     "open": 325,
+     "high": 330,
+     "low": 319.1499938964844,
+     "close": 322.20001220703125,
+     "volume": 542
+    },
+    {
+     "date": "2025-10-07",
+     "open": 324.20001220703125,
+     "high": 324.20001220703125,
+     "low": 312,
+     "close": 315.5,
+     "volume": 663
+    },
+    {
+     "date": "2025-10-08",
+     "open": 315.20001220703125,
+     "high": 324.54998779296875,
+     "low": 314,
+     "close": 323.70001220703125,
+     "volume": 522
+    },
+    {
+     "date": "2025-10-09",
+     "open": 323.6499938964844,
+     "high": 325.29998779296875,
+     "low": 315.6499938964844,
+     "close": 316.75,
+     "volume": 422
+    },
+    {
+     "date": "2025-10-10",
+     "open": 315.95001220703125,
+     "high": 319.29998779296875,
+     "low": 310.75,
+     "close": 312.70001220703125,
+     "volume": 235
+    },
+    {
+     "date": "2025-10-13",
+     "open": 315,
+     "high": 323.5,
+     "low": 314.6499938964844,
+     "close": 322.45001220703125,
+     "volume": 388
+    },
+    {
+     "date": "2025-10-14",
+     "open": 320.95001220703125,
+     "high": 330.95001220703125,
+     "low": 319.45001220703125,
+     "close": 327.1000061035156,
+     "volume": 1632
+    },
+    {
+     "date": "2025-10-15",
+     "open": 325,
+     "high": 332,
+     "low": 317.3500061035156,
+     "close": 321.29998779296875,
+     "volume": 1802
+    },
+    {
+     "date": "2025-10-16",
+     "open": 317.95001220703125,
+     "high": 328.95001220703125,
+     "low": 314.70001220703125,
+     "close": 321.95001220703125,
+     "volume": 1160
+    },
+    {
+     "date": "2025-10-17",
+     "open": 320,
+     "high": 324.04998779296875,
+     "low": 316.6499938964844,
+     "close": 323.04998779296875,
+     "volume": 668
+    },
+    {
+     "date": "2025-10-20",
+     "open": 324.70001220703125,
+     "high": 330.70001220703125,
+     "low": 323.8999938964844,
+     "close": 327.5,
+     "volume": 550
+    },
+    {
+     "date": "2025-10-21",
+     "open": 325.04998779296875,
+     "high": 335.95001220703125,
+     "low": 325.04998779296875,
+     "close": 335.3500061035156,
+     "volume": 848
+    },
+    {
+     "date": "2025-10-22",
+     "open": 335.54998779296875,
+     "high": 344,
+     "low": 333.70001220703125,
+     "close": 339.25,
+     "volume": 1060
+    },
+    {
+     "date": "2025-10-23",
+     "open": 335.04998779296875,
+     "high": 348.3999938964844,
+     "low": 325.75,
+     "close": 328.45001220703125,
+     "volume": 1587
+    },
+    {
+     "date": "2025-10-24",
+     "open": 329.5,
+     "high": 330.95001220703125,
+     "low": 321.1499938964844,
+     "close": 324.25,
+     "volume": 968
+    },
+    {
+     "date": "2025-10-27",
+     "open": 320.04998779296875,
+     "high": 323.3999938964844,
+     "low": 313.54998779296875,
+     "close": 316.29998779296875,
+     "volume": 867
+    },
+    {
+     "date": "2025-10-28",
+     "open": 314.29998779296875,
+     "high": 319,
+     "low": 307.54998779296875,
+     "close": 314.04998779296875,
+     "volume": 775
+    },
+    {
+     "date": "2025-10-29",
+     "open": 315.95001220703125,
+     "high": 320.3500061035156,
+     "low": 310,
+     "close": 319.45001220703125,
+     "volume": 505
+    },
+    {
+     "date": "2025-10-30",
+     "open": 320.29998779296875,
+     "high": 321.1499938964844,
+     "low": 314.1499938964844,
+     "close": 320.54998779296875,
+     "volume": 391
+    },
+    {
+     "date": "2025-10-31",
+     "open": 321.3999938964844,
+     "high": 322.95001220703125,
+     "low": 314.8500061035156,
+     "close": 318.70001220703125,
+     "volume": 439
+    },
+    {
+     "date": "2025-11-03",
+     "open": 318.70001220703125,
+     "high": 331.1000061035156,
+     "low": 318.70001220703125,
+     "close": 329.45001220703125,
+     "volume": 953
+    },
+    {
+     "date": "2025-11-04",
+     "open": 330.6499938964844,
+     "high": 337.29998779296875,
+     "low": 328.3999938964844,
+     "close": 330.3999938964844,
+     "volume": 1109
+    },
+    {
+     "date": "2025-11-05",
+     "open": 330.3999938964844,
+     "high": 343,
+     "low": 330.1000061035156,
+     "close": 340.54998779296875,
+     "volume": 1291
+    },
+    {
+     "date": "2025-11-06",
+     "open": 340.75,
+     "high": 340.79998779296875,
+     "low": 328.29998779296875,
+     "close": 329,
+     "volume": 1277
+    },
+    {
+     "date": "2025-11-07",
+     "open": 330,
+     "high": 336.45001220703125,
+     "low": 327.20001220703125,
+     "close": 333.8500061035156,
+     "volume": 896
+    },
+    {
+     "date": "2025-11-10",
+     "open": 335.3999938964844,
+     "high": 343.8999938964844,
+     "low": 334.70001220703125,
+     "close": 341.20001220703125,
+     "volume": 1266
+    },
+    {
+     "date": "2025-11-11",
+     "open": 340,
+     "high": 346.70001220703125,
+     "low": 337.8500061035156,
+     "close": 346.20001220703125,
+     "volume": 1342
+    },
+    {
+     "date": "2025-11-12",
+     "open": 343,
+     "high": 343,
+     "low": 321,
+     "close": 324.70001220703125,
+     "volume": 1810
+    },
+    {
+     "date": "2025-11-13",
+     "open": 321,
+     "high": 326.95001220703125,
+     "low": 319.5,
+     "close": 324.45001220703125,
+     "volume": 1565
+    },
+    {
+     "date": "2025-11-14",
+     "open": 323.1499938964844,
+     "high": 325.25,
+     "low": 314.04998779296875,
+     "close": 323.1000061035156,
+     "volume": 2239
+    },
+    {
+     "date": "2025-11-17",
+     "open": 325,
+     "high": 330,
+     "low": 319.3999938964844,
+     "close": 323.70001220703125,
+     "volume": 1503
+    },
+    {
+     "date": "2025-11-18",
+     "open": 323.8500061035156,
+     "high": 333.8500061035156,
+     "low": 323.75,
+     "close": 332.20001220703125,
+     "volume": 1894
+    },
+    {
+     "date": "2025-11-19",
+     "open": 328.8999938964844,
+     "high": 330.75,
+     "low": 320.25,
+     "close": 322.1000061035156,
+     "volume": 1421
+    },
+    {
+     "date": "2025-11-20",
+     "open": 324,
+     "high": 327.79998779296875,
+     "low": 322.45001220703125,
+     "close": 324.1000061035156,
+     "volume": 905
+    },
+    {
+     "date": "2025-11-21",
+     "open": 311.25,
+     "high": 322.6000061035156,
+     "low": 305,
+     "close": 319.25,
+     "volume": 2394
+    },
+    {
+     "date": "2025-11-24",
+     "open": 318.8500061035156,
+     "high": 325.6000061035156,
+     "low": 318.5,
+     "close": 324.20001220703125,
+     "volume": 963
+    },
+    {
+     "date": "2025-11-25",
+     "open": 327,
+     "high": 331.70001220703125,
+     "low": 323.25,
+     "close": 331.3999938964844,
+     "volume": 1322
+    },
+    {
+     "date": "2025-11-26",
+     "open": 328,
+     "high": 331.1499938964844,
+     "low": 324.5,
+     "close": 327.79998779296875,
+     "volume": 2275
+    },
+    {
+     "date": "2025-11-28",
+     "open": 328.25,
+     "high": 332.6499938964844,
+     "low": 326.6499938964844,
+     "close": 330.20001220703125,
+     "volume": 1096
+    },
+    {
+     "date": "2025-12-01",
+     "open": 325,
+     "high": 331.04998779296875,
+     "low": 321.1000061035156,
+     "close": 329.79998779296875,
+     "volume": 1704
+    },
+    {
+     "date": "2025-12-02",
+     "open": 329.70001220703125,
+     "high": 330,
+     "low": 321.54998779296875,
+     "close": 322.79998779296875,
+     "volume": 2681
+    },
+    {
+     "date": "2025-12-03",
+     "open": 323.8500061035156,
+     "high": 325.45001220703125,
+     "low": 321.5,
+     "close": 322.25,
+     "volume": 1146
+    },
+    {
+     "date": "2025-12-04",
+     "open": 323.8999938964844,
+     "high": 330.3999938964844,
+     "low": 322.1499938964844,
+     "close": 329.8999938964844,
+     "volume": 851
+    },
+    {
+     "date": "2025-12-05",
+     "open": 325.95001220703125,
+     "high": 326.70001220703125,
+     "low": 323.25,
+     "close": 324.45001220703125,
+     "volume": 394
+    },
+    {
+     "date": "2025-12-08",
+     "open": 322.8999938964844,
+     "high": 326.3999938964844,
+     "low": 315,
+     "close": 315.95001220703125,
+     "volume": 486
+    },
+    {
+     "date": "2025-12-09",
+     "open": 318.5,
+     "high": 323.45001220703125,
+     "low": 318.29998779296875,
+     "close": 319.1499938964844,
+     "volume": 539
+    },
+    {
+     "date": "2025-12-10",
+     "open": 319.20001220703125,
+     "high": 326.95001220703125,
+     "low": 318.29998779296875,
+     "close": 323.3999938964844,
+     "volume": 514
+    },
+    {
+     "date": "2025-12-11",
+     "open": 323.1499938964844,
+     "high": 330.04998779296875,
+     "low": 322.79998779296875,
+     "close": 327,
+     "volume": 595
+    },
+    {
+     "date": "2025-12-12",
+     "open": 326.79998779296875,
+     "high": 328.29998779296875,
+     "low": 321.1499938964844,
+     "close": 322.3999938964844,
+     "volume": 623
+    },
+    {
+     "date": "2025-12-15",
+     "open": 321.6000061035156,
+     "high": 323.1000061035156,
+     "low": 314.70001220703125,
+     "close": 316.6499938964844,
+     "volume": 1185
+    },
+    {
+     "date": "2025-12-16",
+     "open": 319.70001220703125,
+     "high": 319.70001220703125,
+     "low": 310.25,
+     "close": 310.3500061035156,
+     "volume": 1756
+    },
+    {
+     "date": "2025-12-17",
+     "open": 310.20001220703125,
+     "high": 313.6000061035156,
+     "low": 307,
+     "close": 307.25,
+     "volume": 1485
+    },
+    {
+     "date": "2025-12-18",
+     "open": 308.45001220703125,
+     "high": 309.5,
+     "low": 305,
+     "close": 305.29998779296875,
+     "volume": 1372
+    },
+    {
+     "date": "2025-12-19",
+     "open": 306.75,
+     "high": 307.54998779296875,
+     "low": 303.04998779296875,
+     "close": 303.6000061035156,
+     "volume": 1501
+    },
+    {
+     "date": "2025-12-22",
+     "open": 308.5,
+     "high": 312.1000061035156,
+     "low": 302.5,
+     "close": 310.25,
+     "volume": 857
+    },
+    {
+     "date": "2025-12-23",
+     "open": 313.3999938964844,
+     "high": 315,
+     "low": 309.70001220703125,
+     "close": 311,
+     "volume": 650
+    },
+    {
+     "date": "2025-12-24",
+     "open": 312.20001220703125,
+     "high": 313,
+     "low": 308.79998779296875,
+     "close": 310.8500061035156,
+     "volume": 941
+    },
+    {
+     "date": "2025-12-26",
+     "open": 309.8500061035156,
+     "high": 315,
+     "low": 309.8500061035156,
+     "close": 314.8500061035156,
+     "volume": 516
+    },
+    {
+     "date": "2025-12-29",
+     "open": 313.25,
+     "high": 318.6000061035156,
+     "low": 313.20001220703125,
+     "close": 317.1000061035156,
+     "volume": 534
+    },
+    {
+     "date": "2025-12-30",
+     "open": 315.25,
+     "high": 324,
+     "low": 315.20001220703125,
+     "close": 315.6499938964844,
+     "volume": 677
+    },
+    {
+     "date": "2025-12-31",
+     "open": 314.75,
+     "high": 319.04998779296875,
+     "low": 313.95001220703125,
+     "close": 314.54998779296875,
+     "volume": 595
+    },
+    {
+     "date": "2026-01-02",
+     "open": 314.45001220703125,
+     "high": 323.25,
+     "low": 311.45001220703125,
+     "close": 323.04998779296875,
+     "volume": 771
+    },
+    {
+     "date": "2026-01-05",
+     "open": 322.5,
+     "high": 324,
+     "low": 316.3500061035156,
+     "close": 323.04998779296875,
+     "volume": 1253
+    },
+    {
+     "date": "2026-01-06",
+     "open": 320.79998779296875,
+     "high": 332.54998779296875,
+     "low": 320.6000061035156,
+     "close": 332.1000061035156,
+     "volume": 1808
+    },
+    {
+     "date": "2026-01-07",
+     "open": 329.95001220703125,
+     "high": 339,
+     "low": 329.95001220703125,
+     "close": 334.75,
+     "volume": 1923
+    },
+    {
+     "date": "2026-01-08",
+     "open": 330.79998779296875,
+     "high": 341.75,
+     "low": 330.79998779296875,
+     "close": 333,
+     "volume": 1735
+    },
+    {
+     "date": "2026-01-09",
+     "open": 330.1000061035156,
+     "high": 330.3500061035156,
+     "low": 319.20001220703125,
+     "close": 320.6499938964844,
+     "volume": 850
+    },
+    {
+     "date": "2026-01-12",
+     "open": 319.8500061035156,
+     "high": 321.5,
+     "low": 316.1000061035156,
+     "close": 320.04998779296875,
+     "volume": 578
+    },
+    {
+     "date": "2026-01-13",
+     "open": 323.25,
+     "high": 325.8999938964844,
+     "low": 320,
+     "close": 323.8999938964844,
+     "volume": 1194
+    },
+    {
+     "date": "2026-01-14",
+     "open": 325,
+     "high": 326.20001220703125,
+     "low": 319.6499938964844,
+     "close": 321.25,
+     "volume": 1195
+    },
+    {
+     "date": "2026-01-15",
+     "open": 319.45001220703125,
+     "high": 324.04998779296875,
+     "low": 316.5,
+     "close": 323.29998779296875,
+     "volume": 810
+    },
+    {
+     "date": "2026-01-16",
+     "open": 324.1000061035156,
+     "high": 325.3500061035156,
+     "low": 319.54998779296875,
+     "close": 320.54998779296875,
+     "volume": 736
+    },
+    {
+     "date": "2026-01-20",
+     "open": 318.6000061035156,
+     "high": 320.04998779296875,
+     "low": 311.95001220703125,
+     "close": 312.8500061035156,
+     "volume": 1099
+    },
+    {
+     "date": "2026-01-21",
+     "open": 312.79998779296875,
+     "high": 313.3500061035156,
+     "low": 308.75,
+     "close": 313.20001220703125,
+     "volume": 1710
+    },
+    {
+     "date": "2026-01-22",
+     "open": 312.45001220703125,
+     "high": 315,
+     "low": 310,
+     "close": 313.70001220703125,
+     "volume": 682
+    },
+    {
+     "date": "2026-01-23",
+     "open": 314.1000061035156,
+     "high": 320.1000061035156,
+     "low": 313.45001220703125,
+     "close": 315.95001220703125,
+     "volume": 772
+    },
+    {
+     "date": "2026-01-26",
+     "open": 315.8500061035156,
+     "high": 321.3999938964844,
+     "low": 315.3500061035156,
+     "close": 320.1499938964844,
+     "volume": 1059
+    },
+    {
+     "date": "2026-01-27",
+     "open": 320.54998779296875,
+     "high": 328.29998779296875,
+     "low": 320.1499938964844,
+     "close": 325.95001220703125,
+     "volume": 1232
+    },
+    {
+     "date": "2026-01-28",
+     "open": 327.1000061035156,
+     "high": 330,
+     "low": 314.5,
+     "close": 314.95001220703125,
+     "volume": 1203
+    },
+    {
+     "date": "2026-01-29",
+     "open": 315.20001220703125,
+     "high": 316,
+     "low": 310,
+     "close": 310.8500061035156,
+     "volume": 1199
+    },
+    {
+     "date": "2026-01-30",
+     "open": 310.3999938964844,
+     "high": 310.54998779296875,
+     "low": 298.75,
+     "close": 298.8500061035156,
+     "volume": 2191
+    },
+    {
+     "date": "2026-02-02",
+     "open": 298,
+     "high": 303.45001220703125,
+     "low": 296.75,
+     "close": 297.95001220703125,
+     "volume": 1372
+    },
+    {
+     "date": "2026-02-03",
+     "open": 301.6000061035156,
+     "high": 301.70001220703125,
+     "low": 283.45001220703125,
+     "close": 285.8500061035156,
+     "volume": 2334
+    },
+    {
+     "date": "2026-02-04",
+     "open": 289.6499938964844,
+     "high": 293.1499938964844,
+     "low": 280.25,
+     "close": 283.20001220703125,
+     "volume": 3870
+    },
+    {
+     "date": "2026-02-05",
+     "open": 282.6000061035156,
+     "high": 286.8500061035156,
+     "low": 276.6000061035156,
+     "close": 281.79998779296875,
+     "volume": 2060
+    },
+    {
+     "date": "2026-02-06",
+     "open": 283.95001220703125,
+     "high": 288.3999938964844,
+     "low": 272.95001220703125,
+     "close": 275.1499938964844,
+     "volume": 2253
+    },
+    {
+     "date": "2026-02-09",
+     "open": 275.04998779296875,
+     "high": 281.3500061035156,
+     "low": 271.8500061035156,
+     "close": 279.79998779296875,
+     "volume": 2192
+    },
+    {
+     "date": "2026-02-10",
+     "open": 282,
+     "high": 282.54998779296875,
+     "low": 275.1000061035156,
+     "close": 276.6499938964844,
+     "volume": 2373
+    },
+    {
+     "date": "2026-02-11",
+     "open": 276.20001220703125,
+     "high": 282.54998779296875,
+     "low": 275.8500061035156,
+     "close": 280.75,
+     "volume": 2361
+    },
+    {
+     "date": "2026-02-12",
+     "open": 283.79998779296875,
+     "high": 287.45001220703125,
+     "low": 281.3500061035156,
+     "close": 285.54998779296875,
+     "volume": 2407
+    },
+    {
+     "date": "2026-02-13",
+     "open": 286.3999938964844,
+     "high": 292.79998779296875,
+     "low": 285,
+     "close": 285.8999938964844,
+     "volume": 2378
+    },
+    {
+     "date": "2026-02-17",
+     "open": 285.3500061035156,
+     "high": 285.3500061035156,
+     "low": 269.20001220703125,
+     "close": 272.1499938964844,
+     "volume": 2448
+    },
+    {
+     "date": "2026-02-18",
+     "open": 272.8500061035156,
+     "high": 276.04998779296875,
+     "low": 269.8500061035156,
+     "close": 274.1499938964844,
+     "volume": 1912
+    },
+    {
+     "date": "2026-02-19",
+     "open": 274.95001220703125,
+     "high": 275.8500061035156,
+     "low": 264.3500061035156,
+     "close": 272.95001220703125,
+     "volume": 3303
+    },
+    {
+     "date": "2026-02-20",
+     "open": 275,
+     "high": 277.45001220703125,
+     "low": 268,
+     "close": 272.3500061035156,
+     "volume": 2944
+    },
+    {
+     "date": "2026-02-23",
+     "open": 271.29998779296875,
+     "high": 272,
+     "low": 264,
+     "close": 264.75,
+     "volume": 2374
+    },
+    {
+     "date": "2026-02-24",
+     "open": 263.6499938964844,
+     "high": 271.3999938964844,
+     "low": 262.04998779296875,
+     "close": 270.95001220703125,
+     "volume": 2686
+    },
+    {
+     "date": "2026-02-25",
+     "open": 271.3999938964844,
+     "high": 272.25,
+     "low": 267,
+     "close": 270.6000061035156,
+     "volume": 1860
+    },
+    {
+     "date": "2026-02-26",
+     "open": 270.6499938964844,
+     "high": 271.1000061035156,
+     "low": 266.6000061035156,
+     "close": 268.3500061035156,
+     "volume": 1225
+    },
+    {
+     "date": "2026-02-27",
+     "open": 267.1499938964844,
+     "high": 268.5,
+     "low": 262.6000061035156,
+     "close": 266.8999938964844,
+     "volume": 2275
+    },
+    {
+     "date": "2026-03-02",
+     "open": 266.5,
+     "high": 270.79998779296875,
+     "low": 263.3500061035156,
+     "close": 270.6000061035156,
+     "volume": 2775
+    },
+    {
+     "date": "2026-03-03",
+     "open": 270.5,
+     "high": 275.79998779296875,
+     "low": 264.8500061035156,
+     "close": 269.3500061035156,
+     "volume": 3183
+    },
+    {
+     "date": "2026-03-04",
+     "open": 269.3500061035156,
+     "high": 273.70001220703125,
+     "low": 268.8999938964844,
+     "close": 270.95001220703125,
+     "volume": 3763
+    },
+    {
+     "date": "2026-03-05",
+     "open": 271,
+     "high": 278.6000061035156,
+     "low": 270.70001220703125,
+     "close": 273.8500061035156,
+     "volume": 3170
+    },
+    {
+     "date": "2026-03-06",
+     "open": 278,
+     "high": 280.54998779296875,
+     "low": 273.8500061035156,
+     "close": 277.6499938964844,
+     "volume": 3628
+    },
+    {
+     "date": "2026-03-09",
+     "open": 279.25,
+     "high": 284.6499938964844,
+     "low": 276.5,
+     "close": 278.8999938964844,
+     "volume": 2743
+    },
+    {
+     "date": "2026-03-10",
+     "open": 277.8999938964844,
+     "high": 279.3999938964844,
+     "low": 275,
+     "close": 278.70001220703125,
+     "volume": 2029
+    },
+    {
+     "date": "2026-03-11",
+     "open": 277,
+     "high": 277,
+     "low": 267.20001220703125,
+     "close": 271.20001220703125,
+     "volume": 2179
+    },
+    {
+     "date": "2026-03-12",
+     "open": 271.20001220703125,
+     "high": 279,
+     "low": 270.3999938964844,
+     "close": 274.54998779296875,
+     "volume": 2348
+    },
+    {
+     "date": "2026-03-13",
+     "open": 273.3999938964844,
+     "high": 273.3999938964844,
+     "low": 265,
+     "close": 267.29998779296875,
+     "volume": 2100
+    },
+    {
+     "date": "2026-03-16",
+     "open": 267,
+     "high": 271.6000061035156,
+     "low": 264.29998779296875,
+     "close": 271.29998779296875,
+     "volume": 4271
+    },
+    {
+     "date": "2026-03-17",
+     "open": 271.29998779296875,
+     "high": 276.20001220703125,
+     "low": 270,
+     "close": 271.8500061035156,
+     "volume": 4141
+    },
+    {
+     "date": "2026-03-18",
+     "open": 271,
+     "high": 271.5,
+     "low": 266.8999938964844,
+     "close": 270.79998779296875,
+     "volume": 2643
+    },
+    {
+     "date": "2026-03-19",
+     "open": 273,
+     "high": 278.20001220703125,
+     "low": 269,
+     "close": 276.70001220703125,
+     "volume": 3017
+    },
+    {
+     "date": "2026-03-20",
+     "open": 278.6499938964844,
+     "high": 282.8999938964844,
+     "low": 273.6499938964844,
+     "close": 280.3999938964844,
+     "volume": 5296
+    },
+    {
+     "date": "2026-03-23",
+     "open": 279.6000061035156,
+     "high": 280,
+     "low": 271.5,
+     "close": 276.1499938964844,
+     "volume": 7726
+    },
+    {
+     "date": "2026-03-24",
+     "open": 276.3500061035156,
+     "high": 284.5,
+     "low": 275.8999938964844,
+     "close": 283.29998779296875,
+     "volume": 7596
+    },
+    {
+     "date": "2026-03-25",
+     "open": 282.79998779296875,
+     "high": 286.1000061035156,
+     "low": 279.54998779296875,
+     "close": 284.3500061035156,
+     "volume": 4279
+    },
+    {
+     "date": "2026-03-26",
+     "open": 283.70001220703125,
+     "high": 285.6499938964844,
+     "low": 279.45001220703125,
+     "close": 280.20001220703125,
+     "volume": 3723
+    },
+    {
+     "date": "2026-03-27",
+     "open": 279.79998779296875,
+     "high": 280.54998779296875,
+     "low": 273.6000061035156,
+     "close": 274.70001220703125,
+     "volume": 2148
+    },
+    {
+     "date": "2026-03-30",
+     "open": 273,
+     "high": 273,
+     "low": 265.79998779296875,
+     "close": 266.79998779296875,
+     "volume": 3222
+    },
+    {
+     "date": "2026-03-31",
+     "open": 267.3999938964844,
+     "high": 269.70001220703125,
+     "low": 266.25,
+     "close": 268.95001220703125,
+     "volume": 3705
+    },
+    {
+     "date": "2026-04-01",
+     "open": 268.04998779296875,
+     "high": 270.1499938964844,
+     "low": 263.54998779296875,
+     "close": 268.3999938964844,
+     "volume": 3903
+    },
+    {
+     "date": "2026-04-02",
+     "open": 269.8999938964844,
+     "high": 271.29998779296875,
+     "low": 264.6499938964844,
+     "close": 266.54998779296875,
+     "volume": 4139
+    },
+    {
+     "date": "2026-04-06",
+     "open": 266.1499938964844,
+     "high": 270,
+     "low": 265.04998779296875,
+     "close": 269.20001220703125,
+     "volume": 1607
+    },
+    {
+     "date": "2026-04-07",
+     "open": 269.20001220703125,
+     "high": 269.20001220703125,
+     "low": 260,
+     "close": 260.20001220703125,
+     "volume": 4570
+    },
+    {
+     "date": "2026-04-08",
+     "open": 260,
+     "high": 266.8999938964844,
+     "low": 258.95001220703125,
+     "close": 266.54998779296875,
+     "volume": 4675
+    },
+    {
+     "date": "2026-04-09",
+     "open": 265.6000061035156,
+     "high": 268.29998779296875,
+     "low": 263.3500061035156,
+     "close": 266.5,
+     "volume": 3164
+    },
+    {
+     "date": "2026-04-10",
+     "open": 265.6000061035156,
+     "high": 272.04998779296875,
+     "low": 264.75,
+     "close": 271.25,
+     "volume": 4059
+    },
+    {
+     "date": "2026-04-13",
+     "open": 271.25,
+     "high": 274.6000061035156,
+     "low": 269.29998779296875,
+     "close": 272.20001220703125,
+     "volume": 3171
+    },
+    {
+     "date": "2026-04-14",
+     "open": 271.6000061035156,
+     "high": 276.3999938964844,
+     "low": 269.6000061035156,
+     "close": 274.29998779296875,
+     "volume": 3958
+    },
+    {
+     "date": "2026-04-15",
+     "open": 274.1000061035156,
+     "high": 276.5,
+     "low": 272.45001220703125,
+     "close": 275.5,
+     "volume": 3836
+    },
+    {
+     "date": "2026-04-16",
+     "open": 274.8500061035156,
+     "high": 275.20001220703125,
+     "low": 266.25,
+     "close": 268.95001220703125,
+     "volume": 3832
+    },
+    {
+     "date": "2026-04-17",
+     "open": 269.3500061035156,
+     "high": 271.25,
+     "low": 263.75,
+     "close": 264.8999938964844,
+     "volume": 3148
+    },
+    {
+     "date": "2026-04-20",
+     "open": 266.54998779296875,
+     "high": 270.20001220703125,
+     "low": 265.54998779296875,
+     "close": 269.54998779296875,
+     "volume": 2528
+    },
+    {
+     "date": "2026-04-21",
+     "open": 267.54998779296875,
+     "high": 269.1499938964844,
+     "low": 260.3500061035156,
+     "close": 264.3999938964844,
+     "volume": 6153
+    },
+    {
+     "date": "2026-04-22",
+     "open": 269,
+     "high": 271.95001220703125,
+     "low": 268.6000061035156,
+     "close": 270.20001220703125,
+     "volume": 5391
+    },
+    {
+     "date": "2026-04-23",
+     "open": 269,
+     "high": 281.45001220703125,
+     "low": 269,
+     "close": 279.45001220703125,
+     "volume": 5796
+    },
+    {
+     "date": "2026-04-24",
+     "open": 278.8999938964844,
+     "high": 285.5,
+     "low": 276.20001220703125,
+     "close": 277,
+     "volume": 5025
+    },
+    {
+     "date": "2026-04-27",
+     "open": 274.1000061035156,
+     "high": 277.04998779296875,
+     "low": 269.6000061035156,
+     "close": 271.1499938964844,
+     "volume": 2852
+    },
+    {
+     "date": "2026-04-28",
+     "open": 271.75,
+     "high": 276.5,
+     "low": 270.95001220703125,
+     "close": 272.8500061035156,
+     "volume": 3376
+    },
+    {
+     "date": "2026-04-29",
+     "open": 273.1499938964844,
+     "high": 275.8500061035156,
+     "low": 270.95001220703125,
+     "close": 272.75,
+     "volume": 2932
+    },
+    {
+     "date": "2026-04-30",
+     "open": 271.70001220703125,
+     "high": 273.20001220703125,
+     "low": 266.25,
+     "close": 267.6499938964844,
+     "volume": 3766
+    },
+    {
+     "date": "2026-05-01",
+     "open": 268.79998779296875,
+     "high": 271,
+     "low": 263.25,
+     "close": 267.5,
+     "volume": 4152
+    },
+    {
+     "date": "2026-05-04",
+     "open": 269.5,
+     "high": 272.6000061035156,
+     "low": 268,
+     "close": 268.6000061035156,
+     "volume": 2665
+    },
+    {
+     "date": "2026-05-05",
+     "open": 269.6000061035156,
+     "high": 278.1499938964844,
+     "low": 269.1000061035156,
+     "close": 272.6499938964844,
+     "volume": 4718
+    },
+    {
+     "date": "2026-05-06",
+     "open": 273.5,
+     "high": 275.75,
+     "low": 268.20001220703125,
+     "close": 269.3500061035156,
+     "volume": 3114
+    },
+    {
+     "date": "2026-05-07",
+     "open": 268.6499938964844,
+     "high": 269.1000061035156,
+     "low": 257.3999938964844,
+     "close": 258.8500061035156,
+     "volume": 5723
+    },
+    {
+     "date": "2026-05-08",
+     "open": 258.70001220703125,
+     "high": 263.6000061035156,
+     "low": 258.1000061035156,
+     "close": 260.6000061035156,
+     "volume": 3917
+    },
+    {
+     "date": "2026-05-11",
+     "open": 261.3500061035156,
+     "high": 268.54998779296875,
+     "low": 254.25,
+     "close": 268.25,
+     "volume": 4730
+    },
+    {
+     "date": "2026-05-12",
+     "open": 267.25,
+     "high": 268.95001220703125,
+     "low": 262.29998779296875,
+     "close": 266.29998779296875,
+     "volume": 4333
+    },
+    {
+     "date": "2026-05-13",
+     "open": 269.5,
+     "high": 272.3999938964844,
+     "low": 265.75,
+     "close": 267.04998779296875,
+     "volume": 3288
+    },
+    {
+     "date": "2026-05-14",
+     "open": 267.25,
+     "high": 267.25,
+     "low": 260.5,
+     "close": 261.6000061035156,
+     "volume": 3547
+    },
+    {
+     "date": "2026-05-15",
+     "open": 260.79998779296875,
+     "high": 263.8999938964844,
+     "low": 251.89999389648438,
+     "close": 253.4499969482422,
+     "volume": 5643
+    },
+    {
+     "date": "2026-05-18",
+     "open": 253.25,
+     "high": 256.25,
+     "low": 249.14999389648438,
+     "close": 249.8000030517578,
+     "volume": 4594
+    },
+    {
+     "date": "2026-05-19",
+     "open": 252,
+     "high": 255.35000610351562,
+     "low": 248.75,
+     "close": 254.64999389648438,
+     "volume": 5662
+    },
+    {
+     "date": "2026-05-20",
+     "open": 254.64999389648438,
+     "high": 256.45001220703125,
+     "low": 249.75,
+     "close": 252.89999389648438,
+     "volume": 5415
+    },
+    {
+     "date": "2026-05-21",
+     "open": 253.14999389648438,
+     "high": 258,
+     "low": 251.3000030517578,
+     "close": 257.25,
+     "volume": 5776
+    },
+    {
+     "date": "2026-05-22",
+     "open": 258.8500061035156,
+     "high": 258.95001220703125,
+     "low": 254.3000030517578,
+     "close": 256.95001220703125,
+     "volume": 3571
+    },
+    {
+     "date": "2026-05-26",
+     "open": 256.20001220703125,
+     "high": 259.54998779296875,
+     "low": 252.39999389648438,
+     "close": 258.29998779296875,
+     "volume": 5627
+    },
+    {
+     "date": "2026-05-27",
+     "open": 258.3500061035156,
+     "high": 260.3500061035156,
+     "low": 253.14999389648438,
+     "close": 254.1999969482422,
+     "volume": 5397
+    },
+    {
+     "date": "2026-05-28",
+     "open": 255.1999969482422,
+     "high": 262.1000061035156,
+     "low": 255.1999969482422,
+     "close": 258.8999938964844,
+     "volume": 4296
+    },
+    {
+     "date": "2026-05-29",
+     "open": 259.1499938964844,
+     "high": 259.29998779296875,
+     "low": 250.9499969482422,
+     "close": 251.1999969482422,
+     "volume": 4284
+    },
+    {
+     "date": "2026-06-01",
+     "open": 251.8000030517578,
+     "high": 254.64999389648438,
+     "low": 245.89999389648438,
+     "close": 246.75,
+     "volume": 5619
+    },
+    {
+     "date": "2026-06-02",
+     "open": 246.60000610351562,
+     "high": 248.1999969482422,
+     "low": 244.4499969482422,
+     "close": 245.25,
+     "volume": 6509
+    },
+    {
+     "date": "2026-06-03",
+     "open": 247.4499969482422,
+     "high": 247.8000030517578,
+     "low": 240,
+     "close": 240.4499969482422,
+     "volume": 7809
+    },
+    {
+     "date": "2026-06-04",
+     "open": 240.1999969482422,
+     "high": 241.60000610351562,
+     "low": 235.25,
+     "close": 235.35000610351562,
+     "volume": 8408
+    },
+    {
+     "date": "2026-06-05",
+     "open": 236.3000030517578,
+     "high": 237.5500030517578,
+     "low": 231.9499969482422,
+     "close": 234.85000610351562,
+     "volume": 7847
+    },
+    {
+     "date": "2026-06-08",
+     "open": 234.75,
+     "high": 238.4499969482422,
+     "low": 232.4499969482422,
+     "close": 234.35000610351562,
+     "volume": 8142
+    },
+    {
+     "date": "2026-06-09",
+     "open": 234.5,
+     "high": 237.25,
+     "low": 231.8000030517578,
+     "close": 233.89999389648438,
+     "volume": 10127
+    },
+    {
+     "date": "2026-06-10",
+     "open": 234.5500030517578,
+     "high": 238.64999389648438,
+     "low": 233.8000030517578,
+     "close": 237.25,
+     "volume": 8097
+    },
+    {
+     "date": "2026-06-11",
+     "open": 236.5,
+     "high": 244.6999969482422,
+     "low": 236.5,
+     "close": 243.1999969482422,
+     "volume": 7017
+    },
+    {
+     "date": "2026-06-12",
+     "open": 244.25,
+     "high": 247.3000030517578,
+     "low": 242.35000610351562,
+     "close": 246.4499969482422,
+     "volume": 6913
+    },
+    {
+     "date": "2026-06-15",
+     "open": 244.8000030517578,
+     "high": 253.60000610351562,
+     "low": 244.8000030517578,
+     "close": 251.75,
+     "volume": 7803
+    },
+    {
+     "date": "2026-06-16",
+     "open": 251.75,
+     "high": 265.45001220703125,
+     "low": 249.14999389648438,
+     "close": 263.6000061035156,
+     "volume": 14359
+    },
+    {
+     "date": "2026-06-17",
+     "open": 263.25,
+     "high": 265.6499938964844,
+     "low": 258.45001220703125,
+     "close": 263.1499938964844,
+     "volume": 12516
+    },
+    {
+     "date": "2026-06-18",
+     "open": 263.8500061035156,
+     "high": 268.45001220703125,
+     "low": 255.25,
+     "close": 257.8999938964844,
+     "volume": 12328
+    },
+    {
+     "date": "2026-06-22",
+     "open": 254.10000610351562,
+     "high": 257.04998779296875,
+     "low": 250.5500030517578,
+     "close": 256,
+     "volume": 11113
+    },
+    {
+     "date": "2026-06-23",
+     "open": 254.39999389648438,
+     "high": 265.8500061035156,
+     "low": 251.5500030517578,
+     "close": 261.95001220703125,
+     "volume": 16729
+    },
+    {
+     "date": "2026-06-24",
+     "open": 259.6499938964844,
+     "high": 270.45001220703125,
+     "low": 259.6499938964844,
+     "close": 263.8500061035156,
+     "volume": 16208
+    },
+    {
+     "date": "2026-06-25",
+     "open": 265.3999938964844,
+     "high": 269.6499938964844,
+     "low": 258.29998779296875,
+     "close": 263.3999938964844,
+     "volume": 11209
+    },
+    {
+     "date": "2026-06-26",
+     "open": 262.29998779296875,
+     "high": 265,
+     "low": 257.45001220703125,
+     "close": 260.8999938964844,
+     "volume": 7586
+    },
+    {
+     "date": "2026-06-29",
+     "open": 259.45001220703125,
+     "high": 265.1499938964844,
+     "low": 256.8999938964844,
+     "close": 263.3999938964844,
+     "volume": 9074
+    },
+    {
+     "date": "2026-06-30",
+     "open": 263.5,
+     "high": 287.54998779296875,
+     "low": 263.5,
+     "close": 282.1000061035156,
+     "volume": 24723
+    },
+    {
+     "date": "2026-07-01",
+     "open": 284.1000061035156,
+     "high": 300.54998779296875,
+     "low": 278.45001220703125,
+     "close": 294.8500061035156,
+     "volume": 20076
+    },
+    {
+     "date": "2026-07-02",
+     "open": 296.5,
+     "high": 301,
+     "low": 285.29998779296875,
+     "close": 286.29998779296875,
+     "volume": 0
+    },
+    {
+     "date": "2026-07-06",
+     "open": 285.29998779296875,
+     "high": 341.79998779296875,
+     "low": 285.25,
+     "close": 335.3999938964844,
+     "volume": 24992
+    },
+    {
+     "date": "2026-07-07",
+     "open": 331.5,
+     "high": 335,
+     "low": 302.5,
+     "close": 305,
+     "volume": 22310
+    },
+    {
+     "date": "2026-07-08",
+     "open": 305,
+     "high": 311.70001220703125,
+     "low": 295.20001220703125,
+     "close": 297.25,
+     "volume": 13267
+    },
+    {
+     "date": "2026-07-09",
+     "open": 300.6499938964844,
+     "high": 328.79998779296875,
+     "low": 300.25,
+     "close": 328.20001220703125,
+     "volume": 21837
+    },
+    {
+     "date": "2026-07-10",
+     "open": 321,
+     "high": 321,
+     "low": 301.29998779296875,
+     "close": 316,
+     "volume": 19843
+    },
+    {
+     "date": "2026-07-13",
+     "open": 314.8999938964844,
+     "high": 320.25,
+     "low": 302.75,
+     "close": 311.04998779296875,
+     "volume": 9856
+    },
+    {
+     "date": "2026-07-14",
+     "open": 309.45001220703125,
+     "high": 332.6000061035156,
+     "low": 305.1499938964844,
+     "close": 308,
+     "volume": 13154
+    },
+    {
+     "date": "2026-07-15",
+     "open": 309,
+     "high": 318.54998779296875,
+     "low": 304.70001220703125,
+     "close": 309.95001220703125,
+     "volume": 9709
+    },
+    {
+     "date": "2026-07-16",
+     "open": 306.70001220703125,
+     "high": 307.79998779296875,
+     "low": 295.20001220703125,
+     "close": 297.25,
+     "volume": 9487
+    },
+    {
+     "date": "2026-07-17",
+     "open": 298.1499938964844,
+     "high": 308,
+     "low": 296.54998779296875,
+     "close": 303.79998779296875,
+     "volume": 9283
+    },
+    {
+     "date": "2026-07-20",
+     "open": 302.6000061035156,
+     "high": 311.75,
+     "low": 300.1499938964844,
+     "close": 309.45001220703125,
+     "volume": 9426
+    },
+    {
+     "date": "2026-07-21",
+     "open": 306,
+     "high": 319.95001220703125,
+     "low": 306,
+     "close": 307.8999938964844,
+     "volume": 10556
+    },
+    {
+     "date": "2026-07-22",
+     "open": 307,
+     "high": 310.1000061035156,
+     "low": 300.45001220703125,
+     "close": 303.70001220703125,
+     "volume": 9308
+    },
+    {
+     "date": "2026-07-23",
+     "open": 306.54998779296875,
+     "high": 307.70001220703125,
+     "low": 295.1499938964844,
+     "close": 296.45001220703125,
+     "volume": 8650
+    },
+    {
+     "date": "2026-07-24",
+     "open": 297.70001220703125,
+     "high": 303.29998779296875,
+     "low": 293.25,
+     "close": 298.04998779296875,
+     "volume": 11073
+    },
+    {
+     "date": "2026-07-27",
+     "open": 298,
+     "high": 311.1000061035156,
+     "low": 297.79998779296875,
+     "close": 305.8999938964844,
+     "volume": 16424
+    },
+    {
+     "date": "2026-07-28",
+     "open": 308.1000061035156,
+     "high": 323.75,
+     "low": 308.1000061035156,
+     "close": 317.29998779296875,
+     "volume": 18868
+    },
+    {
+     "date": "2026-07-29",
+     "open": 312.79998779296875,
+     "high": 319.3999938964844,
+     "low": 306.5,
+     "close": 308.54998779296875,
+     "volume": 14653
+    },
+    {
+     "date": "2026-07-30",
+     "open": 314.3500061035156,
+     "high": 317.45001220703125,
+     "low": 307.1499938964844,
+     "close": 307.70001220703125,
+     "volume": 16469
+    },
+    {
+     "date": "2026-07-31",
+     "open": 310.3500061035156,
+     "high": 316.8500061035156,
+     "low": 305.04998779296875,
+     "close": 314.6499938964844,
+     "volume": 12694
+    },
+    {
+     "date": "2026-08-03",
+     "open": 313.75,
+     "high": 314.79998779296875,
+     "low": 302.6000061035156,
+     "close": 304.70001220703125,
+     "volume": 16612
+    },
+    {
+     "date": "2026-08-04",
+     "open": 307.5,
+     "high": 311,
+     "low": 304,
+     "close": 308.79998779296875,
+     "volume": 13879
+    },
+    {
+     "date": "2026-08-05",
+     "open": 309.6000061035156,
+     "high": 316.25,
+     "low": 307.04998779296875,
+     "close": 311.45001220703125,
+     "volume": 16593
+    },
+    {
+     "date": "2026-08-06",
+     "open": 310.70001220703125,
+     "high": 314.1000061035156,
+     "low": 303.5,
+     "close": 306.1000061035156,
+     "volume": 12729
+    },
+    {
+     "date": "2026-08-07",
+     "open": 305.8500061035156,
+     "high": 319.79998779296875,
+     "low": 305.8500061035156,
+     "close": 315.8999938964844,
+     "volume": 21753
+    },
+    {
+     "date": "2026-08-10",
+     "open": 314.20001220703125,
+     "high": 318.8999938964844,
+     "low": 309.1000061035156,
+     "close": 313.8999938964844,
+     "volume": 18856
+    },
+    {
+     "date": "2026-08-11",
+     "open": 314.54998779296875,
+     "high": 327.54998779296875,
+     "low": 312.5,
+     "close": 315.70001220703125,
+     "volume": 22185
+    },
+    {
+     "date": "2026-08-12",
+     "open": 315.5,
+     "high": 321.20001220703125,
+     "low": 313.54998779296875,
+     "close": 319.95001220703125,
+     "volume": 21747
+    },
+    {
+     "date": "2026-08-13",
+     "open": 317.45001220703125,
+     "high": 320.79998779296875,
+     "low": 310.3999938964844,
+     "close": 312.79998779296875,
+     "volume": 19047
+    },
+    {
+     "date": "2026-08-14",
+     "open": 312,
+     "high": 319,
+     "low": 308.95001220703125,
+     "close": 314.29998779296875,
+     "volume": 21473
+    },
+    {
+     "date": "2026-08-17",
+     "open": 314.1000061035156,
+     "high": 324.8999938964844,
+     "low": 313.70001220703125,
+     "close": 317.8999938964844,
+     "volume": 20082
+    },
+    {
+     "date": "2026-08-18",
+     "open": 317.5,
+     "high": 333.25,
+     "low": 315.04998779296875,
+     "close": 332.45001220703125,
+     "volume": 24612
+    },
+    {
+     "date": "2026-08-19",
+     "open": 330.6499938964844,
+     "high": 337.1499938964844,
+     "low": 323.20001220703125,
+     "close": 328.20001220703125,
+     "volume": 22257
+    },
+    {
+     "date": "2026-08-20",
+     "open": 328.1499938964844,
+     "high": 332.70001220703125,
+     "low": 320.5,
+     "close": 329.29998779296875,
+     "volume": 19176
+    },
+    {
+     "date": "2026-08-21",
+     "open": 329,
+     "high": 335.5,
+     "low": 321.70001220703125,
+     "close": 322.6499938964844,
+     "volume": 14392
+    },
+    {
+     "date": "2026-08-24",
+     "open": 324.8999938964844,
+     "high": 342.54998779296875,
+     "low": 321.5,
+     "close": 341.6499938964844,
+     "volume": 22617
+    },
+    {
+     "date": "2026-08-25",
+     "open": 342.79998779296875,
+     "high": 345.6499938964844,
+     "low": 329,
+     "close": 335.5,
+     "volume": 17567
+    },
+    {
+     "date": "2026-08-26",
+     "open": 332.04998779296875,
+     "high": 333.04998779296875,
+     "low": 319.79998779296875,
+     "close": 322.1499938964844,
+     "volume": 16612
+    },
+    {
+     "date": "2026-08-27",
+     "open": 316.8999938964844,
+     "high": 317,
+     "low": 306.45001220703125,
+     "close": 309.6499938964844,
+     "volume": 16612
+    },
+    {
+     "date": "2026-08-28",
+     "open": 311.5,
+     "high": 314.29998779296875,
+     "low": 308.8500061035156,
+     "close": 309.1499938964844,
+     "volume": 5834
+    }
+   ],
+   "crossCheck": {
+    "tradingView": 310.9,
+    "yahoo": 309.15,
+    "diff": 1.75,
+    "diffPct": 0.566,
+    "agree": true
+   },
+   "sources": [
+    {
+     "name": "Yahoo Finance (ICE delayed)",
+     "url": "https://finance.yahoo.com/quote/KCZ26.NYB",
+     "role": "price history + last"
+    },
+    {
+     "name": "TradingView (ICE delayed)",
+     "url": "https://www.tradingview.com/symbols/ICEUS-KCZ2026/",
+     "role": "live snapshot + contract curve"
+    }
+   ],
+   "technicals": {
+    "observations": 505,
+    "sma20": 318.60999908447263,
+    "sma50": 304.88799926757815,
+    "sma200": 291.16425010681155,
+    "rsi14": 46.74828829255625,
+    "macd": {
+     "line": 4.771897113215402,
+     "signal": 7.028996864082536,
+     "histogram": -2.257099750867134
+    },
+    "atr14": 13.416234849158894,
+    "donchian20": {
+     "high": 345.6499938964844,
+     "low": 302.6000061035156,
+     "period": 20
+    },
+    "levels": {
+     "support": [
+      {
+       "price": 308.75,
+       "date": "2026-01-21"
+      },
+      {
+       "price": 308.1000061035156,
+       "date": "2025-09-02"
+      },
+      {
+       "price": 307.54998779296875,
+       "date": "2025-10-28"
+      }
+     ],
+     "resistance": [
+      {
+       "price": 310,
+       "date": "2025-04-02"
+      },
+      {
+       "price": 310.04998779296875,
+       "date": "2025-02-11"
+      },
+      {
+       "price": 316.8500061035156,
+       "date": "2025-05-21"
+      }
+     ]
+    },
+    "fiftyTwoWeek": {
+     "high": 348.54998779296875,
+     "low": 209.1999969482422
+    },
+    "method": "Wilder RSI(14); MACD(12,26,9) on EMA; ATR(14); pivots = 5-bar swing highs/lows; Donchian(20).",
+    "basis": "505 daily bars for KCZ26"
+   },
+   "barsPublished": 260,
+   "barsAnalysed": 505
+  }
+ },
+ "fx": {
+  "asOf": "2026-08-28",
+  "pairs": {
+   "USDGBP": {
+    "pair": "USD/GBP",
+    "rate": 0.73624,
+    "previous": 0.73628,
+    "change": -0.00004,
+    "changePct": -0.005,
+    "change1m": -1.43,
+    "history": [
+     {
+      "date": "2026-04-30",
+      "rate": 0.74026
+     },
+     {
+      "date": "2026-05-04",
+      "rate": 0.7381
+     },
+     {
+      "date": "2026-05-05",
+      "rate": 0.73886
+     },
+     {
+      "date": "2026-05-06",
+      "rate": 0.73431
+     },
+     {
+      "date": "2026-05-07",
+      "rate": 0.73415
+     },
+     {
+      "date": "2026-05-08",
+      "rate": 0.73472
+     },
+     {
+      "date": "2026-05-11",
+      "rate": 0.73513
+     },
+     {
+      "date": "2026-05-12",
+      "rate": 0.7395
+     },
+     {
+      "date": "2026-05-13",
+      "rate": 0.74019
+     },
+     {
+      "date": "2026-05-14",
+      "rate": 0.7402
+     },
+     {
+      "date": "2026-05-15",
+      "rate": 0.74862
+     },
+     {
+      "date": "2026-05-18",
+      "rate": 0.74708
+     },
+     {
+      "date": "2026-05-19",
+      "rate": 0.74588
+     },
+     {
+      "date": "2026-05-20",
+      "rate": 0.74616
+     },
+     {
+      "date": "2026-05-21",
+      "rate": 0.74518
+     },
+     {
+      "date": "2026-05-22",
+      "rate": 0.7453
+     },
+     {
+      "date": "2026-05-25",
+      "rate": 0.74083
+     },
+     {
+      "date": "2026-05-26",
+      "rate": 0.74244
+     },
+     {
+      "date": "2026-05-27",
+      "rate": 0.74433
+     },
+     {
+      "date": "2026-05-28",
+      "rate": 0.74602
+     },
+     {
+      "date": "2026-05-29",
+      "rate": 0.74479
+     },
+     {
+      "date": "2026-06-01",
+      "rate": 0.74268
+     },
+     {
+      "date": "2026-06-02",
+      "rate": 0.74225
+     },
+     {
+      "date": "2026-06-03",
+      "rate": 0.74367
+     },
+     {
+      "date": "2026-06-04",
+      "rate": 0.74304
+     },
+     {
+      "date": "2026-06-05",
+      "rate": 0.74255
+     },
+     {
+      "date": "2026-06-08",
+      "rate": 0.74835
+     },
+     {
+      "date": "2026-06-09",
+      "rate": 0.74605
+     },
+     {
+      "date": "2026-06-10",
+      "rate": 0.74727
+     },
+     {
+      "date": "2026-06-11",
+      "rate": 0.74829
+     },
+     {
+      "date": "2026-06-12",
+      "rate": 0.74613
+     },
+     {
+      "date": "2026-06-15",
+      "rate": 0.74509
+     },
+     {
+      "date": "2026-06-16",
+      "rate": 0.74583
+     },
+     {
+      "date": "2026-06-17",
+      "rate": 0.74595
+     },
+     {
+      "date": "2026-06-18",
+      "rate": 0.75594
+     },
+     {
+      "date": "2026-06-19",
+      "rate": 0.75567
+     },
+     {
+      "date": "2026-06-22",
+      "rate": 0.75478
+     },
+     {
+      "date": "2026-06-23",
+      "rate": 0.75667
+     },
+     {
+      "date": "2026-06-24",
+      "rate": 0.75983
+     },
+     {
+      "date": "2026-06-25",
+      "rate": 0.75986
+     },
+     {
+      "date": "2026-06-26",
+      "rate": 0.75654
+     },
+     {
+      "date": "2026-06-29",
+      "rate": 0.75587
+     },
+     {
+      "date": "2026-06-30",
+      "rate": 0.75635
+     },
+     {
+      "date": "2026-07-01",
+      "rate": 0.75528
+     },
+     {
+      "date": "2026-07-02",
+      "rate": 0.75151
+     },
+     {
+      "date": "2026-07-03",
+      "rate": 0.74878
+     },
+     {
+      "date": "2026-07-06",
+      "rate": 0.74935
+     },
+     {
+      "date": "2026-07-07",
+      "rate": 0.74706
+     },
+     {
+      "date": "2026-07-08",
+      "rate": 0.74917
+     },
+     {
+      "date": "2026-07-09",
+      "rate": 0.74651
+     },
+     {
+      "date": "2026-07-10",
+      "rate": 0.74501
+     },
+     {
+      "date": "2026-07-13",
+      "rate": 0.74694
+     },
+     {
+      "date": "2026-07-14",
+      "rate": 0.74717
+     },
+     {
+      "date": "2026-07-15",
+      "rate": 0.74604
+     },
+     {
+      "date": "2026-07-16",
+      "rate": 0.74015
+     },
+     {
+      "date": "2026-07-17",
+      "rate": 0.74419
+     },
+     {
+      "date": "2026-07-20",
+      "rate": 0.74294
+     },
+     {
+      "date": "2026-07-21",
+      "rate": 0.74623
+     },
+     {
+      "date": "2026-07-22",
+      "rate": 0.74807
+     },
+     {
+      "date": "2026-07-23",
+      "rate": 0.74893
+     },
+     {
+      "date": "2026-07-24",
+      "rate": 0.75053
+     },
+     {
+      "date": "2026-07-27",
+      "rate": 0.75094
+     },
+     {
+      "date": "2026-07-28",
+      "rate": 0.75262
+     },
+     {
+      "date": "2026-07-29",
+      "rate": 0.7525
+     },
+     {
+      "date": "2026-07-30",
+      "rate": 0.74691
+     },
+     {
+      "date": "2026-07-31",
+      "rate": 0.74508
+     },
+     {
+      "date": "2026-08-03",
+      "rate": 0.74238
+     },
+     {
+      "date": "2026-08-04",
+      "rate": 0.74372
+     },
+     {
+      "date": "2026-08-05",
+      "rate": 0.74191
+     },
+     {
+      "date": "2026-08-06",
+      "rate": 0.74255
+     },
+     {
+      "date": "2026-08-07",
+      "rate": 0.74352
+     },
+     {
+      "date": "2026-08-10",
+      "rate": 0.7405
+     },
+     {
+      "date": "2026-08-11",
+      "rate": 0.74075
+     },
+     {
+      "date": "2026-08-12",
+      "rate": 0.73935
+     },
+     {
+      "date": "2026-08-13",
+      "rate": 0.7412
+     },
+     {
+      "date": "2026-08-14",
+      "rate": 0.73874
+     },
+     {
+      "date": "2026-08-17",
+      "rate": 0.73751
+     },
+     {
+      "date": "2026-08-18",
+      "rate": 0.73933
+     },
+     {
+      "date": "2026-08-19",
+      "rate": 0.73768
+     },
+     {
+      "date": "2026-08-20",
+      "rate": 0.73388
+     },
+     {
+      "date": "2026-08-21",
+      "rate": 0.73228
+     },
+     {
+      "date": "2026-08-24",
+      "rate": 0.73345
+     },
+     {
+      "date": "2026-08-25",
+      "rate": 0.73358
+     },
+     {
+      "date": "2026-08-26",
+      "rate": 0.73368
+     },
+     {
+      "date": "2026-08-27",
+      "rate": 0.73628
+     },
+     {
+      "date": "2026-08-28",
+      "rate": 0.73624
+     }
+    ]
+   },
+   "USDBRL": {
+    "pair": "USD/BRL",
+    "rate": 5.1641,
+    "previous": 5.142,
+    "change": 0.0221,
+    "changePct": 0.43,
+    "change1m": 1.24,
+    "history": [
+     {
+      "date": "2026-04-30",
+      "rate": 4.9814
+     },
+     {
+      "date": "2026-05-04",
+      "rate": 4.9661
+     },
+     {
+      "date": "2026-05-05",
+      "rate": 4.9525
+     },
+     {
+      "date": "2026-05-06",
+      "rate": 4.9092
+     },
+     {
+      "date": "2026-05-07",
+      "rate": 4.9167
+     },
+     {
+      "date": "2026-05-08",
+      "rate": 4.914
+     },
+     {
+      "date": "2026-05-11",
+      "rate": 4.9019
+     },
+     {
+      "date": "2026-05-12",
+      "rate": 4.9038
+     },
+     {
+      "date": "2026-05-13",
+      "rate": 4.9039
+     },
+     {
+      "date": "2026-05-14",
+      "rate": 4.997
+     },
+     {
+      "date": "2026-05-15",
+      "rate": 5.0324
+     },
+     {
+      "date": "2026-05-18",
+      "rate": 5.0392
+     },
+     {
+      "date": "2026-05-19",
+      "rate": 5.0232
+     },
+     {
+      "date": "2026-05-20",
+      "rate": 5.0299
+     },
+     {
+      "date": "2026-05-21",
+      "rate": 5.012
+     },
+     {
+      "date": "2026-05-22",
+      "rate": 5.0164
+     },
+     {
+      "date": "2026-05-25",
+      "rate": 5.0026
+     },
+     {
+      "date": "2026-05-26",
+      "rate": 5.0201
+     },
+     {
+      "date": "2026-05-27",
+      "rate": 5.0458
+     },
+     {
+      "date": "2026-05-28",
+      "rate": 5.0726
+     },
+     {
+      "date": "2026-05-29",
+      "rate": 5.0453
+     },
+     {
+      "date": "2026-06-01",
+      "rate": 5.0245
+     },
+     {
+      "date": "2026-06-02",
+      "rate": 5.0056
+     },
+     {
+      "date": "2026-06-03",
+      "rate": 5.0184
+     },
+     {
+      "date": "2026-06-04",
+      "rate": 5.0645
+     },
+     {
+      "date": "2026-06-05",
+      "rate": 5.0599
+     },
+     {
+      "date": "2026-06-08",
+      "rate": 5.1432
+     },
+     {
+      "date": "2026-06-09",
+      "rate": 5.163
+     },
+     {
+      "date": "2026-06-10",
+      "rate": 5.1907
+     },
+     {
+      "date": "2026-06-11",
+      "rate": 5.1604
+     },
+     {
+      "date": "2026-06-12",
+      "rate": 5.1073
+     },
+     {
+      "date": "2026-06-15",
+      "rate": 5.0498
+     },
+     {
+      "date": "2026-06-16",
+      "rate": 5.0603
+     },
+     {
+      "date": "2026-06-17",
+      "rate": 5.084
+     },
+     {
+      "date": "2026-06-18",
+      "rate": 5.1469
+     },
+     {
+      "date": "2026-06-19",
+      "rate": 5.1603
+     },
+     {
+      "date": "2026-06-22",
+      "rate": 5.1519
+     },
+     {
+      "date": "2026-06-23",
+      "rate": 5.1725
+     },
+     {
+      "date": "2026-06-24",
+      "rate": 5.1996
+     },
+     {
+      "date": "2026-06-25",
+      "rate": 5.2019
+     },
+     {
+      "date": "2026-06-26",
+      "rate": 5.1759
+     },
+     {
+      "date": "2026-06-29",
+      "rate": 5.1639
+     },
+     {
+      "date": "2026-06-30",
+      "rate": 5.1784
+     },
+     {
+      "date": "2026-07-01",
+      "rate": 5.1874
+     },
+     {
+      "date": "2026-07-02",
+      "rate": 5.201
+     },
+     {
+      "date": "2026-07-03",
+      "rate": 5.1962
+     },
+     {
+      "date": "2026-07-06",
+      "rate": 5.18
+     },
+     {
+      "date": "2026-07-07",
+      "rate": 5.1413
+     },
+     {
+      "date": "2026-07-08",
+      "rate": 5.1563
+     },
+     {
+      "date": "2026-07-09",
+      "rate": 5.1453
+     },
+     {
+      "date": "2026-07-10",
+      "rate": 5.1185
+     },
+     {
+      "date": "2026-07-13",
+      "rate": 5.1155
+     },
+     {
+      "date": "2026-07-14",
+      "rate": 5.1233
+     },
+     {
+      "date": "2026-07-15",
+      "rate": 5.081
+     },
+     {
+      "date": "2026-07-16",
+      "rate": 5.0857
+     },
+     {
+      "date": "2026-07-17",
+      "rate": 5.1158
+     },
+     {
+      "date": "2026-07-20",
+      "rate": 5.1043
+     },
+     {
+      "date": "2026-07-21",
+      "rate": 5.0794
+     },
+     {
+      "date": "2026-07-22",
+      "rate": 5.0797
+     },
+     {
+      "date": "2026-07-23",
+      "rate": 5.0715
+     },
+     {
+      "date": "2026-07-24",
+      "rate": 5.0827
+     },
+     {
+      "date": "2026-07-27",
+      "rate": 5.0825
+     },
+     {
+      "date": "2026-07-28",
+      "rate": 5.1164
+     },
+     {
+      "date": "2026-07-29",
+      "rate": 5.1202
+     },
+     {
+      "date": "2026-07-30",
+      "rate": 5.1006
+     },
+     {
+      "date": "2026-07-31",
+      "rate": 5.0583
+     },
+     {
+      "date": "2026-08-03",
+      "rate": 5.0675
+     },
+     {
+      "date": "2026-08-04",
+      "rate": 5.0806
+     },
+     {
+      "date": "2026-08-05",
+      "rate": 5.1153
+     },
+     {
+      "date": "2026-08-06",
+      "rate": 5.1237
+     },
+     {
+      "date": "2026-08-07",
+      "rate": 5.0998
+     },
+     {
+      "date": "2026-08-10",
+      "rate": 5.0856
+     },
+     {
+      "date": "2026-08-11",
+      "rate": 5.1049
+     },
+     {
+      "date": "2026-08-12",
+      "rate": 5.1557
+     },
+     {
+      "date": "2026-08-13",
+      "rate": 5.1811
+     },
+     {
+      "date": "2026-08-14",
+      "rate": 5.1762
+     },
+     {
+      "date": "2026-08-17",
+      "rate": 5.2102
+     },
+     {
+      "date": "2026-08-18",
+      "rate": 5.2074
+     },
+     {
+      "date": "2026-08-19",
+      "rate": 5.2041
+     },
+     {
+      "date": "2026-08-20",
+      "rate": 5.1936
+     },
+     {
+      "date": "2026-08-21",
+      "rate": 5.1729
+     },
+     {
+      "date": "2026-08-24",
+      "rate": 5.1499
+     },
+     {
+      "date": "2026-08-25",
+      "rate": 5.158
+     },
+     {
+      "date": "2026-08-26",
+      "rate": 5.1465
+     },
+     {
+      "date": "2026-08-27",
+      "rate": 5.142
+     },
+     {
+      "date": "2026-08-28",
+      "rate": 5.1641
+     }
+    ]
+   }
+  },
+  "ptax": {
+   "buy": 5.1637,
+   "sell": 5.1642,
+   "quotedAt": "2026-08-27 13:10:22.548239"
+  },
+  "sources": [
+   {
+    "name": "European Central Bank daily reference rates (via Frankfurter)",
+    "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
+    "role": "USD/GBP, USD/BRL"
+   },
+   {
+    "name": "Banco Central do Brasil — PTAX",
+    "url": "https://www.bcb.gov.br/estabilidadefinanceira/historicocotacoes",
+    "role": "official USD/BRL fixing"
+   }
+  ]
+ },
+ "weather": {
+  "fetchedAt": "2026-08-28T14:15:29.585Z",
+  "thresholds": {
+   "frostC": 4,
+   "heavyRainMm": 50,
+   "dryMm": 5
+  },
+  "countryOrder": [
+   "Brazil",
+   "Vietnam",
+   "Colombia",
+   "Indonesia",
+   "Ethiopia",
+   "Honduras",
+   "Peru"
+  ],
+  "conditionMethod": "The condition icon reads the last three observed days: 30 mm of rain in total, 20 mm in any one day, or a heavy-rain code is very wet; 5 mm is wet; 60% mean cloud cover is cloudy; anything else is clear.",
+  "conditionWindowDays": 3,
+  "regions": [
+   {
+    "key": "sul-de-minas",
+    "name": "Sul de Minas",
+    "country": "Brazil",
+    "species": "Arabica",
+    "lat": -21.55,
+    "lon": -45.43,
+    "note": "Largest single arabica belt; frost-exposed Jun–Aug, flowering Sep–Oct.",
+    "timezone": "America/Sao_Paulo",
+    "elevation": 916,
+    "current": {
+     "date": "2026-08-27",
+     "tMax": 24.6,
+     "tMin": 16.4,
+     "rain": 8.8,
+     "code": 80,
+     "cloud": 54,
+     "observed": true
+    },
+    "condition": "wet",
+    "conditionLabel": "Wet",
+    "rain14": 12.9,
+    "rainForecast7": 13,
+    "minForecast7": 13.1,
+    "maxForecast7": 32.3,
+    "alerts": []
+   },
+   {
+    "key": "cerrado",
+    "name": "Cerrado Mineiro",
+    "country": "Brazil",
+    "species": "Arabica",
+    "lat": -18.94,
+    "lon": -46.99,
+    "note": "Mechanised and largely irrigated; rain timing sets flowering uniformity.",
+    "timezone": "America/Sao_Paulo",
+    "elevation": 952,
+    "current": {
+     "date": "2026-08-27",
+     "tMax": 25.9,
+     "tMin": 15.9,
+     "rain": 18.8,
+     "code": 81,
+     "cloud": 49,
+     "observed": true
+    },
+    "condition": "very-wet",
+    "conditionLabel": "Very wet",
+    "rain14": 33.3,
+    "rainForecast7": 11.1,
+    "minForecast7": 17.4,
+    "maxForecast7": 31.7,
+    "alerts": []
+   },
+   {
+    "key": "espirito-santo",
+    "name": "Espírito Santo",
+    "country": "Brazil",
+    "species": "Robusta",
+    "lat": -19.39,
+    "lon": -40.07,
+    "note": "Conilon heartland — Brazil’s robusta supply.",
+    "timezone": "America/Sao_Paulo",
+    "elevation": 35,
+    "current": {
+     "date": "2026-08-27",
+     "tMax": 25.4,
+     "tMin": 20.8,
+     "rain": 20.2,
+     "code": 95,
+     "cloud": 77,
+     "observed": true
+    },
+    "condition": "very-wet",
+    "conditionLabel": "Very wet",
+    "rain14": 35.6,
+    "rainForecast7": 1.7,
+    "minForecast7": 20.4,
+    "maxForecast7": 31.2,
+    "alerts": []
+   },
+   {
+    "key": "dak-lak",
+    "name": "Dak Lak",
+    "country": "Vietnam",
+    "species": "Robusta",
+    "lat": 12.68,
+    "lon": 108.05,
+    "note": "Central Highlands; the single largest robusta origin.",
+    "timezone": "Asia/Ho_Chi_Minh",
+    "elevation": 487,
+    "current": {
+     "date": "2026-08-27",
+     "tMax": 30.6,
+     "tMin": 23,
+     "rain": 9,
+     "code": 80,
+     "cloud": 67,
+     "observed": true
+    },
+    "condition": "very-wet",
+    "conditionLabel": "Very wet",
+    "rain14": 117.1,
+    "rainForecast7": 123.4,
+    "minForecast7": 21.8,
+    "maxForecast7": 30.1,
+    "alerts": [
+     {
+      "type": "wet",
+      "severity": "watch",
+      "text": "123 mm forecast over 7 days — harvest/drying disruption risk."
+     }
+    ]
+   },
+   {
+    "key": "lam-dong",
+    "name": "Lam Dong",
+    "country": "Vietnam",
+    "species": "Robusta",
+    "lat": 11.55,
+    "lon": 107.81,
+    "note": "Second Vietnamese robusta province.",
+    "timezone": "Asia/Ho_Chi_Minh",
+    "elevation": 845,
+    "current": {
+     "date": "2026-08-27",
+     "tMax": 24.7,
+     "tMin": 20.6,
+     "rain": 17.4,
+     "code": 80,
+     "cloud": 95,
+     "observed": true
+    },
+    "condition": "very-wet",
+    "conditionLabel": "Very wet",
+    "rain14": 206.9,
+    "rainForecast7": 108.4,
+    "minForecast7": 20.2,
+    "maxForecast7": 24.8,
+    "alerts": [
+     {
+      "type": "wet",
+      "severity": "watch",
+      "text": "108 mm forecast over 7 days — harvest/drying disruption risk."
+     }
+    ]
+   },
+   {
+    "key": "huila",
+    "name": "Huila",
+    "country": "Colombia",
+    "species": "Arabica",
+    "lat": 1.85,
+    "lon": -76.05,
+    "note": "Washed mild arabica; two harvests a year.",
+    "timezone": "America/Bogota",
+    "elevation": 1271,
+    "current": {
+     "date": "2026-08-27",
+     "tMax": 25.5,
+     "tMin": 17.8,
+     "rain": 6.3,
+     "code": 80,
+     "cloud": 90,
+     "observed": true
+    },
+    "condition": "wet",
+    "conditionLabel": "Wet",
+    "rain14": 71.1,
+    "rainForecast7": 25.5,
+    "minForecast7": 14.8,
+    "maxForecast7": 27.8,
+    "alerts": []
+   },
+   {
+    "key": "antioquia",
+    "name": "Antioquia",
+    "country": "Colombia",
+    "species": "Arabica",
+    "lat": 6.25,
+    "lon": -75.56,
+    "note": "Northern Colombian belt.",
+    "timezone": "America/Bogota",
+    "elevation": 1509,
+    "current": {
+     "date": "2026-08-27",
+     "tMax": 29.5,
+     "tMin": 17.5,
+     "rain": 0.5,
+     "code": 51,
+     "cloud": 86,
+     "observed": true
+    },
+    "condition": "cloudy",
+    "conditionLabel": "Cloudy",
+    "rain14": 32.3,
+    "rainForecast7": 16.4,
+    "minForecast7": 16.6,
+    "maxForecast7": 30.2,
+    "alerts": []
+   },
+   {
+    "key": "gayo",
+    "name": "Gayo Highlands",
+    "country": "Indonesia",
+    "species": "Arabica",
+    "lat": 4.63,
+    "lon": 96.85,
+    "note": "Sumatran arabica.",
+    "timezone": "Asia/Jakarta",
+    "elevation": 1243,
+    "current": {
+     "date": "2026-08-27",
+     "tMax": 25.6,
+     "tMin": 14.4,
+     "rain": 1,
+     "code": 51,
+     "cloud": 46,
+     "observed": true
+    },
+    "condition": "cloudy",
+    "conditionLabel": "Cloudy",
+    "rain14": 10.2,
+    "rainForecast7": 9.6,
+    "minForecast7": 15,
+    "maxForecast7": 26.8,
+    "alerts": []
+   },
+   {
+    "key": "lampung",
+    "name": "Lampung",
+    "country": "Indonesia",
+    "species": "Robusta",
+    "lat": -5.45,
+    "lon": 105.27,
+    "note": "Indonesian robusta export hub.",
+    "timezone": "Asia/Jakarta",
+    "elevation": 3,
+    "current": {
+     "date": "2026-08-27",
+     "tMax": 30.7,
+     "tMin": 24.3,
+     "rain": 2.7,
+     "code": 53,
+     "cloud": 42,
+     "observed": true
+    },
+    "condition": "wet",
+    "conditionLabel": "Wet",
+    "rain14": 39.4,
+    "rainForecast7": 11.3,
+    "minForecast7": 22.9,
+    "maxForecast7": 32.5,
+    "alerts": []
+   },
+   {
+    "key": "jimma",
+    "name": "Jimma",
+    "country": "Ethiopia",
+    "species": "Arabica",
+    "lat": 7.67,
+    "lon": 36.83,
+    "note": "Origin of arabica; largely forest and garden coffee.",
+    "timezone": "Africa/Addis_Ababa",
+    "elevation": 1734,
+    "current": {
+     "date": "2026-08-27",
+     "tMax": 24.3,
+     "tMin": 13.6,
+     "rain": 1.3,
+     "code": 53,
+     "cloud": 18,
+     "observed": true
+    },
+    "condition": "wet",
+    "conditionLabel": "Wet",
+    "rain14": 89.4,
+    "rainForecast7": 33.4,
+    "minForecast7": 12.8,
+    "maxForecast7": 25.2,
+    "alerts": []
+   },
+   {
+    "key": "marcala",
+    "name": "Marcala",
+    "country": "Honduras",
+    "species": "Arabica",
+    "lat": 14.16,
+    "lon": -88.02,
+    "note": "Central America’s largest arabica exporter.",
+    "timezone": "America/Tegucigalpa",
+    "elevation": 1226,
+    "current": {
+     "date": "2026-08-27",
+     "tMax": 29.5,
+     "tMin": 17.9,
+     "rain": 2.4,
+     "code": 53,
+     "cloud": 78,
+     "observed": true
+    },
+    "condition": "wet",
+    "conditionLabel": "Wet",
+    "rain14": 45.9,
+    "rainForecast7": 27.9,
+    "minForecast7": 16.7,
+    "maxForecast7": 31.6,
+    "alerts": []
+   },
+   {
+    "key": "chanchamayo",
+    "name": "Chanchamayo",
+    "country": "Peru",
+    "species": "Arabica",
+    "lat": -11.05,
+    "lon": -75.33,
+    "note": "Peruvian organic and washed arabica.",
+    "timezone": "America/Lima",
+    "elevation": 834,
+    "current": {
+     "date": "2026-08-27",
+     "tMax": 30.2,
+     "tMin": 17.9,
+     "rain": 0,
+     "code": 3,
+     "cloud": 24,
+     "observed": true
+    },
+    "condition": "cloudy",
+    "conditionLabel": "Cloudy",
+    "rain14": 66.1,
+    "rainForecast7": 16.6,
+    "minForecast7": 17.2,
+    "maxForecast7": 31.5,
+    "alerts": []
+   }
+  ],
+  "sources": [
+   {
+    "name": "Open-Meteo forecast API",
+    "url": "https://open-meteo.com/",
+    "role": "observed + forecast temperature, precipitation and weather code"
+   }
+  ]
+ },
+ "news": {
+  "originWire": {
+   "fetchedAt": "2026-08-28T14:15:40.329Z",
+   "lookbackHours": 504,
+   "headlines": [
+    {
+     "title": "Brazil’s vast iron mine that supplies the world and fractures the Amazon – in pictures",
+     "url": "https://www.theguardian.com/global-development/gallery/2026/aug/21/brazils-vast-iron-mine-that-supplies-the-world-and-fractures-the-amazon-in-pictures",
+     "publisher": "The Guardian",
+     "region": "Brazil",
+     "regionKey": "brazil",
+     "published": "Fri, 21 Aug 2026 12:00:35 GMT"
+    },
+    {
+     "title": "Vietnam to offer preferential visas to foreign visitors who spend more, stay longer",
+     "url": "https://e.vnexpress.net/news/news/vietnam-to-offer-preferential-visas-to-foreign-visitors-who-spend-more-stay-longer-5114649.html",
+     "publisher": "VnExpress International",
+     "region": "Vietnam",
+     "regionKey": "vietnam",
+     "published": "Fri, 28 Aug 2026 16:56:31 +0700"
+    },
+    {
+     "title": "4 richest Indonesians add $6B to wealth in a month",
+     "url": "https://e.vnexpress.net/news/business/billionaires/4-richest-indonesians-add-6b-to-wealth-in-a-month-5113721.html",
+     "publisher": "VnExpress International",
+     "region": "Indonesia",
+     "regionKey": "indonesia",
+     "published": "Fri, 28 Aug 2026 11:20:59 +0700"
+    },
+    {
+     "title": "Colombia's new president approves extradition of rebel leaders to US",
+     "url": "https://www.bbc.co.uk/news/articles/cvgy45zv8e2o?at_medium=RSS&amp;at_campaign=rss",
+     "publisher": "BBC News",
+     "region": "Colombia",
+     "regionKey": "colombia",
+     "published": "Thu, 27 Aug 2026 20:10:30 GMT"
+    },
+    {
+     "title": "The first Aman in Mexico is $6,000 a night. Is it worth it?",
+     "url": "https://www.ft.com/content/0cdeb545-f6fe-4d97-aa1a-5933e58773c6",
+     "publisher": "Financial Times",
+     "region": "South & Central America",
+     "regionKey": "latam",
+     "published": "Fri, 28 Aug 2026 10:00:07 GMT"
+    },
+    {
+     "title": "Dutch court hands life sentence to Rwandan man for genocide role",
+     "url": "https://www.aljazeera.com/news/2026/8/28/dutch-court-hands-life-sentence-to-rwandan-man-for-genocide-role?traffic_source=rss",
+     "publisher": "Al Jazeera",
+     "region": "East Africa",
+     "regionKey": "eastafrica",
+     "published": "Fri, 28 Aug 2026 13:17:34 +0000"
+    },
+    {
+     "title": "Maracanã to host opening game and final at next year’s Women’s World Cup",
+     "url": "https://www.theguardian.com/football/2026/aug/20/maracana-to-host-opening-game-and-final-at-next-years-womens-world-cup",
+     "publisher": "The Guardian",
+     "region": "Brazil",
+     "regionKey": "brazil",
+     "published": "Thu, 20 Aug 2026 15:25:54 GMT"
+    },
+    {
+     "title": "Southeast Asia’s richest man ranks among world’s top 5 one-day wealth gainers",
+     "url": "https://e.vnexpress.net/news/business/billionaires/southeast-asia-s-richest-man-ranks-among-world-s-top-5-one-day-wealth-gainers-5114631.html",
+     "publisher": "VnExpress International",
+     "region": "Vietnam",
+     "regionKey": "vietnam",
+     "published": "Fri, 28 Aug 2026 15:55:14 +0700"
+    },
+    {
+     "title": "Singapore-born billionaire Low Tuck Kwong reportedly negotiating sale of majority stake in flagship coal mining firm",
+     "url": "https://e.vnexpress.net/news/business/companies/singapore-born-billionaire-low-tuck-kwong-reportedly-negotiating-sale-of-majority-stake-in-flagship-coal-mining-firm-5114015.html",
+     "publisher": "VnExpress International",
+     "region": "Indonesia",
+     "regionKey": "indonesia",
+     "published": "Thu, 27 Aug 2026 11:55:11 +0700"
+    },
+    {
+     "title": "Colombia’s new president Abelardo de la Espriella announces immigration crackdown",
+     "url": "https://www.theguardian.com/world/2026/aug/25/colombia-immigration-crackdown-president-abelardo-de-la-espriella",
+     "publisher": "The Guardian",
+     "region": "Colombia",
+     "regionKey": "colombia",
+     "published": "Tue, 25 Aug 2026 00:34:47 GMT"
+    },
+    {
+     "title": "Wife of US soldier deported after Trump rollback on military family protections",
+     "url": "https://www.theguardian.com/us-news/2026/aug/25/soldier-wife-deported-honduras",
+     "publisher": "The Guardian",
+     "region": "South & Central America",
+     "regionKey": "latam",
+     "published": "Tue, 25 Aug 2026 20:23:55 GMT"
+    },
+    {
+     "title": "Dutch court sentences man to life over Rwanda genocide",
+     "url": "https://www.bbc.co.uk/news/articles/ce8x96rw79ro?at_medium=RSS&amp;at_campaign=rss",
+     "publisher": "BBC News",
+     "region": "East Africa",
+     "regionKey": "eastafrica",
+     "published": "Fri, 28 Aug 2026 12:15:46 GMT"
+    },
+    {
+     "title": "Brazil’s Lula launches historic fourth term bid – but son of jailed Bolsonaro stands in his way",
+     "url": "https://www.theguardian.com/world/2026/aug/16/lula-brazil-president-fourth-term-jair-flavio-bolsonaro",
+     "publisher": "The Guardian",
+     "region": "Brazil",
+     "regionKey": "brazil",
+     "published": "Sun, 16 Aug 2026 18:44:41 GMT"
+    },
+    {
+     "title": "4 Southeast Asian countries among world’s 10 biggest instant noodles markets",
+     "url": "https://e.vnexpress.net/news/business/economy/4-southeast-asian-countries-among-world-s-10-biggest-instant-noodles-markets-5114049.html",
+     "publisher": "VnExpress International",
+     "region": "Vietnam",
+     "regionKey": "vietnam",
+     "published": "Fri, 28 Aug 2026 11:21:25 +0700"
+    },
+    {
+     "title": "‘Like smoking a cigarette’: Indonesia chokes on haze as blazes intensify amid super ‘El Niño’",
+     "url": "https://www.theguardian.com/world/2026/aug/25/indonesia-wildfires-kalimantan-smoke-super-el-nino",
+     "publisher": "The Guardian",
+     "region": "Indonesia",
+     "regionKey": "indonesia",
+     "published": "Tue, 25 Aug 2026 04:17:06 GMT"
+    },
+    {
+     "title": "Landslide at unlicensed Colombian gold mine kills 13",
+     "url": "https://www.bbc.co.uk/news/articles/czxel9lz3vqo?at_medium=RSS&amp;at_campaign=rss",
+     "publisher": "BBC News",
+     "region": "Colombia",
+     "regionKey": "colombia",
+     "published": "Thu, 20 Aug 2026 15:07:57 GMT"
+    },
+    {
+     "title": "Peru earthquake damages buildings and causes power cuts",
+     "url": "https://www.bbc.co.uk/news/articles/c0km6n3ng7ko?at_medium=RSS&amp;at_campaign=rss",
+     "publisher": "BBC News",
+     "region": "South & Central America",
+     "regionKey": "latam",
+     "published": "Fri, 21 Aug 2026 11:14:38 GMT"
+    },
+    {
+     "title": "Armed raid on cattle camp kills at least 49 in South Sudan",
+     "url": "https://www.aljazeera.com/news/2026/8/28/armed-raid-on-cattle-camp-kills-at-least-49-in-south-sudan?traffic_source=rss",
+     "publisher": "Al Jazeera",
+     "region": "East Africa",
+     "regionKey": "eastafrica",
+     "published": "Fri, 28 Aug 2026 11:56:26 +0000"
+    },
+    {
+     "title": "‘He had magnetism’: Lula returns to site of political origins to launch fourth-term campaign",
+     "url": "https://www.theguardian.com/world/2026/aug/15/brazil-president-lula-strikes-launch-fourth-term-campaign",
+     "publisher": "The Guardian",
+     "region": "Brazil",
+     "regionKey": "brazil",
+     "published": "Sat, 15 Aug 2026 13:00:56 GMT"
+    },
+    {
+     "title": "Gold prices slide",
+     "url": "https://e.vnexpress.net/news/business/markets/gold-prices-slide-5114474.html",
+     "publisher": "VnExpress International",
+     "region": "Vietnam",
+     "regionKey": "vietnam",
+     "published": "Fri, 28 Aug 2026 11:20:30 +0700"
+    },
+    {
+     "title": "World’s second largest instant noodles market posts first demand fall in 5 years",
+     "url": "https://e.vnexpress.net/news/business/economy/world-s-second-largest-instant-noodles-market-posts-first-demand-fall-in-5-years-5112834.html",
+     "publisher": "VnExpress International",
+     "region": "Indonesia",
+     "regionKey": "indonesia",
+     "published": "Mon, 24 Aug 2026 19:52:12 +0700"
+    },
+    {
+     "title": "Activist forced out of US after criticising Trump-aligned Colombian politician",
+     "url": "https://www.theguardian.com/world/2026/aug/19/activist-forced-out-of-us-after-criticising-trump-aligned-colombian-politician",
+     "publisher": "The Guardian",
+     "region": "Colombia",
+     "regionKey": "colombia",
+     "published": "Wed, 19 Aug 2026 09:00:12 GMT"
+    },
+    {
+     "title": "Panama Canal to cut number of ships passing through due to El Niño",
+     "url": "https://www.bbc.co.uk/news/articles/cwyl0jkxxryo?at_medium=RSS&amp;at_campaign=rss",
+     "publisher": "BBC News",
+     "region": "South & Central America",
+     "regionKey": "latam",
+     "published": "Fri, 21 Aug 2026 06:46:08 GMT"
+    },
+    {
+     "title": "World's youngest reigning traditional monarch dies aged 34",
+     "url": "https://www.bbc.co.uk/news/articles/c0j38d9v40po?at_medium=RSS&amp;at_campaign=rss",
+     "publisher": "BBC News",
+     "region": "East Africa",
+     "regionKey": "eastafrica",
+     "published": "Fri, 28 Aug 2026 11:13:24 GMT"
+    }
+   ],
+   "totalTagged": 96,
+   "feedsQueried": 14,
+   "byRegion": {
+    "Brazil": 10,
+    "Vietnam": 44,
+    "Indonesia": 12,
+    "Colombia": 13,
+    "South & Central America": 7,
+    "East Africa": 10
+   },
+   "errors": [],
+   "note": "General headlines from the growing regions, taken from outlets of record and tagged to a region by the countries and cities they name."
+  },
+  "roundup": {
+   "source": "manual",
+   "articleUrl": "https://perfectdailygrind.com/2026/08/coffee-news-recap-28-august-2026/",
+   "title": "Coffee News Recap, 28 Aug: ICE-certified arabica stocks fall close to lowest levels since 1999, C price forecast at US$3/lb by year-end & other stories",
+   "publisher": "Perfect Daily Grind",
+   "capturedAt": "2026-08-28T14:04:31Z",
+   "note": "Perfect Daily Grind's WAF rejects non-browser clients: every path, including the RSS feed and the sitemap, returns 403 regardless of headers, so the scheduled fetch cannot reach it. This copy was captured from the published article by hand. The pipeline still attempts the live fetch each run and will prefer it the moment it succeeds; until then, refresh this file each Friday.",
+   "items": [
+    {
+     "section": "Top stories of the week",
+     "date": "Mon, 24 Aug",
+     "headline": "National Federation of Colombian Coffee Growers says El Niño, not earthquake, is the biggest threat to Colombia's coffee sector",
+     "url": "https://bworldonline.com/agribusiness/2026/08/24/771859/el-nino-not-quake-seen-as-biggest-threat-to-colombia-coffee-harvest/"
+    },
+    {
+     "section": "Top stories of the week",
+     "date": "Mon, 24 Aug",
+     "headline": "Blank Street raises US$75m for West Coast expansion",
+     "url": "https://app.dealroom.co/news/feed/blank-street-raises-75m-to-expand-on-us-west-coast-and-add-ice-cream-to-menu"
+    },
+    {
+     "section": "Top stories of the week",
+     "date": "Tue, 25 Aug",
+     "headline": "Saudi coffee and tea market hits US$1.87bn as imports and exports surge",
+     "url": "https://www.einnews.com/pr_news/936304534/saudi-coffee-market-hits-sar-7b-as-imports-and-exports-surge"
+    },
+    {
+     "section": "Top stories of the week",
+     "date": "Wed, 26 Aug",
+     "headline": "ICE certified arabica stocks near their lowest levels since 1999",
+     "url": "https://sucafina.com/na/lp/market-report"
+    },
+    {
+     "section": "Top stories of the week",
+     "date": "Wed, 26 Aug",
+     "headline": "Reuters poll forecasts arabica at US$3/lb and robusta at US$3,900/tonne by year-end",
+     "url": "https://www.facebook.com/100063818177439/posts/coffee-futures-slip-back-into-negative-territory-reuters-poll-forecasts-arabica-/1597109462426311/"
+    },
+    {
+     "section": "Top stories of the week",
+     "date": "Fri, 28 Aug",
+     "headline": "Glacial lake outburst causes devastating floods in Nepal",
+     "url": "https://www.reuters.com/world/nepal-floods-live-nearly-1500-missing-including-tourists-death-toll-rises-2026-08-27/"
+    },
+    {
+     "section": "Industry news",
+     "date": "Mon, 24 Aug",
+     "headline": "Anneli Ellsäter appointed new CEO of Löfbergs",
+     "url": "https://www.linkedin.com/posts/l%C3%B6fbergs-group_welcome-anneli-ells%C3%A4ter-our-new-ceo-activity-7496190668193767425-8vLp"
+    },
+    {
+     "section": "Industry news",
+     "date": "Mon, 24 Aug",
+     "headline": "US consumers tighten spending as inflation rises, but still splurge on coffee",
+     "url": "https://www.tbsnews.net/world/us-shoppers-tighten-budgets-still-find-room-treats-and-splurges-1521736"
+    },
+    {
+     "section": "Industry news",
+     "date": "Tue, 25 Aug",
+     "headline": "Reysol Coffee Roasters runs fundraiser for the earthquake-affected community in Balboa",
+     "url": "https://www.gofundme.com/f/help-reysol-rebuild-home?cp_src=d"
+    },
+    {
+     "section": "Industry news",
+     "date": "Tue, 25 Aug",
+     "headline": "Copenhagen's Coffee Collective announces exclusive pop-up at Rosslyn",
+     "url": "https://www.linkedin.com/posts/coffee-collective-london-pop-up-cafe-at-rosslyn-ugcPost-7495866579453411328-pO9K/"
+    },
+    {
+     "section": "Industry news",
+     "date": "Wed, 26 Aug",
+     "headline": "Scooter's Coffee names Anna Faktorovich as Chief Marketing Officer",
+     "url": "https://www.scooterscoffee.com/"
+    },
+    {
+     "section": "Industry news",
+     "date": "Wed, 26 Aug",
+     "headline": "Coffee Futures Fund seeks independent café owners for second cohort",
+     "url": "https://www.coffeefutures.fund/"
+    },
+    {
+     "section": "Industry news",
+     "date": "Thu, 27 Aug",
+     "headline": "Neumann Kaffee Gruppe publishes its CSRD-aligned 2026 Sustainability Report",
+     "url": "https://www.nkg.net/sustainabilityreport/"
+    },
+    {
+     "section": "Industry news",
+     "date": "Thu, 27 Aug",
+     "headline": "Specialty Coffee Association presents the Slate of Candidates for the 2027-29 Board of Directors election and appoints Second Vice President",
+     "url": "https://sca.coffee/sca-news/announcement/presenting-the-slate-of-candidates-for-the-2026-2028-sca-board-of-directors-elections-and-appointment-of-the-2nd-vice-president-2026"
+    },
+    {
+     "section": "Industry news",
+     "date": "Fri, 28 Aug",
+     "headline": "J. M. Smucker forecasts smaller-than-expected annual sales decline on steady coffee demand",
+     "url": "https://www.ctvnews.ca/business/article/jm-smucker-forecasts-smaller-than-expected-annual-sales-decline-on-steady-coffee-demand/"
+    },
+    {
+     "section": "New launch",
+     "date": "Mon, 24 Aug",
+     "headline": "7Brew launches canned coffee lineup and new 7Brew Energy",
+     "url": "https://www.businesswire.com/news/home/20260820423109/en/7-Brew-Grows-From-Stands-to-Stores-With-National-Ready-To-Drink-Coffee-and-Energy-Beverage-Expansion-at-Walmart"
+    },
+    {
+     "section": "New launch",
+     "date": "Mon, 24 Aug",
+     "headline": "Loring launches new knowledge base for customer support",
+     "url": "https://www.linkedin.com/posts/loring-launches-new-knowledge-base-ugcPost-7492692244190121985-9jbt/"
+    },
+    {
+     "section": "New launch",
+     "date": "Tue, 25 Aug",
+     "headline": "Subko Coffee launches Indian Gesha",
+     "url": "https://www.instagram.com/p/Db5gtHmCGnf/?img_index=1"
+    },
+    {
+     "section": "New launch",
+     "date": "Tue, 25 Aug",
+     "headline": "Dunkin' to return to Puerto Rico in 2027",
+     "url": "https://www.restaurantdive.com/news/dunkin-puerto-rico-new-opening/828686/"
+    },
+    {
+     "section": "New launch",
+     "date": "Wed, 26 Aug",
+     "headline": "Dalla Corte launches Zero Plus Series to support workflow and consistency",
+     "url": "https://www.dallacorte.com/professional-espresso-machines/zero-plus-barista.html"
+    },
+    {
+     "section": "New launch",
+     "date": "Thu, 27 Aug",
+     "headline": "Koppie launches OtherKinds, a D2C test bed for coffee complements",
+     "url": "https://www.otherkinds.co/"
+    },
+    {
+     "section": "New launch",
+     "date": "Thu, 27 Aug",
+     "headline": "Peter Roberts publishes new book unpacking the commodification of specialty coffee producers",
+     "url": "https://global.oup.com/academic/product/from-supply-and-demand-to-numbers-networks-and-narratives-9780198871460?cc=us&lang=en&"
+    },
+    {
+     "section": "New launch",
+     "date": "Fri, 28 Aug",
+     "headline": "Stumptown Coffee Roasters returns to LA with flagship café and regional training space",
+     "url": "https://www.stumptowncoffee.com/"
+    },
+    {
+     "section": "Milestone",
+     "date": "Mon, 24 Aug",
+     "headline": "Everyday Dose expands into Sam's Club in the US and appoints Kyle Thibaut as CEO",
+     "url": "https://www.prnewswire.com/news-releases/functional-coffee-leader-everyday-dose-expands-into-sams-club-nationwide-and-appoints-kyle-thibaut-as-chief-executive-officer-302855939.html"
+    },
+    {
+     "section": "Milestone",
+     "date": "Wed, 26 Aug",
+     "headline": "J.M. Smucker Co. announces Jeff Varcoe as Senior Vice President, Science and Technical Excellence",
+     "url": "https://www.prnewswire.com/news-releases/the-jm-smucker-co-announces-the-election-of-jeff-varcoe-to-senior-vice-president-science-and-technical-excellence-302855765.html"
+    },
+    {
+     "section": "Trade & production",
+     "date": "Tue, 25 Aug",
+     "headline": "Arabica coffee harvest jumps to 87% in the Expocacer region",
+     "url": "https://globorural.globo.com/agricultura/cafe/noticia/2026/08/colheita-de-cafe-arabica-chega-a-87percent-na-regiao-da-expocacer.ghtml"
+    },
+    {
+     "section": "Research",
+     "date": "Mon, 24 Aug",
+     "headline": "BrewAtlas publishes The State of Specialty Coffee 2026 report",
+     "url": "https://brewatlas.co/contact"
+    },
+    {
+     "section": "Research",
+     "date": "Wed, 26 Aug",
+     "headline": "Researchers build dual-sided green coffee inspection system",
+     "url": "https://www.mdpi.com/2077-0472/16/16/1796"
+    },
+    {
+     "section": "Research",
+     "date": "Thu, 27 Aug",
+     "headline": "Study finds independent third wave coffee shop interior design has become its own distinct brand",
+     "url": "https://www.sciencedirect.com/science/article/pii/S1877916626000056"
+    },
+    {
+     "section": "Events & competitions",
+     "date": "Mon, 24 Aug",
+     "headline": "Mercadao to host Brazil Latte Art and Coffee in Good Spirits Championships in September",
+     "url": "https://www.bsca.com.br/sp-mercadao-sediara-campeonatos-brasileiros-de-barismo-em-setembro/"
+    },
+    {
+     "section": "Events & competitions",
+     "date": "Tue, 25 Aug",
+     "headline": "Brazilian Specialty Coffee Association and Alliance for Coffee Excellence to host Best of Canephora Brazil 2026",
+     "url": "https://www.bsca.com.br/event/the-best-of-canephora-2026/"
+    },
+    {
+     "section": "Events & competitions",
+     "date": "Tue, 25 Aug",
+     "headline": "Ljubljana Coffee Festival 2026 finds a new home and promises biggest edition yet",
+     "url": "https://ljubljanacoffeefestival.si/en/"
+    },
+    {
+     "section": "Events & competitions",
+     "date": "Wed, 26 Aug",
+     "headline": "The 48th SIGEP World to be held from 23 to 27 January 2027 at Rimini Expo Centre",
+     "url": "https://www.sigep.it/en"
+    },
+    {
+     "section": "Events & competitions",
+     "date": "Thu, 27 Aug",
+     "headline": "Asia International Hotel Supplies & Food Expo to take place from 18 to 20 November",
+     "url": "https://www.ahsemacao.com/"
+    },
+    {
+     "section": "Events & competitions",
+     "date": "Fri, 28 Aug",
+     "headline": "Nordic Coffee Fest announces the judges for the 2027 Nordic Best Roaster",
+     "url": "https://www.instagram.com/p/DciJd1rDNhh/"
+    },
+    {
+     "section": "Events & competitions",
+     "date": "Fri, 28 Aug",
+     "headline": "International jury completes cuppings for Taiwan Coffee Auction 2026: Reimagining the Cup",
+     "url": "https://www.linkedin.com/posts/cityfulpress_taiwancoffee-taiwanspecialty-coffeeauction-ugcPost-7498365651938492416-0zZ2/"
+    },
+    {
+     "section": "Events & competitions",
+     "date": "Fri, 28 Aug",
+     "headline": "Winners of the inaugural Kenneth Davids Cup announced",
+     "url": "https://www.coffeereview.com/kenneth-davids-cup-winners/"
+    }
+   ]
+  },
+  "dailyRead": {
+   "fetchedAt": "2026-08-28T14:15:32.426Z",
+   "article": {
+    "title": "High-Scoring Microlots Head to Best of Congo Cooperatives Auction",
+    "summary": "The third Best of Congo Cooperatives coffee auction runs Sept. 1-3, giving green coffee buyers a rare chance to buy high-scoring, traceable microlots from the Democratic Republic of Congo. Beyond...",
+    "url": "https://dailycoffeenews.com/2026/08/26/high-scoring-microlots-head-to-best-of-congo-cooperatives-auction/",
+    "publisher": "Daily Coffee News",
+    "published": "Wed, 26 Aug 2026 14:21:32 +0000",
+    "score": 8
+   },
+   "considered": 10
+  }
+ },
+ "differentials": {
+  "updatedAt": null,
+  "sourceDocument": null,
+  "sourceType": null,
+  "enteredBy": null,
+  "note": "Physical differentials have no free machine-readable feed. This file is populated by hand, or by the planned ICO / trade-report PDF upload. Until then the dashboard shows an explicit 'no verified source' state.",
+  "entries": []
+ },
+ "certifiedStocks": {
+  "updatedAt": null,
+  "sourceDocument": null,
+  "sourceType": null,
+  "note": "ICE publishes certified stocks daily but only behind bot protection; every free API found was a paid reseller. Populated by hand or by PDF upload.",
+  "series": []
+ },
+ "status": [
+  {
+   "source": "weather",
+   "ok": true,
+   "ms": 1306
+  },
+  {
+   "source": "pdg-roundup",
+   "ok": false,
+   "ms": 3998,
+   "error": "no recap link found on the PDG archive page"
+  },
+  {
+   "source": "daily-read",
+   "ok": true,
+   "ms": 4144
+  },
+  {
+   "source": "arabica-futures",
+   "ok": true,
+   "ms": 9087
+  },
+  {
+   "source": "fx",
+   "ok": true,
+   "ms": 10004
+  },
+  {
+   "source": "origin-wire",
+   "ok": true,
+   "ms": 12050
+  }
+ ]
+}

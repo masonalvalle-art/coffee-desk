@@ -1,12 +1,10 @@
 // Futures contract-month resolution.
 // Arabica "Coffee C" (ICE US) trades Mar/May/Jul/Sep/Dec.
-// Robusta (ICE Europe) trades Jan/Mar/May/Jul/Sep/Nov.
 // We never hardcode a contract: we enumerate upcoming months, probe the
 // exchange feed, and keep whatever actually returns a live quote. That way the
 // dashboard rolls itself when a contract expires.
 
 export const ARABICA_MONTHS = { 3: 'H', 5: 'K', 7: 'N', 9: 'U', 12: 'Z' };
-export const ROBUSTA_MONTHS = { 1: 'F', 3: 'H', 5: 'K', 7: 'N', 9: 'U', 11: 'X' };
 
 /**
  * Enumerate the next `count` delivery months for a contract calendar,

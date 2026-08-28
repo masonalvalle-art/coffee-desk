@@ -76,6 +76,15 @@
     return Math.round(hrs / 24) + ' d ago';
   }
 
+  /** Shorten a headline for a ticker, on a word boundary where possible. */
+  function clip(s, n) {
+    if (!s) return '';
+    if (s.length <= n) return s;
+    var cut = s.slice(0, n);
+    var sp = cut.lastIndexOf(' ');
+    return (sp > n * 0.6 ? cut.slice(0, sp) : cut).replace(/[,;:.\s]+$/, '') + '…';
+  }
+
   function notice(head, lines) {
     return el('div', { class: 'notice' }, [
       el('div', { class: 'notice-head', text: head })
@@ -254,20 +263,20 @@
     host.innerHTML = '';
     var any = false;
 
-    ['arabica', 'robusta'].forEach(function (key) {
+    ['arabica'].forEach(function (key) {
       var c = futures && futures[key];
       if (!c) {
         host.appendChild(el('div', { class: 'contract' }, [
           notice('Unavailable', [
-            (key === 'arabica' ? 'Arabica' : 'Robusta') +
-            ' futures could not be retrieved on this run. No figure is shown rather than a stale one.'
+            'Arabica futures could not be retrieved on this run. ' +
+            'No figure is shown rather than a stale one.'
           ])
         ]));
         return;
       }
       any = true;
       var q = c.quote || {};
-      var dp = c.market === 'Arabica' ? 2 : 0;
+      var dp = 2;
 
       var kicker = el('div', { class: 'contract-kicker' }, [
         el('span', { text: c.contract.code }),
@@ -319,12 +328,53 @@
       }
 
       host.appendChild(el('div', { class: 'contract' }, kids));
+
+      // The rest of the curve. With one market on the board this space is
+      // better spent on the term structure than left empty: the spread between
+      // months is what tells a buyer whether carrying costs money or earns it.
+      if (c.curve && c.curve.length > 1) {
+        var second = q.last;
+        var rows = c.curve.map(function (m) {
+          var spread = (second != null && m.close != null) ? m.close - second : null;
+          var isCurrent = m.code === c.contract.code;
+          return el('tr', { class: isCurrent ? 'curve-current' : null }, [
+            el('td', { class: 'name' }, [
+              m.code,
+              isCurrent ? el('span', { class: 'badge', text: 'shown above' }) : null
+            ]),
+            el('td', { class: 'muted', text: m.label }),
+            el('td', { class: 'num', text: num(m.close, dp) }),
+            el('td', { class: 'num ' + (isCurrent ? 'muted' : dirClass(spread)),
+                       text: isCurrent ? '—' : signed(spread, 2) }),
+            el('td', { class: 'num muted', text: m.volume == null ? '—' : num(m.volume, 0) })
+          ]);
+        });
+
+        host.appendChild(el('div', { class: 'contract curve-panel' }, [
+          el('div', { class: 'contract-kicker' }, [el('span', { text: 'Forward curve' })]),
+          el('h3', { class: 'contract-name', text: 'The rest of the board' }),
+          el('p', { class: 'contract-sub', text: 'Every Coffee C month currently quoting, against ' + c.contract.code }),
+          el('div', { class: 'table-scroll' }, [
+            el('table', { class: 'sheet' }, [
+              el('thead', {}, [el('tr', {}, [
+                el('th', { text: 'Contract' }),
+                el('th', { text: 'Delivery' }),
+                el('th', { class: 'num', text: 'Last' }),
+                el('th', { class: 'num', text: 'vs ' + c.contract.code }),
+                el('th', { class: 'num', text: 'Volume' })
+              ])]),
+              el('tbody', {}, rows)
+            ])
+          ]),
+          el('p', { class: 'panel-foot', text: 'Later months trading above the near month is carry; below it is backwardation, which usually means the market wants coffee now.' })
+        ]));
+      }
     });
 
     if (!any) {
       host.innerHTML = '';
       host.appendChild(notice('Board unavailable', [
-        'Neither futures feed responded on this run. Check the sources panel for the error.'
+        'The futures feed did not respond on this run. Check the sources panel for the error.'
       ]));
     }
   }
@@ -340,7 +390,7 @@
     var host = $('#charts');
     host.innerHTML = '';
 
-    ['arabica', 'robusta'].forEach(function (key) {
+    ['arabica'].forEach(function (key) {
       var c = futures && futures[key];
       if (!c) return;
       var bars = (c.bars || []).slice(-180);
@@ -401,21 +451,21 @@
     var host = $('#technicals');
     host.innerHTML = '';
 
-    ['arabica', 'robusta'].forEach(function (key) {
+    ['arabica'].forEach(function (key) {
       var c = futures && futures[key];
       if (!c) return;
       var t = c.technicals;
       var dp = c.market === 'Arabica' ? 2 : 0;
 
       var panel = el('div', { class: 'panel' }, [
-        el('h3', { text: c.market + ' ' + c.contract.code }),
+        el('h3', { text: 'Momentum & trend' }),
         el('p', { class: 'panel-sub', text: t ? (t.basis || '') : 'No history available' })
       ]);
 
       if (!t || t.observations < 15) {
         panel.appendChild(notice('Not enough history yet', [
-          (c.historyNote || 'Indicators need at least 15 sessions before they mean anything.') +
-          ' Recorded so far: ' + (t ? t.observations : 0) + '.'
+          'Indicators need at least 15 sessions before they mean anything. ' +
+          'Available so far: ' + (t ? t.observations : 0) + '.'
         ]));
         host.appendChild(panel);
         return;
@@ -459,43 +509,72 @@
         ])
       ]));
 
-      // Levels
+      panel.appendChild(el('p', { class: 'panel-foot', text: t.method || '' }));
+      host.appendChild(panel);
+
+      // Levels get their own panel alongside, so the pair fills the row.
       var lv = t.levels || { support: [], resistance: [] };
+      var levelsPanel = el('div', { class: 'panel' }, [
+        el('h3', { text: 'Support & resistance' }),
+        el('p', { class: 'panel-sub', text: 'Swing highs and lows the market has actually traded to' })
+      ]);
+
       if (lv.resistance.length || lv.support.length) {
         var lvRows = [];
+        var last2 = c.quote && c.quote.last;
         lv.resistance.slice().reverse().forEach(function (l) {
-          lvRows.push(el('tr', {}, [
-            el('td', { class: 'name', text: 'Resistance' }),
-            el('td', { class: 'num', text: num(l.price, dp) }),
-            el('td', { class: 'muted', text: fmtDate(l.date) })
-          ]));
+          lvRows.push(levelRow('Resistance', l, last2, dp));
         });
+        if (last2 != null) {
+          lvRows.push(el('tr', { class: 'level-here' }, [
+            el('td', { class: 'name', text: 'Last traded' }),
+            el('td', { class: 'num', text: num(last2, dp) }),
+            el('td', { class: 'num muted', text: '—' }),
+            el('td', { class: 'muted', text: 'now' })
+          ]));
+        }
         lv.support.forEach(function (l) {
-          lvRows.push(el('tr', {}, [
-            el('td', { class: 'name', text: 'Support' }),
-            el('td', { class: 'num', text: num(l.price, dp) }),
-            el('td', { class: 'muted', text: fmtDate(l.date) })
-          ]));
+          lvRows.push(levelRow('Support', l, last2, dp));
         });
-        panel.appendChild(el('div', { class: 'table-scroll' }, [
-          el('table', { class: 'sheet', style: 'margin-top:1rem' }, [
+
+        levelsPanel.appendChild(el('div', { class: 'table-scroll' }, [
+          el('table', { class: 'sheet' }, [
             el('thead', {}, [el('tr', {}, [
               el('th', { text: 'Level' }),
               el('th', { class: 'num', text: 'Price' }),
+              el('th', { class: 'num', text: 'Away' }),
               el('th', { text: 'Set on' })
             ])]),
             el('tbody', {}, lvRows)
           ])
         ]));
+        levelsPanel.appendChild(el('p', {
+          class: 'panel-foot',
+          text: 'A level is a bar whose high (or low) was the highest (or lowest) within five ' +
+                'sessions either side — a price the market turned at, not a line drawn by eye.'
+        }));
+      } else {
+        levelsPanel.appendChild(notice('No clear levels', [
+          'No swing pivot in the visible history sits above or below the current price.'
+        ]));
       }
-
-      panel.appendChild(el('p', { class: 'panel-foot', text: t.method || '' }));
-      host.appendChild(panel);
+      host.appendChild(levelsPanel);
     });
 
     if (!host.children.length) {
       host.appendChild(notice('Unavailable', ['No price history was available to compute indicators from.']));
     }
+  }
+
+  function levelRow(kind, level, last, dp) {
+    var away = (last != null && level.price != null)
+      ? ((level.price - last) / last) * 100 : null;
+    return el('tr', {}, [
+      el('td', { class: 'name', text: kind }),
+      el('td', { class: 'num', text: num(level.price, dp) }),
+      el('td', { class: 'num muted', text: away == null ? '—' : signed(away, 1) + '%' }),
+      el('td', { class: 'muted', text: fmtDate(level.date) })
+    ]);
   }
 
   function techRow(label, value, reading) {
@@ -624,6 +703,55 @@
     host.appendChild(sPanel);
   }
 
+  /**
+   * Condition icons. Drawn rather than pulled from a font so they inherit
+   * currentColor and stay crisp in both themes: sun, sun behind cloud, cloud
+   * with drops, cloud with heavier drops.
+   */
+  function conditionIcon(condition, label) {
+    // Decorative: the condition is always written out in words beside it, so
+    // announcing the icon as well would just repeat itself. The <title> stays
+    // for the mouse tooltip.
+    var svg = svgEl('svg', {
+      viewBox: '0 0 24 24', width: 16, height: 16,
+      class: 'wx-icon wx-icon-' + (condition || 'unknown'),
+      'aria-hidden': 'true', focusable: 'false',
+      fill: 'none', stroke: 'currentColor',
+      'stroke-width': 1.6, 'stroke-linecap': 'round', 'stroke-linejoin': 'round'
+    });
+    var t = document.createElementNS(SVG_NS, 'title');
+    t.textContent = label || 'Condition unknown';
+    svg.appendChild(t);
+
+    function add(tag, attrs) { svg.appendChild(svgEl(tag, attrs)); }
+    var CLOUD = 'M7.5 18h9a3.5 3.5 0 0 0 .3-6.99A5 5 0 0 0 7.2 10.2 3.4 3.4 0 0 0 7.5 18Z';
+
+    if (condition === 'dry') {
+      add('circle', { cx: 12, cy: 12, r: 4 });
+      // Eight rays.
+      [[12,2,12,4.4],[12,19.6,12,22],[2,12,4.4,12],[19.6,12,22,12],
+       [5,5,6.7,6.7],[17.3,17.3,19,19],[19,5,17.3,6.7],[6.7,17.3,5,19]]
+        .forEach(function (r) { add('line', { x1: r[0], y1: r[1], x2: r[2], y2: r[3] }); });
+    } else if (condition === 'cloudy') {
+      add('circle', { cx: 8.5, cy: 8, r: 3, opacity: .55 });
+      add('path', { d: CLOUD });
+    } else if (condition === 'wet') {
+      add('path', { d: CLOUD.replace('18h9', '15h9').replace('cy', 'cy') });
+      add('path', { d: 'M7.5 15h9a3.5 3.5 0 0 0 .3-6.99A5 5 0 0 0 7.2 7.2 3.4 3.4 0 0 0 7.5 15Z' });
+      add('line', { x1: 9, y1: 18, x2: 8.2, y2: 20.5 });
+      add('line', { x1: 14, y1: 18, x2: 13.2, y2: 20.5 });
+    } else if (condition === 'very-wet') {
+      add('path', { d: 'M7.5 14h9a3.5 3.5 0 0 0 .3-6.99A5 5 0 0 0 7.2 6.2 3.4 3.4 0 0 0 7.5 14Z' });
+      add('line', { x1: 8, y1: 16.5, x2: 7, y2: 20 });
+      add('line', { x1: 11.5, y1: 16.5, x2: 10.5, y2: 21 });
+      add('line', { x1: 15, y1: 16.5, x2: 14, y2: 20 });
+      add('line', { x1: 18, y1: 16.5, x2: 17.2, y2: 18.8 });
+    } else {
+      add('circle', { cx: 12, cy: 12, r: 8, opacity: .3, 'stroke-dasharray': '2 3' });
+    }
+    return svg;
+  }
+
   function renderWeather(wx) {
     var host = $('#weather');
     host.innerHTML = '';
@@ -632,37 +760,59 @@
       return;
     }
 
-    // Regions carrying an alert lead the table.
-    var regions = wx.regions.slice().sort(function (a, b) {
-      return (b.alerts ? b.alerts.length : 0) - (a.alerts ? a.alerts.length : 0);
+    // Group by country, in the order the pipeline declares, so the table reads
+    // country-then-region rather than as a flat list.
+    var order = wx.countryOrder || [];
+    var byCountry = {};
+    wx.regions.forEach(function (r) {
+      (byCountry[r.country] = byCountry[r.country] || []).push(r);
+    });
+    var countries = Object.keys(byCountry).sort(function (a, b) {
+      var ia = order.indexOf(a), ib = order.indexOf(b);
+      return (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib);
     });
 
-    var rows = regions.map(function (r) {
-      if (r.error) {
-        return el('tr', {}, [
-          el('td', { class: 'name', text: r.name }),
-          el('td', { colspan: 5, class: 'err', text: 'unavailable' })
-        ]);
-      }
-      var flags = (r.alerts || []).map(function (a) {
-        return el('span', { class: 'wx-flag ' + a.type, text: a.type, title: a.text });
-      });
+    var body = [];
+    countries.forEach(function (country) {
+      body.push(el('tr', { class: 'country-row' }, [
+        el('th', { colspan: 6, scope: 'rowgroup', class: 'country-head', text: country })
+      ]));
 
-      return el('tr', {}, [
-        el('td', { class: 'name' }, [
-          r.name + ' ',
-          el('span', { class: 'origin-country', text: r.country })
-        ].concat(flags)),
-        el('td', {}, [el('span', { class: 'species', text: r.species })]),
-        el('td', { class: 'num', text: r.current && r.current.tMax != null ? num(r.current.tMax, 0) + '°' : '—' }),
-        el('td', { class: 'num', text: r.minForecast7 == null ? '—' : num(r.minForecast7, 0) + '°' }),
-        el('td', { class: 'num', text: r.rain14 == null ? '—' : num(r.rain14, 0) }),
-        el('td', { class: 'num', text: r.rainForecast7 == null ? '—' : num(r.rainForecast7, 0) })
-      ]);
+      byCountry[country].forEach(function (r) {
+        if (r.error) {
+          body.push(el('tr', {}, [
+            el('td', { class: 'name region-cell', text: r.name }),
+            el('td', { colspan: 5, class: 'err', text: 'unavailable' })
+          ]));
+          return;
+        }
+        var flags = (r.alerts || []).map(function (a) {
+          return el('span', { class: 'wx-flag ' + a.type, text: a.type, title: a.text });
+        });
+
+        // Icon and words together: the picture is scannable, the text is
+        // unambiguous, and neither has to be guessed from the other.
+        var nameCell = el('td', { class: 'name region-cell' }, [
+          el('span', { class: 'wx-icon-wrap' }, [conditionIcon(r.condition, r.conditionLabel)]),
+          el('span', { class: 'region-name', text: r.name }),
+          r.conditionLabel
+            ? el('span', { class: 'wx-cond wx-cond-' + r.condition, text: r.conditionLabel })
+            : null
+        ].concat(flags));
+
+        body.push(el('tr', {}, [
+          nameCell,
+          el('td', {}, [el('span', { class: 'species', text: r.species })]),
+          el('td', { class: 'num', text: r.current && r.current.tMax != null ? num(r.current.tMax, 0) + '°' : '—' }),
+          el('td', { class: 'num', text: r.minForecast7 == null ? '—' : num(r.minForecast7, 0) + '°' }),
+          el('td', { class: 'num', text: r.rain14 == null ? '—' : num(r.rain14, 0) }),
+          el('td', { class: 'num', text: r.rainForecast7 == null ? '—' : num(r.rainForecast7, 0) })
+        ]));
+      });
     });
 
     host.appendChild(el('div', { class: 'table-scroll' }, [
-      el('table', { class: 'sheet' }, [
+      el('table', { class: 'sheet wx-sheet' }, [
         el('thead', {}, [el('tr', {}, [
           el('th', { text: 'Region' }),
           el('th', { text: 'Type' }),
@@ -671,16 +821,28 @@
           el('th', { class: 'num', text: 'Rain 14d mm' }),
           el('th', { class: 'num', text: 'Rain 7d fc' })
         ])]),
-        el('tbody', {}, rows)
+        el('tbody', {}, body)
       ])
     ]));
 
+    // Icon key, so the pictures are never guesswork.
+    var key = el('div', { class: 'wx-key' }, [
+      el('span', { class: 'wx-key-label', text: 'Conditions' })
+    ]);
+    [['dry', 'Clear / dry'], ['cloudy', 'Cloudy'], ['wet', 'Wet'], ['very-wet', 'Very wet']]
+      .forEach(function (c) {
+        key.appendChild(el('span', { class: 'wx-key-item' }, [
+          conditionIcon(c[0], c[1]), el('span', { text: c[1] })
+        ]));
+      });
+    host.appendChild(key);
+
     var alerts = [];
-    regions.forEach(function (r) {
-      (r.alerts || []).forEach(function (a) { alerts.push(r.name + ' — ' + a.text); });
+    wx.regions.forEach(function (r) {
+      (r.alerts || []).forEach(function (a) { alerts.push(r.country + ', ' + r.name + ' — ' + a.text); });
     });
     if (alerts.length) {
-      host.appendChild(el('div', { class: 'notice', style: 'margin-top:1rem' }, [
+      host.appendChild(el('div', { class: 'notice' }, [
         el('div', { class: 'notice-head', text: 'Flagged this morning' })
       ].concat(alerts.map(function (t) { return el('p', { text: t }); }))));
     }
@@ -691,60 +853,162 @@
       text: 'Flags are rule-based, not forecasts of price: frost at or below ' + th.frostC +
             '°C in a Brazilian region, wet above ' + th.heavyRainMm +
             ' mm forecast over seven days, dry at or below ' + th.dryMm +
-            ' mm observed over fourteen. "Max °C" is the most recent observed day.'
+            ' mm observed over fourteen. "Max °C" is the most recent observed day. ' +
+            (wx.conditionMethod || '')
     }));
   }
 
-  function renderNews(news) {
-    var host = $('#news');
+  /**
+   * A ticker. The track is duplicated so the scroll loops seamlessly; the copy
+   * is hidden from assistive tech so headlines are not announced twice. Under
+   * prefers-reduced-motion the CSS stops the animation and the strip becomes a
+   * normal horizontally scrollable list.
+   */
+  function ticker(items, opts) {
+    opts = opts || {};
+    // The lane is duplicated, so its width is twice the content. Browsers cap
+    // a composited layer at roughly 16,384px and silently fail to paint past
+    // it, so the item count is capped to keep the lane comfortably inside that
+    // limit. Callers truncate the text for the same reason.
+    var MAX_ITEMS = opts.maxItems || 11;
+    var shown = items.slice(0, MAX_ITEMS);
+
+    function track(ariaHidden) {
+      var t = el('div', { class: 'ticker-track' }, shown.map(function (mk) { return mk(); }));
+      if (ariaHidden) t.setAttribute('aria-hidden', 'true');
+      return t;
+    }
+    var speed = Math.max(30, Math.min(180, shown.length * (opts.secondsPerItem || 5)));
+    var lane = el('div', { class: 'ticker-lane', style: '--ticker-duration:' + speed + 's' }, [
+      track(false), track(true)
+    ]);
+    return el('div', { class: 'ticker' + (opts.modifier ? ' ' + opts.modifier : '') }, [
+      opts.label ? el('span', { class: 'ticker-label', text: opts.label }) : null,
+      el('div', { class: 'ticker-window' }, [lane])
+    ]);
+  }
+
+  function renderOriginWire(wire) {
+    var host = $('#origin-wire');
     host.innerHTML = '';
-    if (!news) {
-      host.appendChild(notice('Unavailable', ['News feeds could not be retrieved on this run.']));
+    if (!wire) {
+      host.appendChild(notice('Unavailable', ['The origin wire could not be retrieved on this run.']));
       return;
     }
-    if (!news.articles || !news.articles.length) {
-      host.appendChild(notice('Nothing worth your time today', [
-        'Of ' + (news.totalCoffeeStories || 0) + ' coffee stories across ' + news.feedsQueried +
-        ' publisher feeds in the last ' + Math.round(news.lookbackHours / 24) +
-        ' days, none cleared the relevance bar for someone buying physical coffee.',
-        'The list is left short on purpose rather than padded with café openings and personnel moves.'
+    if (!wire.headlines || !wire.headlines.length) {
+      host.appendChild(notice('Quiet on the wire', [
+        'No story from the growing regions appeared across ' + wire.feedsQueried +
+        ' feeds in the last ' + Math.round(wire.lookbackHours / 24) + ' days.'
       ]));
       return;
     }
 
-    var wrap = el('div', { class: 'stories' }, news.articles.map(function (a, i) {
-      var kids = [
-        el('span', { class: 'story-rank', text: String(i + 1) }),
-        el('h3', {}, [
-          el('a', { href: a.url, target: '_blank', rel: 'noopener noreferrer', text: a.title })
-        ])
-      ];
-      if (a.summary) kids.push(el('p', { text: a.summary }));
-      var byline = el('div', { class: 'byline' }, [
-        el('span', { class: 'pub', text: a.publisher }),
-        ' · ' + (relTime(a.published) || fmtDate(a.published))
-      ]);
-      if (a.tier === 1) byline.appendChild(el('span', { class: 'badge', text: 'Press of record' }));
-      kids.push(byline);
-      return el('div', { class: 'story' }, kids);
+    host.appendChild(ticker(wire.headlines.map(function (h) {
+      return function () {
+        return el('a', {
+          class: 'ticker-item', href: h.url, target: '_blank', rel: 'noopener noreferrer'
+        }, [
+          el('span', { class: 'ticker-region', text: h.region }),
+          el('span', { class: 'ticker-text', text: clip(h.title, 62) }),
+          el('span', { class: 'ticker-pub', text: h.publisher }),
+          // The wire runs three weeks deep because the origins are not covered
+          // daily, so every item states its age rather than implying it is new.
+          el('span', { class: 'ticker-age', text: relTime(h.published) || fmtDate(h.published) })
+        ]);
+      };
+    }), { label: 'Origin wire', secondsPerItem: 6 }));
+
+    var regions = Object.keys(wire.byRegion || {}).filter(function (k) { return wire.byRegion[k]; });
+    host.appendChild(el('p', {
+      class: 'panel-foot',
+      text: 'General headlines from the growing regions over the last ' +
+            Math.round(wire.lookbackHours / 24) + ' days, from the BBC, the Guardian, the ' +
+            'Financial Times, Al Jazeera and VnExpress International, tagged to a region by ' +
+            'the countries and cities they name. ' + wire.totalTagged + ' stories matched ' +
+            'across ' + (regions.length || 0) + ' regions; the ticker rotates between them so ' +
+            'one busy country cannot crowd out the rest. The window is three weeks because ' +
+            'these origins are not covered daily by the international press — each headline ' +
+            'carries its own age.'
     }));
-    host.appendChild(wrap);
+  }
 
-    var foot = 'From ' + news.feedsQueried + ' publisher feeds: ' +
-      (news.totalCoffeeStories || 0) + ' coffee stories in the last ' +
-      Math.round(news.lookbackHours / 24) + ' days, ' + (news.totalEligible || 0) +
-      ' of them relevant to the physical trade. Ranked by outlet, trade relevance and ' +
-      'recency, and scored down for café and corporate-affairs news. Summaries are the ' +
-      'publishers own feed text, not generated.';
-    host.appendChild(el('p', { class: 'panel-foot', text: foot }));
-
-    if (news.totalEligible < 5) {
-      host.appendChild(el('p', {
-        class: 'panel-foot',
-        text: 'Fewer than five today. Coffee is not a daily story for the general press, and ' +
-              'this page would rather run short than pad the list.'
-      }));
+  function renderRoundup(roundup) {
+    var host = $('#roundup');
+    host.innerHTML = '';
+    if (!roundup || !roundup.items || !roundup.items.length) {
+      host.appendChild(notice('Recap unavailable', [
+        'Perfect Daily Grind rejects automated clients, so the weekly round-up could not be ' +
+        'retrieved and no stored copy is available.',
+        'Nothing is shown here rather than a stale or invented list.'
+      ]));
+      return;
     }
+
+    host.appendChild(ticker(roundup.items.map(function (it) {
+      return function () {
+        var kids = [
+          el('span', { class: 'ticker-region', text: it.date }),
+          el('span', { class: 'ticker-text', text: clip(it.headline, 62) })
+        ];
+        if (it.section) kids.push(el('span', { class: 'ticker-pub', text: it.section }));
+        return it.url
+          ? el('a', { class: 'ticker-item', href: it.url, target: '_blank', rel: 'noopener noreferrer' }, kids)
+          : el('span', { class: 'ticker-item' }, kids);
+      };
+    }), { label: 'Week in coffee', modifier: 'ticker-reverse', secondsPerItem: 7, maxItems: 11 }));
+
+    var head = el('p', { class: 'roundup-source' }, [
+      el('a', {
+        href: roundup.articleUrl, target: '_blank', rel: 'noopener noreferrer',
+        text: roundup.title || 'Coffee News Recap'
+      }),
+      el('span', { class: 'badge', text: 'Perfect Daily Grind' })
+    ]);
+    host.appendChild(head);
+
+    var shownCount = Math.min(11, roundup.items.length);
+    var scope = shownCount < roundup.items.length
+      ? 'Showing ' + shownCount + ' of ' + roundup.items.length +
+        ' headlines from this week’s recap — the full round-up is linked above. '
+      : roundup.items.length + ' headlines. ';
+
+    host.appendChild(el('p', {
+      class: 'panel-foot',
+      text: scope + 'Each links to the original source, not to the recap. ' +
+        (roundup.source === 'manual'
+          ? 'Perfect Daily Grind blocks automated clients, so this recap was captured by hand ' +
+            'from the published article on ' + fmtDateTime(roundup.capturedAt) +
+            '. The pipeline still attempts the live fetch on every run and will use it the ' +
+            'moment it succeeds.'
+          : 'Fetched live from Perfect Daily Grind’s weekly round-up.')
+    }));
+  }
+
+  function renderDailyRead(daily) {
+    var host = $('#daily-read');
+    host.innerHTML = '';
+    if (!daily || !daily.article) {
+      host.appendChild(notice('Unavailable', [
+        'No Daily Coffee News article could be retrieved on this run.'
+      ]));
+      return;
+    }
+    var a = daily.article;
+    var kids = [
+      el('h3', {}, [el('a', { href: a.url, target: '_blank', rel: 'noopener noreferrer', text: a.title })])
+    ];
+    if (a.summary) kids.push(el('p', { text: a.summary }));
+    kids.push(el('div', { class: 'byline' }, [
+      el('span', { class: 'pub', text: a.publisher }),
+      ' · ' + (relTime(a.published) || fmtDate(a.published))
+    ]));
+    host.appendChild(el('div', { class: 'story story-single' }, kids));
+    host.appendChild(el('p', {
+      class: 'panel-foot',
+      text: 'One article, chosen from ' + (daily.considered || 0) +
+            ' in the Daily Coffee News feed by relevance to the physical trade and recency. ' +
+            'The summary is the publisher’s own feed text.'
+    }));
   }
 
   function renderSources(data) {
@@ -767,7 +1031,6 @@
 
     if (data.futures) {
       if (data.futures.arabica) addGroup('Arabica futures', data.futures.arabica.sources);
-      if (data.futures.robusta) addGroup('Robusta futures', data.futures.robusta.sources);
     }
     if (data.fx) addGroup('Currency', data.fx.sources);
     if (data.weather) addGroup('Weather', data.weather.sources);
@@ -775,7 +1038,16 @@
     groups.push(el('div', { class: 'src-group' }, [
       el('h4', { text: 'News' }),
       el('ul', {}, [
-        el('li', { text: 'Financial Times, BBC News, VnExpress International, World Coffee Portal and Daily Coffee News, each taken from that publisher own syndication feed.' })
+        el('li', { text: 'Origin wire: BBC News, The Guardian, Financial Times and Al Jazeera, each from that publisher’s own syndication feed.' }),
+        el('li', {}, [
+          'Weekly recap: ',
+          el('a', { href: 'https://perfectdailygrind.com/category/weekly-round-up/', target: '_blank', rel: 'noopener noreferrer', text: 'Perfect Daily Grind' }),
+          ' — headlines and links are the publisher’s own.'
+        ]),
+        el('li', {}, [
+          'Today’s read: ',
+          el('a', { href: 'https://dailycoffeenews.com/', target: '_blank', rel: 'noopener noreferrer', text: 'Daily Coffee News' })
+        ])
       ])
     ]));
 
@@ -829,7 +1101,10 @@
     renderFx(data.fx);
     renderPhysical(data);
     renderWeather(data.weather);
-    renderNews(data.news);
+    var news = data.news || {};
+    renderOriginWire(news.originWire);
+    renderRoundup(news.roundup);
+    renderDailyRead(news.dailyRead);
     renderSources(data);
 
     var okCount = (data.status || []).filter(function (s) { return s.ok; }).length;

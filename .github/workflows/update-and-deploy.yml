@@ -2,9 +2,8 @@ name: Update data and deploy
 
 # Two runs a day on weekdays:
 #   06:00 UTC — the morning brief, before the European day gets going.
-#   18:30 UTC — after both ICE US (Coffee C) and ICE Europe (Robusta) have
-#               closed, which is the snapshot that lands in the Robusta
-#               history series.
+#   18:30 UTC — after ICE US has closed, so the evening edition carries the
+#               day's settlement rather than a mid-session price.
 # Times are UTC and GitHub may delay scheduled runs under load.
 on:
   schedule:
@@ -43,7 +42,7 @@ jobs:
         run: |
           git config user.name "coffee-desk-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/latest.json data/history/robusta.json
+          git add data/latest.json
           if git diff --staged --quiet; then
             echo "No data changes to commit."
           else

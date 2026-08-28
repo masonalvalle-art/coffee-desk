@@ -15,32 +15,55 @@ happened.
 
 | Section | Contents | Source |
 |---|---|---|
-| The Board | Arabica **KCZ6** and Robusta **RCX6** — second traded month, resolved automatically | Yahoo Finance + TradingView (both ICE, delayed) |
+| The Board | Arabica **KCZ6** — second traded month, resolved automatically — plus the full forward curve and the spread of every other month against it | Yahoo Finance + TradingView (both ICE, delayed) |
 | Price Action | Daily chart with 20/50-day means and swing-pivot support & resistance | derived from the price history below |
-| Technical Picture | RSI(14), MACD(12,26,9), moving averages, ATR(14), Donchian(20), 52-week range | computed from real settlement prices |
+| Momentum & trend | RSI(14), MACD(12,26,9), moving averages, ATR(14), Donchian(20), 52-week range | computed from real settlement prices |
+| Support & resistance | Swing levels with the distance from the current price and the date each was set | computed from real settlement prices |
 | Currency | USD/GBP and USD/BRL, plus Brazil's official PTAX fixing | European Central Bank; Banco Central do Brasil |
 | Physical Market | Differentials and certified stocks | **no verified free source — see below** |
-| At Origin | 14 growing regions: observed and forecast temperature and rainfall, with frost/wet/dry flags | Open-Meteo |
-| What to Read Today | Up to 5 stories relevant to someone buying physical coffee | publishers' own RSS feeds |
+| At Origin | 12 growing regions grouped by country, with a condition icon, observed and forecast temperature and rainfall, and frost/wet/dry flags | Open-Meteo |
+| Origin Wire | Ticker of general headlines from Brazil, Vietnam, Indonesia, Colombia, South & Central America and East Africa | BBC, Guardian, FT, Al Jazeera, VnExpress International |
+| The Week in Coffee | Ticker of the headlines from Perfect Daily Grind's Friday round-up | Perfect Daily Grind |
+| Today's Read | One article worth a buyer's time | Daily Coffee News |
+
+### Arabica only
+
+Robusta was removed. No free provider publishes Robusta price history, so its
+chart and indicators could never be built from a complete series, and a
+half-populated contract is worse than an absent one. Robusta-growing regions
+(Espírito Santo, Dak Lak, Lam Dong, Lampung) are still on the weather table,
+because that data *is* complete and the two markets move together.
 
 ### Contract months resolve themselves
 
-The dashboard never hardcodes a contract. It enumerates the listed delivery
-months for each calendar (Arabica: Mar/May/Jul/Sep/Dec; Robusta:
-Jan/Mar/May/Jul/Sep/Nov), probes the exchange feed for each, and keeps
-whichever are actually quoting. Front month is the first, second month is the
-one you see. When a contract expires it drops out and everything shifts along
-on its own.
+The dashboard never hardcodes a contract. It enumerates the listed Coffee C
+delivery months (Mar/May/Jul/Sep/Dec), probes the exchange feed for each, and
+keeps whichever are actually quoting. Front month is the first, second month is
+the one on the board. When a contract expires it drops out and everything
+shifts along on its own.
 
 It also watches volume. When the front month thins out relative to the second —
 as of writing, KCU26 was trading 39 lots against KCZ26's 4,886 — the page says
 so, because that is the market telling you it has rolled.
 
-### Arabica is cross-checked
+### The price is cross-checked
 
 Arabica is fetched from two independent feeds and the page publishes the gap
 between them. If they ever disagree by more than 1% the page flags it rather
-than silently picking one.
+than silently picking one. The session change is always derived from the same
+series as the price beside it, never mixed between feeds.
+
+### Weather conditions
+
+Each region carries an icon *and* the condition in words. The classification is
+rule-based and printed on the page: over the last three observed days, 30 mm of
+rain in total, 20 mm in any one day, or a heavy-rain weather code is **very
+wet**; 5 mm is **wet**; 60% mean cloud cover is **cloudy**; anything else is
+**clear/dry**.
+
+The window is three days rather than one on purpose. A single-day snapshot
+classified almost every origin as wet, because the WMO weather code counts
+light drizzle the same as real rain.
 
 ---
 
@@ -55,23 +78,35 @@ protection, and every "free API" found in research was a paid reseller.
 
 Both are wired for a planned upload feature: drop in ICO or trader-report PDFs
 and the parsed figures populate `data/manual/differentials.json` and
-`data/manual/certified-stocks.json`, which the page already reads and renders
-as a table and a chart. The schema is in place; the parser is not built yet.
+`data/manual/certified-stocks.json`, which the page already reads and renders.
+The schema is in place; the parser is not built yet.
 
-**Robusta price history.** No free provider publishes it. The pipeline records
-one snapshot per run into `data/history/robusta.json`, so the series builds up
-from here — each bar stamped with when it was captured and committed to git.
-Robusta indicators stay `null` and the page says how many sessions it has until
-there is enough history to mean anything. Arabica has full history from day one.
+---
 
-**News depth.** Only publishers' own syndication feeds are used. Aggregator
-feeds such as Google News are excluded on purpose: their licences restrict them
-to personal, non-commercial feed-reader use, which a public dashboard is not.
-The honest consequence is that coffee is not a daily story for the general
-press, and the specialist feeds skew towards café and retail news. Stories are
-therefore scored *up* for physical-trade relevance and *down* for hospitality
-and corporate-affairs noise, and the page runs fewer than five stories rather
-than padding the list. On a quiet day you may see two.
+## The weekly round-up needs a hand
+
+Perfect Daily Grind's WAF rejects non-browser clients. Every path returns 403 —
+the article, the RSS feed, the sitemap, even through a reader proxy — regardless
+of headers, because the block is on TLS/client fingerprint rather than address.
+A GitHub Actions runner will almost certainly be refused too.
+
+So the round-up ticker reads from `data/manual/pdg-roundup.json`, captured by
+hand from the published article. **The pipeline still attempts the live fetch on
+every run and will prefer it the moment it succeeds** — nothing needs changing
+if PDG ever relaxes the block. The page always states which of the two it is
+showing, and when the stored copy was captured.
+
+To refresh it each Friday: open the newest post in
+[the round-up archive](https://perfectdailygrind.com/category/weekly-round-up/),
+and update `data/manual/pdg-roundup.json` with the article URL, its title,
+today's `capturedAt`, and one entry per headline:
+
+```json
+{ "section": "Top stories of the week", "date": "Fri, 28 Aug", "headline": "…", "url": "https://original-source…" }
+```
+
+Headlines and links are the publisher's own; the ticker shows the first 11 and
+links to the full recap.
 
 ---
 
@@ -101,21 +136,16 @@ refreshes itself.
 
 ### Schedule
 
-Two runs each weekday:
-
-- **06:00 UTC** — the morning brief.
-- **18:30 UTC** — after both ICE US and ICE Europe have closed. This is the
-  snapshot that goes into the Robusta history series.
-
-Scheduled runs are UTC and GitHub may delay them under load. You can always
+Two runs each weekday: **06:00 UTC** for the morning brief, and **18:30 UTC**
+after ICE US has closed so the evening edition carries the day's settlement.
+Scheduled runs are UTC and GitHub may delay them under load; you can always
 trigger a run by hand from the Actions tab.
 
 ### Why the data is committed to the repo
 
-Each run commits `data/latest.json` and `data/history/robusta.json` back to the
-repository. That gives every published number a permanent, timestamped, public
-audit trail: you can check what the dashboard said on any past date, and where
-it got it. It is also how the Robusta series accumulates.
+Each run commits `data/latest.json` back to the repository. That gives every
+published number a permanent, timestamped, public audit trail: you can check
+what the dashboard said on any past date, and where it got it.
 
 ---
 
@@ -124,12 +154,14 @@ it got it. It is also how the Robusta series accumulates.
 ```
 index.html                     the page
 assets/style.css               newspaper styling, light and dark
-assets/app.js                  renders data/latest.json; draws the SVG charts
+assets/app.js                  renders data/latest.json; draws the SVG charts and icons
 data/latest.json               generated each run — the page reads only this
-data/history/robusta.json      accumulated Robusta closes
-data/manual/*.json             hand-maintained blocks (differentials, stocks)
+data/manual/*.json             hand-maintained blocks (differentials, stocks, PDG recap)
 scripts/fetch-data.mjs         orchestrator: fetches everything, writes latest.json
-scripts/sources/*.mjs          one module per source
+scripts/sources/futures.mjs    Arabica contract discovery, quote, history, cross-check
+scripts/sources/fx.mjs         ECB reference rates and the Brazilian PTAX fixing
+scripts/sources/weather.mjs    origin regions, condition classification, risk flags
+scripts/sources/news.mjs       origin wire, PDG round-up parser, daily read
 scripts/lib/indicators.mjs     RSI, MACD, ATR, pivots, Donchian
 scripts/lib/contracts.mjs      contract-month enumeration and roll detection
 .github/workflows/             the scheduled fetch and Pages deploy
@@ -138,18 +170,23 @@ scripts/lib/contracts.mjs      contract-month enumeration and roll detection
 The fetch pipeline uses **only Node built-ins**. There are no dependencies,
 no `npm install` in the workflow, and no supply chain to audit.
 
-### Local helper scripts
+### Running it locally
 
-These exist only because the machine this was built on had no Node or Python.
-They are not used in production and can be deleted.
+`scripts/serve.pl` exists only because the machine this was built on has no
+Node or Python, and the page needs a real HTTP origin for its JavaScript to
+run. It is a **local development harness, never deployed**, and binds to
+127.0.0.1 only:
 
-- `scripts/serve.pl` — a minimal static server, so the page can be opened
-  locally with its JavaScript running: `perl scripts/serve.pl 8787`
-- `scripts/build-preview.pl` — bundles the site into a single self-contained
-  `preview.html`
-- `scripts/seed-preview.pl` — writes a first `data/latest.json` from live
-  sources, so the page has something real to render before the first
-  scheduled run
+```bash
+perl scripts/serve.pl 8787
+```
+
+Besides static files it offers `/proxy?url=…`, which fetches a URL server-side
+so the production modules can be exercised in a browser without tripping CORS,
+and `POST /save?path=data/…`, which writes a pipeline result to disk. Both are
+development conveniences — do not run this where anything else can reach the
+port. With Node installed, `node scripts/fetch-data.mjs` does the same job
+properly.
 
 ---
 
@@ -164,6 +201,11 @@ The technical indicators are standard published formulas — Wilder's RSI, MACD
 on exponential means, Wilder's ATR, swing-pivot levels — computed from the real
 price series and nothing else. The RSI implementation is checked against
 Wilder's own worked example from *New Concepts in Technical Trading Systems*.
+
+The origin wire runs a three-week window because these regions are not covered
+daily by the international press: on testing, the Guardian's newest Brazil story
+was seven days old and its newest Vietnam story thirty-nine. Every headline
+carries its own age so nothing old is mistaken for news.
 
 Weather flags are rule-based, with the thresholds printed on the page: frost at
 or below 4°C in a Brazilian region, wet above 50 mm forecast over seven days,

@@ -1,16 +1,18 @@
-// Coffee futures.
-//
-//  Arabica  ICE Futures US      "Coffee C"  KC   cents/lb   37,500 lb lot
-//  Robusta  ICE Futures Europe  Robusta     RC   USD/tonne  10 tonne lot
+// Coffee futures — Arabica "Coffee C" (KC) on ICE Futures U.S., quoted in US
+// cents per lb against a 37,500 lb lot.
 //
 // Two independent feeds, both carrying ICE prices on a short delay:
-//   * Yahoo Finance chart API -- per-contract daily OHLC history (Arabica).
-//   * TradingView public symbol endpoint -- per-contract live snapshot (both).
-// Arabica is fetched from BOTH so we can cross-check the two and publish the
-// discrepancy. If they disagree materially we flag it rather than pick one.
+//   * Yahoo Finance chart API      — per-contract daily OHLC history.
+//   * TradingView public endpoint  — per-contract live snapshot and the curve.
+// Both are fetched so the two can be cross-checked and the discrepancy
+// published. If they disagree materially we flag it rather than pick one.
+//
+// Robusta was dropped: no free provider publishes its price history, so the
+// chart and indicators could never be built from a complete series, and a
+// half-populated contract is worse than none.
 
 import { getJson, mapLimit } from '../lib/http.mjs';
-import { upcomingContracts, classify, ARABICA_MONTHS, ROBUSTA_MONTHS } from '../lib/contracts.mjs';
+import { upcomingContracts, classify, ARABICA_MONTHS } from '../lib/contracts.mjs';
 
 const TV = 'https://scanner.tradingview.com/symbol';
 const TV_FIELDS = 'close,open,high,low,change,change_abs,volume,description,update_mode,currency_id';
@@ -147,42 +149,3 @@ export async function fetchArabica() {
   };
 }
 
-export async function fetchRobusta() {
-  const disc = await discover('ICEEUR', 'RC', ROBUSTA_MONTHS);
-  if (!disc.second) throw new Error('Could not resolve a Robusta second month');
-  const target = disc.second;
-
-  return {
-    market: 'Robusta',
-    contractName: 'Robusta Coffee',
-    exchange: 'ICE Futures Europe',
-    unit: 'USD / tonne',
-    lotSize: '10 tonnes',
-    contract: {
-      code: `RC${target.short}`,
-      label: target.label,
-      tvSymbol: target.tvSymbol,
-    },
-    frontMonth: disc.front ? { code: `RC${disc.front.short}`, label: disc.front.label, close: disc.front.close, volume: disc.front.volume } : null,
-    rolled: disc.rolled,
-    mostActive: disc.mostActive ? `RC${disc.mostActive.short}` : null,
-    curve: disc.live.map(c => ({ code: `RC${c.short}`, label: c.label, close: c.close, volume: c.volume })),
-    quote: {
-      last: target.close,
-      open: target.open,
-      high: target.high,
-      low: target.low,
-      previousClose: null,
-      change: target.changeAbs,
-      changePct: target.change,
-      volume: target.volume,
-      asOf: new Date().toISOString(),
-    },
-    // No free source publishes Robusta daily history, so we accumulate our own
-    // from these snapshots (see data/history/robusta.json). Populated by index.mjs.
-    bars: [],
-    sources: [
-      { name: 'TradingView (ICE Europe delayed)', url: `https://www.tradingview.com/symbols/ICEEUR-${'RC' + target.long}/`, role: 'live snapshot + contract curve' },
-    ],
-  };
-}

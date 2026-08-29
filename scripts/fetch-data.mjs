@@ -19,6 +19,21 @@ import {
   fetchIcoReport, mergeHistory, emptyHistory, latestReportMonth, publishable,
 } from './sources/ico.mjs';
 import { buildTechnicals } from './lib/indicators.mjs';
+import { validatePayload } from './lib/validate.mjs';
+
+// The publishing schedule, stated once and published in the payload, so the
+// page can work out whether an edition is late without hardcoding the cron a
+// second time. It still has to agree with .github/workflows/update-and-deploy.yml
+// — there is a comment there pointing back here.
+const SCHEDULE = {
+  slotsUtc: ['06:00', '18:30'],
+  weekdaysOnly: true,
+  // GitHub delays scheduled runs under load, routinely by several minutes and
+  // occasionally by more. The grace period is what stops the page crying wolf
+  // over a queue rather than a fault.
+  graceHours: 2,
+  note: 'Two runs each weekday, 06:00 and 18:30 UTC. GitHub may delay scheduled runs.',
+};
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const p = (...parts) => resolve(ROOT, ...parts);
@@ -107,7 +122,8 @@ async function main() {
 
   const payload = {
     generatedAt: new Date().toISOString(),
-    schema: 4,
+    schema: 5,
+    schedule: SCHEDULE,
     futures: { arabica },
     fx,
     weather,
@@ -117,6 +133,18 @@ async function main() {
     certifiedStocks,
     status,
   };
+
+  // The last gate. A source that failed is ordinary and already handled; this
+  // catches a source that answered with something impossible. Nothing is
+  // written on a violation, so the previous edition stays live — yesterday's
+  // figures, clearly dated, beat today's wrong ones.
+  const problems = validatePayload(payload);
+  if (problems.length) {
+    console.error(`\nRefusing to publish — ${problems.length} problem(s) with the data:`);
+    for (const problem of problems) console.error(`  ! ${problem}`);
+    console.error('\ndata/latest.json is unchanged. The site keeps serving the previous edition.');
+    process.exit(1);
+  }
 
   await mkdir(p('data'), { recursive: true });
   await writeFile(p('data/latest.json'), JSON.stringify(payload, null, 2) + '\n');

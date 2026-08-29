@@ -5,6 +5,16 @@ name: Update data and deploy
 #   18:30 UTC — after ICE US has closed, so the evening edition carries the
 #               day's settlement rather than a mid-session price.
 # Times are UTC and GitHub may delay scheduled runs under load.
+#
+# KEEP IN STEP WITH `SCHEDULE` in scripts/fetch-data.mjs. That constant is
+# published in the payload so the page can tell a quiet weekend from a broken
+# pipeline; if these two disagree, the page raises a false alarm or misses a
+# real one.
+#
+# GitHub disables scheduled workflows after 60 days of repository inactivity,
+# and pushes made by this job's own token do not reliably count as activity.
+# If the schedule stops, the page says so within a day — see the staleness
+# banner — and re-enabling it is a button on the Actions tab.
 on:
   schedule:
     - cron: '0 6 * * 1-5'
@@ -26,6 +36,9 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    # A hung fetch should fail, not sit there burning the account's minutes.
+    # The whole run takes well under a minute in practice.
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
 
@@ -34,7 +47,15 @@ jobs:
           node-version: '20'
 
       # No dependencies by design: the fetch script uses only Node built-ins,
-      # so there is nothing to install and nothing to audit.
+      # so there is nothing to install and nothing to audit. The test runner is
+      # built into Node too, so this needs no install step either.
+      - name: Test
+        run: node --test
+
+      # The pipeline validates what it fetched and exits non-zero rather than
+      # write a payload that fails its own checks. When that happens nothing is
+      # committed and the deploy below never runs, so the previous edition
+      # stays live — yesterday's figures, clearly dated, beat today's wrong ones.
       - name: Fetch market data
         run: node scripts/fetch-data.mjs
 
@@ -57,13 +78,25 @@ jobs:
 
       - uses: actions/configure-pages@v5
 
+      # Publish the site, not the repository. Uploading '.' put scripts/,
+      # CLAUDE.md and .github/ on the public web — harmless in a public repo,
+      # but there is no reason for the build tooling to be served as content.
+      - name: Assemble the site
+        run: |
+          mkdir -p _site
+          cp index.html .nojekyll _site/
+          cp -r assets data _site/
+          # data/manual holds hand-entry templates the page never fetches.
+          rm -rf _site/data/manual
+
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: '.'
+          path: _site
 
   deploy:
     needs: build
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

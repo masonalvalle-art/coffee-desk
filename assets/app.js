@@ -76,6 +76,88 @@
     return Math.round(hrs / 24) + ' d ago';
   }
 
+  /**
+   * Age in words, for the masthead. Longer-form than relTime, which has to fit
+   * beside a headline.
+   */
+  function ageWords(ms) {
+    var mins = Math.round(ms / 60000);
+    if (mins < 2) return 'just now';
+    if (mins < 60) return mins + ' minutes ago';
+    var hrs = Math.round(mins / 60);
+    if (hrs < 24) return hrs === 1 ? 'an hour ago' : hrs + ' hours ago';
+    var days = Math.round(hrs / 24);
+    return days === 1 ? 'yesterday' : days + ' days ago';
+  }
+
+  /**
+   * When the next scheduled run after `iso` was due, plus its grace period.
+   *
+   * The page publishes twice each weekday, so a plain "older than a day" test
+   * would cry wolf every weekend: Friday evening to Monday morning is a
+   * legitimate sixty-hour gap. Walking the actual schedule forward is the only
+   * way to tell a quiet Sunday from a broken pipeline.
+   *
+   * Returns null when the schedule is absent, in which case nothing is claimed.
+   */
+  function dueAfter(iso, schedule) {
+    if (!schedule || !schedule.slotsUtc || !schedule.slotsUtc.length) return null;
+    var from = Date.parse(iso);
+    if (!isFinite(from)) return null;
+    var t = new Date(from);
+
+    for (var d = 0; d < 8; d++) {
+      var day = new Date(Date.UTC(
+        t.getUTCFullYear(), t.getUTCMonth(), t.getUTCDate() + d));
+      var dow = day.getUTCDay();
+      if (schedule.weekdaysOnly && (dow === 0 || dow === 6)) continue;
+      for (var i = 0; i < schedule.slotsUtc.length; i++) {
+        var hm = String(schedule.slotsUtc[i]).split(':');
+        var slot = new Date(day.getTime());
+        slot.setUTCHours(Number(hm[0]) || 0, Number(hm[1]) || 0, 0, 0);
+        if (slot.getTime() > from) {
+          var grace = (schedule.graceHours || 0) * 3600000;
+          return slot.getTime() + grace;
+        }
+      }
+    }
+    return null;
+  }
+
+  /**
+   * Say so when the page is out of date.
+   *
+   * Every other part of this dashboard refuses to show a figure it cannot
+   * source. The counterpart is this: a sourced figure that has stopped being
+   * current must not read as though it still is. Without this the page renders
+   * a three-week-old price exactly like a live one.
+   *
+   * The comparison uses the reader's own clock, which can be wrong — there is
+   * no server here to ask. A badly-set clock produces a spurious warning, which
+   * is the failure worth having of the two.
+   */
+  function renderStaleness(data) {
+    var host = $('#staleness');
+    if (!host) return;
+    host.innerHTML = '';
+    host.hidden = true;
+
+    var generated = Date.parse(data.generatedAt);
+    if (!isFinite(generated)) return;
+
+    var due = dueAfter(data.generatedAt, data.schedule);
+    if (due == null || Date.now() <= due) return;
+
+    var age = ageWords(Date.now() - generated);
+    host.appendChild(el('div', { class: 'stale-inner' }, [
+      el('strong', { text: 'This page is not up to date.' }),
+      ' The scheduled update has not run since ' + fmtDateTime(data.generatedAt) +
+      ' — ' + age + '. Every figure below is from that edition. ' +
+      'Nothing here has been carried forward or refreshed since.'
+    ]));
+    host.hidden = false;
+  }
+
   /** Shorten a headline or summary, on a word boundary where possible. */
   function clip(s, n) {
     if (!s) return '';
@@ -1765,7 +1847,13 @@
     $('#edition-date').textContent = d.toLocaleDateString('en-GB', {
       weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'
     });
-    $('#generated-at').textContent = 'Updated ' + fmtDateTime(data.generatedAt);
+    // The absolute time is the record; the age is what a reader actually
+    // registers. An edition that has stopped being current should be obvious
+    // without doing arithmetic in your head.
+    var generated = Date.parse(data.generatedAt);
+    $('#generated-at').textContent = 'Updated ' + fmtDateTime(data.generatedAt) +
+      (isFinite(generated) ? ' · ' + ageWords(Date.now() - generated) : '');
+    renderStaleness(data);
     document.title = 'The Coffee Desk — ' + d.toLocaleDateString('en-GB', {
       day: 'numeric', month: 'short', year: 'numeric'
     });

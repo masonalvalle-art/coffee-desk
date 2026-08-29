@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="The Coffee Desk">
+  <title>The Coffee Desk</title>
+  <!-- Manila stock and the aubergine accent, the same two colours the page is
+       built from. Fixed rather than theme-aware: a favicon is composited by the
+       browser against its own tab chrome, not against the page. -->
+  <rect width="32" height="32" fill="#F0E8D5"/>
+  <!-- A coffee bean: an ellipse with the centre crease that makes it read as a
+       bean rather than a dot at 16px. -->
+  <g transform="rotate(-28 16 16)">
+    <ellipse cx="16" cy="16" rx="7.5" ry="10.5" fill="#5B2A4E"/>
+    <path d="M16 6.2c-3.4 3.2-3.4 6.6 0 9.8s3.4 6.6 0 9.8"
+          fill="none" stroke="#F0E8D5" stroke-width="1.9" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -967,6 +967,41 @@ td.muted, .muted { color: var(--muted); }
 
 
 /* ============================================================
+   Staleness
+
+   Shown only when the edition is older than the schedule allows.
+   It takes the accent rather than the alert red: red on this page
+   means price direction and weather risk, and an update that has
+   not run is neither. It still has to be impossible to miss, so
+   it is a filled band above the content rather than a note.
+   ============================================================ */
+
+#staleness {
+  background: var(--accent);
+  color: var(--accent-contrast);
+}
+#staleness[hidden] { display: none; }
+
+.stale-inner {
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding: .85rem var(--gutter);
+  font-family: var(--text);
+  font-size: .92rem;
+  line-height: 1.5;
+  text-wrap: pretty;
+}
+.stale-inner strong {
+  font-family: var(--mono);
+  font-size: .68rem;
+  font-weight: 600;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  margin-right: .5rem;
+}
+
+
+/* ============================================================
    Physical market
 
    Three ICO tables, each a chart with a picker over a table of

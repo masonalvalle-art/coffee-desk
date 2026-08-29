@@ -5,6 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>The Coffee Desk — Daily Market Brief</title>
 <meta name="description" content="A daily snapshot of coffee futures, currencies, origin weather and news for coffee buyers. Every figure is sourced and timestamped.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:title" content="The Coffee Desk">
+<meta property="og:description" content="A daily market brief for people who trade coffee. Every figure is fetched from a named source and stamped with the time it was retrieved.">
+<meta name="twitter:card" content="summary">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,600;1,6..72,300;1,6..72,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -30,6 +35,11 @@
     <a href="#sources">Sources &amp; method</a>
   </div>
 </header>
+
+<!-- Raised only when the edition is older than the publishing schedule allows.
+     Empty and hidden otherwise; the page never claims to be fresh, it only
+     says when it is not. -->
+<div id="staleness" hidden></div>
 
 <main id="main">
 

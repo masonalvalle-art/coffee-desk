@@ -5,3 +5,4 @@ proxy_tmp_*.bin
 node_modules/
 .DS_Store
 Thumbs.db
+_site/

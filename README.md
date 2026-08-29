@@ -211,6 +211,55 @@ There is no weekly chore any more.
 
 ---
 
+## When it stops updating, it says so
+
+The governing rule is about sourcing, but the thing it is really guarding
+against is a reader trusting a number they shouldn't — and a stale sourced
+figure does that just as well as an invented one. So the page will not let an
+old edition pass for a current one.
+
+The masthead carries the edition's age in plain words next to the timestamp
+("updated 2 hours ago"), and once an edition is older than the publishing
+schedule allows, a band appears across the top of the page saying the update
+has not run, when it last did, and how long ago that was. The figures stay
+visible underneath — a clearly-labelled old price still tells you something —
+but nobody can mistake them for live.
+
+It works off the actual schedule rather than a simple age limit, because the
+site publishes twice each weekday and Friday evening to Monday morning is a
+legitimate sixty-hour gap. A plain "older than a day" test would cry wolf every
+weekend, and a warning that is usually wrong is a warning nobody reads.
+
+One limitation worth stating: the comparison uses the reader's own clock. There
+is no server here to ask. A badly-set clock produces a spurious warning, which
+is the better of the two failures.
+
+---
+
+## Nothing is published unless it survives a check
+
+Fetching is only half of it. Before anything is written, the assembled payload
+is checked against the relationships that have to hold: that the session change
+really is the difference between the two prices beside it, that no value is
+NaN or Infinity, that the daily bars run forwards without repeating a session,
+that ICO's months are in order, and that the provenance fields are still there.
+
+If any of that fails, **the run writes nothing and exits.** No commit, no
+deploy, and the site carries on serving the previous edition — which the
+staleness banner will then flag if the problem persists. Yesterday's figures,
+clearly dated, beat today's wrong ones.
+
+A source simply failing is a different thing entirely, and already handled: it
+comes back empty, the section says so, and the run log at the foot of the page
+records it. This check is for a source that answers with something impossible,
+which is the case that would otherwise slip through silently.
+
+There is also a test suite — `node --test`, using the runner built into Node,
+so it adds nothing to install. It runs in CI before the fetch, so a broken
+parser fails the build instead of publishing bad data.
+
+---
+
 ## There is no written summary
 
 A short prose read of the day was built and then taken out again. It was
@@ -261,6 +310,23 @@ after ICE US has closed so the evening edition carries the day's settlement.
 Scheduled runs are UTC and GitHub may delay them under load; you can always
 trigger a run by hand from the Actions tab.
 
+The schedule is written down twice — the cron in the workflow, and `SCHEDULE`
+in `scripts/fetch-data.mjs`, which is published in the payload so the page can
+work out whether an edition is late. **Change one and you must change the
+other**, or the staleness banner raises a false alarm or misses a real one.
+
+### If it goes quiet
+
+GitHub disables scheduled workflows after 60 days of repository inactivity, and
+pushes made by the workflow's own token do not reliably count as activity. So a
+site that updates itself twice a day can still be switched off after two months
+of you not touching it.
+
+Nothing hides this. GitHub emails the repository owner when it disables a
+schedule, and the page itself says it is out of date within a day. To restart
+it: **Actions → Update data and deploy → Enable workflow**, then *Run workflow*
+to publish immediately. Any commit you push also resets the clock.
+
 ### Why the data is committed to the repo
 
 Each run commits `data/latest.json` back to the repository. That gives every
@@ -290,9 +356,11 @@ scripts/sources/weather.mjs    origin regions, condition classification, risk fl
 scripts/sources/news.mjs       origin wire, the assembled weekly recap, daily read
 scripts/sources/ico.mjs        ICO report discovery and table parsing
 scripts/lib/pdf.mjs            positioned-text PDF extractor, node:zlib only
+scripts/lib/validate.mjs       the publish gate: refuses to write a bad payload
 scripts/lib/indicators.mjs     RSI, MACD, ATR, pivots, Donchian
 scripts/lib/contracts.mjs      contract-month enumeration and roll detection
-.github/workflows/             the scheduled fetch and Pages deploy
+test/*.test.mjs                node --test; no dependencies, fixtures built in code
+.github/workflows/             test, fetch, validate, commit, deploy
 ```
 
 The fetch pipeline uses **only Node built-ins**. There are no dependencies,

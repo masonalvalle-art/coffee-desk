@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2026-08-29T10:00:17.433Z",
-  "schema": 4,
+  "generatedAt": "2026-08-29T10:32:33.847Z",
+  "schema": 5,
+  "schedule": {
+    "slotsUtc": [
+      "06:00",
+      "18:30"
+    ],
+    "weekdaysOnly": true,
+    "graceHours": 2,
+    "note": "Two runs each weekday, 06:00 and 18:30 UTC. GitHub may delay scheduled runs."
+  },
   "futures": {
     "arabica": {
       "market": "Arabica",
@@ -3243,7 +3252,7 @@
     ]
   },
   "weather": {
-    "fetchedAt": "2026-08-29T10:00:16.944Z",
+    "fetchedAt": "2026-08-29T10:32:32.560Z",
     "thresholds": {
       "frostC": 4,
       "heavyRainMm": 50,
@@ -3559,7 +3568,7 @@
   },
   "news": {
     "originWire": {
-      "fetchedAt": "2026-08-29T10:00:16.767Z",
+      "fetchedAt": "2026-08-29T10:32:33.811Z",
       "lookbackHours": 504,
       "headlines": [
         {
@@ -3571,12 +3580,12 @@
           "published": "Fri, 28 Aug 2026 15:13:43 GMT"
         },
         {
-          "title": "10-km traffic jam paralyzes Ho Chi Minh City eastern gateway as National Day holiday kicks off",
-          "summary": "Traffic was gridlocked on Ring Road 2, An Phu Interchange and access roads to the Ho Chi Minh City–Long Thanh–Dau Giay Expressway, with vehicles crawling along several sections on Saturday.",
-          "url": "https://e.vnexpress.net/photo/traffic/10-km-traffic-jam-paralyzes-ho-chi-minh-city-eastern-gateway-as-national-day-holiday-kicks-off-5114944.html",
+          "title": "Gold prices dip to lowest in a week",
+          "summary": "Vietnam gold prices plunged Saturday morning to the lowest since July 22, following a 3% tumble of the precious metal on global markets.",
+          "url": "https://e.vnexpress.net/news/business/markets/gold-prices-dip-to-lowest-in-a-week-5114867.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Sat, 29 Aug 2026 13:40:43 +0700"
+          "published": "Sat, 29 Aug 2026 17:10:42 +0700"
         },
         {
           "title": "4 richest Indonesians add $6B to wealth in a month",
@@ -3587,12 +3596,12 @@
           "published": "Fri, 28 Aug 2026 11:20:59 +0700"
         },
         {
-          "title": "A pioneering voyage up Colombia’s greatest river",
-          "summary": "For decades, the Magdalena was off-limits to all but the most intrepid travellers. Now a trailblazing cruise company is opening up its wetlands, historic towns and isolated communities once more",
-          "url": "https://www.ft.com/content/f37e5176-56f1-48dc-bb52-58c5d85840df",
-          "publisher": "Financial Times",
+          "title": "They laid down arms. Now ex-guerrillas in Colombia fear fate under new hardline president",
+          "summary": "‘Total peace’ plan of previous government led only 99 of Colombia’s 30,000 armed combatants to disarm, but new president Abelardo De la Espriella opposes peace agreements In mid-June, 99 guerrilla fighters were flown by helicopter to a small settlement in a…",
+          "url": "https://www.theguardian.com/world/2026/aug/29/former-guerrillas-colombia-fate-new-president",
+          "publisher": "The Guardian",
           "region": "Colombia",
-          "published": "Sat, 29 Aug 2026 04:00:13 GMT"
+          "published": "Sat, 29 Aug 2026 10:00:24 GMT"
         },
         {
           "title": "What’s in the US-Venezuela ‘biggest oil deal in world history?’",
@@ -3619,12 +3628,12 @@
           "published": "Fri, 21 Aug 2026 12:00:35 GMT"
         },
         {
-          "title": "American tourist saved from possible stroke at Vietnam border gate",
-          "summary": "The Lao Bao International Border Gate Guard Station in the central province of Quang Tri on Aug. 28 reported that its officers had promptly assisted and provided emergency care to a U.S. tourist who suffered a possible mild stroke while conducting entry…",
-          "url": "https://e.vnexpress.net/news/news/american-tourist-saved-from-possible-stroke-at-vietnam-border-gate-5114859.html",
+          "title": "Dollar strengthens against dong on black market",
+          "summary": "The U.S. dollar went up against the Vietnamese dong on the black market Saturday morning.",
+          "url": "https://e.vnexpress.net/news/business/markets/dollar-strengthens-against-dong-on-black-market-5114879.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Sat, 29 Aug 2026 10:48:14 +0700"
+          "published": "Sat, 29 Aug 2026 17:10:24 +0700"
         },
         {
           "title": "Singapore-born billionaire Low Tuck Kwong reportedly negotiating sale of majority stake in flagship coal mining firm",
@@ -3635,12 +3644,12 @@
           "published": "Thu, 27 Aug 2026 11:55:11 +0700"
         },
         {
-          "title": "Colombia's new president approves extradition of rebel leaders to US",
-          "summary": "It is a step towards ending a plan to stop violence by bringing rebel and criminal groups to the negotiating table.",
-          "url": "https://www.bbc.co.uk/news/articles/cvgy45zv8e2o?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
+          "title": "A pioneering voyage up Colombia’s greatest river",
+          "summary": "For decades, the Magdalena was off-limits to all but the most intrepid travellers. Now a trailblazing cruise company is opening up its wetlands, historic towns and isolated communities once more",
+          "url": "https://www.ft.com/content/f37e5176-56f1-48dc-bb52-58c5d85840df",
+          "publisher": "Financial Times",
           "region": "Colombia",
-          "published": "Thu, 27 Aug 2026 20:10:30 GMT"
+          "published": "Sat, 29 Aug 2026 04:00:13 GMT"
         },
         {
           "title": "Ecuador sentences ex-president Moreno to five years in jail in bribery case",
@@ -3667,22 +3676,22 @@
           "published": "Thu, 20 Aug 2026 15:25:54 GMT"
         },
         {
-          "title": "Kite flyer faces up to 10 years after disrupting 16 flights at Vietnam's busiest airport",
-          "summary": "Police in Ho Chi Minh City have detained a 42-year-old man whose three kites drifted into the landing approach at Tan Son Nhat International Airport, halting arrivals for 35 minutes and disrupting 16 flights.",
-          "url": "https://e.vnexpress.net/news/news/traffic/kite-flyer-faces-up-to-10-years-after-disrupting-16-flights-at-vietnam-s-busiest-airport-5114766.html",
+          "title": "Da Nang International Airport's $379M expansion project to break ground in August 2027",
+          "summary": "A project worth more than VND9.9 trillion (US$379 million) to expand Terminal 1 (T1) of the Da Nang International Airport is scheduled to start construction in August 2027.",
+          "url": "https://e.vnexpress.net/news/business/companies/da-nang-international-airport-s-379m-expansion-project-to-break-ground-in-august-2027-5114544.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Sat, 29 Aug 2026 08:57:09 +0700"
+          "published": "Sat, 29 Aug 2026 17:09:48 +0700"
         }
       ],
-      "totalTagged": 100,
+      "totalTagged": 104,
       "feedsQueried": 14,
       "errors": [],
       "note": "General headlines from the growing regions, taken from outlets of record and tagged to a region by the countries and cities they name."
     },
     "roundup": {
       "source": "assembled",
-      "fetchedAt": "2026-08-29T10:00:15.504Z",
+      "fetchedAt": "2026-08-29T10:32:33.007Z",
       "windowDays": 7,
       "publishers": [
         "Daily Coffee News",
@@ -3849,7 +3858,7 @@
       "note": "Assembled from the coffee trade press over the past seven days, ranked by relevance to the physical trade. Headlines and links are each publisher’s own."
     },
     "dailyRead": {
-      "fetchedAt": "2026-08-29T10:00:15.250Z",
+      "fetchedAt": "2026-08-29T10:32:33.007Z",
       "article": {
         "title": "Hawaii Coffee Farms Face Long Recovery After Hurricane Lala",
         "summary": "Coffee farms across southern Hawaii Island are assessing crop, tree and infrastructure losses following Hurricane Lala, which brought damaging winds and extreme rainfall to some of the state’s key coffee-growing...",
@@ -4175,39 +4184,39 @@
   },
   "status": [
     {
-      "source": "daily-read",
+      "source": "weather",
       "ok": true,
-      "ms": 164
-    },
-    {
-      "source": "weekly-recap",
-      "ok": true,
-      "ms": 422
+      "ms": 304
     },
     {
       "source": "arabica-futures",
       "ok": true,
-      "ms": 615
+      "ms": 628
     },
     {
-      "source": "origin-wire",
+      "source": "weekly-recap",
       "ok": true,
-      "ms": 1687
+      "ms": 746
     },
     {
-      "source": "weather",
+      "source": "daily-read",
       "ok": true,
-      "ms": 1865
+      "ms": 745
     },
     {
       "source": "ico-report",
       "ok": true,
-      "ms": 2158
+      "ms": 873
+    },
+    {
+      "source": "origin-wire",
+      "ok": true,
+      "ms": 1555
     },
     {
       "source": "fx",
       "ok": true,
-      "ms": 2346
+      "ms": 1589
     }
   ]
 }

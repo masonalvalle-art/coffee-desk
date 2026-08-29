@@ -15,7 +15,14 @@ This is not decoration. It has shaped real decisions — Robusta was removed rat
 shipped with a half-built price history, and differentials show an empty state rather than
 a plausible number. If you find yourself about to fill a gap, don't: show the gap.
 
-Two corollaries worth knowing:
+Three corollaries worth knowing:
+
+- **A figure that has stopped being current must not read as though it still is.** The rule
+  is about sourcing, but the failure it is really guarding against is a reader trusting a
+  number they shouldn't. A stale sourced figure does that just as effectively as an invented
+  one. The masthead carries the edition's age in words, and `renderStaleness` raises a band
+  across the page once the edition is older than the schedule allows. Do not remove it to
+  tidy the layout.
 
 - **Same-source pairing.** A displayed change must be derived from the same series as the
   price beside it. Mixing feeds once produced a change with the wrong sign.
@@ -26,9 +33,24 @@ Two corollaries worth knowing:
 ## Running it
 
 ```bash
+node --test                      # the whole suite; no dependencies, built into Node
 node scripts/fetch-data.mjs      # the real pipeline; writes data/latest.json
 perl scripts/serve.pl 8787       # local origin, so the page's JS actually runs
 ```
+
+**The pipeline can refuse to publish.** `scripts/lib/validate.mjs` runs over the assembled
+payload before anything is written, and on a violation the run exits non-zero having written
+nothing — the previous edition stays live. A source *failing* is ordinary and handled
+upstream; this is for a source answering with something impossible, which does not announce
+itself the way an HTTP error does. It checks the same-source pairing rule, bar ordering,
+non-finite numbers anywhere in the payload, ICO month ordering, and that weather provenance
+has not been tidied away.
+
+One thing it deliberately does **not** check: whether a bar's close sits inside its own
+high/low. It doesn't, on about 1.6% of real bars, and that is correct — Yahoo's close for a
+futures contract is the exchange settlement, struck from a closing period rather than the
+last print, so it can fall outside the day's traded range. That check was written, failed on
+its first run against live data, and was removed. Don't add it back.
 
 `scripts/serve.pl` is a **local development harness, never deployed** — GitHub Pages serves
 the static files directly. It binds to 127.0.0.1 and adds two routes beyond static files:
@@ -54,12 +76,20 @@ data/manual/*.json             optional hand-entered overrides; normally empty
 scripts/fetch-data.mjs         orchestrator: fetches everything, writes latest.json
 scripts/sources/*.mjs          one module per source (futures, fx, weather, news, ico)
 scripts/lib/pdf.mjs            positioned-text PDF extractor, node:zlib only
+scripts/lib/validate.mjs       the publish gate: refuses to write a bad payload
 scripts/lib/indicators.mjs     RSI, MACD, ATR, pivots, Donchian
 scripts/lib/contracts.mjs      contract-month enumeration and roll detection
 scripts/serve.pl               local harness (above)
 scripts/build-preview.pl       bundles everything into a single preview.html
-.github/workflows/             scheduled fetch and Pages deploy
+test/*.test.mjs                node --test; fixtures are built, not checked in
+.github/workflows/             test, fetch, validate, commit, deploy
 ```
+
+The schedule lives in **two** places that must agree: the cron in
+`.github/workflows/update-and-deploy.yml`, and `SCHEDULE` in `scripts/fetch-data.mjs`, which
+is published in the payload so the page can tell a quiet weekend from a broken pipeline.
+Change one and you must change the other, or the page raises a false alarm or misses a real
+one.
 
 The pipeline uses **only Node built-ins**. No dependencies, no `npm install` in the
 workflow, nothing to audit. Keep it that way if you can.

@@ -949,6 +949,108 @@ td.muted, .muted { color: var(--muted); }
 
 
 /* ============================================================
+   The brief
+
+   A lede: the one piece of running prose on the page, so it gets
+   the measure and the leading of a standfirst rather than the
+   density of a table.
+   ============================================================ */
+
+.brief-body {
+  font-size: 1.12rem;
+  line-height: 1.62;
+  color: var(--ink-soft);
+  max-width: 62ch;
+  margin: 0 0 .7rem;
+  text-wrap: pretty;
+}
+.brief-body::first-letter {
+  /* Not a drop cap — just enough weight to mark where the reading starts. */
+  font-weight: 600;
+  color: var(--accent);
+}
+
+
+/* ============================================================
+   Physical market
+
+   Three ICO tables, each a chart with a picker over a table of
+   every series' latest figure. The panels stack because a chart
+   in a half-width column is not worth reading.
+   ============================================================ */
+
+.phys-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+/* Flex and grid items default to min-width:auto, so a wide table refuses to
+   shrink and pushes the whole page sideways. */
+.phys-stack > *, .phys-stack .panel { min-width: 0; }
+
+.series-select {
+  font-family: var(--mono);
+  font-size: .58rem;
+  font-weight: 500;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--ink);
+  background: transparent;
+  border: 1px solid var(--rule);
+  border-radius: 0;                /* fields are unrounded throughout */
+  padding: .22rem 1.4rem .22rem .5rem;
+  line-height: 1;
+  cursor: pointer;
+  max-width: 100%;
+  /* The native arrow is drawn in the OS accent on some platforms, which would
+     put an uncontrolled colour on a page whose palette is the whole point. */
+  appearance: none;
+  background-image:
+    linear-gradient(45deg, transparent 50%, currentColor 50%),
+    linear-gradient(135deg, currentColor 50%, transparent 50%);
+  background-position: right .62rem center, right .42rem center;
+  background-size: 4px 4px, 4px 4px;
+  background-repeat: no-repeat;
+}
+.series-select:hover { border-color: var(--ink); }
+.series-select option { font-family: var(--text); text-transform: none; letter-spacing: 0; }
+
+/* The chart title row holds the picker, which is taller than the label
+   beside it; without this the two sit on different baselines. */
+.chart-title { align-items: center; }
+
+
+/* ============================================================
+   Recap — several publishers now, so each headline is credited
+   ============================================================ */
+
+/* The credit line used to be one link and one badge. It is now a row of
+   publisher badges built without whitespace between them, and a badge is
+   `white-space: nowrap`, so inline layout offers no break opportunity and the
+   row runs off the page. Flex supplies both the wrapping and the spacing. */
+.roundup-source {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .35rem;
+}
+.roundup-source .badge { margin-left: 0; }
+
+/* A missing month is worth noticing, so it gets the accent rather than the
+   muted grey the rest of the legend uses. Not red: red means price. */
+.legend-gap { color: var(--accent); }
+
+.recap-pub {
+  display: block;
+  font-family: var(--mono);
+  font-size: .54rem;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-top: .12rem;
+}
+
+
+/* ============================================================
    Responsive — last in the file on purpose.
 
    Media queries add no specificity, so a component rule declared
@@ -971,4 +1073,10 @@ td.muted, .muted { color: var(--muted); }
   .slide-title { font-size: 1.1rem; }
   .chart-readout { font-size: .62rem; gap: .25rem .6rem; }
   .legend-range { margin-left: 0; width: 100%; }
+  .brief-body { font-size: 1.02rem; }
+  .phys-stack { gap: 1.4rem; }
+  /* The series name can be long ("Colombian Milds − Brazilian Naturals"), so
+     the picker wraps under its label rather than squeezing it. */
+  .chart-title { flex-wrap: wrap; gap: .5rem; }
+  .series-select { font-size: .56rem; }
 }

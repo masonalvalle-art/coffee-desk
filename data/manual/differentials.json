@@ -3,6 +3,6 @@
   "sourceDocument": null,
   "sourceType": null,
   "enteredBy": null,
-  "note": "PRIVATE DATA WARNING: this repository is public. Broker differentials and trader circulars are proprietary — committing them here makes them world-readable and permanent in git history. Keep this file to figures you are content to publish, or move the site to a private repo on a paid plan first. Physical differentials have no free machine-readable feed; this file is populated by hand, or by the planned ICO / trade-report PDF upload.",
+  "note": "OPTIONAL OVERRIDE — normally empty. The ICO Coffee Market Report is now fetched and parsed every run, and supplies group indicator prices, the differentials between those groups, and certified stocks. This file exists only for figures held in a document the pipeline cannot reach. PRIVATE DATA WARNING: this repository is public. Broker differentials and trader circulars are proprietary, and committing them here makes them world-readable and permanent in git history. Keep this file to figures you are content to publish, or move the site to a private repo on a paid plan first.",
   "entries": []
 }

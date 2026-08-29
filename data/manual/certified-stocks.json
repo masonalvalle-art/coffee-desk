@@ -2,6 +2,6 @@
   "updatedAt": null,
   "sourceDocument": null,
   "sourceType": null,
-  "note": "PRIVATE DATA WARNING: this repository is public — do not commit figures you are not content to publish, and never paste broker or trader material here. ICE publishes certified stocks daily but only behind bot protection; every free API found was a paid reseller. Populated by hand or by PDF upload.",
+  "note": "OPTIONAL OVERRIDE — normally empty. Certified stocks now come from the ICO Coffee Market Report, which publishes a monthly figure for the New York and London markets. ICE's own daily report remains behind bot protection, and every free API found for it was a paid reseller. PRIVATE DATA WARNING: this repository is public — do not commit figures you are not content to publish, and never paste broker or trader material here.",
   "series": []
 }

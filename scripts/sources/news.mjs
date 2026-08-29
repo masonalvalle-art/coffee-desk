@@ -4,8 +4,8 @@
 //                      top-tier general press. Not coffee-specific: what a
 //                      buyer wants here is whether the country is on fire,
 //                      striking, flooding or changing government.
-//   2. Weekly recap  — the headlines out of Perfect Daily Grind's Friday
-//                      coffee news round-up.
+//   2. Weekly recap  — the week's coffee trade headlines, assembled here from
+//                      the trade press and ranked by relevance to a buyer.
 //   3. Today's read  — a single Daily Coffee News article.
 //
 // Aggregator feeds (Google News and similar) are deliberately not used: their
@@ -154,101 +154,143 @@ export async function fetchOriginWire({ limit = 14, lookbackHours = 504 } = {}) 
 }
 
 /* ------------------------------------------------------------------ *
- * 2. Perfect Daily Grind weekly recap
+ * 2. The week in coffee
  * ------------------------------------------------------------------ */
 
-const PDG_ARCHIVE = 'https://perfectdailygrind.com/category/weekly-round-up/';
+// This used to read Perfect Daily Grind's Friday round-up, which meant a
+// person updating a JSON file by hand every week: PDG's WAF blocks automated
+// clients on TLS fingerprint, so it answers a browser and refuses everything
+// a CI runner can offer. See CLAUDE.md for what was tested.
+//
+// The recap is now assembled here from the coffee trade press that does
+// publish a usable feed. Each publisher's own feed, no aggregators — the same
+// rule the origin wire follows, and for the same licensing reason.
+export const WEEKLY_FEEDS = [
+  { name: 'Daily Coffee News',              url: 'https://dailycoffeenews.com/feed/' },
+  { name: 'Fresh Cup',                      url: 'https://freshcup.com/feed/' },
+  { name: 'Specialty Coffee Association',   url: 'https://sca.coffee/sca-news?format=rss' },
+  { name: 'World Coffee Portal',            url: 'https://worldcoffeeportal.com/rss' },
+  { name: 'Sprudge',                        url: 'https://sprudge.com/feed' },
+];
 
-/**
- * PDG publishes a Friday round-up whose body is a list of dated one-line
- * headlines, each linking to the original source.
- *
- * Their WAF rejects non-browser clients outright (a 403 on every path,
- * including the RSS feed and the sitemap, regardless of headers), so this may
- * well fail from a CI runner. It is attempted anyway — the block is on client
- * fingerprint rather than address, so a different HTTP stack may get through —
- * and when it fails the caller falls back to data/manual/pdg-roundup.json.
- */
-export async function fetchRoundup() {
-  const archive = await getText(PDG_ARCHIVE, {
-    timeout: 25000,
-    retries: 1,
-    headers: {
-      'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-      'Accept-Language': 'en-GB,en;q=0.9',
-      'Sec-Fetch-Dest': 'document',
-      'Sec-Fetch-Mode': 'navigate',
-      'Sec-Fetch-Site': 'none',
-      'Upgrade-Insecure-Requests': '1',
-    },
-  });
+// The sections the page groups under. "Top stories" is the highest-scoring
+// handful; the rest split on whether the story is about the physical trade or
+// the counter, which is the distinction a buyer actually cares about.
+const RECAP_TOP = 'Top stories of the week';
+const RECAP_TRADE = 'Trade & production';
+const RECAP_OTHER = 'Roasting & retail';
 
-  // Newest recap link on the archive page.
-  const links = [...archive.matchAll(/href="(https:\/\/perfectdailygrind\.com\/\d{4}\/\d{2}\/coffee-news-recap-[^"]+)"/g)]
-    .map(m => m[1]);
-  if (!links.length) throw new Error('no recap link found on the PDG archive page');
+const DAY_NAMES = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+const MONTH_NAMES = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
+                     'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 
-  const articleUrl = links[0];
-  const html = await getText(articleUrl, { timeout: 25000, retries: 1 });
-  const items = parseRoundup(html);
-  if (!items.length) throw new Error('recap fetched but no headlines parsed');
-
-  const titleMatch = html.match(/<title>(.*?)<\/title>/is);
-  return {
-    source: 'fetched',
-    articleUrl,
-    title: titleMatch ? decodeEntities(titleMatch[1]).replace(/\s*-\s*Perfect Daily Grind\s*$/i, '').trim() : null,
-    fetchedAt: new Date().toISOString(),
-    items,
-  };
+/** "Fri, 28 Aug" — the form the recap has always shown. */
+function shortDate(ts) {
+  const d = new Date(ts);
+  return `${DAY_NAMES[d.getUTCDay()]}, ${d.getUTCDate()} ${MONTH_NAMES[d.getUTCMonth()]}`;
 }
 
 /**
- * Pull the dated headline lines out of a recap article.
- * Each is a <strong> reading "Mon, 24 Aug – Headline", usually wrapped in or
- * beside the link to the original story. Exported so the same parser can be
- * used on a manually captured copy.
+ * Assemble the week's coffee headlines from the trade press.
+ *
+ * Seven days, deduplicated across publishers, ranked with the same trade
+ * relevance scoring that picks Today's Read — a buyer's week is defined by
+ * harvests, shipments and prices, not by café openings.
+ *
+ * A failing feed is recorded and skipped, not fatal: four publishers still
+ * make a recap. Only a total wipeout throws.
  */
-export function parseRoundup(html) {
+export async function buildWeeklyRecap({
+  lookbackHours = 168, limit = 20, topStories = 6, otherLimit = 5,
+} = {}) {
+  const results = await mapLimit(WEEKLY_FEEDS, 3, async (feed) => {
+    const xml = await getText(feed.url, { timeout: 20000, retries: 1 });
+    return parseFeed(xml).map(item => ({ ...item, feed }));
+  });
+
+  const errors = [];
   const items = [];
+  results.forEach((r, i) => {
+    if (!r || r.__error) {
+      errors.push({ feed: WEEKLY_FEEDS[i].name, error: r?.__error ?? 'unknown' });
+      return;
+    }
+    items.push(...r);
+  });
+
+  if (!items.length) throw new Error('no weekly feed returned any items');
+
+  const cutoff = Date.now() - lookbackHours * 3600 * 1000;
   const seen = new Set();
+  const scored = [];
 
-  // Work through the article in blocks so a preceding <h3> gives the section.
-  let section = null;
-  const tokens = html.split(/(<h3[\s>][\s\S]*?<\/h3>)/i);
-  for (const token of tokens) {
-    const h3 = token.match(/<h3[^>]*>([\s\S]*?)<\/h3>/i);
-    if (h3) {
-      section = clean(h3[1]);
-      continue;
-    }
+  for (const it of items) {
+    const ts = it.published ? Date.parse(it.published) : NaN;
+    // An item with no date cannot be placed inside the week, and a recap that
+    // silently carries undated stories is how a month-old headline ends up
+    // presented as this week's news.
+    if (!Number.isFinite(ts) || ts < cutoff) continue;
 
-    // Scope each headline to its own list item or paragraph. A character
-    // window around the <strong> is not good enough: it reaches into the
-    // neighbouring entry and picks up the previous story's link.
-    const blocks = token.match(/<li[\s>][\s\S]*?<\/li>|<p[\s>][\s\S]*?<\/p>/gi) ?? [];
-    for (const block of blocks) {
-      const s = block.match(/<strong[^>]*>([\s\S]*?)<\/strong>/i);
-      if (!s) continue;
-      const text = clean(s[1]);
-      const m = text.match(/^([A-Z][a-z]{2},\s*\d{1,2}\s+[A-Z][a-z]{2})\s*[–—-]\s*(.+)$/);
-      if (!m) continue;
-      const headline = m[2].trim();
-      if (seen.has(headline)) continue;
-      seen.add(headline);
+    const key = normalise(it.title);
+    if (seen.has(key)) continue;
+    seen.add(key);
 
-      const hrefs = [...block.matchAll(/href="(https?:\/\/[^"]+)"/g)]
-        .map(x => x[1])
-        .filter(h => !/perfectdailygrind\.com/.test(h));
-      items.push({
-        section: section || null,
-        date: m[1],
-        headline,
-        url: hrefs.length ? hrefs[0] : null,
-      });
-    }
+    const hay = `${it.title} ${it.summary}`;
+    let score = 0;
+    for (const [re, w] of TRADE_SIGNAL) if (re.test(hay)) score += w;
+    for (const [re, w] of TRADE_NOISE) if (re.test(hay)) score += w;
+
+    scored.push({
+      headline: it.title,
+      summary: it.summary || null,
+      url: it.link,
+      publisher: it.feed.name,
+      published: it.published,
+      date: shortDate(ts),
+      ts,
+      score,
+    });
   }
-  return items;
+
+  if (!scored.length) throw new Error('no trade headlines inside the weekly window');
+
+  // Rank on relevance, break ties on recency, then keep the digest short.
+  scored.sort((a, b) => b.score - a.score || b.ts - a.ts);
+
+  // The trade press publishes a great deal about café openings and cup design,
+  // which scores at or below zero here. Some of it is worth a glance, so the
+  // section stays — but it is capped, or a recap for a trading desk fills up
+  // with counter news while the harvest stories scroll off the bottom.
+  const kept = [];
+  let others = 0;
+  for (const item of scored) {
+    if (kept.length >= limit) break;
+    const section = kept.length < topStories ? RECAP_TOP
+                  : item.score > 0 ? RECAP_TRADE
+                  : RECAP_OTHER;
+    if (section === RECAP_OTHER && ++others > otherLimit) continue;
+    item.section = section;
+    kept.push(item);
+  }
+
+  // Within a section, read newest first — the ranking chose what appears, the
+  // date decides the order it is read in.
+  kept.sort((a, b) => b.ts - a.ts);
+
+  const publishers = [...new Set(kept.map(i => i.publisher))].sort();
+
+  return {
+    source: 'assembled',
+    fetchedAt: new Date().toISOString(),
+    windowDays: Math.round(lookbackHours / 24),
+    publishers,
+    // The score ranks the list but is not published: it is an editorial
+    // device, not a figure anyone should read off the page.
+    items: kept.map(({ score, ts, ...rest }) => rest),
+    errors,
+    note: 'Assembled from the coffee trade press over the past seven days, ranked by ' +
+          'relevance to the physical trade. Headlines and links are each publisher’s own.',
+  };
 }
 
 /* ------------------------------------------------------------------ *

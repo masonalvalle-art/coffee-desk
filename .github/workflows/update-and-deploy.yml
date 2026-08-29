@@ -42,7 +42,10 @@ jobs:
         run: |
           git config user.name "coffee-desk-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/latest.json
+          # ico-history.json accumulates a month at a time and every run starts
+          # from a fresh checkout, so it has to be committed or the record
+          # resets to whatever the newest report happens to restate.
+          git add data/latest.json data/ico-history.json
           if git diff --staged --quiet; then
             echo "No data changes to commit."
           else

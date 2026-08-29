@@ -866,18 +866,264 @@
     host.appendChild(cite(['ECB ' + (fx.asOf || '—'), 'BCB PTAX']));
   }
 
+  /* ---------- physical market ---------- */
+
+  /** Calendar months from one "YYYY-MM" to another, inclusive of both. */
+  function monthSpan(from, to) {
+    var a = from.split('-'), b = to.split('-');
+    return (b[0] - a[0]) * 12 + (b[1] - a[1]) + 1;
+  }
+
+  // Which series each of the two ICO charts is showing. Remembered per chart,
+  // guarded the way the timeframe is: storage throws outright in a private
+  // window, and a chart that cannot remember a preference is no reason for the
+  // section not to render.
+  function readChoice(key, series, fallback) {
+    try {
+      var v = window.localStorage.getItem(key);
+      for (var i = 0; i < series.length; i++) if (series[i].key === v) return v;
+    } catch (e) { /* fall through */ }
+    return fallback;
+  }
+  function writeChoice(key, v) {
+    try { window.localStorage.setItem(key, v); } catch (e) { /* not essential */ }
+  }
+
+  /**
+   * One ICO table as a chart with a series picker and a table of every series'
+   * latest figure.
+   *
+   * `points` are month records: { month, label, values: { <seriesKey>: n } }.
+   * A month with no value for the chosen series is a genuine gap — certified
+   * stocks lose the months whose heading ICO renders in an unmappable font —
+   * and is passed through as null rather than bridged.
+   */
+  function icoPanel(opts) {
+    var series = (opts.block && opts.block.series) || [];
+    var points = (opts.block && opts.block.points) || [];
+
+    var panel = el('div', { class: 'panel' }, [
+      el('h3', { text: opts.title }),
+      el('p', { class: 'panel-sub', text: opts.subtitle })
+    ]);
+
+    if (!series.length || points.length < 2) {
+      panel.appendChild(notice('Not yet on record', [opts.empty]));
+      return panel;
+    }
+
+    var active = readChoice(opts.storageKey, series, series[0].key);
+    var body = el('div', { class: 'chart-card' });
+
+    function draw() {
+      body.innerHTML = '';
+      var current = series.filter(function (s) { return s.key === active; })[0] || series[0];
+
+      var picker = el('select', {
+        class: 'series-select',
+        'aria-label': opts.pickerLabel
+      }, series.map(function (s) {
+        var o = el('option', { value: s.key, text: s.label });
+        if (s.key === active) o.selected = true;
+        return o;
+      }));
+      picker.addEventListener('change', function () {
+        active = picker.value;
+        writeChoice(opts.storageKey, active);
+        draw();
+      });
+
+      body.appendChild(el('div', { class: 'chart-title' }, [
+        el('span', { text: opts.unit }),
+        picker
+      ]));
+
+      var readout = el('div', { class: 'chart-readout' });
+      function setReadout(point) {
+        readout.innerHTML = '';
+        var p = point || points[points.length - 1];
+        var v = p && p.values ? p.values[current.key] : null;
+        readout.appendChild(el('span', { class: 'ro-tag', text: point ? p.label : 'Latest' }));
+        readout.appendChild(el('span', { class: 'ro-pair' }, [
+          el('span', { class: 'ro-k', text: current.label }),
+          el('span', { class: 'ro-v', text: v == null ? 'no figure' : num(v, opts.dp) })
+        ]));
+      }
+      body.appendChild(readout);
+
+      // lineChart plots by index and reads `close` and `date`, so the monthly
+      // records are mapped onto that shape. Months are evenly spaced, which is
+      // exactly what an index axis assumes.
+      var bars = points.map(function (p) {
+        var v = p.values ? p.values[current.key] : null;
+        return { date: p.month + '-01', close: v == null ? null : v, label: p.label };
+      }).filter(function (b) { return b.close != null; });
+
+      if (bars.length < 2) {
+        body.appendChild(notice('Not enough history', [
+          'Fewer than two months of ' + current.label + ' are on record, so there is nothing to plot.'
+        ]));
+      } else {
+        body.appendChild(lineChart({
+          bars: bars,
+          dp: opts.dp,
+          ariaLabel: current.label + ', ' + bars.length + ' months',
+          onHover: function (bar) {
+            setReadout(bar ? { label: bar.label, values: pointValues(points, bar.date) } : null);
+          }
+        }));
+        // A month with no figure is dropped from the line, which means the
+        // line joins the months either side of it and the gap becomes
+        // invisible. Say how many are missing, beside the chart that hides
+        // them — the alternative is a reader counting a straight segment as
+        // two months of stability.
+        var missing = monthSpan(points[0].month, points[points.length - 1].month) - bars.length;
+        var legend = [el('span', {}, [el('span', { class: 'swatch' }), current.label])];
+        if (missing > 0) {
+          legend.push(el('span', { class: 'legend-gap',
+            text: missing + (missing === 1 ? ' month not readable' : ' months not readable') }));
+        }
+        legend.push(el('span', { class: 'legend-range', text:
+          bars.length + ' months · ' + points[0].label + ' – ' + points[points.length - 1].label }));
+        body.appendChild(el('div', { class: 'chart-legend' }, legend));
+      }
+
+      setReadout(null);
+    }
+
+    function pointValues(all, date) {
+      var month = (date || '').slice(0, 7);
+      for (var i = 0; i < all.length; i++) if (all[i].month === month) return all[i].values;
+      return null;
+    }
+
+    draw();
+    panel.appendChild(body);
+
+    // Every series' latest figure, so the chart's one line is not the only
+    // thing on offer. The month-on-month change is derived from the two months
+    // beside it, never from a different series.
+    var latest = points[points.length - 1];
+    var prior = points[points.length - 2];
+    panel.appendChild(el('div', { class: 'table-scroll' }, [
+      el('table', { class: 'sheet' }, [
+        el('thead', {}, [el('tr', {}, [
+          el('th', { text: opts.rowHead }),
+          el('th', { class: 'num', text: latest.label }),
+          el('th', { class: 'num', text: 'On the month' })
+        ])]),
+        el('tbody', {}, series.map(function (s) {
+          var now = latest.values ? latest.values[s.key] : null;
+          var was = prior.values ? prior.values[s.key] : null;
+          var change = (now == null || was == null) ? null : now - was;
+          return el('tr', {}, [
+            el('td', { class: 'name', text: s.label }),
+            el('td', { class: 'num', text: now == null ? '—' : num(now, opts.dp) }),
+            el('td', {
+              class: 'num' + (opts.colourChange && change != null ? ' ' + dirClass(change) : ''),
+              text: change == null ? '—' : signed(change, opts.dp)
+            })
+          ]);
+        }))
+      ])
+    ]));
+
+    panel.appendChild(opts.cite());
+    return panel;
+  }
+
   function renderPhysical(data) {
     var host = $('#physical');
     host.innerHTML = '';
 
-    // Differentials
-    var diff = data.differentials;
-    var dPanel = el('div', { class: 'panel' }, [
-      el('h3', { text: 'Differentials' }),
-      el('p', { class: 'panel-sub', text: 'Physical premiums and discounts against the board' })
+    var ico = data.ico;
+    if (!ico) {
+      host.appendChild(notice('No verified source', [
+        'The ICO Coffee Market Report could not be read on this run and nothing is on record ' +
+        'from an earlier one, so no physical-market figure is shown.',
+        'Nothing is estimated in its place.'
+      ]));
+      return;
+    }
+
+    var reportCite = function (scope) {
+      return function () {
+        return cite([
+          el('a', {
+            href: ico.report.url, target: '_blank', rel: 'noopener noreferrer',
+            text: 'ICO Coffee Market Report, ' + ico.report.label
+          }),
+          scope
+        ]);
+      };
+    };
+
+    host.appendChild(icoPanel({
+      block: ico.indicators,
+      title: 'Origin group prices',
+      subtitle: 'ICO indicator prices by origin and quality group',
+      unit: ico.unit,
+      dp: 2,
+      colourChange: true,
+      rowHead: 'Group',
+      storageKey: 'coffeedesk.icoGroup',
+      pickerLabel: 'Origin group to chart',
+      empty: 'No ICO indicator prices are on record yet.',
+      cite: reportCite('monthly averages')
+    }));
+
+    host.appendChild(icoPanel({
+      block: ico.differentials,
+      title: 'Group differentials',
+      subtitle: 'The spread between one ICO group indicator and another',
+      unit: ico.unit,
+      dp: 2,
+      colourChange: true,
+      rowHead: 'Pair',
+      storageKey: 'coffeedesk.icoPair',
+      pickerLabel: 'Differential to chart',
+      empty: 'No ICO differentials are on record yet.',
+      cite: reportCite('monthly averages')
+    }));
+
+    var lower = el('div', { class: 'phys-grid' });
+
+    lower.appendChild(icoPanel({
+      block: ico.certifiedStocks,
+      title: 'Certified stocks',
+      subtitle: 'Exchange-graded coffee in licensed warehouses',
+      unit: ico.stocksUnit,
+      dp: 2,
+      // Stock levels are inventory, not price. Green and red are reserved for
+      // price direction and weather risk, so this change stays monochrome.
+      colourChange: false,
+      rowHead: 'Market',
+      storageKey: 'coffeedesk.icoStocks',
+      pickerLabel: 'Market to chart',
+      empty: 'No ICO certified stock figures are on record yet.',
+      cite: reportCite('monthly, month-end')
+    }));
+
+    // What ICO does not publish, said plainly beside what it does. This panel
+    // exists because the gap is the point: a reader comparing origins needs to
+    // know these are quality groups, not marks, and that no certification
+    // series exists at all.
+    var scope = el('div', { class: 'panel' }, [
+      el('h3', { text: 'What this is not' }),
+      el('p', { class: 'panel-sub', text: 'The limits of the only free source that publishes any of this' }),
+      el('p', { text:
+        'ICO reports origin and quality groups — Colombian Milds, Other Milds, Brazilian ' +
+        'Naturals, Robustas — and the spreads between them. These are not the FOB ' +
+        'differentials a broker quotes against the C contract for a named mark.' }),
+      el('p', { text:
+        'No certification breakdown is published anywhere free: there is no Fairtrade, Organic ' +
+        'or Rainforest series here because no source returned one.' })
     ]);
-    if (diff && diff.entries && diff.entries.length) {
-      dPanel.appendChild(el('div', { class: 'table-scroll' }, [
+
+    // A hand-entered override, if anyone has put one in. Empty is the norm.
+    var manual = data.differentials;
+    if (manual && manual.entries && manual.entries.length) {
+      scope.appendChild(el('div', { class: 'table-scroll' }, [
         el('table', { class: 'sheet' }, [
           el('thead', {}, [el('tr', {}, [
             el('th', { text: 'Origin' }),
@@ -885,7 +1131,7 @@
             el('th', { class: 'num', text: 'Diff' }),
             el('th', { text: 'Period' })
           ])]),
-          el('tbody', {}, diff.entries.map(function (e) {
+          el('tbody', {}, manual.entries.map(function (e) {
             return el('tr', {}, [
               el('td', { class: 'name', text: e.origin || '—' }),
               el('td', { text: e.grade || '—' }),
@@ -895,44 +1141,37 @@
           }))
         ])
       ]));
-      dPanel.appendChild(cite([
-        'Manually entered from ' + (diff.sourceDocument || 'a trade document'),
-        'updated ' + fmtDateTime(diff.updatedAt),
+      scope.appendChild(cite([
+        'Hand-entered from ' + (manual.sourceDocument || 'a trade document'),
+        'updated ' + fmtDateTime(manual.updatedAt),
         'not machine-verified'
       ]));
-    } else {
-      dPanel.appendChild(notice('No verified source', [
-        'Physical differentials are circulated privately by brokers and exporters. No free, ' +
-        'continuously updated feed exists, so nothing is shown here rather than a guess.',
-        'Planned: upload ICO and trader PDFs to populate this table and its history chart.'
-      ]));
     }
-    host.appendChild(dPanel);
 
-    // Certified stocks
-    var cs = data.certifiedStocks;
-    var sPanel = el('div', { class: 'panel' }, [
-      el('h3', { text: 'Certified Stocks' }),
-      el('p', { class: 'panel-sub', text: 'Exchange-graded coffee in licensed warehouses' })
-    ]);
-    if (cs && cs.series && cs.series.length) {
-      var latest = cs.series[cs.series.length - 1];
-      sPanel.appendChild(el('div', { class: 'price-row' }, [
-        el('span', { class: 'price', text: num(latest.bags, 0) }),
-        el('span', { class: 'price-unit', text: 'bags' })
+    lower.appendChild(scope);
+    host.appendChild(lower);
+  }
+
+  function renderBrief(brief) {
+    var host = $('#brief');
+    host.innerHTML = '';
+
+    if (!brief || !brief.sentences || !brief.sentences.length) {
+      host.appendChild(notice('No brief today', [
+        'Too few figures were retrieved on this run to say anything useful about the market ' +
+        'without reaching for numbers that are not here.'
       ]));
-      sPanel.appendChild(cite([
-        'As at ' + (latest.date || '—'),
-        'entered from ' + (cs.sourceDocument || 'a published report')
-      ]));
-    } else {
-      sPanel.appendChild(notice('No verified source', [
-        'ICE publishes certified stocks daily, but the report sits behind bot protection and ' +
-        'every free API found was a paid reseller.',
-        'Planned: the same PDF upload will populate this figure and its trend.'
-      ]));
+      return;
     }
-    host.appendChild(sPanel);
+
+    host.appendChild(el('p', { class: 'brief-body',
+      text: brief.sentences.map(function (s) { return s.text; }).join(' ') }));
+
+    host.appendChild(cite([
+      'Composed by rule from the figures on this page',
+      'no language model, no figure introduced',
+      brief.sentences.length + ' observations'
+    ]));
   }
 
   /**
@@ -1216,20 +1455,19 @@
     host.innerHTML = '';
     if (!roundup || !roundup.items || !roundup.items.length) {
       host.appendChild(notice('Recap unavailable', [
-        'Perfect Daily Grind rejects automated clients, so the weekly round-up could not be ' +
-        'retrieved and no stored copy is available.',
+        'No coffee trade feed returned a story inside the past week, so there is no recap ' +
+        'to show.',
         'Nothing is shown here rather than a stale or invented list.'
       ]));
       return;
     }
 
-    host.appendChild(el('p', { class: 'roundup-source' }, [
-      el('a', {
-        href: roundup.articleUrl, target: '_blank', rel: 'noopener noreferrer',
-        text: roundup.title || 'Coffee News Recap'
-      }),
-      el('span', { class: 'badge', text: 'Perfect Daily Grind' })
-    ]));
+    // Assembled from several publishers rather than lifted from one weekly
+    // article, so the credit is a list of who is represented today.
+    host.appendChild(el('p', { class: 'roundup-source' },
+      (roundup.publishers || []).map(function (p) {
+        return el('span', { class: 'badge', text: p });
+      })));
 
     // A weekly digest of one-line headlines: a static list reads far better
     // than motion, and there are no summaries to slide through anyway.
@@ -1259,7 +1497,9 @@
           el('span', { class: 'recap-date', text: it.date || '' }),
           it.url
             ? el('a', { href: it.url, target: '_blank', rel: 'noopener noreferrer' }, [label])
-            : label
+            : label,
+          // Several publishers now, so each headline says whose it is.
+          it.publisher ? el('span', { class: 'recap-pub', text: it.publisher }) : null
         ]);
       }));
       block.appendChild(ul);
@@ -1268,11 +1508,9 @@
     host.appendChild(list);
 
     host.appendChild(cite([
-      roundup.items.length + ' headlines',
-      'links go to the original source',
-      roundup.source === 'manual'
-        ? 'captured ' + fmtDate(roundup.capturedAt)
-        : 'fetched live'
+      roundup.items.length + ' headlines from ' + (roundup.publishers || []).length + ' publishers',
+      'past ' + (roundup.windowDays || 7) + ' days',
+      'ranked by relevance to the physical trade'
     ]));
   }
 
@@ -1325,16 +1563,24 @@
     }
     if (data.fx) addGroup('Currency', data.fx.sources);
     if (data.weather) addGroup('Weather', data.weather.sources);
+    if (data.ico) {
+      addGroup('Physical market', [{
+        name: 'ICO Coffee Market Report, ' + data.ico.report.label,
+        url: data.ico.report.url,
+        role: 'indicator prices, group differentials and certified stocks, parsed from the ' +
+              'published PDF'
+      }]);
+    }
 
     groups.push(el('div', { class: 'src-group' }, [
       el('h4', { text: 'News' }),
       el('ul', {}, [
         el('li', { text: 'Origin wire: BBC News, The Guardian, Financial Times and Al Jazeera, each from that publisher’s own syndication feed.' }),
-        el('li', {}, [
-          'Weekly recap: ',
-          el('a', { href: 'https://perfectdailygrind.com/category/weekly-round-up/', target: '_blank', rel: 'noopener noreferrer', text: 'Perfect Daily Grind' }),
-          ' — headlines and links are the publisher’s own.'
-        ]),
+        el('li', { text:
+          'Weekly recap: Daily Coffee News, Fresh Cup, the Specialty Coffee Association, ' +
+          'World Coffee Portal and Sprudge, each from that publisher’s own feed. The week’s ' +
+          'stories are ranked here by their relevance to the physical trade; the headlines ' +
+          'and links are the publishers’ own.' }),
         el('li', {}, [
           'Today’s read: ',
           el('a', { href: 'https://dailycoffeenews.com/', target: '_blank', rel: 'noopener noreferrer', text: 'Daily Coffee News' })
@@ -1394,6 +1640,29 @@
         Math.round(wire.lookbackHours / 24) + ' days because these origins are not covered daily ' +
         'by the international press — every headline carries its own age.']);
     }
+    if (data.ico) {
+      var stocks = data.ico.certifiedStocks || {};
+      var stockLine = 'Certified stocks are ICO’s monthly figure for the New York and London ' +
+        'markets, not a daily exchange print.';
+      // Two or three of ICO's month headings are drawn in a subset font with
+      // no character map, so those columns cannot be read. They are dropped.
+      // Saying so is the point: the alternative was to count along from a
+      // readable neighbour, which would be a guess wearing a figure's clothes.
+      if ((stocks.points || []).length) {
+        stockLine += ' Some months are absent because ICO renders their column heading in a ' +
+          'font with no character map: the figure is there but the month it belongs to cannot ' +
+          'be read, so the column is dropped rather than inferred from its neighbours.';
+      }
+      method.push(['Physical market', stockLine]);
+      method.push(['What ICO does not publish', data.ico.note +
+        ' Each report re-states the preceding year, so a figure ICO later revises is recorded ' +
+        'as a revision rather than quietly replaced.']);
+    }
+    if (data.brief) {
+      method.push(['The brief', data.brief.method +
+        ' Each sentence is produced by a rule that runs only when every figure it would name is ' +
+        'present; a missing input drops the sentence rather than softening it.']);
+    }
     method.push(['Missing data',
       'Where a source fails or none exists, the section says so. No figure on this page is ' +
       'estimated, interpolated or carried forward.']);
@@ -1452,6 +1721,7 @@
     });
 
     renderBoard(data.futures);
+    renderBrief(data.brief);
     renderCharts(data.futures);
     renderTechnicals(data.futures);
     renderFx(data.fx);

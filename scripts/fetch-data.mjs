@@ -14,8 +14,12 @@ import { fileURLToPath } from 'node:url';
 import { fetchArabica } from './sources/futures.mjs';
 import { fetchFx } from './sources/fx.mjs';
 import { fetchWeather } from './sources/weather.mjs';
-import { fetchOriginWire, fetchRoundup, fetchDailyArticle } from './sources/news.mjs';
+import { fetchOriginWire, buildWeeklyRecap, fetchDailyArticle } from './sources/news.mjs';
+import {
+  fetchIcoReport, mergeHistory, emptyHistory, latestReportMonth, publishable,
+} from './sources/ico.mjs';
 import { buildTechnicals } from './lib/indicators.mjs';
+import { buildBrief } from './lib/brief.mjs';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const p = (...parts) => resolve(ROOT, ...parts);
@@ -44,13 +48,19 @@ async function readJson(path, fallback) {
 async function main() {
   console.log('Fetching coffee market data…');
 
-  const [arabica, fx, weather, originWire, roundupFetched, dailyRead] = await Promise.all([
+  // The ICO report is monthly and this runs twice a weekday, so the fetch is
+  // told what we already hold and skips the 1.2MB download when it matches.
+  const icoHistory = await readJson(p('data/ico-history.json'), emptyHistory());
+  const known = latestReportMonth(icoHistory);
+
+  const [arabica, fx, weather, originWire, roundup, dailyRead, icoReport] = await Promise.all([
     attempt('arabica-futures', fetchArabica),
     attempt('fx', fetchFx),
     attempt('weather', fetchWeather),
     attempt('origin-wire', fetchOriginWire),
-    attempt('pdg-roundup', fetchRoundup),
+    attempt('weekly-recap', buildWeeklyRecap),
     attempt('daily-read', fetchDailyArticle),
+    attempt('ico-report', () => fetchIcoReport({ known })),
   ]);
 
   // Technicals come from Yahoo's per-contract daily history. Indicators are
@@ -72,35 +82,46 @@ async function main() {
     arabica.barsAnalysed = full.length;
   }
 
-  // Manually-maintained blocks. These stay empty until populated -- the page
-  // renders an explicit "awaiting a verified source" state rather than a guess.
+  // Fold a newly parsed report into the accumulated history, then publish the
+  // whole series. Each report re-states the months before it, so a figure that
+  // has been revised is recorded as a revision rather than quietly replaced.
+  let history = icoHistory;
+  if (icoReport && !icoReport.skipped) {
+    history = mergeHistory(history, icoReport);
+    await writeFile(p('data/ico-history.json'), JSON.stringify(history, null, 2) + '\n');
+    console.log(`  · ICO ${icoReport.report.label}: merged, ` +
+                `${Object.keys(history.months.indicators).length} months on record`);
+    if (icoReport.certifiedStocks?.unreadableColumns) {
+      console.log(`  · ICO certified stocks: ${icoReport.certifiedStocks.unreadableColumns} ` +
+                  'month heading(s) unreadable, those columns dropped');
+    }
+  } else if (icoReport?.skipped) {
+    console.log(`  · ICO ${icoReport.report.label}: already on record, not re-downloaded`);
+  }
+  const ico = publishable(history);
+
+  // Hand-entered overrides. ICO now covers the base case for both, so these
+  // stay empty unless someone deliberately enters a figure from a document
+  // they hold. An empty file means "show what ICO published".
   const differentials = await readJson(p('data/manual/differentials.json'), null);
   const certifiedStocks = await readJson(p('data/manual/certified-stocks.json'), null);
 
-  // Perfect Daily Grind blocks non-browser clients, so the live fetch is
-  // expected to fail from CI. Fall back to the manually captured copy, and
-  // label which one the page is showing so the reader is never misled about
-  // how fresh it is.
-  let roundup = roundupFetched;
-  if (!roundup) {
-    const manual = await readJson(p('data/manual/pdg-roundup.json'), null);
-    if (manual && manual.items?.length) {
-      roundup = { ...manual, source: 'manual' };
-      console.log('  · PDG round-up: live fetch blocked, using the manually captured copy');
-    }
-  }
-
   const payload = {
     generatedAt: new Date().toISOString(),
-    schema: 3,
+    schema: 4,
     futures: { arabica },
     fx,
     weather,
     news: { originWire, roundup, dailyRead },
+    ico,
     differentials,
     certifiedStocks,
     status,
   };
+
+  // The brief reads the assembled payload, so it must be composed last. It is
+  // rules over the figures above — nothing is fetched and nothing is invented.
+  payload.brief = buildBrief(payload);
 
   await mkdir(p('data'), { recursive: true });
   await writeFile(p('data/latest.json'), JSON.stringify(payload, null, 2) + '\n');

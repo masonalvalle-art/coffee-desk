@@ -26,6 +26,29 @@ export async function getText(url, { timeout = 20000, retries = 2, headers = {} 
   throw lastErr;
 }
 
+/** As getText, but for binary payloads — the ICO market report is a PDF. */
+export async function getBuffer(url, { timeout = 60000, retries = 2, headers = {} } = {}) {
+  let lastErr;
+  for (let attempt = 0; attempt <= retries; attempt++) {
+    const ctrl = new AbortController();
+    const timer = setTimeout(() => ctrl.abort(), timeout);
+    try {
+      const res = await fetch(url, {
+        signal: ctrl.signal,
+        headers: { 'User-Agent': UA, 'Accept': '*/*', ...headers },
+      });
+      if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
+      return Buffer.from(await res.arrayBuffer());
+    } catch (err) {
+      lastErr = err;
+      if (attempt < retries) await sleep(600 * (attempt + 1));
+    } finally {
+      clearTimeout(timer);
+    }
+  }
+  throw lastErr;
+}
+
 export async function getJson(url, opts) {
   const text = await getText(url, opts);
   try {

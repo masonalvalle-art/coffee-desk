@@ -19,20 +19,27 @@ happened.
 | Price Action | Daily chart over 1M / 3M / 6M / 1Y, with 20/50-day means, swing-pivot support & resistance, round-number gridlines and a hover readout of exact OHLC | derived from the price history below |
 | Momentum & trend | RSI(14), MACD(12,26,9), moving averages, ATR(14), Donchian(20), 52-week range | computed from real settlement prices |
 | Support & resistance | Swing levels with the distance from the current price and the date each was set | computed from real settlement prices |
+| The Brief | A short read of the day, composed by rule from the figures on this page — no language model, nothing introduced | derived from everything below |
 | Currency | GBP/USD (cable, ~1.36) and USD/BRL, cross-checked against Brazil's official PTAX fixing | European Central Bank; Banco Central do Brasil |
-| Physical Market | Differentials and certified stocks | **no verified free source — see below** |
+| Physical Market | Indicator prices for each origin group, the differentials between them, and certified stocks on New York and London — each a chart with a year or more of history | International Coffee Organization |
 | At Origin | 12 growing regions grouped by country, with a condition icon and words, observed temperature and rainfall, a forecast low for frost, and wet/dry flags | Open-Meteo |
 | Origin Wire | Slider of general headlines with the publisher's own summary, from Brazil, Vietnam, Indonesia, Colombia, South & Central America and East Africa | BBC, Guardian, FT, Al Jazeera, VnExpress International |
-| The Week in Coffee | The headlines from Perfect Daily Grind's Friday round-up, grouped by section | Perfect Daily Grind |
+| The Week in Coffee | The week's trade headlines, ranked by relevance to the physical market and grouped by theme | Daily Coffee News, Fresh Cup, SCA, World Coffee Portal, Sprudge |
 | Today's Read | One article worth a buyer's time | Daily Coffee News |
 
 ### Arabica only
 
-Robusta was removed. No free provider publishes Robusta price history, so its
-chart and indicators could never be built from a complete series, and a
-half-populated contract is worse than an absent one. Robusta-growing regions
-(Espírito Santo, Dak Lak, Lam Dong, Lampung) are still on the weather table,
-because that data *is* complete and the two markets move together.
+Robusta was removed **as a traded contract**. No free provider publishes a daily
+Robusta price series, so its chart and indicators could never be built from a
+complete history, and a half-populated contract is worse than an absent one.
+Robusta-growing regions (Espírito Santo, Dak Lak, Lam Dong, Lampung) are still
+on the weather table, because that data *is* complete and the two markets move
+together.
+
+ICO's **monthly** Robustas group indicator and the London futures average do
+appear, under Physical Market. A monthly average is not the daily settlement
+series a chart and its indicators need, which is why it sits there rather than
+alongside Arabica on the board.
 
 ### Contract months resolve themselves
 
@@ -122,52 +129,106 @@ the tab is in the background. Which slide is showing is decided by visibility
 rather than by an opacity transition, so the state is always correct even if
 the animation is throttled or never runs.
 
-The weekly recap is a **static list** grouped by the recap's own sections, with
-"Top stories of the week" and "Trade & production" first. It is a weekly digest
-of one-line headlines with no summaries to show, so motion would add nothing.
+The weekly recap is a **static list** grouped into "Top stories of the week",
+"Trade & production" and "Roasting & retail", in that order. It is a weekly
+digest of one-line headlines, so motion would add nothing.
 
 ---
 
-## What is deliberately missing
+## The physical market, and what it is not
 
-**Differentials.** Physical premiums and discounts are circulated privately by
-brokers and exporters. There is no free, continuously updated feed. The section
-renders an explicit "no verified source" state.
+The [ICO Coffee Market Report](https://ico.org/coffee-market-report/) is published
+monthly as a PDF. It is free, public, and the only source found that publishes
+any of this. The pipeline fetches the newest report, parses three of its tables,
+and accumulates them into a history:
 
-**Certified stocks.** ICE publishes these daily, but the report sits behind bot
-protection, and every "free API" found in research was a paid reseller.
+- **Indicator prices** for the ICO Composite and each origin group — Colombian
+  Milds, Other Milds, Brazilian Naturals, Robustas — plus the New York and
+  London futures averages.
+- **Group differentials**: the spread between one group indicator and another,
+  and the New York–London arbitrage.
+- **Certified stocks** on the New York and London futures markets.
 
-Both are wired for a planned upload feature: drop in ICO or trader-report PDFs
-and the parsed figures populate `data/manual/differentials.json` and
-`data/manual/certified-stocks.json`, which the page already reads and renders.
-The schema is in place; the parser is not built yet.
+Each report restates the preceding year, so one download brings twelve months of
+history with it, and every later report re-states months already held. Where a
+restated figure differs, ICO has revised it: the change is recorded as a
+revision rather than quietly replacing the old number.
+
+**What this is not.** ICO reports origin and quality *groups*, not individual
+origins or marks. These are not the FOB differentials a broker quotes against
+the C contract for a named lot, and the page says so beside the tables. There is
+also **no certification breakdown** — no Fairtrade, Organic or Rainforest series
+appears here, because no free source publishes one. The schema carries the
+field; nothing fills it.
+
+Two or three months are usually missing from the certified-stocks series. ICO
+draws some of that table's column headings in an embedded font with no character
+map, so the figure is legible but the month it belongs to is not. Those columns
+are dropped and the chart says how many. Counting along from a readable
+neighbour would have filled them in, and would have been a guess.
+
+`data/manual/differentials.json` and `data/manual/certified-stocks.json` survive
+as optional hand-entered overrides for figures held in a document the pipeline
+cannot reach. They are normally empty, and the private-data warning above still
+applies to them.
+
+### Reading a PDF with no dependencies
+
+`scripts/lib/pdf.mjs` extracts text *with its position on the page*, because a
+table cell only means anything in its column — a flat text dump turns a row into
+`Aug-25297.05366.72`. It decompresses the content streams with `node:zlib`,
+walks the text-positioning operators to get an x and y for every fragment, and
+groups fragments into rows and columns by coordinate. It is about 300 lines and
+adds no dependency, so the no-`npm install` property of this project survives.
+
+Where a PDF uses an embedded subset font with no character map, the bytes are
+glyph ids rather than characters. Those runs are flagged unmappable and dropped.
+They are never guessed at.
 
 ---
 
-## The weekly round-up needs a hand
+## The weekly recap assembles itself
 
-Perfect Daily Grind's WAF rejects non-browser clients. Every path returns 403 —
-the article, the RSS feed, the sitemap, even through a reader proxy — regardless
-of headers, because the block is on TLS/client fingerprint rather than address.
-A GitHub Actions runner will almost certainly be refused too.
+Perfect Daily Grind used to supply this section, and it needed refreshing by
+hand every Friday. Their WAF rejects non-browser clients on TLS fingerprint:
+tested three ways, PowerShell/.NET gets 200 while **curl and Node both get 403**.
+A GitHub Actions runner has curl and Node, so it was never going to work there.
 
-So the round-up list reads from `data/manual/pdg-roundup.json`, captured by
-hand from the published article. **The pipeline still attempts the live fetch on
-every run and will prefer it the moment it succeeds** — nothing needs changing
-if PDG ever relaxes the block. The page always states which of the two it is
-showing, and when the stored copy was captured.
+The recap is now built from the coffee trade press that does publish a usable
+feed — Daily Coffee News, Fresh Cup, the Specialty Coffee Association, World
+Coffee Portal and Sprudge. Stories from the past seven days are deduplicated
+across publishers and ranked by their relevance to the physical trade, using the
+same scoring that picks Today's Read: harvests, shipments, weather and prices
+score; café openings and executive appointments do not. The top handful lead,
+the rest are grouped, and the low-relevance tail is capped so a digest for a
+trading desk does not fill up with counter news.
 
-To refresh it each Friday: open the newest post in
-[the round-up archive](https://perfectdailygrind.com/category/weekly-round-up/),
-and update `data/manual/pdg-roundup.json` with the article URL, its title,
-today's `capturedAt`, and one entry per headline:
+Every headline carries its publisher and links to that publisher's own page.
+There is no weekly chore any more.
 
-```json
-{ "section": "Top stories of the week", "date": "Fri, 28 Aug", "headline": "…", "url": "https://original-source…" }
-```
+---
 
-Headlines and links are the publisher's own; the list shows every headline in
-the recap, each linking to its original source.
+## The brief is written by rules, not by a model
+
+The one piece of running prose on the page is composed from the figures already
+in the payload by about a dozen rules — the session move, where the price sits
+against its means and its 52-week range, the curve's shape, the ICO differential
+that moved most, certified stocks, currency, and any origin carrying a weather
+flag. Each rule scores how much its observation is worth saying today; the
+strongest few run, in a fixed editorial order.
+
+This is deliberate rather than a limitation. Every sentence is reproducible from
+the committed `data/latest.json`, so the brief is auditable in exactly the way
+every number on this page is; there is no API key, no dependency and no per-run
+cost; and, most of all, **a rule cannot invent a figure.** A generated paragraph
+would be the easiest imaginable way to break the governing rule of this project.
+
+Each rule guards its own inputs and produces nothing when a figure it would name
+is missing — a missing input drops the sentence rather than softening it into
+vagueness. If too few survive, the section says so instead.
+
+The cost is that it will never notice something genuinely novel. It says what
+the numbers say, in the order a reader wants them.
 
 ---
 
@@ -214,6 +275,11 @@ Each run commits `data/latest.json` back to the repository. That gives every
 published number a permanent, timestamped, public audit trail: you can check
 what the dashboard said on any past date, and where it got it.
 
+`data/ico-history.json` is committed alongside it, and has to be: it accumulates
+one report at a time, and every CI run starts from a fresh checkout. Without it
+in the repository the record would reset each run to whatever the newest report
+happened to restate.
+
 ---
 
 ## Layout
@@ -223,12 +289,16 @@ index.html                     the page
 assets/style.css               newspaper styling, light and dark
 assets/app.js                  renders data/latest.json; draws the SVG charts and icons
 data/latest.json               generated each run — the page reads only this
-data/manual/*.json             hand-maintained blocks (differentials, stocks, PDG recap)
+data/ico-history.json          accumulated ICO series, one month added per report
+data/manual/*.json             optional hand-entered overrides; normally empty
 scripts/fetch-data.mjs         orchestrator: fetches everything, writes latest.json
 scripts/sources/futures.mjs    Arabica contract discovery, quote, history, cross-check
 scripts/sources/fx.mjs         ECB reference rates and the Brazilian PTAX fixing
 scripts/sources/weather.mjs    origin regions, condition classification, risk flags
-scripts/sources/news.mjs       origin wire, PDG round-up parser, daily read
+scripts/sources/news.mjs       origin wire, the assembled weekly recap, daily read
+scripts/sources/ico.mjs        ICO report discovery and table parsing
+scripts/lib/pdf.mjs            positioned-text PDF extractor, node:zlib only
+scripts/lib/brief.mjs          the daily brief, composed by rule
 scripts/lib/indicators.mjs     RSI, MACD, ATR, pivots, Donchian
 scripts/lib/contracts.mjs      contract-month enumeration and roll detection
 .github/workflows/             the scheduled fetch and Pages deploy

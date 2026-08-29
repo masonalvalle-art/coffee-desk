@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-28T20:15:24.529Z",
-  "schema": 3,
+  "generatedAt": "2026-08-29T09:26:33.962Z",
+  "schema": 4,
   "futures": {
     "arabica": {
       "market": "Arabica",
@@ -17,7 +17,7 @@
       "frontMonth": {
         "code": "KCU26",
         "label": "Sep 2026",
-        "close": 347.95,
+        "close": 345.85,
         "volume": 16
       },
       "rolled": true,
@@ -26,58 +26,66 @@
         {
           "code": "KCU26",
           "label": "Sep 2026",
-          "close": 347.95,
+          "close": 345.85,
           "volume": 16
         },
         {
           "code": "KCZ26",
           "label": "Dec 2026",
-          "close": 312.6,
+          "close": 312.85,
           "volume": 11539
         },
         {
           "code": "KCH27",
           "label": "Mar 2027",
-          "close": 299.35,
+          "close": 300.6,
           "volume": 4835
         },
         {
           "code": "KCK27",
           "label": "May 2027",
-          "close": 295.45,
+          "close": 296.8,
           "volume": 1916
         },
         {
           "code": "KCN27",
           "label": "Jul 2027",
-          "close": 293.15,
+          "close": 294.35,
           "volume": 681
         },
         {
           "code": "KCU27",
           "label": "Sep 2027",
-          "close": 291.4,
+          "close": 291.65,
           "volume": 300
         },
         {
           "code": "KCZ27",
           "label": "Dec 2027",
-          "close": 288.8,
+          "close": 288.4,
           "volume": 143
         }
       ],
       "quote": {
         "last": 312.6,
-        "open": 311.5,
-        "high": 316.8500061035156,
-        "low": 308.70001220703125,
-        "previousClose": 309.6499938964844,
-        "change": 2.95,
-        "changePct": 0.953,
-        "volume": 11539,
+        "open": 316.8999938964844,
+        "high": 317,
+        "low": 306.45001220703125,
+        "previousClose": 322.1499938964844,
+        "change": -9.55,
+        "changePct": -2.964,
+        "volume": 16612,
         "asOf": "2026-08-28T17:29:56.000Z"
       },
       "bars": [
+        {
+          "date": "2025-05-22",
+          "open": 308.5,
+          "high": 310.1000061035156,
+          "low": 305.1499938964844,
+          "close": 307.04998779296875,
+          "volume": 44
+        },
         {
           "date": "2025-05-23",
           "open": 306.6499938964844,
@@ -2629,21 +2637,13 @@
           "low": 306.45001220703125,
           "close": 309.6499938964844,
           "volume": 16612
-        },
-        {
-          "date": "2026-08-28",
-          "open": 311.5,
-          "high": 316.8500061035156,
-          "low": 308.70001220703125,
-          "close": 312.6000061035156,
-          "volume": 11539
         }
       ],
       "crossCheck": {
-        "tradingView": 312.6,
+        "tradingView": 312.85,
         "yahoo": 312.6,
-        "diff": 0,
-        "diffPct": 0,
+        "diff": 0.25,
+        "diffPct": 0.08,
         "agree": true
       },
       "sources": [
@@ -2659,17 +2659,17 @@
         }
       ],
       "technicals": {
-        "observations": 505,
-        "sma20": 318.7824996948242,
-        "sma50": 304.9569995117188,
-        "sma200": 291.1815001678467,
-        "rsi14": 48.493550555133226,
+        "observations": 503,
+        "sma20": 318.88499908447267,
+        "sma50": 303.96799926757814,
+        "sma200": 291.32450019836426,
+        "rsi14": 46.98097304735444,
         "macd": {
-          "line": 5.04711176220934,
-          "signal": 7.084039793881324,
-          "histogram": -2.0369280316719838
+          "line": 6.306139771942014,
+          "signal": 7.593271801799319,
+          "histogram": -1.2871320298573048
         },
-        "atr14": 13.60909286394684,
+        "atr14": 14.029023553751644,
         "donchian20": {
           "high": 345.6499938964844,
           "low": 302.6000061035156,
@@ -2678,30 +2678,30 @@
         "levels": {
           "support": [
             {
-              "price": 310.75,
-              "date": "2025-10-10"
-            },
-            {
               "price": 308.75,
               "date": "2026-01-21"
             },
             {
               "price": 308.1000061035156,
               "date": "2025-09-02"
+            },
+            {
+              "price": 307.54998779296875,
+              "date": "2025-10-28"
             }
           ],
           "resistance": [
             {
+              "price": 310,
+              "date": "2025-04-02"
+            },
+            {
+              "price": 310.04998779296875,
+              "date": "2025-02-11"
+            },
+            {
               "price": 316.8500061035156,
               "date": "2025-05-21"
-            },
-            {
-              "price": 318.70001220703125,
-              "date": "2025-06-06"
-            },
-            {
-              "price": 323.75,
-              "date": "2026-07-28"
             }
           ]
         },
@@ -2710,10 +2710,10 @@
           "low": 209.1999969482422
         },
         "method": "Wilder RSI(14); MACD(12,26,9) on EMA; ATR(14); pivots = 5-bar swing highs/lows; Donchian(20).",
-        "basis": "505 daily bars for KCZ26"
+        "basis": "503 daily bars for KCZ26"
       },
       "barsPublished": 320,
-      "barsAnalysed": 505
+      "barsAnalysed": 503
     }
   },
   "fx": {
@@ -3243,7 +3243,7 @@
     ]
   },
   "weather": {
-    "fetchedAt": "2026-08-28T20:15:22.660Z",
+    "fetchedAt": "2026-08-29T09:26:32.363Z",
     "thresholds": {
       "frostC": 4,
       "heavyRainMm": 50,
@@ -3268,19 +3268,19 @@
         "lat": -21.55,
         "lon": -45.43,
         "current": {
-          "date": "2026-08-27",
-          "tMax": 24.6,
-          "tMin": 16.4,
-          "rain": 8.8,
-          "code": 80,
-          "cloud": 54,
+          "date": "2026-08-28",
+          "tMax": 29.1,
+          "tMin": 14.8,
+          "rain": 0.2,
+          "code": 51,
+          "cloud": 32,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 12.9,
-        "rainForecast7": 10.7,
-        "minForecast7": 12.9,
+        "rain14": 13.1,
+        "rainForecast7": 13.5,
+        "minForecast7": 11.8,
         "alerts": []
       },
       {
@@ -3291,19 +3291,19 @@
         "lat": -18.94,
         "lon": -46.99,
         "current": {
-          "date": "2026-08-27",
-          "tMax": 25.9,
-          "tMin": 15.9,
-          "rain": 18.8,
-          "code": 81,
-          "cloud": 49,
+          "date": "2026-08-28",
+          "tMax": 28.7,
+          "tMin": 17.4,
+          "rain": 0.8,
+          "code": 53,
+          "cloud": 9,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 33.3,
-        "rainForecast7": 5,
-        "minForecast7": 16.9,
+        "rain14": 34.1,
+        "rainForecast7": 5.1,
+        "minForecast7": 15.8,
         "alerts": []
       },
       {
@@ -3314,19 +3314,19 @@
         "lat": -19.39,
         "lon": -40.07,
         "current": {
-          "date": "2026-08-27",
-          "tMax": 25.4,
-          "tMin": 20.8,
-          "rain": 20.2,
-          "code": 95,
-          "cloud": 77,
+          "date": "2026-08-28",
+          "tMax": 28.3,
+          "tMin": 20.4,
+          "rain": 2.7,
+          "code": 53,
+          "cloud": 32,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 35.6,
-        "rainForecast7": 3,
-        "minForecast7": 20,
+        "rain14": 38.3,
+        "rainForecast7": 0.9,
+        "minForecast7": 19.3,
         "alerts": []
       },
       {
@@ -3337,24 +3337,24 @@
         "lat": 12.68,
         "lon": 108.05,
         "current": {
-          "date": "2026-08-27",
-          "tMax": 30.6,
-          "tMin": 23,
-          "rain": 9,
-          "code": 80,
-          "cloud": 67,
+          "date": "2026-08-28",
+          "tMax": 30.1,
+          "tMin": 23.1,
+          "rain": 10,
+          "code": 81,
+          "cloud": 84,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 106.5,
-        "rainForecast7": 151.4,
-        "minForecast7": 21.7,
+        "rain14": 116.5,
+        "rainForecast7": 156.2,
+        "minForecast7": 21.5,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "151 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "156 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3366,24 +3366,24 @@
         "lat": 11.55,
         "lon": 107.81,
         "current": {
-          "date": "2026-08-27",
-          "tMax": 24.7,
-          "tMin": 20.6,
-          "rain": 17.4,
+          "date": "2026-08-28",
+          "tMax": 24.8,
+          "tMin": 20.7,
+          "rain": 12.6,
           "code": 80,
-          "cloud": 95,
+          "cloud": 98,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 196.7,
-        "rainForecast7": 124.7,
-        "minForecast7": 20.2,
+        "rain14": 209.3,
+        "rainForecast7": 116.4,
+        "minForecast7": 19.8,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "125 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "116 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3395,19 +3395,19 @@
         "lat": 1.85,
         "lon": -76.05,
         "current": {
-          "date": "2026-08-27",
-          "tMax": 25.5,
-          "tMin": 17.8,
-          "rain": 6.3,
-          "code": 80,
-          "cloud": 90,
+          "date": "2026-08-28",
+          "tMax": 24.4,
+          "tMin": 17,
+          "rain": 6.2,
+          "code": 61,
+          "cloud": 84,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 71.1,
-        "rainForecast7": 40,
-        "minForecast7": 15.2,
+        "rain14": 66,
+        "rainForecast7": 34.6,
+        "minForecast7": 14.7,
         "alerts": []
       },
       {
@@ -3418,19 +3418,19 @@
         "lat": 6.25,
         "lon": -75.56,
         "current": {
-          "date": "2026-08-27",
-          "tMax": 29.5,
-          "tMin": 17.5,
-          "rain": 0.5,
+          "date": "2026-08-28",
+          "tMax": 28.9,
+          "tMin": 17.1,
+          "rain": 1.3,
           "code": 51,
           "cloud": 86,
           "observed": true
         },
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
-        "rain14": 32.3,
-        "rainForecast7": 22.9,
-        "minForecast7": 16.5,
+        "rain14": 33.3,
+        "rainForecast7": 17,
+        "minForecast7": 16.6,
         "alerts": []
       },
       {
@@ -3441,19 +3441,19 @@
         "lat": 4.63,
         "lon": 96.85,
         "current": {
-          "date": "2026-08-27",
-          "tMax": 25.6,
-          "tMin": 14.4,
-          "rain": 1,
+          "date": "2026-08-28",
+          "tMax": 26.4,
+          "tMin": 15,
+          "rain": 0.3,
           "code": 51,
-          "cloud": 46,
+          "cloud": 71,
           "observed": true
         },
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
-        "rain14": 10.2,
-        "rainForecast7": 23.3,
-        "minForecast7": 15,
+        "rain14": 10.5,
+        "rainForecast7": 16.7,
+        "minForecast7": 15.5,
         "alerts": []
       },
       {
@@ -3464,19 +3464,19 @@
         "lat": -5.45,
         "lon": 105.27,
         "current": {
-          "date": "2026-08-27",
-          "tMax": 30.7,
-          "tMin": 24.3,
-          "rain": 2.7,
-          "code": 53,
-          "cloud": 42,
+          "date": "2026-08-28",
+          "tMax": 31.2,
+          "tMin": 23.7,
+          "rain": 0.3,
+          "code": 51,
+          "cloud": 48,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 38.6,
-        "rainForecast7": 11.6,
-        "minForecast7": 23.7,
+        "rain14": 38.9,
+        "rainForecast7": 14.4,
+        "minForecast7": 23.3,
         "alerts": []
       },
       {
@@ -3487,19 +3487,19 @@
         "lat": 7.67,
         "lon": 36.83,
         "current": {
-          "date": "2026-08-27",
-          "tMax": 24.3,
-          "tMin": 13.6,
-          "rain": 1.3,
-          "code": 53,
-          "cloud": 18,
+          "date": "2026-08-28",
+          "tMax": 25.1,
+          "tMin": 12.8,
+          "rain": 0.1,
+          "code": 51,
+          "cloud": 52,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 89.4,
-        "rainForecast7": 27,
-        "minForecast7": 12.8,
+        "rain14": 84.5,
+        "rainForecast7": 47.9,
+        "minForecast7": 12.5,
         "alerts": []
       },
       {
@@ -3510,19 +3510,19 @@
         "lat": 14.16,
         "lon": -88.02,
         "current": {
-          "date": "2026-08-27",
-          "tMax": 29.5,
-          "tMin": 17.9,
-          "rain": 2.4,
-          "code": 53,
-          "cloud": 78,
+          "date": "2026-08-28",
+          "tMax": 30.9,
+          "tMin": 17.8,
+          "rain": 0.8,
+          "code": 51,
+          "cloud": 61,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 45.9,
-        "rainForecast7": 12.4,
-        "minForecast7": 17.1,
+        "rain14": 44.8,
+        "rainForecast7": 27.3,
+        "minForecast7": 14.5,
         "alerts": []
       },
       {
@@ -3533,19 +3533,19 @@
         "lat": -11.05,
         "lon": -75.33,
         "current": {
-          "date": "2026-08-27",
-          "tMax": 30.2,
-          "tMin": 17.9,
-          "rain": 0,
-          "code": 3,
-          "cloud": 24,
+          "date": "2026-08-28",
+          "tMax": 31,
+          "tMin": 17.2,
+          "rain": 0.3,
+          "code": 51,
+          "cloud": 22,
           "observed": true
         },
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
-        "rain14": 66.1,
-        "rainForecast7": 15.4,
-        "minForecast7": 17.2,
+        "rain14": 66.4,
+        "rainForecast7": 28.1,
+        "minForecast7": 18.2,
         "alerts": []
       }
     ],
@@ -3559,7 +3559,7 @@
   },
   "news": {
     "originWire": {
-      "fetchedAt": "2026-08-28T20:15:24.525Z",
+      "fetchedAt": "2026-08-29T09:26:33.600Z",
       "lookbackHours": 504,
       "headlines": [
         {
@@ -3571,12 +3571,12 @@
           "published": "Fri, 28 Aug 2026 15:13:43 GMT"
         },
         {
-          "title": "Vietnam opposes illegal reclamation in Paracels, demands immediate halt",
-          "summary": "Vietnam firmly opposes illegal reclamation, construction activities in Hoang Sa (Paracel) Islands and has lodged a serious diplomatic representation over and reiterated its position on the matter, affirmed Spokesperson of the Ministry of Foreign Affairs Pham…",
-          "url": "https://e.vnexpress.net/news/news/vietnam-opposes-illegal-reclamation-in-paracels-demands-immediate-halt-5114746.html",
+          "title": "10-km traffic jam paralyzes Ho Chi Minh City eastern gateway as National Day holiday kicks off",
+          "summary": "Traffic was gridlocked on Ring Road 2, An Phu Interchange and access roads to the Ho Chi Minh City–Long Thanh–Dau Giay Expressway, with vehicles crawling along several sections on Saturday.",
+          "url": "https://e.vnexpress.net/photo/traffic/10-km-traffic-jam-paralyzes-ho-chi-minh-city-eastern-gateway-as-national-day-holiday-kicks-off-5114944.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Fri, 28 Aug 2026 22:59:31 +0700"
+          "published": "Sat, 29 Aug 2026 13:40:43 +0700"
         },
         {
           "title": "4 richest Indonesians add $6B to wealth in a month",
@@ -3587,28 +3587,28 @@
           "published": "Fri, 28 Aug 2026 11:20:59 +0700"
         },
         {
-          "title": "Colombia’s new president faces backlash over ‘inhumane’ deportation policy",
-          "summary": "Less than a month into his presidency, Abelardo de la Espriella has announced effort to expel undocumented immigrants.",
-          "url": "https://www.aljazeera.com/news/2026/8/28/colombias-new-president-faces-backlash-over-inhumane-deportation-policy?traffic_source=rss",
-          "publisher": "Al Jazeera",
+          "title": "A pioneering voyage up Colombia’s greatest river",
+          "summary": "For decades, the Magdalena was off-limits to all but the most intrepid travellers. Now a trailblazing cruise company is opening up its wetlands, historic towns and isolated communities once more",
+          "url": "https://www.ft.com/content/f37e5176-56f1-48dc-bb52-58c5d85840df",
+          "publisher": "Financial Times",
           "region": "Colombia",
-          "published": "Fri, 28 Aug 2026 19:26:15 +0000"
+          "published": "Sat, 29 Aug 2026 04:00:13 GMT"
         },
         {
-          "title": "Venezuelan opposition up in arms over reports US wants big stake in oil and gas",
-          "summary": "Critics call move to gain long-term access to country’s massive energy reserves ‘predatory’ and ‘unconstitutional’ Reports that the US is preparing to claim a big stake in Venezuela’s massive energy reserves have sparked an outcry, with critics describing the…",
-          "url": "https://www.theguardian.com/world/2026/aug/28/us-venezuela-oil-gas-stake",
-          "publisher": "The Guardian",
-          "region": "South & Central America",
-          "published": "Fri, 28 Aug 2026 17:41:37 GMT"
-        },
-        {
-          "title": "Police fire teargas at Kenyan traders protesting higher taxes on imports",
-          "summary": "Kenyan police fired teargas at traders in the capital Nairobi on Friday, during a protest against higher taxes.",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/28/police-fire-teargas-at-kenyan-traders-protesting-higher-taxes-on-imports?traffic_source=rss",
+          "title": "What’s in the US-Venezuela ‘biggest oil deal in world history?’",
+          "summary": "US President Donald Trump has claimed the US and Venezuela have reached the ‘biggest oil deal in world history’.",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/29/whats-in-the-us-venezuela-biggest-oil-deal-in-world-history?traffic_source=rss",
           "publisher": "Al Jazeera",
+          "region": "South & Central America",
+          "published": "Sat, 29 Aug 2026 04:16:01 +0000"
+        },
+        {
+          "title": "Dutch court sentences man to life over Rwanda genocide",
+          "summary": "The court in The Hague convicted the 66-year-old of war crimes and the crime of genocide.",
+          "url": "https://www.bbc.co.uk/news/articles/ce8x96rw79ro?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
           "region": "East Africa",
-          "published": "Fri, 28 Aug 2026 19:02:40 +0000"
+          "published": "Fri, 28 Aug 2026 12:15:46 GMT"
         },
         {
           "title": "Brazil’s vast iron mine that supplies the world and fractures the Amazon – in pictures",
@@ -3619,12 +3619,12 @@
           "published": "Fri, 21 Aug 2026 12:00:35 GMT"
         },
         {
-          "title": "BIS HCMC marks 20 years of IB with largest cohort and two perfect scorers",
-          "summary": "The British International School Ho Chi Minh City’s Class of 2026 achieved an average IB Diploma score of 36.7, above the global average of 30.9, as the school marked 20 years of the program.",
-          "url": "https://e.vnexpress.net/news/news/education/bis-hcmc-marks-20-years-of-ib-with-largest-cohort-and-two-perfect-scorers-5114762.html",
+          "title": "American tourist saved from possible stroke at Vietnam border gate",
+          "summary": "The Lao Bao International Border Gate Guard Station in the central province of Quang Tri on Aug. 28 reported that its officers had promptly assisted and provided emergency care to a U.S. tourist who suffered a possible mild stroke while conducting entry…",
+          "url": "https://e.vnexpress.net/news/news/american-tourist-saved-from-possible-stroke-at-vietnam-border-gate-5114859.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Fri, 28 Aug 2026 22:54:53 +0700"
+          "published": "Sat, 29 Aug 2026 10:48:14 +0700"
         },
         {
           "title": "Singapore-born billionaire Low Tuck Kwong reportedly negotiating sale of majority stake in flagship coal mining firm",
@@ -3643,20 +3643,20 @@
           "published": "Thu, 27 Aug 2026 20:10:30 GMT"
         },
         {
-          "title": "The first Aman in Mexico is $6,000 a night. Is it worth it?",
-          "summary": "The HTSI travel editor checks into the new arrival in Baja California Sur",
-          "url": "https://www.ft.com/content/0cdeb545-f6fe-4d97-aa1a-5933e58773c6",
-          "publisher": "Financial Times",
+          "title": "Ecuador sentences ex-president Moreno to five years in jail in bribery case",
+          "summary": "Lenin Moreno, 73, has also been permanently barred from holding any public office in the future.",
+          "url": "https://www.aljazeera.com/news/2026/8/29/ecuador-sentences-ex-president-moreno-to-five-years-in-jail-in-bribery-case?traffic_source=rss",
+          "publisher": "Al Jazeera",
           "region": "South & Central America",
-          "published": "Fri, 28 Aug 2026 10:00:07 GMT"
+          "published": "Sat, 29 Aug 2026 03:48:25 +0000"
         },
         {
-          "title": "Kenyan police fire tear gas at Nairobi protest against import duty hike",
-          "summary": "Traders frustrated by more than $5,000 duty hike they say will hurt small businesses.",
-          "url": "https://www.aljazeera.com/news/2026/8/28/kenyan-police-fire-tear-gas-at-nairobi-protest-against-import-duty-hike?traffic_source=rss",
-          "publisher": "Al Jazeera",
+          "title": "World's youngest reigning traditional monarch dies aged 34",
+          "summary": "King Oyo ascended to the throne of Uganda's Tooro kingdom when he was just three years old.",
+          "url": "https://www.bbc.co.uk/news/articles/c0j38d9v40po?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
           "region": "East Africa",
-          "published": "Fri, 28 Aug 2026 16:12:16 +0000"
+          "published": "Fri, 28 Aug 2026 11:13:24 GMT"
         },
         {
           "title": "Maracanã to host opening game and final at next year’s Women’s World Cup",
@@ -3667,12 +3667,12 @@
           "published": "Thu, 20 Aug 2026 15:25:54 GMT"
         },
         {
-          "title": "Vietnam to offer preferential visas to foreign visitors who spend more, stay longer",
-          "summary": "Vietnam will introduce preferential visas for foreign visitors who contribute most to its tourism industry, under a Politburo resolution that also widens visa waivers and requires international travelers to carry insurance.",
-          "url": "https://e.vnexpress.net/news/news/vietnam-to-offer-preferential-visas-to-foreign-visitors-who-spend-more-stay-longer-5114649.html",
+          "title": "Kite flyer faces up to 10 years after disrupting 16 flights at Vietnam's busiest airport",
+          "summary": "Police in Ho Chi Minh City have detained a 42-year-old man whose three kites drifted into the landing approach at Tan Son Nhat International Airport, halting arrivals for 35 minutes and disrupting 16 flights.",
+          "url": "https://e.vnexpress.net/news/news/traffic/kite-flyer-faces-up-to-10-years-after-disrupting-16-flights-at-vietnam-s-busiest-airport-5114766.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Fri, 28 Aug 2026 16:56:31 +0700"
+          "published": "Sat, 29 Aug 2026 08:57:09 +0700"
         }
       ],
       "totalTagged": 100,
@@ -3681,239 +3681,175 @@
       "note": "General headlines from the growing regions, taken from outlets of record and tagged to a region by the countries and cities they name."
     },
     "roundup": {
-      "source": "manual",
-      "articleUrl": "https://perfectdailygrind.com/2026/08/coffee-news-recap-28-august-2026/",
-      "title": "Coffee News Recap, 28 Aug: ICE-certified arabica stocks fall close to lowest levels since 1999, C price forecast at US$3/lb by year-end & other stories",
-      "publisher": "Perfect Daily Grind",
-      "capturedAt": "2026-08-28T14:04:31Z",
-      "note": "Perfect Daily Grind's WAF rejects non-browser clients: every path, including the RSS feed and the sitemap, returns 403 regardless of headers, so the scheduled fetch cannot reach it. This copy was captured from the published article by hand. The pipeline still attempts the live fetch each run and will prefer it the moment it succeeds; until then, refresh this file each Friday.",
+      "source": "assembled",
+      "fetchedAt": "2026-08-29T09:26:32.532Z",
+      "windowDays": 7,
+      "publishers": [
+        "Daily Coffee News",
+        "Fresh Cup",
+        "Sprudge",
+        "World Coffee Portal"
+      ],
       "items": [
         {
-          "section": "Top stories of the week",
-          "date": "Mon, 24 Aug",
-          "headline": "National Federation of Colombian Coffee Growers says El Niño, not earthquake, is the biggest threat to Colombia's coffee sector",
-          "url": "https://bworldonline.com/agribusiness/2026/08/24/771859/el-nino-not-quake-seen-as-biggest-threat-to-colombia-coffee-harvest/"
-        },
-        {
-          "section": "Top stories of the week",
-          "date": "Mon, 24 Aug",
-          "headline": "Blank Street raises US$75m for West Coast expansion",
-          "url": "https://app.dealroom.co/news/feed/blank-street-raises-75m-to-expand-on-us-west-coast-and-add-ice-cream-to-menu"
-        },
-        {
-          "section": "Top stories of the week",
-          "date": "Tue, 25 Aug",
-          "headline": "Saudi coffee and tea market hits US$1.87bn as imports and exports surge",
-          "url": "https://www.einnews.com/pr_news/936304534/saudi-coffee-market-hits-sar-7b-as-imports-and-exports-surge"
-        },
-        {
-          "section": "Top stories of the week",
-          "date": "Wed, 26 Aug",
-          "headline": "ICE certified arabica stocks near their lowest levels since 1999",
-          "url": "https://sucafina.com/na/lp/market-report"
-        },
-        {
-          "section": "Top stories of the week",
-          "date": "Wed, 26 Aug",
-          "headline": "Reuters poll forecasts arabica at US$3/lb and robusta at US$3,900/tonne by year-end",
-          "url": "https://www.facebook.com/100063818177439/posts/coffee-futures-slip-back-into-negative-territory-reuters-poll-forecasts-arabica-/1597109462426311/"
-        },
-        {
-          "section": "Top stories of the week",
+          "headline": "Weekly Coffee News: US AeroPress Champion + Coffee 101 with the Howells",
+          "summary": "Phillippe “Akira” Kato Wins American AeroPress Championship Phillippe “Akira” Kato of Boston’s Newbery Street Coffee won the 2026 American AeroPress Championship, presented by Atomic Coffee Roasters at Studio B in...",
+          "url": "https://dailycoffeenews.com/2026/08/28/weekly-coffee-news-us-aeropress-champion-coffee-101-with-the-howells/",
+          "publisher": "Daily Coffee News",
+          "published": "Fri, 28 Aug 2026 15:14:21 +0000",
           "date": "Fri, 28 Aug",
-          "headline": "Glacial lake outburst causes devastating floods in Nepal",
-          "url": "https://www.reuters.com/world/nepal-floods-live-nearly-1500-missing-including-tourists-death-toll-rises-2026-08-27/"
+          "section": "Roasting & retail"
         },
         {
-          "section": "Industry news",
-          "date": "Mon, 24 Aug",
-          "headline": "Anneli Ellsäter appointed new CEO of Löfbergs",
-          "url": "https://www.linkedin.com/posts/l%C3%B6fbergs-group_welcome-anneli-ells%C3%A4ter-our-new-ceo-activity-7496190668193767425-8vLp"
-        },
-        {
-          "section": "Industry news",
-          "date": "Mon, 24 Aug",
-          "headline": "US consumers tighten spending as inflation rises, but still splurge on coffee",
-          "url": "https://www.tbsnews.net/world/us-shoppers-tighten-budgets-still-find-room-treats-and-splurges-1521736"
-        },
-        {
-          "section": "Industry news",
-          "date": "Tue, 25 Aug",
-          "headline": "Reysol Coffee Roasters runs fundraiser for the earthquake-affected community in Balboa",
-          "url": "https://www.gofundme.com/f/help-reysol-rebuild-home?cp_src=d"
-        },
-        {
-          "section": "Industry news",
-          "date": "Tue, 25 Aug",
-          "headline": "Copenhagen's Coffee Collective announces exclusive pop-up at Rosslyn",
-          "url": "https://www.linkedin.com/posts/coffee-collective-london-pop-up-cafe-at-rosslyn-ugcPost-7495866579453411328-pO9K/"
-        },
-        {
-          "section": "Industry news",
-          "date": "Wed, 26 Aug",
-          "headline": "Scooter's Coffee names Anna Faktorovich as Chief Marketing Officer",
-          "url": "https://www.scooterscoffee.com/"
-        },
-        {
-          "section": "Industry news",
-          "date": "Wed, 26 Aug",
-          "headline": "Coffee Futures Fund seeks independent café owners for second cohort",
-          "url": "https://www.coffeefutures.fund/"
-        },
-        {
-          "section": "Industry news",
-          "date": "Thu, 27 Aug",
-          "headline": "Neumann Kaffee Gruppe publishes its CSRD-aligned 2026 Sustainability Report",
-          "url": "https://www.nkg.net/sustainabilityreport/"
-        },
-        {
-          "section": "Industry news",
-          "date": "Thu, 27 Aug",
-          "headline": "Specialty Coffee Association presents the Slate of Candidates for the 2027-29 Board of Directors election and appoints Second Vice President",
-          "url": "https://sca.coffee/sca-news/announcement/presenting-the-slate-of-candidates-for-the-2026-2028-sca-board-of-directors-elections-and-appointment-of-the-2nd-vice-president-2026"
-        },
-        {
-          "section": "Industry news",
+          "headline": "Hawaii Coffee Farms Face Long Recovery After Hurricane Lala",
+          "summary": "Coffee farms across southern Hawaii Island are assessing crop, tree and infrastructure losses following Hurricane Lala, which brought damaging winds and extreme rainfall to some of the state’s key coffee-growing...",
+          "url": "https://dailycoffeenews.com/2026/08/28/hawaii-coffee-farms-face-long-recovery-after-hurricane-lala/",
+          "publisher": "Daily Coffee News",
+          "published": "Fri, 28 Aug 2026 14:32:20 +0000",
           "date": "Fri, 28 Aug",
-          "headline": "J. M. Smucker forecasts smaller-than-expected annual sales decline on steady coffee demand",
-          "url": "https://www.ctvnews.ca/business/article/jm-smucker-forecasts-smaller-than-expected-annual-sales-decline-on-steady-coffee-demand/"
+          "section": "Top stories of the week"
         },
         {
-          "section": "New launch",
-          "date": "Mon, 24 Aug",
-          "headline": "7Brew launches canned coffee lineup and new 7Brew Energy",
-          "url": "https://www.businesswire.com/news/home/20260820423109/en/7-Brew-Grows-From-Stands-to-Stores-With-National-Ready-To-Drink-Coffee-and-Energy-Beverage-Expansion-at-Walmart"
-        },
-        {
-          "section": "New launch",
-          "date": "Mon, 24 Aug",
-          "headline": "Loring launches new knowledge base for customer support",
-          "url": "https://www.linkedin.com/posts/loring-launches-new-knowledge-base-ugcPost-7492692244190121985-9jbt/"
-        },
-        {
-          "section": "New launch",
-          "date": "Tue, 25 Aug",
-          "headline": "Subko Coffee launches Indian Gesha",
-          "url": "https://www.instagram.com/p/Db5gtHmCGnf/?img_index=1"
-        },
-        {
-          "section": "New launch",
-          "date": "Tue, 25 Aug",
-          "headline": "Dunkin' to return to Puerto Rico in 2027",
-          "url": "https://www.restaurantdive.com/news/dunkin-puerto-rico-new-opening/828686/"
-        },
-        {
-          "section": "New launch",
-          "date": "Wed, 26 Aug",
-          "headline": "Dalla Corte launches Zero Plus Series to support workflow and consistency",
-          "url": "https://www.dallacorte.com/professional-espresso-machines/zero-plus-barista.html"
-        },
-        {
-          "section": "New launch",
-          "date": "Thu, 27 Aug",
-          "headline": "Koppie launches OtherKinds, a D2C test bed for coffee complements",
-          "url": "https://www.otherkinds.co/"
-        },
-        {
-          "section": "New launch",
-          "date": "Thu, 27 Aug",
-          "headline": "Peter Roberts publishes new book unpacking the commodification of specialty coffee producers",
-          "url": "https://global.oup.com/academic/product/from-supply-and-demand-to-numbers-networks-and-narratives-9780198871460?cc=us&lang=en&"
-        },
-        {
-          "section": "New launch",
+          "headline": "Summer Of Build Outs Continues On The Coffee Sprudgecast",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. The Wild Fox, Nandan Coffee, Presta Coffee, and a Mocha Moment presented by Ghirardelli Chocolate.",
+          "url": "https://sprudge.com/summer-of-build-outs-continues-on-the-coffee-sprudgecast-1282886.html",
+          "publisher": "Sprudge",
+          "published": "Fri, 28 Aug 2026 14:00:12 +0000",
           "date": "Fri, 28 Aug",
-          "headline": "Stumptown Coffee Roasters returns to LA with flagship café and regional training space",
-          "url": "https://www.stumptowncoffee.com/"
+          "section": "Roasting & retail"
         },
         {
-          "section": "Milestone",
-          "date": "Mon, 24 Aug",
-          "headline": "Everyday Dose expands into Sam's Club in the US and appoints Kyle Thibaut as CEO",
-          "url": "https://www.prnewswire.com/news-releases/functional-coffee-leader-everyday-dose-expands-into-sams-club-nationwide-and-appoints-kyle-thibaut-as-chief-executive-officer-302855939.html"
+          "headline": "Time is running out to save coffee from environmental collapse – here’s where the fightback begins",
+          "summary": null,
+          "url": "https://www.worldcoffeeportal.com/feature/no-coffee-on-a-dead-planet/",
+          "publisher": "World Coffee Portal",
+          "published": "Fri, 28 Aug 2026 12:49:34 GMT",
+          "date": "Fri, 28 Aug",
+          "section": "Roasting & retail"
         },
         {
-          "section": "Milestone",
-          "date": "Wed, 26 Aug",
-          "headline": "J.M. Smucker Co. announces Jeff Varcoe as Senior Vice President, Science and Technical Excellence",
-          "url": "https://www.prnewswire.com/news-releases/the-jm-smucker-co-announces-the-election-of-jeff-varcoe-to-senior-vice-president-science-and-technical-excellence-302855765.html"
+          "headline": "Coffee Futures Fund Is Now Accepting Applications For The 2027 Cohort",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Applications are now open through October 15th.",
+          "url": "https://sprudge.com/coffee-futures-fund-is-now-accepting-applications-for-the-2027-cohort-1288293.html",
+          "publisher": "Sprudge",
+          "published": "Fri, 28 Aug 2026 12:00:31 +0000",
+          "date": "Fri, 28 Aug",
+          "section": "Trade & production"
         },
         {
-          "section": "Trade & production",
-          "date": "Tue, 25 Aug",
-          "headline": "Arabica coffee harvest jumps to 87% in the Expocacer region",
-          "url": "https://globorural.globo.com/agricultura/cafe/noticia/2026/08/colheita-de-cafe-arabica-chega-a-87percent-na-regiao-da-expocacer.ghtml"
+          "headline": "10 Things Your Wholesale Roaster Wants You To Know, But Is Afraid to Say",
+          "summary": "Roasters often feel misunderstood by their wholesale partners. Here’s what they wish you knew about what it’s like to run a roasting business. The post 10 Things Your Wholesale Roaster Wants You To Know, But Is Afraid to Say appeared first on Fresh Cup .",
+          "url": "https://freshcup.com/10-things-your-wholesale-roaster-wants-you-to-know-but-is-afraid-to-say/",
+          "publisher": "Fresh Cup",
+          "published": "Fri, 28 Aug 2026 11:30:00 +0000",
+          "date": "Fri, 28 Aug",
+          "section": "Roasting & retail"
         },
         {
-          "section": "Research",
-          "date": "Mon, 24 Aug",
-          "headline": "BrewAtlas publishes The State of Specialty Coffee 2026 report",
-          "url": "https://brewatlas.co/contact"
-        },
-        {
-          "section": "Research",
-          "date": "Wed, 26 Aug",
-          "headline": "Researchers build dual-sided green coffee inspection system",
-          "url": "https://www.mdpi.com/2077-0472/16/16/1796"
-        },
-        {
-          "section": "Research",
+          "headline": "NY-Based Colombian Coffee Roaster Devoción Partners With Colombia’s FNC To Support Coffee Growers After The August Earthquake",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. The Colombian-founded company is directing funds to earthquake relief and asking the rest of the coffee industry to join.",
+          "url": "https://sprudge.com/ny-based-colombian-coffee-roaster-devocion-partners-with-colombias-fnc-to-support-coffee-growers-after-the-august-earthquake-1291723.html",
+          "publisher": "Sprudge",
+          "published": "Thu, 27 Aug 2026 20:29:39 +0000",
           "date": "Thu, 27 Aug",
-          "headline": "Study finds independent third wave coffee shop interior design has become its own distinct brand",
-          "url": "https://www.sciencedirect.com/science/article/pii/S1877916626000056"
+          "section": "Top stories of the week"
         },
         {
-          "section": "Events & competitions",
-          "date": "Mon, 24 Aug",
-          "headline": "Mercadao to host Brazil Latte Art and Coffee in Good Spirits Championships in September",
-          "url": "https://www.bsca.com.br/sp-mercadao-sediara-campeonatos-brasileiros-de-barismo-em-setembro/"
-        },
-        {
-          "section": "Events & competitions",
-          "date": "Tue, 25 Aug",
-          "headline": "Brazilian Specialty Coffee Association and Alliance for Coffee Excellence to host Best of Canephora Brazil 2026",
-          "url": "https://www.bsca.com.br/event/the-best-of-canephora-2026/"
-        },
-        {
-          "section": "Events & competitions",
-          "date": "Tue, 25 Aug",
-          "headline": "Ljubljana Coffee Festival 2026 finds a new home and promises biggest edition yet",
-          "url": "https://ljubljanacoffeefestival.si/en/"
-        },
-        {
-          "section": "Events & competitions",
-          "date": "Wed, 26 Aug",
-          "headline": "The 48th SIGEP World to be held from 23 to 27 January 2027 at Rimini Expo Centre",
-          "url": "https://www.sigep.it/en"
-        },
-        {
-          "section": "Events & competitions",
+          "headline": "Coffee Design: Joe Coffee Company’s Call Time By Jordan Fisher",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Call Time By Jordan Fisher by Joe Coffee Company in New York City.",
+          "url": "https://sprudge.com/coffee-design-joe-coffee-companys-call-time-by-jordan-fisher-1278712.html",
+          "publisher": "Sprudge",
+          "published": "Thu, 27 Aug 2026 17:34:12 +0000",
           "date": "Thu, 27 Aug",
-          "headline": "Asia International Hotel Supplies & Food Expo to take place from 18 to 20 November",
-          "url": "https://www.ahsemacao.com/"
+          "section": "Roasting & retail"
         },
         {
-          "section": "Events & competitions",
-          "date": "Fri, 28 Aug",
-          "headline": "Nordic Coffee Fest announces the judges for the 2027 Nordic Best Roaster",
-          "url": "https://www.instagram.com/p/DciJd1rDNhh/"
+          "headline": "Tchibo posts strong annual revenues but warns of rising consumer price sensitivity",
+          "summary": "The Hamburg-based coffee roaster and retailer operates more than 800 coffee shops across Europe and distributes its packaged coffee range across 60 markets globally",
+          "url": "https://www.worldcoffeeportal.com/news/tchibo-posts-strong-annual-revenues-but-warns-of-rising-consumer-price-sensitivity/",
+          "publisher": "World Coffee Portal",
+          "published": "Thu, 27 Aug 2026 16:48:47 GMT",
+          "date": "Thu, 27 Aug",
+          "section": "Trade & production"
         },
         {
-          "section": "Events & competitions",
-          "date": "Fri, 28 Aug",
-          "headline": "International jury completes cuppings for Taiwan Coffee Auction 2026: Reimagining the Cup",
-          "url": "https://www.linkedin.com/posts/cityfulpress_taiwancoffee-taiwanspecialty-coffeeauction-ugcPost-7498365651938492416-0zZ2/"
+          "headline": "Learn Your Way To Origin With Cafe Imports Field Trip Costa Rica",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Complete the six ED+U courses and you could be heading to Costa Rica.",
+          "url": "https://sprudge.com/learn-your-way-to-origin-with-cafe-imports-field-trip-costa-rica-1284702.html",
+          "publisher": "Sprudge",
+          "published": "Thu, 27 Aug 2026 12:00:14 +0000",
+          "date": "Thu, 27 Aug",
+          "section": "Top stories of the week"
         },
         {
-          "section": "Events & competitions",
-          "date": "Fri, 28 Aug",
-          "headline": "Winners of the inaugural Kenneth Davids Cup announced",
-          "url": "https://www.coffeereview.com/kenneth-davids-cup-winners/"
+          "headline": "Coffee Futures Fund Seeks Independent Cafe Owners for Second Cohort",
+          "summary": "Coffee Futures Fund, a free mentorship program built for independent coffee shop owners, has opened applications for its second cohort, following a first year in which 10 participating shops reportedly...",
+          "url": "https://dailycoffeenews.com/2026/08/26/coffee-futures-fund-seeks-independent-cafe-owners-for-second-cohort/",
+          "publisher": "Daily Coffee News",
+          "published": "Wed, 26 Aug 2026 15:39:47 +0000",
+          "date": "Wed, 26 Aug",
+          "section": "Trade & production"
+        },
+        {
+          "headline": "High-Scoring Microlots Head to Best of Congo Cooperatives Auction",
+          "summary": "The third Best of Congo Cooperatives coffee auction runs Sept. 1-3, giving green coffee buyers a rare chance to buy high-scoring, traceable microlots from the Democratic Republic of Congo. Beyond...",
+          "url": "https://dailycoffeenews.com/2026/08/26/high-scoring-microlots-head-to-best-of-congo-cooperatives-auction/",
+          "publisher": "Daily Coffee News",
+          "published": "Wed, 26 Aug 2026 14:21:32 +0000",
+          "date": "Wed, 26 Aug",
+          "section": "Top stories of the week"
+        },
+        {
+          "headline": "Florida-Grown Coffee Gets Its First Serious Field Test",
+          "summary": "A new study from University of Florida researchers floats the idea that Florida-grown coffee could someday become a viable specialty crop. The study, titled “First assessment of agronomical performance of...",
+          "url": "https://dailycoffeenews.com/2026/08/26/florida-grown-coffee-gets-its-first-serious-field-test/",
+          "publisher": "Daily Coffee News",
+          "published": "Wed, 26 Aug 2026 12:26:38 +0000",
+          "date": "Wed, 26 Aug",
+          "section": "Trade & production"
+        },
+        {
+          "headline": "Social Forestry in Indonesia Seeks Room for Coffee and Conservation",
+          "summary": "Sri Atmiatun, a farmer in Indonesia’s Batutegi forest landscape, is among hundreds of community members participating in the country’s social forestry program, which grants legal access to state forest land...",
+          "url": "https://dailycoffeenews.com/2026/08/25/social-forestry-in-indonesia-seeks-room-for-coffee-and-conservation/",
+          "publisher": "Daily Coffee News",
+          "published": "Tue, 25 Aug 2026 18:56:52 +0000",
+          "date": "Tue, 25 Aug",
+          "section": "Trade & production"
+        },
+        {
+          "headline": "Sanctuary Coffee Roasting Opens a Refuge for Tasting in Fresno County",
+          "summary": "Chef-owned Sanctuary Coffee Roasting has opened a tasting lounge inside its production roastery in Clovis, California, offering a friendly haven for exploring coffee production and flavors. The lounge hosts free...",
+          "url": "https://dailycoffeenews.com/2026/08/25/sanctuary-coffee-roasting-opens-a-refuge-for-tasting-in-fresno-county/",
+          "publisher": "Daily Coffee News",
+          "published": "Tue, 25 Aug 2026 13:07:34 +0000",
+          "date": "Tue, 25 Aug",
+          "section": "Trade & production"
+        },
+        {
+          "headline": "As Earthquake Recovery Continues, Colombian Farmers Face Threat of El Niño",
+          "summary": "Despite the damage from a recent earthquake, farmers in Colombia are more concerned about the potential impact of El Niño. The post As Earthquake Recovery Continues, Colombian Farmers Face Threat of El Niño appeared first on Fresh Cup .",
+          "url": "https://freshcup.com/as-earthquake-recovery-continues-colombian-farmers-face-threat-of-el-nino/",
+          "publisher": "Fresh Cup",
+          "published": "Tue, 25 Aug 2026 11:00:00 +0000",
+          "date": "Tue, 25 Aug",
+          "section": "Top stories of the week"
+        },
+        {
+          "headline": "Coffee News Club: Week of August 24",
+          "summary": "Unicorn Frappuccino? Not at these unionized Starbucks stores. Plus, Colombian coffee farmers recovering from the recent earthquake fear the impact of El Niño, and why do so many specialty coffee shops look the same? Researchers try to find out. The post…",
+          "url": "https://freshcup.com/coffee-news-club-week-of-august-24/",
+          "publisher": "Fresh Cup",
+          "published": "Mon, 24 Aug 2026 11:00:00 +0000",
+          "date": "Mon, 24 Aug",
+          "section": "Top stories of the week"
         }
-      ]
+      ],
+      "errors": [],
+      "note": "Assembled from the coffee trade press over the past seven days, ranked by relevance to the physical trade. Headlines and links are each publisher’s own."
     },
     "dailyRead": {
-      "fetchedAt": "2026-08-28T20:15:22.556Z",
+      "fetchedAt": "2026-08-29T09:26:32.225Z",
       "article": {
         "title": "Hawaii Coffee Farms Face Long Recovery After Hurricane Lala",
         "summary": "Coffee farms across southern Hawaii Island are assessing crop, tree and infrastructure losses following Hurricane Lala, which brought damaging winds and extreme rainfall to some of the state’s key coffee-growing...",
@@ -3924,52 +3860,598 @@
       "considered": 10
     }
   },
+  "ico": {
+    "source": "International Coffee Organization",
+    "sourceUrl": "https://ico.org/coffee-market-report/",
+    "report": {
+      "month": "2026-07",
+      "label": "July 2026",
+      "url": "https://www.ico.org/documents/cy2025-26/cmr-0726-e.pdf",
+      "fetchedAt": "2026-08-29T09:24:23.941Z"
+    },
+    "unit": "US cents/lb",
+    "stocksUnit": "million 60-kg bags",
+    "indicators": {
+      "series": [
+        {
+          "key": "composite",
+          "label": "ICO Composite"
+        },
+        {
+          "key": "colombianMilds",
+          "label": "Colombian Milds"
+        },
+        {
+          "key": "otherMilds",
+          "label": "Other Milds"
+        },
+        {
+          "key": "brazilianNaturals",
+          "label": "Brazilian Naturals"
+        },
+        {
+          "key": "robustas",
+          "label": "Robustas"
+        },
+        {
+          "key": "newYork",
+          "label": "New York (Arabica futures)"
+        },
+        {
+          "key": "london",
+          "label": "London (Robusta futures)"
+        }
+      ],
+      "points": [
+        {
+          "month": "2025-08",
+          "label": "August 2025",
+          "values": {
+            "composite": 297.05,
+            "colombianMilds": 366.72,
+            "otherMilds": 366.32,
+            "brazilianNaturals": 336.88,
+            "robustas": 199.13,
+            "newYork": 328.57,
+            "london": 181.43
+          }
+        },
+        {
+          "month": "2025-09",
+          "label": "September 2025",
+          "values": {
+            "composite": 324.62,
+            "colombianMilds": 403.77,
+            "otherMilds": 400.21,
+            "brazilianNaturals": 374.91,
+            "robustas": 210.85,
+            "newYork": 366.31,
+            "london": 197.56
+          }
+        },
+        {
+          "month": "2025-10",
+          "label": "October 2025",
+          "values": {
+            "composite": 326.38,
+            "colombianMilds": 403.25,
+            "otherMilds": 403.79,
+            "brazilianNaturals": 373.47,
+            "robustas": 215.06,
+            "newYork": 366,
+            "london": 202.16
+          }
+        },
+        {
+          "month": "2025-11",
+          "label": "November 2025",
+          "values": {
+            "composite": 330.44,
+            "colombianMilds": 408.75,
+            "otherMilds": 410.31,
+            "brazilianNaturals": 380.17,
+            "robustas": 214.91,
+            "newYork": 373.57,
+            "london": 202.33
+          }
+        },
+        {
+          "month": "2025-12",
+          "label": "December 2025",
+          "values": {
+            "composite": 304.68,
+            "colombianMilds": 382.32,
+            "otherMilds": 381.14,
+            "brazilianNaturals": 355.38,
+            "robustas": 190.53,
+            "newYork": 347.71,
+            "london": 178.87
+          }
+        },
+        {
+          "month": "2026-01",
+          "label": "January 2026",
+          "values": {
+            "composite": 296.89,
+            "colombianMilds": 371.59,
+            "otherMilds": 363.94,
+            "brazilianNaturals": 343.77,
+            "robustas": 192.52,
+            "newYork": 334.99,
+            "london": 180.23
+          }
+        },
+        {
+          "month": "2026-02",
+          "label": "February 2026",
+          "values": {
+            "composite": 267.57,
+            "colombianMilds": 330.89,
+            "otherMilds": 321.35,
+            "brazilianNaturals": 308.62,
+            "robustas": 179.73,
+            "newYork": 288.76,
+            "london": 166.06
+          }
+        },
+        {
+          "month": "2026-03",
+          "label": "March 2026",
+          "values": {
+            "composite": 273.7,
+            "colombianMilds": 337.45,
+            "otherMilds": 334.34,
+            "brazilianNaturals": 320.51,
+            "robustas": 176.77,
+            "newYork": 290.18,
+            "london": 161.91
+          }
+        },
+        {
+          "month": "2026-04",
+          "label": "April 2026",
+          "values": {
+            "composite": 266.24,
+            "colombianMilds": 334.56,
+            "otherMilds": 331.22,
+            "brazilianNaturals": 313.76,
+            "robustas": 164.64,
+            "newYork": 284.63,
+            "london": 150.65
+          }
+        },
+        {
+          "month": "2026-05",
+          "label": "May 2026",
+          "values": {
+            "composite": 256.05,
+            "colombianMilds": 323.45,
+            "otherMilds": 315.42,
+            "brazilianNaturals": 293.73,
+            "robustas": 166.51,
+            "newYork": 268.18,
+            "london": 151.79
+          }
+        },
+        {
+          "month": "2026-06",
+          "label": "June 2026",
+          "values": {
+            "composite": 248.9,
+            "colombianMilds": 324.6,
+            "otherMilds": 307.83,
+            "brazilianNaturals": 272.01,
+            "robustas": 169.39,
+            "newYork": 256.75,
+            "london": 155.9
+          }
+        },
+        {
+          "month": "2026-07",
+          "label": "July 2026",
+          "values": {
+            "composite": 287.26,
+            "colombianMilds": 383.39,
+            "otherMilds": 358.65,
+            "brazilianNaturals": 320.69,
+            "robustas": 184.78,
+            "newYork": 310.34,
+            "london": 172.73
+          }
+        }
+      ]
+    },
+    "differentials": {
+      "series": [
+        {
+          "key": "colombianMilds-otherMilds",
+          "label": "Colombian Milds − Other Milds"
+        },
+        {
+          "key": "colombianMilds-brazilianNaturals",
+          "label": "Colombian Milds − Brazilian Naturals"
+        },
+        {
+          "key": "colombianMilds-robustas",
+          "label": "Colombian Milds − Robustas"
+        },
+        {
+          "key": "otherMilds-brazilianNaturals",
+          "label": "Other Milds − Brazilian Naturals"
+        },
+        {
+          "key": "otherMilds-robustas",
+          "label": "Other Milds − Robustas"
+        },
+        {
+          "key": "brazilianNaturals-robustas",
+          "label": "Brazilian Naturals − Robustas"
+        },
+        {
+          "key": "newYork-london",
+          "label": "New York − London arbitrage"
+        }
+      ],
+      "points": [
+        {
+          "month": "2025-07",
+          "label": "July 2025",
+          "values": {
+            "colombianMilds-otherMilds": -3.13,
+            "colombianMilds-brazilianNaturals": 25.32,
+            "colombianMilds-robustas": 155.17,
+            "otherMilds-brazilianNaturals": 28.45,
+            "otherMilds-robustas": 158.31,
+            "brazilianNaturals-robustas": 129.85,
+            "newYork-london": 135.74
+          }
+        },
+        {
+          "month": "2025-08",
+          "label": "August 2025",
+          "values": {
+            "colombianMilds-otherMilds": 0.41,
+            "colombianMilds-brazilianNaturals": 29.84,
+            "colombianMilds-robustas": 167.6,
+            "otherMilds-brazilianNaturals": 29.43,
+            "otherMilds-robustas": 167.19,
+            "brazilianNaturals-robustas": 137.76,
+            "newYork-london": 147.14
+          }
+        },
+        {
+          "month": "2025-09",
+          "label": "September 2025",
+          "values": {
+            "colombianMilds-otherMilds": 3.56,
+            "colombianMilds-brazilianNaturals": 28.86,
+            "colombianMilds-robustas": 192.92,
+            "otherMilds-brazilianNaturals": 25.3,
+            "otherMilds-robustas": 189.36,
+            "brazilianNaturals-robustas": 164.07,
+            "newYork-london": 168.75
+          }
+        },
+        {
+          "month": "2025-10",
+          "label": "October 2025",
+          "values": {
+            "colombianMilds-otherMilds": -0.54,
+            "colombianMilds-brazilianNaturals": 29.78,
+            "colombianMilds-robustas": 188.19,
+            "otherMilds-brazilianNaturals": 30.32,
+            "otherMilds-robustas": 188.73,
+            "brazilianNaturals-robustas": 158.41,
+            "newYork-london": 163.84
+          }
+        },
+        {
+          "month": "2025-11",
+          "label": "November 2025",
+          "values": {
+            "colombianMilds-otherMilds": -1.56,
+            "colombianMilds-brazilianNaturals": 28.59,
+            "colombianMilds-robustas": 193.84,
+            "otherMilds-brazilianNaturals": 30.14,
+            "otherMilds-robustas": 195.4,
+            "brazilianNaturals-robustas": 165.26,
+            "newYork-london": 171.24
+          }
+        },
+        {
+          "month": "2025-12",
+          "label": "December 2025",
+          "values": {
+            "colombianMilds-otherMilds": 1.18,
+            "colombianMilds-brazilianNaturals": 26.95,
+            "colombianMilds-robustas": 191.8,
+            "otherMilds-brazilianNaturals": 25.76,
+            "otherMilds-robustas": 190.61,
+            "brazilianNaturals-robustas": 164.85,
+            "newYork-london": 168.85
+          }
+        },
+        {
+          "month": "2026-01",
+          "label": "January 2026",
+          "values": {
+            "colombianMilds-otherMilds": 7.65,
+            "colombianMilds-brazilianNaturals": 27.83,
+            "colombianMilds-robustas": 179.08,
+            "otherMilds-brazilianNaturals": 20.18,
+            "otherMilds-robustas": 171.43,
+            "brazilianNaturals-robustas": 151.25,
+            "newYork-london": 154.75
+          }
+        },
+        {
+          "month": "2026-02",
+          "label": "February 2026",
+          "values": {
+            "colombianMilds-otherMilds": 9.54,
+            "colombianMilds-brazilianNaturals": 22.27,
+            "colombianMilds-robustas": 151.16,
+            "otherMilds-brazilianNaturals": 12.73,
+            "otherMilds-robustas": 141.62,
+            "brazilianNaturals-robustas": 128.89,
+            "newYork-london": 122.7
+          }
+        },
+        {
+          "month": "2026-03",
+          "label": "March 2026",
+          "values": {
+            "colombianMilds-otherMilds": 3.12,
+            "colombianMilds-brazilianNaturals": 16.95,
+            "colombianMilds-robustas": 160.69,
+            "otherMilds-brazilianNaturals": 13.83,
+            "otherMilds-robustas": 157.57,
+            "brazilianNaturals-robustas": 143.74,
+            "newYork-london": 128.27
+          }
+        },
+        {
+          "month": "2026-04",
+          "label": "April 2026",
+          "values": {
+            "colombianMilds-otherMilds": 3.34,
+            "colombianMilds-brazilianNaturals": 20.8,
+            "colombianMilds-robustas": 169.92,
+            "otherMilds-brazilianNaturals": 17.46,
+            "otherMilds-robustas": 166.58,
+            "brazilianNaturals-robustas": 149.12,
+            "newYork-london": 133.99
+          }
+        },
+        {
+          "month": "2026-05",
+          "label": "May 2026",
+          "values": {
+            "colombianMilds-otherMilds": 8.03,
+            "colombianMilds-brazilianNaturals": 29.72,
+            "colombianMilds-robustas": 156.94,
+            "otherMilds-brazilianNaturals": 21.69,
+            "otherMilds-robustas": 148.91,
+            "brazilianNaturals-robustas": 127.21,
+            "newYork-london": 116.39
+          }
+        },
+        {
+          "month": "2026-06",
+          "label": "June 2026",
+          "values": {
+            "colombianMilds-otherMilds": 16.77,
+            "colombianMilds-brazilianNaturals": 52.59,
+            "colombianMilds-robustas": 155.21,
+            "otherMilds-brazilianNaturals": 35.82,
+            "otherMilds-robustas": 138.44,
+            "brazilianNaturals-robustas": 102.62,
+            "newYork-london": 100.86
+          }
+        },
+        {
+          "month": "2026-07",
+          "label": "July 2026",
+          "values": {
+            "colombianMilds-otherMilds": 24.74,
+            "colombianMilds-brazilianNaturals": 62.7,
+            "colombianMilds-robustas": 198.61,
+            "otherMilds-brazilianNaturals": 37.96,
+            "otherMilds-robustas": 173.86,
+            "brazilianNaturals-robustas": 135.91,
+            "newYork-london": 137.61
+          }
+        }
+      ]
+    },
+    "certifiedStocks": {
+      "series": [
+        {
+          "key": "newYork",
+          "label": "New York"
+        },
+        {
+          "key": "london",
+          "label": "London"
+        }
+      ],
+      "points": [
+        {
+          "month": "2025-09",
+          "label": "September 2025",
+          "values": {
+            "newYork": 0.62,
+            "london": 1.08
+          }
+        },
+        {
+          "month": "2025-10",
+          "label": "October 2025",
+          "values": {
+            "newYork": 0.47,
+            "london": 1.01
+          }
+        },
+        {
+          "month": "2025-11",
+          "label": "November 2025",
+          "values": {
+            "newYork": 0.44,
+            "london": 0.73
+          }
+        },
+        {
+          "month": "2025-12",
+          "label": "December 2025",
+          "values": {
+            "newYork": 0.48,
+            "london": 0.71
+          }
+        },
+        {
+          "month": "2026-01",
+          "label": "January 2026",
+          "values": {
+            "newYork": 0.46,
+            "london": 0.76
+          }
+        },
+        {
+          "month": "2026-02",
+          "label": "February 2026",
+          "values": {
+            "newYork": 0.52,
+            "london": 0.76
+          }
+        },
+        {
+          "month": "2026-03",
+          "label": "March 2026",
+          "values": {
+            "newYork": 0.61,
+            "london": 0.68
+          }
+        },
+        {
+          "month": "2026-05",
+          "label": "May 2026",
+          "values": {
+            "newYork": 0.48,
+            "london": 0.64
+          }
+        },
+        {
+          "month": "2026-06",
+          "label": "June 2026",
+          "values": {
+            "newYork": 0.41,
+            "london": 0.68
+          }
+        },
+        {
+          "month": "2026-07",
+          "label": "July 2026",
+          "values": {
+            "newYork": 0.29,
+            "london": 0.69
+          }
+        }
+      ]
+    },
+    "revisions": [],
+    "note": "ICO publishes origin/quality groups and the spreads between them. These are not per-mark FOB differentials, and no certification breakdown is published."
+  },
   "differentials": {
     "updatedAt": null,
     "sourceDocument": null,
     "sourceType": null,
     "enteredBy": null,
-    "note": "PRIVATE DATA WARNING: this repository is public. Broker differentials and trader circulars are proprietary — committing them here makes them world-readable and permanent in git history. Keep this file to figures you are content to publish, or move the site to a private repo on a paid plan first. Physical differentials have no free machine-readable feed; this file is populated by hand, or by the planned ICO / trade-report PDF upload.",
+    "note": "OPTIONAL OVERRIDE — normally empty. The ICO Coffee Market Report is now fetched and parsed every run, and supplies group indicator prices, the differentials between those groups, and certified stocks. This file exists only for figures held in a document the pipeline cannot reach. PRIVATE DATA WARNING: this repository is public. Broker differentials and trader circulars are proprietary, and committing them here makes them world-readable and permanent in git history. Keep this file to figures you are content to publish, or move the site to a private repo on a paid plan first.",
     "entries": []
   },
   "certifiedStocks": {
     "updatedAt": null,
     "sourceDocument": null,
     "sourceType": null,
-    "note": "PRIVATE DATA WARNING: this repository is public — do not commit figures you are not content to publish, and never paste broker or trader material here. ICE publishes certified stocks daily but only behind bot protection; every free API found was a paid reseller. Populated by hand or by PDF upload.",
+    "note": "OPTIONAL OVERRIDE — normally empty. Certified stocks now come from the ICO Coffee Market Report, which publishes a monthly figure for the New York and London markets. ICE's own daily report remains behind bot protection, and every free API found for it was a paid reseller. PRIVATE DATA WARNING: this repository is public — do not commit figures you are not content to publish, and never paste broker or trader material here.",
     "series": []
   },
   "status": [
     {
       "source": "daily-read",
       "ok": true,
-      "ms": 192
+      "ms": 143
     },
     {
       "source": "weather",
       "ok": true,
-      "ms": 302
+      "ms": 291
+    },
+    {
+      "source": "weekly-recap",
+      "ok": true,
+      "ms": 453
     },
     {
       "source": "arabica-futures",
       "ok": true,
-      "ms": 708
+      "ms": 605
     },
     {
-      "source": "pdg-roundup",
-      "ok": false,
-      "ms": 1118,
-      "error": "HTTP 403 for https://perfectdailygrind.com/category/weekly-round-up/"
-    },
-    {
-      "source": "fx",
+      "source": "ico-report",
       "ok": true,
-      "ms": 1277
+      "ms": 842
     },
     {
       "source": "origin-wire",
       "ok": true,
-      "ms": 2167
+      "ms": 1527
+    },
+    {
+      "source": "fx",
+      "ok": true,
+      "ms": 1883
     }
-  ]
+  ],
+  "brief": {
+    "generatedAt": "2026-08-29T09:26:33.971Z",
+    "sentences": [
+      {
+        "category": "price",
+        "rule": "lead",
+        "text": "Arabica for Dec 2026 last traded at 312.60 US cents a pound, down 9.55 cents (-3.0%) on the session."
+      },
+      {
+        "category": "price",
+        "rule": "rolled",
+        "text": "Volume has rolled to the second month: KCU26 traded 16 lots against KCZ26's 16,612, which is why the board shows Dec 2026."
+      },
+      {
+        "category": "technical",
+        "rule": "movingAverages",
+        "text": "It sits below the 20-day mean (318.88) and above the 200-day (291.32)."
+      },
+      {
+        "category": "physical",
+        "rule": "icoDifferential",
+        "text": "Among ICO's group differentials, Colombian Milds − Robustas moved most, widening to 198.61 cents in July 2026 from 155.21."
+      },
+      {
+        "category": "physical",
+        "rule": "icoIndicator",
+        "text": "ICO's composite indicator averaged 287.26 US cents in July 2026, +15.4% on the month."
+      },
+      {
+        "category": "currency",
+        "rule": "currency",
+        "text": "Sterling is 1.3583 against the dollar (+0.01% on the day), and the dollar buys 5.1641 reais (+0.43%)."
+      },
+      {
+        "category": "origin",
+        "rule": "weatherFlags",
+        "text": "2 of 12 origin regions carry a weather flag: Dak Lak, Lam Dong."
+      }
+    ],
+    "method": "Composed by rule from the figures on this page. No language model is involved, and no figure is introduced that is not published above."
+  }
 }

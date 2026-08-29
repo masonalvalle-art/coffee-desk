@@ -1,0 +1,462 @@
+{
+  "updatedAt": "2026-08-29T09:24:23.947Z",
+  "reports": [
+    {
+      "month": "2026-07",
+      "label": "July 2026",
+      "url": "https://www.ico.org/documents/cy2025-26/cmr-0726-e.pdf",
+      "fetchedAt": "2026-08-29T09:24:23.941Z"
+    }
+  ],
+  "series": {
+    "indicators": [
+      {
+        "key": "composite",
+        "label": "ICO Composite"
+      },
+      {
+        "key": "colombianMilds",
+        "label": "Colombian Milds"
+      },
+      {
+        "key": "otherMilds",
+        "label": "Other Milds"
+      },
+      {
+        "key": "brazilianNaturals",
+        "label": "Brazilian Naturals"
+      },
+      {
+        "key": "robustas",
+        "label": "Robustas"
+      },
+      {
+        "key": "newYork",
+        "label": "New York (Arabica futures)"
+      },
+      {
+        "key": "london",
+        "label": "London (Robusta futures)"
+      }
+    ],
+    "differentials": [
+      {
+        "key": "colombianMilds-otherMilds",
+        "label": "Colombian Milds − Other Milds"
+      },
+      {
+        "key": "colombianMilds-brazilianNaturals",
+        "label": "Colombian Milds − Brazilian Naturals"
+      },
+      {
+        "key": "colombianMilds-robustas",
+        "label": "Colombian Milds − Robustas"
+      },
+      {
+        "key": "otherMilds-brazilianNaturals",
+        "label": "Other Milds − Brazilian Naturals"
+      },
+      {
+        "key": "otherMilds-robustas",
+        "label": "Other Milds − Robustas"
+      },
+      {
+        "key": "brazilianNaturals-robustas",
+        "label": "Brazilian Naturals − Robustas"
+      },
+      {
+        "key": "newYork-london",
+        "label": "New York − London arbitrage"
+      }
+    ],
+    "certifiedStocks": [
+      {
+        "key": "newYork",
+        "label": "New York"
+      },
+      {
+        "key": "london",
+        "label": "London"
+      }
+    ]
+  },
+  "months": {
+    "indicators": {
+      "2025-08": {
+        "label": "August 2025",
+        "values": {
+          "composite": 297.05,
+          "colombianMilds": 366.72,
+          "otherMilds": 366.32,
+          "brazilianNaturals": 336.88,
+          "robustas": 199.13,
+          "newYork": 328.57,
+          "london": 181.43
+        }
+      },
+      "2025-09": {
+        "label": "September 2025",
+        "values": {
+          "composite": 324.62,
+          "colombianMilds": 403.77,
+          "otherMilds": 400.21,
+          "brazilianNaturals": 374.91,
+          "robustas": 210.85,
+          "newYork": 366.31,
+          "london": 197.56
+        }
+      },
+      "2025-10": {
+        "label": "October 2025",
+        "values": {
+          "composite": 326.38,
+          "colombianMilds": 403.25,
+          "otherMilds": 403.79,
+          "brazilianNaturals": 373.47,
+          "robustas": 215.06,
+          "newYork": 366,
+          "london": 202.16
+        }
+      },
+      "2025-11": {
+        "label": "November 2025",
+        "values": {
+          "composite": 330.44,
+          "colombianMilds": 408.75,
+          "otherMilds": 410.31,
+          "brazilianNaturals": 380.17,
+          "robustas": 214.91,
+          "newYork": 373.57,
+          "london": 202.33
+        }
+      },
+      "2025-12": {
+        "label": "December 2025",
+        "values": {
+          "composite": 304.68,
+          "colombianMilds": 382.32,
+          "otherMilds": 381.14,
+          "brazilianNaturals": 355.38,
+          "robustas": 190.53,
+          "newYork": 347.71,
+          "london": 178.87
+        }
+      },
+      "2026-01": {
+        "label": "January 2026",
+        "values": {
+          "composite": 296.89,
+          "colombianMilds": 371.59,
+          "otherMilds": 363.94,
+          "brazilianNaturals": 343.77,
+          "robustas": 192.52,
+          "newYork": 334.99,
+          "london": 180.23
+        }
+      },
+      "2026-02": {
+        "label": "February 2026",
+        "values": {
+          "composite": 267.57,
+          "colombianMilds": 330.89,
+          "otherMilds": 321.35,
+          "brazilianNaturals": 308.62,
+          "robustas": 179.73,
+          "newYork": 288.76,
+          "london": 166.06
+        }
+      },
+      "2026-03": {
+        "label": "March 2026",
+        "values": {
+          "composite": 273.7,
+          "colombianMilds": 337.45,
+          "otherMilds": 334.34,
+          "brazilianNaturals": 320.51,
+          "robustas": 176.77,
+          "newYork": 290.18,
+          "london": 161.91
+        }
+      },
+      "2026-04": {
+        "label": "April 2026",
+        "values": {
+          "composite": 266.24,
+          "colombianMilds": 334.56,
+          "otherMilds": 331.22,
+          "brazilianNaturals": 313.76,
+          "robustas": 164.64,
+          "newYork": 284.63,
+          "london": 150.65
+        }
+      },
+      "2026-05": {
+        "label": "May 2026",
+        "values": {
+          "composite": 256.05,
+          "colombianMilds": 323.45,
+          "otherMilds": 315.42,
+          "brazilianNaturals": 293.73,
+          "robustas": 166.51,
+          "newYork": 268.18,
+          "london": 151.79
+        }
+      },
+      "2026-06": {
+        "label": "June 2026",
+        "values": {
+          "composite": 248.9,
+          "colombianMilds": 324.6,
+          "otherMilds": 307.83,
+          "brazilianNaturals": 272.01,
+          "robustas": 169.39,
+          "newYork": 256.75,
+          "london": 155.9
+        }
+      },
+      "2026-07": {
+        "label": "July 2026",
+        "values": {
+          "composite": 287.26,
+          "colombianMilds": 383.39,
+          "otherMilds": 358.65,
+          "brazilianNaturals": 320.69,
+          "robustas": 184.78,
+          "newYork": 310.34,
+          "london": 172.73
+        }
+      }
+    },
+    "differentials": {
+      "2025-07": {
+        "label": "July 2025",
+        "values": {
+          "colombianMilds-otherMilds": -3.13,
+          "colombianMilds-brazilianNaturals": 25.32,
+          "colombianMilds-robustas": 155.17,
+          "otherMilds-brazilianNaturals": 28.45,
+          "otherMilds-robustas": 158.31,
+          "brazilianNaturals-robustas": 129.85,
+          "newYork-london": 135.74
+        }
+      },
+      "2025-08": {
+        "label": "August 2025",
+        "values": {
+          "colombianMilds-otherMilds": 0.41,
+          "colombianMilds-brazilianNaturals": 29.84,
+          "colombianMilds-robustas": 167.6,
+          "otherMilds-brazilianNaturals": 29.43,
+          "otherMilds-robustas": 167.19,
+          "brazilianNaturals-robustas": 137.76,
+          "newYork-london": 147.14
+        }
+      },
+      "2025-09": {
+        "label": "September 2025",
+        "values": {
+          "colombianMilds-otherMilds": 3.56,
+          "colombianMilds-brazilianNaturals": 28.86,
+          "colombianMilds-robustas": 192.92,
+          "otherMilds-brazilianNaturals": 25.3,
+          "otherMilds-robustas": 189.36,
+          "brazilianNaturals-robustas": 164.07,
+          "newYork-london": 168.75
+        }
+      },
+      "2025-10": {
+        "label": "October 2025",
+        "values": {
+          "colombianMilds-otherMilds": -0.54,
+          "colombianMilds-brazilianNaturals": 29.78,
+          "colombianMilds-robustas": 188.19,
+          "otherMilds-brazilianNaturals": 30.32,
+          "otherMilds-robustas": 188.73,
+          "brazilianNaturals-robustas": 158.41,
+          "newYork-london": 163.84
+        }
+      },
+      "2025-11": {
+        "label": "November 2025",
+        "values": {
+          "colombianMilds-otherMilds": -1.56,
+          "colombianMilds-brazilianNaturals": 28.59,
+          "colombianMilds-robustas": 193.84,
+          "otherMilds-brazilianNaturals": 30.14,
+          "otherMilds-robustas": 195.4,
+          "brazilianNaturals-robustas": 165.26,
+          "newYork-london": 171.24
+        }
+      },
+      "2025-12": {
+        "label": "December 2025",
+        "values": {
+          "colombianMilds-otherMilds": 1.18,
+          "colombianMilds-brazilianNaturals": 26.95,
+          "colombianMilds-robustas": 191.8,
+          "otherMilds-brazilianNaturals": 25.76,
+          "otherMilds-robustas": 190.61,
+          "brazilianNaturals-robustas": 164.85,
+          "newYork-london": 168.85
+        }
+      },
+      "2026-01": {
+        "label": "January 2026",
+        "values": {
+          "colombianMilds-otherMilds": 7.65,
+          "colombianMilds-brazilianNaturals": 27.83,
+          "colombianMilds-robustas": 179.08,
+          "otherMilds-brazilianNaturals": 20.18,
+          "otherMilds-robustas": 171.43,
+          "brazilianNaturals-robustas": 151.25,
+          "newYork-london": 154.75
+        }
+      },
+      "2026-02": {
+        "label": "February 2026",
+        "values": {
+          "colombianMilds-otherMilds": 9.54,
+          "colombianMilds-brazilianNaturals": 22.27,
+          "colombianMilds-robustas": 151.16,
+          "otherMilds-brazilianNaturals": 12.73,
+          "otherMilds-robustas": 141.62,
+          "brazilianNaturals-robustas": 128.89,
+          "newYork-london": 122.7
+        }
+      },
+      "2026-03": {
+        "label": "March 2026",
+        "values": {
+          "colombianMilds-otherMilds": 3.12,
+          "colombianMilds-brazilianNaturals": 16.95,
+          "colombianMilds-robustas": 160.69,
+          "otherMilds-brazilianNaturals": 13.83,
+          "otherMilds-robustas": 157.57,
+          "brazilianNaturals-robustas": 143.74,
+          "newYork-london": 128.27
+        }
+      },
+      "2026-04": {
+        "label": "April 2026",
+        "values": {
+          "colombianMilds-otherMilds": 3.34,
+          "colombianMilds-brazilianNaturals": 20.8,
+          "colombianMilds-robustas": 169.92,
+          "otherMilds-brazilianNaturals": 17.46,
+          "otherMilds-robustas": 166.58,
+          "brazilianNaturals-robustas": 149.12,
+          "newYork-london": 133.99
+        }
+      },
+      "2026-05": {
+        "label": "May 2026",
+        "values": {
+          "colombianMilds-otherMilds": 8.03,
+          "colombianMilds-brazilianNaturals": 29.72,
+          "colombianMilds-robustas": 156.94,
+          "otherMilds-brazilianNaturals": 21.69,
+          "otherMilds-robustas": 148.91,
+          "brazilianNaturals-robustas": 127.21,
+          "newYork-london": 116.39
+        }
+      },
+      "2026-06": {
+        "label": "June 2026",
+        "values": {
+          "colombianMilds-otherMilds": 16.77,
+          "colombianMilds-brazilianNaturals": 52.59,
+          "colombianMilds-robustas": 155.21,
+          "otherMilds-brazilianNaturals": 35.82,
+          "otherMilds-robustas": 138.44,
+          "brazilianNaturals-robustas": 102.62,
+          "newYork-london": 100.86
+        }
+      },
+      "2026-07": {
+        "label": "July 2026",
+        "values": {
+          "colombianMilds-otherMilds": 24.74,
+          "colombianMilds-brazilianNaturals": 62.7,
+          "colombianMilds-robustas": 198.61,
+          "otherMilds-brazilianNaturals": 37.96,
+          "otherMilds-robustas": 173.86,
+          "brazilianNaturals-robustas": 135.91,
+          "newYork-london": 137.61
+        }
+      }
+    },
+    "certifiedStocks": {
+      "2025-09": {
+        "label": "September 2025",
+        "values": {
+          "newYork": 0.62,
+          "london": 1.08
+        }
+      },
+      "2025-10": {
+        "label": "October 2025",
+        "values": {
+          "newYork": 0.47,
+          "london": 1.01
+        }
+      },
+      "2025-11": {
+        "label": "November 2025",
+        "values": {
+          "newYork": 0.44,
+          "london": 0.73
+        }
+      },
+      "2025-12": {
+        "label": "December 2025",
+        "values": {
+          "newYork": 0.48,
+          "london": 0.71
+        }
+      },
+      "2026-01": {
+        "label": "January 2026",
+        "values": {
+          "newYork": 0.46,
+          "london": 0.76
+        }
+      },
+      "2026-02": {
+        "label": "February 2026",
+        "values": {
+          "newYork": 0.52,
+          "london": 0.76
+        }
+      },
+      "2026-03": {
+        "label": "March 2026",
+        "values": {
+          "newYork": 0.61,
+          "london": 0.68
+        }
+      },
+      "2026-05": {
+        "label": "May 2026",
+        "values": {
+          "newYork": 0.48,
+          "london": 0.64
+        }
+      },
+      "2026-06": {
+        "label": "June 2026",
+        "values": {
+          "newYork": 0.41,
+          "london": 0.68
+        }
+      },
+      "2026-07": {
+        "label": "July 2026",
+        "values": {
+          "newYork": 0.29,
+          "london": 0.69
+        }
+      }
+    }
+  },
+  "revisions": []
+}

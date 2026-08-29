@@ -49,9 +49,12 @@ index.html                     the page; sections carry sec-* classes for CSS ta
 assets/style.css               the whole look: tokens, components, responsive last
 assets/app.js                  renders data/latest.json; draws the SVG chart and icons
 data/latest.json               generated each run — the page reads only this
-data/manual/*.json             hand-maintained: differentials, certified stocks, PDG recap
+data/ico-history.json          accumulated ICO series; committed, and must stay so
+data/manual/*.json             optional hand-entered overrides; normally empty
 scripts/fetch-data.mjs         orchestrator: fetches everything, writes latest.json
-scripts/sources/*.mjs          one module per source
+scripts/sources/*.mjs          one module per source (futures, fx, weather, news, ico)
+scripts/lib/pdf.mjs            positioned-text PDF extractor, node:zlib only
+scripts/lib/brief.mjs          the daily brief, composed by rule
 scripts/lib/indicators.mjs     RSI, MACD, ATR, pivots, Donchian
 scripts/lib/contracts.mjs      contract-month enumeration and roll detection
 scripts/serve.pl               local harness (above)
@@ -66,21 +69,69 @@ workflow, nothing to audit. Keep it that way if you can.
 
 Don't spend time re-testing these; it has been done thoroughly.
 
-- **Perfect Daily Grind** — the WAF rejects every non-browser client. 403 on the article,
-  the RSS feed, the sitemap, and through a reader proxy, regardless of headers, because the
-  block is on TLS/client fingerprint rather than address. A real browser gets through, which
-  is how the recap in `data/manual/pdg-roundup.json` was captured. The pipeline still
-  attempts the live fetch every run and prefers it the moment it works.
-  **Weekly chore:** refresh that file each Friday from the newest post in
-  <https://perfectdailygrind.com/category/weekly-round-up/>. The page states which copy it
-  is showing and when it was captured.
-- **ICE certified stocks** — published daily but behind bot protection; every "free API"
-  found was a paid reseller.
-- **Physical differentials** — circulated privately by brokers. No free feed exists.
+- **Perfect Daily Grind** — the WAF rejects every non-browser client, on TLS/client
+  fingerprint rather than address. Tested three ways: **PowerShell/.NET gets 200; curl and
+  Node's `fetch` both get 403.** A GitHub runner has curl and Node, so it will never get
+  through, and the fact that a request from this machine can succeed proves nothing. PDG was
+  therefore dropped entirely rather than kept as a fallback — a permanently failing entry in
+  the fetch log buys nothing. The weekly recap is now assembled from feeds that do work
+  (see below). There is no weekly chore any more.
+- **ICE certified stocks** — ICE's own daily report is behind bot protection and every "free
+  API" found was a paid reseller. **A monthly figure is now published, from ICO Table 5.**
+- **Physical differentials, per mark** — circulated privately by brokers; no free feed. ICO's
+  *group* differentials are published and now on the page, but they are spreads between
+  quality groups, not the FOB premium for a named mark. Do not present one as the other.
+- **Certification data** — no free source publishes Fairtrade/Organic/Rainforest
+  differentials at all. The schema carries the field; nothing fills it.
 - **Robusta price history** — no free provider publishes it, which is why Robusta was
   dropped entirely. Robusta *growing regions* remain on the weather table, because that data
-  is complete.
+  is complete. Note ICO *does* publish a monthly Robustas group indicator, which is on the
+  page — a monthly average, not the daily series a chart would need.
 - **Pinterest** — serves a JS shell with no pins in the HTML. Cannot be read server-side.
+
+## The ICO report
+
+`scripts/sources/ico.mjs` fetches and parses the monthly ICO Coffee Market Report, which is
+free, public, and the only source found for anything in the Physical Market section.
+
+- **Discovery, not URL guessing.** The index at <https://ico.org/coffee-market-report/> is
+  scraped for the newest `cmr-MMYY-e.pdf`. The pattern is predictable but the coffee-year
+  folder rolls each October, so guessing works for eleven months and then quietly stops.
+- Three tables are read: **Table 1** indicator prices by group, **Table 2** group
+  differentials, **Table 5** certified stocks on New York and London.
+- **`scripts/lib/pdf.mjs` is a positioned-text extractor**, not a text dump. Table cells only
+  mean anything in their column; a flat dump runs them together as `Aug-25297.05366.72`.
+  It is built on `node:zlib` alone — no dependency was added.
+- **Unmappable glyphs are never guessed.** Two or three of Table 5's month headings are drawn
+  in a subset font with no `/ToUnicode` map, so their bytes are glyph ids. Those columns are
+  dropped and the count is logged. Taking the month sequence from Table 1, or counting along
+  from a readable neighbour, is inference — don't.
+- **`data/ico-history.json` is the accumulator and must stay committed.** Each report
+  restates the previous year, so history builds up and a restated figure that differs is
+  recorded in `revisions` rather than silently overwritten. Every CI run starts from a fresh
+  checkout, so the workflow commits this file alongside `latest.json`.
+- The report is monthly and the pipeline runs twice a weekday, so the fetch is told what is
+  already on record and skips the 1.2MB download when it matches.
+- **The page still reads only `data/latest.json`.** The history is embedded into the payload
+  at build time, which is what keeps `build-preview.pl` correct — it inlines exactly one data
+  file.
+
+## The weekly recap
+
+Assembled in `scripts/sources/news.mjs` from Daily Coffee News, Fresh Cup, the SCA, World
+Coffee Portal and Sprudge — each a publisher's own feed, no aggregators, same licensing
+reason as the origin wire. Items are windowed to seven days, deduplicated, and ranked with
+the `TRADE_SIGNAL`/`TRADE_NOISE` scoring that already picked Today's Read. The low-relevance
+tail is capped: without it, half the digest is café openings.
+
+## The brief
+
+`scripts/lib/brief.mjs` composes the one piece of running prose on the page. It is **rules,
+not a language model**, deliberately: every sentence is reproducible from the committed
+`latest.json`, and a generated paragraph is the easiest imaginable way to break the one rule.
+Each rule guards its own inputs and returns nothing when a figure it would name is missing —
+a missing input drops the sentence rather than softening it. If fewer than two survive, the
+section renders the ordinary unavailable state.
 
 ## Design decisions and their reasons
 
@@ -153,9 +204,14 @@ node scripts/fetch-data.mjs && perl scripts/serve.pl 8787
 ```
 
 Then in the browser at `http://127.0.0.1:8787`: no console errors on a tab that has **not**
-run the harness (one that has keeps its CORS errors); all ten sections render; no media rule
-reports `not all`; no horizontal scroll at 375px; dark mode resolves to the warmed `#14120E`
-ground.
+run the harness (one that has keeps its CORS errors); all eleven sections render; no media
+rule reports `not all`; no horizontal scroll at 375px; dark mode resolves to the warmed
+`#14120E` ground.
+
+A trap the recap section already sprang once: `.badge` is `white-space: nowrap`, and the
+publisher badges are built with no whitespace between them, so inline layout offers no break
+opportunity and the row runs off the page. `.roundup-source` is a wrapping flex row for
+exactly that reason.
 
 To republish the shareable preview:
 

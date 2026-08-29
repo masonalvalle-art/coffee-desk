@@ -412,16 +412,6 @@ td.muted, .muted { color: var(--muted); }
   color: var(--muted);
   margin: 0;
 }
-.panel-foot {
-  font-family: var(--mono);
-  font-size: .56rem;
-  letter-spacing: .08em;
-  color: var(--muted);
-  margin: 0;
-  padding-top: .5rem;
-  border-top: 1px dotted var(--rule);
-  line-height: 1.6;
-}
 
 /* ---------------- Notices (data we do not have) ---------------- */
 
@@ -623,7 +613,6 @@ td.muted, .muted { color: var(--muted); }
   border-bottom: 1px solid var(--ink);
   font-weight: 600;
 }
-.curve-panel .panel-foot { margin-top: auto; }
 
 /* Condition in words beside the icon: the picture is scannable, the text is
    unambiguous. Both are kept so neither has to be inferred from the other. */

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T09:41:51.121Z",
+  "generatedAt": "2026-08-29T10:00:17.433Z",
   "schema": 4,
   "futures": {
     "arabica": {
@@ -3243,7 +3243,7 @@
     ]
   },
   "weather": {
-    "fetchedAt": "2026-08-29T09:41:49.079Z",
+    "fetchedAt": "2026-08-29T10:00:16.944Z",
     "thresholds": {
       "frostC": 4,
       "heavyRainMm": 50,
@@ -3559,7 +3559,7 @@
   },
   "news": {
     "originWire": {
-      "fetchedAt": "2026-08-29T09:41:50.728Z",
+      "fetchedAt": "2026-08-29T10:00:16.767Z",
       "lookbackHours": 504,
       "headlines": [
         {
@@ -3682,7 +3682,7 @@
     },
     "roundup": {
       "source": "assembled",
-      "fetchedAt": "2026-08-29T09:41:49.364Z",
+      "fetchedAt": "2026-08-29T10:00:15.504Z",
       "windowDays": 7,
       "publishers": [
         "Daily Coffee News",
@@ -3849,7 +3849,7 @@
       "note": "Assembled from the coffee trade press over the past seven days, ranked by relevance to the physical trade. Headlines and links are each publisher’s own."
     },
     "dailyRead": {
-      "fetchedAt": "2026-08-29T09:41:48.925Z",
+      "fetchedAt": "2026-08-29T10:00:15.250Z",
       "article": {
         "title": "Hawaii Coffee Farms Face Long Recovery After Hurricane Lala",
         "summary": "Coffee farms across southern Hawaii Island are assessing crop, tree and infrastructure losses following Hurricane Lala, which brought damaging winds and extreme rainfall to some of the state’s key coffee-growing...",
@@ -3867,7 +3867,7 @@
       "month": "2026-07",
       "label": "July 2026",
       "url": "https://www.ico.org/documents/cy2025-26/cmr-0726-e.pdf",
-      "fetchedAt": "2026-08-29T09:24:23.941Z"
+      "fetchedAt": "2026-08-29T10:00:17.245Z"
     },
     "unit": "US cents/lb",
     "stocksUnit": "million 60-kg bags",
@@ -4061,209 +4061,6 @@
         }
       ]
     },
-    "differentials": {
-      "series": [
-        {
-          "key": "colombianMilds-otherMilds",
-          "label": "Colombian Milds − Other Milds"
-        },
-        {
-          "key": "colombianMilds-brazilianNaturals",
-          "label": "Colombian Milds − Brazilian Naturals"
-        },
-        {
-          "key": "colombianMilds-robustas",
-          "label": "Colombian Milds − Robustas"
-        },
-        {
-          "key": "otherMilds-brazilianNaturals",
-          "label": "Other Milds − Brazilian Naturals"
-        },
-        {
-          "key": "otherMilds-robustas",
-          "label": "Other Milds − Robustas"
-        },
-        {
-          "key": "brazilianNaturals-robustas",
-          "label": "Brazilian Naturals − Robustas"
-        },
-        {
-          "key": "newYork-london",
-          "label": "New York − London arbitrage"
-        }
-      ],
-      "points": [
-        {
-          "month": "2025-07",
-          "label": "July 2025",
-          "values": {
-            "colombianMilds-otherMilds": -3.13,
-            "colombianMilds-brazilianNaturals": 25.32,
-            "colombianMilds-robustas": 155.17,
-            "otherMilds-brazilianNaturals": 28.45,
-            "otherMilds-robustas": 158.31,
-            "brazilianNaturals-robustas": 129.85,
-            "newYork-london": 135.74
-          }
-        },
-        {
-          "month": "2025-08",
-          "label": "August 2025",
-          "values": {
-            "colombianMilds-otherMilds": 0.41,
-            "colombianMilds-brazilianNaturals": 29.84,
-            "colombianMilds-robustas": 167.6,
-            "otherMilds-brazilianNaturals": 29.43,
-            "otherMilds-robustas": 167.19,
-            "brazilianNaturals-robustas": 137.76,
-            "newYork-london": 147.14
-          }
-        },
-        {
-          "month": "2025-09",
-          "label": "September 2025",
-          "values": {
-            "colombianMilds-otherMilds": 3.56,
-            "colombianMilds-brazilianNaturals": 28.86,
-            "colombianMilds-robustas": 192.92,
-            "otherMilds-brazilianNaturals": 25.3,
-            "otherMilds-robustas": 189.36,
-            "brazilianNaturals-robustas": 164.07,
-            "newYork-london": 168.75
-          }
-        },
-        {
-          "month": "2025-10",
-          "label": "October 2025",
-          "values": {
-            "colombianMilds-otherMilds": -0.54,
-            "colombianMilds-brazilianNaturals": 29.78,
-            "colombianMilds-robustas": 188.19,
-            "otherMilds-brazilianNaturals": 30.32,
-            "otherMilds-robustas": 188.73,
-            "brazilianNaturals-robustas": 158.41,
-            "newYork-london": 163.84
-          }
-        },
-        {
-          "month": "2025-11",
-          "label": "November 2025",
-          "values": {
-            "colombianMilds-otherMilds": -1.56,
-            "colombianMilds-brazilianNaturals": 28.59,
-            "colombianMilds-robustas": 193.84,
-            "otherMilds-brazilianNaturals": 30.14,
-            "otherMilds-robustas": 195.4,
-            "brazilianNaturals-robustas": 165.26,
-            "newYork-london": 171.24
-          }
-        },
-        {
-          "month": "2025-12",
-          "label": "December 2025",
-          "values": {
-            "colombianMilds-otherMilds": 1.18,
-            "colombianMilds-brazilianNaturals": 26.95,
-            "colombianMilds-robustas": 191.8,
-            "otherMilds-brazilianNaturals": 25.76,
-            "otherMilds-robustas": 190.61,
-            "brazilianNaturals-robustas": 164.85,
-            "newYork-london": 168.85
-          }
-        },
-        {
-          "month": "2026-01",
-          "label": "January 2026",
-          "values": {
-            "colombianMilds-otherMilds": 7.65,
-            "colombianMilds-brazilianNaturals": 27.83,
-            "colombianMilds-robustas": 179.08,
-            "otherMilds-brazilianNaturals": 20.18,
-            "otherMilds-robustas": 171.43,
-            "brazilianNaturals-robustas": 151.25,
-            "newYork-london": 154.75
-          }
-        },
-        {
-          "month": "2026-02",
-          "label": "February 2026",
-          "values": {
-            "colombianMilds-otherMilds": 9.54,
-            "colombianMilds-brazilianNaturals": 22.27,
-            "colombianMilds-robustas": 151.16,
-            "otherMilds-brazilianNaturals": 12.73,
-            "otherMilds-robustas": 141.62,
-            "brazilianNaturals-robustas": 128.89,
-            "newYork-london": 122.7
-          }
-        },
-        {
-          "month": "2026-03",
-          "label": "March 2026",
-          "values": {
-            "colombianMilds-otherMilds": 3.12,
-            "colombianMilds-brazilianNaturals": 16.95,
-            "colombianMilds-robustas": 160.69,
-            "otherMilds-brazilianNaturals": 13.83,
-            "otherMilds-robustas": 157.57,
-            "brazilianNaturals-robustas": 143.74,
-            "newYork-london": 128.27
-          }
-        },
-        {
-          "month": "2026-04",
-          "label": "April 2026",
-          "values": {
-            "colombianMilds-otherMilds": 3.34,
-            "colombianMilds-brazilianNaturals": 20.8,
-            "colombianMilds-robustas": 169.92,
-            "otherMilds-brazilianNaturals": 17.46,
-            "otherMilds-robustas": 166.58,
-            "brazilianNaturals-robustas": 149.12,
-            "newYork-london": 133.99
-          }
-        },
-        {
-          "month": "2026-05",
-          "label": "May 2026",
-          "values": {
-            "colombianMilds-otherMilds": 8.03,
-            "colombianMilds-brazilianNaturals": 29.72,
-            "colombianMilds-robustas": 156.94,
-            "otherMilds-brazilianNaturals": 21.69,
-            "otherMilds-robustas": 148.91,
-            "brazilianNaturals-robustas": 127.21,
-            "newYork-london": 116.39
-          }
-        },
-        {
-          "month": "2026-06",
-          "label": "June 2026",
-          "values": {
-            "colombianMilds-otherMilds": 16.77,
-            "colombianMilds-brazilianNaturals": 52.59,
-            "colombianMilds-robustas": 155.21,
-            "otherMilds-brazilianNaturals": 35.82,
-            "otherMilds-robustas": 138.44,
-            "brazilianNaturals-robustas": 102.62,
-            "newYork-london": 100.86
-          }
-        },
-        {
-          "month": "2026-07",
-          "label": "July 2026",
-          "values": {
-            "colombianMilds-otherMilds": 24.74,
-            "colombianMilds-brazilianNaturals": 62.7,
-            "colombianMilds-robustas": 198.61,
-            "otherMilds-brazilianNaturals": 37.96,
-            "otherMilds-robustas": 173.86,
-            "brazilianNaturals-robustas": 135.91,
-            "newYork-london": 137.61
-          }
-        }
-      ]
-    },
     "certifiedStocks": {
       "series": [
         {
@@ -4359,7 +4156,7 @@
       ]
     },
     "revisions": [],
-    "note": "ICO publishes origin/quality groups and the spreads between them. These are not per-mark FOB differentials, and no certification breakdown is published."
+    "note": "ICO publishes origin and quality groups, not individual origins or marks. A group indicator is not the FOB price quoted against the C contract for a named lot, and no certification breakdown is published."
   },
   "differentials": {
     "updatedAt": null,
@@ -4380,37 +4177,37 @@
     {
       "source": "daily-read",
       "ok": true,
-      "ms": 158
-    },
-    {
-      "source": "weather",
-      "ok": true,
-      "ms": 319
-    },
-    {
-      "source": "arabica-futures",
-      "ok": true,
-      "ms": 587
+      "ms": 164
     },
     {
       "source": "weekly-recap",
       "ok": true,
-      "ms": 599
+      "ms": 422
     },
     {
-      "source": "ico-report",
+      "source": "arabica-futures",
       "ok": true,
-      "ms": 950
+      "ms": 615
     },
     {
       "source": "origin-wire",
       "ok": true,
-      "ms": 1967
+      "ms": 1687
+    },
+    {
+      "source": "weather",
+      "ok": true,
+      "ms": 1865
+    },
+    {
+      "source": "ico-report",
+      "ok": true,
+      "ms": 2158
     },
     {
       "source": "fx",
       "ok": true,
-      "ms": 2357
+      "ms": 2346
     }
   ]
 }

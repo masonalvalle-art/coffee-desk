@@ -38,6 +38,25 @@
   --accent:          #5B2A4E;
   --accent-contrast: #ffffff;
 
+  /* Chart series for the four ICO origin groups, used only where several are
+     plotted together and a legend cannot do the work alone. Four hues spaced
+     around the wheel and all kept clear of the semantic green and red above,
+     so colour that carries meaning stays the only colour that means anything.
+     The blue and the ochre are near neighbours of --wet and --dry, which is an
+     accepted overlap: those appear as flag text on the weather table and never
+     as a line on a chart. --accent is deliberately NOT reused here; it means
+     structural furniture.
+
+     Excluding green and red leaves only four usable hues, and two of them —
+     the blue and the violet — end up neighbours. Colombian Milds and Other
+     Milds also run within a few cents of each other, so their lines overlap:
+     at equal darkness they were genuinely hard to tell apart. They are
+     separated on depth and saturation as well as hue for that reason. */
+  --grp-colombian:  #1B4F72;
+  --grp-othermilds: #7E57C2;
+  --grp-brazilian:  #9A6B12;
+  --grp-robusta:    #7D3168;
+
   --display: "Cinzel", "Trajan Pro", Georgia, serif;
   --text:    "Newsreader", Georgia, "Times New Roman", serif;
   --mono:    "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
@@ -65,6 +84,12 @@
     --wet:        #7cb0d6;
     --accent:          #D69FC4;
     --accent-contrast: #0e0e0d;
+    /* Lifted well off the #14120E ground; the light values would read as
+       four different blacks here. */
+    --grp-colombian:  #6FA8DC;
+    --grp-othermilds: #C3A6F0;
+    --grp-brazilian:  #D9A94E;
+    --grp-robusta:    #E0A0CD;
   }
 }
 
@@ -84,6 +109,10 @@
   --wet:        #7cb0d6;
   --accent:          #D69FC4;
   --accent-contrast: #0e0e0d;
+  --grp-colombian:  #6FA8DC;
+  --grp-othermilds: #C3A6F0;
+  --grp-brazilian:  #D9A94E;
+  --grp-robusta:    #E0A0CD;
 }
 
 * { box-sizing: border-box; }

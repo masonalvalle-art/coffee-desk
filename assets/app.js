@@ -192,10 +192,20 @@
     var closes = bars.map(function (b) { return b.close; });
     var extraSeries = (opts.series || []).filter(function (s) { return s.values && s.values.length; });
 
+    // Multi-series mode: several equal lines, each in its own colour, rather
+    // than one emphasised price line with means behind it. `bars` is still the
+    // date spine — it supplies the x axis and the month markers — but it
+    // carries no `close`, so there is nothing to fill under, mark or pin.
+    var multi = (opts.multi || []).filter(function (s) { return s.values && s.values.length; });
+    var isMulti = multi.length > 0;
+
     // The y-domain is built from price and moving averages ONLY. Levels are
     // found over the whole analysed history, so a level set six months ago
     // would otherwise squash a three-month window into a band.
-    var all = closes.slice();
+    var all = isMulti ? [] : closes.slice();
+    if (isMulti) multi.forEach(function (s) {
+      s.values.forEach(function (v) { if (v != null) all.push(v); });
+    });
     extraSeries.forEach(function (s) {
       s.values.forEach(function (v) { if (v != null) all.push(v); });
     });
@@ -294,46 +304,58 @@
       }));
     });
 
-    // A faint wash under the price line: enough to give the series weight
-    // without turning the chart into an area chart.
-    var lineD = path(closes);
-    if (lineD) {
+    if (isMulti) {
+      // Equal weight, told apart by colour. No wash and no pin: with no one
+      // series to emphasise, an area fill under any of them would claim a
+      // precedence the data does not have.
+      multi.forEach(function (s) {
+        svg.appendChild(svgEl('path', {
+          d: path(s.values), fill: 'none', stroke: s.stroke || 'currentColor',
+          'stroke-width': 1.5, 'stroke-linejoin': 'round', 'stroke-linecap': 'round'
+        }));
+      });
+    } else {
+      // A faint wash under the price line: enough to give the series weight
+      // without turning the chart into an area chart.
+      var lineD = path(closes);
+      if (lineD) {
+        svg.appendChild(svgEl('path', {
+          d: lineD + ' L' + x(closes.length - 1).toFixed(2) + ' ' + (H - m.bottom) +
+             ' L' + x(0).toFixed(2) + ' ' + (H - m.bottom) + ' Z',
+          fill: 'currentColor', opacity: 0.06, stroke: 'none'
+        }));
+      }
+
       svg.appendChild(svgEl('path', {
-        d: lineD + ' L' + x(closes.length - 1).toFixed(2) + ' ' + (H - m.bottom) +
-           ' L' + x(0).toFixed(2) + ' ' + (H - m.bottom) + ' Z',
-        fill: 'currentColor', opacity: 0.06, stroke: 'none'
+        d: lineD, fill: 'none', stroke: 'currentColor',
+        'stroke-width': 1.6, 'stroke-linejoin': 'round', 'stroke-linecap': 'round'
       }));
+
+      // Last point, marked, with the closing value pinned against the right
+      // axis so the current number is legible without hovering.
+      var lastI = closes.length - 1;
+      var lastY = y(closes[lastI]);
+      svg.appendChild(svgEl('circle', {
+        cx: x(lastI), cy: lastY, r: 3, fill: 'currentColor'
+      }));
+
+      // The gridlines round to whole numbers so they stay legible, but the
+      // pinned close is the one figure a buyer reads off directly — it gets the
+      // full precision the exchange quotes.
+      var pinText = num(closes[lastI], 2);
+      var pinW = Math.max(44, pinText.length * 7 + 12);
+      svg.appendChild(svgEl('rect', {
+        x: W - m.right + 3, y: lastY - 8, width: pinW, height: 16,
+        fill: 'currentColor', rx: 1
+      }));
+      var pin = svgEl('text', {
+        x: W - m.right + 3 + pinW / 2, y: lastY + 3.5, 'font-size': 10.5,
+        'text-anchor': 'middle', 'font-weight': 600,
+        fill: 'var(--paper-deep)', 'font-family': 'IBM Plex Mono, monospace'
+      });
+      pin.textContent = pinText;
+      svg.appendChild(pin);
     }
-
-    svg.appendChild(svgEl('path', {
-      d: lineD, fill: 'none', stroke: 'currentColor',
-      'stroke-width': 1.6, 'stroke-linejoin': 'round', 'stroke-linecap': 'round'
-    }));
-
-    // Last point, marked, with the closing value pinned against the right
-    // axis so the current number is legible without hovering.
-    var lastI = closes.length - 1;
-    var lastY = y(closes[lastI]);
-    svg.appendChild(svgEl('circle', {
-      cx: x(lastI), cy: lastY, r: 3, fill: 'currentColor'
-    }));
-
-    // The gridlines round to whole numbers so they stay legible, but the
-    // pinned close is the one figure a buyer reads off directly — it gets the
-    // full precision the exchange quotes.
-    var pinText = num(closes[lastI], 2);
-    var pinW = Math.max(44, pinText.length * 7 + 12);
-    svg.appendChild(svgEl('rect', {
-      x: W - m.right + 3, y: lastY - 8, width: pinW, height: 16,
-      fill: 'currentColor', rx: 1
-    }));
-    var pin = svgEl('text', {
-      x: W - m.right + 3 + pinW / 2, y: lastY + 3.5, 'font-size': 10.5,
-      'text-anchor': 'middle', 'font-weight': 600,
-      fill: 'var(--paper-deep)', 'font-family': 'IBM Plex Mono, monospace'
-    });
-    pin.textContent = pinText;
-    svg.appendChild(pin);
 
     // First and last dates bracket the month markers.
     [[0, 'start'], [bars.length - 1, 'end']].forEach(function (p) {
@@ -368,8 +390,14 @@
       var cx = x(i);
       crossLine.setAttribute('x1', cx);
       crossLine.setAttribute('x2', cx);
-      crossDot.setAttribute('cx', cx);
-      crossDot.setAttribute('cy', y(closes[i]));
+      // With several series there is no one line for the dot to sit on, so the
+      // vertical rule does the work alone and the readout carries the values.
+      if (isMulti) {
+        crossDot.setAttribute('opacity', 0);
+      } else {
+        crossDot.setAttribute('cx', cx);
+        crossDot.setAttribute('cy', y(closes[i]));
+      }
       cross.setAttribute('opacity', 1);
       if (opts.onHover) opts.onHover(bars[i], i, bars[i - 1] || null);
     }
@@ -912,17 +940,41 @@
       return panel;
     }
 
-    var active = readChoice(opts.storageKey, series, series[0].key);
+    // An optional combined entry at the top of the picker, plotting several
+    // series together. `members` names which ones — the panel's own series list
+    // can hold things that do not belong in a comparison, such as a composite
+    // that is an average of the others by construction.
+    var combined = null;
+    if (opts.allOption) {
+      var members = opts.allOption.members
+        .map(function (key) {
+          var s = series.filter(function (x) { return x.key === key; })[0];
+          // Carry the stroke on the series itself, so the line, the legend
+          // swatch and the readout key all read from one place and cannot
+          // drift apart.
+          return s && { key: s.key, label: s.label, stroke: opts.allOption.strokes[key] };
+        })
+        .filter(Boolean);
+      if (members.length > 1) {
+        combined = { key: opts.allOption.key, label: opts.allOption.label, members: members };
+      }
+    }
+
+    var options = (combined ? [combined] : []).concat(series);
+    var active = readChoice(opts.storageKey, options, options[0].key);
     var body = el('div', { class: 'chart-card' });
 
     function draw() {
       body.innerHTML = '';
+      var isAll = !!combined && active === combined.key;
       var current = series.filter(function (s) { return s.key === active; })[0] || series[0];
+      // What the chart is showing, single or combined, as one list.
+      var shown = isAll ? combined.members : [current];
 
       var picker = el('select', {
         class: 'series-select',
         'aria-label': opts.pickerLabel
-      }, series.map(function (s) {
+      }, options.map(function (s) {
         var o = el('option', { value: s.key, text: s.label });
         if (s.key === active) o.selected = true;
         return o;
@@ -942,32 +994,51 @@
       function setReadout(point) {
         readout.innerHTML = '';
         var p = point || points[points.length - 1];
-        var v = p && p.values ? p.values[current.key] : null;
         readout.appendChild(el('span', { class: 'ro-tag', text: point ? p.label : 'Latest' }));
-        readout.appendChild(el('span', { class: 'ro-pair' }, [
-          el('span', { class: 'ro-k', text: current.label }),
-          el('span', { class: 'ro-v', text: v == null ? 'no figure' : num(v, opts.dp) })
-        ]));
+        shown.forEach(function (s) {
+          var v = p && p.values ? p.values[s.key] : null;
+          readout.appendChild(el('span', { class: 'ro-pair' }, [
+            el('span', { class: 'ro-k', style: s.stroke ? 'color:' + s.stroke : null, text: s.label }),
+            el('span', { class: 'ro-v', text: v == null ? 'no figure' : num(v, opts.dp) })
+          ]));
+        });
       }
       body.appendChild(readout);
 
       // lineChart plots by index and reads `close` and `date`, so the monthly
       // records are mapped onto that shape. Months are evenly spaced, which is
       // exactly what an index axis assumes.
-      var bars = points.map(function (p) {
+      //
+      // In the combined view every series shares one spine, so the months are
+      // those for which ANY of them has a figure; a series missing one of those
+      // months gets a null and its line simply skips it.
+      var spine = points.filter(function (p) {
+        return shown.some(function (s) { return p.values && p.values[s.key] != null; });
+      });
+      var bars = spine.map(function (p) {
         var v = p.values ? p.values[current.key] : null;
         return { date: p.month + '-01', close: v == null ? null : v, label: p.label };
-      }).filter(function (b) { return b.close != null; });
+      });
 
-      if (bars.length < 2) {
+      if (spine.length < 2) {
         body.appendChild(notice('Not enough history', [
-          'Fewer than two months of ' + current.label + ' are on record, so there is nothing to plot.'
+          'Fewer than two months of ' + (isAll ? combined.label : current.label) +
+          ' are on record, so there is nothing to plot.'
         ]));
       } else {
         body.appendChild(lineChart({
           bars: bars,
+          multi: isAll ? shown.map(function (s) {
+            return {
+              label: s.label,
+              stroke: s.stroke,
+              values: spine.map(function (p) {
+                return p.values && p.values[s.key] != null ? p.values[s.key] : null;
+              })
+            };
+          }) : null,
           dp: opts.dp,
-          ariaLabel: current.label + ', ' + bars.length + ' months',
+          ariaLabel: (isAll ? combined.label : current.label) + ', ' + spine.length + ' months',
           onHover: function (bar) {
             setReadout(bar ? { label: bar.label, values: pointValues(points, bar.date) } : null);
           }
@@ -977,14 +1048,19 @@
         // invisible. Say how many are missing, beside the chart that hides
         // them — the alternative is a reader counting a straight segment as
         // two months of stability.
-        var missing = monthSpan(points[0].month, points[points.length - 1].month) - bars.length;
-        var legend = [el('span', {}, [el('span', { class: 'swatch' }), current.label])];
+        var missing = monthSpan(points[0].month, points[points.length - 1].month) - spine.length;
+        var legend = shown.map(function (s) {
+          return el('span', {}, [
+            el('span', { class: 'swatch', style: s.stroke ? 'color:' + s.stroke : null }),
+            s.label
+          ]);
+        });
         if (missing > 0) {
           legend.push(el('span', { class: 'legend-gap',
             text: missing + (missing === 1 ? ' month not readable' : ' months not readable') }));
         }
         legend.push(el('span', { class: 'legend-range', text:
-          bars.length + ' months · ' + points[0].label + ' – ' + points[points.length - 1].label }));
+          spine.length + ' months · ' + points[0].label + ' – ' + points[points.length - 1].label }));
         body.appendChild(el('div', { class: 'chart-legend' }, legend));
       }
 
@@ -1069,20 +1145,21 @@
       storageKey: 'coffeedesk.icoGroup',
       pickerLabel: 'Origin group to chart',
       empty: 'No ICO indicator prices are on record yet.',
-      cite: reportCite('monthly averages')
-    }));
-
-    host.appendChild(icoPanel({
-      block: ico.differentials,
-      title: 'Group differentials',
-      subtitle: 'The spread between one ICO group indicator and another',
-      unit: ico.unit,
-      dp: 2,
-      colourChange: true,
-      rowHead: 'Pair',
-      storageKey: 'coffeedesk.icoPair',
-      pickerLabel: 'Differential to chart',
-      empty: 'No ICO differentials are on record yet.',
+      // The four groups only. The Composite is a weighted average of them and
+      // would draw a line through the middle by construction; New York and
+      // London are futures averages rather than origin groups. All three stay
+      // selectable on their own.
+      allOption: {
+        key: 'all',
+        label: 'All four origin groups',
+        members: ['colombianMilds', 'otherMilds', 'brazilianNaturals', 'robustas'],
+        strokes: {
+          colombianMilds:    'var(--grp-colombian)',
+          otherMilds:        'var(--grp-othermilds)',
+          brazilianNaturals: 'var(--grp-brazilian)',
+          robustas:          'var(--grp-robusta)'
+        }
+      },
       cite: reportCite('monthly averages')
     }));
 
@@ -1113,8 +1190,8 @@
       el('p', { class: 'panel-sub', text: 'The limits of the only free source that publishes any of this' }),
       el('p', { text:
         'ICO reports origin and quality groups — Colombian Milds, Other Milds, Brazilian ' +
-        'Naturals, Robustas — and the spreads between them. These are not the FOB ' +
-        'differentials a broker quotes against the C contract for a named mark.' }),
+        'Naturals, Robustas. A group indicator is not the FOB price a broker quotes ' +
+        'against the C contract for a named mark.' }),
       el('p', { text:
         'No certification breakdown is published anywhere free: there is no Fairtrade, Organic ' +
         'or Rainforest series here because no source returned one.' })
@@ -1545,7 +1622,7 @@
       addGroup('Physical market', [{
         name: 'ICO Coffee Market Report, ' + data.ico.report.label,
         url: data.ico.report.url,
-        role: 'indicator prices, group differentials and certified stocks, parsed from the ' +
+        role: 'indicator prices by origin group and certified stocks, parsed from the ' +
               'published PDF'
       }]);
     }
@@ -1560,7 +1637,7 @@
           'stories are ranked here by their relevance to the physical trade; the headlines ' +
           'and links are the publishers’ own.' }),
         el('li', {}, [
-          'Today’s read: ',
+          'Featured article: ',
           el('a', { href: 'https://dailycoffeenews.com/', target: '_blank', rel: 'noopener noreferrer', text: 'Daily Coffee News' })
         ])
       ])

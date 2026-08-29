@@ -96,8 +96,10 @@ free, public, and the only source found for anything in the Physical Market sect
 - **Discovery, not URL guessing.** The index at <https://ico.org/coffee-market-report/> is
   scraped for the newest `cmr-MMYY-e.pdf`. The pattern is predictable but the coffee-year
   folder rolls each October, so guessing works for eleven months and then quietly stops.
-- Three tables are read: **Table 1** indicator prices by group, **Table 2** group
-  differentials, **Table 5** certified stocks on New York and London.
+- Two tables are read: **Table 1** indicator prices by group, and **Table 5** certified
+  stocks on New York and London. Table 2 (the spreads between group indicators) was parsed
+  for a while and removed as not worth its room on the page; each report restates thirteen
+  months, so re-adding the parse and running once would recover over a year in one download.
 - **`scripts/lib/pdf.mjs` is a positioned-text extractor**, not a text dump. Table cells only
   mean anything in their column; a flat dump runs them together as `Aug-25297.05366.72`.
   It is built on `node:zlib` alone — no dependency was added.
@@ -120,7 +122,7 @@ free, public, and the only source found for anything in the Physical Market sect
 Assembled in `scripts/sources/news.mjs` from Daily Coffee News, Fresh Cup, the SCA, World
 Coffee Portal and Sprudge — each a publisher's own feed, no aggregators, same licensing
 reason as the origin wire. Items are windowed to seven days, deduplicated, and ranked with
-the `TRADE_SIGNAL`/`TRADE_NOISE` scoring that already picked Today's Read. The low-relevance
+the `TRADE_SIGNAL`/`TRADE_NOISE` scoring that already picked the Featured Article. The low-relevance
 tail is capped: without it, half the digest is café openings.
 
 ## The brief, and why there isn't one
@@ -137,6 +139,15 @@ easiest imaginable way to break the one rule. See `scripts/lib/brief.mjs` at com
 - **Colour is disciplined.** Green and red mean price direction and weather risk and nothing
   else. The aubergine accent (`--accent`) was chosen specifically to sit clear of that pair,
   so any new accent must do the same. Never introduce a decorative red or green.
+  The one exception is the four `--grp-*` chart tokens, which exist solely to tell the ICO
+  origin-group lines apart when they are plotted together and a legend alone cannot do it.
+  They are still clear of green and red, and `--accent` is deliberately not among them — it
+  means structural furniture. Two things about them are non-obvious: the blue and the ochre
+  are near neighbours of `--wet` and `--dry`, which is accepted because those appear only as
+  flag text on the weather table and never as a line; and Colombian Milds and Other Milds are
+  separated on depth and saturation as well as hue, because excluding green and red leaves
+  their two hues adjacent, and the series themselves trade within a few cents, so at equal
+  darkness the lines were genuinely hard to tell apart.
 - **Manila stock, Cinzel display.** Editorial-magazine character: air rather than rules, one
   accent on structural furniture. References were the Sunday Times and FT, Vogue and Time,
   and Bauhaus for non-text elements — which is why the section rule is an asymmetric

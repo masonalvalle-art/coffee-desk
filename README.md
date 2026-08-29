@@ -20,11 +20,11 @@ happened.
 | Momentum & trend | RSI(14), MACD(12,26,9), moving averages, ATR(14), Donchian(20), 52-week range | computed from real settlement prices |
 | Support & resistance | Swing levels with the distance from the current price and the date each was set | computed from real settlement prices |
 | Currency | GBP/USD (cable, ~1.36) and USD/BRL, cross-checked against Brazil's official PTAX fixing | European Central Bank; Banco Central do Brasil |
-| Physical Market | Indicator prices for each origin group, the differentials between them, and certified stocks on New York and London — each a chart with a year or more of history | International Coffee Organization |
+| Physical Market | Indicator prices for each origin group — all four on one chart or any series on its own — and certified stocks on New York and London, each with a year of history | International Coffee Organization |
 | At Origin | 12 growing regions grouped by country, with a condition icon and words, observed temperature and rainfall, a forecast low for frost, and wet/dry flags | Open-Meteo |
 | Origin Wire | Slider of general headlines with the publisher's own summary, from Brazil, Vietnam, Indonesia, Colombia, South & Central America and East Africa | BBC, Guardian, FT, Al Jazeera, VnExpress International |
+| Featured Article | One article worth a buyer's time | Daily Coffee News |
 | The Week in Coffee | The week's trade headlines, ranked by relevance to the physical market and grouped by theme | Daily Coffee News, Fresh Cup, SCA, World Coffee Portal, Sprudge |
-| Today's Read | One article worth a buyer's time | Daily Coffee News |
 
 ### Arabica only
 
@@ -138,15 +138,19 @@ digest of one-line headlines, so motion would add nothing.
 
 The [ICO Coffee Market Report](https://ico.org/coffee-market-report/) is published
 monthly as a PDF. It is free, public, and the only source found that publishes
-any of this. The pipeline fetches the newest report, parses three of its tables,
+any of this. The pipeline fetches the newest report, parses two of its tables,
 and accumulates them into a history:
 
 - **Indicator prices** for the ICO Composite and each origin group — Colombian
   Milds, Other Milds, Brazilian Naturals, Robustas — plus the New York and
   London futures averages.
-- **Group differentials**: the spread between one group indicator and another,
-  and the New York–London arbitrage.
 - **Certified stocks** on the New York and London futures markets.
+
+The four origin groups can be read together on one chart or picked apart one at
+a time. The combined view leaves out the Composite and the two futures averages
+on purpose: the Composite is a weighted average of the four and would trace a
+line through the middle of them by construction, and the futures are not origin
+groups at all. All three stay selectable on their own.
 
 Each report restates the preceding year, so one download brings twelve months of
 history with it, and every later report re-states months already held. Where a
@@ -197,7 +201,7 @@ The recap is now built from the coffee trade press that does publish a usable
 feed — Daily Coffee News, Fresh Cup, the Specialty Coffee Association, World
 Coffee Portal and Sprudge. Stories from the past seven days are deduplicated
 across publishers and ranked by their relevance to the physical trade, using the
-same scoring that picks Today's Read: harvests, shipments, weather and prices
+same scoring that picks the Featured Article: harvests, shipments, weather and prices
 score; café openings and executive appointments do not. The top handful lead,
 the rest are grouped, and the low-relevance tail is capped so a digest for a
 trading desk does not fill up with counter news.

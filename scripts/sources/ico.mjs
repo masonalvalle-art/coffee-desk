@@ -1,21 +1,25 @@
 // The ICO Coffee Market Report.
 //
 // The International Coffee Organization publishes a monthly report as a PDF.
-// It is free, public, and carries three tables this dashboard has been missing
+// It is free, public, and carries two tables this dashboard has been missing
 // a source for:
 //
 //   Table 1  indicator prices — ICO Composite and the four origin groups,
 //            plus the New York and London futures averages, 12 months at a time
-//   Table 2  price differentials between those groups, 13 months at a time
 //   Table 5  certified stocks on the New York and London futures markets
 //
-// Two of those fill panels that until now rendered "no verified source".
+// Both fill panels that until now rendered "no verified source".
+//
+// Table 2 (the spreads between group indicators) was parsed here for a while
+// and taken out again as not worth the room it took on the page. If it is ever
+// wanted back, note that each report restates the previous thirteen months, so
+// re-adding the parse and running once recovers over a year in one download.
 //
 // WHAT THIS IS NOT. ICO's groups are origin/quality classifications, not
-// individual origins, and its "differentials" are spreads between those group
-// indicators — not the FOB premium a broker quotes against the C contract for
-// a named mark. There is nothing here about certification (Fairtrade, Organic,
-// Rainforest); no free feed publishes it. The page must not imply otherwise.
+// individual origins — a group indicator is not the FOB price a broker quotes
+// against the C contract for a named mark. There is nothing here about
+// certification (Fairtrade, Organic, Rainforest); no free feed publishes it.
+// The page must not imply otherwise.
 //
 // Each report repeats the previous eleven or twelve months, which is a gift
 // twice over: one download backfills a year of history, and every later report
@@ -51,16 +55,6 @@ const INDICATOR_SERIES = new Map([
   ['robustas',           { key: 'robustas',          label: 'Robustas' }],
   ['new york',           { key: 'newYork',           label: 'New York (Arabica futures)' }],
   ['london',             { key: 'london',            label: 'London (Robusta futures)' }],
-]);
-
-const DIFFERENTIAL_PAIRS = new Map([
-  ['colombian milds other milds',        { key: 'colombianMilds-otherMilds',       label: 'Colombian Milds − Other Milds' }],
-  ['colombian milds brazilian naturals', { key: 'colombianMilds-brazilianNaturals', label: 'Colombian Milds − Brazilian Naturals' }],
-  ['colombian milds robustas',           { key: 'colombianMilds-robustas',          label: 'Colombian Milds − Robustas' }],
-  ['other milds brazilian naturals',     { key: 'otherMilds-brazilianNaturals',     label: 'Other Milds − Brazilian Naturals' }],
-  ['other milds robustas',               { key: 'otherMilds-robustas',              label: 'Other Milds − Robustas' }],
-  ['brazilian naturals robustas',        { key: 'brazilianNaturals-robustas',       label: 'Brazilian Naturals − Robustas' }],
-  ['new york london',                    { key: 'newYork-london',                   label: 'New York − London arbitrage' }],
 ]);
 
 const STOCK_ROWS = new Map([
@@ -147,7 +141,7 @@ function findTable(streams, captionPattern, tolerance = 4) {
 }
 
 /* ------------------------------------------------------------------ *
- * Tables 1 and 2 — months down the side, series across the top
+ * Table 1 — months down the side, series across the top
  * ------------------------------------------------------------------ */
 
 function parseMonthlyTable(tableRows, lookup, what) {
@@ -321,14 +315,10 @@ export function parseReport(buf, report) {
   const indicatorRows = findTable(streams, /^Table 1:\s*ICO daily indicator prices/i);
   if (!indicatorRows) throw new Error('Table 1 (indicator prices) not found');
 
-  const differentialRows = findTable(streams, /^Table 2:\s*Price differentials/i);
-  if (!differentialRows) throw new Error('Table 2 (price differentials) not found');
-
   const stockRows = findTable(streams, /^Table 5:\s*Certified stocks/i);
   if (!stockRows) throw new Error('Table 5 (certified stocks) not found');
 
   const indicators = parseMonthlyTable(indicatorRows, INDICATOR_SERIES, 'indicator prices');
-  const differentials = parseMonthlyTable(differentialRows, DIFFERENTIAL_PAIRS, 'price differentials');
   const certifiedStocks = parseCertifiedStocks(stockRows);
 
   return {
@@ -336,7 +326,6 @@ export function parseReport(buf, report) {
     skipped: false,
     fetchedAt: new Date().toISOString(),
     indicators: { unit: 'US cents/lb', ...indicators },
-    differentials: { unit: 'US cents/lb', ...differentials },
     certifiedStocks: { unit: 'million 60-kg bags', ...certifiedStocks },
   };
 }
@@ -349,8 +338,8 @@ export function emptyHistory() {
   return {
     updatedAt: null,
     reports: [],
-    series: { indicators: [], differentials: [], certifiedStocks: [] },
-    months: { indicators: {}, differentials: {}, certifiedStocks: {} },
+    series: { indicators: [], certifiedStocks: [] },
+    months: { indicators: {}, certifiedStocks: {} },
     revisions: [],
   };
 }
@@ -363,16 +352,18 @@ export function emptyHistory() {
  * the change recorded, so the audit trail shows the revision rather than the
  * number appearing to have always been that.
  */
+const HISTORY_TABLES = ['indicators', 'certifiedStocks'];
+
 export function mergeHistory(history, parsed) {
   const out = history ?? emptyHistory();
-  for (const table of ['indicators', 'differentials', 'certifiedStocks']) {
+  for (const table of HISTORY_TABLES) {
     out.months[table] ??= {};
     out.series[table] ??= [];
   }
   out.revisions ??= [];
   out.reports ??= [];
 
-  for (const table of ['indicators', 'differentials', 'certifiedStocks']) {
+  for (const table of HISTORY_TABLES) {
     const block = parsed[table];
     if (!block) continue;
 
@@ -447,10 +438,10 @@ export function publishable(history) {
     unit: 'US cents/lb',
     stocksUnit: 'million 60-kg bags',
     indicators: table('indicators'),
-    differentials: table('differentials'),
     certifiedStocks: table('certifiedStocks'),
     revisions: history.revisions?.slice(-20) ?? [],
-    note: 'ICO publishes origin/quality groups and the spreads between them. These are not ' +
-          'per-mark FOB differentials, and no certification breakdown is published.',
+    note: 'ICO publishes origin and quality groups, not individual origins or marks. A group ' +
+          'indicator is not the FOB price quoted against the C contract for a named lot, and ' +
+          'no certification breakdown is published.',
   };
 }

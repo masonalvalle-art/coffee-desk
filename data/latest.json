@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T10:32:33.847Z",
+  "generatedAt": "2026-08-29T11:02:57.577Z",
   "schema": 5,
   "schedule": {
     "slotsUtc": [
@@ -3252,7 +3252,7 @@
     ]
   },
   "weather": {
-    "fetchedAt": "2026-08-29T10:32:32.560Z",
+    "fetchedAt": "2026-08-29T11:02:56.022Z",
     "thresholds": {
       "frostC": 4,
       "heavyRainMm": 50,
@@ -3568,7 +3568,7 @@
   },
   "news": {
     "originWire": {
-      "fetchedAt": "2026-08-29T10:32:33.811Z",
+      "fetchedAt": "2026-08-29T11:02:57.574Z",
       "lookbackHours": 504,
       "headlines": [
         {
@@ -3691,7 +3691,7 @@
     },
     "roundup": {
       "source": "assembled",
-      "fetchedAt": "2026-08-29T10:32:33.007Z",
+      "fetchedAt": "2026-08-29T11:02:57.061Z",
       "windowDays": 7,
       "publishers": [
         "Daily Coffee News",
@@ -3858,7 +3858,7 @@
       "note": "Assembled from the coffee trade press over the past seven days, ranked by relevance to the physical trade. Headlines and links are each publisher’s own."
     },
     "dailyRead": {
-      "fetchedAt": "2026-08-29T10:32:33.007Z",
+      "fetchedAt": "2026-08-29T11:02:55.548Z",
       "article": {
         "title": "Hawaii Coffee Farms Face Long Recovery After Hurricane Lala",
         "summary": "Coffee farms across southern Hawaii Island are assessing crop, tree and infrastructure losses following Hurricane Lala, which brought damaging winds and extreme rainfall to some of the state’s key coffee-growing...",
@@ -4184,39 +4184,39 @@
   },
   "status": [
     {
+      "source": "daily-read",
+      "ok": true,
+      "ms": 380
+    },
+    {
       "source": "weather",
       "ok": true,
-      "ms": 304
+      "ms": 863
     },
     {
       "source": "arabica-futures",
       "ok": true,
-      "ms": 628
-    },
-    {
-      "source": "weekly-recap",
-      "ok": true,
-      "ms": 746
-    },
-    {
-      "source": "daily-read",
-      "ok": true,
-      "ms": 745
-    },
-    {
-      "source": "ico-report",
-      "ok": true,
-      "ms": 873
-    },
-    {
-      "source": "origin-wire",
-      "ok": true,
-      "ms": 1555
+      "ms": 970
     },
     {
       "source": "fx",
       "ok": true,
-      "ms": 1589
+      "ms": 1867
+    },
+    {
+      "source": "weekly-recap",
+      "ok": true,
+      "ms": 1897
+    },
+    {
+      "source": "ico-report",
+      "ok": true,
+      "ms": 2197
+    },
+    {
+      "source": "origin-wire",
+      "ok": true,
+      "ms": 2414
     }
   ]
 }

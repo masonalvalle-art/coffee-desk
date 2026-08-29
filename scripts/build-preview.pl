@@ -31,6 +31,14 @@ $data =~ s/\s+$//;
 # The artifact host supplies its own doctype/html/head/body wrapper, so emit
 # page content only.
 my ($title)    = $html =~ /<title>(.*?)<\/title>/s;
+# The page's own <title> carries a descriptor after an em dash, which is right
+# for a browser tab and wrong for a gallery of artifacts, where the name has to
+# identify this page among dozens. Keep the masthead, drop the strapline.
+#
+# The dashes are written as \x{...} rather than literally: this file has no
+# `use utf8`, so a literal em dash here would be three bytes matched against a
+# string that was decoded on the way in, and would silently never match.
+$title =~ s/\s*[\x{2014}\x{2013}-]\s.*$//;
 my ($fontLink) = $html =~ /(<link href="https:\/\/fonts\.googleapis\.com[^>]*>)/s;
 my ($body)     = $html =~ /<body>(.*)<\/body>/s;
 

@@ -938,29 +938,6 @@ td.muted, .muted { color: var(--muted); }
 
 
 /* ============================================================
-   The brief
-
-   A lede: the one piece of running prose on the page, so it gets
-   the measure and the leading of a standfirst rather than the
-   density of a table.
-   ============================================================ */
-
-.brief-body {
-  font-size: 1.12rem;
-  line-height: 1.62;
-  color: var(--ink-soft);
-  max-width: 62ch;
-  margin: 0 0 .7rem;
-  text-wrap: pretty;
-}
-.brief-body::first-letter {
-  /* Not a drop cap — just enough weight to mark where the reading starts. */
-  font-weight: 600;
-  color: var(--accent);
-}
-
-
-/* ============================================================
    Physical market
 
    Three ICO tables, each a chart with a picker over a table of
@@ -1062,7 +1039,6 @@ td.muted, .muted { color: var(--muted); }
   .slide-title { font-size: 1.1rem; }
   .chart-readout { font-size: .62rem; gap: .25rem .6rem; }
   .legend-range { margin-left: 0; width: 100%; }
-  .brief-body { font-size: 1.02rem; }
   .phys-stack { gap: 1.4rem; }
   /* The series name can be long ("Colombian Milds − Brazilian Naturals"), so
      the picker wraps under its label rather than squeezing it. */

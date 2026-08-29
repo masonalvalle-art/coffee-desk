@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T09:26:33.962Z",
+  "generatedAt": "2026-08-29T09:41:51.121Z",
   "schema": 4,
   "futures": {
     "arabica": {
@@ -3243,7 +3243,7 @@
     ]
   },
   "weather": {
-    "fetchedAt": "2026-08-29T09:26:32.363Z",
+    "fetchedAt": "2026-08-29T09:41:49.079Z",
     "thresholds": {
       "frostC": 4,
       "heavyRainMm": 50,
@@ -3559,7 +3559,7 @@
   },
   "news": {
     "originWire": {
-      "fetchedAt": "2026-08-29T09:26:33.600Z",
+      "fetchedAt": "2026-08-29T09:41:50.728Z",
       "lookbackHours": 504,
       "headlines": [
         {
@@ -3682,7 +3682,7 @@
     },
     "roundup": {
       "source": "assembled",
-      "fetchedAt": "2026-08-29T09:26:32.532Z",
+      "fetchedAt": "2026-08-29T09:41:49.364Z",
       "windowDays": 7,
       "publishers": [
         "Daily Coffee News",
@@ -3849,7 +3849,7 @@
       "note": "Assembled from the coffee trade press over the past seven days, ranked by relevance to the physical trade. Headlines and links are each publisher’s own."
     },
     "dailyRead": {
-      "fetchedAt": "2026-08-29T09:26:32.225Z",
+      "fetchedAt": "2026-08-29T09:41:48.925Z",
       "article": {
         "title": "Hawaii Coffee Farms Face Long Recovery After Hurricane Lala",
         "summary": "Coffee farms across southern Hawaii Island are assessing crop, tree and infrastructure losses following Hurricane Lala, which brought damaging winds and extreme rainfall to some of the state’s key coffee-growing...",
@@ -4380,78 +4380,37 @@
     {
       "source": "daily-read",
       "ok": true,
-      "ms": 143
+      "ms": 158
     },
     {
       "source": "weather",
       "ok": true,
-      "ms": 291
-    },
-    {
-      "source": "weekly-recap",
-      "ok": true,
-      "ms": 453
+      "ms": 319
     },
     {
       "source": "arabica-futures",
       "ok": true,
-      "ms": 605
+      "ms": 587
+    },
+    {
+      "source": "weekly-recap",
+      "ok": true,
+      "ms": 599
     },
     {
       "source": "ico-report",
       "ok": true,
-      "ms": 842
+      "ms": 950
     },
     {
       "source": "origin-wire",
       "ok": true,
-      "ms": 1527
+      "ms": 1967
     },
     {
       "source": "fx",
       "ok": true,
-      "ms": 1883
+      "ms": 2357
     }
-  ],
-  "brief": {
-    "generatedAt": "2026-08-29T09:26:33.971Z",
-    "sentences": [
-      {
-        "category": "price",
-        "rule": "lead",
-        "text": "Arabica for Dec 2026 last traded at 312.60 US cents a pound, down 9.55 cents (-3.0%) on the session."
-      },
-      {
-        "category": "price",
-        "rule": "rolled",
-        "text": "Volume has rolled to the second month: KCU26 traded 16 lots against KCZ26's 16,612, which is why the board shows Dec 2026."
-      },
-      {
-        "category": "technical",
-        "rule": "movingAverages",
-        "text": "It sits below the 20-day mean (318.88) and above the 200-day (291.32)."
-      },
-      {
-        "category": "physical",
-        "rule": "icoDifferential",
-        "text": "Among ICO's group differentials, Colombian Milds − Robustas moved most, widening to 198.61 cents in July 2026 from 155.21."
-      },
-      {
-        "category": "physical",
-        "rule": "icoIndicator",
-        "text": "ICO's composite indicator averaged 287.26 US cents in July 2026, +15.4% on the month."
-      },
-      {
-        "category": "currency",
-        "rule": "currency",
-        "text": "Sterling is 1.3583 against the dollar (+0.01% on the day), and the dollar buys 5.1641 reais (+0.43%)."
-      },
-      {
-        "category": "origin",
-        "rule": "weatherFlags",
-        "text": "2 of 12 origin regions carry a weather flag: Dak Lak, Lam Dong."
-      }
-    ],
-    "method": "Composed by rule from the figures on this page. No language model is involved, and no figure is introduced that is not published above."
-  }
+  ]
 }

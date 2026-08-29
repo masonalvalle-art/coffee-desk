@@ -54,7 +54,6 @@ data/manual/*.json             optional hand-entered overrides; normally empty
 scripts/fetch-data.mjs         orchestrator: fetches everything, writes latest.json
 scripts/sources/*.mjs          one module per source (futures, fx, weather, news, ico)
 scripts/lib/pdf.mjs            positioned-text PDF extractor, node:zlib only
-scripts/lib/brief.mjs          the daily brief, composed by rule
 scripts/lib/indicators.mjs     RSI, MACD, ATR, pivots, Donchian
 scripts/lib/contracts.mjs      contract-month enumeration and roll detection
 scripts/serve.pl               local harness (above)
@@ -124,14 +123,14 @@ reason as the origin wire. Items are windowed to seven days, deduplicated, and r
 the `TRADE_SIGNAL`/`TRADE_NOISE` scoring that already picked Today's Read. The low-relevance
 tail is capped: without it, half the digest is café openings.
 
-## The brief
+## The brief, and why there isn't one
 
-`scripts/lib/brief.mjs` composes the one piece of running prose on the page. It is **rules,
-not a language model**, deliberately: every sentence is reproducible from the committed
-`latest.json`, and a generated paragraph is the easiest imaginable way to break the one rule.
-Each rule guards its own inputs and returns nothing when a figure it would name is missing —
-a missing input drops the sentence rather than softening it. If fewer than two survive, the
-section renders the ordinary unavailable state.
+A rule-composed prose summary was built and then removed as not earning its place: it
+restated figures the reader could already see a few centimetres away. If the idea comes back,
+the argument that still holds is that it must be **rules, not a language model** — every
+sentence reproducible from the committed `latest.json`, because a generated paragraph is the
+easiest imaginable way to break the one rule. See `scripts/lib/brief.mjs` at commit
+`53063d4` rather than starting again from nothing.
 
 ## Design decisions and their reasons
 
@@ -204,7 +203,7 @@ node scripts/fetch-data.mjs && perl scripts/serve.pl 8787
 ```
 
 Then in the browser at `http://127.0.0.1:8787`: no console errors on a tab that has **not**
-run the harness (one that has keeps its CORS errors); all eleven sections render; no media
+run the harness (one that has keeps its CORS errors); all ten sections render; no media
 rule reports `not all`; no horizontal scroll at 375px; dark mode resolves to the warmed
 `#14120E` ground.
 

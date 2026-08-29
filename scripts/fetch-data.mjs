@@ -19,7 +19,6 @@ import {
   fetchIcoReport, mergeHistory, emptyHistory, latestReportMonth, publishable,
 } from './sources/ico.mjs';
 import { buildTechnicals } from './lib/indicators.mjs';
-import { buildBrief } from './lib/brief.mjs';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const p = (...parts) => resolve(ROOT, ...parts);
@@ -118,10 +117,6 @@ async function main() {
     certifiedStocks,
     status,
   };
-
-  // The brief reads the assembled payload, so it must be composed last. It is
-  // rules over the figures above — nothing is fetched and nothing is invented.
-  payload.brief = buildBrief(payload);
 
   await mkdir(p('data'), { recursive: true });
   await writeFile(p('data/latest.json'), JSON.stringify(payload, null, 2) + '\n');

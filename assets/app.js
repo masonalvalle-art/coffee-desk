@@ -1152,28 +1152,6 @@
     host.appendChild(lower);
   }
 
-  function renderBrief(brief) {
-    var host = $('#brief');
-    host.innerHTML = '';
-
-    if (!brief || !brief.sentences || !brief.sentences.length) {
-      host.appendChild(notice('No brief today', [
-        'Too few figures were retrieved on this run to say anything useful about the market ' +
-        'without reaching for numbers that are not here.'
-      ]));
-      return;
-    }
-
-    host.appendChild(el('p', { class: 'brief-body',
-      text: brief.sentences.map(function (s) { return s.text; }).join(' ') }));
-
-    host.appendChild(cite([
-      'Composed by rule from the figures on this page',
-      'no language model, no figure introduced',
-      brief.sentences.length + ' observations'
-    ]));
-  }
-
   /**
    * Condition icons. Drawn rather than pulled from a font so they inherit
    * currentColor and stay crisp in both themes: sun, sun behind cloud, cloud
@@ -1658,11 +1636,6 @@
         ' Each report re-states the preceding year, so a figure ICO later revises is recorded ' +
         'as a revision rather than quietly replaced.']);
     }
-    if (data.brief) {
-      method.push(['The brief', data.brief.method +
-        ' Each sentence is produced by a rule that runs only when every figure it would name is ' +
-        'present; a missing input drops the sentence rather than softening it.']);
-    }
     method.push(['Missing data',
       'Where a source fails or none exists, the section says so. No figure on this page is ' +
       'estimated, interpolated or carried forward.']);
@@ -1721,7 +1694,6 @@
     });
 
     renderBoard(data.futures);
-    renderBrief(data.brief);
     renderCharts(data.futures);
     renderTechnicals(data.futures);
     renderFx(data.fx);

@@ -19,7 +19,6 @@ happened.
 | Price Action | Daily chart over 1M / 3M / 6M / 1Y, with 20/50-day means, swing-pivot support & resistance, round-number gridlines and a hover readout of exact OHLC | derived from the price history below |
 | Momentum & trend | RSI(14), MACD(12,26,9), moving averages, ATR(14), Donchian(20), 52-week range | computed from real settlement prices |
 | Support & resistance | Swing levels with the distance from the current price and the date each was set | computed from real settlement prices |
-| The Brief | A short read of the day, composed by rule from the figures on this page — no language model, nothing introduced | derived from everything below |
 | Currency | GBP/USD (cable, ~1.36) and USD/BRL, cross-checked against Brazil's official PTAX fixing | European Central Bank; Banco Central do Brasil |
 | Physical Market | Indicator prices for each origin group, the differentials between them, and certified stocks on New York and London — each a chart with a year or more of history | International Coffee Organization |
 | At Origin | 12 growing regions grouped by country, with a condition icon and words, observed temperature and rainfall, a forecast low for frost, and wet/dry flags | Open-Meteo |
@@ -208,27 +207,16 @@ There is no weekly chore any more.
 
 ---
 
-## The brief is written by rules, not by a model
+## There is no written summary
 
-The one piece of running prose on the page is composed from the figures already
-in the payload by about a dozen rules — the session move, where the price sits
-against its means and its 52-week range, the curve's shape, the ICO differential
-that moved most, certified stocks, currency, and any origin carrying a weather
-flag. Each rule scores how much its observation is worth saying today; the
-strongest few run, in a fixed editorial order.
+A short prose read of the day was built and then taken out again. It was
+composed by rule rather than by a model — every sentence reproducible from the
+committed data, because a generated paragraph is the easiest way there is to
+break the rule this whole project runs on.
 
-This is deliberate rather than a limitation. Every sentence is reproducible from
-the committed `data/latest.json`, so the brief is auditable in exactly the way
-every number on this page is; there is no API key, no dependency and no per-run
-cost; and, most of all, **a rule cannot invent a figure.** A generated paragraph
-would be the easiest imaginable way to break the governing rule of this project.
-
-Each rule guards its own inputs and produces nothing when a figure it would name
-is missing — a missing input drops the sentence rather than softening it into
-vagueness. If too few survive, the section says so instead.
-
-The cost is that it will never notice something genuinely novel. It says what
-the numbers say, in the order a reader wants them.
+It came out because it did not earn its place, not because it did not work: it
+restated figures the reader could already see a few centimetres further down the
+page. The numbers, and the citation beside each of them, say it better.
 
 ---
 
@@ -298,7 +286,6 @@ scripts/sources/weather.mjs    origin regions, condition classification, risk fl
 scripts/sources/news.mjs       origin wire, the assembled weekly recap, daily read
 scripts/sources/ico.mjs        ICO report discovery and table parsing
 scripts/lib/pdf.mjs            positioned-text PDF extractor, node:zlib only
-scripts/lib/brief.mjs          the daily brief, composed by rule
 scripts/lib/indicators.mjs     RSI, MACD, ATR, pivots, Donchian
 scripts/lib/contracts.mjs      contract-month enumeration and roll detection
 .github/workflows/             the scheduled fetch and Pages deploy

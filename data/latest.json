@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T11:02:57.577Z",
+  "generatedAt": "2026-08-31T06:04:15.250Z",
   "schema": 5,
   "schedule": {
     "slotsUtc": [
@@ -77,24 +77,16 @@
       ],
       "quote": {
         "last": 312.6,
-        "open": 316.8999938964844,
+        "open": 311.5,
         "high": 317,
-        "low": 306.45001220703125,
-        "previousClose": 322.1499938964844,
-        "change": -9.55,
-        "changePct": -2.964,
-        "volume": 16612,
+        "low": 308.70001220703125,
+        "previousClose": 309.6499938964844,
+        "change": 2.95,
+        "changePct": 0.953,
+        "volume": 23394,
         "asOf": "2026-08-28T17:29:56.000Z"
       },
       "bars": [
-        {
-          "date": "2025-05-22",
-          "open": 308.5,
-          "high": 310.1000061035156,
-          "low": 305.1499938964844,
-          "close": 307.04998779296875,
-          "volume": 44
-        },
         {
           "date": "2025-05-23",
           "open": 306.6499938964844,
@@ -2645,7 +2637,15 @@
           "high": 317,
           "low": 306.45001220703125,
           "close": 309.6499938964844,
-          "volume": 16612
+          "volume": 23394
+        },
+        {
+          "date": "2026-08-28",
+          "open": 311.5,
+          "high": 317,
+          "low": 308.70001220703125,
+          "close": 312.8500061035156,
+          "volume": 23394
         }
       ],
       "crossCheck": {
@@ -2668,17 +2668,17 @@
         }
       ],
       "technicals": {
-        "observations": 503,
-        "sma20": 318.88499908447267,
-        "sma50": 303.96799926757814,
-        "sma200": 291.32450019836426,
-        "rsi14": 46.98097304735444,
+        "observations": 502,
+        "sma20": 318.79499969482424,
+        "sma50": 304.9619995117188,
+        "sma200": 291.1827501678467,
+        "rsi14": 48.61777726072639,
         "macd": {
-          "line": 6.306139771942014,
-          "signal": 7.593271801799319,
-          "histogram": -1.2871320298573048
+          "line": 5.067054782152354,
+          "signal": 7.088028397869927,
+          "histogram": -2.0209736157175726
         },
-        "atr14": 14.029023553751644,
+        "atr14": 13.619806713695723,
         "donchian20": {
           "high": 345.6499938964844,
           "low": 302.6000061035156,
@@ -2687,30 +2687,30 @@
         "levels": {
           "support": [
             {
+              "price": 310.75,
+              "date": "2025-10-10"
+            },
+            {
               "price": 308.75,
               "date": "2026-01-21"
             },
             {
               "price": 308.1000061035156,
               "date": "2025-09-02"
-            },
-            {
-              "price": 307.54998779296875,
-              "date": "2025-10-28"
             }
           ],
           "resistance": [
             {
-              "price": 310,
-              "date": "2025-04-02"
-            },
-            {
-              "price": 310.04998779296875,
-              "date": "2025-02-11"
-            },
-            {
               "price": 316.8500061035156,
               "date": "2025-05-21"
+            },
+            {
+              "price": 318.70001220703125,
+              "date": "2025-06-06"
+            },
+            {
+              "price": 323.75,
+              "date": "2026-07-28"
             }
           ]
         },
@@ -2719,10 +2719,10 @@
           "low": 209.1999969482422
         },
         "method": "Wilder RSI(14); MACD(12,26,9) on EMA; ATR(14); pivots = 5-bar swing highs/lows; Donchian(20).",
-        "basis": "503 daily bars for KCZ26"
+        "basis": "502 daily bars for KCZ26"
       },
       "barsPublished": 320,
-      "barsAnalysed": 503
+      "barsAnalysed": 502
     }
   },
   "fx": {
@@ -3252,7 +3252,7 @@
     ]
   },
   "weather": {
-    "fetchedAt": "2026-08-29T11:02:56.022Z",
+    "fetchedAt": "2026-08-31T06:04:12.671Z",
     "thresholds": {
       "frostC": 4,
       "heavyRainMm": 50,
@@ -3277,19 +3277,19 @@
         "lat": -21.55,
         "lon": -45.43,
         "current": {
-          "date": "2026-08-28",
-          "tMax": 29.1,
-          "tMin": 14.8,
-          "rain": 0.2,
-          "code": 51,
-          "cloud": 32,
+          "date": "2026-08-30",
+          "tMax": 33,
+          "tMin": 19.4,
+          "rain": 0,
+          "code": 2,
+          "cloud": 17,
           "observed": true
         },
-        "condition": "wet",
-        "conditionLabel": "Wet",
-        "rain14": 13.1,
-        "rainForecast7": 13.5,
-        "minForecast7": 11.8,
+        "condition": "cloudy",
+        "conditionLabel": "Cloudy",
+        "rain14": 11.6,
+        "rainForecast7": 45.7,
+        "minForecast7": 12.2,
         "alerts": []
       },
       {
@@ -3300,18 +3300,18 @@
         "lat": -18.94,
         "lon": -46.99,
         "current": {
-          "date": "2026-08-28",
-          "tMax": 28.7,
-          "tMin": 17.4,
-          "rain": 0.8,
-          "code": 53,
+          "date": "2026-08-30",
+          "tMax": 30.8,
+          "tMin": 20.5,
+          "rain": 0,
+          "code": 2,
           "cloud": 9,
           "observed": true
         },
-        "condition": "very-wet",
-        "conditionLabel": "Very wet",
-        "rain14": 34.1,
-        "rainForecast7": 5.1,
+        "condition": "cloudy",
+        "conditionLabel": "Cloudy",
+        "rain14": 34.6,
+        "rainForecast7": 14.2,
         "minForecast7": 15.8,
         "alerts": []
       },
@@ -3323,19 +3323,19 @@
         "lat": -19.39,
         "lon": -40.07,
         "current": {
-          "date": "2026-08-28",
-          "tMax": 28.3,
-          "tMin": 20.4,
-          "rain": 2.7,
-          "code": 53,
-          "cloud": 32,
+          "date": "2026-08-30",
+          "tMax": 29.4,
+          "tMin": 22.2,
+          "rain": 0,
+          "code": 3,
+          "cloud": 37,
           "observed": true
         },
-        "condition": "very-wet",
-        "conditionLabel": "Very wet",
-        "rain14": 38.3,
-        "rainForecast7": 0.9,
-        "minForecast7": 19.3,
+        "condition": "cloudy",
+        "conditionLabel": "Cloudy",
+        "rain14": 28.1,
+        "rainForecast7": 15.5,
+        "minForecast7": 18,
         "alerts": []
       },
       {
@@ -3346,24 +3346,24 @@
         "lat": 12.68,
         "lon": 108.05,
         "current": {
-          "date": "2026-08-28",
-          "tMax": 30.1,
-          "tMin": 23.1,
-          "rain": 10,
+          "date": "2026-08-30",
+          "tMax": 29.5,
+          "tMin": 22.2,
+          "rain": 9.9,
           "code": 81,
-          "cloud": 84,
+          "cloud": 97,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 116.5,
-        "rainForecast7": 156.2,
-        "minForecast7": 21.5,
+        "rain14": 113.3,
+        "rainForecast7": 126.8,
+        "minForecast7": 21.2,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "156 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "127 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3375,24 +3375,24 @@
         "lat": 11.55,
         "lon": 107.81,
         "current": {
-          "date": "2026-08-28",
-          "tMax": 24.8,
-          "tMin": 20.7,
-          "rain": 12.6,
+          "date": "2026-08-30",
+          "tMax": 23.7,
+          "tMin": 20.1,
+          "rain": 14.9,
           "code": 80,
-          "cloud": 98,
+          "cloud": 97,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 209.3,
-        "rainForecast7": 116.4,
-        "minForecast7": 19.8,
+        "rain14": 223.9,
+        "rainForecast7": 96.1,
+        "minForecast7": 19.7,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "116 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "96 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3404,19 +3404,19 @@
         "lat": 1.85,
         "lon": -76.05,
         "current": {
-          "date": "2026-08-28",
-          "tMax": 24.4,
-          "tMin": 17,
-          "rain": 6.2,
-          "code": 61,
-          "cloud": 84,
+          "date": "2026-08-30",
+          "tMax": 24.1,
+          "tMin": 17.3,
+          "rain": 8.2,
+          "code": 81,
+          "cloud": 98,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 66,
-        "rainForecast7": 34.6,
-        "minForecast7": 14.7,
+        "rain14": 67.9,
+        "rainForecast7": 14.8,
+        "minForecast7": 14.5,
         "alerts": []
       },
       {
@@ -3427,19 +3427,19 @@
         "lat": 6.25,
         "lon": -75.56,
         "current": {
-          "date": "2026-08-28",
-          "tMax": 28.9,
-          "tMin": 17.1,
-          "rain": 1.3,
-          "code": 51,
-          "cloud": 86,
+          "date": "2026-08-30",
+          "tMax": 29.1,
+          "tMin": 17.8,
+          "rain": 4.4,
+          "code": 53,
+          "cloud": 89,
           "observed": true
         },
-        "condition": "cloudy",
-        "conditionLabel": "Cloudy",
-        "rain14": 33.3,
-        "rainForecast7": 17,
-        "minForecast7": 16.6,
+        "condition": "wet",
+        "conditionLabel": "Wet",
+        "rain14": 34.4,
+        "rainForecast7": 11.3,
+        "minForecast7": 16.4,
         "alerts": []
       },
       {
@@ -3450,19 +3450,19 @@
         "lat": 4.63,
         "lon": 96.85,
         "current": {
-          "date": "2026-08-28",
-          "tMax": 26.4,
-          "tMin": 15,
-          "rain": 0.3,
+          "date": "2026-08-30",
+          "tMax": 26.5,
+          "tMin": 16.7,
+          "rain": 0.4,
           "code": 51,
-          "cloud": 71,
+          "cloud": 72,
           "observed": true
         },
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
-        "rain14": 10.5,
-        "rainForecast7": 16.7,
-        "minForecast7": 15.5,
+        "rain14": 9.7,
+        "rainForecast7": 22.5,
+        "minForecast7": 15.7,
         "alerts": []
       },
       {
@@ -3473,19 +3473,19 @@
         "lat": -5.45,
         "lon": 105.27,
         "current": {
-          "date": "2026-08-28",
-          "tMax": 31.2,
-          "tMin": 23.7,
-          "rain": 0.3,
-          "code": 51,
-          "cloud": 48,
+          "date": "2026-08-30",
+          "tMax": 33.4,
+          "tMin": 24.8,
+          "rain": 2,
+          "code": 53,
+          "cloud": 46,
           "observed": true
         },
-        "condition": "wet",
-        "conditionLabel": "Wet",
-        "rain14": 38.9,
-        "rainForecast7": 14.4,
-        "minForecast7": 23.3,
+        "condition": "dry",
+        "conditionLabel": "Clear / dry",
+        "rain14": 38,
+        "rainForecast7": 17,
+        "minForecast7": 24.8,
         "alerts": []
       },
       {
@@ -3496,19 +3496,19 @@
         "lat": 7.67,
         "lon": 36.83,
         "current": {
-          "date": "2026-08-28",
-          "tMax": 25.1,
-          "tMin": 12.8,
-          "rain": 0.1,
-          "code": 51,
-          "cloud": 52,
+          "date": "2026-08-30",
+          "tMax": 23.1,
+          "tMin": 14,
+          "rain": 6.8,
+          "code": 80,
+          "cloud": 57,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 84.5,
-        "rainForecast7": 47.9,
-        "minForecast7": 12.5,
+        "rain14": 79.3,
+        "rainForecast7": 31.6,
+        "minForecast7": 12.6,
         "alerts": []
       },
       {
@@ -3519,19 +3519,19 @@
         "lat": 14.16,
         "lon": -88.02,
         "current": {
-          "date": "2026-08-28",
-          "tMax": 30.9,
-          "tMin": 17.8,
-          "rain": 0.8,
+          "date": "2026-08-30",
+          "tMax": 30.7,
+          "tMin": 18.3,
+          "rain": 1.5,
           "code": 51,
-          "cloud": 61,
+          "cloud": 79,
           "observed": true
         },
-        "condition": "wet",
-        "conditionLabel": "Wet",
-        "rain14": 44.8,
-        "rainForecast7": 27.3,
-        "minForecast7": 14.5,
+        "condition": "cloudy",
+        "conditionLabel": "Cloudy",
+        "rain14": 45.1,
+        "rainForecast7": 25.6,
+        "minForecast7": 15.2,
         "alerts": []
       },
       {
@@ -3542,19 +3542,19 @@
         "lat": -11.05,
         "lon": -75.33,
         "current": {
-          "date": "2026-08-28",
-          "tMax": 31,
-          "tMin": 17.2,
-          "rain": 0.3,
+          "date": "2026-08-30",
+          "tMax": 30.6,
+          "tMin": 19.3,
+          "rain": 1.3,
           "code": 51,
-          "cloud": 22,
+          "cloud": 65,
           "observed": true
         },
-        "condition": "cloudy",
-        "conditionLabel": "Cloudy",
-        "rain14": 66.4,
-        "rainForecast7": 28.1,
-        "minForecast7": 18.2,
+        "condition": "dry",
+        "conditionLabel": "Clear / dry",
+        "rain14": 66.3,
+        "rainForecast7": 37.4,
+        "minForecast7": 17.5,
         "alerts": []
       }
     ],
@@ -3568,48 +3568,48 @@
   },
   "news": {
     "originWire": {
-      "fetchedAt": "2026-08-29T11:02:57.574Z",
+      "fetchedAt": "2026-08-31T06:04:15.105Z",
       "lookbackHours": 504,
       "headlines": [
         {
-          "title": "UK urged to ban imports of Brazilian meat over health concerns",
-          "summary": "Brazil has failed to prove compliance with EU rules on use of antibiotics in cattle and poultry farming The UK’s leading farming organisations and animal health experts have called for an urgent ban on imports of Brazilian meat, in light of concerns over the…",
-          "url": "https://www.theguardian.com/food/2026/aug/28/uk-urged-ban-import-brazil-meat-health-concerns",
+          "title": "Performance and belonging: Rio de Janeiro’s ballroom scene – photo essay",
+          "summary": "A look at the ballroom scene across Maré, Lapa, Gamboa and the city centre. The photographer Juliana Bizzo has documented a movement born from Black and Latinx LGBTQ+ communities in the US that has more recently evolved in Rio, growing from the city’s first…",
+          "url": "https://www.theguardian.com/world/2026/aug/31/performance-and-belonging-rio-de-janeiro-ballroom-scene-photo-essay",
           "publisher": "The Guardian",
           "region": "Brazil",
-          "published": "Fri, 28 Aug 2026 15:13:43 GMT"
+          "published": "Mon, 31 Aug 2026 06:00:17 GMT"
         },
         {
-          "title": "Gold prices dip to lowest in a week",
-          "summary": "Vietnam gold prices plunged Saturday morning to the lowest since July 22, following a 3% tumble of the precious metal on global markets.",
-          "url": "https://e.vnexpress.net/news/business/markets/gold-prices-dip-to-lowest-in-a-week-5114867.html",
+          "title": "Sleeper bus overturns in Vietnam’s Central Highlands, killing 3",
+          "summary": "Three people were killed and around 20 others taken to hospital after a sleeper bus carrying 33 people overturned on a highway in Vietnam’s Central Highlands early Monday.",
+          "url": "https://e.vnexpress.net/news/news/traffic/sleeper-bus-overturns-in-vietnam-s-central-highlands-killing-3-5115319.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Sat, 29 Aug 2026 17:10:42 +0700"
+          "published": "Mon, 31 Aug 2026 09:01:49 +0700"
         },
         {
-          "title": "4 richest Indonesians add $6B to wealth in a month",
-          "summary": "Indonesia’s four richest men added $6.3 billion to their combined fortunes in August, driven by a recovery in the stock market and improved performance at their companies.",
-          "url": "https://e.vnexpress.net/news/business/billionaires/4-richest-indonesians-add-6b-to-wealth-in-a-month-5113721.html",
-          "publisher": "VnExpress International",
+          "title": "Why is this teenager fighting fires dressed as Superman?",
+          "summary": "A 17-year-old boy has gone viral for wearing a superhero costume while volunteer firefighting in Indonesia, as the country faces a super El Niño.",
+          "url": "https://www.bbc.co.uk/news/videos/cp84ql8lld9o?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
           "region": "Indonesia",
-          "published": "Fri, 28 Aug 2026 11:20:59 +0700"
+          "published": "Mon, 31 Aug 2026 01:07:06 GMT"
         },
         {
-          "title": "They laid down arms. Now ex-guerrillas in Colombia fear fate under new hardline president",
-          "summary": "‘Total peace’ plan of previous government led only 99 of Colombia’s 30,000 armed combatants to disarm, but new president Abelardo De la Espriella opposes peace agreements In mid-June, 99 guerrilla fighters were flown by helicopter to a small settlement in a…",
+          "title": "Was it a mistake for 99 Colombian guerrillas to lay down their arms?",
+          "summary": "Fighters in legal limbo after accepting ‘total peace’ plan of Petro government just days before hardliner Abelardo De la Espriella took over In mid-June, 99 guerrilla fighters were flown by helicopter to a small settlement in a rural area of southern Colombia…",
           "url": "https://www.theguardian.com/world/2026/aug/29/former-guerrillas-colombia-fate-new-president",
           "publisher": "The Guardian",
           "region": "Colombia",
           "published": "Sat, 29 Aug 2026 10:00:24 GMT"
         },
         {
-          "title": "What’s in the US-Venezuela ‘biggest oil deal in world history?’",
-          "summary": "US President Donald Trump has claimed the US and Venezuela have reached the ‘biggest oil deal in world history’.",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/29/whats-in-the-us-venezuela-biggest-oil-deal-in-world-history?traffic_source=rss",
+          "title": "Tennis great Djokovic exits US Open in first round amid tears and pain",
+          "summary": "Novak Djokovic's pursuit of a 25th Grand Slam ends in a five-set defeat to unseeded Argentinian player Mariano Navone.",
+          "url": "https://www.aljazeera.com/sports/2026/8/31/tennis-great-djokovic-exits-us-open-in-first-round-amid-tears-and-pain?traffic_source=rss",
           "publisher": "Al Jazeera",
           "region": "South & Central America",
-          "published": "Sat, 29 Aug 2026 04:16:01 +0000"
+          "published": "Mon, 31 Aug 2026 05:31:25 +0000"
         },
         {
           "title": "Dutch court sentences man to life over Rwanda genocide",
@@ -3620,44 +3620,44 @@
           "published": "Fri, 28 Aug 2026 12:15:46 GMT"
         },
         {
-          "title": "Brazil’s vast iron mine that supplies the world and fractures the Amazon – in pictures",
-          "summary": "The Grand Carajás project has made the country a mining superpower, but communities living in its shadow face pollution, displacement and silenced histories Continue reading...",
-          "url": "https://www.theguardian.com/global-development/gallery/2026/aug/21/brazils-vast-iron-mine-that-supplies-the-world-and-fractures-the-amazon-in-pictures",
+          "title": "UK urged to ban imports of Brazilian meat over health concerns",
+          "summary": "Brazil has failed to prove compliance with EU rules on use of antibiotics in cattle and poultry farming The UK’s leading farming organisations and animal health experts have called for an urgent ban on imports of Brazilian meat, in light of concerns over the…",
+          "url": "https://www.theguardian.com/food/2026/aug/28/uk-urged-ban-import-brazil-meat-health-concerns",
           "publisher": "The Guardian",
           "region": "Brazil",
-          "published": "Fri, 21 Aug 2026 12:00:35 GMT"
+          "published": "Fri, 28 Aug 2026 15:13:43 GMT"
         },
         {
-          "title": "Dollar strengthens against dong on black market",
-          "summary": "The U.S. dollar went up against the Vietnamese dong on the black market Saturday morning.",
-          "url": "https://e.vnexpress.net/news/business/markets/dollar-strengthens-against-dong-on-black-market-5114879.html",
+          "title": "Vietnam sets world record after 1.77 million people join nationwide walk",
+          "summary": "The second nationwide “Marching Forward with Vietnam” event on Aug. 30 brought together 1,774,268 people across all 34 provinces and cities, setting a Guinness World Record for the largest number of localities simultaneously organizing walking activities to…",
+          "url": "https://e.vnexpress.net/news/news/vietnam-sets-world-record-after-1-77-million-people-join-nationwide-walk-5115247.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Sat, 29 Aug 2026 17:10:24 +0700"
+          "published": "Sun, 30 Aug 2026 20:41:28 +0700"
         },
         {
-          "title": "Singapore-born billionaire Low Tuck Kwong reportedly negotiating sale of majority stake in flagship coal mining firm",
-          "summary": "Singapore-born Indonesian billionaire Low Tuck Kwong is reportedly negotiating the sale of a majority stake in his flagship coal mining firm PT Bayan Resources, with potential buyers including a rival tycoon.",
-          "url": "https://e.vnexpress.net/news/business/companies/singapore-born-billionaire-low-tuck-kwong-reportedly-negotiating-sale-of-majority-stake-in-flagship-coal-mining-firm-5114015.html",
+          "title": "4 richest Indonesians add $6B to wealth in a month",
+          "summary": "Indonesia’s four richest men added $6.3 billion to their combined fortunes in August, driven by a recovery in the stock market and improved performance at their companies.",
+          "url": "https://e.vnexpress.net/news/business/billionaires/4-richest-indonesians-add-6b-to-wealth-in-a-month-5113721.html",
           "publisher": "VnExpress International",
           "region": "Indonesia",
-          "published": "Thu, 27 Aug 2026 11:55:11 +0700"
+          "published": "Fri, 28 Aug 2026 11:20:59 +0700"
         },
         {
-          "title": "A pioneering voyage up Colombia’s greatest river",
-          "summary": "For decades, the Magdalena was off-limits to all but the most intrepid travellers. Now a trailblazing cruise company is opening up its wetlands, historic towns and isolated communities once more",
-          "url": "https://www.ft.com/content/f37e5176-56f1-48dc-bb52-58c5d85840df",
-          "publisher": "Financial Times",
+          "title": "Colombia's new president approves extradition of rebel leaders to US",
+          "summary": "It is a step towards ending a plan to stop violence by bringing rebel and criminal groups to the negotiating table.",
+          "url": "https://www.bbc.co.uk/news/articles/cvgy45zv8e2o?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
           "region": "Colombia",
-          "published": "Sat, 29 Aug 2026 04:00:13 GMT"
+          "published": "Thu, 27 Aug 2026 20:10:30 GMT"
         },
         {
-          "title": "Ecuador sentences ex-president Moreno to five years in jail in bribery case",
-          "summary": "Lenin Moreno, 73, has also been permanently barred from holding any public office in the future.",
-          "url": "https://www.aljazeera.com/news/2026/8/29/ecuador-sentences-ex-president-moreno-to-five-years-in-jail-in-bribery-case?traffic_source=rss",
-          "publisher": "Al Jazeera",
+          "title": "Argentina battles flood of contraband goods as Milei opens economy",
+          "summary": "Libertarian president’s stronger peso fuels jump in illicit imports, squeezing domestic businesses",
+          "url": "https://www.ft.com/content/18f9f4ce-e437-435e-ad8e-a043ea181161?syn-25a6b1a6=1",
+          "publisher": "Financial Times",
           "region": "South & Central America",
-          "published": "Sat, 29 Aug 2026 03:48:25 +0000"
+          "published": "Mon, 31 Aug 2026 04:00:20 GMT"
         },
         {
           "title": "World's youngest reigning traditional monarch dies aged 34",
@@ -3668,30 +3668,30 @@
           "published": "Fri, 28 Aug 2026 11:13:24 GMT"
         },
         {
-          "title": "Maracanã to host opening game and final at next year’s Women’s World Cup",
-          "summary": "Stadium has hosted two men’s World Cup finals Arena Itaquera in São Paulo will host 10 matches The Maracanã in Rio de Janeiro will host the opening game and the final of next year’s Women’s World Cup. The 78,838-capacity stadium, which hosted the finals of…",
-          "url": "https://www.theguardian.com/football/2026/aug/20/maracana-to-host-opening-game-and-final-at-next-years-womens-world-cup",
+          "title": "Brazil’s vast iron mine that supplies the world and fractures the Amazon – in pictures",
+          "summary": "The Grand Carajás project has made the country a mining superpower, but communities living in its shadow face pollution, displacement and silenced histories Continue reading...",
+          "url": "https://www.theguardian.com/global-development/gallery/2026/aug/21/brazils-vast-iron-mine-that-supplies-the-world-and-fractures-the-amazon-in-pictures",
           "publisher": "The Guardian",
           "region": "Brazil",
-          "published": "Thu, 20 Aug 2026 15:25:54 GMT"
+          "published": "Fri, 21 Aug 2026 12:00:35 GMT"
         },
         {
-          "title": "Da Nang International Airport's $379M expansion project to break ground in August 2027",
-          "summary": "A project worth more than VND9.9 trillion (US$379 million) to expand Terminal 1 (T1) of the Da Nang International Airport is scheduled to start construction in August 2027.",
-          "url": "https://e.vnexpress.net/news/business/companies/da-nang-international-airport-s-379m-expansion-project-to-break-ground-in-august-2027-5114544.html",
+          "title": "Vietnamese lecturer turns her Chinese mastery into fully funded PhD scholarship",
+          "summary": "A Vietnamese lecturer has secured a fully funded PhD scholarship in China after mastering advanced Chinese and developing a research proposal on how learners acquire thousands of Chinese words.",
+          "url": "https://e.vnexpress.net/news/news/education/vietnamese-lecturer-turns-her-chinese-mastery-into-fully-funded-phd-scholarship-5115181.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Sat, 29 Aug 2026 17:09:48 +0700"
+          "published": "Sun, 30 Aug 2026 19:00:00 +0700"
         }
       ],
-      "totalTagged": 104,
+      "totalTagged": 107,
       "feedsQueried": 14,
       "errors": [],
       "note": "General headlines from the growing regions, taken from outlets of record and tagged to a region by the countries and cities they name."
     },
     "roundup": {
       "source": "assembled",
-      "fetchedAt": "2026-08-29T11:02:57.061Z",
+      "fetchedAt": "2026-08-31T06:04:14.754Z",
       "windowDays": 7,
       "publishers": [
         "Daily Coffee News",
@@ -3700,6 +3700,24 @@
         "World Coffee Portal"
       ],
       "items": [
+        {
+          "headline": "Perk & Recs: A Curated Selection Of Coffees From The Sprudge Roaster’s Village",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. A weekly curated selection of coffees from the Sprudge Roaster's Village.",
+          "url": "https://sprudge.com/perk-recs-a-curated-selection-of-coffees-from-the-sprudge-roasters-village-1294296.html",
+          "publisher": "Sprudge",
+          "published": "Sun, 30 Aug 2026 12:00:53 +0000",
+          "date": "Sun, 30 Aug",
+          "section": "Roasting & retail"
+        },
+        {
+          "headline": "Lord Gear Me Strength To Not Buy All This Hot Coffee Gear",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. This week's selection of coffee gear.",
+          "url": "https://sprudge.com/lord-gear-me-strength-to-not-buy-all-this-hot-coffee-gear-1294302.html",
+          "publisher": "Sprudge",
+          "published": "Sat, 29 Aug 2026 12:00:31 +0000",
+          "date": "Sat, 29 Aug",
+          "section": "Roasting & retail"
+        },
         {
           "headline": "Weekly Coffee News: US AeroPress Champion + Coffee 101 with the Howells",
           "summary": "Phillippe “Akira” Kato Wins American AeroPress Championship Phillippe “Akira” Kato of Boston’s Newbery Street Coffee won the 2026 American AeroPress Championship, presented by Atomic Coffee Roasters at Studio B in...",
@@ -3746,15 +3764,6 @@
           "section": "Trade & production"
         },
         {
-          "headline": "10 Things Your Wholesale Roaster Wants You To Know, But Is Afraid to Say",
-          "summary": "Roasters often feel misunderstood by their wholesale partners. Here’s what they wish you knew about what it’s like to run a roasting business. The post 10 Things Your Wholesale Roaster Wants You To Know, But Is Afraid to Say appeared first on Fresh Cup .",
-          "url": "https://freshcup.com/10-things-your-wholesale-roaster-wants-you-to-know-but-is-afraid-to-say/",
-          "publisher": "Fresh Cup",
-          "published": "Fri, 28 Aug 2026 11:30:00 +0000",
-          "date": "Fri, 28 Aug",
-          "section": "Roasting & retail"
-        },
-        {
           "headline": "NY-Based Colombian Coffee Roaster Devoción Partners With Colombia’s FNC To Support Coffee Growers After The August Earthquake",
           "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. The Colombian-founded company is directing funds to earthquake relief and asking the rest of the coffee industry to join.",
           "url": "https://sprudge.com/ny-based-colombian-coffee-roaster-devocion-partners-with-colombias-fnc-to-support-coffee-growers-after-the-august-earthquake-1291723.html",
@@ -3762,15 +3771,6 @@
           "published": "Thu, 27 Aug 2026 20:29:39 +0000",
           "date": "Thu, 27 Aug",
           "section": "Top stories of the week"
-        },
-        {
-          "headline": "Coffee Design: Joe Coffee Company’s Call Time By Jordan Fisher",
-          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Call Time By Jordan Fisher by Joe Coffee Company in New York City.",
-          "url": "https://sprudge.com/coffee-design-joe-coffee-companys-call-time-by-jordan-fisher-1278712.html",
-          "publisher": "Sprudge",
-          "published": "Thu, 27 Aug 2026 17:34:12 +0000",
-          "date": "Thu, 27 Aug",
-          "section": "Roasting & retail"
         },
         {
           "headline": "Tchibo posts strong annual revenues but warns of rising consumer price sensitivity",
@@ -3858,7 +3858,7 @@
       "note": "Assembled from the coffee trade press over the past seven days, ranked by relevance to the physical trade. Headlines and links are each publisher’s own."
     },
     "dailyRead": {
-      "fetchedAt": "2026-08-29T11:02:55.548Z",
+      "fetchedAt": "2026-08-31T06:04:12.590Z",
       "article": {
         "title": "Hawaii Coffee Farms Face Long Recovery After Hurricane Lala",
         "summary": "Coffee farms across southern Hawaii Island are assessing crop, tree and infrastructure losses following Hurricane Lala, which brought damaging winds and extreme rainfall to some of the state’s key coffee-growing...",
@@ -4186,37 +4186,37 @@
     {
       "source": "daily-read",
       "ok": true,
-      "ms": 380
+      "ms": 783
     },
     {
       "source": "weather",
       "ok": true,
-      "ms": 863
+      "ms": 872
     },
     {
       "source": "arabica-futures",
       "ok": true,
-      "ms": 970
-    },
-    {
-      "source": "fx",
-      "ok": true,
-      "ms": 1867
-    },
-    {
-      "source": "weekly-recap",
-      "ok": true,
-      "ms": 1897
+      "ms": 1180
     },
     {
       "source": "ico-report",
       "ok": true,
-      "ms": 2197
+      "ms": 1969
+    },
+    {
+      "source": "weekly-recap",
+      "ok": true,
+      "ms": 2950
     },
     {
       "source": "origin-wire",
       "ok": true,
-      "ms": 2414
+      "ms": 3305
+    },
+    {
+      "source": "fx",
+      "ok": true,
+      "ms": 3450
     }
   ]
 }

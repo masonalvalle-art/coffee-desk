@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T06:04:15.250Z",
+  "generatedAt": "2026-08-31T18:38:09.627Z",
   "schema": 5,
   "schedule": {
     "slotsUtc": [
@@ -26,8 +26,8 @@
       "frontMonth": {
         "code": "KCU26",
         "label": "Sep 2026",
-        "close": 345.85,
-        "volume": 16
+        "close": 344.85,
+        "volume": 8
       },
       "rolled": true,
       "mostActive": "KCZ26",
@@ -35,66 +35,58 @@
         {
           "code": "KCU26",
           "label": "Sep 2026",
-          "close": 345.85,
-          "volume": 16
+          "close": 344.85,
+          "volume": 8
         },
         {
           "code": "KCZ26",
           "label": "Dec 2026",
-          "close": 312.85,
-          "volume": 11539
+          "close": 314,
+          "volume": 9638
         },
         {
           "code": "KCH27",
           "label": "Mar 2027",
-          "close": 300.6,
-          "volume": 4835
+          "close": 301.8,
+          "volume": 3442
         },
         {
           "code": "KCK27",
           "label": "May 2027",
-          "close": 296.8,
-          "volume": 1916
+          "close": 297.55,
+          "volume": 1528
         },
         {
           "code": "KCN27",
           "label": "Jul 2027",
-          "close": 294.35,
-          "volume": 681
+          "close": 294.95,
+          "volume": 370
         },
         {
           "code": "KCU27",
           "label": "Sep 2027",
-          "close": 291.65,
-          "volume": 300
+          "close": 291.2,
+          "volume": 216
         },
         {
           "code": "KCZ27",
           "label": "Dec 2027",
-          "close": 288.4,
-          "volume": 143
+          "close": 287.6,
+          "volume": 104
         }
       ],
       "quote": {
-        "last": 312.6,
-        "open": 311.5,
-        "high": 317,
-        "low": 308.70001220703125,
-        "previousClose": 309.6499938964844,
-        "change": 2.95,
-        "changePct": 0.953,
-        "volume": 23394,
-        "asOf": "2026-08-28T17:29:56.000Z"
+        "last": 314,
+        "open": 311.04998779296875,
+        "high": 317.1499938964844,
+        "low": 309.04998779296875,
+        "previousClose": 312.8500061035156,
+        "change": 1.15,
+        "changePct": 0.368,
+        "volume": 9638,
+        "asOf": "2026-08-31T17:29:59.000Z"
       },
       "bars": [
-        {
-          "date": "2025-05-23",
-          "open": 306.6499938964844,
-          "high": 307.8500061035156,
-          "low": 302.3500061035156,
-          "close": 307.70001220703125,
-          "volume": 92
-        },
         {
           "date": "2025-05-26",
           "open": 306.6499938964844,
@@ -2646,13 +2638,21 @@
           "low": 308.70001220703125,
           "close": 312.8500061035156,
           "volume": 23394
+        },
+        {
+          "date": "2026-08-31",
+          "open": 311.04998779296875,
+          "high": 317.1499938964844,
+          "low": 309.04998779296875,
+          "close": 314,
+          "volume": 9638
         }
       ],
       "crossCheck": {
-        "tradingView": 312.85,
-        "yahoo": 312.6,
-        "diff": 0.25,
-        "diffPct": 0.08,
+        "tradingView": 314,
+        "yahoo": 314,
+        "diff": 0,
+        "diffPct": 0,
         "agree": true
       },
       "sources": [
@@ -2668,20 +2668,20 @@
         }
       ],
       "technicals": {
-        "observations": 502,
-        "sma20": 318.79499969482424,
-        "sma50": 304.9619995117188,
-        "sma200": 291.1827501678467,
-        "rsi14": 48.61777726072639,
+        "observations": 503,
+        "sma20": 319.25999908447267,
+        "sma50": 306.08399963378906,
+        "sma200": 291.0217501068115,
+        "rsi14": 49.22444133240496,
         "macd": {
-          "line": 5.067054782152354,
-          "signal": 7.088028397869927,
-          "histogram": -2.0209736157175726
+          "line": 4.130254889789967,
+          "signal": 6.496473696253935,
+          "histogram": -2.3662188064639684
         },
-        "atr14": 13.619806713695723,
+        "atr14": 13.225535241540001,
         "donchian20": {
           "high": 345.6499938964844,
-          "low": 302.6000061035156,
+          "low": 303.5,
           "period": 20
         },
         "levels": {
@@ -2719,29 +2719,25 @@
           "low": 209.1999969482422
         },
         "method": "Wilder RSI(14); MACD(12,26,9) on EMA; ATR(14); pivots = 5-bar swing highs/lows; Donchian(20).",
-        "basis": "502 daily bars for KCZ26"
+        "basis": "503 daily bars for KCZ26"
       },
       "barsPublished": 320,
-      "barsAnalysed": 502
+      "barsAnalysed": 503
     }
   },
   "fx": {
-    "asOf": "2026-08-28",
+    "asOf": "2026-08-31",
     "pairs": {
       "GBPUSD": {
         "pair": "GBP/USD",
-        "rate": 1.3583,
-        "previous": 1.3582,
+        "rate": 1.3539,
+        "previous": 1.3583,
         "dp": 4,
         "note": "Sterling stronger means a dollar-priced contract costs a UK buyer less.",
-        "change": 0.0001,
-        "changePct": 0.007,
-        "change1m": 1.45,
+        "change": -0.0044,
+        "changePct": -0.324,
+        "change1m": 0.88,
         "history": [
-          {
-            "date": "2026-06-08",
-            "rate": 1.3363
-          },
           {
             "date": "2026-06-09",
             "rate": 1.3404
@@ -2977,23 +2973,23 @@
           {
             "date": "2026-08-28",
             "rate": 1.3583
+          },
+          {
+            "date": "2026-08-31",
+            "rate": 1.3539
           }
         ]
       },
       "USDBRL": {
         "pair": "USD/BRL",
-        "rate": 5.1641,
-        "previous": 5.142,
+        "rate": 5.1718,
+        "previous": 5.1641,
         "dp": 4,
         "note": "A weaker real encourages Brazilian producer selling.",
-        "change": 0.0221,
-        "changePct": 0.43,
-        "change1m": 1.24,
+        "change": 0.0077,
+        "changePct": 0.149,
+        "change1m": 2.24,
         "history": [
-          {
-            "date": "2026-06-08",
-            "rate": 5.1432
-          },
           {
             "date": "2026-06-09",
             "rate": 5.163
@@ -3229,14 +3225,18 @@
           {
             "date": "2026-08-28",
             "rate": 5.1641
+          },
+          {
+            "date": "2026-08-31",
+            "rate": 5.1718
           }
         ]
       }
     },
     "ptax": {
-      "buy": 5.1999,
-      "sell": 5.2005,
-      "quotedAt": "2026-08-28 13:11:19.963529"
+      "buy": 5.181,
+      "sell": 5.1816,
+      "quotedAt": "2026-08-31 13:08:57.200562"
     },
     "sources": [
       {
@@ -3252,7 +3252,7 @@
     ]
   },
   "weather": {
-    "fetchedAt": "2026-08-31T06:04:12.671Z",
+    "fetchedAt": "2026-08-31T18:38:07.181Z",
     "thresholds": {
       "frostC": 4,
       "heavyRainMm": 50,
@@ -3282,14 +3282,14 @@
           "tMin": 19.4,
           "rain": 0,
           "code": 2,
-          "cloud": 17,
+          "cloud": 19,
           "observed": true
         },
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
         "rain14": 11.6,
-        "rainForecast7": 45.7,
-        "minForecast7": 12.2,
+        "rainForecast7": 20.2,
+        "minForecast7": 11.1,
         "alerts": []
       },
       {
@@ -3311,8 +3311,8 @@
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
         "rain14": 34.6,
-        "rainForecast7": 14.2,
-        "minForecast7": 15.8,
+        "rainForecast7": 14.7,
+        "minForecast7": 15.1,
         "alerts": []
       },
       {
@@ -3334,8 +3334,8 @@
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
         "rain14": 28.1,
-        "rainForecast7": 15.5,
-        "minForecast7": 18,
+        "rainForecast7": 12,
+        "minForecast7": 18.1,
         "alerts": []
       },
       {
@@ -3356,14 +3356,14 @@
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 113.3,
-        "rainForecast7": 126.8,
-        "minForecast7": 21.2,
+        "rain14": 106.6,
+        "rainForecast7": 174.9,
+        "minForecast7": 21.4,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "127 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "175 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3385,14 +3385,14 @@
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 223.9,
-        "rainForecast7": 96.1,
-        "minForecast7": 19.7,
+        "rain14": 211.1,
+        "rainForecast7": 112.8,
+        "minForecast7": 19.6,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "96 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "113 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3406,17 +3406,17 @@
         "current": {
           "date": "2026-08-30",
           "tMax": 24.1,
-          "tMin": 17.3,
+          "tMin": 17.6,
           "rain": 8.2,
           "code": 81,
-          "cloud": 98,
+          "cloud": 95,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 67.9,
-        "rainForecast7": 14.8,
-        "minForecast7": 14.5,
+        "rainForecast7": 21.5,
+        "minForecast7": 15.6,
         "alerts": []
       },
       {
@@ -3430,16 +3430,16 @@
           "date": "2026-08-30",
           "tMax": 29.1,
           "tMin": 17.8,
-          "rain": 4.4,
+          "rain": 5.2,
           "code": 53,
           "cloud": 89,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 34.4,
-        "rainForecast7": 11.3,
-        "minForecast7": 16.4,
+        "rain14": 35.2,
+        "rainForecast7": 20.3,
+        "minForecast7": 16.1,
         "alerts": []
       },
       {
@@ -3460,9 +3460,9 @@
         },
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
-        "rain14": 9.7,
-        "rainForecast7": 22.5,
-        "minForecast7": 15.7,
+        "rain14": 8.8,
+        "rainForecast7": 44.9,
+        "minForecast7": 15.6,
         "alerts": []
       },
       {
@@ -3483,9 +3483,9 @@
         },
         "condition": "dry",
         "conditionLabel": "Clear / dry",
-        "rain14": 38,
-        "rainForecast7": 17,
-        "minForecast7": 24.8,
+        "rain14": 37.4,
+        "rainForecast7": 14.1,
+        "minForecast7": 23.7,
         "alerts": []
       },
       {
@@ -3507,8 +3507,8 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 79.3,
-        "rainForecast7": 31.6,
-        "minForecast7": 12.6,
+        "rainForecast7": 18.7,
+        "minForecast7": 12.8,
         "alerts": []
       },
       {
@@ -3522,16 +3522,16 @@
           "date": "2026-08-30",
           "tMax": 30.7,
           "tMin": 18.3,
-          "rain": 1.5,
+          "rain": 1.2,
           "code": 51,
-          "cloud": 79,
+          "cloud": 75,
           "observed": true
         },
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
-        "rain14": 45.1,
-        "rainForecast7": 25.6,
-        "minForecast7": 15.2,
+        "rain14": 44.8,
+        "rainForecast7": 24.3,
+        "minForecast7": 16.3,
         "alerts": []
       },
       {
@@ -3545,16 +3545,16 @@
           "date": "2026-08-30",
           "tMax": 30.6,
           "tMin": 19.3,
-          "rain": 1.3,
+          "rain": 0.7,
           "code": 51,
-          "cloud": 65,
+          "cloud": 69,
           "observed": true
         },
         "condition": "dry",
         "conditionLabel": "Clear / dry",
-        "rain14": 66.3,
-        "rainForecast7": 37.4,
-        "minForecast7": 17.5,
+        "rain14": 65.7,
+        "rainForecast7": 33.8,
+        "minForecast7": 17.2,
         "alerts": []
       }
     ],
@@ -3568,7 +3568,7 @@
   },
   "news": {
     "originWire": {
-      "fetchedAt": "2026-08-31T06:04:15.105Z",
+      "fetchedAt": "2026-08-31T18:38:09.623Z",
       "lookbackHours": 504,
       "headlines": [
         {
@@ -3580,12 +3580,12 @@
           "published": "Mon, 31 Aug 2026 06:00:17 GMT"
         },
         {
-          "title": "Sleeper bus overturns in Vietnam’s Central Highlands, killing 3",
-          "summary": "Three people were killed and around 20 others taken to hospital after a sleeper bus carrying 33 people overturned on a highway in Vietnam’s Central Highlands early Monday.",
-          "url": "https://e.vnexpress.net/news/news/traffic/sleeper-bus-overturns-in-vietnam-s-central-highlands-killing-3-5115319.html",
+          "title": "Southeast Asia’s richest man and wife account for nearly 75% of Vietnam’s billionaire wealth",
+          "summary": "Vingroup chairman Pham Nhat Vuong and his wife Pham Thu Huong are Vietnam’s two wealthiest individuals, with a combined fortune of US$40.6 billion, equivalent to nearly 74.5% of the total wealth held by the country’s eight billionaires.",
+          "url": "https://e.vnexpress.net/news/business/billionaires/southeast-asia-s-richest-man-and-wife-account-for-nearly-75-of-vietnam-s-billionaire-wealth-5115349.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Mon, 31 Aug 2026 09:01:49 +0700"
+          "published": "Mon, 31 Aug 2026 16:18:33 +0700"
         },
         {
           "title": "Why is this teenager fighting fires dressed as Superman?",
@@ -3604,20 +3604,20 @@
           "published": "Sat, 29 Aug 2026 10:00:24 GMT"
         },
         {
-          "title": "Tennis great Djokovic exits US Open in first round amid tears and pain",
-          "summary": "Novak Djokovic's pursuit of a 25th Grand Slam ends in a five-set defeat to unseeded Argentinian player Mariano Navone.",
-          "url": "https://www.aljazeera.com/sports/2026/8/31/tennis-great-djokovic-exits-us-open-in-first-round-amid-tears-and-pain?traffic_source=rss",
-          "publisher": "Al Jazeera",
+          "title": "Lionel Messi announces retirement from international football",
+          "summary": "Superstar says he planned move two days after Argentina’s loss to Spain in July World Cup final",
+          "url": "https://www.ft.com/content/4b2b79ad-f909-489b-a8d7-01a126f64bae?syn-25a6b1a6=1",
+          "publisher": "Financial Times",
           "region": "South & Central America",
-          "published": "Mon, 31 Aug 2026 05:31:25 +0000"
+          "published": "Mon, 31 Aug 2026 17:19:01 GMT"
         },
         {
-          "title": "Dutch court sentences man to life over Rwanda genocide",
-          "summary": "The court in The Hague convicted the 66-year-old of war crimes and the crime of genocide.",
-          "url": "https://www.bbc.co.uk/news/articles/ce8x96rw79ro?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
+          "title": "Why is piracy picking up off Somalia’s coast again?",
+          "summary": "Piracy is surging back off Somalia's coast, though not yet at the scale of its 2011 peak.",
+          "url": "https://www.aljazeera.com/news/2026/8/31/why-is-piracy-picking-up-off-somalias-coast-again?traffic_source=rss",
+          "publisher": "Al Jazeera",
           "region": "East Africa",
-          "published": "Fri, 28 Aug 2026 12:15:46 GMT"
+          "published": "Mon, 31 Aug 2026 13:52:15 +0000"
         },
         {
           "title": "UK urged to ban imports of Brazilian meat over health concerns",
@@ -3628,12 +3628,12 @@
           "published": "Fri, 28 Aug 2026 15:13:43 GMT"
         },
         {
-          "title": "Vietnam sets world record after 1.77 million people join nationwide walk",
-          "summary": "The second nationwide “Marching Forward with Vietnam” event on Aug. 30 brought together 1,774,268 people across all 34 provinces and cities, setting a Guinness World Record for the largest number of localities simultaneously organizing walking activities to…",
-          "url": "https://e.vnexpress.net/news/news/vietnam-sets-world-record-after-1-77-million-people-join-nationwide-walk-5115247.html",
+          "title": "Sleeper bus overturns in Vietnam’s Central Highlands, killing one",
+          "summary": "One person was killed and around 20 others taken to hospital after a sleeper bus carrying 33 people overturned on a highway in Vietnam’s Central Highlands early Monday.",
+          "url": "https://e.vnexpress.net/news/news/traffic/sleeper-bus-overturns-in-vietnam-s-central-highlands-killing-one-5115319.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Sun, 30 Aug 2026 20:41:28 +0700"
+          "published": "Mon, 31 Aug 2026 09:01:49 +0700"
         },
         {
           "title": "4 richest Indonesians add $6B to wealth in a month",
@@ -3652,20 +3652,20 @@
           "published": "Thu, 27 Aug 2026 20:10:30 GMT"
         },
         {
-          "title": "Argentina battles flood of contraband goods as Milei opens economy",
-          "summary": "Libertarian president’s stronger peso fuels jump in illicit imports, squeezing domestic businesses",
-          "url": "https://www.ft.com/content/18f9f4ce-e437-435e-ad8e-a043ea181161?syn-25a6b1a6=1",
-          "publisher": "Financial Times",
+          "title": "Argentina legend Lionel Messi retires from international football",
+          "summary": "Messi led Argentina to World Cup glory in 2022, but his side lost 1-0 to Spain in the 2026 final.",
+          "url": "https://www.aljazeera.com/sports/2026/8/31/argentina-legend-lionel-messi-retires-from-international-football?traffic_source=rss",
+          "publisher": "Al Jazeera",
           "region": "South & Central America",
-          "published": "Mon, 31 Aug 2026 04:00:20 GMT"
+          "published": "Mon, 31 Aug 2026 15:47:38 +0000"
         },
         {
-          "title": "World's youngest reigning traditional monarch dies aged 34",
-          "summary": "King Oyo ascended to the throne of Uganda's Tooro kingdom when he was just three years old.",
-          "url": "https://www.bbc.co.uk/news/articles/c0j38d9v40po?at_medium=RSS&amp;at_campaign=rss",
+          "title": "Passengers stranded as strike disrupts flights at Kenya's main airport",
+          "summary": "Kenya Airways says the strike has caused delays of more than six hours, with some flights cancelled.",
+          "url": "https://www.bbc.co.uk/news/articles/c783x05nnlko?at_medium=RSS&amp;at_campaign=rss",
           "publisher": "BBC News",
           "region": "East Africa",
-          "published": "Fri, 28 Aug 2026 11:13:24 GMT"
+          "published": "Mon, 31 Aug 2026 10:54:01 GMT"
         },
         {
           "title": "Brazil’s vast iron mine that supplies the world and fractures the Amazon – in pictures",
@@ -3676,22 +3676,22 @@
           "published": "Fri, 21 Aug 2026 12:00:35 GMT"
         },
         {
-          "title": "Vietnamese lecturer turns her Chinese mastery into fully funded PhD scholarship",
-          "summary": "A Vietnamese lecturer has secured a fully funded PhD scholarship in China after mastering advanced Chinese and developing a research proposal on how learners acquire thousands of Chinese words.",
-          "url": "https://e.vnexpress.net/news/news/education/vietnamese-lecturer-turns-her-chinese-mastery-into-fully-funded-phd-scholarship-5115181.html",
+          "title": "Vietnam sets world record after 1.77 million people join nationwide walk",
+          "summary": "The second nationwide “Marching Forward with Vietnam” event on Aug. 30 brought together 1,774,268 people across all 34 provinces and cities, setting a Guinness World Record for the largest number of localities simultaneously organizing walking activities to…",
+          "url": "https://e.vnexpress.net/news/news/vietnam-sets-world-record-after-1-77-million-people-join-nationwide-walk-5115247.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Sun, 30 Aug 2026 19:00:00 +0700"
+          "published": "Sun, 30 Aug 2026 20:41:28 +0700"
         }
       ],
-      "totalTagged": 107,
+      "totalTagged": 103,
       "feedsQueried": 14,
       "errors": [],
       "note": "General headlines from the growing regions, taken from outlets of record and tagged to a region by the countries and cities they name."
     },
     "roundup": {
       "source": "assembled",
-      "fetchedAt": "2026-08-31T06:04:14.754Z",
+      "fetchedAt": "2026-08-31T18:38:08.867Z",
       "windowDays": 7,
       "publishers": [
         "Daily Coffee News",
@@ -3700,6 +3700,33 @@
         "World Coffee Portal"
       ],
       "items": [
+        {
+          "headline": "Graffeo Is Giving Away Their Ferrari With An Espresso Machine In The Engine",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. The Graffeo Cafe Car Giveaway is open until September 4th.",
+          "url": "https://sprudge.com/graffeo-is-giving-away-their-ferrari-with-an-espresso-machine-in-the-engine-1294606.html",
+          "publisher": "Sprudge",
+          "published": "Mon, 31 Aug 2026 17:21:05 +0000",
+          "date": "Mon, 31 Aug",
+          "section": "Roasting & retail"
+        },
+        {
+          "headline": "Caffeine May Change How the Brain Sleeps, Not Just How Long",
+          "summary": "For coffee drinkers who insist they can fall asleep after their post-dinner espresso, a new review suggests the more important issue may be the quality of that sleep. The systematic...",
+          "url": "https://dailycoffeenews.com/2026/08/31/caffeine-may-change-how-the-brain-sleeps-not-just-how-long/",
+          "publisher": "Daily Coffee News",
+          "published": "Mon, 31 Aug 2026 13:50:49 +0000",
+          "date": "Mon, 31 Aug",
+          "section": "Roasting & retail"
+        },
+        {
+          "headline": "17-Year-Old Launches Pink Pour Coffee Trailer in New Mexico",
+          "summary": "As teenagers throughout the United States trade summer jobs for full-time school this fall, one 17-year-old in New Mexico is taking her coffee job to a whole new level. Natalia...",
+          "url": "https://dailycoffeenews.com/2026/08/31/17-year-old-launches-pink-pour-coffee-trailer-in-new-mexico/",
+          "publisher": "Daily Coffee News",
+          "published": "Mon, 31 Aug 2026 13:40:27 +0000",
+          "date": "Mon, 31 Aug",
+          "section": "Roasting & retail"
+        },
         {
           "headline": "Perk & Recs: A Curated Selection Of Coffees From The Sprudge Roaster’s Village",
           "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. A weekly curated selection of coffees from the Sprudge Roaster's Village.",
@@ -3719,15 +3746,6 @@
           "section": "Roasting & retail"
         },
         {
-          "headline": "Weekly Coffee News: US AeroPress Champion + Coffee 101 with the Howells",
-          "summary": "Phillippe “Akira” Kato Wins American AeroPress Championship Phillippe “Akira” Kato of Boston’s Newbery Street Coffee won the 2026 American AeroPress Championship, presented by Atomic Coffee Roasters at Studio B in...",
-          "url": "https://dailycoffeenews.com/2026/08/28/weekly-coffee-news-us-aeropress-champion-coffee-101-with-the-howells/",
-          "publisher": "Daily Coffee News",
-          "published": "Fri, 28 Aug 2026 15:14:21 +0000",
-          "date": "Fri, 28 Aug",
-          "section": "Roasting & retail"
-        },
-        {
           "headline": "Hawaii Coffee Farms Face Long Recovery After Hurricane Lala",
           "summary": "Coffee farms across southern Hawaii Island are assessing crop, tree and infrastructure losses following Hurricane Lala, which brought damaging winds and extreme rainfall to some of the state’s key coffee-growing...",
           "url": "https://dailycoffeenews.com/2026/08/28/hawaii-coffee-farms-face-long-recovery-after-hurricane-lala/",
@@ -3735,24 +3753,6 @@
           "published": "Fri, 28 Aug 2026 14:32:20 +0000",
           "date": "Fri, 28 Aug",
           "section": "Top stories of the week"
-        },
-        {
-          "headline": "Summer Of Build Outs Continues On The Coffee Sprudgecast",
-          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. The Wild Fox, Nandan Coffee, Presta Coffee, and a Mocha Moment presented by Ghirardelli Chocolate.",
-          "url": "https://sprudge.com/summer-of-build-outs-continues-on-the-coffee-sprudgecast-1282886.html",
-          "publisher": "Sprudge",
-          "published": "Fri, 28 Aug 2026 14:00:12 +0000",
-          "date": "Fri, 28 Aug",
-          "section": "Roasting & retail"
-        },
-        {
-          "headline": "Time is running out to save coffee from environmental collapse – here’s where the fightback begins",
-          "summary": null,
-          "url": "https://www.worldcoffeeportal.com/feature/no-coffee-on-a-dead-planet/",
-          "publisher": "World Coffee Portal",
-          "published": "Fri, 28 Aug 2026 12:49:34 GMT",
-          "date": "Fri, 28 Aug",
-          "section": "Roasting & retail"
         },
         {
           "headline": "Coffee Futures Fund Is Now Accepting Applications For The 2027 Cohort",
@@ -3824,16 +3824,7 @@
           "publisher": "Daily Coffee News",
           "published": "Tue, 25 Aug 2026 18:56:52 +0000",
           "date": "Tue, 25 Aug",
-          "section": "Trade & production"
-        },
-        {
-          "headline": "Sanctuary Coffee Roasting Opens a Refuge for Tasting in Fresno County",
-          "summary": "Chef-owned Sanctuary Coffee Roasting has opened a tasting lounge inside its production roastery in Clovis, California, offering a friendly haven for exploring coffee production and flavors. The lounge hosts free...",
-          "url": "https://dailycoffeenews.com/2026/08/25/sanctuary-coffee-roasting-opens-a-refuge-for-tasting-in-fresno-county/",
-          "publisher": "Daily Coffee News",
-          "published": "Tue, 25 Aug 2026 13:07:34 +0000",
-          "date": "Tue, 25 Aug",
-          "section": "Trade & production"
+          "section": "Top stories of the week"
         },
         {
           "headline": "As Earthquake Recovery Continues, Colombian Farmers Face Threat of El Niño",
@@ -3843,22 +3834,13 @@
           "published": "Tue, 25 Aug 2026 11:00:00 +0000",
           "date": "Tue, 25 Aug",
           "section": "Top stories of the week"
-        },
-        {
-          "headline": "Coffee News Club: Week of August 24",
-          "summary": "Unicorn Frappuccino? Not at these unionized Starbucks stores. Plus, Colombian coffee farmers recovering from the recent earthquake fear the impact of El Niño, and why do so many specialty coffee shops look the same? Researchers try to find out. The post…",
-          "url": "https://freshcup.com/coffee-news-club-week-of-august-24/",
-          "publisher": "Fresh Cup",
-          "published": "Mon, 24 Aug 2026 11:00:00 +0000",
-          "date": "Mon, 24 Aug",
-          "section": "Top stories of the week"
         }
       ],
       "errors": [],
       "note": "Assembled from the coffee trade press over the past seven days, ranked by relevance to the physical trade. Headlines and links are each publisher’s own."
     },
     "dailyRead": {
-      "fetchedAt": "2026-08-31T06:04:12.590Z",
+      "fetchedAt": "2026-08-31T18:38:07.130Z",
       "article": {
         "title": "Hawaii Coffee Farms Face Long Recovery After Hurricane Lala",
         "summary": "Coffee farms across southern Hawaii Island are assessing crop, tree and infrastructure losses following Hurricane Lala, which brought damaging winds and extreme rainfall to some of the state’s key coffee-growing...",
@@ -4186,37 +4168,37 @@
     {
       "source": "daily-read",
       "ok": true,
-      "ms": 783
+      "ms": 737
     },
     {
       "source": "weather",
       "ok": true,
-      "ms": 872
+      "ms": 795
     },
     {
       "source": "arabica-futures",
       "ok": true,
-      "ms": 1180
-    },
-    {
-      "source": "ico-report",
-      "ok": true,
-      "ms": 1969
-    },
-    {
-      "source": "weekly-recap",
-      "ok": true,
-      "ms": 2950
-    },
-    {
-      "source": "origin-wire",
-      "ok": true,
-      "ms": 3305
+      "ms": 1003
     },
     {
       "source": "fx",
       "ok": true,
-      "ms": 3450
+      "ms": 1502
+    },
+    {
+      "source": "ico-report",
+      "ok": true,
+      "ms": 1591
+    },
+    {
+      "source": "weekly-recap",
+      "ok": true,
+      "ms": 2476
+    },
+    {
+      "source": "origin-wire",
+      "ok": true,
+      "ms": 3236
     }
   ]
 }

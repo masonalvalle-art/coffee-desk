@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T06:08:16.004Z",
+  "generatedAt": "2026-09-02T18:43:17.081Z",
   "schema": 5,
   "schedule": {
     "slotsUtc": [
@@ -26,8 +26,8 @@
       "frontMonth": {
         "code": "KCU26",
         "label": "Sep 2026",
-        "close": 342.25,
-        "volume": 8
+        "close": 328,
+        "volume": 18
       },
       "rolled": true,
       "mostActive": "KCZ26",
@@ -35,66 +35,58 @@
         {
           "code": "KCU26",
           "label": "Sep 2026",
-          "close": 342.25,
-          "volume": 8
+          "close": 328,
+          "volume": 18
         },
         {
           "code": "KCZ26",
           "label": "Dec 2026",
-          "close": 309.45,
-          "volume": 22286
+          "close": 297.35,
+          "volume": 19400
         },
         {
           "code": "KCH27",
           "label": "Mar 2027",
-          "close": 297.65,
-          "volume": 8816
+          "close": 287.2,
+          "volume": 7851
         },
         {
           "code": "KCK27",
           "label": "May 2027",
-          "close": 294.1,
-          "volume": 2776
+          "close": 284.4,
+          "volume": 2115
         },
         {
           "code": "KCN27",
           "label": "Jul 2027",
-          "close": 291.75,
-          "volume": 927
+          "close": 282.75,
+          "volume": 992
         },
         {
           "code": "KCU27",
           "label": "Sep 2027",
-          "close": 288.9,
-          "volume": 291
+          "close": 280.3,
+          "volume": 410
         },
         {
           "code": "KCZ27",
           "label": "Dec 2027",
-          "close": 285.7,
-          "volume": 103
+          "close": 277.35,
+          "volume": 238
         }
       ],
       "quote": {
-        "last": 308.35,
-        "open": 313.45001220703125,
-        "high": 315.54998779296875,
-        "low": 299.20001220703125,
-        "previousClose": 311.5,
-        "change": -3.15,
-        "changePct": -1.011,
-        "volume": 9638,
-        "asOf": "2026-09-01T17:29:59.000Z"
+        "last": 297.35,
+        "open": 307.04998779296875,
+        "high": 308.3500061035156,
+        "low": 295.3500061035156,
+        "previousClose": 309.45001220703125,
+        "change": -12.1,
+        "changePct": -3.91,
+        "volume": 19400,
+        "asOf": "2026-09-02T17:29:58.000Z"
       },
       "bars": [
-        {
-          "date": "2025-05-27",
-          "open": 308.20001220703125,
-          "high": 309.1000061035156,
-          "low": 307.45001220703125,
-          "close": 308.6499938964844,
-          "volume": 74
-        },
         {
           "date": "2025-05-28",
           "open": 305.70001220703125,
@@ -2646,13 +2638,21 @@
           "low": 299.20001220703125,
           "close": 309.45001220703125,
           "volume": 9638
+        },
+        {
+          "date": "2026-09-02",
+          "open": 307.04998779296875,
+          "high": 308.3500061035156,
+          "low": 295.3500061035156,
+          "close": 297.3500061035156,
+          "volume": 19400
         }
       ],
       "crossCheck": {
-        "tradingView": 309.45,
-        "yahoo": 308.35,
-        "diff": 1.1,
-        "diffPct": 0.357,
+        "tradingView": 297.35,
+        "yahoo": 297.35,
+        "diff": 0,
+        "diffPct": 0,
         "agree": true
       },
       "sources": [
@@ -2668,38 +2668,42 @@
         }
       ],
       "technicals": {
-        "observations": 504,
-        "sma20": 319.1675003051758,
-        "sma50": 307.1029998779297,
-        "sma200": 290.9330001068115,
-        "rsi14": 46.88478168924801,
+        "observations": 505,
+        "sma20": 318.4625,
+        "sma50": 307.81099975585937,
+        "sma200": 290.79750007629394,
+        "rsi14": 41.10531499927302,
         "macd": {
-          "line": 2.8322884162641913,
-          "signal": 5.731727808347147,
-          "histogram": -2.8994393920829555
+          "line": 0.9740924050397552,
+          "signal": 4.780200727685669,
+          "histogram": -3.8061083226459136
         },
-        "atr14": 13.448709551854108,
+        "atr14": 13.495230734115646,
         "donchian20": {
           "high": 345.6499938964844,
-          "low": 299.20001220703125,
+          "low": 295.3500061035156,
           "period": 20
         },
         "levels": {
           "support": [
             {
-              "price": 308.75,
-              "date": "2026-01-21"
+              "price": 293.25,
+              "date": "2026-07-24"
             },
             {
-              "price": 308.1000061035156,
-              "date": "2025-09-02"
+              "price": 290,
+              "date": "2025-06-03"
             },
             {
-              "price": 307.54998779296875,
-              "date": "2025-10-28"
+              "price": 289.6499938964844,
+              "date": "2025-03-27"
             }
           ],
           "resistance": [
+            {
+              "price": 304,
+              "date": "2025-03-05"
+            },
             {
               "price": 310,
               "date": "2025-04-02"
@@ -2707,10 +2711,6 @@
             {
               "price": 310.04998779296875,
               "date": "2025-02-11"
-            },
-            {
-              "price": 316.8500061035156,
-              "date": "2025-05-21"
             }
           ]
         },
@@ -2719,29 +2719,25 @@
           "low": 209.1999969482422
         },
         "method": "Wilder RSI(14); MACD(12,26,9) on EMA; ATR(14); pivots = 5-bar swing highs/lows; Donchian(20).",
-        "basis": "504 daily bars for KCZ26"
+        "basis": "505 daily bars for KCZ26"
       },
       "barsPublished": 320,
-      "barsAnalysed": 504
+      "barsAnalysed": 505
     }
   },
   "fx": {
-    "asOf": "2026-09-01",
+    "asOf": "2026-09-02",
     "pairs": {
       "GBPUSD": {
         "pair": "GBP/USD",
-        "rate": 1.3531,
-        "previous": 1.3539,
+        "rate": 1.3483,
+        "previous": 1.3531,
         "dp": 4,
         "note": "Sterling stronger means a dollar-priced contract costs a UK buyer less.",
-        "change": -0.0008,
-        "changePct": -0.059,
-        "change1m": 0.45,
+        "change": -0.0048,
+        "changePct": -0.355,
+        "change1m": 0.28,
         "history": [
-          {
-            "date": "2026-06-10",
-            "rate": 1.3382
-          },
           {
             "date": "2026-06-11",
             "rate": 1.3364
@@ -2977,23 +2973,23 @@
           {
             "date": "2026-09-01",
             "rate": 1.3531
+          },
+          {
+            "date": "2026-09-02",
+            "rate": 1.3483
           }
         ]
       },
       "USDBRL": {
         "pair": "USD/BRL",
-        "rate": 5.1989,
-        "previous": 5.1718,
+        "rate": 5.1507,
+        "previous": 5.1989,
         "dp": 4,
         "note": "A weaker real encourages Brazilian producer selling.",
-        "change": 0.0271,
-        "changePct": 0.524,
-        "change1m": 2.59,
+        "change": -0.0482,
+        "changePct": -0.927,
+        "change1m": 1.38,
         "history": [
-          {
-            "date": "2026-06-10",
-            "rate": 5.1907
-          },
           {
             "date": "2026-06-11",
             "rate": 5.1604
@@ -3229,14 +3225,18 @@
           {
             "date": "2026-09-01",
             "rate": 5.1989
+          },
+          {
+            "date": "2026-09-02",
+            "rate": 5.1507
           }
         ]
       }
     },
     "ptax": {
-      "buy": 5.1564,
-      "sell": 5.157,
-      "quotedAt": "2026-09-01 13:06:03.857125"
+      "buy": 5.1267,
+      "sell": 5.1273,
+      "quotedAt": "2026-09-02 13:02:37.601302"
     },
     "sources": [
       {
@@ -3251,19 +3251,333 @@
       }
     ]
   },
-  "weather": null,
+  "weather": {
+    "fetchedAt": "2026-09-02T18:43:15.804Z",
+    "thresholds": {
+      "frostC": 4,
+      "heavyRainMm": 50,
+      "dryMm": 5
+    },
+    "countryOrder": [
+      "Brazil",
+      "Vietnam",
+      "Colombia",
+      "Indonesia",
+      "Ethiopia",
+      "Honduras",
+      "Peru"
+    ],
+    "conditionMethod": "The condition icon reads the last three observed days: 30 mm of rain in total, 20 mm in any one day, or a heavy-rain code is very wet; 5 mm is wet; 60% mean cloud cover is cloudy; anything else is clear.",
+    "regions": [
+      {
+        "key": "sul-de-minas",
+        "name": "Sul de Minas",
+        "country": "Brazil",
+        "species": "Arabica",
+        "lat": -21.55,
+        "lon": -45.43,
+        "current": {
+          "date": "2026-09-01",
+          "tMax": 24.2,
+          "tMin": 17.8,
+          "rain": 11,
+          "code": 80,
+          "cloud": 84,
+          "observed": true
+        },
+        "condition": "wet",
+        "conditionLabel": "Wet",
+        "rain14": 26.6,
+        "rainForecast7": 12.4,
+        "minForecast7": 12.4,
+        "alerts": []
+      },
+      {
+        "key": "cerrado",
+        "name": "Cerrado Mineiro",
+        "country": "Brazil",
+        "species": "Arabica",
+        "lat": -18.94,
+        "lon": -46.99,
+        "current": {
+          "date": "2026-09-01",
+          "tMax": 29.3,
+          "tMin": 18.7,
+          "rain": 5.4,
+          "code": 80,
+          "cloud": 61,
+          "observed": true
+        },
+        "condition": "wet",
+        "conditionLabel": "Wet",
+        "rain14": 40,
+        "rainForecast7": 30.5,
+        "minForecast7": 16.1,
+        "alerts": []
+      },
+      {
+        "key": "espirito-santo",
+        "name": "Espírito Santo",
+        "country": "Brazil",
+        "species": "Robusta",
+        "lat": -19.39,
+        "lon": -40.07,
+        "current": {
+          "date": "2026-09-01",
+          "tMax": 32.5,
+          "tMin": 22,
+          "rain": 0,
+          "code": 3,
+          "cloud": 18,
+          "observed": true
+        },
+        "condition": "cloudy",
+        "conditionLabel": "Cloudy",
+        "rain14": 26.8,
+        "rainForecast7": 35.4,
+        "minForecast7": 18.8,
+        "alerts": []
+      },
+      {
+        "key": "dak-lak",
+        "name": "Dak Lak",
+        "country": "Vietnam",
+        "species": "Robusta",
+        "lat": 12.68,
+        "lon": 108.05,
+        "current": {
+          "date": "2026-09-01",
+          "tMax": 27.7,
+          "tMin": 21.6,
+          "rain": 14.5,
+          "code": 95,
+          "cloud": 100,
+          "observed": true
+        },
+        "condition": "very-wet",
+        "conditionLabel": "Very wet",
+        "rain14": 112.6,
+        "rainForecast7": 136.3,
+        "minForecast7": 21.9,
+        "alerts": [
+          {
+            "type": "wet",
+            "severity": "watch",
+            "text": "136 mm forecast over 7 days — harvest/drying disruption risk."
+          }
+        ]
+      },
+      {
+        "key": "lam-dong",
+        "name": "Lam Dong",
+        "country": "Vietnam",
+        "species": "Robusta",
+        "lat": 11.55,
+        "lon": 107.81,
+        "current": {
+          "date": "2026-09-01",
+          "tMax": 23.3,
+          "tMin": 19.5,
+          "rain": 14.1,
+          "code": 80,
+          "cloud": 100,
+          "observed": true
+        },
+        "condition": "very-wet",
+        "conditionLabel": "Very wet",
+        "rain14": 200.6,
+        "rainForecast7": 90.2,
+        "minForecast7": 20.5,
+        "alerts": [
+          {
+            "type": "wet",
+            "severity": "watch",
+            "text": "90 mm forecast over 7 days — harvest/drying disruption risk."
+          }
+        ]
+      },
+      {
+        "key": "huila",
+        "name": "Huila",
+        "country": "Colombia",
+        "species": "Arabica",
+        "lat": 1.85,
+        "lon": -76.05,
+        "current": {
+          "date": "2026-09-01",
+          "tMax": 28.5,
+          "tMin": 14.8,
+          "rain": 1.5,
+          "code": 51,
+          "cloud": 56,
+          "observed": true
+        },
+        "condition": "wet",
+        "conditionLabel": "Wet",
+        "rain14": 56.1,
+        "rainForecast7": 26,
+        "minForecast7": 15.3,
+        "alerts": []
+      },
+      {
+        "key": "antioquia",
+        "name": "Antioquia",
+        "country": "Colombia",
+        "species": "Arabica",
+        "lat": 6.25,
+        "lon": -75.56,
+        "current": {
+          "date": "2026-09-01",
+          "tMax": 28.1,
+          "tMin": 17.1,
+          "rain": 3.7,
+          "code": 53,
+          "cloud": 85,
+          "observed": true
+        },
+        "condition": "wet",
+        "conditionLabel": "Wet",
+        "rain14": 22.3,
+        "rainForecast7": 9.6,
+        "minForecast7": 16.5,
+        "alerts": []
+      },
+      {
+        "key": "gayo",
+        "name": "Gayo Highlands",
+        "country": "Indonesia",
+        "species": "Arabica",
+        "lat": 4.63,
+        "lon": 96.85,
+        "current": {
+          "date": "2026-09-01",
+          "tMax": 26.7,
+          "tMin": 16,
+          "rain": 4.4,
+          "code": 80,
+          "cloud": 96,
+          "observed": true
+        },
+        "condition": "cloudy",
+        "conditionLabel": "Cloudy",
+        "rain14": 13.1,
+        "rainForecast7": 41.3,
+        "minForecast7": 16.3,
+        "alerts": []
+      },
+      {
+        "key": "lampung",
+        "name": "Lampung",
+        "country": "Indonesia",
+        "species": "Robusta",
+        "lat": -5.45,
+        "lon": 105.27,
+        "current": {
+          "date": "2026-09-01",
+          "tMax": 32.7,
+          "tMin": 25.4,
+          "rain": 4.6,
+          "code": 55,
+          "cloud": 46,
+          "observed": true
+        },
+        "condition": "wet",
+        "conditionLabel": "Wet",
+        "rain14": 36.6,
+        "rainForecast7": 6.6,
+        "minForecast7": 23.3,
+        "alerts": []
+      },
+      {
+        "key": "jimma",
+        "name": "Jimma",
+        "country": "Ethiopia",
+        "species": "Arabica",
+        "lat": 7.67,
+        "lon": 36.83,
+        "current": {
+          "date": "2026-09-01",
+          "tMax": 23.4,
+          "tMin": 12.8,
+          "rain": 3.9,
+          "code": 53,
+          "cloud": 27,
+          "observed": true
+        },
+        "condition": "wet",
+        "conditionLabel": "Wet",
+        "rain14": 70.6,
+        "rainForecast7": 17.9,
+        "minForecast7": 13.3,
+        "alerts": []
+      },
+      {
+        "key": "marcala",
+        "name": "Marcala",
+        "country": "Honduras",
+        "species": "Arabica",
+        "lat": 14.16,
+        "lon": -88.02,
+        "current": {
+          "date": "2026-09-01",
+          "tMax": 29.9,
+          "tMin": 18.3,
+          "rain": 1.1,
+          "code": 51,
+          "cloud": 89,
+          "observed": true
+        },
+        "condition": "cloudy",
+        "conditionLabel": "Cloudy",
+        "rain14": 35.9,
+        "rainForecast7": 28.7,
+        "minForecast7": 14.9,
+        "alerts": []
+      },
+      {
+        "key": "chanchamayo",
+        "name": "Chanchamayo",
+        "country": "Peru",
+        "species": "Arabica",
+        "lat": -11.05,
+        "lon": -75.33,
+        "current": {
+          "date": "2026-09-01",
+          "tMax": 28.7,
+          "tMin": 20.4,
+          "rain": 3.8,
+          "code": 53,
+          "cloud": 55,
+          "observed": true
+        },
+        "condition": "wet",
+        "conditionLabel": "Wet",
+        "rain14": 56.8,
+        "rainForecast7": 37.1,
+        "minForecast7": 17.4,
+        "alerts": []
+      }
+    ],
+    "sources": [
+      {
+        "name": "Open-Meteo forecast API",
+        "url": "https://open-meteo.com/",
+        "role": "observed + forecast temperature, precipitation and weather code"
+      }
+    ]
+  },
   "news": {
     "originWire": {
-      "fetchedAt": "2026-09-02T06:08:15.296Z",
+      "fetchedAt": "2026-09-02T18:43:16.961Z",
       "lookbackHours": 504,
       "headlines": [
         {
-          "title": "Echoes of cold war as US accused of meddling in another Brazilian election",
-          "summary": "Claims that Trump and Rubio are trying to influence result have parallels with CIA intervention 64 years ago The year was 1962 and the Kennedy administration was desperate to swing Brazil’s congressional elections against its leftwing president, João Goulart…",
-          "url": "https://www.theguardian.com/world/2026/sep/01/us-trump-rubio-meddling-brazil-election",
-          "publisher": "The Guardian",
+          "title": "Brazilian activist demands Tunisia release Sumud Flotilla organisers",
+          "summary": "Activists say four organisers of flotilla that sought to break Gaza blockade have been held in Tunisia since March.",
+          "url": "https://www.aljazeera.com/news/2026/9/2/brazilian-activist-demands-tunisia-release-sumud-flotilla-organisers?traffic_source=rss",
+          "publisher": "Al Jazeera",
           "region": "Brazil",
-          "published": "Tue, 01 Sep 2026 12:00:57 GMT"
+          "published": "Wed, 02 Sep 2026 17:10:17 +0000"
         },
         {
           "title": "US President Donald Trump congratulates Vietnam on National Day",
@@ -3274,12 +3588,12 @@
           "published": "Wed, 02 Sep 2026 09:12:16 +0700"
         },
         {
-          "title": "The Extractor review – Indonesian hostage-rescue thriller has surprising thread of gentleness at its core",
-          "summary": "Iko Uwais directs and acts in the story of a band of elite soldiers who must rescue a group of researchers taken captive in the jungle Can an elite team of soldiers rescue a band of innocent hostages from a bunch of mean old terrorists? Yes, probably, since…",
-          "url": "https://www.theguardian.com/film/2026/sep/01/the-extractor-review-sentimental-thread-brings-gentleness-indonesian-action-thriller",
-          "publisher": "The Guardian",
+          "title": "Over 500 students hospitalised after eating state-supplied meals in Indones",
+          "summary": "More than 500 students in Indonesia were hospitalised with food poisoning on Tuesday.",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/2/over-500-students-hospitalised-after-eating-state-supplied-meals-in-indones?traffic_source=rss",
+          "publisher": "Al Jazeera",
           "region": "Indonesia",
-          "published": "Tue, 01 Sep 2026 08:00:48 GMT"
+          "published": "Wed, 02 Sep 2026 17:37:29 +0000"
         },
         {
           "title": "Was it a mistake for 99 Colombian guerrillas to lay down their arms?",
@@ -3290,28 +3604,28 @@
           "published": "Sat, 29 Aug 2026 10:00:24 GMT"
         },
         {
-          "title": "Honduran court drops case against ex-President Hernandez after Trump pardon",
-          "summary": "Juan Orlando Hernandez had been accused of money laundering and fraud as part of a government corruption scheme.",
-          "url": "https://www.aljazeera.com/news/2026/9/2/honduran-court-drops-case-against-ex-president-hernandez-after-trump-pardon?traffic_source=rss",
-          "publisher": "Al Jazeera",
+          "title": "Chevron to double Venezuela oil production with $7bn pledge",
+          "summary": "US major commits to expanding its joint ventures as White House pushes for huge increase in production in the country",
+          "url": "https://www.ft.com/content/a76721db-36e1-4198-aad8-8c90137aace9?syn-25a6b1a6=1",
+          "publisher": "Financial Times",
           "region": "South & Central America",
-          "published": "Wed, 02 Sep 2026 02:34:52 +0000"
+          "published": "Wed, 02 Sep 2026 17:53:03 GMT"
         },
         {
-          "title": "Kenya aviation workers call off strike that disrupted flights",
-          "summary": "The go-slow strike that began on Sunday caused long delays and left passengers stranded.",
-          "url": "https://www.bbc.co.uk/news/articles/c783x05nnlko?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
+          "title": "How refugee camps become mini-economies",
+          "summary": "In an era of aid cuts, entrepreneurialism in the Mahama refugee camp in Rwanda is increasingly important",
+          "url": "https://www.ft.com/content/cb2b4c47-489d-43d0-8f51-a3e7baaff22e?syn-25a6b1a6=1",
+          "publisher": "Financial Times",
           "region": "East Africa",
-          "published": "Tue, 01 Sep 2026 06:56:44 GMT"
+          "published": "Wed, 02 Sep 2026 17:03:28 GMT"
         },
         {
-          "title": "Performance and belonging: Rio de Janeiro’s ballroom scene – photo essay",
-          "summary": "A look at the ballroom scene across Maré, Lapa, Gamboa and the city centre. The photographer Juliana Bizzo has documented a movement born from Black and Latinx LGBTQ+ communities in the US that has more recently evolved in Rio, growing from the city’s first…",
-          "url": "https://www.theguardian.com/world/2026/aug/31/performance-and-belonging-rio-de-janeiro-ballroom-scene-photo-essay",
+          "title": "Echoes of cold war as US accused of meddling in another Brazilian election",
+          "summary": "Claims that Trump and Rubio are trying to influence result have parallels with CIA intervention 64 years ago The year was 1962 and the Kennedy administration was desperate to swing Brazil’s congressional elections against its leftwing president, João Goulart…",
+          "url": "https://www.theguardian.com/world/2026/sep/01/us-trump-rubio-meddling-brazil-election",
           "publisher": "The Guardian",
           "region": "Brazil",
-          "published": "Mon, 31 Aug 2026 06:00:17 GMT"
+          "published": "Tue, 01 Sep 2026 12:00:57 GMT"
         },
         {
           "title": "Rice exports reach $2.91B in eight months",
@@ -3322,12 +3636,12 @@
           "published": "Tue, 01 Sep 2026 16:46:00 +0700"
         },
         {
-          "title": "Orangutans in danger as wildfires blaze through Borneo",
-          "summary": "Wildfires in Indonesia have destroyed part of the natural habitat of hundreds of orangutans, risking the survival of the species.",
-          "url": "https://www.bbc.co.uk/news/videos/c74emdn49kdo?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
+          "title": "Indonesia’s lessons for the global energy transition",
+          "summary": "Country’s solar push highlights momentum — and obstacles — around green energy shift",
+          "url": "https://www.ft.com/content/3cd95c0c-4d62-4a74-8c66-34523bc2567d?syn-25a6b1a6=1",
+          "publisher": "Financial Times",
           "region": "Indonesia",
-          "published": "Mon, 31 Aug 2026 22:05:43 GMT"
+          "published": "Wed, 02 Sep 2026 11:00:07 GMT"
         },
         {
           "title": "Colombia's new president approves extradition of rebel leaders to US",
@@ -3338,12 +3652,12 @@
           "published": "Thu, 27 Aug 2026 20:10:30 GMT"
         },
         {
-          "title": "Fernandez transfers to Man City from Chelsea in joint British record fee",
-          "summary": "Argentina international Enzo Fernandez signs for Manchester City in a deal from Chelsea worth £125 million ($169m).",
-          "url": "https://www.aljazeera.com/sports/2026/9/1/fernandez-transfers-to-man-city-from-chelsea-in-joint-british-record-fee?traffic_source=rss",
-          "publisher": "Al Jazeera",
+          "title": "The wrong way to revive Venezuela’s economy",
+          "summary": "Oil deal is most striking example yet of Trump’s new state capitalism",
+          "url": "https://www.ft.com/content/1fef1e44-2a79-4057-89e5-33417e5a7763?syn-25a6b1a6=1",
+          "publisher": "Financial Times",
           "region": "South & Central America",
-          "published": "Tue, 01 Sep 2026 23:00:30 +0000"
+          "published": "Wed, 02 Sep 2026 17:22:07 GMT"
         },
         {
           "title": "World's youngest reigning traditional monarch dies aged 34",
@@ -3354,12 +3668,12 @@
           "published": "Fri, 28 Aug 2026 11:13:24 GMT"
         },
         {
-          "title": "UK urged to ban imports of Brazilian meat over health concerns",
-          "summary": "Brazil has failed to prove compliance with EU rules on use of antibiotics in cattle and poultry farming The UK’s leading farming organisations and animal health experts have called for an urgent ban on imports of Brazilian meat, in light of concerns over the…",
-          "url": "https://www.theguardian.com/food/2026/aug/28/uk-urged-ban-import-brazil-meat-health-concerns",
+          "title": "Performance and belonging: Rio de Janeiro’s ballroom scene – photo essay",
+          "summary": "A look at the ballroom scene across Maré, Lapa, Gamboa and the city centre. The photographer Juliana Bizzo has documented a movement born from Black and Latinx LGBTQ+ communities in the US that has more recently evolved in Rio, growing from the city’s first…",
+          "url": "https://www.theguardian.com/world/2026/aug/31/performance-and-belonging-rio-de-janeiro-ballroom-scene-photo-essay",
           "publisher": "The Guardian",
           "region": "Brazil",
-          "published": "Fri, 28 Aug 2026 15:13:43 GMT"
+          "published": "Mon, 31 Aug 2026 06:00:17 GMT"
         },
         {
           "title": "Southeast Asia’s 5 richest billionaires, led by Vietnam’s Pham Nhat Vuong, worth $110.7B",
@@ -3370,14 +3684,14 @@
           "published": "Tue, 01 Sep 2026 15:28:49 +0700"
         }
       ],
-      "totalTagged": 104,
+      "totalTagged": 102,
       "feedsQueried": 14,
       "errors": [],
       "note": "General headlines from the growing regions, taken from outlets of record and tagged to a region by the countries and cities they name."
     },
     "roundup": {
       "source": "assembled",
-      "fetchedAt": "2026-09-02T06:08:14.565Z",
+      "fetchedAt": "2026-09-02T18:43:16.520Z",
       "windowDays": 7,
       "publishers": [
         "Daily Coffee News",
@@ -3387,39 +3701,57 @@
       ],
       "items": [
         {
-          "headline": "MiiR Expands Beyond Drinkware With Its First Collection Of Handcrafted Ceramics",
-          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Three thoughtfully designed mugs bring MiiR’s signature approach to form, function and everyday rituals.",
-          "url": "https://sprudge.com/miir-expands-beyond-drinkware-with-its-first-collection-of-handcrafted-ceramics-1307146.html",
-          "publisher": "Sprudge",
-          "published": "Tue, 01 Sep 2026 19:03:08 +0000",
-          "date": "Tue, 1 Sep",
-          "section": "Roasting & retail"
-        },
-        {
-          "headline": "Cartel Roasting Co. Partners With Little Bear Coffee For “Blends With Friends” Initiative",
-          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Arizona-based roaster collaborates with Albuquerque specialty coffee company on limited-edition coffee blend.",
-          "url": "https://sprudge.com/cartel-roasting-co-partners-with-little-bear-coffee-for-blends-with-friends-initiative-1306732.html",
-          "publisher": "Sprudge",
-          "published": "Tue, 01 Sep 2026 17:14:57 +0000",
-          "date": "Tue, 1 Sep",
-          "section": "Roasting & retail"
-        },
-        {
-          "headline": "Paulig to form new coffee business unit as part of organisational restructure",
-          "summary": "The Finnish food and beverage group roasts approximately 60,000 tonnes of coffee annually across its Paulig, Presidentti and Juhla Mokka packaged coffee brands Finnish coffee, beverage and food supplier Paulig has announced a significant organisational change…",
-          "url": "https://www.worldcoffeeportal.com/news/paulig-to-form-new-coffee-business-unit-as-part-of-organisational-restructure/",
+          "headline": "COFE Tech secures $178m valuation in pre-IPO funding round",
+          "summary": "The agentic enterprise firm is planning to list on the Saudi Exchange by 2029 after broadening its reach with new digital procurement, supply chain and e-commerce solutions",
+          "url": "https://www.worldcoffeeportal.com/news/cofe-tech-secures-178m-valuation-in-pre-ipo-funding-round/",
           "publisher": "World Coffee Portal",
-          "published": "Tue, 01 Sep 2026 16:41:40 GMT",
-          "date": "Tue, 1 Sep",
+          "published": "Wed, 02 Sep 2026 14:41:00 GMT",
+          "date": "Wed, 2 Sep",
+          "section": "Top stories of the week"
+        },
+        {
+          "headline": "Ask Maps: How To Get Mentions From the Google Maps AI",
+          "summary": "Google Maps now integrates directly with Square and Toast. Here's how that impacts your AI answer engine mentions. The post Ask Maps: How To Get Mentions From the Google Maps AI appeared first on Fresh Cup .",
+          "url": "https://freshcup.com/ask-maps-how-to-get-mentions-from-the-google-maps-ai/",
+          "publisher": "Fresh Cup",
+          "published": "Wed, 02 Sep 2026 14:38:00 +0000",
+          "date": "Wed, 2 Sep",
           "section": "Roasting & retail"
         },
         {
-          "headline": "Coffee’s Heart Health Link Looks Stronger Without Sweeteners",
-          "summary": "A large new study found that moderate consumption of unsweetened coffee was associated with a lower risk of cardiovascular disease, while sweetened coffee did not show the same protective association....",
-          "url": "https://dailycoffeenews.com/2026/09/01/coffees-heart-health-link-looks-stronger-without-sweeteners/",
-          "publisher": "Daily Coffee News",
-          "published": "Tue, 01 Sep 2026 14:37:48 +0000",
-          "date": "Tue, 1 Sep",
+          "headline": "Build-Outs Of Coffee: Aurora Coffee Hub In Amman, Jordan",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Aurora Coffee Hub in Amman, Jordan.",
+          "url": "https://sprudge.com/build-outs-of-coffee-aurora-coffee-hub-in-amman-jordan-1265150.html",
+          "publisher": "Sprudge",
+          "published": "Wed, 02 Sep 2026 14:00:33 +0000",
+          "date": "Wed, 2 Sep",
+          "section": "Roasting & retail"
+        },
+        {
+          "headline": "Swiss foodservice and retail group Valora announces leadership transition",
+          "summary": "Michael Mueller is stepping down as CEO of the Caffè Spettacolo, BackWerk and Ditsch parent company after 12 years",
+          "url": "https://www.worldcoffeeportal.com/news/swiss-foodservice-and-retail-group-valora-announces-leadership-transition/",
+          "publisher": "World Coffee Portal",
+          "published": "Wed, 02 Sep 2026 13:38:04 GMT",
+          "date": "Wed, 2 Sep",
+          "section": "Roasting & retail"
+        },
+        {
+          "headline": "Hershey’s Goes Affogato For Their New Creme Bar",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. The all new affogato flavored Hershey's Creme Bars.",
+          "url": "https://sprudge.com/hersheys-goes-affogato-for-their-new-creme-bar-1304480.html",
+          "publisher": "Sprudge",
+          "published": "Wed, 02 Sep 2026 12:00:04 +0000",
+          "date": "Wed, 2 Sep",
+          "section": "Roasting & retail"
+        },
+        {
+          "headline": "How Coffee Brands Keep Subscribers from Clicking ‘Cancel’",
+          "summary": "Consumers are becoming more selective about the subscriptions they keep. A few dollars here and there can quickly add up, as streaming services, meal kits, fitness apps, and more pile onto monthly credit card statements. The average American spends more than…",
+          "url": "https://freshcup.com/how-coffee-brands-keep-subscribers-from-clicking-cancel/",
+          "publisher": "Fresh Cup",
+          "published": "Wed, 02 Sep 2026 11:00:00 +0000",
+          "date": "Wed, 2 Sep",
           "section": "Roasting & retail"
         },
         {
@@ -3447,7 +3779,7 @@
           "publisher": "Sprudge",
           "published": "Tue, 01 Sep 2026 12:00:57 +0000",
           "date": "Tue, 1 Sep",
-          "section": "Trade & production"
+          "section": "Top stories of the week"
         },
         {
           "headline": "Climate Change Causing Destruction On Coffee Farms from Hawaiʻi to Indonesia",
@@ -3459,15 +3791,6 @@
           "section": "Top stories of the week"
         },
         {
-          "headline": "Graffeo Is Giving Away Their Ferrari With An Espresso Machine In The Engine",
-          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. The Graffeo Cafe Car Giveaway is open until September 4th.",
-          "url": "https://sprudge.com/graffeo-is-giving-away-their-ferrari-with-an-espresso-machine-in-the-engine-1294606.html",
-          "publisher": "Sprudge",
-          "published": "Mon, 31 Aug 2026 17:21:05 +0000",
-          "date": "Mon, 31 Aug",
-          "section": "Roasting & retail"
-        },
-        {
           "headline": "Hawaii Coffee Farms Face Long Recovery After Hurricane Lala",
           "summary": "Coffee farms across southern Hawaii Island are assessing crop, tree and infrastructure losses following Hurricane Lala, which brought damaging winds and extreme rainfall to some of the state’s key coffee-growing...",
           "url": "https://dailycoffeenews.com/2026/08/28/hawaii-coffee-farms-face-long-recovery-after-hurricane-lala/",
@@ -3475,58 +3798,13 @@
           "published": "Fri, 28 Aug 2026 14:32:20 +0000",
           "date": "Fri, 28 Aug",
           "section": "Top stories of the week"
-        },
-        {
-          "headline": "Coffee Futures Fund Is Now Accepting Applications For The 2027 Cohort",
-          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Applications are now open through October 15th.",
-          "url": "https://sprudge.com/coffee-futures-fund-is-now-accepting-applications-for-the-2027-cohort-1288293.html",
-          "publisher": "Sprudge",
-          "published": "Fri, 28 Aug 2026 12:00:31 +0000",
-          "date": "Fri, 28 Aug",
-          "section": "Top stories of the week"
-        },
-        {
-          "headline": "NY-Based Colombian Coffee Roaster Devoción Partners With Colombia’s FNC To Support Coffee Growers After The August Earthquake",
-          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. The Colombian-founded company is directing funds to earthquake relief and asking the rest of the coffee industry to join.",
-          "url": "https://sprudge.com/ny-based-colombian-coffee-roaster-devocion-partners-with-colombias-fnc-to-support-coffee-growers-after-the-august-earthquake-1291723.html",
-          "publisher": "Sprudge",
-          "published": "Thu, 27 Aug 2026 20:29:39 +0000",
-          "date": "Thu, 27 Aug",
-          "section": "Top stories of the week"
-        },
-        {
-          "headline": "Tchibo posts strong annual revenues but warns of rising consumer price sensitivity",
-          "summary": "The Hamburg-based coffee roaster and retailer operates more than 800 coffee shops across Europe and distributes its packaged coffee range across 60 markets globally",
-          "url": "https://www.worldcoffeeportal.com/news/tchibo-posts-strong-annual-revenues-but-warns-of-rising-consumer-price-sensitivity/",
-          "publisher": "World Coffee Portal",
-          "published": "Thu, 27 Aug 2026 16:48:47 GMT",
-          "date": "Thu, 27 Aug",
-          "section": "Trade & production"
-        },
-        {
-          "headline": "Coffee Futures Fund Seeks Independent Cafe Owners for Second Cohort",
-          "summary": "Coffee Futures Fund, a free mentorship program built for independent coffee shop owners, has opened applications for its second cohort, following a first year in which 10 participating shops reportedly...",
-          "url": "https://dailycoffeenews.com/2026/08/26/coffee-futures-fund-seeks-independent-cafe-owners-for-second-cohort/",
-          "publisher": "Daily Coffee News",
-          "published": "Wed, 26 Aug 2026 15:39:47 +0000",
-          "date": "Wed, 26 Aug",
-          "section": "Trade & production"
-        },
-        {
-          "headline": "Peter Giuliano: “Specialty Cold Coffee is the Future”",
-          "summary": "Cold drinks need more airtime in your cafe. The post Peter Giuliano: “Specialty Cold Coffee is the Future” appeared first on Fresh Cup .",
-          "url": "https://freshcup.com/peter-giuliano-specialty-cold-coffee-is-the-future/",
-          "publisher": "Fresh Cup",
-          "published": "Wed, 26 Aug 2026 11:45:00 +0000",
-          "date": "Wed, 26 Aug",
-          "section": "Trade & production"
         }
       ],
       "errors": [],
       "note": "Assembled from the coffee trade press over the past seven days, ranked by relevance to the physical trade. Headlines and links are each publisher’s own."
     },
     "dailyRead": {
-      "fetchedAt": "2026-09-02T06:08:12.151Z",
+      "fetchedAt": "2026-09-02T18:43:15.583Z",
       "article": {
         "title": "Hawaii Coffee Farms Face Long Recovery After Hurricane Lala",
         "summary": "Coffee farms across southern Hawaii Island are assessing crop, tree and infrastructure losses following Hurricane Lala, which brought damaging winds and extreme rainfall to some of the state’s key coffee-growing...",
@@ -3852,40 +4130,39 @@
   },
   "status": [
     {
-      "source": "weather",
-      "ok": false,
-      "ms": 329,
-      "error": "Non-JSON response from https://api.open-meteo.com/v1/forecast?latitude=-21.55,-18.94,-19.39,12.68,11.55,1.85,6.25,4.63,-5.45,7.67,14.16,-11.05&longitude=-45.43,-46.99,-40.07,108.05,107.81,-76.05,-75.56,96.85,105.27,36.83,-88.02,-75.33&daily=temperature_2m_max,temperature_2m_min,precipitation_sum,weather_code,cloud_cover_mean&timezone=auto&past_days=14&forecast_days=7: Unexpected error while streaming data: allEndpointsUnavailable"
+      "source": "arabica-futures",
+      "ok": true,
+      "ms": 633
     },
     {
       "source": "daily-read",
       "ok": true,
-      "ms": 395
+      "ms": 661
     },
     {
-      "source": "arabica-futures",
+      "source": "weather",
       "ok": true,
-      "ms": 749
-    },
-    {
-      "source": "weekly-recap",
-      "ok": true,
-      "ms": 2812
+      "ms": 891
     },
     {
       "source": "fx",
       "ok": true,
-      "ms": 3005
+      "ms": 1430
+    },
+    {
+      "source": "weekly-recap",
+      "ok": true,
+      "ms": 1601
     },
     {
       "source": "origin-wire",
       "ok": true,
-      "ms": 3547
+      "ms": 2047
     },
     {
       "source": "ico-report",
       "ok": true,
-      "ms": 4243
+      "ms": 2154
     }
   ]
 }

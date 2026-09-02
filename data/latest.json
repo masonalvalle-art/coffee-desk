@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T18:44:02.397Z",
+  "generatedAt": "2026-09-02T06:08:16.004Z",
   "schema": 5,
   "schedule": {
     "slotsUtc": [
@@ -26,7 +26,7 @@
       "frontMonth": {
         "code": "KCU26",
         "label": "Sep 2026",
-        "close": 334.05,
+        "close": 342.25,
         "volume": 8
       },
       "rolled": true,
@@ -35,43 +35,43 @@
         {
           "code": "KCU26",
           "label": "Sep 2026",
-          "close": 334.05,
+          "close": 342.25,
           "volume": 8
         },
         {
           "code": "KCZ26",
           "label": "Dec 2026",
-          "close": 308.35,
+          "close": 309.45,
           "volume": 22286
         },
         {
           "code": "KCH27",
           "label": "Mar 2027",
-          "close": 295.9,
+          "close": 297.65,
           "volume": 8816
         },
         {
           "code": "KCK27",
           "label": "May 2027",
-          "close": 292.2,
+          "close": 294.1,
           "volume": 2776
         },
         {
           "code": "KCN27",
           "label": "Jul 2027",
-          "close": 290.05,
+          "close": 291.75,
           "volume": 927
         },
         {
           "code": "KCU27",
           "label": "Sep 2027",
-          "close": 287.2,
+          "close": 288.9,
           "volume": 291
         },
         {
           "code": "KCZ27",
           "label": "Dec 2027",
-          "close": 284.05,
+          "close": 285.7,
           "volume": 103
         }
       ],
@@ -83,7 +83,7 @@
         "previousClose": 311.5,
         "change": -3.15,
         "changePct": -1.011,
-        "volume": 22286,
+        "volume": 9638,
         "asOf": "2026-09-01T17:29:59.000Z"
       },
       "bars": [
@@ -2637,22 +2637,22 @@
           "high": 317.1499938964844,
           "low": 309.04998779296875,
           "close": 311.5,
-          "volume": 11539
+          "volume": 9638
         },
         {
           "date": "2026-09-01",
           "open": 313.45001220703125,
           "high": 315.54998779296875,
           "low": 299.20001220703125,
-          "close": 308.3500061035156,
-          "volume": 22286
+          "close": 309.45001220703125,
+          "volume": 9638
         }
       ],
       "crossCheck": {
-        "tradingView": 308.35,
+        "tradingView": 309.45,
         "yahoo": 308.35,
-        "diff": 0,
-        "diffPct": 0,
+        "diff": 1.1,
+        "diffPct": 0.357,
         "agree": true
       },
       "sources": [
@@ -2669,14 +2669,14 @@
       ],
       "technicals": {
         "observations": 504,
-        "sma20": 319.1125,
-        "sma50": 307.08099975585935,
-        "sma200": 290.92750007629394,
-        "rsi14": 46.334832953319946,
+        "sma20": 319.1675003051758,
+        "sma50": 307.1029998779297,
+        "sma200": 290.9330001068115,
+        "rsi14": 46.88478168924801,
         "macd": {
-          "line": 2.744538641624729,
-          "signal": 5.714177853419255,
-          "histogram": -2.969639211794526
+          "line": 2.8322884162641913,
+          "signal": 5.731727808347147,
+          "histogram": -2.8994393920829555
         },
         "atr14": 13.448709551854108,
         "donchian20": {
@@ -2687,16 +2687,16 @@
         "levels": {
           "support": [
             {
+              "price": 308.75,
+              "date": "2026-01-21"
+            },
+            {
               "price": 308.1000061035156,
               "date": "2025-09-02"
             },
             {
               "price": 307.54998779296875,
               "date": "2025-10-28"
-            },
-            {
-              "price": 305,
-              "date": "2025-11-21"
             }
           ],
           "resistance": [
@@ -3251,330 +3251,10 @@
       }
     ]
   },
-  "weather": {
-    "fetchedAt": "2026-09-01T18:44:00.159Z",
-    "thresholds": {
-      "frostC": 4,
-      "heavyRainMm": 50,
-      "dryMm": 5
-    },
-    "countryOrder": [
-      "Brazil",
-      "Vietnam",
-      "Colombia",
-      "Indonesia",
-      "Ethiopia",
-      "Honduras",
-      "Peru"
-    ],
-    "conditionMethod": "The condition icon reads the last three observed days: 30 mm of rain in total, 20 mm in any one day, or a heavy-rain code is very wet; 5 mm is wet; 60% mean cloud cover is cloudy; anything else is clear.",
-    "regions": [
-      {
-        "key": "sul-de-minas",
-        "name": "Sul de Minas",
-        "country": "Brazil",
-        "species": "Arabica",
-        "lat": -21.55,
-        "lon": -45.43,
-        "current": {
-          "date": "2026-08-31",
-          "tMax": 30.5,
-          "tMin": 19.5,
-          "rain": 4,
-          "code": 55,
-          "cloud": 41,
-          "observed": true
-        },
-        "condition": "cloudy",
-        "conditionLabel": "Cloudy",
-        "rain14": 15.6,
-        "rainForecast7": 36,
-        "minForecast7": 11.5,
-        "alerts": []
-      },
-      {
-        "key": "cerrado",
-        "name": "Cerrado Mineiro",
-        "country": "Brazil",
-        "species": "Arabica",
-        "lat": -18.94,
-        "lon": -46.99,
-        "current": {
-          "date": "2026-08-31",
-          "tMax": 30.6,
-          "tMin": 21.5,
-          "rain": 0,
-          "code": 1,
-          "cloud": 11,
-          "observed": true
-        },
-        "condition": "cloudy",
-        "conditionLabel": "Cloudy",
-        "rain14": 34.6,
-        "rainForecast7": 29.7,
-        "minForecast7": 15.7,
-        "alerts": []
-      },
-      {
-        "key": "espirito-santo",
-        "name": "Espírito Santo",
-        "country": "Brazil",
-        "species": "Robusta",
-        "lat": -19.39,
-        "lon": -40.07,
-        "current": {
-          "date": "2026-08-31",
-          "tMax": 29.9,
-          "tMin": 21.1,
-          "rain": 0,
-          "code": 3,
-          "cloud": 31,
-          "observed": true
-        },
-        "condition": "cloudy",
-        "conditionLabel": "Cloudy",
-        "rain14": 27.3,
-        "rainForecast7": 22.4,
-        "minForecast7": 18.7,
-        "alerts": []
-      },
-      {
-        "key": "dak-lak",
-        "name": "Dak Lak",
-        "country": "Vietnam",
-        "species": "Robusta",
-        "lat": 12.68,
-        "lon": 108.05,
-        "current": {
-          "date": "2026-08-31",
-          "tMax": 28.3,
-          "tMin": 22.6,
-          "rain": 24.6,
-          "code": 95,
-          "cloud": 99,
-          "observed": true
-        },
-        "condition": "very-wet",
-        "conditionLabel": "Very wet",
-        "rain14": 118.1,
-        "rainForecast7": 170.9,
-        "minForecast7": 21.6,
-        "alerts": [
-          {
-            "type": "wet",
-            "severity": "watch",
-            "text": "171 mm forecast over 7 days — harvest/drying disruption risk."
-          }
-        ]
-      },
-      {
-        "key": "lam-dong",
-        "name": "Lam Dong",
-        "country": "Vietnam",
-        "species": "Robusta",
-        "lat": 11.55,
-        "lon": 107.81,
-        "current": {
-          "date": "2026-08-31",
-          "tMax": 23.3,
-          "tMin": 20,
-          "rain": 29.3,
-          "code": 81,
-          "cloud": 100,
-          "observed": true
-        },
-        "condition": "very-wet",
-        "conditionLabel": "Very wet",
-        "rain14": 208.6,
-        "rainForecast7": 112.6,
-        "minForecast7": 19.5,
-        "alerts": [
-          {
-            "type": "wet",
-            "severity": "watch",
-            "text": "113 mm forecast over 7 days — harvest/drying disruption risk."
-          }
-        ]
-      },
-      {
-        "key": "huila",
-        "name": "Huila",
-        "country": "Colombia",
-        "species": "Arabica",
-        "lat": 1.85,
-        "lon": -76.05,
-        "current": {
-          "date": "2026-08-31",
-          "tMax": 27,
-          "tMin": 16.3,
-          "rain": 0.9,
-          "code": 51,
-          "cloud": 79,
-          "observed": true
-        },
-        "condition": "wet",
-        "conditionLabel": "Wet",
-        "rain14": 59.4,
-        "rainForecast7": 25.5,
-        "minForecast7": 14.8,
-        "alerts": []
-      },
-      {
-        "key": "antioquia",
-        "name": "Antioquia",
-        "country": "Colombia",
-        "species": "Arabica",
-        "lat": 6.25,
-        "lon": -75.56,
-        "current": {
-          "date": "2026-08-31",
-          "tMax": 29.9,
-          "tMin": 17.2,
-          "rain": 2.7,
-          "code": 53,
-          "cloud": 90,
-          "observed": true
-        },
-        "condition": "wet",
-        "conditionLabel": "Wet",
-        "rain14": 22.9,
-        "rainForecast7": 13,
-        "minForecast7": 16.7,
-        "alerts": []
-      },
-      {
-        "key": "gayo",
-        "name": "Gayo Highlands",
-        "country": "Indonesia",
-        "species": "Arabica",
-        "lat": 4.63,
-        "lon": 96.85,
-        "current": {
-          "date": "2026-08-31",
-          "tMax": 26.2,
-          "tMin": 16,
-          "rain": 0.1,
-          "code": 51,
-          "cloud": 86,
-          "observed": true
-        },
-        "condition": "cloudy",
-        "conditionLabel": "Cloudy",
-        "rain14": 8.9,
-        "rainForecast7": 63.3,
-        "minForecast7": 15.6,
-        "alerts": [
-          {
-            "type": "wet",
-            "severity": "watch",
-            "text": "63 mm forecast over 7 days — harvest/drying disruption risk."
-          }
-        ]
-      },
-      {
-        "key": "lampung",
-        "name": "Lampung",
-        "country": "Indonesia",
-        "species": "Robusta",
-        "lat": -5.45,
-        "lon": 105.27,
-        "current": {
-          "date": "2026-08-31",
-          "tMax": 31.2,
-          "tMin": 25.6,
-          "rain": 2.9,
-          "code": 53,
-          "cloud": 48,
-          "observed": true
-        },
-        "condition": "wet",
-        "conditionLabel": "Wet",
-        "rain14": 37.6,
-        "rainForecast7": 17.8,
-        "minForecast7": 22.9,
-        "alerts": []
-      },
-      {
-        "key": "jimma",
-        "name": "Jimma",
-        "country": "Ethiopia",
-        "species": "Arabica",
-        "lat": 7.67,
-        "lon": 36.83,
-        "current": {
-          "date": "2026-08-31",
-          "tMax": 22,
-          "tMin": 14.6,
-          "rain": 2.7,
-          "code": 53,
-          "cloud": 60,
-          "observed": true
-        },
-        "condition": "wet",
-        "conditionLabel": "Wet",
-        "rain14": 80.1,
-        "rainForecast7": 22.2,
-        "minForecast7": 12.4,
-        "alerts": []
-      },
-      {
-        "key": "marcala",
-        "name": "Marcala",
-        "country": "Honduras",
-        "species": "Arabica",
-        "lat": 14.16,
-        "lon": -88.02,
-        "current": {
-          "date": "2026-08-31",
-          "tMax": 31.2,
-          "tMin": 18.9,
-          "rain": 2.6,
-          "code": 53,
-          "cloud": 90,
-          "observed": true
-        },
-        "condition": "wet",
-        "conditionLabel": "Wet",
-        "rain14": 41.6,
-        "rainForecast7": 27.6,
-        "minForecast7": 15.5,
-        "alerts": []
-      },
-      {
-        "key": "chanchamayo",
-        "name": "Chanchamayo",
-        "country": "Peru",
-        "species": "Arabica",
-        "lat": -11.05,
-        "lon": -75.33,
-        "current": {
-          "date": "2026-08-31",
-          "tMax": 30.5,
-          "tMin": 18.6,
-          "rain": 3.9,
-          "code": 55,
-          "cloud": 70,
-          "observed": true
-        },
-        "condition": "wet",
-        "conditionLabel": "Wet",
-        "rain14": 62.2,
-        "rainForecast7": 38.8,
-        "minForecast7": 18.2,
-        "alerts": []
-      }
-    ],
-    "sources": [
-      {
-        "name": "Open-Meteo forecast API",
-        "url": "https://open-meteo.com/",
-        "role": "observed + forecast temperature, precipitation and weather code"
-      }
-    ]
-  },
+  "weather": null,
   "news": {
     "originWire": {
-      "fetchedAt": "2026-09-01T18:44:02.395Z",
+      "fetchedAt": "2026-09-02T06:08:15.296Z",
       "lookbackHours": 504,
       "headlines": [
         {
@@ -3586,12 +3266,12 @@
           "published": "Tue, 01 Sep 2026 12:00:57 GMT"
         },
         {
-          "title": "Rice exports reach $2.91B in eight months",
-          "summary": "Vietnam exported an estimated 6.03 million tonnes of rice worth nearly $2.91 billion in the first eight months of 2026, down 5% in volume and 10.7% in value year-on-year, reported the Ministry of Agriculture and Environment.",
-          "url": "https://e.vnexpress.net/news/business/economy/rice-exports-reach-2-91b-in-eight-months-5115570.html",
+          "title": "US President Donald Trump congratulates Vietnam on National Day",
+          "summary": "U.S. President Donald Trump has sent a message of congratulations to Vietnam's leaders and people on the occasion as the country celebrates its 81st National Day on Wednesday.",
+          "url": "https://e.vnexpress.net/news/news/politics/us-president-donald-trump-congratulates-vietnam-on-national-day-5115718.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Tue, 01 Sep 2026 16:46:00 +0700"
+          "published": "Wed, 02 Sep 2026 09:12:16 +0700"
         },
         {
           "title": "The Extractor review – Indonesian hostage-rescue thriller has surprising thread of gentleness at its core",
@@ -3610,12 +3290,12 @@
           "published": "Sat, 29 Aug 2026 10:00:24 GMT"
         },
         {
-          "title": "‘No one else like him’: Argentinians rally for Lionel Messi",
-          "summary": "Residents of Buenos Aires say they will miss the football legend who won the 2022 World Cup for Argentina.",
-          "url": "https://www.aljazeera.com/news/2026/9/1/no-one-else-like-him-argentinians-rally-for-lionel-messi?traffic_source=rss",
+          "title": "Honduran court drops case against ex-President Hernandez after Trump pardon",
+          "summary": "Juan Orlando Hernandez had been accused of money laundering and fraud as part of a government corruption scheme.",
+          "url": "https://www.aljazeera.com/news/2026/9/2/honduran-court-drops-case-against-ex-president-hernandez-after-trump-pardon?traffic_source=rss",
           "publisher": "Al Jazeera",
           "region": "South & Central America",
-          "published": "Tue, 01 Sep 2026 15:57:14 +0000"
+          "published": "Wed, 02 Sep 2026 02:34:52 +0000"
         },
         {
           "title": "Kenya aviation workers call off strike that disrupted flights",
@@ -3634,12 +3314,12 @@
           "published": "Mon, 31 Aug 2026 06:00:17 GMT"
         },
         {
-          "title": "Southeast Asia’s 5 richest billionaires, led by Vietnam’s Pham Nhat Vuong, worth $110.7B",
-          "summary": "Southeast Asia’s five richest billionaires have a combined net worth of about US$110.7 billion, with Vingroup chairman Pham Nhat Vuong accounting for nearly a third of it.",
-          "url": "https://e.vnexpress.net/news/business/billionaires/southeast-asia-s-5-richest-billionaires-led-by-vietnam-s-pham-nhat-vuong-worth-110-7b-5115569.html",
+          "title": "Rice exports reach $2.91B in eight months",
+          "summary": "Vietnam exported an estimated 6.03 million tonnes of rice worth nearly $2.91 billion in the first eight months of 2026, down 5% in volume and 10.7% in value year-on-year, reported the Ministry of Agriculture and Environment.",
+          "url": "https://e.vnexpress.net/news/business/economy/rice-exports-reach-2-91b-in-eight-months-5115570.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Tue, 01 Sep 2026 15:28:49 +0700"
+          "published": "Tue, 01 Sep 2026 16:46:00 +0700"
         },
         {
           "title": "Orangutans in danger as wildfires blaze through Borneo",
@@ -3658,12 +3338,12 @@
           "published": "Thu, 27 Aug 2026 20:10:30 GMT"
         },
         {
-          "title": "‘They take the water, the springs dry up’: fear as Guatemalan goldmine plan is revived",
-          "summary": "After lying dormant for years, the Era Dorada project in Asunción Mita resumed this year and villagers say history is being repeated, despite promises of change In the community of La Lima in Guatemala , Elda Dinora Ramírez, 58, looks towards a small well at…",
-          "url": "https://www.theguardian.com/global-development/2026/sep/01/guatemala-mining-gold-water-cyanide-fear-environment-pollution",
-          "publisher": "The Guardian",
+          "title": "Fernandez transfers to Man City from Chelsea in joint British record fee",
+          "summary": "Argentina international Enzo Fernandez signs for Manchester City in a deal from Chelsea worth £125 million ($169m).",
+          "url": "https://www.aljazeera.com/sports/2026/9/1/fernandez-transfers-to-man-city-from-chelsea-in-joint-british-record-fee?traffic_source=rss",
+          "publisher": "Al Jazeera",
           "region": "South & Central America",
-          "published": "Tue, 01 Sep 2026 12:00:57 GMT"
+          "published": "Tue, 01 Sep 2026 23:00:30 +0000"
         },
         {
           "title": "World's youngest reigning traditional monarch dies aged 34",
@@ -3682,22 +3362,22 @@
           "published": "Fri, 28 Aug 2026 15:13:43 GMT"
         },
         {
-          "title": "Hundreds of furniture brands gather at VIFA ASEAN 2026",
-          "summary": "VIFA ASEAN 2026 will feature more than 600 booths and hundreds of furniture and handicraft brands from Vietnam and overseas, with trade and sourcing activities scheduled during the September event.",
-          "url": "https://e.vnexpress.net/news/business/hundreds-of-furniture-brands-gather-at-vifa-asean-2026-5114518.html",
+          "title": "Southeast Asia’s 5 richest billionaires, led by Vietnam’s Pham Nhat Vuong, worth $110.7B",
+          "summary": "Southeast Asia’s five richest billionaires have a combined net worth of about US$110.7 billion, with Vingroup chairman Pham Nhat Vuong accounting for nearly a third of it.",
+          "url": "https://e.vnexpress.net/news/business/billionaires/southeast-asia-s-5-richest-billionaires-led-by-vietnam-s-pham-nhat-vuong-worth-110-7b-5115569.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Tue, 01 Sep 2026 08:00:00 +0700"
+          "published": "Tue, 01 Sep 2026 15:28:49 +0700"
         }
       ],
-      "totalTagged": 103,
+      "totalTagged": 104,
       "feedsQueried": 14,
       "errors": [],
       "note": "General headlines from the growing regions, taken from outlets of record and tagged to a region by the countries and cities they name."
     },
     "roundup": {
       "source": "assembled",
-      "fetchedAt": "2026-09-01T18:44:01.699Z",
+      "fetchedAt": "2026-09-02T06:08:14.565Z",
       "windowDays": 7,
       "publishers": [
         "Daily Coffee News",
@@ -3706,6 +3386,15 @@
         "World Coffee Portal"
       ],
       "items": [
+        {
+          "headline": "MiiR Expands Beyond Drinkware With Its First Collection Of Handcrafted Ceramics",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Three thoughtfully designed mugs bring MiiR’s signature approach to form, function and everyday rituals.",
+          "url": "https://sprudge.com/miir-expands-beyond-drinkware-with-its-first-collection-of-handcrafted-ceramics-1307146.html",
+          "publisher": "Sprudge",
+          "published": "Tue, 01 Sep 2026 19:03:08 +0000",
+          "date": "Tue, 1 Sep",
+          "section": "Roasting & retail"
+        },
         {
           "headline": "Cartel Roasting Co. Partners With Little Bear Coffee For “Blends With Friends” Initiative",
           "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Arizona-based roaster collaborates with Albuquerque specialty coffee company on limited-edition coffee blend.",
@@ -3779,15 +3468,6 @@
           "section": "Roasting & retail"
         },
         {
-          "headline": "Caffeine May Change How the Brain Sleeps, Not Just How Long",
-          "summary": "For coffee drinkers who insist they can fall asleep after their post-dinner espresso, a new review suggests the more important issue may be the quality of that sleep. The systematic...",
-          "url": "https://dailycoffeenews.com/2026/08/31/caffeine-may-change-how-the-brain-sleeps-not-just-how-long/",
-          "publisher": "Daily Coffee News",
-          "published": "Mon, 31 Aug 2026 13:50:49 +0000",
-          "date": "Mon, 31 Aug",
-          "section": "Roasting & retail"
-        },
-        {
           "headline": "Hawaii Coffee Farms Face Long Recovery After Hurricane Lala",
           "summary": "Coffee farms across southern Hawaii Island are assessing crop, tree and infrastructure losses following Hurricane Lala, which brought damaging winds and extreme rainfall to some of the state’s key coffee-growing...",
           "url": "https://dailycoffeenews.com/2026/08/28/hawaii-coffee-farms-face-long-recovery-after-hurricane-lala/",
@@ -3803,7 +3483,7 @@
           "publisher": "Sprudge",
           "published": "Fri, 28 Aug 2026 12:00:31 +0000",
           "date": "Fri, 28 Aug",
-          "section": "Trade & production"
+          "section": "Top stories of the week"
         },
         {
           "headline": "NY-Based Colombian Coffee Roaster Devoción Partners With Colombia’s FNC To Support Coffee Growers After The August Earthquake",
@@ -3822,15 +3502,6 @@
           "published": "Thu, 27 Aug 2026 16:48:47 GMT",
           "date": "Thu, 27 Aug",
           "section": "Trade & production"
-        },
-        {
-          "headline": "Learn Your Way To Origin With Cafe Imports Field Trip Costa Rica",
-          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Complete the six ED+U courses and you could be heading to Costa Rica.",
-          "url": "https://sprudge.com/learn-your-way-to-origin-with-cafe-imports-field-trip-costa-rica-1284702.html",
-          "publisher": "Sprudge",
-          "published": "Thu, 27 Aug 2026 12:00:14 +0000",
-          "date": "Thu, 27 Aug",
-          "section": "Top stories of the week"
         },
         {
           "headline": "Coffee Futures Fund Seeks Independent Cafe Owners for Second Cohort",
@@ -3855,7 +3526,7 @@
       "note": "Assembled from the coffee trade press over the past seven days, ranked by relevance to the physical trade. Headlines and links are each publisher’s own."
     },
     "dailyRead": {
-      "fetchedAt": "2026-09-01T18:43:59.664Z",
+      "fetchedAt": "2026-09-02T06:08:12.151Z",
       "article": {
         "title": "Hawaii Coffee Farms Face Long Recovery After Hurricane Lala",
         "summary": "Coffee farms across southern Hawaii Island are assessing crop, tree and infrastructure losses following Hurricane Lala, which brought damaging winds and extreme rainfall to some of the state’s key coffee-growing...",
@@ -4181,39 +3852,40 @@
   },
   "status": [
     {
+      "source": "weather",
+      "ok": false,
+      "ms": 329,
+      "error": "Non-JSON response from https://api.open-meteo.com/v1/forecast?latitude=-21.55,-18.94,-19.39,12.68,11.55,1.85,6.25,4.63,-5.45,7.67,14.16,-11.05&longitude=-45.43,-46.99,-40.07,108.05,107.81,-76.05,-75.56,96.85,105.27,36.83,-88.02,-75.33&daily=temperature_2m_max,temperature_2m_min,precipitation_sum,weather_code,cloud_cover_mean&timezone=auto&past_days=14&forecast_days=7: Unexpected error while streaming data: allEndpointsUnavailable"
+    },
+    {
       "source": "daily-read",
       "ok": true,
-      "ms": 508
+      "ms": 395
     },
     {
       "source": "arabica-futures",
       "ok": true,
-      "ms": 862
-    },
-    {
-      "source": "weather",
-      "ok": true,
-      "ms": 1010
-    },
-    {
-      "source": "fx",
-      "ok": true,
-      "ms": 1651
-    },
-    {
-      "source": "ico-report",
-      "ok": true,
-      "ms": 1648
+      "ms": 749
     },
     {
       "source": "weekly-recap",
       "ok": true,
-      "ms": 2546
+      "ms": 2812
+    },
+    {
+      "source": "fx",
+      "ok": true,
+      "ms": 3005
     },
     {
       "source": "origin-wire",
       "ok": true,
-      "ms": 3245
+      "ms": 3547
+    },
+    {
+      "source": "ico-report",
+      "ok": true,
+      "ms": 4243
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T18:43:17.081Z",
+  "generatedAt": "2026-09-03T06:09:46.571Z",
   "schema": 5,
   "schedule": {
     "slotsUtc": [
@@ -26,7 +26,7 @@
       "frontMonth": {
         "code": "KCU26",
         "label": "Sep 2026",
-        "close": 328,
+        "close": 328.4,
         "volume": 18
       },
       "rolled": true,
@@ -35,43 +35,43 @@
         {
           "code": "KCU26",
           "label": "Sep 2026",
-          "close": 328,
+          "close": 328.4,
           "volume": 18
         },
         {
           "code": "KCZ26",
           "label": "Dec 2026",
-          "close": 297.35,
+          "close": 298.1,
           "volume": 19400
         },
         {
           "code": "KCH27",
           "label": "Mar 2027",
-          "close": 287.2,
+          "close": 287.75,
           "volume": 7851
         },
         {
           "code": "KCK27",
           "label": "May 2027",
-          "close": 284.4,
+          "close": 285,
           "volume": 2115
         },
         {
           "code": "KCN27",
           "label": "Jul 2027",
-          "close": 282.75,
+          "close": 283.15,
           "volume": 992
         },
         {
           "code": "KCU27",
           "label": "Sep 2027",
-          "close": 280.3,
+          "close": 280.95,
           "volume": 410
         },
         {
           "code": "KCZ27",
           "label": "Dec 2027",
-          "close": 277.35,
+          "close": 278.2,
           "volume": 238
         }
       ],
@@ -83,7 +83,7 @@
         "previousClose": 309.45001220703125,
         "change": -12.1,
         "changePct": -3.91,
-        "volume": 19400,
+        "volume": 22286,
         "asOf": "2026-09-02T17:29:58.000Z"
       },
       "bars": [
@@ -2637,22 +2637,22 @@
           "high": 315.54998779296875,
           "low": 299.20001220703125,
           "close": 309.45001220703125,
-          "volume": 9638
+          "volume": 22286
         },
         {
           "date": "2026-09-02",
           "open": 307.04998779296875,
           "high": 308.3500061035156,
           "low": 295.3500061035156,
-          "close": 297.3500061035156,
-          "volume": 19400
+          "close": 298.1000061035156,
+          "volume": 22286
         }
       ],
       "crossCheck": {
-        "tradingView": 297.35,
+        "tradingView": 298.1,
         "yahoo": 297.35,
-        "diff": 0,
-        "diffPct": 0,
+        "diff": 0.75,
+        "diffPct": 0.252,
         "agree": true
       },
       "sources": [
@@ -2669,14 +2669,14 @@
       ],
       "technicals": {
         "observations": 505,
-        "sma20": 318.4625,
-        "sma50": 307.81099975585937,
-        "sma200": 290.79750007629394,
-        "rsi14": 41.10531499927302,
+        "sma20": 318.5,
+        "sma50": 307.82599975585936,
+        "sma200": 290.80125007629397,
+        "rsi14": 41.421805416645626,
         "macd": {
-          "line": 0.9740924050397552,
-          "signal": 4.780200727685669,
-          "histogram": -3.8061083226459136
+          "line": 1.033921464868854,
+          "signal": 4.792166539651488,
+          "histogram": -3.758245074782634
         },
         "atr14": 13.495230734115646,
         "donchian20": {
@@ -3252,7 +3252,7 @@
     ]
   },
   "weather": {
-    "fetchedAt": "2026-09-02T18:43:15.804Z",
+    "fetchedAt": "2026-09-03T06:09:45.116Z",
     "thresholds": {
       "frostC": 4,
       "heavyRainMm": 50,
@@ -3277,19 +3277,19 @@
         "lat": -21.55,
         "lon": -45.43,
         "current": {
-          "date": "2026-09-01",
-          "tMax": 24.2,
-          "tMin": 17.8,
-          "rain": 11,
-          "code": 80,
-          "cloud": 84,
+          "date": "2026-09-02",
+          "tMax": 24.6,
+          "tMin": 15.3,
+          "rain": 0.2,
+          "code": 51,
+          "cloud": 25,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 26.6,
-        "rainForecast7": 12.4,
-        "minForecast7": 12.4,
+        "rain14": 26.8,
+        "rainForecast7": 25,
+        "minForecast7": 12.9,
         "alerts": []
       },
       {
@@ -3300,19 +3300,19 @@
         "lat": -18.94,
         "lon": -46.99,
         "current": {
-          "date": "2026-09-01",
-          "tMax": 29.3,
-          "tMin": 18.7,
-          "rain": 5.4,
-          "code": 80,
-          "cloud": 61,
+          "date": "2026-09-02",
+          "tMax": 25.5,
+          "tMin": 17.5,
+          "rain": 1.9,
+          "code": 53,
+          "cloud": 43,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 40,
-        "rainForecast7": 30.5,
-        "minForecast7": 16.1,
+        "rain14": 41.9,
+        "rainForecast7": 29,
+        "minForecast7": 16.2,
         "alerts": []
       },
       {
@@ -3323,18 +3323,18 @@
         "lat": -19.39,
         "lon": -40.07,
         "current": {
-          "date": "2026-09-01",
-          "tMax": 32.5,
-          "tMin": 22,
-          "rain": 0,
-          "code": 3,
-          "cloud": 18,
+          "date": "2026-09-02",
+          "tMax": 24.4,
+          "tMin": 20.3,
+          "rain": 2.5,
+          "code": 53,
+          "cloud": 89,
           "observed": true
         },
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
-        "rain14": 26.8,
-        "rainForecast7": 35.4,
+        "rain14": 29.3,
+        "rainForecast7": 23.1,
         "minForecast7": 18.8,
         "alerts": []
       },
@@ -3346,24 +3346,24 @@
         "lat": 12.68,
         "lon": 108.05,
         "current": {
-          "date": "2026-09-01",
+          "date": "2026-09-02",
           "tMax": 27.7,
-          "tMin": 21.6,
-          "rain": 14.5,
-          "code": 95,
-          "cloud": 100,
+          "tMin": 21.9,
+          "rain": 18.6,
+          "code": 81,
+          "cloud": 98,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 112.6,
-        "rainForecast7": 136.3,
-        "minForecast7": 21.9,
+        "rain14": 131.2,
+        "rainForecast7": 98.3,
+        "minForecast7": 22,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "136 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "98 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3375,24 +3375,24 @@
         "lat": 11.55,
         "lon": 107.81,
         "current": {
-          "date": "2026-09-01",
-          "tMax": 23.3,
-          "tMin": 19.5,
-          "rain": 14.1,
-          "code": 80,
-          "cloud": 100,
+          "date": "2026-09-02",
+          "tMax": 23.2,
+          "tMin": 20.5,
+          "rain": 5.2,
+          "code": 55,
+          "cloud": 94,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 200.6,
-        "rainForecast7": 90.2,
-        "minForecast7": 20.5,
+        "rain14": 205.8,
+        "rainForecast7": 92.2,
+        "minForecast7": 20.1,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "90 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "92 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3404,19 +3404,19 @@
         "lat": 1.85,
         "lon": -76.05,
         "current": {
-          "date": "2026-09-01",
-          "tMax": 28.5,
-          "tMin": 14.8,
-          "rain": 1.5,
-          "code": 51,
-          "cloud": 56,
+          "date": "2026-09-02",
+          "tMax": 26.3,
+          "tMin": 16.8,
+          "rain": 6,
+          "code": 80,
+          "cloud": 66,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 56.1,
-        "rainForecast7": 26,
-        "minForecast7": 15.3,
+        "rain14": 60.3,
+        "rainForecast7": 16.6,
+        "minForecast7": 15.2,
         "alerts": []
       },
       {
@@ -3427,19 +3427,19 @@
         "lat": 6.25,
         "lon": -75.56,
         "current": {
-          "date": "2026-09-01",
-          "tMax": 28.1,
-          "tMin": 17.1,
-          "rain": 3.7,
-          "code": 53,
-          "cloud": 85,
+          "date": "2026-09-02",
+          "tMax": 28.7,
+          "tMin": 16.9,
+          "rain": 1.3,
+          "code": 51,
+          "cloud": 73,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 22.3,
-        "rainForecast7": 9.6,
-        "minForecast7": 16.5,
+        "rain14": 23.4,
+        "rainForecast7": 5.4,
+        "minForecast7": 15.9,
         "alerts": []
       },
       {
@@ -3450,19 +3450,19 @@
         "lat": 4.63,
         "lon": 96.85,
         "current": {
-          "date": "2026-09-01",
-          "tMax": 26.7,
-          "tMin": 16,
-          "rain": 4.4,
-          "code": 80,
-          "cloud": 96,
+          "date": "2026-09-02",
+          "tMax": 25.3,
+          "tMin": 17.9,
+          "rain": 2.1,
+          "code": 53,
+          "cloud": 98,
           "observed": true
         },
-        "condition": "cloudy",
-        "conditionLabel": "Cloudy",
-        "rain14": 13.1,
-        "rainForecast7": 41.3,
-        "minForecast7": 16.3,
+        "condition": "wet",
+        "conditionLabel": "Wet",
+        "rain14": 15.2,
+        "rainForecast7": 34.6,
+        "minForecast7": 16.1,
         "alerts": []
       },
       {
@@ -3473,19 +3473,19 @@
         "lat": -5.45,
         "lon": 105.27,
         "current": {
-          "date": "2026-09-01",
-          "tMax": 32.7,
-          "tMin": 25.4,
-          "rain": 4.6,
-          "code": 55,
-          "cloud": 46,
+          "date": "2026-09-02",
+          "tMax": 33.3,
+          "tMin": 25.9,
+          "rain": 2.1,
+          "code": 51,
+          "cloud": 40,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 36.6,
-        "rainForecast7": 6.6,
-        "minForecast7": 23.3,
+        "rain14": 38.7,
+        "rainForecast7": 3.5,
+        "minForecast7": 22.7,
         "alerts": []
       },
       {
@@ -3496,19 +3496,19 @@
         "lat": 7.67,
         "lon": 36.83,
         "current": {
-          "date": "2026-09-01",
-          "tMax": 23.4,
-          "tMin": 12.8,
-          "rain": 3.9,
-          "code": 53,
-          "cloud": 27,
+          "date": "2026-09-02",
+          "tMax": 23.8,
+          "tMin": 14.6,
+          "rain": 4.8,
+          "code": 80,
+          "cloud": 52,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 70.6,
-        "rainForecast7": 17.9,
-        "minForecast7": 13.3,
+        "rain14": 65.6,
+        "rainForecast7": 14,
+        "minForecast7": 12.3,
         "alerts": []
       },
       {
@@ -3519,19 +3519,19 @@
         "lat": 14.16,
         "lon": -88.02,
         "current": {
-          "date": "2026-09-01",
-          "tMax": 29.9,
-          "tMin": 18.3,
-          "rain": 1.1,
+          "date": "2026-09-02",
+          "tMax": 29.5,
+          "tMin": 18.6,
+          "rain": 1.8,
           "code": 51,
-          "cloud": 89,
+          "cloud": 93,
           "observed": true
         },
-        "condition": "cloudy",
-        "conditionLabel": "Cloudy",
-        "rain14": 35.9,
-        "rainForecast7": 28.7,
-        "minForecast7": 14.9,
+        "condition": "wet",
+        "conditionLabel": "Wet",
+        "rain14": 36.2,
+        "rainForecast7": 16.3,
+        "minForecast7": 16.5,
         "alerts": []
       },
       {
@@ -3542,18 +3542,18 @@
         "lat": -11.05,
         "lon": -75.33,
         "current": {
-          "date": "2026-09-01",
-          "tMax": 28.7,
-          "tMin": 20.4,
-          "rain": 3.8,
-          "code": 53,
-          "cloud": 55,
+          "date": "2026-09-02",
+          "tMax": 31.3,
+          "tMin": 19.4,
+          "rain": 10.7,
+          "code": 81,
+          "cloud": 63,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 56.8,
-        "rainForecast7": 37.1,
+        "rain14": 50.1,
+        "rainForecast7": 22,
         "minForecast7": 17.4,
         "alerts": []
       }
@@ -3568,32 +3568,32 @@
   },
   "news": {
     "originWire": {
-      "fetchedAt": "2026-09-02T18:43:16.961Z",
+      "fetchedAt": "2026-09-03T06:09:46.260Z",
       "lookbackHours": 504,
       "headlines": [
         {
-          "title": "Brazilian activist demands Tunisia release Sumud Flotilla organisers",
-          "summary": "Activists say four organisers of flotilla that sought to break Gaza blockade have been held in Tunisia since March.",
-          "url": "https://www.aljazeera.com/news/2026/9/2/brazilian-activist-demands-tunisia-release-sumud-flotilla-organisers?traffic_source=rss",
-          "publisher": "Al Jazeera",
+          "title": "Business school teaching case study: Can you put a price on impact?",
+          "summary": "Brazilian cosmetic company Natura attempts to put a monetary value on the social, human and environmental effects of its activities",
+          "url": "https://www.ft.com/content/b38675c2-56f1-4440-b92b-1c325ae34975",
+          "publisher": "Financial Times",
           "region": "Brazil",
-          "published": "Wed, 02 Sep 2026 17:10:17 +0000"
+          "published": "Thu, 03 Sep 2026 04:00:12 GMT"
         },
         {
-          "title": "US President Donald Trump congratulates Vietnam on National Day",
-          "summary": "U.S. President Donald Trump has sent a message of congratulations to Vietnam's leaders and people on the occasion as the country celebrates its 81st National Day on Wednesday.",
-          "url": "https://e.vnexpress.net/news/news/politics/us-president-donald-trump-congratulates-vietnam-on-national-day-5115718.html",
+          "title": "Vietnamese scientists develops foam that lets microbes eat pollution out of wastewater",
+          "summary": "A team at the Institute of Materials Science has developed a polyethylene foam to house wastewater-treating microbes, giving Vietnamese factories a domestic alternative to imported filtration media.",
+          "url": "https://e.vnexpress.net/news/news/vietnamese-scientists-develops-foam-that-lets-microbes-eat-pollution-out-of-wastewater-5114774.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Wed, 02 Sep 2026 09:12:16 +0700"
+          "published": "Thu, 03 Sep 2026 13:01:34 +0700"
         },
         {
-          "title": "Over 500 students hospitalised after eating state-supplied meals in Indones",
-          "summary": "More than 500 students in Indonesia were hospitalised with food poisoning on Tuesday.",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/2/over-500-students-hospitalised-after-eating-state-supplied-meals-in-indones?traffic_source=rss",
-          "publisher": "Al Jazeera",
+          "title": "More than 800 students and teachers in Indonesia suffer food poisoning after eating government free meals",
+          "summary": "Hundreds of students fall ill in three seperate incidents in Java and Sumatra this week as criticism of president’s flagship program grows More than 800 Indonesian students and teachers have fallen ill in separate incidents of food poisoning linked to…",
+          "url": "https://www.theguardian.com/world/2026/sep/03/indonesia-food-poisoning-hundreds-students-teachers-sick-government-free-meals",
+          "publisher": "The Guardian",
           "region": "Indonesia",
-          "published": "Wed, 02 Sep 2026 17:37:29 +0000"
+          "published": "Thu, 03 Sep 2026 05:54:15 GMT"
         },
         {
           "title": "Was it a mistake for 99 Colombian guerrillas to lay down their arms?",
@@ -3604,20 +3604,20 @@
           "published": "Sat, 29 Aug 2026 10:00:24 GMT"
         },
         {
-          "title": "Chevron to double Venezuela oil production with $7bn pledge",
-          "summary": "US major commits to expanding its joint ventures as White House pushes for huge increase in production in the country",
-          "url": "https://www.ft.com/content/a76721db-36e1-4198-aad8-8c90137aace9?syn-25a6b1a6=1",
-          "publisher": "Financial Times",
+          "title": "US’s Chevron, Italy’s Eni to expand oil projects in Venezuela",
+          "summary": "Energy firms sign deals in Caracas, days after Venezuela agreed to grant the US control of a fifth of its oil reserves.",
+          "url": "https://www.aljazeera.com/news/2026/9/3/uss-chevron-italys-eni-to-expand-oil-projects-in-venezuela?traffic_source=rss",
+          "publisher": "Al Jazeera",
           "region": "South & Central America",
-          "published": "Wed, 02 Sep 2026 17:53:03 GMT"
+          "published": "Thu, 03 Sep 2026 04:19:11 +0000"
         },
         {
-          "title": "How refugee camps become mini-economies",
-          "summary": "In an era of aid cuts, entrepreneurialism in the Mahama refugee camp in Rwanda is increasingly important",
-          "url": "https://www.ft.com/content/cb2b4c47-489d-43d0-8f51-a3e7baaff22e?syn-25a6b1a6=1",
-          "publisher": "Financial Times",
+          "title": "Uber shuts operations in Nigeria and Uganda with immediate effect",
+          "summary": "Nigeria - Africa's most populous country - is proving a tough market for ride-hailing services.",
+          "url": "https://www.bbc.co.uk/news/articles/c86xpv8l9y9o?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
           "region": "East Africa",
-          "published": "Wed, 02 Sep 2026 17:03:28 GMT"
+          "published": "Wed, 02 Sep 2026 20:21:04 GMT"
         },
         {
           "title": "Echoes of cold war as US accused of meddling in another Brazilian election",
@@ -3628,20 +3628,20 @@
           "published": "Tue, 01 Sep 2026 12:00:57 GMT"
         },
         {
-          "title": "Rice exports reach $2.91B in eight months",
-          "summary": "Vietnam exported an estimated 6.03 million tonnes of rice worth nearly $2.91 billion in the first eight months of 2026, down 5% in volume and 10.7% in value year-on-year, reported the Ministry of Agriculture and Environment.",
-          "url": "https://e.vnexpress.net/news/business/economy/rice-exports-reach-2-91b-in-eight-months-5115570.html",
+          "title": "Chinese man allegedly robs grocery store, flees across northern Vietnam",
+          "summary": "A 39-year-old Chinese national has been apprehended in northern Vietnam after allegedly robbing a grocery store in Hai Phong City of VND145 million (US$5,500) at knifepoint.",
+          "url": "https://e.vnexpress.net/news/news/crime/chinese-man-allegedly-robs-grocery-store-flees-across-northern-vietnam-5115993.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Tue, 01 Sep 2026 16:46:00 +0700"
+          "published": "Thu, 03 Sep 2026 10:35:35 +0700"
         },
         {
-          "title": "Indonesia’s lessons for the global energy transition",
-          "summary": "Country’s solar push highlights momentum — and obstacles — around green energy shift",
-          "url": "https://www.ft.com/content/3cd95c0c-4d62-4a74-8c66-34523bc2567d?syn-25a6b1a6=1",
-          "publisher": "Financial Times",
+          "title": "The Extractor review – Indonesian hostage-rescue thriller has surprising thread of gentleness at its core",
+          "summary": "Iko Uwais directs and acts in the story of a band of elite soldiers who must rescue a group of researchers taken captive in the jungle Can an elite team of soldiers rescue a band of innocent hostages from a bunch of mean old terrorists? Yes, probably, since…",
+          "url": "https://www.theguardian.com/film/2026/sep/01/the-extractor-review-sentimental-thread-brings-gentleness-indonesian-action-thriller",
+          "publisher": "The Guardian",
           "region": "Indonesia",
-          "published": "Wed, 02 Sep 2026 11:00:07 GMT"
+          "published": "Tue, 01 Sep 2026 08:00:48 GMT"
         },
         {
           "title": "Colombia's new president approves extradition of rebel leaders to US",
@@ -3652,12 +3652,12 @@
           "published": "Thu, 27 Aug 2026 20:10:30 GMT"
         },
         {
-          "title": "The wrong way to revive Venezuela’s economy",
-          "summary": "Oil deal is most striking example yet of Trump’s new state capitalism",
-          "url": "https://www.ft.com/content/1fef1e44-2a79-4057-89e5-33417e5a7763?syn-25a6b1a6=1",
-          "publisher": "Financial Times",
+          "title": "Venezuela’s Maduro asserts immunity in US court, urges dismissal of charges",
+          "summary": "Former Venezuelan leader was abducted by US forces during a military attack on Caracas in January.",
+          "url": "https://www.aljazeera.com/news/2026/9/3/venezuelas-maduro-asserts-immunity-in-us-court-urges-dismissal-of-charges?traffic_source=rss",
+          "publisher": "Al Jazeera",
           "region": "South & Central America",
-          "published": "Wed, 02 Sep 2026 17:22:07 GMT"
+          "published": "Thu, 03 Sep 2026 01:22:21 +0000"
         },
         {
           "title": "World's youngest reigning traditional monarch dies aged 34",
@@ -3676,12 +3676,12 @@
           "published": "Mon, 31 Aug 2026 06:00:17 GMT"
         },
         {
-          "title": "Southeast Asia’s 5 richest billionaires, led by Vietnam’s Pham Nhat Vuong, worth $110.7B",
-          "summary": "Southeast Asia’s five richest billionaires have a combined net worth of about US$110.7 billion, with Vingroup chairman Pham Nhat Vuong accounting for nearly a third of it.",
-          "url": "https://e.vnexpress.net/news/business/billionaires/southeast-asia-s-5-richest-billionaires-led-by-vietnam-s-pham-nhat-vuong-worth-110-7b-5115569.html",
+          "title": "LivWell, CIMB Bank Vietnam partner on financial protection solution",
+          "summary": "LivWell and CIMB Bank Vietnam have launched the \"Spend with Ease – Live with Confidence\" program, combining credit card rewards with personal accident insurance to support consumers' financial and protection needs.",
+          "url": "https://e.vnexpress.net/news/business/livwell-cimb-bank-vietnam-partner-on-financial-protection-solution-5111811.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Tue, 01 Sep 2026 15:28:49 +0700"
+          "published": "Thu, 03 Sep 2026 08:00:00 +0700"
         }
       ],
       "totalTagged": 102,
@@ -3691,7 +3691,7 @@
     },
     "roundup": {
       "source": "assembled",
-      "fetchedAt": "2026-09-02T18:43:16.520Z",
+      "fetchedAt": "2026-09-03T06:09:45.754Z",
       "windowDays": 7,
       "publishers": [
         "Daily Coffee News",
@@ -3804,7 +3804,7 @@
       "note": "Assembled from the coffee trade press over the past seven days, ranked by relevance to the physical trade. Headlines and links are each publisher’s own."
     },
     "dailyRead": {
-      "fetchedAt": "2026-09-02T18:43:15.583Z",
+      "fetchedAt": "2026-09-03T06:09:44.429Z",
       "article": {
         "title": "Hawaii Coffee Farms Face Long Recovery After Hurricane Lala",
         "summary": "Coffee farms across southern Hawaii Island are assessing crop, tree and infrastructure losses following Hurricane Lala, which brought damaging winds and extreme rainfall to some of the state’s key coffee-growing...",
@@ -4130,39 +4130,39 @@
   },
   "status": [
     {
-      "source": "arabica-futures",
-      "ok": true,
-      "ms": 633
-    },
-    {
       "source": "daily-read",
       "ok": true,
-      "ms": 661
+      "ms": 408
+    },
+    {
+      "source": "arabica-futures",
+      "ok": true,
+      "ms": 532
     },
     {
       "source": "weather",
       "ok": true,
-      "ms": 891
-    },
-    {
-      "source": "fx",
-      "ok": true,
-      "ms": 1430
+      "ms": 1104
     },
     {
       "source": "weekly-recap",
       "ok": true,
-      "ms": 1601
-    },
-    {
-      "source": "origin-wire",
-      "ok": true,
-      "ms": 2047
+      "ms": 1737
     },
     {
       "source": "ico-report",
       "ok": true,
-      "ms": 2154
+      "ms": 2170
+    },
+    {
+      "source": "origin-wire",
+      "ok": true,
+      "ms": 2247
+    },
+    {
+      "source": "fx",
+      "ok": true,
+      "ms": 2558
     }
   ]
 }

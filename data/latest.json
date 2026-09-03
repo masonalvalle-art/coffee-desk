@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T06:09:46.571Z",
+  "generatedAt": "2026-09-03T18:45:29.258Z",
   "schema": 5,
   "schedule": {
     "slotsUtc": [
@@ -26,8 +26,8 @@
       "frontMonth": {
         "code": "KCU26",
         "label": "Sep 2026",
-        "close": 328.4,
-        "volume": 18
+        "close": 323.75,
+        "volume": 16
       },
       "rolled": true,
       "mostActive": "KCZ26",
@@ -35,66 +35,58 @@
         {
           "code": "KCU26",
           "label": "Sep 2026",
-          "close": 328.4,
-          "volume": 18
+          "close": 323.75,
+          "volume": 16
         },
         {
           "code": "KCZ26",
           "label": "Dec 2026",
-          "close": 298.1,
-          "volume": 19400
+          "close": 294.9,
+          "volume": 17719
         },
         {
           "code": "KCH27",
           "label": "Mar 2027",
-          "close": 287.75,
-          "volume": 7851
+          "close": 284.55,
+          "volume": 7620
         },
         {
           "code": "KCK27",
           "label": "May 2027",
-          "close": 285,
-          "volume": 2115
+          "close": 281.35,
+          "volume": 1924
         },
         {
           "code": "KCN27",
           "label": "Jul 2027",
-          "close": 283.15,
-          "volume": 992
+          "close": 279,
+          "volume": 744
         },
         {
           "code": "KCU27",
           "label": "Sep 2027",
-          "close": 280.95,
-          "volume": 410
+          "close": 277.05,
+          "volume": 338
         },
         {
           "code": "KCZ27",
           "label": "Dec 2027",
-          "close": 278.2,
-          "volume": 238
+          "close": 274.5,
+          "volume": 195
         }
       ],
       "quote": {
-        "last": 297.35,
-        "open": 307.04998779296875,
-        "high": 308.3500061035156,
-        "low": 295.3500061035156,
-        "previousClose": 309.45001220703125,
-        "change": -12.1,
-        "changePct": -3.91,
-        "volume": 22286,
-        "asOf": "2026-09-02T17:29:58.000Z"
+        "last": 294.9,
+        "open": 297.95001220703125,
+        "high": 300,
+        "low": 289.75,
+        "previousClose": 298.1000061035156,
+        "change": -3.2,
+        "changePct": -1.073,
+        "volume": 17719,
+        "asOf": "2026-09-03T17:29:56.000Z"
       },
       "bars": [
-        {
-          "date": "2025-05-28",
-          "open": 305.70001220703125,
-          "high": 305.70001220703125,
-          "low": 298.6499938964844,
-          "close": 302.1499938964844,
-          "volume": 189
-        },
         {
           "date": "2025-05-29",
           "open": 299.45001220703125,
@@ -2646,13 +2638,21 @@
           "low": 295.3500061035156,
           "close": 298.1000061035156,
           "volume": 22286
+        },
+        {
+          "date": "2026-09-03",
+          "open": 297.95001220703125,
+          "high": 300,
+          "low": 289.75,
+          "close": 294.8999938964844,
+          "volume": 17719
         }
       ],
       "crossCheck": {
-        "tradingView": 298.1,
-        "yahoo": 297.35,
-        "diff": 0.75,
-        "diffPct": 0.252,
+        "tradingView": 294.9,
+        "yahoo": 294.9,
+        "diff": 0,
+        "diffPct": 0,
         "agree": true
       },
       "sources": [
@@ -2668,20 +2668,20 @@
         }
       ],
       "technicals": {
-        "observations": 505,
-        "sma20": 318.5,
-        "sma50": 307.82599975585936,
-        "sma200": 290.80125007629397,
-        "rsi14": 41.421805416645626,
+        "observations": 506,
+        "sma20": 317.93999938964845,
+        "sma50": 308.44699951171873,
+        "sma200": 290.6602500152588,
+        "rsi14": 40.00644325217492,
         "macd": {
-          "line": 1.033921464868854,
-          "signal": 4.792166539651488,
-          "histogram": -3.758245074782634
+          "line": -0.642109701199729,
+          "signal": 3.7053112914812445,
+          "histogram": -4.3474209926809735
         },
-        "atr14": 13.495230734115646,
+        "atr14": 13.263428538821671,
         "donchian20": {
           "high": 345.6499938964844,
-          "low": 295.3500061035156,
+          "low": 289.75,
           "period": 20
         },
         "levels": {
@@ -2719,29 +2719,25 @@
           "low": 209.1999969482422
         },
         "method": "Wilder RSI(14); MACD(12,26,9) on EMA; ATR(14); pivots = 5-bar swing highs/lows; Donchian(20).",
-        "basis": "505 daily bars for KCZ26"
+        "basis": "506 daily bars for KCZ26"
       },
       "barsPublished": 320,
-      "barsAnalysed": 505
+      "barsAnalysed": 506
     }
   },
   "fx": {
-    "asOf": "2026-09-02",
+    "asOf": "2026-09-03",
     "pairs": {
       "GBPUSD": {
         "pair": "GBP/USD",
-        "rate": 1.3483,
-        "previous": 1.3531,
+        "rate": 1.3497,
+        "previous": 1.3483,
         "dp": 4,
         "note": "Sterling stronger means a dollar-priced contract costs a UK buyer less.",
-        "change": -0.0048,
-        "changePct": -0.355,
-        "change1m": 0.28,
+        "change": 0.0014,
+        "changePct": 0.104,
+        "change1m": 0.13,
         "history": [
-          {
-            "date": "2026-06-11",
-            "rate": 1.3364
-          },
           {
             "date": "2026-06-12",
             "rate": 1.3402
@@ -2977,23 +2973,23 @@
           {
             "date": "2026-09-02",
             "rate": 1.3483
+          },
+          {
+            "date": "2026-09-03",
+            "rate": 1.3497
           }
         ]
       },
       "USDBRL": {
         "pair": "USD/BRL",
-        "rate": 5.1507,
-        "previous": 5.1989,
+        "rate": 5.074,
+        "previous": 5.1507,
         "dp": 4,
         "note": "A weaker real encourages Brazilian producer selling.",
-        "change": -0.0482,
-        "changePct": -0.927,
-        "change1m": 1.38,
+        "change": -0.0767,
+        "changePct": -1.489,
+        "change1m": -0.81,
         "history": [
-          {
-            "date": "2026-06-11",
-            "rate": 5.1604
-          },
           {
             "date": "2026-06-12",
             "rate": 5.1073
@@ -3229,14 +3225,18 @@
           {
             "date": "2026-09-02",
             "rate": 5.1507
+          },
+          {
+            "date": "2026-09-03",
+            "rate": 5.074
           }
         ]
       }
     },
     "ptax": {
-      "buy": 5.1267,
-      "sell": 5.1273,
-      "quotedAt": "2026-09-02 13:02:37.601302"
+      "buy": 5.0956,
+      "sell": 5.0962,
+      "quotedAt": "2026-09-03 13:06:38.232974"
     },
     "sources": [
       {
@@ -3252,7 +3252,7 @@
     ]
   },
   "weather": {
-    "fetchedAt": "2026-09-03T06:09:45.116Z",
+    "fetchedAt": "2026-09-03T18:45:27.934Z",
     "thresholds": {
       "frostC": 4,
       "heavyRainMm": 50,
@@ -3279,7 +3279,7 @@
         "current": {
           "date": "2026-09-02",
           "tMax": 24.6,
-          "tMin": 15.3,
+          "tMin": 15.4,
           "rain": 0.2,
           "code": 51,
           "cloud": 25,
@@ -3288,8 +3288,8 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 26.8,
-        "rainForecast7": 25,
-        "minForecast7": 12.9,
+        "rainForecast7": 22.9,
+        "minForecast7": 13.1,
         "alerts": []
       },
       {
@@ -3302,7 +3302,7 @@
         "current": {
           "date": "2026-09-02",
           "tMax": 25.5,
-          "tMin": 17.5,
+          "tMin": 17,
           "rain": 1.9,
           "code": 53,
           "cloud": 43,
@@ -3311,8 +3311,8 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 41.9,
-        "rainForecast7": 29,
-        "minForecast7": 16.2,
+        "rainForecast7": 23.6,
+        "minForecast7": 15.6,
         "alerts": []
       },
       {
@@ -3325,17 +3325,17 @@
         "current": {
           "date": "2026-09-02",
           "tMax": 24.4,
-          "tMin": 20.3,
-          "rain": 2.5,
+          "tMin": 20.4,
+          "rain": 3.4,
           "code": 53,
-          "cloud": 89,
+          "cloud": 90,
           "observed": true
         },
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
-        "rain14": 29.3,
-        "rainForecast7": 23.1,
-        "minForecast7": 18.8,
+        "rain14": 30.2,
+        "rainForecast7": 15.8,
+        "minForecast7": 19,
         "alerts": []
       },
       {
@@ -3356,14 +3356,14 @@
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 131.2,
-        "rainForecast7": 98.3,
+        "rain14": 125.8,
+        "rainForecast7": 133.1,
         "minForecast7": 22,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "98 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "133 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3385,14 +3385,14 @@
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 205.8,
-        "rainForecast7": 92.2,
-        "minForecast7": 20.1,
+        "rain14": 184.8,
+        "rainForecast7": 95.6,
+        "minForecast7": 19.9,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "92 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "96 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3409,14 +3409,14 @@
           "tMin": 16.8,
           "rain": 6,
           "code": 80,
-          "cloud": 66,
+          "cloud": 70,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 60.3,
-        "rainForecast7": 16.6,
-        "minForecast7": 15.2,
+        "rainForecast7": 14.9,
+        "minForecast7": 15.6,
         "alerts": []
       },
       {
@@ -3430,16 +3430,16 @@
           "date": "2026-09-02",
           "tMax": 28.7,
           "tMin": 16.9,
-          "rain": 1.3,
+          "rain": 1.1,
           "code": 51,
-          "cloud": 73,
+          "cloud": 66,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 23.4,
-        "rainForecast7": 5.4,
-        "minForecast7": 15.9,
+        "rain14": 23.2,
+        "rainForecast7": 4.9,
+        "minForecast7": 16.4,
         "alerts": []
       },
       {
@@ -3461,9 +3461,15 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 15.2,
-        "rainForecast7": 34.6,
-        "minForecast7": 16.1,
-        "alerts": []
+        "rainForecast7": 53.5,
+        "minForecast7": 15.8,
+        "alerts": [
+          {
+            "type": "wet",
+            "severity": "watch",
+            "text": "54 mm forecast over 7 days — harvest/drying disruption risk."
+          }
+        ]
       },
       {
         "key": "lampung",
@@ -3483,9 +3489,9 @@
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 38.7,
-        "rainForecast7": 3.5,
-        "minForecast7": 22.7,
+        "rain14": 36.4,
+        "rainForecast7": 5.8,
+        "minForecast7": 22.8,
         "alerts": []
       },
       {
@@ -3507,8 +3513,8 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 65.6,
-        "rainForecast7": 14,
-        "minForecast7": 12.3,
+        "rainForecast7": 13,
+        "minForecast7": 12.2,
         "alerts": []
       },
       {
@@ -3522,16 +3528,16 @@
           "date": "2026-09-02",
           "tMax": 29.5,
           "tMin": 18.6,
-          "rain": 1.8,
-          "code": 51,
-          "cloud": 93,
+          "rain": 12.3,
+          "code": 95,
+          "cloud": 94,
           "observed": true
         },
-        "condition": "wet",
-        "conditionLabel": "Wet",
-        "rain14": 36.2,
-        "rainForecast7": 16.3,
-        "minForecast7": 16.5,
+        "condition": "very-wet",
+        "conditionLabel": "Very wet",
+        "rain14": 46.7,
+        "rainForecast7": 36.4,
+        "minForecast7": 15.8,
         "alerts": []
       },
       {
@@ -3545,16 +3551,16 @@
           "date": "2026-09-02",
           "tMax": 31.3,
           "tMin": 19.4,
-          "rain": 10.7,
+          "rain": 12.7,
           "code": 81,
-          "cloud": 63,
+          "cloud": 66,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 50.1,
-        "rainForecast7": 22,
-        "minForecast7": 17.4,
+        "rain14": 52.1,
+        "rainForecast7": 35.6,
+        "minForecast7": 17.3,
         "alerts": []
       }
     ],
@@ -3568,24 +3574,24 @@
   },
   "news": {
     "originWire": {
-      "fetchedAt": "2026-09-03T06:09:46.260Z",
+      "fetchedAt": "2026-09-03T18:45:29.254Z",
       "lookbackHours": 504,
       "headlines": [
         {
-          "title": "Business school teaching case study: Can you put a price on impact?",
-          "summary": "Brazilian cosmetic company Natura attempts to put a monetary value on the social, human and environmental effects of its activities",
-          "url": "https://www.ft.com/content/b38675c2-56f1-4440-b92b-1c325ae34975",
-          "publisher": "Financial Times",
+          "title": "Iguazú Falls' water level rises by five times the average – video",
+          "summary": "Water levels at Iguazú Falls, on the border of Brazil and Argentina, have reached five times the average volume after heavy rains. The national park has stayed open to visitors with a safety protocol in place for their safety. The park's biologist and…",
+          "url": "https://www.theguardian.com/world/video/2026/sep/03/iguazu-falls-water-level-rises-by-five-times-the-average-video",
+          "publisher": "The Guardian",
           "region": "Brazil",
-          "published": "Thu, 03 Sep 2026 04:00:12 GMT"
+          "published": "Thu, 03 Sep 2026 12:22:11 GMT"
         },
         {
-          "title": "Vietnamese scientists develops foam that lets microbes eat pollution out of wastewater",
-          "summary": "A team at the Institute of Materials Science has developed a polyethylene foam to house wastewater-treating microbes, giving Vietnamese factories a domestic alternative to imported filtration media.",
-          "url": "https://e.vnexpress.net/news/news/vietnamese-scientists-develops-foam-that-lets-microbes-eat-pollution-out-of-wastewater-5114774.html",
+          "title": "Teacher spends nearly 10 years teaching Khmer in Vietnam's borderlands",
+          "summary": "Thach Thi Phat Ca Di, 32, has spent nearly a decade teaching Khmer in Tay Ninh Province's remote border area, where she is now one of only three teachers of the language.",
+          "url": "https://e.vnexpress.net/news/news/education/teacher-spends-nearly-10-years-teaching-khmer-in-vietnam-s-borderlands-5116012.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Thu, 03 Sep 2026 13:01:34 +0700"
+          "published": "Thu, 03 Sep 2026 19:58:42 +0700"
         },
         {
           "title": "More than 800 students and teachers in Indonesia suffer food poisoning after eating government free meals",
@@ -3596,28 +3602,28 @@
           "published": "Thu, 03 Sep 2026 05:54:15 GMT"
         },
         {
-          "title": "Was it a mistake for 99 Colombian guerrillas to lay down their arms?",
-          "summary": "Fighters in legal limbo after accepting ‘total peace’ plan of Petro government just days before hardliner Abelardo De la Espriella took over In mid-June, 99 guerrilla fighters were flown by helicopter to a small settlement in a rural area of southern Colombia…",
-          "url": "https://www.theguardian.com/world/2026/aug/29/former-guerrillas-colombia-fate-new-president",
+          "title": "Moment motorcyclist in Colombia flies through bus door in high-speed collision – video",
+          "summary": "CCTV footage captured the moment a motorcyclist drove into the side of a moving bus in Buga, Colombia. The man flew through the open doors and landed inside the bus after reportedly running a red light. The identity of the motorcyclist has not been released…",
+          "url": "https://www.theguardian.com/world/video/2026/sep/03/moment-motorcyclist-colombia-flies-bus-high-speed-collision-cctv-footage-video",
           "publisher": "The Guardian",
           "region": "Colombia",
-          "published": "Sat, 29 Aug 2026 10:00:24 GMT"
+          "published": "Thu, 03 Sep 2026 08:51:51 GMT"
         },
         {
-          "title": "US’s Chevron, Italy’s Eni to expand oil projects in Venezuela",
-          "summary": "Energy firms sign deals in Caracas, days after Venezuela agreed to grant the US control of a fifth of its oil reserves.",
-          "url": "https://www.aljazeera.com/news/2026/9/3/uss-chevron-italys-eni-to-expand-oil-projects-in-venezuela?traffic_source=rss",
-          "publisher": "Al Jazeera",
+          "title": "Nobel laureate Machado: ‘Illegitimate’ Venezuela regime has no right to strike US oil deal",
+          "summary": "Opposition leader says interim government lacking democratic mandate to negotiate on natural resources The Venezuelan opposition leader María Corina Machado has questioned Donald Trump’s oil deal with Venezuela’s interim government, saying the country’s…",
+          "url": "https://www.theguardian.com/world/2026/sep/03/venezuelan-opposition-leader-questions-us-oil-deal-with-illegitimate-regime",
+          "publisher": "The Guardian",
           "region": "South & Central America",
-          "published": "Thu, 03 Sep 2026 04:19:11 +0000"
+          "published": "Thu, 03 Sep 2026 16:17:29 GMT"
         },
         {
-          "title": "Uber shuts operations in Nigeria and Uganda with immediate effect",
-          "summary": "Nigeria - Africa's most populous country - is proving a tough market for ride-hailing services.",
-          "url": "https://www.bbc.co.uk/news/articles/c86xpv8l9y9o?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
+          "title": "Somalia repels armed assault on Baidoa amid regional political tensions",
+          "summary": "Explosions and gunfire rock Baidoa as armed groups strike during South West State's political tensions.",
+          "url": "https://www.aljazeera.com/news/2026/9/3/somalia-repels-armed-assault-on-baidoa-amid-regional-political-tensions?traffic_source=rss",
+          "publisher": "Al Jazeera",
           "region": "East Africa",
-          "published": "Wed, 02 Sep 2026 20:21:04 GMT"
+          "published": "Thu, 03 Sep 2026 13:40:42 +0000"
         },
         {
           "title": "Echoes of cold war as US accused of meddling in another Brazilian election",
@@ -3628,12 +3634,12 @@
           "published": "Tue, 01 Sep 2026 12:00:57 GMT"
         },
         {
-          "title": "Chinese man allegedly robs grocery store, flees across northern Vietnam",
-          "summary": "A 39-year-old Chinese national has been apprehended in northern Vietnam after allegedly robbing a grocery store in Hai Phong City of VND145 million (US$5,500) at knifepoint.",
-          "url": "https://e.vnexpress.net/news/news/crime/chinese-man-allegedly-robs-grocery-store-flees-across-northern-vietnam-5115993.html",
-          "publisher": "VnExpress International",
+          "title": "Eleven people sentenced to death in Vietnam drug trafficking case",
+          "summary": "More than 200 people are convicted over a network smuggling drugs into Vietnam in toothpaste tubes and other consumer items.",
+          "url": "https://www.bbc.co.uk/news/articles/cqjk4lwddz0o?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
           "region": "Vietnam",
-          "published": "Thu, 03 Sep 2026 10:35:35 +0700"
+          "published": "Thu, 03 Sep 2026 11:58:00 GMT"
         },
         {
           "title": "The Extractor review – Indonesian hostage-rescue thriller has surprising thread of gentleness at its core",
@@ -3644,28 +3650,28 @@
           "published": "Tue, 01 Sep 2026 08:00:48 GMT"
         },
         {
-          "title": "Colombia's new president approves extradition of rebel leaders to US",
-          "summary": "It is a step towards ending a plan to stop violence by bringing rebel and criminal groups to the negotiating table.",
-          "url": "https://www.bbc.co.uk/news/articles/cvgy45zv8e2o?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
+          "title": "Was it a mistake for 99 Colombian guerrillas to lay down their arms?",
+          "summary": "Fighters in legal limbo after accepting ‘total peace’ plan of Petro government just days before hardliner Abelardo De la Espriella took over In mid-June, 99 guerrilla fighters were flown by helicopter to a small settlement in a rural area of southern Colombia…",
+          "url": "https://www.theguardian.com/world/2026/aug/29/former-guerrillas-colombia-fate-new-president",
+          "publisher": "The Guardian",
           "region": "Colombia",
-          "published": "Thu, 27 Aug 2026 20:10:30 GMT"
+          "published": "Sat, 29 Aug 2026 10:00:24 GMT"
         },
         {
-          "title": "Venezuela’s Maduro asserts immunity in US court, urges dismissal of charges",
-          "summary": "Former Venezuelan leader was abducted by US forces during a military attack on Caracas in January.",
-          "url": "https://www.aljazeera.com/news/2026/9/3/venezuelas-maduro-asserts-immunity-in-us-court-urges-dismissal-of-charges?traffic_source=rss",
+          "title": "Panama Canal restricts traffic amid Hormuz crisis: Why this matters",
+          "summary": "Limits on the number of vessels in the canal could create shipping delays and increase freight costs.",
+          "url": "https://www.aljazeera.com/news/2026/9/3/panama-canal-restricts-traffic-amid-hormuz-crisis-why-this-matters?traffic_source=rss",
           "publisher": "Al Jazeera",
           "region": "South & Central America",
-          "published": "Thu, 03 Sep 2026 01:22:21 +0000"
+          "published": "Thu, 03 Sep 2026 15:35:57 +0000"
         },
         {
-          "title": "World's youngest reigning traditional monarch dies aged 34",
-          "summary": "King Oyo ascended to the throne of Uganda's Tooro kingdom when he was just three years old.",
-          "url": "https://www.bbc.co.uk/news/articles/c0j38d9v40po?at_medium=RSS&amp;at_campaign=rss",
+          "title": "Kenyan president orders crackdown on foreigners operating small businesses",
+          "summary": "It comes amid concerns over the growing number of traders from neighbouring countries.",
+          "url": "https://www.bbc.co.uk/news/articles/c9861x5pzgxo?at_medium=RSS&amp;at_campaign=rss",
           "publisher": "BBC News",
           "region": "East Africa",
-          "published": "Fri, 28 Aug 2026 11:13:24 GMT"
+          "published": "Thu, 03 Sep 2026 10:59:14 GMT"
         },
         {
           "title": "Performance and belonging: Rio de Janeiro’s ballroom scene – photo essay",
@@ -3676,22 +3682,22 @@
           "published": "Mon, 31 Aug 2026 06:00:17 GMT"
         },
         {
-          "title": "LivWell, CIMB Bank Vietnam partner on financial protection solution",
-          "summary": "LivWell and CIMB Bank Vietnam have launched the \"Spend with Ease – Live with Confidence\" program, combining credit card rewards with personal accident insurance to support consumers' financial and protection needs.",
-          "url": "https://e.vnexpress.net/news/business/livwell-cimb-bank-vietnam-partner-on-financial-protection-solution-5111811.html",
+          "title": "Vietnam sentences 11 to death in $1.1B drug case involving 4 flight attendants",
+          "summary": "A Ho Chi Minh City court sentenced 11 people to death and 19 to life in one of Vietnam's largest drug cases, with the alleged ringleader convicted in absentia.",
+          "url": "https://e.vnexpress.net/news/news/crime/vietnam-sentences-11-to-death-in-1-1b-drug-case-involving-4-flight-attendants-5116200.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Thu, 03 Sep 2026 08:00:00 +0700"
+          "published": "Thu, 03 Sep 2026 16:21:28 +0700"
         }
       ],
-      "totalTagged": 102,
+      "totalTagged": 105,
       "feedsQueried": 14,
       "errors": [],
       "note": "General headlines from the growing regions, taken from outlets of record and tagged to a region by the countries and cities they name."
     },
     "roundup": {
       "source": "assembled",
-      "fetchedAt": "2026-09-03T06:09:45.754Z",
+      "fetchedAt": "2026-09-03T18:45:28.810Z",
       "windowDays": 7,
       "publishers": [
         "Daily Coffee News",
@@ -3701,56 +3707,65 @@
       ],
       "items": [
         {
+          "headline": "Ecuador’s Deforestation-Free Coffee Model Moves Beyond the Pilot Stage",
+          "summary": "Since 2019, nearly 400 coffee producers in the Ecuadorian Amazon have adopted a deforestation-free production model that combines traceability, geospatial monitoring, and certification. In 2025 alone, the initiative exported as...",
+          "url": "https://dailycoffeenews.com/2026/09/03/ecuadors-deforestation-free-coffee-model-moves-beyond-the-pilot-stage/",
+          "publisher": "Daily Coffee News",
+          "published": "Thu, 03 Sep 2026 15:23:23 +0000",
+          "date": "Thu, 3 Sep",
+          "section": "Top stories of the week"
+        },
+        {
+          "headline": "Train Station? Transit Hub? There’s A Specialty Coffee Kiosk For That",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. In the digital age, newspapers stands are transforming into on-the-go cafes.",
+          "url": "https://sprudge.com/train-station-transit-hub-theres-a-specialty-coffee-kiosk-for-that-1232248.html",
+          "publisher": "Sprudge",
+          "published": "Thu, 03 Sep 2026 14:00:18 +0000",
+          "date": "Thu, 3 Sep",
+          "section": "Top stories of the week"
+        },
+        {
+          "headline": "New York’s Joe Coffee secures first US airline partnership",
+          "summary": "The collaboration with the celebrated specialty coffee group highlights the growing importance of premium hospitality to the inflight experience",
+          "url": "https://www.worldcoffeeportal.com/news/new-yorks-joe-coffee-secures-first-us-airline-partnership/",
+          "publisher": "World Coffee Portal",
+          "published": "Thu, 03 Sep 2026 13:03:17 GMT",
+          "date": "Thu, 3 Sep",
+          "section": "Roasting & retail"
+        },
+        {
+          "headline": "Detroit Tigers Ace Pitcher Was Traded To The Dodgers, And Took The Team Espresso Machine With Him",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Tarik Skubal left for LA and took the espresso machine with him.",
+          "url": "https://sprudge.com/detroit-tigers-ace-pitcher-was-traded-to-the-dodgers-and-took-the-team-espresso-machine-with-him-1307045.html",
+          "publisher": "Sprudge",
+          "published": "Thu, 03 Sep 2026 12:00:59 +0000",
+          "date": "Thu, 3 Sep",
+          "section": "Roasting & retail"
+        },
+        {
+          "headline": "Design Details: The Day to Night Gradient at Six Coffee + Wine in Kazakhstan",
+          "summary": "Welcome to Design Details, an ongoing editorial feature in Daily Coffee News focused on individual examples of coffee shop architecture, interior design, packaging design or branding. If you are a...",
+          "url": "https://dailycoffeenews.com/2026/09/03/design-details-the-day-to-night-gradient-at-six-coffee-wine-in-kazakhstan/",
+          "publisher": "Daily Coffee News",
+          "published": "Thu, 03 Sep 2026 11:58:40 +0000",
+          "date": "Thu, 3 Sep",
+          "section": "Roasting & retail"
+        },
+        {
+          "headline": "Almost Five Years After First Starbucks Unionized, Workers Call For Boycott",
+          "summary": "It has been almost five years since the first Starbucks location unionized in Buffalo, New York. Workers are calling for patrons to boycott the brand. The post Almost Five Years After First Starbucks Unionized, Workers Call For Boycott appeared first on Fresh…",
+          "url": "https://freshcup.com/almost-five-years-after-first-starbucks-unionized-workers-call-for-boycott/",
+          "publisher": "Fresh Cup",
+          "published": "Thu, 03 Sep 2026 11:00:00 +0000",
+          "date": "Thu, 3 Sep",
+          "section": "Roasting & retail"
+        },
+        {
           "headline": "COFE Tech secures $178m valuation in pre-IPO funding round",
           "summary": "The agentic enterprise firm is planning to list on the Saudi Exchange by 2029 after broadening its reach with new digital procurement, supply chain and e-commerce solutions",
           "url": "https://www.worldcoffeeportal.com/news/cofe-tech-secures-178m-valuation-in-pre-ipo-funding-round/",
           "publisher": "World Coffee Portal",
           "published": "Wed, 02 Sep 2026 14:41:00 GMT",
-          "date": "Wed, 2 Sep",
-          "section": "Top stories of the week"
-        },
-        {
-          "headline": "Ask Maps: How To Get Mentions From the Google Maps AI",
-          "summary": "Google Maps now integrates directly with Square and Toast. Here's how that impacts your AI answer engine mentions. The post Ask Maps: How To Get Mentions From the Google Maps AI appeared first on Fresh Cup .",
-          "url": "https://freshcup.com/ask-maps-how-to-get-mentions-from-the-google-maps-ai/",
-          "publisher": "Fresh Cup",
-          "published": "Wed, 02 Sep 2026 14:38:00 +0000",
-          "date": "Wed, 2 Sep",
-          "section": "Roasting & retail"
-        },
-        {
-          "headline": "Build-Outs Of Coffee: Aurora Coffee Hub In Amman, Jordan",
-          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Aurora Coffee Hub in Amman, Jordan.",
-          "url": "https://sprudge.com/build-outs-of-coffee-aurora-coffee-hub-in-amman-jordan-1265150.html",
-          "publisher": "Sprudge",
-          "published": "Wed, 02 Sep 2026 14:00:33 +0000",
-          "date": "Wed, 2 Sep",
-          "section": "Roasting & retail"
-        },
-        {
-          "headline": "Swiss foodservice and retail group Valora announces leadership transition",
-          "summary": "Michael Mueller is stepping down as CEO of the Caffè Spettacolo, BackWerk and Ditsch parent company after 12 years",
-          "url": "https://www.worldcoffeeportal.com/news/swiss-foodservice-and-retail-group-valora-announces-leadership-transition/",
-          "publisher": "World Coffee Portal",
-          "published": "Wed, 02 Sep 2026 13:38:04 GMT",
-          "date": "Wed, 2 Sep",
-          "section": "Roasting & retail"
-        },
-        {
-          "headline": "Hershey’s Goes Affogato For Their New Creme Bar",
-          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. The all new affogato flavored Hershey's Creme Bars.",
-          "url": "https://sprudge.com/hersheys-goes-affogato-for-their-new-creme-bar-1304480.html",
-          "publisher": "Sprudge",
-          "published": "Wed, 02 Sep 2026 12:00:04 +0000",
-          "date": "Wed, 2 Sep",
-          "section": "Roasting & retail"
-        },
-        {
-          "headline": "How Coffee Brands Keep Subscribers from Clicking ‘Cancel’",
-          "summary": "Consumers are becoming more selective about the subscriptions they keep. A few dollars here and there can quickly add up, as streaming services, meal kits, fitness apps, and more pile onto monthly credit card statements. The average American spends more than…",
-          "url": "https://freshcup.com/how-coffee-brands-keep-subscribers-from-clicking-cancel/",
-          "publisher": "Fresh Cup",
-          "published": "Wed, 02 Sep 2026 11:00:00 +0000",
           "date": "Wed, 2 Sep",
           "section": "Roasting & retail"
         },
@@ -3789,28 +3804,19 @@
           "published": "Tue, 01 Sep 2026 11:00:00 +0000",
           "date": "Tue, 1 Sep",
           "section": "Top stories of the week"
-        },
-        {
-          "headline": "Hawaii Coffee Farms Face Long Recovery After Hurricane Lala",
-          "summary": "Coffee farms across southern Hawaii Island are assessing crop, tree and infrastructure losses following Hurricane Lala, which brought damaging winds and extreme rainfall to some of the state’s key coffee-growing...",
-          "url": "https://dailycoffeenews.com/2026/08/28/hawaii-coffee-farms-face-long-recovery-after-hurricane-lala/",
-          "publisher": "Daily Coffee News",
-          "published": "Fri, 28 Aug 2026 14:32:20 +0000",
-          "date": "Fri, 28 Aug",
-          "section": "Top stories of the week"
         }
       ],
       "errors": [],
       "note": "Assembled from the coffee trade press over the past seven days, ranked by relevance to the physical trade. Headlines and links are each publisher’s own."
     },
     "dailyRead": {
-      "fetchedAt": "2026-09-03T06:09:44.429Z",
+      "fetchedAt": "2026-09-03T18:45:27.116Z",
       "article": {
-        "title": "Hawaii Coffee Farms Face Long Recovery After Hurricane Lala",
-        "summary": "Coffee farms across southern Hawaii Island are assessing crop, tree and infrastructure losses following Hurricane Lala, which brought damaging winds and extreme rainfall to some of the state’s key coffee-growing...",
-        "url": "https://dailycoffeenews.com/2026/08/28/hawaii-coffee-farms-face-long-recovery-after-hurricane-lala/",
+        "title": "Ecuador’s Deforestation-Free Coffee Model Moves Beyond the Pilot Stage",
+        "summary": "Since 2019, nearly 400 coffee producers in the Ecuadorian Amazon have adopted a deforestation-free production model that combines traceability, geospatial monitoring, and certification. In 2025 alone, the initiative exported as...",
+        "url": "https://dailycoffeenews.com/2026/09/03/ecuadors-deforestation-free-coffee-model-moves-beyond-the-pilot-stage/",
         "publisher": "Daily Coffee News",
-        "published": "Fri, 28 Aug 2026 14:32:20 +0000"
+        "published": "Thu, 03 Sep 2026 15:23:23 +0000"
       },
       "considered": 10
     }
@@ -4132,37 +4138,37 @@
     {
       "source": "daily-read",
       "ok": true,
-      "ms": 408
+      "ms": 257
     },
     {
       "source": "arabica-futures",
       "ok": true,
-      "ms": 532
+      "ms": 574
     },
     {
       "source": "weather",
       "ok": true,
-      "ms": 1104
-    },
-    {
-      "source": "weekly-recap",
-      "ok": true,
-      "ms": 1737
-    },
-    {
-      "source": "ico-report",
-      "ok": true,
-      "ms": 2170
-    },
-    {
-      "source": "origin-wire",
-      "ok": true,
-      "ms": 2247
+      "ms": 1084
     },
     {
       "source": "fx",
       "ok": true,
-      "ms": 2558
+      "ms": 1840
+    },
+    {
+      "source": "ico-report",
+      "ok": true,
+      "ms": 1891
+    },
+    {
+      "source": "weekly-recap",
+      "ok": true,
+      "ms": 1955
+    },
+    {
+      "source": "origin-wire",
+      "ok": true,
+      "ms": 2403
     }
   ]
 }

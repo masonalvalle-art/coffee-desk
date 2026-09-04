@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T18:45:29.258Z",
+  "generatedAt": "2026-09-04T06:07:57.245Z",
   "schema": 5,
   "schedule": {
     "slotsUtc": [
@@ -26,7 +26,7 @@
       "frontMonth": {
         "code": "KCU26",
         "label": "Sep 2026",
-        "close": 323.75,
+        "close": 324.35,
         "volume": 16
       },
       "rolled": true,
@@ -35,58 +35,66 @@
         {
           "code": "KCU26",
           "label": "Sep 2026",
-          "close": 323.75,
+          "close": 324.35,
           "volume": 16
         },
         {
           "code": "KCZ26",
           "label": "Dec 2026",
-          "close": 294.9,
+          "close": 295.35,
           "volume": 17719
         },
         {
           "code": "KCH27",
           "label": "Mar 2027",
-          "close": 284.55,
+          "close": 285.05,
           "volume": 7620
         },
         {
           "code": "KCK27",
           "label": "May 2027",
-          "close": 281.35,
+          "close": 282.05,
           "volume": 1924
         },
         {
           "code": "KCN27",
           "label": "Jul 2027",
-          "close": 279,
+          "close": 280,
           "volume": 744
         },
         {
           "code": "KCU27",
           "label": "Sep 2027",
-          "close": 277.05,
+          "close": 277.8,
           "volume": 338
         },
         {
           "code": "KCZ27",
           "label": "Dec 2027",
-          "close": 274.5,
+          "close": 274.85,
           "volume": 195
         }
       ],
       "quote": {
         "last": 294.9,
-        "open": 297.95001220703125,
-        "high": 300,
-        "low": 289.75,
-        "previousClose": 298.1000061035156,
-        "change": -3.2,
-        "changePct": -1.073,
-        "volume": 17719,
+        "open": 307.04998779296875,
+        "high": 308.3500061035156,
+        "low": 295.3500061035156,
+        "previousClose": 309.45001220703125,
+        "change": -14.55,
+        "changePct": -4.702,
+        "volume": 22286,
         "asOf": "2026-09-03T17:29:56.000Z"
       },
       "bars": [
+        {
+          "date": "2025-05-28",
+          "open": 305.70001220703125,
+          "high": 305.70001220703125,
+          "low": 298.6499938964844,
+          "close": 302.1499938964844,
+          "volume": 189
+        },
         {
           "date": "2025-05-29",
           "open": 299.45001220703125,
@@ -2638,21 +2646,13 @@
           "low": 295.3500061035156,
           "close": 298.1000061035156,
           "volume": 22286
-        },
-        {
-          "date": "2026-09-03",
-          "open": 297.95001220703125,
-          "high": 300,
-          "low": 289.75,
-          "close": 294.8999938964844,
-          "volume": 17719
         }
       ],
       "crossCheck": {
-        "tradingView": 294.9,
+        "tradingView": 295.35,
         "yahoo": 294.9,
-        "diff": 0,
-        "diffPct": 0,
+        "diff": 0.45,
+        "diffPct": 0.153,
         "agree": true
       },
       "sources": [
@@ -2668,20 +2668,20 @@
         }
       ],
       "technicals": {
-        "observations": 506,
-        "sma20": 317.93999938964845,
-        "sma50": 308.44699951171873,
-        "sma200": 290.6602500152588,
-        "rsi14": 40.00644325217492,
+        "observations": 504,
+        "sma20": 318.5,
+        "sma50": 307.82599975585936,
+        "sma200": 290.80125007629397,
+        "rsi14": 41.421805416645626,
         "macd": {
-          "line": -0.642109701199729,
-          "signal": 3.7053112914812445,
-          "histogram": -4.3474209926809735
+          "line": 1.033921464868854,
+          "signal": 4.792166539651488,
+          "histogram": -3.758245074782634
         },
-        "atr14": 13.263428538821671,
+        "atr14": 13.495230734115646,
         "donchian20": {
           "high": 345.6499938964844,
-          "low": 289.75,
+          "low": 295.3500061035156,
           "period": 20
         },
         "levels": {
@@ -2719,10 +2719,10 @@
           "low": 209.1999969482422
         },
         "method": "Wilder RSI(14); MACD(12,26,9) on EMA; ATR(14); pivots = 5-bar swing highs/lows; Donchian(20).",
-        "basis": "506 daily bars for KCZ26"
+        "basis": "504 daily bars for KCZ26"
       },
       "barsPublished": 320,
-      "barsAnalysed": 506
+      "barsAnalysed": 504
     }
   },
   "fx": {
@@ -3252,7 +3252,7 @@
     ]
   },
   "weather": {
-    "fetchedAt": "2026-09-03T18:45:27.934Z",
+    "fetchedAt": "2026-09-04T06:07:55.798Z",
     "thresholds": {
       "frostC": 4,
       "heavyRainMm": 50,
@@ -3277,18 +3277,18 @@
         "lat": -21.55,
         "lon": -45.43,
         "current": {
-          "date": "2026-09-02",
-          "tMax": 24.6,
-          "tMin": 15.4,
-          "rain": 0.2,
-          "code": 51,
-          "cloud": 25,
+          "date": "2026-09-03",
+          "tMax": 26.2,
+          "tMin": 13.1,
+          "rain": 0,
+          "code": 2,
+          "cloud": 8,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 26.8,
-        "rainForecast7": 22.9,
+        "rainForecast7": 38,
         "minForecast7": 13.1,
         "alerts": []
       },
@@ -3300,19 +3300,19 @@
         "lat": -18.94,
         "lon": -46.99,
         "current": {
-          "date": "2026-09-02",
-          "tMax": 25.5,
-          "tMin": 17,
-          "rain": 1.9,
-          "code": 53,
-          "cloud": 43,
+          "date": "2026-09-03",
+          "tMax": 28.4,
+          "tMin": 15.6,
+          "rain": 0,
+          "code": 0,
+          "cloud": 1,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 41.9,
-        "rainForecast7": 23.6,
-        "minForecast7": 15.6,
+        "rainForecast7": 25.1,
+        "minForecast7": 17.1,
         "alerts": []
       },
       {
@@ -3323,19 +3323,19 @@
         "lat": -19.39,
         "lon": -40.07,
         "current": {
-          "date": "2026-09-02",
-          "tMax": 24.4,
-          "tMin": 20.4,
-          "rain": 3.4,
-          "code": 53,
-          "cloud": 90,
+          "date": "2026-09-03",
+          "tMax": 25.5,
+          "tMin": 20.7,
+          "rain": 0,
+          "code": 3,
+          "cloud": 75,
           "observed": true
         },
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
         "rain14": 30.2,
-        "rainForecast7": 15.8,
-        "minForecast7": 19,
+        "rainForecast7": 15.4,
+        "minForecast7": 19.3,
         "alerts": []
       },
       {
@@ -3346,24 +3346,24 @@
         "lat": 12.68,
         "lon": 108.05,
         "current": {
-          "date": "2026-09-02",
-          "tMax": 27.7,
-          "tMin": 21.9,
-          "rain": 18.6,
-          "code": 81,
-          "cloud": 98,
+          "date": "2026-09-03",
+          "tMax": 28.8,
+          "tMin": 22,
+          "rain": 10.5,
+          "code": 80,
+          "cloud": 94,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 125.8,
-        "rainForecast7": 133.1,
+        "rain14": 136.3,
+        "rainForecast7": 129,
         "minForecast7": 22,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "133 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "129 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3375,24 +3375,24 @@
         "lat": 11.55,
         "lon": 107.81,
         "current": {
-          "date": "2026-09-02",
-          "tMax": 23.2,
-          "tMin": 20.5,
-          "rain": 5.2,
-          "code": 55,
-          "cloud": 94,
+          "date": "2026-09-03",
+          "tMax": 24,
+          "tMin": 20.1,
+          "rain": 16.6,
+          "code": 95,
+          "cloud": 95,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 184.8,
-        "rainForecast7": 95.6,
-        "minForecast7": 19.9,
+        "rain14": 201.4,
+        "rainForecast7": 80.7,
+        "minForecast7": 20.2,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "96 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "81 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3404,19 +3404,19 @@
         "lat": 1.85,
         "lon": -76.05,
         "current": {
-          "date": "2026-09-02",
-          "tMax": 26.3,
-          "tMin": 16.8,
-          "rain": 6,
-          "code": 80,
-          "cloud": 70,
+          "date": "2026-09-03",
+          "tMax": 25.1,
+          "tMin": 17.2,
+          "rain": 2.6,
+          "code": 55,
+          "cloud": 72,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 60.3,
-        "rainForecast7": 14.9,
-        "minForecast7": 15.6,
+        "rain14": 58.7,
+        "rainForecast7": 14.3,
+        "minForecast7": 14.9,
         "alerts": []
       },
       {
@@ -3427,18 +3427,18 @@
         "lat": 6.25,
         "lon": -75.56,
         "current": {
-          "date": "2026-09-02",
-          "tMax": 28.7,
-          "tMin": 16.9,
-          "rain": 1.1,
-          "code": 51,
-          "cloud": 66,
+          "date": "2026-09-03",
+          "tMax": 29.3,
+          "tMin": 16.7,
+          "rain": 0,
+          "code": 3,
+          "cloud": 97,
           "observed": true
         },
-        "condition": "wet",
-        "conditionLabel": "Wet",
+        "condition": "cloudy",
+        "conditionLabel": "Cloudy",
         "rain14": 23.2,
-        "rainForecast7": 4.9,
+        "rainForecast7": 2.7,
         "minForecast7": 16.4,
         "alerts": []
       },
@@ -3450,26 +3450,20 @@
         "lat": 4.63,
         "lon": 96.85,
         "current": {
-          "date": "2026-09-02",
-          "tMax": 25.3,
-          "tMin": 17.9,
-          "rain": 2.1,
-          "code": 53,
-          "cloud": 98,
+          "date": "2026-09-03",
+          "tMax": 24.6,
+          "tMin": 17.3,
+          "rain": 1.3,
+          "code": 51,
+          "cloud": 100,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 15.2,
-        "rainForecast7": 53.5,
-        "minForecast7": 15.8,
-        "alerts": [
-          {
-            "type": "wet",
-            "severity": "watch",
-            "text": "54 mm forecast over 7 days — harvest/drying disruption risk."
-          }
-        ]
+        "rain14": 16.5,
+        "rainForecast7": 37.6,
+        "minForecast7": 15.9,
+        "alerts": []
       },
       {
         "key": "lampung",
@@ -3479,19 +3473,19 @@
         "lat": -5.45,
         "lon": 105.27,
         "current": {
-          "date": "2026-09-02",
-          "tMax": 33.3,
-          "tMin": 25.9,
-          "rain": 2.1,
+          "date": "2026-09-03",
+          "tMax": 33,
+          "tMin": 25.5,
+          "rain": 1.2,
           "code": 51,
-          "cloud": 40,
+          "cloud": 53,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 36.4,
-        "rainForecast7": 5.8,
-        "minForecast7": 22.8,
+        "rain14": 37.6,
+        "rainForecast7": 5.4,
+        "minForecast7": 22.7,
         "alerts": []
       },
       {
@@ -3502,19 +3496,19 @@
         "lat": 7.67,
         "lon": 36.83,
         "current": {
-          "date": "2026-09-02",
-          "tMax": 23.8,
-          "tMin": 14.6,
-          "rain": 4.8,
-          "code": 80,
-          "cloud": 52,
+          "date": "2026-09-03",
+          "tMax": 23.6,
+          "tMin": 12.2,
+          "rain": 0.4,
+          "code": 51,
+          "cloud": 67,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 65.6,
-        "rainForecast7": 13,
-        "minForecast7": 12.2,
+        "rain14": 52.8,
+        "rainForecast7": 23.2,
+        "minForecast7": 13.6,
         "alerts": []
       },
       {
@@ -3525,18 +3519,18 @@
         "lat": 14.16,
         "lon": -88.02,
         "current": {
-          "date": "2026-09-02",
-          "tMax": 29.5,
-          "tMin": 18.6,
-          "rain": 12.3,
-          "code": 95,
-          "cloud": 94,
+          "date": "2026-09-03",
+          "tMax": 30.7,
+          "tMin": 17.2,
+          "rain": 3.7,
+          "code": 55,
+          "cloud": 91,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 46.7,
-        "rainForecast7": 36.4,
+        "rain14": 48.6,
+        "rainForecast7": 36.8,
         "minForecast7": 15.8,
         "alerts": []
       },
@@ -3548,19 +3542,19 @@
         "lat": -11.05,
         "lon": -75.33,
         "current": {
-          "date": "2026-09-02",
-          "tMax": 31.3,
+          "date": "2026-09-03",
+          "tMax": 32,
           "tMin": 19.4,
-          "rain": 12.7,
-          "code": 81,
-          "cloud": 66,
+          "rain": 3.8,
+          "code": 80,
+          "cloud": 35,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 52.1,
-        "rainForecast7": 35.6,
-        "minForecast7": 17.3,
+        "rain14": 50.7,
+        "rainForecast7": 39.4,
+        "minForecast7": 17.8,
         "alerts": []
       }
     ],
@@ -3574,32 +3568,32 @@
   },
   "news": {
     "originWire": {
-      "fetchedAt": "2026-09-03T18:45:29.254Z",
+      "fetchedAt": "2026-09-04T06:07:57.243Z",
       "lookbackHours": 504,
       "headlines": [
         {
-          "title": "Iguazú Falls' water level rises by five times the average – video",
-          "summary": "Water levels at Iguazú Falls, on the border of Brazil and Argentina, have reached five times the average volume after heavy rains. The national park has stayed open to visitors with a safety protocol in place for their safety. The park's biologist and…",
-          "url": "https://www.theguardian.com/world/video/2026/sep/03/iguazu-falls-water-level-rises-by-five-times-the-average-video",
-          "publisher": "The Guardian",
+          "title": "Arsenal sell Martinelli to Al-Hilal in post-transfer deadline day deal",
+          "summary": "Brazil forward Gabriel Martinelli transfers to Saudi Pro League side Al-Hilal from Premier League champions Arsenal.",
+          "url": "https://www.aljazeera.com/sports/2026/9/4/arsenal-sell-martinelli-to-al-hilal-in-post-transfer-deadline-day-deal?traffic_source=rss",
+          "publisher": "Al Jazeera",
           "region": "Brazil",
-          "published": "Thu, 03 Sep 2026 12:22:11 GMT"
+          "published": "Fri, 04 Sep 2026 04:42:27 +0000"
         },
         {
-          "title": "Teacher spends nearly 10 years teaching Khmer in Vietnam's borderlands",
-          "summary": "Thach Thi Phat Ca Di, 32, has spent nearly a decade teaching Khmer in Tay Ninh Province's remote border area, where she is now one of only three teachers of the language.",
-          "url": "https://e.vnexpress.net/news/news/education/teacher-spends-nearly-10-years-teaching-khmer-in-vietnam-s-borderlands-5116012.html",
+          "title": "Samsung Vietnam reports $2.3B profit in H1",
+          "summary": "Samsung’s four factories in Vietnam reported combined profits of 3.43 trillion won (US$2.31 billion) in the first six months, representing a 23.5% increase year-on-year.",
+          "url": "https://e.vnexpress.net/news/business/companies/samsung-vietnam-reports-2-3b-profit-in-h1-5116042.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Thu, 03 Sep 2026 19:58:42 +0700"
+          "published": "Fri, 04 Sep 2026 12:09:06 +0700"
         },
         {
-          "title": "More than 800 students and teachers in Indonesia suffer food poisoning after eating government free meals",
-          "summary": "Hundreds of students fall ill in three seperate incidents in Java and Sumatra this week as criticism of president’s flagship program grows More than 800 Indonesian students and teachers have fallen ill in separate incidents of food poisoning linked to…",
-          "url": "https://www.theguardian.com/world/2026/sep/03/indonesia-food-poisoning-hundreds-students-teachers-sick-government-free-meals",
-          "publisher": "The Guardian",
+          "title": "Australian tourist robbed of $12,000 gold necklaces on Bali street",
+          "summary": "An Australian man holidaying in Bali was allegedly robbed of two gold necklaces, valued at more than AU$17,000 (US$12,255), by a passing motorcyclist.",
+          "url": "https://e.vnexpress.net/news/news/crime/australian-tourist-robbed-of-12-000-gold-necklaces-on-bali-street-5116404.html",
+          "publisher": "VnExpress International",
           "region": "Indonesia",
-          "published": "Thu, 03 Sep 2026 05:54:15 GMT"
+          "published": "Fri, 04 Sep 2026 11:27:33 +0700"
         },
         {
           "title": "Moment motorcyclist in Colombia flies through bus door in high-speed collision – video",
@@ -3610,44 +3604,44 @@
           "published": "Thu, 03 Sep 2026 08:51:51 GMT"
         },
         {
-          "title": "Nobel laureate Machado: ‘Illegitimate’ Venezuela regime has no right to strike US oil deal",
-          "summary": "Opposition leader says interim government lacking democratic mandate to negotiate on natural resources The Venezuelan opposition leader María Corina Machado has questioned Donald Trump’s oil deal with Venezuela’s interim government, saying the country’s…",
-          "url": "https://www.theguardian.com/world/2026/sep/03/venezuelan-opposition-leader-questions-us-oil-deal-with-illegitimate-regime",
+          "title": "President Javier Milei says ‘winds of change’ support Argentina’s claim to Falkland Islands",
+          "summary": "President cites Donald Trump’s suggestion that he might reconsider US support for British sovereignty, and threatens swifter sanctions on British oil interests President Javier Milei has said “winds of change favourable” to Argentina’s claim to the Falkland…",
+          "url": "https://www.theguardian.com/world/2026/sep/04/president-javier-milei-winds-of-change-support-argentina-claim-to-falkland-islands",
           "publisher": "The Guardian",
           "region": "South & Central America",
-          "published": "Thu, 03 Sep 2026 16:17:29 GMT"
+          "published": "Fri, 04 Sep 2026 05:03:33 GMT"
         },
         {
-          "title": "Somalia repels armed assault on Baidoa amid regional political tensions",
-          "summary": "Explosions and gunfire rock Baidoa as armed groups strike during South West State's political tensions.",
-          "url": "https://www.aljazeera.com/news/2026/9/3/somalia-repels-armed-assault-on-baidoa-amid-regional-political-tensions?traffic_source=rss",
-          "publisher": "Al Jazeera",
+          "title": "Tata Chemicals ordered out of Kenya by president",
+          "summary": "Kenya's President William Ruto orders India's Tata Chemicals to quit, saying it has failed to benefit the country.",
+          "url": "https://www.bbc.co.uk/news/articles/c8e3py6rx2ro?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
           "region": "East Africa",
-          "published": "Thu, 03 Sep 2026 13:40:42 +0000"
+          "published": "Fri, 04 Sep 2026 05:22:34 GMT"
         },
         {
-          "title": "Echoes of cold war as US accused of meddling in another Brazilian election",
-          "summary": "Claims that Trump and Rubio are trying to influence result have parallels with CIA intervention 64 years ago The year was 1962 and the Kennedy administration was desperate to swing Brazil’s congressional elections against its leftwing president, João Goulart…",
-          "url": "https://www.theguardian.com/world/2026/sep/01/us-trump-rubio-meddling-brazil-election",
+          "title": "Iguazú Falls' water level rises by five times the average – video",
+          "summary": "Water levels at Iguazú Falls, on the border of Brazil and Argentina, have reached five times the average volume after heavy rains. The national park has stayed open to visitors with a safety protocol in place for their safety. The park's biologist and…",
+          "url": "https://www.theguardian.com/world/video/2026/sep/03/iguazu-falls-water-level-rises-by-five-times-the-average-video",
           "publisher": "The Guardian",
           "region": "Brazil",
-          "published": "Tue, 01 Sep 2026 12:00:57 GMT"
+          "published": "Thu, 03 Sep 2026 12:22:11 GMT"
         },
         {
-          "title": "Eleven people sentenced to death in Vietnam drug trafficking case",
-          "summary": "More than 200 people are convicted over a network smuggling drugs into Vietnam in toothpaste tubes and other consumer items.",
-          "url": "https://www.bbc.co.uk/news/articles/cqjk4lwddz0o?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
+          "title": "Hanoi launches real-time flood map with instant alerts",
+          "summary": "The Hanoi Department of Science and Technology has launched and put into operation a mini app called \"Ban do mua ngap\" (Rainfall and Flooding Map) on the iHanoi digital citizen application.",
+          "url": "https://e.vnexpress.net/news/news/environment/hanoi-launches-real-time-flood-map-with-instant-alerts-5116412.html",
+          "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Thu, 03 Sep 2026 11:58:00 GMT"
+          "published": "Fri, 04 Sep 2026 11:00:46 +0700"
         },
         {
-          "title": "The Extractor review – Indonesian hostage-rescue thriller has surprising thread of gentleness at its core",
-          "summary": "Iko Uwais directs and acts in the story of a band of elite soldiers who must rescue a group of researchers taken captive in the jungle Can an elite team of soldiers rescue a band of innocent hostages from a bunch of mean old terrorists? Yes, probably, since…",
-          "url": "https://www.theguardian.com/film/2026/sep/01/the-extractor-review-sentimental-thread-brings-gentleness-indonesian-action-thriller",
-          "publisher": "The Guardian",
+          "title": "Around 2,000 fall ill in Indonesia after eating free school meals",
+          "summary": "Authorities are investigating several suspected outbreaks amid growing criticism of the scheme.",
+          "url": "https://www.bbc.co.uk/news/articles/cx2z7lz7777o?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
           "region": "Indonesia",
-          "published": "Tue, 01 Sep 2026 08:00:48 GMT"
+          "published": "Thu, 03 Sep 2026 15:48:06 GMT"
         },
         {
           "title": "Was it a mistake for 99 Colombian guerrillas to lay down their arms?",
@@ -3658,46 +3652,46 @@
           "published": "Sat, 29 Aug 2026 10:00:24 GMT"
         },
         {
-          "title": "Panama Canal restricts traffic amid Hormuz crisis: Why this matters",
-          "summary": "Limits on the number of vessels in the canal could create shipping delays and increase freight costs.",
-          "url": "https://www.aljazeera.com/news/2026/9/3/panama-canal-restricts-traffic-amid-hormuz-crisis-why-this-matters?traffic_source=rss",
+          "title": "Argentina’s Milei threatens sanctions over Falklands oil drilling",
+          "summary": "Argentina’s President Javier Milei has threatened sanctions against oil companies operating off the Falklands.",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/4/argentinas-milei-threatens-sanctions-over-falklands-oil-drilling?traffic_source=rss",
           "publisher": "Al Jazeera",
           "region": "South & Central America",
-          "published": "Thu, 03 Sep 2026 15:35:57 +0000"
+          "published": "Fri, 04 Sep 2026 04:45:21 +0000"
         },
         {
-          "title": "Kenyan president orders crackdown on foreigners operating small businesses",
-          "summary": "It comes amid concerns over the growing number of traders from neighbouring countries.",
-          "url": "https://www.bbc.co.uk/news/articles/c9861x5pzgxo?at_medium=RSS&amp;at_campaign=rss",
+          "title": "Kenya's chai tea lovers are not happy as the nation's cows run dry",
+          "summary": "Supermarket shelves are emptying, sellers are rationing supplies and prices are rising.",
+          "url": "https://www.bbc.co.uk/news/articles/cgqd9ldegjqo?at_medium=RSS&amp;at_campaign=rss",
           "publisher": "BBC News",
           "region": "East Africa",
-          "published": "Thu, 03 Sep 2026 10:59:14 GMT"
+          "published": "Fri, 04 Sep 2026 00:28:56 GMT"
         },
         {
-          "title": "Performance and belonging: Rio de Janeiro’s ballroom scene – photo essay",
-          "summary": "A look at the ballroom scene across Maré, Lapa, Gamboa and the city centre. The photographer Juliana Bizzo has documented a movement born from Black and Latinx LGBTQ+ communities in the US that has more recently evolved in Rio, growing from the city’s first…",
-          "url": "https://www.theguardian.com/world/2026/aug/31/performance-and-belonging-rio-de-janeiro-ballroom-scene-photo-essay",
+          "title": "Echoes of cold war as US accused of meddling in another Brazilian election",
+          "summary": "Claims that Trump and Rubio are trying to influence result have parallels with CIA intervention 64 years ago The year was 1962 and the Kennedy administration was desperate to swing Brazil’s congressional elections against its leftwing president, João Goulart…",
+          "url": "https://www.theguardian.com/world/2026/sep/01/us-trump-rubio-meddling-brazil-election",
           "publisher": "The Guardian",
           "region": "Brazil",
-          "published": "Mon, 31 Aug 2026 06:00:17 GMT"
+          "published": "Tue, 01 Sep 2026 12:00:57 GMT"
         },
         {
-          "title": "Vietnam sentences 11 to death in $1.1B drug case involving 4 flight attendants",
-          "summary": "A Ho Chi Minh City court sentenced 11 people to death and 19 to life in one of Vietnam's largest drug cases, with the alleged ringleader convicted in absentia.",
-          "url": "https://e.vnexpress.net/news/news/crime/vietnam-sentences-11-to-death-in-1-1b-drug-case-involving-4-flight-attendants-5116200.html",
+          "title": "World's biggest F&B chain Mixue closes 89 overseas stores, many in Vietnam, Indonesia",
+          "summary": "Mixue, the world's largest food and beverage chain, saw its overseas store count decline by 89 in 2026's first half, including many in Vietnam and Indonesia, while its net profit fell 15% year-on-year.",
+          "url": "https://e.vnexpress.net/news/business/companies/world-s-biggest-f-b-chain-mixue-closes-89-overseas-stores-many-in-vietnam-indonesia-5116111.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Thu, 03 Sep 2026 16:21:28 +0700"
+          "published": "Fri, 04 Sep 2026 06:37:51 +0700"
         }
       ],
-      "totalTagged": 105,
+      "totalTagged": 103,
       "feedsQueried": 14,
       "errors": [],
       "note": "General headlines from the growing regions, taken from outlets of record and tagged to a region by the countries and cities they name."
     },
     "roundup": {
       "source": "assembled",
-      "fetchedAt": "2026-09-03T18:45:28.810Z",
+      "fetchedAt": "2026-09-04T06:07:56.315Z",
       "windowDays": 7,
       "publishers": [
         "Daily Coffee News",
@@ -3810,7 +3804,7 @@
       "note": "Assembled from the coffee trade press over the past seven days, ranked by relevance to the physical trade. Headlines and links are each publisher’s own."
     },
     "dailyRead": {
-      "fetchedAt": "2026-09-03T18:45:27.116Z",
+      "fetchedAt": "2026-09-04T06:07:54.785Z",
       "article": {
         "title": "Ecuador’s Deforestation-Free Coffee Model Moves Beyond the Pilot Stage",
         "summary": "Since 2019, nearly 400 coffee producers in the Ecuadorian Amazon have adopted a deforestation-free production model that combines traceability, geospatial monitoring, and certification. In 2025 alone, the initiative exported as...",
@@ -4138,37 +4132,37 @@
     {
       "source": "daily-read",
       "ok": true,
-      "ms": 257
+      "ms": 421
     },
     {
       "source": "arabica-futures",
       "ok": true,
-      "ms": 574
+      "ms": 676
     },
     {
       "source": "weather",
       "ok": true,
-      "ms": 1084
-    },
-    {
-      "source": "fx",
-      "ok": true,
-      "ms": 1840
+      "ms": 1439
     },
     {
       "source": "ico-report",
       "ok": true,
-      "ms": 1891
+      "ms": 1581
     },
     {
       "source": "weekly-recap",
       "ok": true,
-      "ms": 1955
+      "ms": 1952
+    },
+    {
+      "source": "fx",
+      "ok": true,
+      "ms": 2555
     },
     {
       "source": "origin-wire",
       "ok": true,
-      "ms": 2403
+      "ms": 2883
     }
   ]
 }

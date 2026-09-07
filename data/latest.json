@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T06:08:27.398Z",
+  "generatedAt": "2026-09-07T18:45:58.713Z",
   "schema": 5,
   "schedule": {
     "slotsUtc": [
@@ -2726,22 +2726,18 @@
     }
   },
   "fx": {
-    "asOf": "2026-09-04",
+    "asOf": "2026-09-07",
     "pairs": {
       "GBPUSD": {
         "pair": "GBP/USD",
-        "rate": 1.353,
-        "previous": 1.3497,
+        "rate": 1.3531,
+        "previous": 1.353,
         "dp": 4,
         "note": "Sterling stronger means a dollar-priced contract costs a UK buyer less.",
-        "change": 0.0033,
-        "changePct": 0.244,
-        "change1m": 0.47,
+        "change": 0.0001,
+        "changePct": 0.007,
+        "change1m": 0.6,
         "history": [
-          {
-            "date": "2026-06-15",
-            "rate": 1.3421
-          },
           {
             "date": "2026-06-16",
             "rate": 1.3408
@@ -2977,23 +2973,23 @@
           {
             "date": "2026-09-04",
             "rate": 1.353
+          },
+          {
+            "date": "2026-09-07",
+            "rate": 1.3531
           }
         ]
       },
       "USDBRL": {
         "pair": "USD/BRL",
-        "rate": 5.1114,
-        "previous": 5.074,
+        "rate": 5.1261,
+        "previous": 5.1114,
         "dp": 4,
         "note": "A weaker real encourages Brazilian producer selling.",
-        "change": 0.0374,
-        "changePct": 0.737,
-        "change1m": -0.24,
+        "change": 0.0147,
+        "changePct": 0.288,
+        "change1m": 0.52,
         "history": [
-          {
-            "date": "2026-06-15",
-            "rate": 5.0498
-          },
           {
             "date": "2026-06-16",
             "rate": 5.0603
@@ -3229,6 +3225,10 @@
           {
             "date": "2026-09-04",
             "rate": 5.1114
+          },
+          {
+            "date": "2026-09-07",
+            "rate": 5.1261
           }
         ]
       }
@@ -3252,7 +3252,7 @@
     ]
   },
   "weather": {
-    "fetchedAt": "2026-09-07T06:08:24.665Z",
+    "fetchedAt": "2026-09-07T18:45:55.464Z",
     "thresholds": {
       "frostC": 4,
       "heavyRainMm": 50,
@@ -3279,17 +3279,17 @@
         "current": {
           "date": "2026-09-06",
           "tMax": 23.1,
-          "tMin": 13.6,
-          "rain": 25.2,
+          "tMin": 14.3,
+          "rain": 25.1,
           "code": 95,
           "cloud": 97,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 62.1,
-        "rainForecast7": 41.7,
-        "minForecast7": 12.6,
+        "rain14": 62,
+        "rainForecast7": 38.7,
+        "minForecast7": 13,
         "alerts": []
       },
       {
@@ -3305,14 +3305,14 @@
           "tMin": 17.2,
           "rain": 3.9,
           "code": 55,
-          "cloud": 79,
+          "cloud": 78,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 51.5,
         "rainForecast7": 40.4,
-        "minForecast7": 17.2,
+        "minForecast7": 17.4,
         "alerts": []
       },
       {
@@ -3325,17 +3325,17 @@
         "current": {
           "date": "2026-09-06",
           "tMax": 25.6,
-          "tMin": 20.8,
-          "rain": 7.1,
+          "tMin": 21.2,
+          "rain": 7.2,
           "code": 80,
-          "cloud": 95,
+          "cloud": 93,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 37.3,
-        "rainForecast7": 14.2,
-        "minForecast7": 19.2,
+        "rain14": 37.4,
+        "rainForecast7": 29.3,
+        "minForecast7": 18.8,
         "alerts": []
       },
       {
@@ -3356,14 +3356,14 @@
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 181.6,
-        "rainForecast7": 150,
-        "minForecast7": 21.8,
+        "rain14": 177.3,
+        "rainForecast7": 119,
+        "minForecast7": 21.7,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "150 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "119 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3385,14 +3385,14 @@
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 196.3,
-        "rainForecast7": 90.4,
-        "minForecast7": 20.3,
+        "rain14": 184,
+        "rainForecast7": 108.6,
+        "minForecast7": 19.6,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "90 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "109 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3415,8 +3415,8 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 55.8,
-        "rainForecast7": 16.6,
-        "minForecast7": 16,
+        "rainForecast7": 16.1,
+        "minForecast7": 15.6,
         "alerts": []
       },
       {
@@ -3432,14 +3432,14 @@
           "tMin": 15.5,
           "rain": 0,
           "code": 3,
-          "cloud": 97,
+          "cloud": 95,
           "observed": true
         },
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
         "rain14": 19.7,
-        "rainForecast7": 15.2,
-        "minForecast7": 16,
+        "rainForecast7": 13.1,
+        "minForecast7": 15.1,
         "alerts": []
       },
       {
@@ -3460,9 +3460,9 @@
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 27.4,
-        "rainForecast7": 43.5,
-        "minForecast7": 15.7,
+        "rain14": 25.2,
+        "rainForecast7": 40.7,
+        "minForecast7": 15.1,
         "alerts": []
       },
       {
@@ -3483,9 +3483,9 @@
         },
         "condition": "dry",
         "conditionLabel": "Clear / dry",
-        "rain14": 29.4,
-        "rainForecast7": 6,
-        "minForecast7": 23.6,
+        "rain14": 27.5,
+        "rainForecast7": 33.6,
+        "minForecast7": 23.7,
         "alerts": []
       },
       {
@@ -3507,8 +3507,8 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 39.8,
-        "rainForecast7": 27.6,
-        "minForecast7": 12.4,
+        "rainForecast7": 28,
+        "minForecast7": 12.5,
         "alerts": []
       },
       {
@@ -3524,14 +3524,14 @@
           "tMin": 16,
           "rain": 0.3,
           "code": 51,
-          "cloud": 84,
+          "cloud": 88,
           "observed": true
         },
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
         "rain14": 38.5,
-        "rainForecast7": 22.3,
-        "minForecast7": 16.7,
+        "rainForecast7": 24.2,
+        "minForecast7": 16.5,
         "alerts": []
       },
       {
@@ -3545,21 +3545,21 @@
           "date": "2026-09-06",
           "tMax": 29.8,
           "tMin": 18.7,
-          "rain": 6.8,
+          "rain": 6.6,
           "code": 80,
-          "cloud": 36,
+          "cloud": 34,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 46.6,
-        "rainForecast7": 52.7,
-        "minForecast7": 18.1,
+        "rain14": 46.4,
+        "rainForecast7": 57.1,
+        "minForecast7": 18,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "53 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "57 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       }
@@ -3574,7 +3574,7 @@
   },
   "news": {
     "originWire": {
-      "fetchedAt": "2026-09-07T06:08:26.603Z",
+      "fetchedAt": "2026-09-07T18:45:58.643Z",
       "lookbackHours": 504,
       "headlines": [
         {
@@ -3586,20 +3586,20 @@
           "published": "Sat, 05 Sep 2026 10:00:34 GMT"
         },
         {
-          "title": "Gold price decline",
-          "summary": "Vietnam gold prices slipped Monday morning amid a drop in global bullion rates.",
-          "url": "https://e.vnexpress.net/news/business/markets/gold-price-decline-5117370.html",
+          "title": "4 doctor passengers, nurse deliver premature baby on Vietnam flight from Denmark",
+          "summary": "Three Vietnamese doctors, a foreign doctor and a foreign nurse happened to be on the same flight from Denmark to Ho Chi Minh City and joined hands to deliver a baby prematurely after a pregnant passenger went into labor.",
+          "url": "https://e.vnexpress.net/news/news/4-doctor-passengers-nurse-deliver-premature-baby-on-vietnam-flight-from-denmark-5117504.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Mon, 07 Sep 2026 11:35:49 +0700"
+          "published": "Mon, 07 Sep 2026 16:05:18 +0700"
         },
         {
-          "title": "Indonesia volcano eruption leaves 270,000 stranded as airports extend closure",
-          "summary": "Anak Krakatau, which lies about 150km from the capital Jakarta, began erupting late on Friday.",
+          "title": "Indonesia volcano eruption leaves 340,000 stranded as airports extend closure",
+          "summary": "Anak Krakatau, which lies about 150km from capital Jakarta, began spewing lava and volvanic ash late on Friday.",
           "url": "https://www.bbc.co.uk/news/articles/czezydp4l97o?at_medium=RSS&amp;at_campaign=rss",
           "publisher": "BBC News",
           "region": "Indonesia",
-          "published": "Mon, 07 Sep 2026 05:20:39 GMT"
+          "published": "Mon, 07 Sep 2026 15:40:47 GMT"
         },
         {
           "title": "Drone attack blamed on guerrillas kills at least three soldiers in Colombia",
@@ -3610,20 +3610,20 @@
           "published": "Sat, 05 Sep 2026 22:16:55 GMT"
         },
         {
-          "title": "Ten killed and dozens injured in Mexico fireworks blast",
-          "summary": "Ten people were killed after a fireworks display detonated during a religious festival in Mexico, injuring dozens more.",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/7/ten-killed-and-dozens-injured-in-mexico-fireworks-blast?traffic_source=rss",
+          "title": "Bolivian blast death toll rises to 7, rescuers search for missing soldiers",
+          "summary": "President Rodrigo Paz declares national mourning, urges unity after deadly military base explosions near La Paz.",
+          "url": "https://www.aljazeera.com/news/2026/9/7/bolivian-military-base-blast-leaves-seven-dead-seven-missing?traffic_source=rss",
           "publisher": "Al Jazeera",
           "region": "South & Central America",
-          "published": "Mon, 07 Sep 2026 04:56:51 +0000"
+          "published": "Mon, 07 Sep 2026 17:31:04 +0000"
         },
         {
-          "title": "Why is Kenya cracking down on foreign traders and small retailers?",
-          "summary": "President Ruto says small businesses should be reserved for Kenyans as his government moves against foreign traders.",
-          "url": "https://www.aljazeera.com/news/2026/9/7/why-is-kenya-cracking-down-on-foreign-traders-and-small-retailers?traffic_source=rss",
-          "publisher": "Al Jazeera",
+          "title": "Tanzanian President Samia's husband dies in hospital",
+          "summary": "Hafidh Ameir Hassan kept a low profile and was rarely seen in public with the president.",
+          "url": "https://www.bbc.co.uk/news/articles/cgqd774wzpdo?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
           "region": "East Africa",
-          "published": "Mon, 07 Sep 2026 01:08:55 +0000"
+          "published": "Mon, 07 Sep 2026 16:23:02 GMT"
         },
         {
           "title": "Iguazú Falls' water level rises by five times the average – video",
@@ -3634,20 +3634,20 @@
           "published": "Thu, 03 Sep 2026 12:22:11 GMT"
         },
         {
-          "title": "Dollar dips against dong",
-          "summary": "The U.S. dollar edged lower against the Vietnamese dong Monday morning while easing against major currencies.",
-          "url": "https://e.vnexpress.net/news/business/markets/dollar-dips-against-dong-5117377.html",
+          "title": "2 South Koreans jailed for beating compatriot restaurant owner to death in Ho Chi Minh City",
+          "summary": "Two South Korean men have been jailed for beating a compatriot to death at a restaurant in Ho Chi Minh City after going there in response to a message that their friends had gotten into trouble.",
+          "url": "https://e.vnexpress.net/news/news/crime/2-south-koreans-jailed-for-beating-compatriot-restaurant-owner-to-death-in-ho-chi-minh-city-5117444.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Mon, 07 Sep 2026 11:34:15 +0700"
+          "published": "Mon, 07 Sep 2026 15:13:00 +0700"
         },
         {
-          "title": "Indonesia shuts airports as volcano erupts",
-          "summary": "Ash and smoke plumes force cancellations and delays affecting more than 170,000 passengers",
-          "url": "https://www.ft.com/content/64acb80a-b577-44cd-87c4-2ec979b76fff?syn-25a6b1a6=1",
-          "publisher": "Financial Times",
+          "title": "Volcanic eruption in Indonesia causes widespread travel disruption – video",
+          "summary": "The Anak Krakatau volcano erupted over the weekend, with experts warning of a high probability of further eruptions. The ash spewed by the volcano forced the closure of schools and seven airports, disrupting the flights of an estimated 170,000 passengers…",
+          "url": "https://www.theguardian.com/world/video/2026/sep/07/volcanic-eruption-indonesia-travel-disruption-video",
+          "publisher": "The Guardian",
           "region": "Indonesia",
-          "published": "Mon, 07 Sep 2026 02:55:23 GMT"
+          "published": "Mon, 07 Sep 2026 14:10:54 GMT"
         },
         {
           "title": "Colombia president provokes disgust by posing with bodies of ‘terrorists’",
@@ -3658,20 +3658,20 @@
           "published": "Fri, 04 Sep 2026 13:50:43 GMT"
         },
         {
-          "title": "Venezuela-US oil deal risks violating local law, say experts",
-          "summary": "Contentious agreement may conflict with Venezuelan constitution, according to a leading opposition politician and analysts",
-          "url": "https://www.ft.com/content/85960069-75fb-4997-9ff7-9b641ec997cd?syn-25a6b1a6=1",
-          "publisher": "Financial Times",
+          "title": "Alleged killers of Australian surfers and American friend go on trial in Mexico",
+          "summary": "Three men on trial for killing Jake and Callum Robinson and Jack Carter Rhoad in Baja California in 2024 The alleged killers of two Australian surfers and an American at a Mexican surfing hotspot in 2024 have gone on trial in the border resort where the three…",
+          "url": "https://www.theguardian.com/world/2026/sep/07/alleged-killers-of-australian-surfers-and-american-friend-go-on-trial-in-mexico",
+          "publisher": "The Guardian",
           "region": "South & Central America",
-          "published": "Mon, 07 Sep 2026 04:00:19 GMT"
+          "published": "Mon, 07 Sep 2026 17:29:20 GMT"
         },
         {
-          "title": "Kenya's Sichenje out for season with knee injury",
-          "summary": "Charlton Athletic defender Collins Sichenje is set to miss the remainder of the 2026-27 season with a knee injury.",
-          "url": "https://www.bbc.co.uk/sport/football/articles/cvgy7zkzj8go?at_medium=RSS&amp;at_campaign=rss",
+          "title": "Burundians rush to leave Kenya ahead of crackdown on unregistered traders",
+          "summary": "Kenya is due to start enforcing measures to restrict foreign nationals from operating small-scale businesses.",
+          "url": "https://www.bbc.co.uk/news/articles/c158wwl22xko?at_medium=RSS&amp;at_campaign=rss",
           "publisher": "BBC News",
           "region": "East Africa",
-          "published": "Fri, 04 Sep 2026 13:55:36 GMT"
+          "published": "Mon, 07 Sep 2026 14:57:16 GMT"
         },
         {
           "title": "Echoes of cold war as US accused of meddling in another Brazilian election",
@@ -3682,12 +3682,12 @@
           "published": "Tue, 01 Sep 2026 12:00:57 GMT"
         },
         {
-          "title": "Vietnam top leader departs for visits to Russia, France, attendance at Int'l Space Summit",
-          "summary": "Vietnam's Party General Secretary and President To Lam, his spouse Ngo Phuong Ly and a high-ranking Vietnamese delegation left Hanoi on Sept. 7 for a state visit to Russia, an official visit to France and attendance at the International Space Summit in Paris…",
-          "url": "https://e.vnexpress.net/news/news/politics/vietnam-top-leader-departs-for-visits-to-russia-france-attendance-at-int-l-space-summit-5117330.html",
+          "title": "CEO of Vietnam International Financial Center in HCMC could get $32,000 monthly salary",
+          "summary": "The CEO of the Vietnam International Financial Center in Ho Chi Minh City could receive a salary of VND450-850 million (US$17,000-32,000) per month under a proposed remuneration scheme by the city.",
+          "url": "https://e.vnexpress.net/news/news/ceo-of-vietnam-international-financial-center-in-hcmc-could-get-32-000-monthly-salary-5117382.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Mon, 07 Sep 2026 10:38:24 +0700"
+          "published": "Mon, 07 Sep 2026 14:16:47 +0700"
         }
       ],
       "totalTagged": 111,
@@ -3697,15 +3697,61 @@
     },
     "roundup": {
       "source": "assembled",
-      "fetchedAt": "2026-09-07T06:08:26.279Z",
+      "fetchedAt": "2026-09-07T18:45:57.591Z",
       "windowDays": 7,
       "publishers": [
         "Daily Coffee News",
         "Fresh Cup",
+        "Specialty Coffee Association",
         "Sprudge",
         "World Coffee Portal"
       ],
       "items": [
+        {
+          "headline": "Multi-Michelin-starred chef launches luxury croissant café in London",
+          "summary": "Yannick Alléno’s latest venture has opened at the Pavyllon London restaurant",
+          "url": "https://www.worldcoffeeportal.com/news/multi-michelin-starred-chef-launches-luxury-croissant-cafe-in-london/",
+          "publisher": "World Coffee Portal",
+          "published": "Mon, 07 Sep 2026 15:47:11 GMT",
+          "date": "Mon, 7 Sep",
+          "section": "Top stories of the week"
+        },
+        {
+          "headline": "From Origin to Cup: Specialty Coffees Deserve the Right Water",
+          "summary": "World of Coffee is taking place in Latin America for the first time. As the 2026–2027 WBC Qualified Water Filtration Sponsor, BWT water+more, the water optimisation specialist for coffee preparation and the food service industry, will provide the water for…",
+          "url": "https://sca.coffee/sca-news/specialty-coffees-deserve-the-right-water",
+          "publisher": "Specialty Coffee Association",
+          "published": "Mon, 07 Sep 2026 13:54:19 +0000",
+          "date": "Mon, 7 Sep",
+          "section": "Top stories of the week"
+        },
+        {
+          "headline": "Coffee Type Might Affect Rate of Biological Aging in Humans, Study Finds",
+          "summary": "Like the drip coffee flowing through a filter basket or the scoop of soluble coffee granules into a hot mug, biological aging is simply part of daily life. New research...",
+          "url": "https://dailycoffeenews.com/2026/09/07/coffee-type-might-affect-rate-of-biological-aging-in-humans-study-finds/",
+          "publisher": "Daily Coffee News",
+          "published": "Mon, 07 Sep 2026 12:44:09 +0000",
+          "date": "Mon, 7 Sep",
+          "section": "Top stories of the week"
+        },
+        {
+          "headline": "Puerto Rican Coffee Climbs the Hill at Seattle’s El Cerro",
+          "summary": "Flavors from the high hills of Puerto Rico have arrived at Seattle’s Capitol Hill, where the El Cerro cafe opened in July. A green mountain mural wraps the cafe, interspersed...",
+          "url": "https://dailycoffeenews.com/2026/09/07/puerto-rican-coffee-climbs-the-hill-at-seattles-el-cerro/",
+          "publisher": "Daily Coffee News",
+          "published": "Mon, 07 Sep 2026 12:42:42 +0000",
+          "date": "Mon, 7 Sep",
+          "section": "Top stories of the week"
+        },
+        {
+          "headline": "The Week in Coffee, 31 August – 6 September 2026",
+          "summary": "Your weekly round-up of the five biggest stories from across the global coffee industry...",
+          "url": "https://www.worldcoffeeportal.com/news/the-week-in-coffee-31-august-6-september-2026/",
+          "publisher": "World Coffee Portal",
+          "published": "Mon, 07 Sep 2026 11:42:44 GMT",
+          "date": "Mon, 7 Sep",
+          "section": "Roasting & retail"
+        },
         {
           "headline": "Le Gusta La Cafeína, Dame Más Cafeína",
           "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. A weekly curated selection of coffees from the Sprudge Roaster's Village.",
@@ -3713,7 +3759,7 @@
           "publisher": "Sprudge",
           "published": "Sun, 06 Sep 2026 12:00:04 +0000",
           "date": "Sun, 6 Sep",
-          "section": "Top stories of the week"
+          "section": "Roasting & retail"
         },
         {
           "headline": "The hidden £3.60 opportunity: UK workplace coffee is worth more than many suppliers imagine",
@@ -3722,7 +3768,7 @@
           "publisher": "World Coffee Portal",
           "published": "Fri, 04 Sep 2026 14:49:10 GMT",
           "date": "Fri, 4 Sep",
-          "section": "Top stories of the week"
+          "section": "Roasting & retail"
         },
         {
           "headline": "Build-Outs Of Coffee: Variety Coffee Roasters In Brooklyn, NY",
@@ -3731,7 +3777,7 @@
           "publisher": "Sprudge",
           "published": "Fri, 04 Sep 2026 14:00:09 +0000",
           "date": "Fri, 4 Sep",
-          "section": "Top stories of the week"
+          "section": "Roasting & retail"
         },
         {
           "headline": "Pittsburgh’s La Prima Espresso Gets Second Wind in Expanded Roastery",
@@ -3743,57 +3789,12 @@
           "section": "Roasting & retail"
         },
         {
-          "headline": "Coffee People Zine Back in Print, Plans Minneapolis Party",
-          "summary": "After a hiatus of more than a year, the independent journal Coffee People Zine is back in print, with a launch party planned for Sunday, Sept. 20, in Minneapolis. The...",
-          "url": "https://dailycoffeenews.com/2026/09/04/coffee-people-zine-back-in-print-plans-minneapolis-party/",
-          "publisher": "Daily Coffee News",
-          "published": "Fri, 04 Sep 2026 12:37:35 +0000",
-          "date": "Fri, 4 Sep",
-          "section": "Roasting & retail"
-        },
-        {
-          "headline": "Coffee’s Impact On Parkinson’s Disease May Depend On Your Genetics",
-          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. How our bodies process caffeine may play a large part.",
-          "url": "https://sprudge.com/coffees-impact-on-parkinsons-disease-may-depend-on-your-genetics-1308716.html",
-          "publisher": "Sprudge",
-          "published": "Fri, 04 Sep 2026 12:00:09 +0000",
-          "date": "Fri, 4 Sep",
-          "section": "Roasting & retail"
-        },
-        {
-          "headline": "ProfilePrint: Using Molecular Fingerprinting Technology in Coffee Sampling and Cupping",
-          "summary": "ProfilePrint’s coffee quality assessment tools use molecular fingerprinting technology to instantly predict SCA scores, flavor profiles, moisture levels, and more. The post ProfilePrint: Using Molecular Fingerprinting Technology in Coffee Sampling and Cupping…",
-          "url": "https://freshcup.com/profileprint-using-molecular-fingerprinting-technology-in-coffee-sampling-and-cupping/",
-          "publisher": "Fresh Cup",
-          "published": "Fri, 04 Sep 2026 11:00:00 +0000",
-          "date": "Fri, 4 Sep",
-          "section": "Roasting & retail"
-        },
-        {
-          "headline": "Walmart to take on US delivery giants with new Dunkin’ deal",
-          "summary": "The US supermarket giant is expanding its existing delivery app to cover prepared food and beverages, with plans to scale nationwide",
-          "url": "https://www.worldcoffeeportal.com/news/walmart-to-take-on-us-beverage-delivery-giants-with-new-dunkin-deal/",
-          "publisher": "World Coffee Portal",
-          "published": "Fri, 04 Sep 2026 08:59:43 GMT",
-          "date": "Fri, 4 Sep",
-          "section": "Roasting & retail"
-        },
-        {
           "headline": "Ecuador’s Deforestation-Free Coffee Model Moves Beyond the Pilot Stage",
           "summary": "Since 2019, nearly 400 coffee producers in the Ecuadorian Amazon have adopted a deforestation-free production model that combines traceability, geospatial monitoring, and certification. In 2025 alone, the initiative exported as...",
           "url": "https://dailycoffeenews.com/2026/09/03/ecuadors-deforestation-free-coffee-model-moves-beyond-the-pilot-stage/",
           "publisher": "Daily Coffee News",
           "published": "Thu, 03 Sep 2026 15:23:23 +0000",
           "date": "Thu, 3 Sep",
-          "section": "Top stories of the week"
-        },
-        {
-          "headline": "April Coffee Springs a Manual Grinder Into Production",
-          "summary": "Danish specialty coffee roasting company April Coffee is launching a manual coffee grinder of its own design called the April Hand Grinder 01. Produced in partnership with Chinese home coffee...",
-          "url": "https://dailycoffeenews.com/2026/09/01/april-coffee-springs-a-manual-grinder-into-production/",
-          "publisher": "Daily Coffee News",
-          "published": "Tue, 01 Sep 2026 14:21:06 +0000",
-          "date": "Tue, 1 Sep",
           "section": "Top stories of the week"
         },
         {
@@ -3810,7 +3811,7 @@
       "note": "Assembled from the coffee trade press over the past seven days, ranked by relevance to the physical trade. Headlines and links are each publisher’s own."
     },
     "dailyRead": {
-      "fetchedAt": "2026-09-07T06:08:24.384Z",
+      "fetchedAt": "2026-09-07T18:45:55.376Z",
       "article": {
         "title": "Ecuador’s Deforestation-Free Coffee Model Moves Beyond the Pilot Stage",
         "summary": "Since 2019, nearly 400 coffee producers in the Ecuadorian Amazon have adopted a deforestation-free production model that combines traceability, geospatial monitoring, and certification. In 2025 alone, the initiative exported as...",
@@ -4138,37 +4139,37 @@
     {
       "source": "daily-read",
       "ok": true,
-      "ms": 429
+      "ms": 510
     },
     {
       "source": "weather",
       "ok": true,
-      "ms": 716
+      "ms": 607
     },
     {
       "source": "arabica-futures",
       "ok": true,
-      "ms": 1043
+      "ms": 799
     },
     {
       "source": "ico-report",
       "ok": true,
-      "ms": 2300
+      "ms": 1195
     },
     {
       "source": "weekly-recap",
       "ok": true,
-      "ms": 2326
+      "ms": 2729
     },
     {
       "source": "origin-wire",
       "ok": true,
-      "ms": 2654
+      "ms": 3784
     },
     {
       "source": "fx",
       "ok": true,
-      "ms": 3449
+      "ms": 3854
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T18:45:58.713Z",
+  "generatedAt": "2026-09-08T06:08:09.325Z",
   "schema": 5,
   "schedule": {
     "slotsUtc": [
@@ -3252,7 +3252,7 @@
     ]
   },
   "weather": {
-    "fetchedAt": "2026-09-07T18:45:55.464Z",
+    "fetchedAt": "2026-09-08T06:08:06.411Z",
     "thresholds": {
       "frostC": 4,
       "heavyRainMm": 50,
@@ -3277,20 +3277,26 @@
         "lat": -21.55,
         "lon": -45.43,
         "current": {
-          "date": "2026-09-06",
-          "tMax": 23.1,
-          "tMin": 14.3,
-          "rain": 25.1,
-          "code": 95,
-          "cloud": 97,
+          "date": "2026-09-07",
+          "tMax": 19.1,
+          "tMin": 13,
+          "rain": 0.5,
+          "code": 51,
+          "cloud": 98,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 62,
-        "rainForecast7": 38.7,
-        "minForecast7": 13,
-        "alerts": []
+        "rain14": 62.4,
+        "rainForecast7": 97.6,
+        "minForecast7": 13.6,
+        "alerts": [
+          {
+            "type": "wet",
+            "severity": "watch",
+            "text": "98 mm forecast over 7 days — harvest/drying disruption risk."
+          }
+        ]
       },
       {
         "key": "cerrado",
@@ -3300,19 +3306,19 @@
         "lat": -18.94,
         "lon": -46.99,
         "current": {
-          "date": "2026-09-06",
-          "tMax": 24.7,
-          "tMin": 17.2,
-          "rain": 3.9,
-          "code": 55,
-          "cloud": 78,
+          "date": "2026-09-07",
+          "tMax": 24.6,
+          "tMin": 18.1,
+          "rain": 32.4,
+          "code": 82,
+          "cloud": 89,
           "observed": true
         },
-        "condition": "wet",
-        "conditionLabel": "Wet",
-        "rain14": 51.5,
-        "rainForecast7": 40.4,
-        "minForecast7": 17.4,
+        "condition": "very-wet",
+        "conditionLabel": "Very wet",
+        "rain14": 83.9,
+        "rainForecast7": 40.1,
+        "minForecast7": 16.4,
         "alerts": []
       },
       {
@@ -3323,19 +3329,19 @@
         "lat": -19.39,
         "lon": -40.07,
         "current": {
-          "date": "2026-09-06",
-          "tMax": 25.6,
-          "tMin": 21.2,
-          "rain": 7.2,
-          "code": 80,
-          "cloud": 93,
+          "date": "2026-09-07",
+          "tMax": 20.9,
+          "tMin": 18.6,
+          "rain": 4,
+          "code": 53,
+          "cloud": 100,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 37.4,
-        "rainForecast7": 29.3,
-        "minForecast7": 18.8,
+        "rain14": 39.8,
+        "rainForecast7": 13.6,
+        "minForecast7": 18.2,
         "alerts": []
       },
       {
@@ -3346,24 +3352,24 @@
         "lat": 12.68,
         "lon": 108.05,
         "current": {
-          "date": "2026-09-06",
-          "tMax": 29.8,
-          "tMin": 22.3,
-          "rain": 8.8,
+          "date": "2026-09-07",
+          "tMax": 29.3,
+          "tMin": 22.8,
+          "rain": 6.7,
           "code": 80,
-          "cloud": 88,
+          "cloud": 85,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 177.3,
-        "rainForecast7": 119,
-        "minForecast7": 21.7,
+        "rain14": 184,
+        "rainForecast7": 127.5,
+        "minForecast7": 21.2,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "119 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "128 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3375,19 +3381,19 @@
         "lat": 11.55,
         "lon": 107.81,
         "current": {
-          "date": "2026-09-06",
-          "tMax": 26.1,
-          "tMin": 20.8,
-          "rain": 5.2,
+          "date": "2026-09-07",
+          "tMax": 26.4,
+          "tMin": 20.7,
+          "rain": 5.4,
           "code": 53,
-          "cloud": 88,
+          "cloud": 86,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 184,
-        "rainForecast7": 108.6,
-        "minForecast7": 19.6,
+        "rain14": 189.4,
+        "rainForecast7": 108.7,
+        "minForecast7": 20,
         "alerts": [
           {
             "type": "wet",
@@ -3404,19 +3410,19 @@
         "lat": 1.85,
         "lon": -76.05,
         "current": {
-          "date": "2026-09-06",
-          "tMax": 28.3,
-          "tMin": 16.6,
-          "rain": 1.1,
+          "date": "2026-09-07",
+          "tMax": 26.3,
+          "tMin": 16.1,
+          "rain": 1.2,
           "code": 51,
-          "cloud": 90,
+          "cloud": 89,
           "observed": true
         },
-        "condition": "wet",
-        "conditionLabel": "Wet",
-        "rain14": 55.8,
-        "rainForecast7": 16.1,
-        "minForecast7": 15.6,
+        "condition": "cloudy",
+        "conditionLabel": "Cloudy",
+        "rain14": 55.7,
+        "rainForecast7": 28.9,
+        "minForecast7": 14.6,
         "alerts": []
       },
       {
@@ -3427,19 +3433,19 @@
         "lat": 6.25,
         "lon": -75.56,
         "current": {
-          "date": "2026-09-06",
-          "tMax": 27.2,
-          "tMin": 15.5,
-          "rain": 0,
-          "code": 3,
+          "date": "2026-09-07",
+          "tMax": 27,
+          "tMin": 15.1,
+          "rain": 0.4,
+          "code": 51,
           "cloud": 95,
           "observed": true
         },
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
-        "rain14": 19.7,
-        "rainForecast7": 13.1,
-        "minForecast7": 15.1,
+        "rain14": 20.1,
+        "rainForecast7": 13.5,
+        "minForecast7": 16.4,
         "alerts": []
       },
       {
@@ -3450,19 +3456,19 @@
         "lat": 4.63,
         "lon": 96.85,
         "current": {
-          "date": "2026-09-06",
-          "tMax": 24.3,
-          "tMin": 17.7,
-          "rain": 4.5,
-          "code": 55,
-          "cloud": 91,
+          "date": "2026-09-07",
+          "tMax": 24.6,
+          "tMin": 17,
+          "rain": 6.2,
+          "code": 80,
+          "cloud": 98,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 25.2,
-        "rainForecast7": 40.7,
-        "minForecast7": 15.1,
+        "rain14": 31.4,
+        "rainForecast7": 23.8,
+        "minForecast7": 15.9,
         "alerts": []
       },
       {
@@ -3473,19 +3479,19 @@
         "lat": -5.45,
         "lon": 105.27,
         "current": {
-          "date": "2026-09-06",
-          "tMax": 30.8,
-          "tMin": 23.2,
-          "rain": 0.7,
+          "date": "2026-09-07",
+          "tMax": 30.6,
+          "tMin": 24.3,
+          "rain": 0.4,
           "code": 51,
-          "cloud": 54,
+          "cloud": 28,
           "observed": true
         },
         "condition": "dry",
         "conditionLabel": "Clear / dry",
-        "rain14": 27.5,
-        "rainForecast7": 33.6,
-        "minForecast7": 23.7,
+        "rain14": 27.9,
+        "rainForecast7": 10.8,
+        "minForecast7": 23.8,
         "alerts": []
       },
       {
@@ -3496,19 +3502,19 @@
         "lat": 7.67,
         "lon": 36.83,
         "current": {
-          "date": "2026-09-06",
-          "tMax": 24,
-          "tMin": 14.4,
-          "rain": 3.3,
+          "date": "2026-09-07",
+          "tMax": 22.4,
+          "tMin": 13.5,
+          "rain": 3,
           "code": 80,
-          "cloud": 48,
+          "cloud": 58,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 39.8,
-        "rainForecast7": 28,
-        "minForecast7": 12.5,
+        "rain14": 42.3,
+        "rainForecast7": 32.3,
+        "minForecast7": 12.4,
         "alerts": []
       },
       {
@@ -3519,19 +3525,19 @@
         "lat": 14.16,
         "lon": -88.02,
         "current": {
-          "date": "2026-09-06",
-          "tMax": 32,
-          "tMin": 16,
-          "rain": 0.3,
-          "code": 51,
-          "cloud": 88,
+          "date": "2026-09-07",
+          "tMax": 31,
+          "tMin": 16.8,
+          "rain": 3.7,
+          "code": 55,
+          "cloud": 91,
           "observed": true
         },
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
-        "rain14": 38.5,
-        "rainForecast7": 24.2,
-        "minForecast7": 16.5,
+        "rain14": 41.3,
+        "rainForecast7": 23.7,
+        "minForecast7": 15.9,
         "alerts": []
       },
       {
@@ -3542,24 +3548,24 @@
         "lat": -11.05,
         "lon": -75.33,
         "current": {
-          "date": "2026-09-06",
-          "tMax": 29.8,
-          "tMin": 18.7,
-          "rain": 6.6,
+          "date": "2026-09-07",
+          "tMax": 22.4,
+          "tMin": 18,
+          "rain": 10.1,
           "code": 80,
-          "cloud": 34,
+          "cloud": 72,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 46.4,
-        "rainForecast7": 57.1,
-        "minForecast7": 18,
+        "rain14": 49.6,
+        "rainForecast7": 53.6,
+        "minForecast7": 16.8,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "57 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "54 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       }
@@ -3574,9 +3580,57 @@
   },
   "news": {
     "originWire": {
-      "fetchedAt": "2026-09-07T18:45:58.643Z",
+      "fetchedAt": "2026-09-08T06:08:07.817Z",
       "lookbackHours": 504,
       "headlines": [
+        {
+          "title": "Polls suggest tight presidential race as Brazil marks Independence Day",
+          "summary": "Brazil has marked Independence Day with the two main candidates for October’s presidential election holding events.",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/8/polls-suggest-tight-presidential-race-as-brazil-marks-independence-day?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "region": "Brazil",
+          "published": "Tue, 08 Sep 2026 04:29:33 +0000"
+        },
+        {
+          "title": "Dollar dips to 7-month low against dong",
+          "summary": "The U.S. dollar fell against the Vietnamese dong Tuesday morning, hitting the lowest since Feb. 9.",
+          "url": "https://e.vnexpress.net/news/business/markets/dollar-dips-to-7-month-low-against-dong-5117819.html",
+          "publisher": "VnExpress International",
+          "region": "Vietnam",
+          "published": "Tue, 08 Sep 2026 11:31:19 +0700"
+        },
+        {
+          "title": "Indonesia airports reopen after volcano eruption leaves 340,000 stranded",
+          "summary": "Anak Krakatau, which lies about 150km from Jakarta, began spewing lava and volvanic ash late on Friday.",
+          "url": "https://www.bbc.co.uk/news/articles/czezydp4l97o?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
+          "region": "Indonesia",
+          "published": "Tue, 08 Sep 2026 03:44:43 GMT"
+        },
+        {
+          "title": "Rubio heads to Ecuador, Colombia, Peru after right-wing victories in region",
+          "summary": "Rightward shift in Latin America comes as Washington pledges to grow influence, take militaristic approach to cartels.",
+          "url": "https://www.aljazeera.com/news/2026/9/7/rubio-heads-to-ecuador-colombia-peru-after-right-wing-victories-in-region?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "region": "Colombia",
+          "published": "Mon, 07 Sep 2026 22:41:27 +0000"
+        },
+        {
+          "title": "‘House moved like jelly’ says resident near Bolivia barracks blast",
+          "summary": "Reports are emerging from the powerful explosion at a military barracks in Bolivia that killed at least nine people.",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/8/aje-onl-nf_nine-killed-in-bolivia-military-base-explosion-080926?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "region": "South & Central America",
+          "published": "Tue, 08 Sep 2026 04:24:37 +0000"
+        },
+        {
+          "title": "Hijacking pirates exploit regional chaos to return to seas off Somalia",
+          "summary": "US-Israel war on Iran and political instability in Somalia lead to pirates targeting cargo ships off Horn of Africa The scourge of Somali piracy targeting cargo ships and smaller dhows off the Horn of Africa has returned to levels not seen in a decade, driven…",
+          "url": "https://www.theguardian.com/world/2026/sep/08/hijacking-pirates-somalia-geopolitical-chaos",
+          "publisher": "The Guardian",
+          "region": "East Africa",
+          "published": "Tue, 08 Sep 2026 04:00:27 GMT"
+        },
         {
           "title": "‘It cost me many friendships’: former Brazil military chief reveals inside struggle to stop Bolsonaro’s coup",
           "summary": "Carlos de Almeida Baptista Júnior describes 2022 meeting in new book as ex-leader’s son vies with Lula for presidency The far-right populist Jair Bolsonaro was in his final days as Brazil’s president when, six weeks after losing the election and still…",
@@ -3586,20 +3640,20 @@
           "published": "Sat, 05 Sep 2026 10:00:34 GMT"
         },
         {
-          "title": "4 doctor passengers, nurse deliver premature baby on Vietnam flight from Denmark",
-          "summary": "Three Vietnamese doctors, a foreign doctor and a foreign nurse happened to be on the same flight from Denmark to Ho Chi Minh City and joined hands to deliver a baby prematurely after a pregnant passenger went into labor.",
-          "url": "https://e.vnexpress.net/news/news/4-doctor-passengers-nurse-deliver-premature-baby-on-vietnam-flight-from-denmark-5117504.html",
+          "title": "Gold prices increase",
+          "summary": "Vietnam's gold prices rose marginally Tuesday morning as global rates recovered from a two-day drop.",
+          "url": "https://e.vnexpress.net/news/business/markets/gold-prices-increase-5117813.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Mon, 07 Sep 2026 16:05:18 +0700"
+          "published": "Tue, 08 Sep 2026 11:18:26 +0700"
         },
         {
-          "title": "Indonesia volcano eruption leaves 340,000 stranded as airports extend closure",
-          "summary": "Anak Krakatau, which lies about 150km from capital Jakarta, began spewing lava and volvanic ash late on Friday.",
-          "url": "https://www.bbc.co.uk/news/articles/czezydp4l97o?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
+          "title": "Volcanic eruption in Indonesia causes widespread travel disruption – video",
+          "summary": "The Anak Krakatau volcano erupted over the weekend, with experts warning of a high probability of further eruptions. The ash spewed by the volcano forced the closure of schools and seven airports, disrupting the flights of an estimated 170,000 passengers…",
+          "url": "https://www.theguardian.com/world/video/2026/sep/07/volcanic-eruption-indonesia-travel-disruption-video",
+          "publisher": "The Guardian",
           "region": "Indonesia",
-          "published": "Mon, 07 Sep 2026 15:40:47 GMT"
+          "published": "Mon, 07 Sep 2026 14:10:54 GMT"
         },
         {
           "title": "Drone attack blamed on guerrillas kills at least three soldiers in Colombia",
@@ -3610,12 +3664,12 @@
           "published": "Sat, 05 Sep 2026 22:16:55 GMT"
         },
         {
-          "title": "Bolivian blast death toll rises to 7, rescuers search for missing soldiers",
-          "summary": "President Rodrigo Paz declares national mourning, urges unity after deadly military base explosions near La Paz.",
-          "url": "https://www.aljazeera.com/news/2026/9/7/bolivian-military-base-blast-leaves-seven-dead-seven-missing?traffic_source=rss",
-          "publisher": "Al Jazeera",
+          "title": "Argentina will file criminal case against Falklands oil driller",
+          "summary": "Israel’s Navitas Petroleum faces complaint as Javier Milei escalates sovereignty dispute",
+          "url": "https://www.ft.com/content/5a4cac41-4a23-48df-87f3-77db860a8284?syn-25a6b1a6=1",
+          "publisher": "Financial Times",
           "region": "South & Central America",
-          "published": "Mon, 07 Sep 2026 17:31:04 +0000"
+          "published": "Tue, 08 Sep 2026 02:51:03 GMT"
         },
         {
           "title": "Tanzanian President Samia's husband dies in hospital",
@@ -3634,70 +3688,22 @@
           "published": "Thu, 03 Sep 2026 12:22:11 GMT"
         },
         {
-          "title": "2 South Koreans jailed for beating compatriot restaurant owner to death in Ho Chi Minh City",
-          "summary": "Two South Korean men have been jailed for beating a compatriot to death at a restaurant in Ho Chi Minh City after going there in response to a message that their friends had gotten into trouble.",
-          "url": "https://e.vnexpress.net/news/news/crime/2-south-koreans-jailed-for-beating-compatriot-restaurant-owner-to-death-in-ho-chi-minh-city-5117444.html",
+          "title": "Vietnam’s richest woman drops out of world’s top 1,000 billionaires",
+          "summary": "Pham Thu Huong, Vietnam’s richest woman, has dropped out of the world’s top 1,000 richest people just days after making her debut, following a decline in her company’s share price.",
+          "url": "https://e.vnexpress.net/news/business/billionaires/vietnam-s-richest-woman-drops-out-of-world-s-top-1-000-billionaires-5117748.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Mon, 07 Sep 2026 15:13:00 +0700"
-        },
-        {
-          "title": "Volcanic eruption in Indonesia causes widespread travel disruption – video",
-          "summary": "The Anak Krakatau volcano erupted over the weekend, with experts warning of a high probability of further eruptions. The ash spewed by the volcano forced the closure of schools and seven airports, disrupting the flights of an estimated 170,000 passengers…",
-          "url": "https://www.theguardian.com/world/video/2026/sep/07/volcanic-eruption-indonesia-travel-disruption-video",
-          "publisher": "The Guardian",
-          "region": "Indonesia",
-          "published": "Mon, 07 Sep 2026 14:10:54 GMT"
-        },
-        {
-          "title": "Colombia president provokes disgust by posing with bodies of ‘terrorists’",
-          "summary": "Abelardo De La Espriella posts video of himself with rows of body bags as performative populism continues to sweep Americas Colombia’s hardline president, Abelardo De La Espriella, has provoked outrage after posting a video on social media in which he strides…",
-          "url": "https://www.theguardian.com/world/2026/sep/04/colombia-president-posts-video-guerrillas-body-bags-abelardo-de-la-espriella",
-          "publisher": "The Guardian",
-          "region": "Colombia",
-          "published": "Fri, 04 Sep 2026 13:50:43 GMT"
-        },
-        {
-          "title": "Alleged killers of Australian surfers and American friend go on trial in Mexico",
-          "summary": "Three men on trial for killing Jake and Callum Robinson and Jack Carter Rhoad in Baja California in 2024 The alleged killers of two Australian surfers and an American at a Mexican surfing hotspot in 2024 have gone on trial in the border resort where the three…",
-          "url": "https://www.theguardian.com/world/2026/sep/07/alleged-killers-of-australian-surfers-and-american-friend-go-on-trial-in-mexico",
-          "publisher": "The Guardian",
-          "region": "South & Central America",
-          "published": "Mon, 07 Sep 2026 17:29:20 GMT"
-        },
-        {
-          "title": "Burundians rush to leave Kenya ahead of crackdown on unregistered traders",
-          "summary": "Kenya is due to start enforcing measures to restrict foreign nationals from operating small-scale businesses.",
-          "url": "https://www.bbc.co.uk/news/articles/c158wwl22xko?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
-          "region": "East Africa",
-          "published": "Mon, 07 Sep 2026 14:57:16 GMT"
-        },
-        {
-          "title": "Echoes of cold war as US accused of meddling in another Brazilian election",
-          "summary": "Claims that Trump and Rubio are trying to influence result have parallels with CIA intervention 64 years ago The year was 1962 and the Kennedy administration was desperate to swing Brazil’s congressional elections against its leftwing president, João Goulart…",
-          "url": "https://www.theguardian.com/world/2026/sep/01/us-trump-rubio-meddling-brazil-election",
-          "publisher": "The Guardian",
-          "region": "Brazil",
-          "published": "Tue, 01 Sep 2026 12:00:57 GMT"
-        },
-        {
-          "title": "CEO of Vietnam International Financial Center in HCMC could get $32,000 monthly salary",
-          "summary": "The CEO of the Vietnam International Financial Center in Ho Chi Minh City could receive a salary of VND450-850 million (US$17,000-32,000) per month under a proposed remuneration scheme by the city.",
-          "url": "https://e.vnexpress.net/news/news/ceo-of-vietnam-international-financial-center-in-hcmc-could-get-32-000-monthly-salary-5117382.html",
-          "publisher": "VnExpress International",
-          "region": "Vietnam",
-          "published": "Mon, 07 Sep 2026 14:16:47 +0700"
+          "published": "Tue, 08 Sep 2026 10:53:19 +0700"
         }
       ],
-      "totalTagged": 111,
+      "totalTagged": 114,
       "feedsQueried": 14,
       "errors": [],
       "note": "General headlines from the growing regions, taken from outlets of record and tagged to a region by the countries and cities they name."
     },
     "roundup": {
       "source": "assembled",
-      "fetchedAt": "2026-09-07T18:45:57.591Z",
+      "fetchedAt": "2026-09-08T06:08:07.461Z",
       "windowDays": 7,
       "publishers": [
         "Daily Coffee News",
@@ -3811,7 +3817,7 @@
       "note": "Assembled from the coffee trade press over the past seven days, ranked by relevance to the physical trade. Headlines and links are each publisher’s own."
     },
     "dailyRead": {
-      "fetchedAt": "2026-09-07T18:45:55.376Z",
+      "fetchedAt": "2026-09-08T06:08:05.952Z",
       "article": {
         "title": "Ecuador’s Deforestation-Free Coffee Model Moves Beyond the Pilot Stage",
         "summary": "Since 2019, nearly 400 coffee producers in the Ecuadorian Amazon have adopted a deforestation-free production model that combines traceability, geospatial monitoring, and certification. In 2025 alone, the initiative exported as...",
@@ -4139,37 +4145,37 @@
     {
       "source": "daily-read",
       "ok": true,
-      "ms": 510
+      "ms": 431
     },
     {
       "source": "weather",
       "ok": true,
-      "ms": 607
+      "ms": 898
     },
     {
       "source": "arabica-futures",
       "ok": true,
-      "ms": 799
-    },
-    {
-      "source": "ico-report",
-      "ok": true,
-      "ms": 1195
+      "ms": 962
     },
     {
       "source": "weekly-recap",
       "ok": true,
-      "ms": 2729
+      "ms": 1943
     },
     {
       "source": "origin-wire",
       "ok": true,
-      "ms": 3784
+      "ms": 2303
+    },
+    {
+      "source": "ico-report",
+      "ok": true,
+      "ms": 2593
     },
     {
       "source": "fx",
       "ok": true,
-      "ms": 3854
+      "ms": 3810
     }
   ]
 }

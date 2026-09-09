@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T18:46:56.346Z",
+  "generatedAt": "2026-09-09T06:08:17.449Z",
   "schema": 5,
   "schedule": {
     "slotsUtc": [
@@ -26,7 +26,7 @@
       "frontMonth": {
         "code": "KCU26",
         "label": "Sep 2026",
-        "close": 313.8,
+        "close": 318.45,
         "volume": 1
       },
       "rolled": true,
@@ -35,43 +35,43 @@
         {
           "code": "KCU26",
           "label": "Sep 2026",
-          "close": 313.8,
+          "close": 318.45,
           "volume": 1
         },
         {
           "code": "KCZ26",
           "label": "Dec 2026",
-          "close": 289.95,
+          "close": 291.3,
           "volume": 24202
         },
         {
           "code": "KCH27",
           "label": "Mar 2027",
-          "close": 281,
+          "close": 282.65,
           "volume": 11947
         },
         {
           "code": "KCK27",
           "label": "May 2027",
-          "close": 277.9,
+          "close": 279.75,
           "volume": 3270
         },
         {
           "code": "KCN27",
           "label": "Jul 2027",
-          "close": 276.15,
+          "close": 278,
           "volume": 1334
         },
         {
           "code": "KCU27",
           "label": "Sep 2027",
-          "close": 274.85,
+          "close": 276,
           "volume": 318
         },
         {
           "code": "KCZ27",
           "label": "Dec 2027",
-          "close": 272.8,
+          "close": 273.3,
           "volume": 183
         }
       ],
@@ -83,7 +83,7 @@
         "previousClose": 295.6000061035156,
         "change": -5.65,
         "changePct": -1.911,
-        "volume": 24202,
+        "volume": 0,
         "asOf": "2026-09-08T17:29:59.000Z"
       },
       "bars": [
@@ -2644,15 +2644,15 @@
           "open": 295.79998779296875,
           "high": 296.29998779296875,
           "low": 286.6000061035156,
-          "close": 289.95001220703125,
-          "volume": 24202
+          "close": 291.29998779296875,
+          "volume": 0
         }
       ],
       "crossCheck": {
-        "tradingView": 289.95,
+        "tradingView": 291.3,
         "yahoo": 289.95,
-        "diff": 0,
-        "diffPct": 0,
+        "diff": 1.35,
+        "diffPct": 0.466,
         "agree": true
       },
       "sources": [
@@ -2669,14 +2669,14 @@
       ],
       "technicals": {
         "observations": 504,
-        "sma20": 315.75000152587893,
-        "sma50": 309.6810003662109,
-        "sma200": 290.3107500457764,
-        "rsi14": 37.72703841457956,
+        "sma20": 315.81750030517577,
+        "sma50": 309.7079998779297,
+        "sma200": 290.31749992370607,
+        "rsi14": 38.32696732537704,
         "macd": {
-          "line": -3.2795619432919807,
-          "signal": 1.421783565990719,
-          "histogram": -4.7013455092826995
+          "line": -3.1718715831602253,
+          "signal": 1.44332163801707,
+          "histogram": -4.615193221177295
         },
         "atr14": 12.666424724790355,
         "donchian20": {
@@ -2687,16 +2687,16 @@
         "levels": {
           "support": [
             {
+              "price": 290,
+              "date": "2025-06-03"
+            },
+            {
               "price": 289.6499938964844,
               "date": "2025-03-27"
             },
             {
               "price": 289,
               "date": "2025-09-19"
-            },
-            {
-              "price": 271.6000061035156,
-              "date": "2025-04-09"
             }
           ],
           "resistance": [
@@ -3252,7 +3252,7 @@
     ]
   },
   "weather": {
-    "fetchedAt": "2026-09-08T18:46:54.561Z",
+    "fetchedAt": "2026-09-09T06:08:14.976Z",
     "thresholds": {
       "frostC": 4,
       "heavyRainMm": 50,
@@ -3277,24 +3277,24 @@
         "lat": -21.55,
         "lon": -45.43,
         "current": {
-          "date": "2026-09-07",
-          "tMax": 19.1,
-          "tMin": 13,
-          "rain": 0.5,
-          "code": 51,
-          "cloud": 98,
+          "date": "2026-09-08",
+          "tMax": 20.9,
+          "tMin": 14.1,
+          "rain": 23.3,
+          "code": 95,
+          "cloud": 71,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 62.4,
-        "rainForecast7": 61.5,
-        "minForecast7": 14.1,
+        "rain14": 85.5,
+        "rainForecast7": 52.7,
+        "minForecast7": 15.8,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "62 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "53 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3306,19 +3306,19 @@
         "lat": -18.94,
         "lon": -46.99,
         "current": {
-          "date": "2026-09-07",
-          "tMax": 24.6,
-          "tMin": 17.3,
-          "rain": 22.6,
-          "code": 95,
-          "cloud": 81,
+          "date": "2026-09-08",
+          "tMax": 25.4,
+          "tMin": 16.9,
+          "rain": 1.4,
+          "code": 55,
+          "cloud": 60,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 74.1,
-        "rainForecast7": 23,
-        "minForecast7": 16.9,
+        "rain14": 75.5,
+        "rainForecast7": 34.1,
+        "minForecast7": 16.3,
         "alerts": []
       },
       {
@@ -3329,19 +3329,19 @@
         "lat": -19.39,
         "lon": -40.07,
         "current": {
-          "date": "2026-09-07",
-          "tMax": 20.9,
-          "tMin": 18.9,
-          "rain": 4.2,
-          "code": 53,
+          "date": "2026-09-08",
+          "tMax": 24.4,
+          "tMin": 18.6,
+          "rain": 1,
+          "code": 51,
           "cloud": 100,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 40,
-        "rainForecast7": 16.4,
-        "minForecast7": 18.6,
+        "rain14": 39.1,
+        "rainForecast7": 30.3,
+        "minForecast7": 21.1,
         "alerts": []
       },
       {
@@ -3352,24 +3352,24 @@
         "lat": 12.68,
         "lon": 108.05,
         "current": {
-          "date": "2026-09-07",
-          "tMax": 29.3,
-          "tMin": 22.8,
-          "rain": 6.7,
-          "code": 80,
-          "cloud": 85,
+          "date": "2026-09-08",
+          "tMax": 29.7,
+          "tMin": 23,
+          "rain": 9.4,
+          "code": 95,
+          "cloud": 90,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 182.3,
-        "rainForecast7": 146.9,
-        "minForecast7": 21.7,
+        "rain14": 191.7,
+        "rainForecast7": 125.2,
+        "minForecast7": 21.4,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "147 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "125 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3381,24 +3381,24 @@
         "lat": 11.55,
         "lon": 107.81,
         "current": {
-          "date": "2026-09-07",
-          "tMax": 26.4,
-          "tMin": 20.7,
-          "rain": 5.4,
+          "date": "2026-09-08",
+          "tMax": 27,
+          "tMin": 21,
+          "rain": 4.1,
           "code": 53,
-          "cloud": 86,
+          "cloud": 84,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 178.9,
-        "rainForecast7": 109.1,
-        "minForecast7": 19.5,
+        "rain14": 183,
+        "rainForecast7": 73.6,
+        "minForecast7": 19.7,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "109 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "74 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3410,19 +3410,19 @@
         "lat": 1.85,
         "lon": -76.05,
         "current": {
-          "date": "2026-09-07",
-          "tMax": 26.3,
-          "tMin": 16.1,
-          "rain": 1.2,
-          "code": 51,
-          "cloud": 86,
+          "date": "2026-09-08",
+          "tMax": 26.6,
+          "tMin": 16,
+          "rain": 2.4,
+          "code": 53,
+          "cloud": 36,
           "observed": true
         },
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
-        "rain14": 55.7,
-        "rainForecast7": 23.2,
-        "minForecast7": 16,
+        "rain14": 54.7,
+        "rainForecast7": 21.6,
+        "minForecast7": 15.6,
         "alerts": []
       },
       {
@@ -3433,19 +3433,19 @@
         "lat": 6.25,
         "lon": -75.56,
         "current": {
-          "date": "2026-09-07",
-          "tMax": 27,
-          "tMin": 15.1,
-          "rain": 0.3,
+          "date": "2026-09-08",
+          "tMax": 28.1,
+          "tMin": 16,
+          "rain": 0.2,
           "code": 51,
-          "cloud": 95,
+          "cloud": 66,
           "observed": true
         },
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
-        "rain14": 20,
-        "rainForecast7": 10,
-        "minForecast7": 16,
+        "rain14": 19.9,
+        "rainForecast7": 16.7,
+        "minForecast7": 15.3,
         "alerts": []
       },
       {
@@ -3456,19 +3456,19 @@
         "lat": 4.63,
         "lon": 96.85,
         "current": {
-          "date": "2026-09-07",
-          "tMax": 24.6,
-          "tMin": 17,
-          "rain": 6.2,
+          "date": "2026-09-08",
+          "tMax": 25.9,
+          "tMin": 16.5,
+          "rain": 6.9,
           "code": 80,
-          "cloud": 98,
+          "cloud": 89,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 28,
-        "rainForecast7": 19.5,
-        "minForecast7": 15.8,
+        "rain14": 34.9,
+        "rainForecast7": 22.1,
+        "minForecast7": 15.9,
         "alerts": []
       },
       {
@@ -3479,19 +3479,19 @@
         "lat": -5.45,
         "lon": 105.27,
         "current": {
-          "date": "2026-09-07",
-          "tMax": 30.6,
-          "tMin": 24.3,
-          "rain": 0.4,
-          "code": 51,
-          "cloud": 28,
+          "date": "2026-09-08",
+          "tMax": 30.5,
+          "tMin": 23.8,
+          "rain": 0,
+          "code": 1,
+          "cloud": 20,
           "observed": true
         },
         "condition": "dry",
         "conditionLabel": "Clear / dry",
         "rain14": 24.2,
-        "rainForecast7": 13.1,
-        "minForecast7": 23.8,
+        "rainForecast7": 17.1,
+        "minForecast7": 23.9,
         "alerts": []
       },
       {
@@ -3502,19 +3502,19 @@
         "lat": 7.67,
         "lon": 36.83,
         "current": {
-          "date": "2026-09-07",
-          "tMax": 22.4,
-          "tMin": 13.5,
-          "rain": 3,
-          "code": 80,
-          "cloud": 58,
+          "date": "2026-09-08",
+          "tMax": 24,
+          "tMin": 11.8,
+          "rain": 1.5,
+          "code": 51,
+          "cloud": 48,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 42.3,
-        "rainForecast7": 26.1,
-        "minForecast7": 11.8,
+        "rain14": 40.3,
+        "rainForecast7": 24.9,
+        "minForecast7": 11.7,
         "alerts": []
       },
       {
@@ -3525,19 +3525,19 @@
         "lat": 14.16,
         "lon": -88.02,
         "current": {
-          "date": "2026-09-07",
-          "tMax": 31,
-          "tMin": 16.8,
-          "rain": 3.7,
-          "code": 55,
-          "cloud": 87,
+          "date": "2026-09-08",
+          "tMax": 32,
+          "tMin": 18.2,
+          "rain": 1.2,
+          "code": 51,
+          "cloud": 60,
           "observed": true
         },
-        "condition": "cloudy",
-        "conditionLabel": "Cloudy",
-        "rain14": 41.3,
-        "rainForecast7": 24,
-        "minForecast7": 16.5,
+        "condition": "wet",
+        "conditionLabel": "Wet",
+        "rain14": 36.5,
+        "rainForecast7": 37.9,
+        "minForecast7": 16.3,
         "alerts": []
       },
       {
@@ -3548,24 +3548,24 @@
         "lat": -11.05,
         "lon": -75.33,
         "current": {
-          "date": "2026-09-07",
-          "tMax": 22.4,
-          "tMin": 17.9,
-          "rain": 10.2,
+          "date": "2026-09-08",
+          "tMax": 28.5,
+          "tMin": 16.7,
+          "rain": 7.2,
           "code": 80,
-          "cloud": 69,
+          "cloud": 58,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 49.7,
-        "rainForecast7": 54.7,
-        "minForecast7": 16.7,
+        "rain14": 56.9,
+        "rainForecast7": 57.7,
+        "minForecast7": 17,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "55 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "58 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       }
@@ -3580,7 +3580,7 @@
   },
   "news": {
     "originWire": {
-      "fetchedAt": "2026-09-08T18:46:56.342Z",
+      "fetchedAt": "2026-09-09T06:08:17.445Z",
       "lookbackHours": 504,
       "headlines": [
         {
@@ -3592,12 +3592,12 @@
           "published": "Sat, 05 Sep 2026 10:00:34 GMT"
         },
         {
-          "title": "Vietnamese engineer at Australia's No. 1 university develops patch that can hear hearts",
-          "summary": "Phan Hoang Phuong, an associate professor at the University of New South Wales, has built a 3.2-gram wearable patch that monitors a patient's heart and lungs from home.",
-          "url": "https://e.vnexpress.net/news/news/education/vietnamese-engineer-at-australia-s-no-1-university-develops-patch-that-can-hear-hearts-5115284.html",
+          "title": "Who are the 5 richest women in Southeast Asia?",
+          "summary": "The five richest women in Southeast Asia have a combined fortune of US$22.9 billion, including two from Indonesia, two from Vietnam, and one from Thailand.",
+          "url": "https://e.vnexpress.net/news/business/billionaires/who-are-the-5-richest-women-in-southeast-asia-5116622.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Tue, 08 Sep 2026 20:00:00 +0700"
+          "published": "Wed, 09 Sep 2026 10:32:04 +0700"
         },
         {
           "title": "Indonesia airports reopen after volcano eruption leaves 340,000 stranded",
@@ -3608,20 +3608,20 @@
           "published": "Tue, 08 Sep 2026 03:44:43 GMT"
         },
         {
-          "title": "‘In parks you only see dogs, never children’: can Bogotá adapt to its ageing population?",
-          "summary": "With a lower fertility rate than Tokyo and the number of pensioners rapidly rising, Colombia’s capital is being forced to change the way it thinks about growing old From his wheelchair, Alberto Delgado Londoño can see over the wall of the sunlit courtyard…",
-          "url": "https://www.theguardian.com/global-development/2026/sep/08/bogota-colombia-ageing-population-demographics-children-health-social-care",
-          "publisher": "The Guardian",
+          "title": "Marco Rubio says US seeks more economic and security ties in Latin America",
+          "summary": "The US secretary of state visits Colombia, Ecuador and Peru in a bid to enhance cooperation with right-wing allies.",
+          "url": "https://www.aljazeera.com/news/2026/9/9/marco-rubio-says-us-seeks-more-economic-and-security-ties-in-latin-america?traffic_source=rss",
+          "publisher": "Al Jazeera",
           "region": "Colombia",
-          "published": "Tue, 08 Sep 2026 10:00:01 GMT"
+          "published": "Wed, 09 Sep 2026 00:14:22 +0000"
         },
         {
-          "title": "Nicaragua urges ICJ to reject Germany’s bid to throw out Gaza genocide case",
-          "summary": "Nicaragua maintains that German arms exports to Israel facilitated Gaza genocide as Germany's tries to halt the case.",
-          "url": "https://www.aljazeera.com/news/2026/9/8/nicaragua-urges-icj-to-reject-germanys-bid-to-throw-out-gaza-genocide-case?traffic_source=rss",
+          "title": "600-year-old tomb of pre-Incan Chimu kingdom found in Peru",
+          "summary": "Archaeologists in Peru have uncovered an almost intact Chimu funerary platform.",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/9/600-year-old-tomb-of-pre-incan-chimu-kingdom-found-in-peru?traffic_source=rss",
           "publisher": "Al Jazeera",
           "region": "South & Central America",
-          "published": "Tue, 08 Sep 2026 17:26:33 +0000"
+          "published": "Wed, 09 Sep 2026 04:57:02 +0000"
         },
         {
           "title": "Kenya moves to register frightened Burundians as tension over foreign traders rises",
@@ -3640,12 +3640,12 @@
           "published": "Thu, 03 Sep 2026 12:22:11 GMT"
         },
         {
-          "title": "Vietnam shatters rainfall and temperature records as August brings extreme weather",
-          "summary": "August brought unprecedented extreme weather across Vietnam, as 13 weather stations recorded their highest ever total rainfall for the month, while 32 others matched or exceeded their average temperature records.",
-          "url": "https://e.vnexpress.net/news/news/environment/vietnam-shatters-rainfall-and-temperature-records-as-august-brings-extreme-weather-5117711.html",
+          "title": "Vietnam's 3 biggest international airports among Asia-Pacific's most improved in air connectivity",
+          "summary": "Three international airports run by the Airports Corporation of Vietnam (ACV), Tan Son Nhat, Noi Bai and Da Nang, have been ranked among those with the greatest improvements in connectivity within their traffic segments.",
+          "url": "https://e.vnexpress.net/news/news/traffic/vietnam-s-3-biggest-international-airports-among-asia-pacific-s-most-improved-in-air-connectivity-5118082.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Tue, 08 Sep 2026 17:00:00 +0700"
+          "published": "Wed, 09 Sep 2026 09:54:54 +0700"
         },
         {
           "title": "Volcanic eruption in Indonesia causes widespread travel disruption – video",
@@ -3656,20 +3656,20 @@
           "published": "Mon, 07 Sep 2026 14:10:54 GMT"
         },
         {
-          "title": "Drone attack blamed on guerrillas kills at least three soldiers in Colombia",
-          "summary": "Officials accuse National Liberation Army of launching strike followed by clash inside military compound An attack involving explosives dropped from drones followed by a clash inside a military compound in north-eastern Colombia has killed at least three…",
-          "url": "https://www.theguardian.com/world/2026/sep/05/drone-attack-guerrillas-kills-soldiers-colombia",
+          "title": "‘In parks you only see dogs, never children’: can Bogotá adapt to its ageing population?",
+          "summary": "With a lower fertility rate than Tokyo and the number of pensioners rapidly rising, Colombia’s capital is being forced to change the way it thinks about growing old From his wheelchair, Alberto Delgado Londoño can see over the wall of the sunlit courtyard…",
+          "url": "https://www.theguardian.com/global-development/2026/sep/08/bogota-colombia-ageing-population-demographics-children-health-social-care",
           "publisher": "The Guardian",
           "region": "Colombia",
-          "published": "Sat, 05 Sep 2026 22:16:55 GMT"
+          "published": "Tue, 08 Sep 2026 10:00:01 GMT"
         },
         {
-          "title": "Lucky toddler has a narrow escape after running into speeding traffic",
-          "summary": "Security camera footage shows a supermarket employee racing into action as a toddler runs towards moving traffic in Puebla, Mexico.",
-          "url": "https://www.bbc.co.uk/news/videos/cgqdn8n2kjyo?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
+          "title": "‘It’s hell’: father of slain Australian surfers tells Mexico homicide trial about identifying sons’ bodies",
+          "summary": "Three men are on trial over the death of brothers Jake and Callum Robinson and their friend, US citizen Jack Carter Rhoad, in Ensenada The father of two Australian surfers killed in Mexico two years ago testified in court on Tuesday that his life had been…",
+          "url": "https://www.theguardian.com/world/2026/sep/09/australian-surfers-jake-callum-robinson-homicide-trial-mexico-ntwnfb",
+          "publisher": "The Guardian",
           "region": "South & Central America",
-          "published": "Tue, 08 Sep 2026 13:48:16 GMT"
+          "published": "Wed, 09 Sep 2026 04:46:23 GMT"
         },
         {
           "title": "Hijacking pirates exploit regional chaos to return to seas off Somalia",
@@ -3688,12 +3688,12 @@
           "published": "Tue, 01 Sep 2026 12:00:57 GMT"
         },
         {
-          "title": "CapitaLand Development begins handover of 2,375 Lumi Hanoi homes",
-          "summary": "CapitaLand Development has begun handing over 2,375 homes in the first completed phase of Lumi Hanoi, the first completed phase of the project and one of its largest residential projects in western Hanoi.",
-          "url": "https://e.vnexpress.net/news/business/capitaland-development-begins-handover-of-2-375-lumi-hanoi-homes-5117831.html",
+          "title": "Vietnamese, Russian leaders call for stronger trade cooperation",
+          "summary": "General Secretary of the Communist Party of Vietnam Central Committee and President To Lam and Russian Prime Minister Mikhail Mishustin agreed on the need to bring about stronger breakthroughs in trade cooperation, noting that the two economies have…",
+          "url": "https://e.vnexpress.net/news/news/politics/vietnamese-russian-leaders-call-for-stronger-trade-cooperation-5118166.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Tue, 08 Sep 2026 16:00:00 +0700"
+          "published": "Wed, 09 Sep 2026 07:59:27 +0700"
         }
       ],
       "totalTagged": 114,
@@ -3703,7 +3703,7 @@
     },
     "roundup": {
       "source": "assembled",
-      "fetchedAt": "2026-09-08T18:46:55.919Z",
+      "fetchedAt": "2026-09-09T06:08:16.368Z",
       "windowDays": 7,
       "publishers": [
         "Daily Coffee News",
@@ -3713,6 +3713,15 @@
         "World Coffee Portal"
       ],
       "items": [
+        {
+          "headline": "Build-Outs Of Coffee: La Prima Espresso Co. In Pittsburgh, PA",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. La Prima Espresso Company in Pittsburgh, Pennsylvania.",
+          "url": "https://sprudge.com/build-outs-of-coffee-la-prima-espresso-co-in-pittsburgh-pa-1267784.html",
+          "publisher": "Sprudge",
+          "published": "Tue, 08 Sep 2026 19:31:57 +0000",
+          "date": "Tue, 8 Sep",
+          "section": "Top stories of the week"
+        },
         {
           "headline": "Lavazza hits the red carpet with major film festival deal",
           "summary": "The Italian coffee roaster first sponsored the Toronto International Film Festival as Official Coffee Partner in 2023 Lavazza has signed a new multi-year partnership with the Toronto International Film Festival (TIFF), one of the largest and most prestigious…",
@@ -3738,7 +3747,7 @@
           "publisher": "Daily Coffee News",
           "published": "Tue, 08 Sep 2026 14:07:16 +0000",
           "date": "Tue, 8 Sep",
-          "section": "Top stories of the week"
+          "section": "Roasting & retail"
         },
         {
           "headline": "Why More Pressure Doesn’t Necessarily Mean Faster Espresso",
@@ -3786,15 +3795,6 @@
           "section": "Roasting & retail"
         },
         {
-          "headline": "Multi-Michelin-starred chef launches luxury croissant café in London",
-          "summary": "Yannick Alléno’s latest venture has opened at the Pavyllon London restaurant",
-          "url": "https://www.worldcoffeeportal.com/news/multi-michelin-starred-chef-launches-luxury-croissant-cafe-in-london/",
-          "publisher": "World Coffee Portal",
-          "published": "Mon, 07 Sep 2026 15:47:11 GMT",
-          "date": "Mon, 7 Sep",
-          "section": "Roasting & retail"
-        },
-        {
           "headline": "From Origin to Cup: Specialty Coffees Deserve the Right Water",
           "summary": "World of Coffee is taking place in Latin America for the first time. As the 2026–2027 WBC Qualified Water Filtration Sponsor, BWT water+more, the water optimisation specialist for coffee preparation and the food service industry, will provide the water for…",
           "url": "https://sca.coffee/sca-news/specialty-coffees-deserve-the-right-water",
@@ -3817,7 +3817,7 @@
       "note": "Assembled from the coffee trade press over the past seven days, ranked by relevance to the physical trade. Headlines and links are each publisher’s own."
     },
     "dailyRead": {
-      "fetchedAt": "2026-09-08T18:46:54.021Z",
+      "fetchedAt": "2026-09-09T06:08:14.348Z",
       "article": {
         "title": "Ecuador’s Deforestation-Free Coffee Model Moves Beyond the Pilot Stage",
         "summary": "Since 2019, nearly 400 coffee producers in the Ecuadorian Amazon have adopted a deforestation-free production model that combines traceability, geospatial monitoring, and certification. In 2025 alone, the initiative exported as...",
@@ -4145,37 +4145,37 @@
     {
       "source": "daily-read",
       "ok": true,
-      "ms": 294
+      "ms": 222
     },
     {
       "source": "arabica-futures",
       "ok": true,
-      "ms": 614
+      "ms": 404
     },
     {
       "source": "weather",
       "ok": true,
-      "ms": 843
-    },
-    {
-      "source": "fx",
-      "ok": true,
-      "ms": 1586
+      "ms": 859
     },
     {
       "source": "weekly-recap",
       "ok": true,
-      "ms": 2196
+      "ms": 2245
     },
     {
       "source": "ico-report",
       "ok": true,
-      "ms": 2557
+      "ms": 2671
+    },
+    {
+      "source": "fx",
+      "ok": true,
+      "ms": 2743
     },
     {
       "source": "origin-wire",
       "ok": true,
-      "ms": 2623
+      "ms": 3326
     }
   ]
 }

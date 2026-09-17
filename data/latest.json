@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T18:46:19.815Z",
+  "generatedAt": "2026-09-17T06:08:18.676Z",
   "schema": 5,
   "schedule": {
     "slotsUtc": [
@@ -26,8 +26,8 @@
       "frontMonth": {
         "code": "KCU26",
         "label": "Sep 2026",
-        "close": 299.65,
-        "volume": 2
+        "close": 295.85,
+        "volume": 0
       },
       "rolled": true,
       "mostActive": "KCZ26",
@@ -35,43 +35,43 @@
         {
           "code": "KCU26",
           "label": "Sep 2026",
-          "close": 299.65,
-          "volume": 2
+          "close": 295.85,
+          "volume": 0
         },
         {
           "code": "KCZ26",
           "label": "Dec 2026",
-          "close": 279.75,
+          "close": 281.55,
           "volume": 13693
         },
         {
           "code": "KCH27",
           "label": "Mar 2027",
-          "close": 271.8,
+          "close": 273.35,
           "volume": 7650
         },
         {
           "code": "KCK27",
           "label": "May 2027",
-          "close": 268.8,
+          "close": 270.3,
           "volume": 2738
         },
         {
           "code": "KCN27",
           "label": "Jul 2027",
-          "close": 267.4,
+          "close": 268.65,
           "volume": 1054
         },
         {
           "code": "KCU27",
           "label": "Sep 2027",
-          "close": 265.35,
+          "close": 266.95,
           "volume": 490
         },
         {
           "code": "KCZ27",
           "label": "Dec 2027",
-          "close": 263.7,
+          "close": 264.2,
           "volume": 285
         }
       ],
@@ -83,7 +83,7 @@
         "previousClose": 283.6499938964844,
         "change": -3.9,
         "changePct": -1.375,
-        "volume": 13693,
+        "volume": 13908,
         "asOf": "2026-09-16T17:29:55.000Z"
       },
       "bars": [
@@ -2637,22 +2637,22 @@
           "high": 290.79998779296875,
           "low": 282.3500061035156,
           "close": 283.6499938964844,
-          "volume": 14360
+          "volume": 13908
         },
         {
           "date": "2026-09-16",
           "open": 283.8500061035156,
           "high": 285.45001220703125,
           "low": 277.04998779296875,
-          "close": 279.75,
-          "volume": 13693
+          "close": 281.54998779296875,
+          "volume": 13908
         }
       ],
       "crossCheck": {
-        "tradingView": 279.75,
+        "tradingView": 281.55,
         "yahoo": 279.75,
-        "diff": 0,
-        "diffPct": 0,
+        "diff": 1.8,
+        "diffPct": 0.643,
         "agree": true
       },
       "sources": [
@@ -2668,15 +2668,15 @@
         }
       ],
       "technicals": {
-        "observations": 505,
-        "sma20": 306.1524993896484,
-        "sma50": 308.7629998779297,
-        "sma200": 289.17224983215334,
-        "rsi14": 34.38638434207792,
+        "observations": 504,
+        "sma20": 306.24249877929685,
+        "sma50": 308.79899963378904,
+        "sma200": 289.1812497711182,
+        "rsi14": 35.2412898650004,
         "macd": {
-          "line": -7.720987355112584,
-          "signal": -4.382219463174471,
-          "histogram": -3.3387678919381125
+          "line": -7.577398585303115,
+          "signal": -4.353501709212577,
+          "histogram": -3.2238968760905378
         },
         "atr14": 11.572692196687276,
         "donchian20": {
@@ -2719,10 +2719,10 @@
           "low": 210.75
         },
         "method": "Wilder RSI(14); MACD(12,26,9) on EMA; ATR(14); pivots = 5-bar swing highs/lows; Donchian(20).",
-        "basis": "505 daily bars for KCZ26"
+        "basis": "504 daily bars for KCZ26"
       },
       "barsPublished": 320,
-      "barsAnalysed": 505
+      "barsAnalysed": 504
     }
   },
   "fx": {
@@ -3252,7 +3252,7 @@
     ]
   },
   "weather": {
-    "fetchedAt": "2026-09-16T18:46:16.472Z",
+    "fetchedAt": "2026-09-17T06:08:15.728Z",
     "thresholds": {
       "frostC": 4,
       "heavyRainMm": 50,
@@ -3277,19 +3277,19 @@
         "lat": -21.55,
         "lon": -45.43,
         "current": {
-          "date": "2026-09-15",
-          "tMax": 24.9,
-          "tMin": 13.9,
-          "rain": 5.5,
+          "date": "2026-09-16",
+          "tMax": 25.2,
+          "tMin": 14.5,
+          "rain": 4.8,
           "code": 81,
-          "cloud": 33,
+          "cloud": 12,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 143.7,
-        "rainForecast7": 19.6,
-        "minForecast7": 13.3,
+        "rain14": 148.3,
+        "rainForecast7": 27,
+        "minForecast7": 14.1,
         "alerts": []
       },
       {
@@ -3300,19 +3300,19 @@
         "lat": -18.94,
         "lon": -46.99,
         "current": {
-          "date": "2026-09-15",
-          "tMax": 26.9,
-          "tMin": 16.6,
-          "rain": 3.9,
-          "code": 55,
-          "cloud": 32,
+          "date": "2026-09-16",
+          "tMax": 28.1,
+          "tMin": 16.2,
+          "rain": 1.2,
+          "code": 53,
+          "cloud": 11,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 53.9,
-        "rainForecast7": 5.9,
-        "minForecast7": 16.2,
+        "rain14": 53.2,
+        "rainForecast7": 1.5,
+        "minForecast7": 16.7,
         "alerts": []
       },
       {
@@ -3323,19 +3323,19 @@
         "lat": -19.39,
         "lon": -40.07,
         "current": {
-          "date": "2026-09-15",
-          "tMax": 31,
-          "tMin": 21.3,
-          "rain": 0.3,
-          "code": 51,
-          "cloud": 45,
+          "date": "2026-09-16",
+          "tMax": 27.3,
+          "tMin": 21,
+          "rain": 12.9,
+          "code": 80,
+          "cloud": 94,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 36.5,
-        "rainForecast7": 14.4,
-        "minForecast7": 17.5,
+        "rain14": 46,
+        "rainForecast7": 1.7,
+        "minForecast7": 18.8,
         "alerts": []
       },
       {
@@ -3346,26 +3346,20 @@
         "lat": 12.68,
         "lon": 108.05,
         "current": {
-          "date": "2026-09-15",
-          "tMax": 30.4,
+          "date": "2026-09-16",
+          "tMax": 29.2,
           "tMin": 22.7,
-          "rain": 3.2,
+          "rain": 1.4,
           "code": 53,
-          "cloud": 76,
+          "cloud": 85,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 216.2,
-        "rainForecast7": 68,
-        "minForecast7": 22.1,
-        "alerts": [
-          {
-            "type": "wet",
-            "severity": "watch",
-            "text": "68 mm forecast over 7 days — harvest/drying disruption risk."
-          }
-        ]
+        "rain14": 217.6,
+        "rainForecast7": 46.8,
+        "minForecast7": 21.9,
+        "alerts": []
       },
       {
         "key": "lam-dong",
@@ -3375,24 +3369,24 @@
         "lat": 11.55,
         "lon": 107.81,
         "current": {
-          "date": "2026-09-15",
-          "tMax": 27.3,
-          "tMin": 20.1,
-          "rain": 14.7,
-          "code": 81,
-          "cloud": 96,
+          "date": "2026-09-16",
+          "tMax": 28.5,
+          "tMin": 20.2,
+          "rain": 7.4,
+          "code": 95,
+          "cloud": 93,
           "observed": true
         },
-        "condition": "wet",
-        "conditionLabel": "Wet",
-        "rain14": 152.9,
-        "rainForecast7": 117.2,
-        "minForecast7": 19.2,
+        "condition": "very-wet",
+        "conditionLabel": "Very wet",
+        "rain14": 160.3,
+        "rainForecast7": 73.1,
+        "minForecast7": 19.4,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "117 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "73 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3404,19 +3398,19 @@
         "lat": 1.85,
         "lon": -76.05,
         "current": {
-          "date": "2026-09-15",
-          "tMax": 27.4,
-          "tMin": 18.1,
-          "rain": 12,
+          "date": "2026-09-16",
+          "tMax": 23,
+          "tMin": 17.4,
+          "rain": 23,
           "code": 81,
-          "cloud": 90,
+          "cloud": 98,
           "observed": true
         },
-        "condition": "wet",
-        "conditionLabel": "Wet",
-        "rain14": 52.9,
-        "rainForecast7": 47.5,
-        "minForecast7": 15.9,
+        "condition": "very-wet",
+        "conditionLabel": "Very wet",
+        "rain14": 69.9,
+        "rainForecast7": 26.6,
+        "minForecast7": 15.5,
         "alerts": []
       },
       {
@@ -3427,19 +3421,19 @@
         "lat": 6.25,
         "lon": -75.56,
         "current": {
-          "date": "2026-09-15",
-          "tMax": 29.2,
-          "tMin": 17.3,
-          "rain": 0.1,
+          "date": "2026-09-16",
+          "tMax": 27.5,
+          "tMin": 17.5,
+          "rain": 0.5,
           "code": 51,
-          "cloud": 99,
+          "cloud": 98,
           "observed": true
         },
-        "condition": "wet",
-        "conditionLabel": "Wet",
-        "rain14": 13.5,
-        "rainForecast7": 16.9,
-        "minForecast7": 16.8,
+        "condition": "cloudy",
+        "conditionLabel": "Cloudy",
+        "rain14": 12.9,
+        "rainForecast7": 27.7,
+        "minForecast7": 15.8,
         "alerts": []
       },
       {
@@ -3450,19 +3444,19 @@
         "lat": 4.63,
         "lon": 96.85,
         "current": {
-          "date": "2026-09-15",
-          "tMax": 25.1,
-          "tMin": 18.8,
-          "rain": 27.6,
+          "date": "2026-09-16",
+          "tMax": 24.2,
+          "tMin": 17.7,
+          "rain": 29.3,
           "code": 95,
-          "cloud": 98,
+          "cloud": 100,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 105.3,
-        "rainForecast7": 39.7,
-        "minForecast7": 16.4,
+        "rain14": 134.6,
+        "rainForecast7": 32.7,
+        "minForecast7": 16.2,
         "alerts": []
       },
       {
@@ -3473,19 +3467,19 @@
         "lat": -5.45,
         "lon": 105.27,
         "current": {
-          "date": "2026-09-15",
-          "tMax": 30.9,
-          "tMin": 25,
-          "rain": 1.9,
-          "code": 53,
-          "cloud": 76,
+          "date": "2026-09-16",
+          "tMax": 31.3,
+          "tMin": 23,
+          "rain": 5.1,
+          "code": 80,
+          "cloud": 57,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 18.1,
-        "rainForecast7": 19.4,
-        "minForecast7": 23,
+        "rain14": 23.2,
+        "rainForecast7": 11.3,
+        "minForecast7": 23.5,
         "alerts": []
       },
       {
@@ -3496,19 +3490,19 @@
         "lat": 7.67,
         "lon": 36.83,
         "current": {
-          "date": "2026-09-15",
-          "tMax": 24.4,
-          "tMin": 14.2,
-          "rain": 2,
+          "date": "2026-09-16",
+          "tMax": 23.4,
+          "tMin": 14.5,
+          "rain": 1.9,
           "code": 53,
-          "cloud": 33,
+          "cloud": 51,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 54.1,
-        "rainForecast7": 21.3,
-        "minForecast7": 13.2,
+        "rain14": 51.2,
+        "rainForecast7": 11.3,
+        "minForecast7": 12.4,
         "alerts": []
       },
       {
@@ -3519,24 +3513,24 @@
         "lat": 14.16,
         "lon": -88.02,
         "current": {
-          "date": "2026-09-15",
-          "tMax": 28.2,
-          "tMin": 17.6,
-          "rain": 6.6,
-          "code": 61,
-          "cloud": 99,
+          "date": "2026-09-16",
+          "tMax": 27.4,
+          "tMin": 17.2,
+          "rain": 7.4,
+          "code": 80,
+          "cloud": 91,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 43.4,
-        "rainForecast7": 76.3,
-        "minForecast7": 16.6,
+        "rain14": 38.5,
+        "rainForecast7": 91.7,
+        "minForecast7": 17,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "76 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "92 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3548,26 +3542,20 @@
         "lat": -11.05,
         "lon": -75.33,
         "current": {
-          "date": "2026-09-15",
-          "tMax": 29.3,
-          "tMin": 17.7,
-          "rain": 4.8,
-          "code": 80,
-          "cloud": 58,
+          "date": "2026-09-16",
+          "tMax": 29,
+          "tMin": 18.6,
+          "rain": 13.5,
+          "code": 81,
+          "cloud": 54,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 81.5,
-        "rainForecast7": 51.6,
-        "minForecast7": 18.1,
-        "alerts": [
-          {
-            "type": "wet",
-            "severity": "watch",
-            "text": "52 mm forecast over 7 days — harvest/drying disruption risk."
-          }
-        ]
+        "rain14": 82.3,
+        "rainForecast7": 35.5,
+        "minForecast7": 18.5,
+        "alerts": []
       }
     ],
     "sources": [
@@ -3580,32 +3568,32 @@
   },
   "news": {
     "originWire": {
-      "fetchedAt": "2026-09-16T18:46:18.843Z",
+      "fetchedAt": "2026-09-17T06:08:17.646Z",
       "lookbackHours": 504,
       "headlines": [
         {
-          "title": "Colombia and Brazil deadliest countries for environmental activists, report says",
-          "summary": "The two countries accounted for 52% of killings of environmental activists in 2025, according to Global Witness.",
-          "url": "https://www.bbc.co.uk/news/articles/c6kgxjl35822o?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
+          "title": "Von der Leyen advances EU defence pitch with army of new ideas",
+          "summary": "Also in this newsletter: Brussels objects to China-backed purchase of Anglo American’s Brazilian nickel",
+          "url": "https://www.ft.com/content/5d1dba1a-db81-464d-b2d0-9e0741010560?syn-25a6b1a6=1",
+          "publisher": "Financial Times",
           "region": "Brazil",
-          "published": "Wed, 16 Sep 2026 11:02:54 GMT"
+          "published": "Thu, 17 Sep 2026 05:00:01 GMT"
         },
         {
-          "title": "Thai king and queen visit Hanoi university that hosts Thai language, culture center",
-          "summary": "Thai King Maha Vajiralongkorn Phra Vajiraklaochaoyuhua and Queen Suthida visited Hanoi University, meeting its staff and students on Wednesday.",
-          "url": "https://e.vnexpress.net/photo/politics/thai-king-and-queen-visit-hanoi-university-that-hosts-thai-language-culture-center-5121107.html",
+          "title": "Southeast Asia's 6 largest economies forecast to grow 4.8% annually through 2035, Vietnam fastest",
+          "summary": "The six largest economies in Southeast Asia – Indonesia, Malaysia, the Philippines, Singapore, Thailand and Vietnam – are projected to grow by an average of 4.8% annually between 2026 and 2035, according to a report by Bain & Company, DBS Bank and Vriens &…",
+          "url": "https://e.vnexpress.net/news/business/economy/southeast-asia-s-6-largest-economies-forecast-to-grow-4-8-annually-through-2035-vietnam-fastest-5121258.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Wed, 16 Sep 2026 21:14:30 +0700"
+          "published": "Thu, 17 Sep 2026 10:40:14 +0700"
         },
         {
-          "title": "The 'apex predator' of fires choking south-east Asia - podcast",
-          "summary": "Indonesia is in the middle of a climate emergency, experiencing what Nasa calls the ‘apex predator’ of wildfires. It’s burning an area three times the size of Singapore and choking millions across south-east Asia with toxic haze. But while Europe’s…",
-          "url": "https://www.theguardian.com/australia-news/audio/2026/sep/16/the-apex-predator-of-fires-choking-south-east-asia-full-story-podcast",
-          "publisher": "The Guardian",
+          "title": "Coal billionaire Low Tuck Kwong loses spot as Indonesia's richest person after wealth drops $2.5B",
+          "summary": "Coal tycoon Low Tuck Kwong dropped to third place among Indonesia's richest individuals after losing US$2.5 billion in net worth earlier this week.",
+          "url": "https://e.vnexpress.net/news/business/billionaires/coal-billionaire-low-tuck-kwong-loses-spot-as-indonesia-s-richest-person-after-wealth-drops-2-5b-5121005.html",
+          "publisher": "VnExpress International",
           "region": "Indonesia",
-          "published": "Wed, 16 Sep 2026 15:00:24 GMT"
+          "published": "Thu, 17 Sep 2026 09:45:32 +0700"
         },
         {
           "title": "Colombian ex-foreign minister charged over nanny's lie detector test",
@@ -3616,12 +3604,12 @@
           "published": "Tue, 15 Sep 2026 12:59:21 GMT"
         },
         {
-          "title": "Trump oil ally Harold Hamm to invest in Venezuela",
-          "summary": "Move by Continental Resources marks latest foray by a western oil producer into the country after US military seized president Nicolás Maduro",
-          "url": "https://www.ft.com/content/7be92efe-13d6-4d02-9f77-0e8229b3b8fa?syn-25a6b1a6=1",
-          "publisher": "Financial Times",
+          "title": "Argentinian judge orders suspension of Falklands oil project",
+          "summary": "The symbolic move comes as Argentina escalates its claim over the British-administered territory.",
+          "url": "https://www.aljazeera.com/news/2026/9/17/argentinian-judge-orders-suspension-of-falklands-oil-project?traffic_source=rss",
+          "publisher": "Al Jazeera",
           "region": "South & Central America",
-          "published": "Wed, 16 Sep 2026 18:31:15 GMT"
+          "published": "Thu, 17 Sep 2026 04:52:07 +0000"
         },
         {
           "title": "African greats inspired by the potential of Nairobi 2029",
@@ -3632,28 +3620,28 @@
           "published": "Wed, 16 Sep 2026 16:41:41 GMT"
         },
         {
-          "title": "Ferocious fight among Brazil’s supreme court erupts on eve of presidential election",
-          "summary": "Scandal explodes as country’s election campaign peaks, with polls suggesting dead heat between candidates Brazil’s supreme court has been thrust into what experts consider the greatest crisis since the return of democracy in the 1980s, as two rival judges…",
-          "url": "https://www.theguardian.com/world/2026/sep/15/brazil-supreme-court-presidential-election",
-          "publisher": "The Guardian",
+          "title": "Colombia and Brazil deadliest countries for environmental activists, report says",
+          "summary": "The two countries accounted for 52% of killings of environmental activists in 2025, according to Global Witness.",
+          "url": "https://www.bbc.co.uk/news/articles/c6kgxjl35822o?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
           "region": "Brazil",
-          "published": "Tue, 15 Sep 2026 19:14:00 GMT"
+          "published": "Wed, 16 Sep 2026 11:02:54 GMT"
         },
         {
-          "title": "Thai king honors President Ho Chi Minh on landmark state visit to Vietnam",
-          "summary": "King Maha Vajiralongkorn Phra Vajiraklaochaoyuhua of Thailand paid tribute to President Ho Chi Minh at his mausoleum in Hanoi and laid a wreath at the Monument to Heroes and Martyrs on Wednesday.",
-          "url": "https://e.vnexpress.net/news/news/politics/thai-king-honors-president-ho-chi-minh-on-landmark-state-visit-to-vietnam-5121010.html",
+          "title": "Widespread flooding disrupts traffic, business in Hanoi after heavy rain overnight",
+          "summary": "Rainfall exceeding 150 mm in several parts of Hanoi from Wednesday night to Thursday morning has caused widespread flooding that paralyzed traffic and forced shop closures.",
+          "url": "https://e.vnexpress.net/evolution/environment/widespread-flooding-disrupts-traffic-business-in-hanoi-after-heavy-rain-overnight-5121170.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Wed, 16 Sep 2026 15:42:10 +0700"
+          "published": "Thu, 17 Sep 2026 07:26:33 +0700"
         },
         {
-          "title": "The women saving Borneo: battling fire, patriarchy and super El Niño on Indonesia’s peatland frontlines",
-          "summary": "Fire threatens Kalimantan’s rainforests. On the peatland frontlines, a group of local mothers is defending their community. Words and Photography: Garry Lotulung Irma puts on her heavy rubber boots as she prepares for a volunteer firefighting shift in her…",
-          "url": "https://www.theguardian.com/world/ng-interactive/2026/sep/16/indonesia-fires-borneo-el-nino-women-haze",
+          "title": "The 'apex predator' of fires choking south-east Asia - podcast",
+          "summary": "Indonesia is in the middle of a climate emergency, experiencing what Nasa calls the ‘apex predator’ of wildfires. It’s burning an area three times the size of Singapore and choking millions across south-east Asia with toxic haze. But while Europe’s…",
+          "url": "https://www.theguardian.com/australia-news/audio/2026/sep/16/the-apex-predator-of-fires-choking-south-east-asia-full-story-podcast",
           "publisher": "The Guardian",
           "region": "Indonesia",
-          "published": "Wed, 16 Sep 2026 01:18:51 GMT"
+          "published": "Wed, 16 Sep 2026 15:00:24 GMT"
         },
         {
           "title": "Barrio Triste review – raw and dynamic portrait of anarchic slum life in 1980s Medellín",
@@ -3664,46 +3652,46 @@
           "published": "Mon, 14 Sep 2026 12:00:57 GMT"
         },
         {
-          "title": "Battle of Chile director Patricio Guzmán dies aged 85",
-          "summary": "Passionate documentary maker won international acclaim for unsparing but poetic films exploring the impact of the Pinochet regime in Chile Patricio Guzmán, the film-maker who chronicled Chile’s bloody 1970s political strife and its subsequent social and…",
-          "url": "https://www.theguardian.com/film/2026/sep/16/battle-of-chile-director-patricio-guzman-dies-aged-85",
-          "publisher": "The Guardian",
-          "region": "South & Central America",
-          "published": "Wed, 16 Sep 2026 13:15:02 GMT"
-        },
-        {
-          "title": "Djibouti calls for assistance as thousands of Yemenis flee to country",
-          "summary": "More than 2,500 Yemenis have arrived since last week, with Djibouti warning the number could rise to 10,000.",
-          "url": "https://www.aljazeera.com/news/2026/9/16/djibouti-calls-for-assistance-as-thousands-of-yemenis-flee-to-country?traffic_source=rss",
+          "title": "Trump threatens to end trade with Mexico and Europe after rate hike",
+          "summary": "US President Donald Trump had tried to pressure the Fed to lower rates, but it voted unanimously to raise them instead.",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/17/trump-threatens-to-end-trade-with-mexico-and-europe-after-rate-hike?traffic_source=rss",
           "publisher": "Al Jazeera",
-          "region": "East Africa",
-          "published": "Wed, 16 Sep 2026 15:16:07 +0000"
+          "region": "South & Central America",
+          "published": "Thu, 17 Sep 2026 04:43:01 +0000"
         },
         {
-          "title": "‘A coin flip’: on the campaign trail as Brazil’s far right edges back to power",
-          "summary": "Neck-and-neck with Lula in polls, Flávio Bolsonaro fires up his base in the bellwether state of Minas Gerais – starting at the scene of his father’s stabbing A giant banner of Brazil’s incarcerated former president Jair Bolsonaro fluttered in the morning…",
-          "url": "https://www.theguardian.com/world/2026/sep/14/brazil-bolsonaro-far-right-minas-gerais",
+          "title": "Meet the Scottish teenagers poised to represent Uganda",
+          "summary": "Teenage brothers Olly and Seb Fisher are closing in on their dream of international recognition - but it won't come from their homeland of Scotland.",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c6wyz1ll1g3xo?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
+          "region": "East Africa",
+          "published": "Wed, 16 Sep 2026 06:12:11 GMT"
+        },
+        {
+          "title": "Ferocious fight among Brazil’s supreme court erupts on eve of presidential election",
+          "summary": "Scandal explodes as country’s election campaign peaks, with polls suggesting dead heat between candidates Brazil’s supreme court has been thrust into what experts consider the greatest crisis since the return of democracy in the 1980s, as two rival judges…",
+          "url": "https://www.theguardian.com/world/2026/sep/15/brazil-supreme-court-presidential-election",
           "publisher": "The Guardian",
           "region": "Brazil",
-          "published": "Mon, 14 Sep 2026 17:04:05 GMT"
+          "published": "Tue, 15 Sep 2026 19:14:00 GMT"
         },
         {
-          "title": "Thai king and queen pray for peace at Hanoi pagoda as state visit ends",
-          "summary": "Thai King Maha Vajiralongkorn Phra Vajiraklaochaoyuhua and Queen Suthida visited Quan Su Pagoda in Hanoi on Wednesday and attended a prayer ceremony for peace.",
-          "url": "https://e.vnexpress.net/photo/politics/thai-king-and-queen-pray-for-peace-at-hanoi-pagoda-as-state-visit-ends-5121001.html",
+          "title": "Vietnamese student wins two physics awards at once at world's No. 1 university",
+          "summary": "Tran Quang Vinh, an International Physics Olympiad gold medalist, was the only student to win two of the Massachusetts Institute of Technology physics department's academic awards this year.",
+          "url": "https://e.vnexpress.net/news/news/education/vietnamese-student-wins-two-physics-awards-at-once-at-world-s-no-1-university-5120148.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Wed, 16 Sep 2026 15:30:46 +0700"
+          "published": "Thu, 17 Sep 2026 06:00:00 +0700"
         }
       ],
-      "totalTagged": 133,
+      "totalTagged": 131,
       "feedsQueried": 14,
       "errors": [],
       "note": "General headlines from the growing regions, taken from outlets of record and tagged to a region by the countries and cities they name."
     },
     "roundup": {
       "source": "assembled",
-      "fetchedAt": "2026-09-16T18:46:18.101Z",
+      "fetchedAt": "2026-09-17T06:08:16.995Z",
       "windowDays": 7,
       "publishers": [
         "Daily Coffee News",
@@ -3829,7 +3817,7 @@
       "note": "Assembled from the coffee trade press over the past seven days, ranked by relevance to the physical trade. Headlines and links are each publisher’s own."
     },
     "dailyRead": {
-      "fetchedAt": "2026-09-16T18:46:16.165Z",
+      "fetchedAt": "2026-09-17T06:08:15.358Z",
       "article": {
         "title": "Rad Coffee Co-Founder Unleashes DeskPanther Operations Software",
         "summary": "DeskPanther, a coffee shop operations platform created and tested by California-based Rad Coffee Co-Founder Jade Valore, launched publicly Sept. 8 with tools for tracking inventory, repairs, cash handling and shift...",
@@ -4157,37 +4145,37 @@
     {
       "source": "daily-read",
       "ok": true,
-      "ms": 511
+      "ms": 464
     },
     {
       "source": "arabica-futures",
       "ok": true,
-      "ms": 649
+      "ms": 754
     },
     {
       "source": "weather",
       "ok": true,
-      "ms": 829
-    },
-    {
-      "source": "fx",
-      "ok": true,
-      "ms": 1563
+      "ms": 842
     },
     {
       "source": "weekly-recap",
       "ok": true,
-      "ms": 2452
+      "ms": 2104
+    },
+    {
+      "source": "fx",
+      "ok": true,
+      "ms": 2498
     },
     {
       "source": "origin-wire",
       "ok": true,
-      "ms": 3199
+      "ms": 2759
     },
     {
       "source": "ico-report",
       "ok": false,
-      "ms": 4150,
+      "ms": 3773,
       "error": "indicator prices: 2025-09 has 1 values for 7 columns"
     }
   ]

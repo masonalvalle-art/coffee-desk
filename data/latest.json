@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T06:08:18.676Z",
+  "generatedAt": "2026-09-17T18:47:00.300Z",
   "schema": 5,
   "schedule": {
     "slotsUtc": [
@@ -26,8 +26,8 @@
       "frontMonth": {
         "code": "KCU26",
         "label": "Sep 2026",
-        "close": 295.85,
-        "volume": 0
+        "close": 290.55,
+        "volume": 1
       },
       "rolled": true,
       "mostActive": "KCZ26",
@@ -35,66 +35,58 @@
         {
           "code": "KCU26",
           "label": "Sep 2026",
-          "close": 295.85,
-          "volume": 0
+          "close": 290.55,
+          "volume": 1
         },
         {
           "code": "KCZ26",
           "label": "Dec 2026",
-          "close": 281.55,
-          "volume": 13693
+          "close": 276.75,
+          "volume": 13392
         },
         {
           "code": "KCH27",
           "label": "Mar 2027",
-          "close": 273.35,
-          "volume": 7650
+          "close": 269.05,
+          "volume": 6162
         },
         {
           "code": "KCK27",
           "label": "May 2027",
-          "close": 270.3,
-          "volume": 2738
+          "close": 266.25,
+          "volume": 2336
         },
         {
           "code": "KCN27",
           "label": "Jul 2027",
-          "close": 268.65,
-          "volume": 1054
+          "close": 264.5,
+          "volume": 1086
         },
         {
           "code": "KCU27",
           "label": "Sep 2027",
-          "close": 266.95,
-          "volume": 490
+          "close": 262.8,
+          "volume": 673
         },
         {
           "code": "KCZ27",
           "label": "Dec 2027",
-          "close": 264.2,
-          "volume": 285
+          "close": 260.1,
+          "volume": 700
         }
       ],
       "quote": {
-        "last": 279.75,
-        "open": 283.8500061035156,
-        "high": 285.45001220703125,
-        "low": 277.04998779296875,
-        "previousClose": 283.6499938964844,
-        "change": -3.9,
-        "changePct": -1.375,
-        "volume": 13908,
-        "asOf": "2026-09-16T17:29:55.000Z"
+        "last": 276.75,
+        "open": 280,
+        "high": 280.70001220703125,
+        "low": 274.6000061035156,
+        "previousClose": 281.54998779296875,
+        "change": -4.8,
+        "changePct": -1.705,
+        "volume": 13392,
+        "asOf": "2026-09-17T17:29:55.000Z"
       },
       "bars": [
-        {
-          "date": "2025-06-10",
-          "open": 312.29998779296875,
-          "high": 316.79998779296875,
-          "low": 304.25,
-          "close": 305.54998779296875,
-          "volume": 186
-        },
         {
           "date": "2025-06-11",
           "open": 304.5,
@@ -2646,13 +2638,21 @@
           "low": 277.04998779296875,
           "close": 281.54998779296875,
           "volume": 13908
+        },
+        {
+          "date": "2026-09-17",
+          "open": 280,
+          "high": 280.70001220703125,
+          "low": 274.6000061035156,
+          "close": 276.75,
+          "volume": 13392
         }
       ],
       "crossCheck": {
-        "tradingView": 281.55,
-        "yahoo": 279.75,
-        "diff": 1.8,
-        "diffPct": 0.643,
+        "tradingView": 276.75,
+        "yahoo": 276.75,
+        "diff": 0,
+        "diffPct": 0,
         "agree": true
       },
       "sources": [
@@ -2668,20 +2668,20 @@
         }
       ],
       "technicals": {
-        "observations": 504,
-        "sma20": 306.24249877929685,
-        "sma50": 308.79899963378904,
-        "sma200": 289.1812497711182,
-        "rsi14": 35.2412898650004,
+        "observations": 505,
+        "sma20": 303.6699981689453,
+        "sma50": 308.38899963378907,
+        "sma200": 288.91399971008303,
+        "rsi14": 32.89280494523945,
         "macd": {
-          "line": -7.577398585303115,
-          "signal": -4.353501709212577,
-          "histogram": -3.2238968760905378
+          "line": -8.362150357037535,
+          "signal": -5.155231438777569,
+          "histogram": -3.2069189182599667
         },
-        "atr14": 11.572692196687276,
+        "atr14": 11.242498589027694,
         "donchian20": {
           "high": 345.6499938964844,
-          "low": 277.04998779296875,
+          "low": 274.6000061035156,
           "period": 20
         },
         "levels": {
@@ -2701,16 +2701,16 @@
           ],
           "resistance": [
             {
+              "price": 278.1499938964844,
+              "date": "2026-05-05"
+            },
+            {
               "price": 284.6499938964844,
               "date": "2026-03-09"
             },
             {
               "price": 285.5,
               "date": "2026-04-24"
-            },
-            {
-              "price": 286.1000061035156,
-              "date": "2026-03-25"
             }
           ]
         },
@@ -2719,29 +2719,25 @@
           "low": 210.75
         },
         "method": "Wilder RSI(14); MACD(12,26,9) on EMA; ATR(14); pivots = 5-bar swing highs/lows; Donchian(20).",
-        "basis": "504 daily bars for KCZ26"
+        "basis": "505 daily bars for KCZ26"
       },
       "barsPublished": 320,
-      "barsAnalysed": 504
+      "barsAnalysed": 505
     }
   },
   "fx": {
-    "asOf": "2026-09-16",
+    "asOf": "2026-09-17",
     "pairs": {
       "GBPUSD": {
         "pair": "GBP/USD",
-        "rate": 1.3456,
-        "previous": 1.3483,
+        "rate": 1.3376,
+        "previous": 1.3456,
         "dp": 4,
         "note": "Sterling stronger means a dollar-priced contract costs a UK buyer less.",
-        "change": -0.0027,
-        "changePct": -0.2,
-        "change1m": -0.52,
+        "change": -0.008,
+        "changePct": -0.595,
+        "change1m": -1.33,
         "history": [
-          {
-            "date": "2026-06-25",
-            "rate": 1.316
-          },
           {
             "date": "2026-06-26",
             "rate": 1.3218
@@ -2977,23 +2973,23 @@
           {
             "date": "2026-09-16",
             "rate": 1.3456
+          },
+          {
+            "date": "2026-09-17",
+            "rate": 1.3376
           }
         ]
       },
       "USDBRL": {
         "pair": "USD/BRL",
-        "rate": 5.1459,
-        "previous": 5.1512,
+        "rate": 5.1307,
+        "previous": 5.1459,
         "dp": 4,
         "note": "A weaker real encourages Brazilian producer selling.",
-        "change": -0.0053,
-        "changePct": -0.103,
-        "change1m": -1.18,
+        "change": -0.0152,
+        "changePct": -0.295,
+        "change1m": -1.41,
         "history": [
-          {
-            "date": "2026-06-25",
-            "rate": 5.2019
-          },
           {
             "date": "2026-06-26",
             "rate": 5.1759
@@ -3229,14 +3225,18 @@
           {
             "date": "2026-09-16",
             "rate": 5.1459
+          },
+          {
+            "date": "2026-09-17",
+            "rate": 5.1307
           }
         ]
       }
     },
     "ptax": {
-      "buy": 5.152,
-      "sell": 5.1527,
-      "quotedAt": "2026-09-16 13:05:30.35873"
+      "buy": 5.1515,
+      "sell": 5.1521,
+      "quotedAt": "2026-09-17 13:03:21.858212"
     },
     "sources": [
       {
@@ -3251,349 +3251,35 @@
       }
     ]
   },
-  "weather": {
-    "fetchedAt": "2026-09-17T06:08:15.728Z",
-    "thresholds": {
-      "frostC": 4,
-      "heavyRainMm": 50,
-      "dryMm": 5
-    },
-    "countryOrder": [
-      "Brazil",
-      "Vietnam",
-      "Colombia",
-      "Indonesia",
-      "Ethiopia",
-      "Honduras",
-      "Peru"
-    ],
-    "conditionMethod": "The condition icon reads the last three observed days: 30 mm of rain in total, 20 mm in any one day, or a heavy-rain code is very wet; 5 mm is wet; 60% mean cloud cover is cloudy; anything else is clear.",
-    "regions": [
-      {
-        "key": "sul-de-minas",
-        "name": "Sul de Minas",
-        "country": "Brazil",
-        "species": "Arabica",
-        "lat": -21.55,
-        "lon": -45.43,
-        "current": {
-          "date": "2026-09-16",
-          "tMax": 25.2,
-          "tMin": 14.5,
-          "rain": 4.8,
-          "code": 81,
-          "cloud": 12,
-          "observed": true
-        },
-        "condition": "very-wet",
-        "conditionLabel": "Very wet",
-        "rain14": 148.3,
-        "rainForecast7": 27,
-        "minForecast7": 14.1,
-        "alerts": []
-      },
-      {
-        "key": "cerrado",
-        "name": "Cerrado Mineiro",
-        "country": "Brazil",
-        "species": "Arabica",
-        "lat": -18.94,
-        "lon": -46.99,
-        "current": {
-          "date": "2026-09-16",
-          "tMax": 28.1,
-          "tMin": 16.2,
-          "rain": 1.2,
-          "code": 53,
-          "cloud": 11,
-          "observed": true
-        },
-        "condition": "wet",
-        "conditionLabel": "Wet",
-        "rain14": 53.2,
-        "rainForecast7": 1.5,
-        "minForecast7": 16.7,
-        "alerts": []
-      },
-      {
-        "key": "espirito-santo",
-        "name": "Espírito Santo",
-        "country": "Brazil",
-        "species": "Robusta",
-        "lat": -19.39,
-        "lon": -40.07,
-        "current": {
-          "date": "2026-09-16",
-          "tMax": 27.3,
-          "tMin": 21,
-          "rain": 12.9,
-          "code": 80,
-          "cloud": 94,
-          "observed": true
-        },
-        "condition": "wet",
-        "conditionLabel": "Wet",
-        "rain14": 46,
-        "rainForecast7": 1.7,
-        "minForecast7": 18.8,
-        "alerts": []
-      },
-      {
-        "key": "dak-lak",
-        "name": "Dak Lak",
-        "country": "Vietnam",
-        "species": "Robusta",
-        "lat": 12.68,
-        "lon": 108.05,
-        "current": {
-          "date": "2026-09-16",
-          "tMax": 29.2,
-          "tMin": 22.7,
-          "rain": 1.4,
-          "code": 53,
-          "cloud": 85,
-          "observed": true
-        },
-        "condition": "very-wet",
-        "conditionLabel": "Very wet",
-        "rain14": 217.6,
-        "rainForecast7": 46.8,
-        "minForecast7": 21.9,
-        "alerts": []
-      },
-      {
-        "key": "lam-dong",
-        "name": "Lam Dong",
-        "country": "Vietnam",
-        "species": "Robusta",
-        "lat": 11.55,
-        "lon": 107.81,
-        "current": {
-          "date": "2026-09-16",
-          "tMax": 28.5,
-          "tMin": 20.2,
-          "rain": 7.4,
-          "code": 95,
-          "cloud": 93,
-          "observed": true
-        },
-        "condition": "very-wet",
-        "conditionLabel": "Very wet",
-        "rain14": 160.3,
-        "rainForecast7": 73.1,
-        "minForecast7": 19.4,
-        "alerts": [
-          {
-            "type": "wet",
-            "severity": "watch",
-            "text": "73 mm forecast over 7 days — harvest/drying disruption risk."
-          }
-        ]
-      },
-      {
-        "key": "huila",
-        "name": "Huila",
-        "country": "Colombia",
-        "species": "Arabica",
-        "lat": 1.85,
-        "lon": -76.05,
-        "current": {
-          "date": "2026-09-16",
-          "tMax": 23,
-          "tMin": 17.4,
-          "rain": 23,
-          "code": 81,
-          "cloud": 98,
-          "observed": true
-        },
-        "condition": "very-wet",
-        "conditionLabel": "Very wet",
-        "rain14": 69.9,
-        "rainForecast7": 26.6,
-        "minForecast7": 15.5,
-        "alerts": []
-      },
-      {
-        "key": "antioquia",
-        "name": "Antioquia",
-        "country": "Colombia",
-        "species": "Arabica",
-        "lat": 6.25,
-        "lon": -75.56,
-        "current": {
-          "date": "2026-09-16",
-          "tMax": 27.5,
-          "tMin": 17.5,
-          "rain": 0.5,
-          "code": 51,
-          "cloud": 98,
-          "observed": true
-        },
-        "condition": "cloudy",
-        "conditionLabel": "Cloudy",
-        "rain14": 12.9,
-        "rainForecast7": 27.7,
-        "minForecast7": 15.8,
-        "alerts": []
-      },
-      {
-        "key": "gayo",
-        "name": "Gayo Highlands",
-        "country": "Indonesia",
-        "species": "Arabica",
-        "lat": 4.63,
-        "lon": 96.85,
-        "current": {
-          "date": "2026-09-16",
-          "tMax": 24.2,
-          "tMin": 17.7,
-          "rain": 29.3,
-          "code": 95,
-          "cloud": 100,
-          "observed": true
-        },
-        "condition": "very-wet",
-        "conditionLabel": "Very wet",
-        "rain14": 134.6,
-        "rainForecast7": 32.7,
-        "minForecast7": 16.2,
-        "alerts": []
-      },
-      {
-        "key": "lampung",
-        "name": "Lampung",
-        "country": "Indonesia",
-        "species": "Robusta",
-        "lat": -5.45,
-        "lon": 105.27,
-        "current": {
-          "date": "2026-09-16",
-          "tMax": 31.3,
-          "tMin": 23,
-          "rain": 5.1,
-          "code": 80,
-          "cloud": 57,
-          "observed": true
-        },
-        "condition": "wet",
-        "conditionLabel": "Wet",
-        "rain14": 23.2,
-        "rainForecast7": 11.3,
-        "minForecast7": 23.5,
-        "alerts": []
-      },
-      {
-        "key": "jimma",
-        "name": "Jimma",
-        "country": "Ethiopia",
-        "species": "Arabica",
-        "lat": 7.67,
-        "lon": 36.83,
-        "current": {
-          "date": "2026-09-16",
-          "tMax": 23.4,
-          "tMin": 14.5,
-          "rain": 1.9,
-          "code": 53,
-          "cloud": 51,
-          "observed": true
-        },
-        "condition": "wet",
-        "conditionLabel": "Wet",
-        "rain14": 51.2,
-        "rainForecast7": 11.3,
-        "minForecast7": 12.4,
-        "alerts": []
-      },
-      {
-        "key": "marcala",
-        "name": "Marcala",
-        "country": "Honduras",
-        "species": "Arabica",
-        "lat": 14.16,
-        "lon": -88.02,
-        "current": {
-          "date": "2026-09-16",
-          "tMax": 27.4,
-          "tMin": 17.2,
-          "rain": 7.4,
-          "code": 80,
-          "cloud": 91,
-          "observed": true
-        },
-        "condition": "wet",
-        "conditionLabel": "Wet",
-        "rain14": 38.5,
-        "rainForecast7": 91.7,
-        "minForecast7": 17,
-        "alerts": [
-          {
-            "type": "wet",
-            "severity": "watch",
-            "text": "92 mm forecast over 7 days — harvest/drying disruption risk."
-          }
-        ]
-      },
-      {
-        "key": "chanchamayo",
-        "name": "Chanchamayo",
-        "country": "Peru",
-        "species": "Arabica",
-        "lat": -11.05,
-        "lon": -75.33,
-        "current": {
-          "date": "2026-09-16",
-          "tMax": 29,
-          "tMin": 18.6,
-          "rain": 13.5,
-          "code": 81,
-          "cloud": 54,
-          "observed": true
-        },
-        "condition": "wet",
-        "conditionLabel": "Wet",
-        "rain14": 82.3,
-        "rainForecast7": 35.5,
-        "minForecast7": 18.5,
-        "alerts": []
-      }
-    ],
-    "sources": [
-      {
-        "name": "Open-Meteo forecast API",
-        "url": "https://open-meteo.com/",
-        "role": "observed + forecast temperature, precipitation and weather code"
-      }
-    ]
-  },
+  "weather": null,
   "news": {
     "originWire": {
-      "fetchedAt": "2026-09-17T06:08:17.646Z",
+      "fetchedAt": "2026-09-17T18:46:01.512Z",
       "lookbackHours": 504,
       "headlines": [
         {
-          "title": "Von der Leyen advances EU defence pitch with army of new ideas",
-          "summary": "Also in this newsletter: Brussels objects to China-backed purchase of Anglo American’s Brazilian nickel",
-          "url": "https://www.ft.com/content/5d1dba1a-db81-464d-b2d0-9e0741010560?syn-25a6b1a6=1",
-          "publisher": "Financial Times",
+          "title": "Brazil’s Lula announces welfare increases ahead of presidential election",
+          "summary": "Government says that increase represents an adjustment for inflation that has eaten away purchasing power since 2023.",
+          "url": "https://www.aljazeera.com/news/2026/9/17/brazils-lula-announces-welfare-increases-ahead-of-presidential-election?traffic_source=rss",
+          "publisher": "Al Jazeera",
           "region": "Brazil",
-          "published": "Thu, 17 Sep 2026 05:00:01 GMT"
+          "published": "Thu, 17 Sep 2026 18:07:05 +0000"
         },
         {
-          "title": "Southeast Asia's 6 largest economies forecast to grow 4.8% annually through 2035, Vietnam fastest",
-          "summary": "The six largest economies in Southeast Asia – Indonesia, Malaysia, the Philippines, Singapore, Thailand and Vietnam – are projected to grow by an average of 4.8% annually between 2026 and 2035, according to a report by Bain & Company, DBS Bank and Vriens &…",
-          "url": "https://e.vnexpress.net/news/business/economy/southeast-asia-s-6-largest-economies-forecast-to-grow-4-8-annually-through-2035-vietnam-fastest-5121258.html",
+          "title": "Vietnam's top leader To Lam heads to UN General Assembly and Canada",
+          "summary": "Vietnam's Party General Secretary and President To Lam will attend the U.N. General Assembly's high-level general debate in New York and pay a state visit to Canada this month.",
+          "url": "https://e.vnexpress.net/news/news/politics/vietnam-s-top-leader-to-lam-heads-to-un-general-assembly-and-canada-5121525.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Thu, 17 Sep 2026 10:40:14 +0700"
+          "published": "Thu, 17 Sep 2026 21:17:21 +0700"
         },
         {
-          "title": "Coal billionaire Low Tuck Kwong loses spot as Indonesia's richest person after wealth drops $2.5B",
-          "summary": "Coal tycoon Low Tuck Kwong dropped to third place among Indonesia's richest individuals after losing US$2.5 billion in net worth earlier this week.",
-          "url": "https://e.vnexpress.net/news/business/billionaires/coal-billionaire-low-tuck-kwong-loses-spot-as-indonesia-s-richest-person-after-wealth-drops-2-5b-5121005.html",
+          "title": "Southeast Asia's most populous metropolis ranks its 2nd smartest city",
+          "summary": "Indonesia's capital Jakarta has emerged as one of Southeast Asia's leading intelligent urban centers, ranking second in the region in an assessment of cities using AI and digital technology to enhance urban life.",
+          "url": "https://e.vnexpress.net/news/news/southeast-asia-s-most-populous-metropolis-ranks-its-2nd-smartest-city-5120123.html",
           "publisher": "VnExpress International",
           "region": "Indonesia",
-          "published": "Thu, 17 Sep 2026 09:45:32 +0700"
+          "published": "Thu, 17 Sep 2026 14:01:48 +0700"
         },
         {
           "title": "Colombian ex-foreign minister charged over nanny's lie detector test",
@@ -3604,20 +3290,20 @@
           "published": "Tue, 15 Sep 2026 12:59:21 GMT"
         },
         {
-          "title": "Argentinian judge orders suspension of Falklands oil project",
-          "summary": "The symbolic move comes as Argentina escalates its claim over the British-administered territory.",
-          "url": "https://www.aljazeera.com/news/2026/9/17/argentinian-judge-orders-suspension-of-falklands-oil-project?traffic_source=rss",
-          "publisher": "Al Jazeera",
+          "title": "Aztec document goes on display in Mexico after 186 years abroad",
+          "summary": "France's national library is lending the manuscript recounting the history of the Aztecs to Mexico.",
+          "url": "https://www.bbc.co.uk/news/articles/ck980qyy6d2zo?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
           "region": "South & Central America",
-          "published": "Thu, 17 Sep 2026 04:52:07 +0000"
+          "published": "Thu, 17 Sep 2026 11:00:41 GMT"
         },
         {
-          "title": "African greats inspired by the potential of Nairobi 2029",
-          "summary": "Some of Africa's great track and field stars expect the decision to award Kenya the 2029 World Athletics Championships to inspire the next generation.",
-          "url": "https://www.bbc.co.uk/sport/athletics/articles/cqdr7e4dm0zpo?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
+          "title": "Rare Ethiopian manuscript stolen by British forces triggers restitution row",
+          "summary": "The Gondar Gospel belonged to the library of Emperor Tewodros but was seized in a battle decades ago.",
+          "url": "https://www.aljazeera.com/news/2026/9/17/rare-ethiopian-manuscript-stolen-by-british-triggers-restitution-row?traffic_source=rss",
+          "publisher": "Al Jazeera",
           "region": "East Africa",
-          "published": "Wed, 16 Sep 2026 16:41:41 GMT"
+          "published": "Thu, 17 Sep 2026 15:52:04 +0000"
         },
         {
           "title": "Colombia and Brazil deadliest countries for environmental activists, report says",
@@ -3628,20 +3314,20 @@
           "published": "Wed, 16 Sep 2026 11:02:54 GMT"
         },
         {
-          "title": "Widespread flooding disrupts traffic, business in Hanoi after heavy rain overnight",
-          "summary": "Rainfall exceeding 150 mm in several parts of Hanoi from Wednesday night to Thursday morning has caused widespread flooding that paralyzed traffic and forced shop closures.",
-          "url": "https://e.vnexpress.net/evolution/environment/widespread-flooding-disrupts-traffic-business-in-hanoi-after-heavy-rain-overnight-5121170.html",
+          "title": "Vietnamese woman arrested for stealing Chinese tourist's luggage at Bangkok airport",
+          "summary": "A 27-year-old Vietnamese national was arrested on Sept. 15 for allegedly stealing a luxury suitcase from a baggage carousel at Suvarnabhumi airport, Thai authorities said.",
+          "url": "https://e.vnexpress.net/news/news/crime/vietnamese-woman-arrested-for-stealing-chinese-tourist-s-luggage-at-bangkok-airport-5121445.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Thu, 17 Sep 2026 07:26:33 +0700"
+          "published": "Thu, 17 Sep 2026 18:00:00 +0700"
         },
         {
-          "title": "The 'apex predator' of fires choking south-east Asia - podcast",
-          "summary": "Indonesia is in the middle of a climate emergency, experiencing what Nasa calls the ‘apex predator’ of wildfires. It’s burning an area three times the size of Singapore and choking millions across south-east Asia with toxic haze. But while Europe’s…",
-          "url": "https://www.theguardian.com/australia-news/audio/2026/sep/16/the-apex-predator-of-fires-choking-south-east-asia-full-story-podcast",
-          "publisher": "The Guardian",
+          "title": "Coal billionaire Low Tuck Kwong loses spot as Indonesia's richest person after wealth drops $2.5B",
+          "summary": "Coal tycoon Low Tuck Kwong dropped to third place among Indonesia's richest individuals after losing US$2.5 billion in net worth earlier this week.",
+          "url": "https://e.vnexpress.net/news/business/billionaires/coal-billionaire-low-tuck-kwong-loses-spot-as-indonesia-s-richest-person-after-wealth-drops-2-5b-5121005.html",
+          "publisher": "VnExpress International",
           "region": "Indonesia",
-          "published": "Wed, 16 Sep 2026 15:00:24 GMT"
+          "published": "Thu, 17 Sep 2026 09:45:32 +0700"
         },
         {
           "title": "Barrio Triste review – raw and dynamic portrait of anarchic slum life in 1980s Medellín",
@@ -3652,20 +3338,20 @@
           "published": "Mon, 14 Sep 2026 12:00:57 GMT"
         },
         {
-          "title": "Trump threatens to end trade with Mexico and Europe after rate hike",
-          "summary": "US President Donald Trump had tried to pressure the Fed to lower rates, but it voted unanimously to raise them instead.",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/17/trump-threatens-to-end-trade-with-mexico-and-europe-after-rate-hike?traffic_source=rss",
-          "publisher": "Al Jazeera",
+          "title": "‘It’s beautiful when it’s clean’: the Argentine neighbourhood saving a contaminated river",
+          "summary": "Sewage, dog carcasses and industrial waste clog Argentina’s second most-polluted river. Meet the activists cleaning it up Twenty-three years ago, María Monges looked around her flooded neighbourhood and knew something had to be done. Founded in 1998 in Buenos…",
+          "url": "https://www.theguardian.com/environment/2026/sep/17/its-beautiful-when-its-clean-the-argentine-neighbourhood-saving-a-contaminated-river",
+          "publisher": "The Guardian",
           "region": "South & Central America",
-          "published": "Thu, 17 Sep 2026 04:43:01 +0000"
+          "published": "Thu, 17 Sep 2026 08:00:44 GMT"
         },
         {
-          "title": "Meet the Scottish teenagers poised to represent Uganda",
-          "summary": "Teenage brothers Olly and Seb Fisher are closing in on their dream of international recognition - but it won't come from their homeland of Scotland.",
-          "url": "https://www.bbc.co.uk/sport/football/articles/c6wyz1ll1g3xo?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
+          "title": "Fifty billion trees by 2030: how Ethiopia is recruiting citizens across the country to plant, plant, plant",
+          "summary": "After losing much of its forests in recent decades, the country’s people have led the way in planting saplings across the country as part of the government’s Green Legacy Initiative When Halima Kedir first began planting trees, she was met with scepticism and…",
+          "url": "https://www.theguardian.com/global-development/2026/sep/17/i-see-them-like-my-own-children-reforesting-ethiopia-with-50bn-trees-one-step-at-a-time",
+          "publisher": "The Guardian",
           "region": "East Africa",
-          "published": "Wed, 16 Sep 2026 06:12:11 GMT"
+          "published": "Thu, 17 Sep 2026 11:00:47 GMT"
         },
         {
           "title": "Ferocious fight among Brazil’s supreme court erupts on eve of presidential election",
@@ -3676,22 +3362,22 @@
           "published": "Tue, 15 Sep 2026 19:14:00 GMT"
         },
         {
-          "title": "Vietnamese student wins two physics awards at once at world's No. 1 university",
-          "summary": "Tran Quang Vinh, an International Physics Olympiad gold medalist, was the only student to win two of the Massachusetts Institute of Technology physics department's academic awards this year.",
-          "url": "https://e.vnexpress.net/news/news/education/vietnamese-student-wins-two-physics-awards-at-once-at-world-s-no-1-university-5120148.html",
+          "title": "Gasoline prices reach 4-month high",
+          "summary": "Vietnam gasoline prices rose to the highest since May 15 following increase in energy prices on global markets.",
+          "url": "https://e.vnexpress.net/news/business/markets/gasoline-prices-reach-4-month-high-5121486.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Thu, 17 Sep 2026 06:00:00 +0700"
+          "published": "Thu, 17 Sep 2026 18:00:00 +0700"
         }
       ],
-      "totalTagged": 131,
+      "totalTagged": 129,
       "feedsQueried": 14,
       "errors": [],
       "note": "General headlines from the growing regions, taken from outlets of record and tagged to a region by the countries and cities they name."
     },
     "roundup": {
       "source": "assembled",
-      "fetchedAt": "2026-09-17T06:08:16.995Z",
+      "fetchedAt": "2026-09-17T18:46:00.974Z",
       "windowDays": 7,
       "publishers": [
         "Daily Coffee News",
@@ -3699,6 +3385,24 @@
         "World Coffee Portal"
       ],
       "items": [
+        {
+          "headline": "Furthers & Betters Goes Beyond the Cup for Specialty Coffee Consumer Intelligence",
+          "summary": "A new specialty coffee research and consulting firm called Furthers & Betters is launching with a focus on the people actually buying and drinking the coffee. Co-founded by longtime consumer...",
+          "url": "https://dailycoffeenews.com/2026/09/17/furthers-betters-goes-beyond-the-cup-for-specialty-coffee-consumer-intelligence/",
+          "publisher": "Daily Coffee News",
+          "published": "Thu, 17 Sep 2026 13:39:59 +0000",
+          "date": "Thu, 17 Sep",
+          "section": "Roasting & retail"
+        },
+        {
+          "headline": "Smart Care Unifies Five Coffee Equipment Service Brands as Turbo Tech",
+          "summary": "Commercial equipment service company Smart Care is consolidating five regional coffee and speed-oven service businesses under a single national brand called Turbo Tech. The new brand incorporates Turbo Technicians, EspressoMe,...",
+          "url": "https://dailycoffeenews.com/2026/09/17/smart-care-unifies-five-coffee-equipment-service-brands-as-turbo-tech/",
+          "publisher": "Daily Coffee News",
+          "published": "Thu, 17 Sep 2026 13:06:19 +0000",
+          "date": "Thu, 17 Sep",
+          "section": "Roasting & retail"
+        },
         {
           "headline": "Grounds for Health Marks 30 Years with Annual Coffee Auction",
           "summary": "The annual Grounds for Health green coffee and equipment auction returns Sept. 23-24, offering roasters a range of traceable, high-quality green coffees while raising money for cervical cancer prevention programs...",
@@ -3763,15 +3467,6 @@
           "section": "Top stories of the week"
         },
         {
-          "headline": "NCA: More Americans Are Drinking Specialty Coffee and Ordering by App",
-          "summary": "Overall coffee drinking in the United States held steady this summer, while specialty coffee consumption and drinking outside the home continued to gain ground, according to the National Coffee Association‘s...",
-          "url": "https://dailycoffeenews.com/2026/09/15/nca-more-americans-are-drinking-specialty-coffee-and-ordering-by-app/",
-          "publisher": "Daily Coffee News",
-          "published": "Tue, 15 Sep 2026 14:20:13 +0000",
-          "date": "Tue, 15 Sep",
-          "section": "Roasting & retail"
-        },
-        {
           "headline": "Rad Coffee Co-Founder Unleashes DeskPanther Operations Software",
           "summary": "DeskPanther, a coffee shop operations platform created and tested by California-based Rad Coffee Co-Founder Jade Valore, launched publicly Sept. 8 with tools for tracking inventory, repairs, cash handling and shift...",
           "url": "https://dailycoffeenews.com/2026/09/15/rad-coffee-co-founder-unleashes-deskpanther-operations-software/",
@@ -3779,15 +3474,6 @@
           "published": "Tue, 15 Sep 2026 13:37:48 +0000",
           "date": "Tue, 15 Sep",
           "section": "Top stories of the week"
-        },
-        {
-          "headline": "New CEO to lead next chapter for French coffee equipment giant Groupe SEB",
-          "summary": "The WMF, Schaerer, Curtis and La San Marco owner secured major contracts in the US and China earlier this year amid a profitability drive",
-          "url": "https://www.worldcoffeeportal.com/news/new-ceo-to-lead-next-chapter-for-french-coffee-equipment-giant-groupe-seb/",
-          "publisher": "World Coffee Portal",
-          "published": "Tue, 15 Sep 2026 11:48:00 GMT",
-          "date": "Tue, 15 Sep",
-          "section": "Roasting & retail"
         },
         {
           "headline": "Shanghai Coffee Boom Intensifies Competition for Quality Coffees",
@@ -3817,7 +3503,7 @@
       "note": "Assembled from the coffee trade press over the past seven days, ranked by relevance to the physical trade. Headlines and links are each publisher’s own."
     },
     "dailyRead": {
-      "fetchedAt": "2026-09-17T06:08:15.358Z",
+      "fetchedAt": "2026-09-17T18:45:59.045Z",
       "article": {
         "title": "Rad Coffee Co-Founder Unleashes DeskPanther Operations Software",
         "summary": "DeskPanther, a coffee shop operations platform created and tested by California-based Rad Coffee Co-Founder Jade Valore, launched publicly Sept. 8 with tools for tracking inventory, repairs, cash handling and shift...",
@@ -4145,38 +3831,39 @@
     {
       "source": "daily-read",
       "ok": true,
-      "ms": 464
+      "ms": 546
     },
     {
       "source": "arabica-futures",
       "ok": true,
-      "ms": 754
-    },
-    {
-      "source": "weather",
-      "ok": true,
-      "ms": 842
-    },
-    {
-      "source": "weekly-recap",
-      "ok": true,
-      "ms": 2104
+      "ms": 930
     },
     {
       "source": "fx",
       "ok": true,
-      "ms": 2498
+      "ms": 1141
+    },
+    {
+      "source": "weekly-recap",
+      "ok": true,
+      "ms": 2477
     },
     {
       "source": "origin-wire",
       "ok": true,
-      "ms": 2759
+      "ms": 3018
     },
     {
       "source": "ico-report",
       "ok": false,
-      "ms": 3773,
+      "ms": 3449,
       "error": "indicator prices: 2025-09 has 1 values for 7 columns"
+    },
+    {
+      "source": "weather",
+      "ok": false,
+      "ms": 61803,
+      "error": "This operation was aborted"
     }
   ]
 }

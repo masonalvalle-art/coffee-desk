@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T18:47:00.300Z",
+  "generatedAt": "2026-09-18T06:08:08.342Z",
   "schema": 5,
   "schedule": {
     "slotsUtc": [
@@ -41,37 +41,37 @@
         {
           "code": "KCZ26",
           "label": "Dec 2026",
-          "close": 276.75,
+          "close": 276.5,
           "volume": 13392
         },
         {
           "code": "KCH27",
           "label": "Mar 2027",
-          "close": 269.05,
+          "close": 268.55,
           "volume": 6162
         },
         {
           "code": "KCK27",
           "label": "May 2027",
-          "close": 266.25,
+          "close": 265.8,
           "volume": 2336
         },
         {
           "code": "KCN27",
           "label": "Jul 2027",
-          "close": 264.5,
+          "close": 264.25,
           "volume": 1086
         },
         {
           "code": "KCU27",
           "label": "Sep 2027",
-          "close": 262.8,
+          "close": 262.65,
           "volume": 673
         },
         {
           "code": "KCZ27",
           "label": "Dec 2027",
-          "close": 260.1,
+          "close": 260.25,
           "volume": 700
         }
       ],
@@ -83,7 +83,7 @@
         "previousClose": 281.54998779296875,
         "change": -4.8,
         "changePct": -1.705,
-        "volume": 13392,
+        "volume": 13693,
         "asOf": "2026-09-17T17:29:55.000Z"
       },
       "bars": [
@@ -2637,22 +2637,22 @@
           "high": 285.45001220703125,
           "low": 277.04998779296875,
           "close": 281.54998779296875,
-          "volume": 13908
+          "volume": 13693
         },
         {
           "date": "2026-09-17",
           "open": 280,
           "high": 280.70001220703125,
           "low": 274.6000061035156,
-          "close": 276.75,
-          "volume": 13392
+          "close": 276.5,
+          "volume": 13693
         }
       ],
       "crossCheck": {
-        "tradingView": 276.75,
+        "tradingView": 276.5,
         "yahoo": 276.75,
-        "diff": 0,
-        "diffPct": 0,
+        "diff": -0.25,
+        "diffPct": -0.09,
         "agree": true
       },
       "sources": [
@@ -2668,15 +2668,15 @@
         }
       ],
       "technicals": {
-        "observations": 505,
-        "sma20": 303.6699981689453,
-        "sma50": 308.38899963378907,
-        "sma200": 288.91399971008303,
-        "rsi14": 32.89280494523945,
+        "observations": 504,
+        "sma20": 303.6574981689453,
+        "sma50": 308.3839996337891,
+        "sma200": 288.912749710083,
+        "rsi14": 32.779033832828446,
         "macd": {
-          "line": -8.362150357037535,
-          "signal": -5.155231438777569,
-          "histogram": -3.2069189182599667
+          "line": -8.38209337698055,
+          "signal": -5.159220042766171,
+          "histogram": -3.222873334214378
         },
         "atr14": 11.242498589027694,
         "donchian20": {
@@ -2719,10 +2719,10 @@
           "low": 210.75
         },
         "method": "Wilder RSI(14); MACD(12,26,9) on EMA; ATR(14); pivots = 5-bar swing highs/lows; Donchian(20).",
-        "basis": "505 daily bars for KCZ26"
+        "basis": "504 daily bars for KCZ26"
       },
       "barsPublished": 320,
-      "barsAnalysed": 505
+      "barsAnalysed": 504
     }
   },
   "fx": {
@@ -3251,60 +3251,332 @@
       }
     ]
   },
-  "weather": null,
+  "weather": {
+    "fetchedAt": "2026-09-18T06:08:06.305Z",
+    "thresholds": {
+      "frostC": 4,
+      "heavyRainMm": 50,
+      "dryMm": 5
+    },
+    "countryOrder": [
+      "Brazil",
+      "Vietnam",
+      "Colombia",
+      "Indonesia",
+      "Ethiopia",
+      "Honduras",
+      "Peru"
+    ],
+    "conditionMethod": "The condition icon reads the last three observed days: 30 mm of rain in total, 20 mm in any one day, or a heavy-rain code is very wet; 5 mm is wet; 60% mean cloud cover is cloudy; anything else is clear.",
+    "regions": [
+      {
+        "key": "sul-de-minas",
+        "name": "Sul de Minas",
+        "country": "Brazil",
+        "species": "Arabica",
+        "lat": -21.55,
+        "lon": -45.43,
+        "current": {
+          "date": "2026-09-17",
+          "tMax": 22.5,
+          "tMin": 14.5,
+          "rain": 0.1,
+          "code": 51,
+          "cloud": 51,
+          "observed": true
+        },
+        "condition": "wet",
+        "conditionLabel": "Wet",
+        "rain14": 148.4,
+        "rainForecast7": 15.3,
+        "minForecast7": 14.6,
+        "alerts": []
+      },
+      {
+        "key": "cerrado",
+        "name": "Cerrado Mineiro",
+        "country": "Brazil",
+        "species": "Arabica",
+        "lat": -18.94,
+        "lon": -46.99,
+        "current": {
+          "date": "2026-09-17",
+          "tMax": 29.2,
+          "tMin": 18.5,
+          "rain": 0.8,
+          "code": 51,
+          "cloud": 19,
+          "observed": true
+        },
+        "condition": "wet",
+        "conditionLabel": "Wet",
+        "rain14": 54,
+        "rainForecast7": 7.5,
+        "minForecast7": 17.3,
+        "alerts": []
+      },
+      {
+        "key": "espirito-santo",
+        "name": "Espírito Santo",
+        "country": "Brazil",
+        "species": "Robusta",
+        "lat": -19.39,
+        "lon": -40.07,
+        "current": {
+          "date": "2026-09-17",
+          "tMax": 25.3,
+          "tMin": 20.7,
+          "rain": 0.6,
+          "code": 51,
+          "cloud": 89,
+          "observed": true
+        },
+        "condition": "wet",
+        "conditionLabel": "Wet",
+        "rain14": 46.6,
+        "rainForecast7": 2.6,
+        "minForecast7": 18.7,
+        "alerts": []
+      },
+      {
+        "key": "dak-lak",
+        "name": "Dak Lak",
+        "country": "Vietnam",
+        "species": "Robusta",
+        "lat": 12.68,
+        "lon": 108.05,
+        "current": {
+          "date": "2026-09-17",
+          "tMax": 29.5,
+          "tMin": 22.7,
+          "rain": 8.1,
+          "code": 95,
+          "cloud": 97,
+          "observed": true
+        },
+        "condition": "very-wet",
+        "conditionLabel": "Very wet",
+        "rain14": 215.2,
+        "rainForecast7": 55.3,
+        "minForecast7": 22.3,
+        "alerts": [
+          {
+            "type": "wet",
+            "severity": "watch",
+            "text": "55 mm forecast over 7 days — harvest/drying disruption risk."
+          }
+        ]
+      },
+      {
+        "key": "lam-dong",
+        "name": "Lam Dong",
+        "country": "Vietnam",
+        "species": "Robusta",
+        "lat": 11.55,
+        "lon": 107.81,
+        "current": {
+          "date": "2026-09-17",
+          "tMax": 26.5,
+          "tMin": 20.1,
+          "rain": 15,
+          "code": 95,
+          "cloud": 97,
+          "observed": true
+        },
+        "condition": "very-wet",
+        "conditionLabel": "Very wet",
+        "rain14": 158.7,
+        "rainForecast7": 100.1,
+        "minForecast7": 18.9,
+        "alerts": [
+          {
+            "type": "wet",
+            "severity": "watch",
+            "text": "100 mm forecast over 7 days — harvest/drying disruption risk."
+          }
+        ]
+      },
+      {
+        "key": "huila",
+        "name": "Huila",
+        "country": "Colombia",
+        "species": "Arabica",
+        "lat": 1.85,
+        "lon": -76.05,
+        "current": {
+          "date": "2026-09-17",
+          "tMax": 26.7,
+          "tMin": 15.9,
+          "rain": 1.2,
+          "code": 51,
+          "cloud": 47,
+          "observed": true
+        },
+        "condition": "very-wet",
+        "conditionLabel": "Very wet",
+        "rain14": 68.5,
+        "rainForecast7": 18.2,
+        "minForecast7": 15.2,
+        "alerts": []
+      },
+      {
+        "key": "antioquia",
+        "name": "Antioquia",
+        "country": "Colombia",
+        "species": "Arabica",
+        "lat": 6.25,
+        "lon": -75.56,
+        "current": {
+          "date": "2026-09-17",
+          "tMax": 29,
+          "tMin": 16.3,
+          "rain": 0.3,
+          "code": 51,
+          "cloud": 51,
+          "observed": true
+        },
+        "condition": "cloudy",
+        "conditionLabel": "Cloudy",
+        "rain14": 13.2,
+        "rainForecast7": 29,
+        "minForecast7": 15.6,
+        "alerts": []
+      },
+      {
+        "key": "gayo",
+        "name": "Gayo Highlands",
+        "country": "Indonesia",
+        "species": "Arabica",
+        "lat": 4.63,
+        "lon": 96.85,
+        "current": {
+          "date": "2026-09-17",
+          "tMax": 24.3,
+          "tMin": 17.5,
+          "rain": 18.9,
+          "code": 81,
+          "cloud": 98,
+          "observed": true
+        },
+        "condition": "very-wet",
+        "conditionLabel": "Very wet",
+        "rain14": 152.2,
+        "rainForecast7": 27.3,
+        "minForecast7": 16.6,
+        "alerts": []
+      },
+      {
+        "key": "lampung",
+        "name": "Lampung",
+        "country": "Indonesia",
+        "species": "Robusta",
+        "lat": -5.45,
+        "lon": 105.27,
+        "current": {
+          "date": "2026-09-17",
+          "tMax": 31.5,
+          "tMin": 23.5,
+          "rain": 0,
+          "code": 3,
+          "cloud": 35,
+          "observed": true
+        },
+        "condition": "wet",
+        "conditionLabel": "Wet",
+        "rain14": 22,
+        "rainForecast7": 30.8,
+        "minForecast7": 24.5,
+        "alerts": []
+      },
+      {
+        "key": "jimma",
+        "name": "Jimma",
+        "country": "Ethiopia",
+        "species": "Arabica",
+        "lat": 7.67,
+        "lon": 36.83,
+        "current": {
+          "date": "2026-09-17",
+          "tMax": 22.6,
+          "tMin": 13.9,
+          "rain": 0.6,
+          "code": 51,
+          "cloud": 75,
+          "observed": true
+        },
+        "condition": "dry",
+        "conditionLabel": "Clear / dry",
+        "rain14": 51.4,
+        "rainForecast7": 14.3,
+        "minForecast7": 12.3,
+        "alerts": []
+      },
+      {
+        "key": "marcala",
+        "name": "Marcala",
+        "country": "Honduras",
+        "species": "Arabica",
+        "lat": 14.16,
+        "lon": -88.02,
+        "current": {
+          "date": "2026-09-17",
+          "tMax": 26.9,
+          "tMin": 17.1,
+          "rain": 5.5,
+          "code": 81,
+          "cloud": 92,
+          "observed": true
+        },
+        "condition": "wet",
+        "conditionLabel": "Wet",
+        "rain14": 38.8,
+        "rainForecast7": 89.3,
+        "minForecast7": 16.9,
+        "alerts": [
+          {
+            "type": "wet",
+            "severity": "watch",
+            "text": "89 mm forecast over 7 days — harvest/drying disruption risk."
+          }
+        ]
+      },
+      {
+        "key": "chanchamayo",
+        "name": "Chanchamayo",
+        "country": "Peru",
+        "species": "Arabica",
+        "lat": -11.05,
+        "lon": -75.33,
+        "current": {
+          "date": "2026-09-17",
+          "tMax": 30.5,
+          "tMin": 18.7,
+          "rain": 8.2,
+          "code": 55,
+          "cloud": 72,
+          "observed": true
+        },
+        "condition": "wet",
+        "conditionLabel": "Wet",
+        "rain14": 83.2,
+        "rainForecast7": 24.5,
+        "minForecast7": 18.7,
+        "alerts": []
+      }
+    ],
+    "sources": [
+      {
+        "name": "Open-Meteo forecast API",
+        "url": "https://open-meteo.com/",
+        "role": "observed + forecast temperature, precipitation and weather code"
+      }
+    ]
+  },
   "news": {
     "originWire": {
-      "fetchedAt": "2026-09-17T18:46:01.512Z",
+      "fetchedAt": "2026-09-18T06:08:08.339Z",
       "lookbackHours": 504,
       "headlines": [
-        {
-          "title": "Brazil’s Lula announces welfare increases ahead of presidential election",
-          "summary": "Government says that increase represents an adjustment for inflation that has eaten away purchasing power since 2023.",
-          "url": "https://www.aljazeera.com/news/2026/9/17/brazils-lula-announces-welfare-increases-ahead-of-presidential-election?traffic_source=rss",
-          "publisher": "Al Jazeera",
-          "region": "Brazil",
-          "published": "Thu, 17 Sep 2026 18:07:05 +0000"
-        },
-        {
-          "title": "Vietnam's top leader To Lam heads to UN General Assembly and Canada",
-          "summary": "Vietnam's Party General Secretary and President To Lam will attend the U.N. General Assembly's high-level general debate in New York and pay a state visit to Canada this month.",
-          "url": "https://e.vnexpress.net/news/news/politics/vietnam-s-top-leader-to-lam-heads-to-un-general-assembly-and-canada-5121525.html",
-          "publisher": "VnExpress International",
-          "region": "Vietnam",
-          "published": "Thu, 17 Sep 2026 21:17:21 +0700"
-        },
-        {
-          "title": "Southeast Asia's most populous metropolis ranks its 2nd smartest city",
-          "summary": "Indonesia's capital Jakarta has emerged as one of Southeast Asia's leading intelligent urban centers, ranking second in the region in an assessment of cities using AI and digital technology to enhance urban life.",
-          "url": "https://e.vnexpress.net/news/news/southeast-asia-s-most-populous-metropolis-ranks-its-2nd-smartest-city-5120123.html",
-          "publisher": "VnExpress International",
-          "region": "Indonesia",
-          "published": "Thu, 17 Sep 2026 14:01:48 +0700"
-        },
-        {
-          "title": "Colombian ex-foreign minister charged over nanny's lie detector test",
-          "summary": "Laura Sarabia is accused of ordering police to interrogate her nanny after cash allegedly went missing from her flat.",
-          "url": "https://www.bbc.co.uk/news/articles/c61580330nj1o?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
-          "region": "Colombia",
-          "published": "Tue, 15 Sep 2026 12:59:21 GMT"
-        },
-        {
-          "title": "Aztec document goes on display in Mexico after 186 years abroad",
-          "summary": "France's national library is lending the manuscript recounting the history of the Aztecs to Mexico.",
-          "url": "https://www.bbc.co.uk/news/articles/ck980qyy6d2zo?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
-          "region": "South & Central America",
-          "published": "Thu, 17 Sep 2026 11:00:41 GMT"
-        },
-        {
-          "title": "Rare Ethiopian manuscript stolen by British forces triggers restitution row",
-          "summary": "The Gondar Gospel belonged to the library of Emperor Tewodros but was seized in a battle decades ago.",
-          "url": "https://www.aljazeera.com/news/2026/9/17/rare-ethiopian-manuscript-stolen-by-british-triggers-restitution-row?traffic_source=rss",
-          "publisher": "Al Jazeera",
-          "region": "East Africa",
-          "published": "Thu, 17 Sep 2026 15:52:04 +0000"
-        },
         {
           "title": "Colombia and Brazil deadliest countries for environmental activists, report says",
           "summary": "The two countries accounted for 52% of killings of environmental activists in 2025, according to Global Witness.",
@@ -3314,36 +3586,36 @@
           "published": "Wed, 16 Sep 2026 11:02:54 GMT"
         },
         {
-          "title": "Vietnamese woman arrested for stealing Chinese tourist's luggage at Bangkok airport",
-          "summary": "A 27-year-old Vietnamese national was arrested on Sept. 15 for allegedly stealing a luxury suitcase from a baggage carousel at Suvarnabhumi airport, Thai authorities said.",
-          "url": "https://e.vnexpress.net/news/news/crime/vietnamese-woman-arrested-for-stealing-chinese-tourist-s-luggage-at-bangkok-airport-5121445.html",
+          "title": "Dollar dips against dong",
+          "summary": "The U.S. dollar slipped against the Vietnamese dong on Friday while trading mostly firm against major peers.",
+          "url": "https://e.vnexpress.net/news/business/markets/dollar-dips-against-dong-5121789.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Thu, 17 Sep 2026 18:00:00 +0700"
+          "published": "Fri, 18 Sep 2026 13:03:23 +0700"
         },
         {
-          "title": "Coal billionaire Low Tuck Kwong loses spot as Indonesia's richest person after wealth drops $2.5B",
-          "summary": "Coal tycoon Low Tuck Kwong dropped to third place among Indonesia's richest individuals after losing US$2.5 billion in net worth earlier this week.",
-          "url": "https://e.vnexpress.net/news/business/billionaires/coal-billionaire-low-tuck-kwong-loses-spot-as-indonesia-s-richest-person-after-wealth-drops-2-5b-5121005.html",
-          "publisher": "VnExpress International",
+          "title": "Indonesia gets its first aircraft carrier amid debate over cost and military ambitions",
+          "summary": "The gift from Italy has sparked fierce debate among defence analysts and opposition politicians who question its true cost and purpose Indonesia has received its first aircraft carrier, a former Italian warship that the government says will strengthen the…",
+          "url": "https://www.theguardian.com/world/2026/sep/18/indonesia-first-aircraft-carrier-italy-warship-its-giuseppe-garibaldi",
+          "publisher": "The Guardian",
           "region": "Indonesia",
-          "published": "Thu, 17 Sep 2026 09:45:32 +0700"
+          "published": "Fri, 18 Sep 2026 04:04:57 GMT"
         },
         {
-          "title": "Barrio Triste review – raw and dynamic portrait of anarchic slum life in 1980s Medellín",
-          "summary": "Bad Bunny collaborator Stillz’s debut feature shot using Betacam focuses on vibes over plot Best known as the creative mind behind the music videos of Puerto Rican rapper and singer Bad Bunny, Stillz has risen to the top of the industry as an in-demand…",
-          "url": "https://www.theguardian.com/film/2026/sep/14/barrio-triste-review-anarchic-slum-life-1980s-medellin-bad-bunny-stillz",
-          "publisher": "The Guardian",
+          "title": "Drone attacks by Colombian armed groups more than double in early 2026",
+          "summary": "Civilians are caught in the crossfire of drone attacks between armed groups and government forces.",
+          "url": "https://www.aljazeera.com/news/2026/9/18/drone-attacks-by-colombian-armed-groups-more-than-double-in-early-2026?traffic_source=rss",
+          "publisher": "Al Jazeera",
           "region": "Colombia",
-          "published": "Mon, 14 Sep 2026 12:00:57 GMT"
+          "published": "Fri, 18 Sep 2026 02:51:08 +0000"
         },
         {
-          "title": "‘It’s beautiful when it’s clean’: the Argentine neighbourhood saving a contaminated river",
-          "summary": "Sewage, dog carcasses and industrial waste clog Argentina’s second most-polluted river. Meet the activists cleaning it up Twenty-three years ago, María Monges looked around her flooded neighbourhood and knew something had to be done. Founded in 1998 in Buenos…",
-          "url": "https://www.theguardian.com/environment/2026/sep/17/its-beautiful-when-its-clean-the-argentine-neighbourhood-saving-a-contaminated-river",
-          "publisher": "The Guardian",
+          "title": "New tiger cat species identified in Bolivia, first in over a century",
+          "summary": "Leopardus tilcayo is the first new living cat species named and described in more than a century.",
+          "url": "https://www.aljazeera.com/news/2026/9/18/new-tiger-cat-species-identified-in-bolivia-first-in-over-a-century?traffic_source=rss",
+          "publisher": "Al Jazeera",
           "region": "South & Central America",
-          "published": "Thu, 17 Sep 2026 08:00:44 GMT"
+          "published": "Fri, 18 Sep 2026 04:16:28 +0000"
         },
         {
           "title": "Fifty billion trees by 2030: how Ethiopia is recruiting citizens across the country to plant, plant, plant",
@@ -3362,12 +3634,60 @@
           "published": "Tue, 15 Sep 2026 19:14:00 GMT"
         },
         {
-          "title": "Gasoline prices reach 4-month high",
-          "summary": "Vietnam gasoline prices rose to the highest since May 15 following increase in energy prices on global markets.",
-          "url": "https://e.vnexpress.net/news/business/markets/gasoline-prices-reach-4-month-high-5121486.html",
+          "title": "Central Group, controlled by Thai billionaire family Chirathivat, mulls $1.5B Vietnam investment",
+          "summary": "Thai retail giant Central Group, controlled by one of the country's richest families, the Chirathivats, plans to invest another US$1.5 billion into Vietnam in the next decade.",
+          "url": "https://e.vnexpress.net/news/business/companies/central-group-controlled-by-thai-billionaire-family-chirathivat-mulls-1-5b-vietnam-investment-5121667.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Thu, 17 Sep 2026 18:00:00 +0700"
+          "published": "Fri, 18 Sep 2026 10:28:03 +0700"
+        },
+        {
+          "title": "Southeast Asia's most populous metropolis ranks its 2nd smartest city",
+          "summary": "Indonesia's capital Jakarta has emerged as one of Southeast Asia's leading intelligent urban centers, ranking second in the region in an assessment of cities using AI and digital technology to enhance urban life.",
+          "url": "https://e.vnexpress.net/news/news/southeast-asia-s-most-populous-metropolis-ranks-its-2nd-smartest-city-5120123.html",
+          "publisher": "VnExpress International",
+          "region": "Indonesia",
+          "published": "Thu, 17 Sep 2026 14:01:48 +0700"
+        },
+        {
+          "title": "Colombian ex-foreign minister charged over nanny's lie detector test",
+          "summary": "Laura Sarabia is accused of ordering police to interrogate her nanny after cash allegedly went missing from her flat.",
+          "url": "https://www.bbc.co.uk/news/articles/c61580330nj1o?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
+          "region": "Colombia",
+          "published": "Tue, 15 Sep 2026 12:59:21 GMT"
+        },
+        {
+          "title": "Venezuela nears deal to move $4bn gold reserve from London to New York",
+          "summary": "Agreement would allow interim government of Delcy Rodríguez to access funding",
+          "url": "https://www.ft.com/content/8f1f3047-372d-425f-bcd6-cfe9d5d4890c?syn-25a6b1a6=1",
+          "publisher": "Financial Times",
+          "region": "South & Central America",
+          "published": "Fri, 18 Sep 2026 04:00:29 GMT"
+        },
+        {
+          "title": "Meet the Scottish teenagers poised to represent Uganda",
+          "summary": "Teenage brothers Olly and Seb Fisher are closing in on their dream of international recognition - but it won't come from their homeland of Scotland.",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c6wyz1ll1g3xo?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
+          "region": "East Africa",
+          "published": "Wed, 16 Sep 2026 06:12:11 GMT"
+        },
+        {
+          "title": "‘A coin flip’: on the campaign trail as Brazil’s far right edges back to power",
+          "summary": "Neck-and-neck with Lula in polls, Flávio Bolsonaro fires up his base in the bellwether state of Minas Gerais – starting at the scene of his father’s stabbing A giant banner of Brazil’s incarcerated former president Jair Bolsonaro fluttered in the morning…",
+          "url": "https://www.theguardian.com/world/2026/sep/14/brazil-bolsonaro-far-right-minas-gerais",
+          "publisher": "The Guardian",
+          "region": "Brazil",
+          "published": "Mon, 14 Sep 2026 17:04:05 GMT"
+        },
+        {
+          "title": "3 dead, 16,000 homes flooded as heavy rain batters northern Vietnam",
+          "summary": "Heavy rain, floods and landslides have killed three people and inundated more than 16,000 homes in northern and central Vietnam, according to the Vietnam Disaster and Dyke Management Authority under the Ministry of Agriculture and Environment.",
+          "url": "https://e.vnexpress.net/news/news/environment/3-dead-16-000-homes-flooded-as-heavy-rain-batters-northern-vietnam-5121662.html",
+          "publisher": "VnExpress International",
+          "region": "Vietnam",
+          "published": "Fri, 18 Sep 2026 09:47:41 +0700"
         }
       ],
       "totalTagged": 129,
@@ -3377,7 +3697,7 @@
     },
     "roundup": {
       "source": "assembled",
-      "fetchedAt": "2026-09-17T18:46:00.974Z",
+      "fetchedAt": "2026-09-18T06:08:07.318Z",
       "windowDays": 7,
       "publishers": [
         "Daily Coffee News",
@@ -3503,7 +3823,7 @@
       "note": "Assembled from the coffee trade press over the past seven days, ranked by relevance to the physical trade. Headlines and links are each publisher’s own."
     },
     "dailyRead": {
-      "fetchedAt": "2026-09-17T18:45:59.045Z",
+      "fetchedAt": "2026-09-18T06:08:05.790Z",
       "article": {
         "title": "Rad Coffee Co-Founder Unleashes DeskPanther Operations Software",
         "summary": "DeskPanther, a coffee shop operations platform created and tested by California-based Rad Coffee Co-Founder Jade Valore, launched publicly Sept. 8 with tools for tracking inventory, repairs, cash handling and shift...",
@@ -3831,39 +4151,38 @@
     {
       "source": "daily-read",
       "ok": true,
-      "ms": 546
+      "ms": 299
     },
     {
       "source": "arabica-futures",
       "ok": true,
-      "ms": 930
+      "ms": 476
     },
     {
-      "source": "fx",
+      "source": "weather",
       "ok": true,
-      "ms": 1141
+      "ms": 822
     },
     {
       "source": "weekly-recap",
       "ok": true,
-      "ms": 2477
+      "ms": 1830
     },
     {
-      "source": "origin-wire",
+      "source": "fx",
       "ok": true,
-      "ms": 3018
+      "ms": 2314
     },
     {
       "source": "ico-report",
       "ok": false,
-      "ms": 3449,
+      "ms": 2791,
       "error": "indicator prices: 2025-09 has 1 values for 7 columns"
     },
     {
-      "source": "weather",
-      "ok": false,
-      "ms": 61803,
-      "error": "This operation was aborted"
+      "source": "origin-wire",
+      "ok": true,
+      "ms": 2855
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T06:08:08.342Z",
+  "generatedAt": "2026-09-18T18:42:51.203Z",
   "schema": 5,
   "schedule": {
     "slotsUtc": [
@@ -41,60 +41,52 @@
         {
           "code": "KCZ26",
           "label": "Dec 2026",
-          "close": 276.5,
-          "volume": 13392
+          "close": 277.2,
+          "volume": 11205
         },
         {
           "code": "KCH27",
           "label": "Mar 2027",
-          "close": 268.55,
-          "volume": 6162
+          "close": 268.8,
+          "volume": 5887
         },
         {
           "code": "KCK27",
           "label": "May 2027",
-          "close": 265.8,
-          "volume": 2336
+          "close": 266.3,
+          "volume": 4597
         },
         {
           "code": "KCN27",
           "label": "Jul 2027",
-          "close": 264.25,
-          "volume": 1086
+          "close": 265.1,
+          "volume": 1149
         },
         {
           "code": "KCU27",
           "label": "Sep 2027",
-          "close": 262.65,
-          "volume": 673
+          "close": 264.8,
+          "volume": 645
         },
         {
           "code": "KCZ27",
           "label": "Dec 2027",
-          "close": 260.25,
-          "volume": 700
+          "close": 264.65,
+          "volume": 427
         }
       ],
       "quote": {
-        "last": 276.75,
-        "open": 280,
-        "high": 280.70001220703125,
-        "low": 274.6000061035156,
-        "previousClose": 281.54998779296875,
-        "change": -4.8,
-        "changePct": -1.705,
-        "volume": 13693,
-        "asOf": "2026-09-17T17:29:55.000Z"
+        "last": 277.2,
+        "open": 279,
+        "high": 281,
+        "low": 275.04998779296875,
+        "previousClose": 276.5,
+        "change": 0.7,
+        "changePct": 0.253,
+        "volume": 11205,
+        "asOf": "2026-09-18T17:29:55.000Z"
       },
       "bars": [
-        {
-          "date": "2025-06-11",
-          "open": 304.5,
-          "high": 306.6499938964844,
-          "low": 300,
-          "close": 301.3999938964844,
-          "volume": 82
-        },
         {
           "date": "2025-06-12",
           "open": 298.1000061035156,
@@ -2646,13 +2638,21 @@
           "low": 274.6000061035156,
           "close": 276.5,
           "volume": 13693
+        },
+        {
+          "date": "2026-09-18",
+          "open": 279,
+          "high": 281,
+          "low": 275.04998779296875,
+          "close": 277.20001220703125,
+          "volume": 11205
         }
       ],
       "crossCheck": {
-        "tradingView": 276.5,
-        "yahoo": 276.75,
-        "diff": -0.25,
-        "diffPct": -0.09,
+        "tradingView": 277.2,
+        "yahoo": 277.2,
+        "diff": 0,
+        "diffPct": 0,
         "agree": true
       },
       "sources": [
@@ -2668,17 +2668,17 @@
         }
       ],
       "technicals": {
-        "observations": 504,
-        "sma20": 303.6574981689453,
-        "sma50": 308.3839996337891,
-        "sma200": 288.912749710083,
-        "rsi14": 32.779033832828446,
+        "observations": 505,
+        "sma20": 301.05249938964846,
+        "sma50": 307.36399963378904,
+        "sma200": 288.6497498321533,
+        "rsi14": 33.47290674145191,
         "macd": {
-          "line": -8.38209337698055,
-          "signal": -5.159220042766171,
-          "histogram": -3.222873334214378
+          "line": -8.861188398081708,
+          "signal": -5.899613713829279,
+          "histogram": -2.9615746842524295
         },
-        "atr14": 11.242498589027694,
+        "atr14": 10.86446384745652,
         "donchian20": {
           "high": 345.6499938964844,
           "low": 274.6000061035156,
@@ -2719,29 +2719,25 @@
           "low": 210.75
         },
         "method": "Wilder RSI(14); MACD(12,26,9) on EMA; ATR(14); pivots = 5-bar swing highs/lows; Donchian(20).",
-        "basis": "504 daily bars for KCZ26"
+        "basis": "505 daily bars for KCZ26"
       },
       "barsPublished": 320,
-      "barsAnalysed": 504
+      "barsAnalysed": 505
     }
   },
   "fx": {
-    "asOf": "2026-09-17",
+    "asOf": "2026-09-18",
     "pairs": {
       "GBPUSD": {
         "pair": "GBP/USD",
-        "rate": 1.3376,
-        "previous": 1.3456,
+        "rate": 1.3344,
+        "previous": 1.3376,
         "dp": 4,
         "note": "Sterling stronger means a dollar-priced contract costs a UK buyer less.",
-        "change": -0.008,
-        "changePct": -0.595,
-        "change1m": -1.33,
+        "change": -0.0032,
+        "changePct": -0.239,
+        "change1m": -2.07,
         "history": [
-          {
-            "date": "2026-06-26",
-            "rate": 1.3218
-          },
           {
             "date": "2026-06-29",
             "rate": 1.323
@@ -2977,23 +2973,23 @@
           {
             "date": "2026-09-17",
             "rate": 1.3376
+          },
+          {
+            "date": "2026-09-18",
+            "rate": 1.3344
           }
         ]
       },
       "USDBRL": {
         "pair": "USD/BRL",
-        "rate": 5.1307,
-        "previous": 5.1459,
+        "rate": 5.1359,
+        "previous": 5.1307,
         "dp": 4,
         "note": "A weaker real encourages Brazilian producer selling.",
-        "change": -0.0152,
-        "changePct": -0.295,
-        "change1m": -1.41,
+        "change": 0.0052,
+        "changePct": 0.101,
+        "change1m": -1.11,
         "history": [
-          {
-            "date": "2026-06-26",
-            "rate": 5.1759
-          },
           {
             "date": "2026-06-29",
             "rate": 5.1639
@@ -3229,14 +3225,18 @@
           {
             "date": "2026-09-17",
             "rate": 5.1307
+          },
+          {
+            "date": "2026-09-18",
+            "rate": 5.1359
           }
         ]
       }
     },
     "ptax": {
-      "buy": 5.1515,
-      "sell": 5.1521,
-      "quotedAt": "2026-09-17 13:03:21.858212"
+      "buy": 5.1569,
+      "sell": 5.1575,
+      "quotedAt": "2026-09-18 13:03:34.742036"
     },
     "sources": [
       {
@@ -3252,7 +3252,7 @@
     ]
   },
   "weather": {
-    "fetchedAt": "2026-09-18T06:08:06.305Z",
+    "fetchedAt": "2026-09-18T18:42:47.786Z",
     "thresholds": {
       "frostC": 4,
       "heavyRainMm": 50,
@@ -3280,17 +3280,23 @@
           "date": "2026-09-17",
           "tMax": 22.5,
           "tMin": 14.5,
-          "rain": 0.1,
+          "rain": 0.5,
           "code": 51,
           "cloud": 51,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 148.4,
-        "rainForecast7": 15.3,
+        "rain14": 148.8,
+        "rainForecast7": 55.5,
         "minForecast7": 14.6,
-        "alerts": []
+        "alerts": [
+          {
+            "type": "wet",
+            "severity": "watch",
+            "text": "56 mm forecast over 7 days — harvest/drying disruption risk."
+          }
+        ]
       },
       {
         "key": "cerrado",
@@ -3303,16 +3309,16 @@
           "date": "2026-09-17",
           "tMax": 29.2,
           "tMin": 18.5,
-          "rain": 0.8,
+          "rain": 0.4,
           "code": 51,
-          "cloud": 19,
+          "cloud": 16,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 54,
-        "rainForecast7": 7.5,
-        "minForecast7": 17.3,
+        "rain14": 53.6,
+        "rainForecast7": 4.4,
+        "minForecast7": 17.6,
         "alerts": []
       },
       {
@@ -3326,16 +3332,16 @@
           "date": "2026-09-17",
           "tMax": 25.3,
           "tMin": 20.7,
-          "rain": 0.6,
+          "rain": 0.8,
           "code": 51,
-          "cloud": 89,
+          "cloud": 90,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 46.6,
-        "rainForecast7": 2.6,
-        "minForecast7": 18.7,
+        "rain14": 46.8,
+        "rainForecast7": 3.2,
+        "minForecast7": 18.5,
         "alerts": []
       },
       {
@@ -3356,14 +3362,14 @@
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 215.2,
-        "rainForecast7": 55.3,
-        "minForecast7": 22.3,
+        "rain14": 192,
+        "rainForecast7": 104.7,
+        "minForecast7": 22.4,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "55 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "105 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3385,14 +3391,14 @@
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 158.7,
-        "rainForecast7": 100.1,
-        "minForecast7": 18.9,
+        "rain14": 144.2,
+        "rainForecast7": 130.3,
+        "minForecast7": 19.5,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "100 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "130 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3409,14 +3415,14 @@
           "tMin": 15.9,
           "rain": 1.2,
           "code": 51,
-          "cloud": 47,
+          "cloud": 38,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
         "rain14": 68.5,
-        "rainForecast7": 18.2,
-        "minForecast7": 15.2,
+        "rainForecast7": 23.5,
+        "minForecast7": 15.5,
         "alerts": []
       },
       {
@@ -3432,14 +3438,14 @@
           "tMin": 16.3,
           "rain": 0.3,
           "code": 51,
-          "cloud": 51,
+          "cloud": 48,
           "observed": true
         },
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
         "rain14": 13.2,
-        "rainForecast7": 29,
-        "minForecast7": 15.6,
+        "rainForecast7": 32.9,
+        "minForecast7": 15.3,
         "alerts": []
       },
       {
@@ -3460,9 +3466,9 @@
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 152.2,
-        "rainForecast7": 27.3,
-        "minForecast7": 16.6,
+        "rain14": 151.2,
+        "rainForecast7": 24,
+        "minForecast7": 16.7,
         "alerts": []
       },
       {
@@ -3483,9 +3489,9 @@
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 22,
-        "rainForecast7": 30.8,
-        "minForecast7": 24.5,
+        "rain14": 19.7,
+        "rainForecast7": 40.7,
+        "minForecast7": 24.3,
         "alerts": []
       },
       {
@@ -3507,8 +3513,8 @@
         "condition": "dry",
         "conditionLabel": "Clear / dry",
         "rain14": 51.4,
-        "rainForecast7": 14.3,
-        "minForecast7": 12.3,
+        "rainForecast7": 6,
+        "minForecast7": 13.2,
         "alerts": []
       },
       {
@@ -3522,21 +3528,21 @@
           "date": "2026-09-17",
           "tMax": 26.9,
           "tMin": 17.1,
-          "rain": 5.5,
-          "code": 81,
+          "rain": 4.5,
+          "code": 55,
           "cloud": 92,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 38.8,
-        "rainForecast7": 89.3,
-        "minForecast7": 16.9,
+        "rain14": 37.8,
+        "rainForecast7": 127.3,
+        "minForecast7": 17.1,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "89 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "127 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3551,16 +3557,16 @@
           "date": "2026-09-17",
           "tMax": 30.5,
           "tMin": 18.7,
-          "rain": 8.2,
+          "rain": 6.6,
           "code": 55,
-          "cloud": 72,
+          "cloud": 68,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 83.2,
-        "rainForecast7": 24.5,
-        "minForecast7": 18.7,
+        "rain14": 81.6,
+        "rainForecast7": 15.9,
+        "minForecast7": 18.2,
         "alerts": []
       }
     ],
@@ -3574,24 +3580,24 @@
   },
   "news": {
     "originWire": {
-      "fetchedAt": "2026-09-18T06:08:08.339Z",
+      "fetchedAt": "2026-09-18T18:42:50.952Z",
       "lookbackHours": 504,
       "headlines": [
         {
-          "title": "Colombia and Brazil deadliest countries for environmental activists, report says",
-          "summary": "The two countries accounted for 52% of killings of environmental activists in 2025, according to Global Witness.",
-          "url": "https://www.bbc.co.uk/news/articles/c6kgxjl35822o?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
+          "title": "Brazil’s Lula announces higher welfare payments and free weight-loss jabs ahead of election",
+          "summary": "Critics say moves from leftwing incumbent president are electorally motivated two weeks before Brazil’s elections Brazil’s president, Luiz Inácio Lula da Silva, has announced a 15% increase in the country’s main cash-transfer programme for poor families, as…",
+          "url": "https://www.theguardian.com/world/2026/sep/18/brazil-lula-welfare-payments-weight-loss-jabs-election",
+          "publisher": "The Guardian",
           "region": "Brazil",
-          "published": "Wed, 16 Sep 2026 11:02:54 GMT"
+          "published": "Fri, 18 Sep 2026 17:10:37 GMT"
         },
         {
-          "title": "Dollar dips against dong",
-          "summary": "The U.S. dollar slipped against the Vietnamese dong on Friday while trading mostly firm against major peers.",
-          "url": "https://e.vnexpress.net/news/business/markets/dollar-dips-against-dong-5121789.html",
+          "title": "Australia to exempt Vietnamese students from ban on bringing family members",
+          "summary": "Vietnam remains a market of interest for Australian education providers, according to Jane Tran, Board Director of the Vietnam-Australia Scholars & Experts Association (VASEA), following Australia's announcement of the next phase of reforms to its migration…",
+          "url": "https://e.vnexpress.net/news/news/education/australia-to-exempt-vietnamese-students-from-ban-on-bringing-family-members-5122028.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Fri, 18 Sep 2026 13:03:23 +0700"
+          "published": "Fri, 18 Sep 2026 20:41:55 +0700"
         },
         {
           "title": "Indonesia gets its first aircraft carrier amid debate over cost and military ambitions",
@@ -3602,44 +3608,44 @@
           "published": "Fri, 18 Sep 2026 04:04:57 GMT"
         },
         {
-          "title": "Drone attacks by Colombian armed groups more than double in early 2026",
-          "summary": "Civilians are caught in the crossfire of drone attacks between armed groups and government forces.",
-          "url": "https://www.aljazeera.com/news/2026/9/18/drone-attacks-by-colombian-armed-groups-more-than-double-in-early-2026?traffic_source=rss",
-          "publisher": "Al Jazeera",
+          "title": "Colombian ex-foreign minister charged over nanny's lie detector test",
+          "summary": "Laura Sarabia is accused of ordering police to interrogate her nanny after cash allegedly went missing from her flat.",
+          "url": "https://www.bbc.co.uk/news/articles/c61580330nj1o?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
           "region": "Colombia",
-          "published": "Fri, 18 Sep 2026 02:51:08 +0000"
+          "published": "Tue, 15 Sep 2026 12:59:21 GMT"
         },
         {
-          "title": "New tiger cat species identified in Bolivia, first in over a century",
-          "summary": "Leopardus tilcayo is the first new living cat species named and described in more than a century.",
-          "url": "https://www.aljazeera.com/news/2026/9/18/new-tiger-cat-species-identified-in-bolivia-first-in-over-a-century?traffic_source=rss",
+          "title": "New Bolivian cat claws its way into species list: What we meow",
+          "summary": "Purrfectly new to science: the first new wild cat found in over a century proves that cats do have nine (secret) lives.",
+          "url": "https://www.aljazeera.com/news/2026/9/18/new-bolivian-cat-claws-its-way-into-species-list-what-we-meow?traffic_source=rss",
           "publisher": "Al Jazeera",
           "region": "South & Central America",
-          "published": "Fri, 18 Sep 2026 04:16:28 +0000"
+          "published": "Fri, 18 Sep 2026 14:25:53 +0000"
         },
         {
-          "title": "Fifty billion trees by 2030: how Ethiopia is recruiting citizens across the country to plant, plant, plant",
-          "summary": "After losing much of its forests in recent decades, the country’s people have led the way in planting saplings across the country as part of the government’s Green Legacy Initiative When Halima Kedir first began planting trees, she was met with scepticism and…",
-          "url": "https://www.theguardian.com/global-development/2026/sep/17/i-see-them-like-my-own-children-reforesting-ethiopia-with-50bn-trees-one-step-at-a-time",
-          "publisher": "The Guardian",
+          "title": "More than 112,000 displaced by Yemen fighting; thousands flee to Djibouti",
+          "summary": "United Nations says 22 million people need humanitarian aid as conflict intensifies.",
+          "url": "https://www.aljazeera.com/news/2026/9/18/more-than-112000-displaced-by-yemen-fighting-thousands-flee-to-djibouti?traffic_source=rss",
+          "publisher": "Al Jazeera",
           "region": "East Africa",
-          "published": "Thu, 17 Sep 2026 11:00:47 GMT"
+          "published": "Fri, 18 Sep 2026 16:12:28 +0000"
         },
         {
-          "title": "Ferocious fight among Brazil’s supreme court erupts on eve of presidential election",
-          "summary": "Scandal explodes as country’s election campaign peaks, with polls suggesting dead heat between candidates Brazil’s supreme court has been thrust into what experts consider the greatest crisis since the return of democracy in the 1980s, as two rival judges…",
-          "url": "https://www.theguardian.com/world/2026/sep/15/brazil-supreme-court-presidential-election",
+          "title": "Drone footage shows severe drought hitting river in Brazil – video",
+          "summary": "Drone footage from 17 September shows the Araguaia River drying up, as severe drought grips parts of Brazil. The country is preparing for potential El Niño impacts in late 2026-27, with the Tocantins-Araguaia basin already experiencing severe drought…",
+          "url": "https://www.theguardian.com/world/video/2026/sep/18/drone-footage-shows-severe-drought-hitting-brazils-northern-river-video",
           "publisher": "The Guardian",
           "region": "Brazil",
-          "published": "Tue, 15 Sep 2026 19:14:00 GMT"
+          "published": "Fri, 18 Sep 2026 14:04:13 GMT"
         },
         {
-          "title": "Central Group, controlled by Thai billionaire family Chirathivat, mulls $1.5B Vietnam investment",
-          "summary": "Thai retail giant Central Group, controlled by one of the country's richest families, the Chirathivats, plans to invest another US$1.5 billion into Vietnam in the next decade.",
-          "url": "https://e.vnexpress.net/news/business/companies/central-group-controlled-by-thai-billionaire-family-chirathivat-mulls-1-5b-vietnam-investment-5121667.html",
+          "title": "MoMo, Saigontourist Travel partner to develop digital travel services",
+          "summary": "MoMo and Saigontourist Travel will distribute travel products, develop promotions and expand payment services for Vietnamese travelers.",
+          "url": "https://e.vnexpress.net/news/business/momo-saigontourist-travel-partner-to-develop-digital-travel-services-5121537.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Fri, 18 Sep 2026 10:28:03 +0700"
+          "published": "Fri, 18 Sep 2026 16:45:00 +0700"
         },
         {
           "title": "Southeast Asia's most populous metropolis ranks its 2nd smartest city",
@@ -3650,61 +3656,134 @@
           "published": "Thu, 17 Sep 2026 14:01:48 +0700"
         },
         {
-          "title": "Colombian ex-foreign minister charged over nanny's lie detector test",
-          "summary": "Laura Sarabia is accused of ordering police to interrogate her nanny after cash allegedly went missing from her flat.",
-          "url": "https://www.bbc.co.uk/news/articles/c61580330nj1o?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
+          "title": "Barrio Triste review – raw and dynamic portrait of anarchic slum life in 1980s Medellín",
+          "summary": "Bad Bunny collaborator Stillz’s debut feature shot using Betacam focuses on vibes over plot Best known as the creative mind behind the music videos of Puerto Rican rapper and singer Bad Bunny, Stillz has risen to the top of the industry as an in-demand…",
+          "url": "https://www.theguardian.com/film/2026/sep/14/barrio-triste-review-anarchic-slum-life-1980s-medellin-bad-bunny-stillz",
+          "publisher": "The Guardian",
           "region": "Colombia",
-          "published": "Tue, 15 Sep 2026 12:59:21 GMT"
+          "published": "Mon, 14 Sep 2026 12:00:57 GMT"
         },
         {
-          "title": "Venezuela nears deal to move $4bn gold reserve from London to New York",
-          "summary": "Agreement would allow interim government of Delcy Rodríguez to access funding",
-          "url": "https://www.ft.com/content/8f1f3047-372d-425f-bcd6-cfe9d5d4890c?syn-25a6b1a6=1",
+          "title": "Come on Latin America, you owe me one",
+          "summary": "After years and months of underperformance, I’m feeling lucky this time",
+          "url": "https://www.ft.com/content/0649f3dd-e473-4174-ad1d-b01a93923bd3?syn-25a6b1a6=1",
           "publisher": "Financial Times",
           "region": "South & Central America",
-          "published": "Fri, 18 Sep 2026 04:00:29 GMT"
+          "published": "Fri, 18 Sep 2026 13:29:40 GMT"
         },
         {
-          "title": "Meet the Scottish teenagers poised to represent Uganda",
-          "summary": "Teenage brothers Olly and Seb Fisher are closing in on their dream of international recognition - but it won't come from their homeland of Scotland.",
-          "url": "https://www.bbc.co.uk/sport/football/articles/c6wyz1ll1g3xo?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
-          "region": "East Africa",
-          "published": "Wed, 16 Sep 2026 06:12:11 GMT"
-        },
-        {
-          "title": "‘A coin flip’: on the campaign trail as Brazil’s far right edges back to power",
-          "summary": "Neck-and-neck with Lula in polls, Flávio Bolsonaro fires up his base in the bellwether state of Minas Gerais – starting at the scene of his father’s stabbing A giant banner of Brazil’s incarcerated former president Jair Bolsonaro fluttered in the morning…",
-          "url": "https://www.theguardian.com/world/2026/sep/14/brazil-bolsonaro-far-right-minas-gerais",
+          "title": "‘We demand the truth’: Olga Tokarczuk and JM Coetzee lead calls for proof of life of disappeared Eritrean writers",
+          "summary": "More than 180 writers sign letter renewing calls for information on 12 authors detained incommunicado since 2001 crackdown on free speech by Isaias Afwerki More than 180 writers have signed a letter to Eritrean president Isaias Afwerki calling for proof of…",
+          "url": "https://www.theguardian.com/books/2026/sep/18/olga-tokarczuk-j-m-coetzee-lead-calls-for-release-of-disappeared-eritrean-writers",
           "publisher": "The Guardian",
-          "region": "Brazil",
-          "published": "Mon, 14 Sep 2026 17:04:05 GMT"
+          "region": "East Africa",
+          "published": "Fri, 18 Sep 2026 08:30:12 GMT"
         },
         {
-          "title": "3 dead, 16,000 homes flooded as heavy rain batters northern Vietnam",
-          "summary": "Heavy rain, floods and landslides have killed three people and inundated more than 16,000 homes in northern and central Vietnam, according to the Vietnam Disaster and Dyke Management Authority under the Ministry of Agriculture and Environment.",
-          "url": "https://e.vnexpress.net/news/news/environment/3-dead-16-000-homes-flooded-as-heavy-rain-batters-northern-vietnam-5121662.html",
+          "title": "Colombia and Brazil deadliest countries for environmental activists, report says",
+          "summary": "The two countries accounted for 52% of killings of environmental activists in 2025, according to Global Witness.",
+          "url": "https://www.bbc.co.uk/news/articles/c6kgxjl35822o?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
+          "region": "Brazil",
+          "published": "Wed, 16 Sep 2026 11:02:54 GMT"
+        },
+        {
+          "title": "Vietnamese line up for Apple's first red Pro iPhone despite 11% price hike",
+          "summary": "Thousands of Vietnamese queue to pick up their new iPhones Friday as Apple's authorized resellers in Vietnam began handing over the iPhone 18 Pro and 18 Pro Max simultaneously from 8 a.m.",
+          "url": "https://e.vnexpress.net/photo/news/vietnamese-line-up-for-apples-first-red-pro-iphone-despite-11-price-hike-5121908.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Fri, 18 Sep 2026 09:47:41 +0700"
+          "published": "Fri, 18 Sep 2026 16:08:25 +0700"
         }
       ],
-      "totalTagged": 129,
+      "totalTagged": 127,
       "feedsQueried": 14,
       "errors": [],
       "note": "General headlines from the growing regions, taken from outlets of record and tagged to a region by the countries and cities they name."
     },
     "roundup": {
       "source": "assembled",
-      "fetchedAt": "2026-09-18T06:08:07.318Z",
+      "fetchedAt": "2026-09-18T18:42:49.883Z",
       "windowDays": 7,
       "publishers": [
         "Daily Coffee News",
         "Fresh Cup",
+        "Specialty Coffee Association",
         "World Coffee Portal"
       ],
       "items": [
+        {
+          "headline": "Design Details: A Fluid Space for Cinnamon Rolls and Specialty Coffee at Cinnamood in Barcelona",
+          "summary": "Welcome to Design Details, an ongoing editorial feature in Daily Coffee News focused on individual examples of coffee shop architecture, interior design, packaging design or branding. If you are a...",
+          "url": "https://dailycoffeenews.com/2026/09/18/design-details-a-fluid-space-for-cinnamon-rolls-and-specialty-coffee-at-cinnamood-in-barcelona/",
+          "publisher": "Daily Coffee News",
+          "published": "Fri, 18 Sep 2026 16:29:04 +0000",
+          "date": "Fri, 18 Sep",
+          "section": "Roasting & retail"
+        },
+        {
+          "headline": "Romania’s Brewtifi attains €1.6m valuation one year after launch",
+          "summary": "A group of angel investors are backing the app’s potential to connect the European specialty coffee market with a new generation of coffee consumers An app for European specialty coffee enthusiasts has raised new investment to scale its reach across the…",
+          "url": "https://www.worldcoffeeportal.com/news/romanias-brewtifi-attains-eur1-6m-valuation-one-year-after-launch/",
+          "publisher": "World Coffee Portal",
+          "published": "Fri, 18 Sep 2026 15:01:32 GMT",
+          "date": "Fri, 18 Sep",
+          "section": "Trade & production"
+        },
+        {
+          "headline": "Swiss Water unveils multi-million-dollar investment in production expansion",
+          "summary": "The decaffeinated coffee company counts leading specialty coffee roasters Blue Bottle Coffee, Onyx Coffee Lab and Equator Coffees among its clients",
+          "url": "https://www.worldcoffeeportal.com/news/swiss-water-unveils-multi-million-dollar-investment-in-production-expansion/",
+          "publisher": "World Coffee Portal",
+          "published": "Fri, 18 Sep 2026 14:55:14 GMT",
+          "date": "Fri, 18 Sep",
+          "section": "Top stories of the week"
+        },
+        {
+          "headline": "SCA Establishes $1 Million Endowed Fellowship in Coffee Science at UC Davis",
+          "summary": "Specialty Coffee Association Establishes $1 Million Endowed Fellowship in Coffee Science at UC Davis",
+          "url": "https://sca.coffee/sca-news/sca-establishes-1million-endowed-fellowship",
+          "publisher": "Specialty Coffee Association",
+          "published": "Fri, 18 Sep 2026 12:55:17 +0000",
+          "date": "Fri, 18 Sep",
+          "section": "Roasting & retail"
+        },
+        {
+          "headline": "Weekly Coffee News: Colombian Relief Collab + Superautomatic Espresso Launch",
+          "summary": "Welcome to DCN’s Weekly Coffee News! Subscribe here for all the latest coffee industry news. Also, check out the latest career opportunities at CoffeeIndustryJobs.com. Bigface and J Balvin Launch Colombia...",
+          "url": "https://dailycoffeenews.com/2026/09/18/weekly-coffee-news-colombian-relief-collab-superautomatic-espresso-launch/",
+          "publisher": "Daily Coffee News",
+          "published": "Fri, 18 Sep 2026 12:04:44 +0000",
+          "date": "Fri, 18 Sep",
+          "section": "Trade & production"
+        },
+        {
+          "headline": "Nestlé reviewing Russia operations after Kremlin moves to seize assets",
+          "summary": "The Nescafé and KitKat maker currently operates six production facilities in Russia and employed 7,000 staff at the outbreak of the war in Ukraine in February 2022",
+          "url": "https://www.worldcoffeeportal.com/news/nestle-reviewing-russia-operations-after-kremlin-moves-to-seize-assets/",
+          "publisher": "World Coffee Portal",
+          "published": "Fri, 18 Sep 2026 11:41:36 GMT",
+          "date": "Fri, 18 Sep",
+          "section": "Top stories of the week"
+        },
+        {
+          "headline": "New CEO for Australia’s Soul Origin as it looks to more than double in size",
+          "summary": "The new South Wales-based coffee group is seeking to gain ground on Australian branded coffee shop market leader, McCafé",
+          "url": "https://www.worldcoffeeportal.com/news/new-ceo-for-australias-soul-origin-as-it-looks-to-more-than-double-in-size/",
+          "publisher": "World Coffee Portal",
+          "published": "Fri, 18 Sep 2026 09:48:40 GMT",
+          "date": "Fri, 18 Sep",
+          "section": "Top stories of the week"
+        },
+        {
+          "headline": "Episode 220: Raising the bar: a conversation with Patrik Rolf, April Coffee Roasters",
+          "summary": "April Coffee Roasters’ Patrik Rolf discusses the power of community and slow growth, and explores the thinking behind April’s new Hand Grinder and the independent Kickstarter campaign bringing it to life",
+          "url": "https://www.worldcoffeeportal.com/podcast/episode-220-raising-the-bar-a-conversation-with-patrik-rolf-april-coffee-roasters/",
+          "publisher": "World Coffee Portal",
+          "published": "Fri, 18 Sep 2026 08:18:32 GMT",
+          "date": "Fri, 18 Sep",
+          "section": "Roasting & retail"
+        },
         {
           "headline": "Furthers & Betters Goes Beyond the Cup for Specialty Coffee Consumer Intelligence",
           "summary": "A new specialty coffee research and consulting firm called Furthers & Betters is launching with a focus on the people actually buying and drinking the coffee. Co-founded by longtime consumer...",
@@ -3730,16 +3809,7 @@
           "publisher": "Daily Coffee News",
           "published": "Wed, 16 Sep 2026 17:45:05 +0000",
           "date": "Wed, 16 Sep",
-          "section": "Top stories of the week"
-        },
-        {
-          "headline": "Labor Department Sues Oklahoma Nonprofit Not Your Average Joe",
-          "summary": "The U.S. Department of Labor has sued Oklahoma nonprofit coffee company Not Your Average Joe and founder and executive director Tim Herbel, alleging violations involving employee tips, minimum wages, overtime...",
-          "url": "https://dailycoffeenews.com/2026/09/16/labor-department-sues-oklahoma-nonprofit-not-your-average-joe/",
-          "publisher": "Daily Coffee News",
-          "published": "Wed, 16 Sep 2026 15:15:14 +0000",
-          "date": "Wed, 16 Sep",
-          "section": "Roasting & retail"
+          "section": "Trade & production"
         },
         {
           "headline": "Hijau Coffee Brings the Flavors of Indonesia to San Jose",
@@ -3751,15 +3821,6 @@
           "section": "Trade & production"
         },
         {
-          "headline": "The New Current Coffee Summit Brings Forward-Thinkers Together to Learn and Experiment",
-          "summary": "The inaugural Current Coffee Summit brings coffee leaders face-to-face with the science, equipment, and ideas reshaping coffee—September 29–30 in St. Louis. The post The New Current Coffee Summit Brings Forward-Thinkers Together to Learn and Experiment…",
-          "url": "https://freshcup.com/the-new-current-coffee-summit-brings-forward-thinkers-together-to-learn-and-experiment/",
-          "publisher": "Fresh Cup",
-          "published": "Wed, 16 Sep 2026 11:58:00 +0000",
-          "date": "Wed, 16 Sep",
-          "section": "Roasting & retail"
-        },
-        {
           "headline": "Italy’s Caffè Vergnano expands European café network with Ireland debut",
           "summary": "The launch comes four years after the Turin-based coffee roaster began supplying hotels and restaurants in the market",
           "url": "https://www.worldcoffeeportal.com/news/italys-caffe-vergnano-expands-european-cafe-network-with-ireland-debut/",
@@ -3767,15 +3828,6 @@
           "published": "Wed, 16 Sep 2026 11:11:02 GMT",
           "date": "Wed, 16 Sep",
           "section": "Top stories of the week"
-        },
-        {
-          "headline": "Gimmick or genius? Free Bean launches the world’s first ‘free’ coffee shop",
-          "summary": "The US start-up is opening its first store in New York and customers won’t pay a penny for the coffee on offer",
-          "url": "https://www.worldcoffeeportal.com/news/genius-or-gimmick-free-bean-launches-worlds-first-free-coffee-shop/",
-          "publisher": "World Coffee Portal",
-          "published": "Wed, 16 Sep 2026 11:03:25 GMT",
-          "date": "Wed, 16 Sep",
-          "section": "Roasting & retail"
         },
         {
           "headline": "Is your coffee operation ready for the Autumn rush?",
@@ -3796,22 +3848,13 @@
           "section": "Top stories of the week"
         },
         {
-          "headline": "Shanghai Coffee Boom Intensifies Competition for Quality Coffees",
-          "summary": "Shanghai’s rapidly evolving coffee market could have global consequences as demand grows for high-quality, differentiated coffees, according to a new U.S. Department of Agriculture Foreign Agricultural Service (FAS) report. The...",
-          "url": "https://dailycoffeenews.com/2026/09/14/shanghai-coffee-boom-intensifies-competition-for-quality-coffees/",
-          "publisher": "Daily Coffee News",
-          "published": "Mon, 14 Sep 2026 16:31:22 +0000",
-          "date": "Mon, 14 Sep",
-          "section": "Top stories of the week"
-        },
-        {
           "headline": "Coffee News Club: Week of September 14",
           "summary": "Has pumpkin spice had its day? McDonald’s thinks so. Plus, climate-resilient robusta may not be so hardy after all, and it's a good idea to let hot coffee cool before drinking. The post Coffee News Club: Week of September 14 appeared first on Fresh Cup .",
           "url": "https://freshcup.com/coffee-news-club-week-of-september-14/",
           "publisher": "Fresh Cup",
           "published": "Mon, 14 Sep 2026 11:00:00 +0000",
           "date": "Mon, 14 Sep",
-          "section": "Top stories of the week"
+          "section": "Trade & production"
         }
       ],
       "errors": [
@@ -3823,13 +3866,13 @@
       "note": "Assembled from the coffee trade press over the past seven days, ranked by relevance to the physical trade. Headlines and links are each publisher’s own."
     },
     "dailyRead": {
-      "fetchedAt": "2026-09-18T06:08:05.790Z",
+      "fetchedAt": "2026-09-18T18:42:47.456Z",
       "article": {
-        "title": "Rad Coffee Co-Founder Unleashes DeskPanther Operations Software",
-        "summary": "DeskPanther, a coffee shop operations platform created and tested by California-based Rad Coffee Co-Founder Jade Valore, launched publicly Sept. 8 with tools for tracking inventory, repairs, cash handling and shift...",
-        "url": "https://dailycoffeenews.com/2026/09/15/rad-coffee-co-founder-unleashes-deskpanther-operations-software/",
+        "title": "Weekly Coffee News: Colombian Relief Collab + Superautomatic Espresso Launch",
+        "summary": "Welcome to DCN’s Weekly Coffee News! Subscribe here for all the latest coffee industry news. Also, check out the latest career opportunities at CoffeeIndustryJobs.com. Bigface and J Balvin Launch Colombia...",
+        "url": "https://dailycoffeenews.com/2026/09/18/weekly-coffee-news-colombian-relief-collab-superautomatic-espresso-launch/",
         "publisher": "Daily Coffee News",
-        "published": "Tue, 15 Sep 2026 13:37:48 +0000"
+        "published": "Fri, 18 Sep 2026 12:04:44 +0000"
       },
       "considered": 10
     }
@@ -4151,38 +4194,38 @@
     {
       "source": "daily-read",
       "ok": true,
-      "ms": 299
-    },
-    {
-      "source": "arabica-futures",
-      "ok": true,
-      "ms": 476
+      "ms": 695
     },
     {
       "source": "weather",
       "ok": true,
-      "ms": 822
+      "ms": 1032
     },
     {
-      "source": "weekly-recap",
+      "source": "arabica-futures",
       "ok": true,
-      "ms": 1830
+      "ms": 1377
     },
     {
       "source": "fx",
       "ok": true,
-      "ms": 2314
+      "ms": 1966
     },
     {
-      "source": "ico-report",
-      "ok": false,
-      "ms": 2791,
-      "error": "indicator prices: 2025-09 has 1 values for 7 columns"
+      "source": "weekly-recap",
+      "ok": true,
+      "ms": 3125
     },
     {
       "source": "origin-wire",
       "ok": true,
-      "ms": 2855
+      "ms": 4197
+    },
+    {
+      "source": "ico-report",
+      "ok": false,
+      "ms": 4435,
+      "error": "indicator prices: 2025-09 has 1 values for 7 columns"
     }
   ]
 }

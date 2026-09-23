@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T06:08:19.985Z",
+  "generatedAt": "2026-09-23T18:44:57.458Z",
   "schema": 5,
   "schedule": {
     "slotsUtc": [
@@ -26,8 +26,8 @@
       "frontMonth": {
         "code": "KCZ26",
         "label": "Dec 2026",
-        "close": 272.3,
-        "volume": 15733
+        "close": 274.9,
+        "volume": 14984
       },
       "rolled": false,
       "mostActive": "KCZ26",
@@ -35,60 +35,52 @@
         {
           "code": "KCZ26",
           "label": "Dec 2026",
-          "close": 272.3,
-          "volume": 15733
+          "close": 274.9,
+          "volume": 14984
         },
         {
           "code": "KCH27",
           "label": "Mar 2027",
-          "close": 264.7,
-          "volume": 6436
+          "close": 267.45,
+          "volume": 5831
         },
         {
           "code": "KCK27",
           "label": "May 2027",
-          "close": 262.05,
-          "volume": 2592
+          "close": 265.1,
+          "volume": 3169
         },
         {
           "code": "KCN27",
           "label": "Jul 2027",
-          "close": 260.7,
-          "volume": 1121
+          "close": 263.85,
+          "volume": 1457
         },
         {
           "code": "KCU27",
           "label": "Sep 2027",
-          "close": 259.25,
-          "volume": 514
+          "close": 262.2,
+          "volume": 815
         },
         {
           "code": "KCZ27",
           "label": "Dec 2027",
-          "close": 257.6,
-          "volume": 283
+          "close": 260.5,
+          "volume": 555
         }
       ],
       "quote": {
-        "last": 264.15,
-        "open": 267.5,
-        "high": 270.54998779296875,
-        "low": 264,
-        "previousClose": 268.45001220703125,
-        "change": -4.3,
-        "changePct": -1.602,
-        "volume": 6530,
-        "asOf": "2026-09-22T17:29:55.000Z"
+        "last": 267.45,
+        "open": 265,
+        "high": 271.29998779296875,
+        "low": 262.6000061035156,
+        "previousClose": 264.70001220703125,
+        "change": 2.75,
+        "changePct": 1.039,
+        "volume": 5831,
+        "asOf": "2026-09-23T17:29:55.000Z"
       },
       "bars": [
-        {
-          "date": "2025-06-16",
-          "open": 292.8999938964844,
-          "high": 292.8999938964844,
-          "low": 289.70001220703125,
-          "close": 288.5,
-          "volume": 6
-        },
         {
           "date": "2025-06-17",
           "open": 288.5,
@@ -2640,13 +2632,21 @@
           "low": 264,
           "close": 264.70001220703125,
           "volume": 6530
+        },
+        {
+          "date": "2026-09-23",
+          "open": 265,
+          "high": 271.29998779296875,
+          "low": 262.6000061035156,
+          "close": 267.45001220703125,
+          "volume": 5831
         }
       ],
       "crossCheck": {
-        "tradingView": 264.7,
-        "yahoo": 264.15,
-        "diff": 0.55,
-        "diffPct": 0.208,
+        "tradingView": 267.45,
+        "yahoo": 267.45,
+        "diff": 0,
+        "diffPct": 0,
         "agree": true
       },
       "sources": [
@@ -2662,20 +2662,20 @@
         }
       ],
       "technicals": {
-        "observations": 503,
-        "sma20": 285.58499908447266,
-        "sma50": 296.42999938964846,
-        "sma200": 283.2384997558594,
-        "rsi14": 32.24116347405159,
+        "observations": 504,
+        "sma20": 282.8949996948242,
+        "sma50": 295.75099975585937,
+        "sma200": 282.9492498779297,
+        "rsi14": 35.2680200033177,
         "macd": {
-          "line": -8.884254197846985,
-          "signal": -6.757695011340305,
-          "histogram": -2.1265591865066806
+          "line": -8.936458510247917,
+          "signal": -7.193447711121828,
+          "histogram": -1.7430107991260888
         },
-        "atr14": 9.499770343492955,
+        "atr14": 9.44264258249011,
         "donchian20": {
-          "high": 330.25,
-          "low": 264,
+          "high": 318.8500061035156,
+          "low": 262.6000061035156,
           "period": 20
         },
         "levels": {
@@ -2695,16 +2695,16 @@
           ],
           "resistance": [
             {
-              "price": 264.8999938964844,
-              "date": "2025-07-28"
-            },
-            {
-              "price": 264.95001220703125,
-              "date": "2026-06-18"
-            },
-            {
               "price": 268.6000061035156,
               "date": "2025-07-16"
+            },
+            {
+              "price": 272.6499938964844,
+              "date": "2026-04-15"
+            },
+            {
+              "price": 275.04998779296875,
+              "date": "2026-05-05"
             }
           ]
         },
@@ -2713,29 +2713,25 @@
           "low": 207.8000030517578
         },
         "method": "Wilder RSI(14); MACD(12,26,9) on EMA; ATR(14); pivots = 5-bar swing highs/lows; Donchian(20).",
-        "basis": "503 daily bars for KCH27"
+        "basis": "504 daily bars for KCH27"
       },
       "barsPublished": 320,
-      "barsAnalysed": 503
+      "barsAnalysed": 504
     }
   },
   "fx": {
-    "asOf": "2026-09-22",
+    "asOf": "2026-09-23",
     "pairs": {
       "GBPUSD": {
         "pair": "GBP/USD",
-        "rate": 1.3363,
-        "previous": 1.3395,
+        "rate": 1.3276,
+        "previous": 1.3363,
         "dp": 4,
         "note": "Sterling stronger means a dollar-priced contract costs a UK buyer less.",
-        "change": -0.0032,
-        "changePct": -0.239,
-        "change1m": -1.99,
+        "change": -0.0087,
+        "changePct": -0.651,
+        "change1m": -2.61,
         "history": [
-          {
-            "date": "2026-07-01",
-            "rate": 1.324
-          },
           {
             "date": "2026-07-02",
             "rate": 1.3306
@@ -2971,23 +2967,23 @@
           {
             "date": "2026-09-22",
             "rate": 1.3363
+          },
+          {
+            "date": "2026-09-23",
+            "rate": 1.3276
           }
         ]
       },
       "USDBRL": {
         "pair": "USD/BRL",
-        "rate": 5.1231,
-        "previous": 5.1279,
+        "rate": 5.1322,
+        "previous": 5.1231,
         "dp": 4,
         "note": "A weaker real encourages Brazilian producer selling.",
-        "change": -0.0048,
-        "changePct": -0.094,
-        "change1m": -0.52,
+        "change": 0.0091,
+        "changePct": 0.178,
+        "change1m": -0.5,
         "history": [
-          {
-            "date": "2026-07-01",
-            "rate": 5.1874
-          },
           {
             "date": "2026-07-02",
             "rate": 5.201
@@ -3223,14 +3219,18 @@
           {
             "date": "2026-09-22",
             "rate": 5.1231
+          },
+          {
+            "date": "2026-09-23",
+            "rate": 5.1322
           }
         ]
       }
     },
     "ptax": {
-      "buy": 5.1155,
-      "sell": 5.1161,
-      "quotedAt": "2026-09-22 13:03:30.646171"
+      "buy": 5.1408,
+      "sell": 5.1414,
+      "quotedAt": "2026-09-23 13:04:22.36175"
     },
     "sources": [
       {
@@ -3246,7 +3246,7 @@
     ]
   },
   "weather": {
-    "fetchedAt": "2026-09-23T06:08:15.064Z",
+    "fetchedAt": "2026-09-23T18:44:47.262Z",
     "thresholds": {
       "frostC": 4,
       "heavyRainMm": 50,
@@ -3274,16 +3274,16 @@
           "date": "2026-09-22",
           "tMax": 26.4,
           "tMin": 17.6,
-          "rain": 9.2,
+          "rain": 8.7,
           "code": 81,
           "cloud": 70,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 120.2,
-        "rainForecast7": 29.3,
-        "minForecast7": 15,
+        "rain14": 119.7,
+        "rainForecast7": 14.6,
+        "minForecast7": 13.9,
         "alerts": []
       },
       {
@@ -3296,17 +3296,17 @@
         "current": {
           "date": "2026-09-22",
           "tMax": 29.9,
-          "tMin": 18.9,
+          "tMin": 19.1,
           "rain": 1,
           "code": 51,
-          "cloud": 82,
+          "cloud": 83,
           "observed": true
         },
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
         "rain14": 21.5,
-        "rainForecast7": 7.4,
-        "minForecast7": 17,
+        "rainForecast7": 8.5,
+        "minForecast7": 16.4,
         "alerts": []
       },
       {
@@ -3322,14 +3322,14 @@
           "tMin": 21.3,
           "rain": 0,
           "code": 3,
-          "cloud": 63,
+          "cloud": 64,
           "observed": true
         },
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
         "rain14": 37.2,
-        "rainForecast7": 31.4,
-        "minForecast7": 21.4,
+        "rainForecast7": 30.7,
+        "minForecast7": 21,
         "alerts": []
       },
       {
@@ -3350,14 +3350,14 @@
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 216.9,
-        "rainForecast7": 70.6,
-        "minForecast7": 22.1,
+        "rain14": 175,
+        "rainForecast7": 74.9,
+        "minForecast7": 21.8,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "71 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "75 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3379,14 +3379,14 @@
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 233.9,
-        "rainForecast7": 93.5,
-        "minForecast7": 19.8,
+        "rain14": 216,
+        "rainForecast7": 89.4,
+        "minForecast7": 18.6,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "94 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "89 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3401,16 +3401,16 @@
           "date": "2026-09-22",
           "tMax": 29.1,
           "tMin": 17.8,
-          "rain": 3.6,
+          "rain": 3.5,
           "code": 55,
           "cloud": 71,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 74.9,
-        "rainForecast7": 45.2,
-        "minForecast7": 16.1,
+        "rain14": 74.8,
+        "rainForecast7": 32.1,
+        "minForecast7": 16.5,
         "alerts": []
       },
       {
@@ -3424,21 +3424,21 @@
           "date": "2026-09-22",
           "tMax": 28.3,
           "tMin": 16.9,
-          "rain": 2.7,
+          "rain": 2.9,
           "code": 53,
-          "cloud": 87,
+          "cloud": 84,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 18.3,
-        "rainForecast7": 68,
-        "minForecast7": 15.7,
+        "rain14": 18.5,
+        "rainForecast7": 61.4,
+        "minForecast7": 15.6,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "68 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "61 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3460,10 +3460,16 @@
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 152.5,
-        "rainForecast7": 18.3,
-        "minForecast7": 16.7,
-        "alerts": []
+        "rain14": 152.4,
+        "rainForecast7": 60.8,
+        "minForecast7": 16.3,
+        "alerts": [
+          {
+            "type": "wet",
+            "severity": "watch",
+            "text": "61 mm forecast over 7 days — harvest/drying disruption risk."
+          }
+        ]
       },
       {
         "key": "lampung",
@@ -3483,9 +3489,9 @@
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 99,
-        "rainForecast7": 29.5,
-        "minForecast7": 24.8,
+        "rain14": 98.9,
+        "rainForecast7": 24.3,
+        "minForecast7": 25,
         "alerts": []
       },
       {
@@ -3507,8 +3513,8 @@
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
         "rain14": 50.2,
-        "rainForecast7": 21,
-        "minForecast7": 12.4,
+        "rainForecast7": 19.5,
+        "minForecast7": 13,
         "alerts": []
       },
       {
@@ -3522,21 +3528,21 @@
           "date": "2026-09-22",
           "tMax": 27.6,
           "tMin": 18.6,
-          "rain": 3,
+          "rain": 2.7,
           "code": 53,
-          "cloud": 86,
+          "cloud": 85,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 60.3,
-        "rainForecast7": 53.4,
-        "minForecast7": 15.6,
+        "rain14": 60,
+        "rainForecast7": 50.2,
+        "minForecast7": 15.3,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "53 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "50 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3553,14 +3559,14 @@
           "tMin": 19.4,
           "rain": 11.1,
           "code": 81,
-          "cloud": 46,
+          "cloud": 44,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 68,
-        "rainForecast7": 13.4,
-        "minForecast7": 16.7,
+        "rainForecast7": 16.1,
+        "minForecast7": 18.2,
         "alerts": []
       }
     ],
@@ -3574,7 +3580,7 @@
   },
   "news": {
     "originWire": {
-      "fetchedAt": "2026-09-23T06:08:17.233Z",
+      "fetchedAt": "2026-09-23T18:44:49.679Z",
       "lookbackHours": 504,
       "headlines": [
         {
@@ -3586,12 +3592,12 @@
           "published": "Sun, 20 Sep 2026 11:00:14 GMT"
         },
         {
-          "title": "100-year-old seaside church is Vietnam's first climate change heritage site",
-          "summary": "An abandoned church by Hai Ly Beach in the northern Vietnam's Ninh Binh Province, whose bell tower now stands next to the sea, has been recognized as a \"climate change heritage tourism site.\"",
-          "url": "https://e.vnexpress.net/news/news/environment/100-year-old-seaside-church-is-vietnam-s-first-climate-change-heritage-site-5123700.html",
+          "title": "Vietnam's largest island Phu Quoc plans parking for nearly 90 aircraft ahead of APEC 2027",
+          "summary": "The Civil Aviation Authority of Vietnam (CAAV) has proposed adjustments to the planning of several facilities at Phu Quoc International Airport in the Mekong Delta province of An Giang to serve the APEC Economic Leaders' Meeting 2027 (APEC 2027).",
+          "url": "https://e.vnexpress.net/news/news/traffic/vietnam-s-largest-island-phu-quoc-plans-parking-for-nearly-90-aircraft-ahead-of-apec-2027-5123932.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Wed, 23 Sep 2026 12:55:23 +0700"
+          "published": "Wed, 23 Sep 2026 22:15:16 +0700"
         },
         {
           "title": "More than 170,000 respiratory cases recorded in haze-choked Indonesia",
@@ -3610,20 +3616,20 @@
           "published": "Mon, 21 Sep 2026 17:13:23 GMT"
         },
         {
-          "title": "Venezuelans protest interim leader Delcy Rodriguez at UN headquarters",
-          "summary": "Venezuelans protested in New York against interim President Delcy Rodriguez's participation in the UN General Assembly.",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/23/aje-onl-nf_venezuelans-protest-delcy-rodriguez-at-unga-220926?traffic_source=rss",
+          "title": "Mexico braces for Hurricane Polo gathering strength",
+          "summary": "Hurricane Polo, one of the strongest Pacific cyclones in decades, brought dangerous waves and heavy rain to Mexico.",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/23/23-09-sv-mexico-hurricane-polo-mx?traffic_source=rss",
           "publisher": "Al Jazeera",
           "region": "South & Central America",
-          "published": "Wed, 23 Sep 2026 03:08:51 +0000"
+          "published": "Wed, 23 Sep 2026 17:23:27 +0000"
         },
         {
-          "title": "South Sudan’s Kiir dissolves government ahead of first national elections",
-          "summary": "President's move clears hurdles to long delayed election and raises concern he can now wield unchecked power.",
-          "url": "https://www.aljazeera.com/news/2026/9/23/south-sudan-dissolves-government-ahead-of-first-ever-national-elections?traffic_source=rss",
+          "title": "Ethiopia faces renewed war as armed groups launch offensive",
+          "summary": "There are fears of a renewed war in Ethiopia after seven armed groups formed an alliance to overthrow the government.",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/23/09-23-26-ethiopia-armed-groups-sv-mp4?traffic_source=rss",
           "publisher": "Al Jazeera",
           "region": "East Africa",
-          "published": "Wed, 23 Sep 2026 02:00:11 +0000"
+          "published": "Wed, 23 Sep 2026 17:10:33 +0000"
         },
         {
           "title": "Brazil’s wind farms have been a huge success. So why isn’t everybody reaping the benefits?",
@@ -3634,12 +3640,12 @@
           "published": "Sat, 19 Sep 2026 12:00:46 GMT"
         },
         {
-          "title": "Dollar slides against dong",
-          "summary": "The U.S. dollar weakened slightly against the Vietnamese dong Wednesday morning while trading near a two-month high against some major peers.",
-          "url": "https://e.vnexpress.net/news/business/markets/dollar-slides-against-dong-5123750.html",
+          "title": "Traveler forgets $55,000 gold Rolex at Vietnam airport security, gets it back as his flight boards",
+          "summary": "Border gate police at Da Nang International Airport took under 30 minutes to trace the Chinese owner of a gold Rolex left at security screening.",
+          "url": "https://e.vnexpress.net/news/news/traveler-forgets-55-000-gold-rolex-at-vietnam-airport-security-gets-it-back-as-his-flight-boards-5123876.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Wed, 23 Sep 2026 12:28:07 +0700"
+          "published": "Wed, 23 Sep 2026 16:06:31 +0700"
         },
         {
           "title": "Indonesia's richest man world's biggest wealth loser in a day",
@@ -3658,20 +3664,20 @@
           "published": "Mon, 14 Sep 2026 12:00:57 GMT"
         },
         {
-          "title": "Man missing after reportedly jumping off cruise ship bound for California",
-          "summary": "Carnival spokesperson confirms onboard cameras captured male passenger going overboard on way from Mexico A 56-year-old man is missing after he reportedly jumped off a Carnival cruise ship on Saturday. A Carnival spokesperson confirmed in a statement that…",
-          "url": "https://www.theguardian.com/us-news/2026/sep/22/carnival-cruise-man-overboard",
-          "publisher": "The Guardian",
+          "title": "Argentina to UN: Falkland Islands are a ‘national cause’",
+          "summary": "Argentina’s President Javier Milei says the “principle of self-determination does not apply\" to the Falkland Islands.",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/23/argentina-to-un-falkland-islands-are-a-national?traffic_source=rss",
+          "publisher": "Al Jazeera",
           "region": "South & Central America",
-          "published": "Tue, 22 Sep 2026 21:39:18 GMT"
+          "published": "Wed, 23 Sep 2026 16:12:48 +0000"
         },
         {
-          "title": "Veteran BBC Africa correspondent Mark Doyle dies aged 67",
-          "summary": "Doyle was best known for reporting on African conflicts in the 1990s and 2000s, notably in Rwanda and Sierra Leone.",
-          "url": "https://www.bbc.co.uk/news/articles/cq986214den3o?at_medium=RSS&amp;at_campaign=rss",
+          "title": "Ethiopia and Tigray accuse each of launching offensives, fuelling fears of new war",
+          "summary": "The local authorities reportedly seize Tigray's airports following reports of recent drone strikes.",
+          "url": "https://www.bbc.co.uk/news/articles/cry8zwwq21pxo?at_medium=RSS&amp;at_campaign=rss",
           "publisher": "BBC News",
           "region": "East Africa",
-          "published": "Tue, 22 Sep 2026 14:16:42 GMT"
+          "published": "Wed, 23 Sep 2026 16:53:37 GMT"
         },
         {
           "title": "Brazil’s Lula announces higher welfare payments and free weight-loss jabs ahead of election",
@@ -3682,30 +3688,64 @@
           "published": "Fri, 18 Sep 2026 17:10:37 GMT"
         },
         {
-          "title": "Gold prices rebound",
-          "summary": "Vietnam gold prices recovered slightly Wednesday morning following a 1.16% drop in the previous session.",
-          "url": "https://e.vnexpress.net/news/business/markets/gold-prices-rebound-5123721.html",
+          "title": "Foreign tourists sip beer in floodwater as heavy rain swamps Ho Chi Minh City center",
+          "summary": "More than an hour of heavy rain left Le Loi and Ham Nghi streets and Bui Vien backpacker street in central Ho Chi Minh City under deep water on Wednesday afternoon, snarling traffic as office workers and foreign tourists waded through the flood.",
+          "url": "https://e.vnexpress.net/photo/environment/foreign-tourists-sip-beer-in-floodwater-as-heavy-rain-swamps-ho-chi-minh-city-center-5123860.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Wed, 23 Sep 2026 11:59:00 +0700"
+          "published": "Wed, 23 Sep 2026 15:47:14 +0700"
         }
       ],
-      "totalTagged": 125,
+      "totalTagged": 126,
       "feedsQueried": 14,
       "errors": [],
       "note": "General headlines from the growing regions, taken from outlets of record and tagged to a region by the countries and cities they name."
     },
     "roundup": {
       "source": "assembled",
-      "fetchedAt": "2026-09-23T06:08:16.294Z",
+      "fetchedAt": "2026-09-23T18:44:48.542Z",
       "windowDays": 7,
       "publishers": [
         "Daily Coffee News",
-        "Fresh Cup",
-        "Specialty Coffee Association",
         "World Coffee Portal"
       ],
       "items": [
+        {
+          "headline": "New Coffee Resilience Paper Calls for Investment Beyond the Farm",
+          "summary": "A new position paper from the Sustainable Coffee Challenge is urging coffee companies and other organizations that might have money to invest in the coffee sector to look beyond individual...",
+          "url": "https://dailycoffeenews.com/2026/09/23/new-coffee-resilience-paper-calls-for-investment-beyond-the-farm/",
+          "publisher": "Daily Coffee News",
+          "published": "Wed, 23 Sep 2026 15:58:50 +0000",
+          "date": "Wed, 23 Sep",
+          "section": "Roasting & retail"
+        },
+        {
+          "headline": "Study Finds Coffee Associations with Fat, Muscle and Testosterone",
+          "summary": "People who drank five or more cups of coffee per day had less body fat and more muscle than those who drank little or no coffee, despite comparable BMIs, according...",
+          "url": "https://dailycoffeenews.com/2026/09/23/study-finds-coffee-associations-with-fat-muscle-and-testosterone/",
+          "publisher": "Daily Coffee News",
+          "published": "Wed, 23 Sep 2026 14:52:07 +0000",
+          "date": "Wed, 23 Sep",
+          "section": "Roasting & retail"
+        },
+        {
+          "headline": "Atomic Coffee and Overpotential Combine for Electrified Cold Brew",
+          "summary": "Massachusetts-based roasting company Atomic Coffee Roasters is proposing a literal jolt of innovation within the cold brew category with the upcoming launch of Potential, a brew subjected to electrochemical treatment. ...",
+          "url": "https://dailycoffeenews.com/2026/09/23/atomic-coffee-and-overpotential-combine-for-electrified-cold-brew/",
+          "publisher": "Daily Coffee News",
+          "published": "Wed, 23 Sep 2026 13:49:14 +0000",
+          "date": "Wed, 23 Sep",
+          "section": "Roasting & retail"
+        },
+        {
+          "headline": "Lavazza unveils new brand playbook for US market",
+          "summary": "The Italian roaster has launched a new packaged coffee range with US hip-hop icons Pharrell Williams and Pusha T in bid to broaden appeal in key international market – and stay ahead of key competitors",
+          "url": "https://www.worldcoffeeportal.com/news/lavazza-unveils-new-brand-playbook-for-us-market/",
+          "publisher": "World Coffee Portal",
+          "published": "Wed, 23 Sep 2026 12:03:10 GMT",
+          "date": "Wed, 23 Sep",
+          "section": "Top stories of the week"
+        },
         {
           "headline": "SCA Gives UC Davis Coffee Center $1 Million for Research Fellowship",
           "summary": "The Specialty Coffee Association is giving $1 million to the University of California, Davis, to establish an ongoing fellowship for graduate-level coffee research. The new Specialty Coffee Association Endowed Fellowship...",
@@ -3730,33 +3770,6 @@
           "url": "https://dailycoffeenews.com/2026/09/22/variety-coffee-roasters-consistently-delivers-with-10th-new-york-location/",
           "publisher": "Daily Coffee News",
           "published": "Tue, 22 Sep 2026 12:44:16 +0000",
-          "date": "Tue, 22 Sep",
-          "section": "Roasting & retail"
-        },
-        {
-          "headline": "New NCA Report Shows Specialty Coffee Consumption Keeps Going Up",
-          "summary": "The latest National Coffee Data Trends report shows how specialty coffee preferences and ordering behaviors are changing in 2026. The post New NCA Report Shows Specialty Coffee Consumption Keeps Going Up appeared first on Fresh Cup .",
-          "url": "https://freshcup.com/new-report-shows-specialty-coffee-consumption-keeps-going-up/",
-          "publisher": "Fresh Cup",
-          "published": "Tue, 22 Sep 2026 11:38:00 +0000",
-          "date": "Tue, 22 Sep",
-          "section": "Roasting & retail"
-        },
-        {
-          "headline": "Coffee Decoded: What’s the Difference Between Coffee Body and Mouthfeel?",
-          "summary": "Welcome to Coffee, Decoded, the Specialty Coffee Association’s weekly column on science, research, and all things coffee knowledge. PETER GIULIANO, the SCA's Senior Advisor for Scientific Communication explains the terms “mouthfeel” and “body” in coffee, and…",
-          "url": "https://sca.coffee/sca-news/coffee-decoded-17-mouthfeel",
-          "publisher": "Specialty Coffee Association",
-          "published": "Tue, 22 Sep 2026 08:38:21 +0000",
-          "date": "Tue, 22 Sep",
-          "section": "Roasting & retail"
-        },
-        {
-          "headline": "LaSavista answers consumer cravings for autumnal seasonal serves",
-          "summary": "As the nights draw in and cravings for nostalgia and comfort drive autumn footfall, LaSavista has curated a range to help operators drive profits LaSavista, the premium foodservice brand behind a range of syrups, sauces, frappes and toppings, has created a…",
-          "url": "https://www.worldcoffeeportal.com/news/lasavista-answers-consumer-cravings-for-autumnal-seasonal-serves/",
-          "publisher": "World Coffee Portal",
-          "published": "Tue, 22 Sep 2026 07:00:55 GMT",
           "date": "Tue, 22 Sep",
           "section": "Roasting & retail"
         },
@@ -3812,7 +3825,7 @@
           "publisher": "World Coffee Portal",
           "published": "Fri, 18 Sep 2026 11:41:36 GMT",
           "date": "Fri, 18 Sep",
-          "section": "Top stories of the week"
+          "section": "Trade & production"
         },
         {
           "headline": "New CEO for Australia’s Soul Origin as it looks to more than double in size",
@@ -3822,24 +3835,6 @@
           "published": "Fri, 18 Sep 2026 09:48:40 GMT",
           "date": "Fri, 18 Sep",
           "section": "Top stories of the week"
-        },
-        {
-          "headline": "Grounds for Health Marks 30 Years with Annual Coffee Auction",
-          "summary": "The annual Grounds for Health green coffee and equipment auction returns Sept. 23-24, offering roasters a range of traceable, high-quality green coffees while raising money for cervical cancer prevention programs...",
-          "url": "https://dailycoffeenews.com/2026/09/16/grounds-for-health-marks-30-years-with-annual-coffee-auction/",
-          "publisher": "Daily Coffee News",
-          "published": "Wed, 16 Sep 2026 17:45:05 +0000",
-          "date": "Wed, 16 Sep",
-          "section": "Trade & production"
-        },
-        {
-          "headline": "Italy’s Caffè Vergnano expands European café network with Ireland debut",
-          "summary": "The launch comes four years after the Turin-based coffee roaster began supplying hotels and restaurants in the market",
-          "url": "https://www.worldcoffeeportal.com/news/italys-caffe-vergnano-expands-european-cafe-network-with-ireland-debut/",
-          "publisher": "World Coffee Portal",
-          "published": "Wed, 16 Sep 2026 11:11:02 GMT",
-          "date": "Wed, 16 Sep",
-          "section": "Trade & production"
         }
       ],
       "errors": [
@@ -3851,7 +3846,7 @@
       "note": "Assembled from the coffee trade press over the past seven days, ranked by relevance to the physical trade. Headlines and links are each publisher’s own."
     },
     "dailyRead": {
-      "fetchedAt": "2026-09-23T06:08:14.742Z",
+      "fetchedAt": "2026-09-23T18:44:47.090Z",
       "article": {
         "title": "Cafe Imports Now 100% Employee-Owned Through a Stock Plan",
         "summary": "Minneapolis-based green coffee importer Cafe Imports has become 100% employee-owned through an Employee Stock Ownership Plan (ESOP), the company announced today. The 33-year-old company did not disclose a valuation or...",
@@ -4179,37 +4174,37 @@
     {
       "source": "daily-read",
       "ok": true,
-      "ms": 366
+      "ms": 436
     },
     {
       "source": "weather",
       "ok": true,
-      "ms": 694
-    },
-    {
-      "source": "weekly-recap",
-      "ok": true,
-      "ms": 1920
+      "ms": 616
     },
     {
       "source": "fx",
       "ok": true,
-      "ms": 1935
+      "ms": 1088
+    },
+    {
+      "source": "weekly-recap",
+      "ok": true,
+      "ms": 1891
     },
     {
       "source": "arabica-futures",
       "ok": true,
-      "ms": 2082
+      "ms": 2024
     },
     {
       "source": "origin-wire",
       "ok": true,
-      "ms": 2862
+      "ms": 3032
     },
     {
       "source": "ico-report",
       "ok": false,
-      "ms": 5605,
+      "ms": 10800,
       "error": "indicator prices: 2025-09 has 1 values for 7 columns"
     }
   ]

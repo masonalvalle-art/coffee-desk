@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T18:44:57.458Z",
+  "generatedAt": "2026-09-24T06:08:50.438Z",
   "schema": 5,
   "schedule": {
     "slotsUtc": [
@@ -26,7 +26,7 @@
       "frontMonth": {
         "code": "KCZ26",
         "label": "Dec 2026",
-        "close": 274.9,
+        "close": 275.9,
         "volume": 14984
       },
       "rolled": false,
@@ -35,37 +35,37 @@
         {
           "code": "KCZ26",
           "label": "Dec 2026",
-          "close": 274.9,
+          "close": 275.9,
           "volume": 14984
         },
         {
           "code": "KCH27",
           "label": "Mar 2027",
-          "close": 267.45,
+          "close": 268.15,
           "volume": 5831
         },
         {
           "code": "KCK27",
           "label": "May 2027",
-          "close": 265.1,
+          "close": 265.85,
           "volume": 3169
         },
         {
           "code": "KCN27",
           "label": "Jul 2027",
-          "close": 263.85,
+          "close": 264.5,
           "volume": 1457
         },
         {
           "code": "KCU27",
           "label": "Sep 2027",
-          "close": 262.2,
+          "close": 262.95,
           "volume": 815
         },
         {
           "code": "KCZ27",
           "label": "Dec 2027",
-          "close": 260.5,
+          "close": 261.25,
           "volume": 555
         }
       ],
@@ -77,7 +77,7 @@
         "previousClose": 264.70001220703125,
         "change": 2.75,
         "changePct": 1.039,
-        "volume": 5831,
+        "volume": 6436,
         "asOf": "2026-09-23T17:29:55.000Z"
       },
       "bars": [
@@ -2631,22 +2631,22 @@
           "high": 270.54998779296875,
           "low": 264,
           "close": 264.70001220703125,
-          "volume": 6530
+          "volume": 6436
         },
         {
           "date": "2026-09-23",
           "open": 265,
           "high": 271.29998779296875,
           "low": 262.6000061035156,
-          "close": 267.45001220703125,
-          "volume": 5831
+          "close": 268.1499938964844,
+          "volume": 6436
         }
       ],
       "crossCheck": {
-        "tradingView": 267.45,
+        "tradingView": 268.15,
         "yahoo": 267.45,
-        "diff": 0,
-        "diffPct": 0,
+        "diff": 0.7,
+        "diffPct": 0.262,
         "agree": true
       },
       "sources": [
@@ -2662,15 +2662,15 @@
         }
       ],
       "technicals": {
-        "observations": 504,
-        "sma20": 282.8949996948242,
-        "sma50": 295.75099975585937,
-        "sma200": 282.9492498779297,
-        "rsi14": 35.2680200033177,
+        "observations": 503,
+        "sma20": 282.92999877929685,
+        "sma50": 295.76499938964844,
+        "sma200": 282.95274978637696,
+        "rsi14": 35.995780515980016,
         "macd": {
-          "line": -8.936458510247917,
-          "signal": -7.193447711121828,
-          "histogram": -1.7430107991260888
+          "line": -8.88061951507791,
+          "signal": -7.182279912087827,
+          "histogram": -1.6983396029900835
         },
         "atr14": 9.44264258249011,
         "donchian20": {
@@ -2713,10 +2713,10 @@
           "low": 207.8000030517578
         },
         "method": "Wilder RSI(14); MACD(12,26,9) on EMA; ATR(14); pivots = 5-bar swing highs/lows; Donchian(20).",
-        "basis": "504 daily bars for KCH27"
+        "basis": "503 daily bars for KCH27"
       },
       "barsPublished": 320,
-      "barsAnalysed": 504
+      "barsAnalysed": 503
     }
   },
   "fx": {
@@ -3246,7 +3246,7 @@
     ]
   },
   "weather": {
-    "fetchedAt": "2026-09-23T18:44:47.262Z",
+    "fetchedAt": "2026-09-24T06:08:50.435Z",
     "thresholds": {
       "frostC": 4,
       "heavyRainMm": 50,
@@ -3271,19 +3271,19 @@
         "lat": -21.55,
         "lon": -45.43,
         "current": {
-          "date": "2026-09-22",
-          "tMax": 26.4,
-          "tMin": 17.6,
-          "rain": 8.7,
-          "code": 81,
-          "cloud": 70,
+          "date": "2026-09-23",
+          "tMax": 23.4,
+          "tMin": 14.4,
+          "rain": 28.2,
+          "code": 95,
+          "cloud": 74,
           "observed": true
         },
-        "condition": "wet",
-        "conditionLabel": "Wet",
-        "rain14": 119.7,
-        "rainForecast7": 14.6,
-        "minForecast7": 13.9,
+        "condition": "very-wet",
+        "conditionLabel": "Very wet",
+        "rain14": 137,
+        "rainForecast7": 1.9,
+        "minForecast7": 13.2,
         "alerts": []
       },
       {
@@ -3294,19 +3294,19 @@
         "lat": -18.94,
         "lon": -46.99,
         "current": {
-          "date": "2026-09-22",
-          "tMax": 29.9,
-          "tMin": 19.1,
-          "rain": 1,
-          "code": 51,
-          "cloud": 83,
+          "date": "2026-09-23",
+          "tMax": 25.3,
+          "tMin": 17.5,
+          "rain": 4.1,
+          "code": 53,
+          "cloud": 78,
           "observed": true
         },
-        "condition": "cloudy",
-        "conditionLabel": "Cloudy",
-        "rain14": 21.5,
-        "rainForecast7": 8.5,
-        "minForecast7": 16.4,
+        "condition": "wet",
+        "conditionLabel": "Wet",
+        "rain14": 22.3,
+        "rainForecast7": 2,
+        "minForecast7": 16.5,
         "alerts": []
       },
       {
@@ -3317,19 +3317,19 @@
         "lat": -19.39,
         "lon": -40.07,
         "current": {
-          "date": "2026-09-22",
-          "tMax": 31.9,
-          "tMin": 21.3,
-          "rain": 0,
-          "code": 3,
-          "cloud": 64,
+          "date": "2026-09-23",
+          "tMax": 31.3,
+          "tMin": 21.2,
+          "rain": 5.8,
+          "code": 80,
+          "cloud": 89,
           "observed": true
         },
-        "condition": "cloudy",
-        "conditionLabel": "Cloudy",
-        "rain14": 37.2,
-        "rainForecast7": 30.7,
-        "minForecast7": 21,
+        "condition": "wet",
+        "conditionLabel": "Wet",
+        "rain14": 29.5,
+        "rainForecast7": 7.9,
+        "minForecast7": 20.7,
         "alerts": []
       },
       {
@@ -3340,24 +3340,24 @@
         "lat": 12.68,
         "lon": 108.05,
         "current": {
-          "date": "2026-09-22",
-          "tMax": 27.1,
-          "tMin": 22.1,
-          "rain": 15.1,
-          "code": 80,
-          "cloud": 97,
+          "date": "2026-09-23",
+          "tMax": 28.5,
+          "tMin": 22.9,
+          "rain": 18,
+          "code": 95,
+          "cloud": 96,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 175,
-        "rainForecast7": 74.9,
+        "rain14": 193,
+        "rainForecast7": 59.7,
         "minForecast7": 21.8,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "75 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "60 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3369,24 +3369,24 @@
         "lat": 11.55,
         "lon": 107.81,
         "current": {
-          "date": "2026-09-22",
-          "tMax": 26.5,
-          "tMin": 20.4,
-          "rain": 23.1,
+          "date": "2026-09-23",
+          "tMax": 25.1,
+          "tMin": 20.2,
+          "rain": 23,
           "code": 95,
-          "cloud": 97,
+          "cloud": 92,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 216,
-        "rainForecast7": 89.4,
-        "minForecast7": 18.6,
+        "rain14": 239,
+        "rainForecast7": 63.9,
+        "minForecast7": 19.5,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "89 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "64 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3398,19 +3398,19 @@
         "lat": 1.85,
         "lon": -76.05,
         "current": {
-          "date": "2026-09-22",
-          "tMax": 29.1,
-          "tMin": 17.8,
-          "rain": 3.5,
-          "code": 55,
-          "cloud": 71,
+          "date": "2026-09-23",
+          "tMax": 27.9,
+          "tMin": 18.1,
+          "rain": 7.9,
+          "code": 81,
+          "cloud": 69,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 74.8,
-        "rainForecast7": 32.1,
-        "minForecast7": 16.5,
+        "rain14": 79.5,
+        "rainForecast7": 29.3,
+        "minForecast7": 15.2,
         "alerts": []
       },
       {
@@ -3421,24 +3421,24 @@
         "lat": 6.25,
         "lon": -75.56,
         "current": {
-          "date": "2026-09-22",
-          "tMax": 28.3,
-          "tMin": 16.9,
-          "rain": 2.9,
+          "date": "2026-09-23",
+          "tMax": 28.2,
+          "tMin": 17.3,
+          "rain": 2.3,
           "code": 53,
-          "cloud": 84,
+          "cloud": 100,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 18.5,
-        "rainForecast7": 61.4,
+        "rain14": 20.4,
+        "rainForecast7": 56.2,
         "minForecast7": 15.6,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "61 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "56 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3450,26 +3450,20 @@
         "lat": 4.63,
         "lon": 96.85,
         "current": {
-          "date": "2026-09-22",
-          "tMax": 25.1,
-          "tMin": 17.1,
-          "rain": 7.5,
-          "code": 80,
-          "cloud": 84,
+          "date": "2026-09-23",
+          "tMax": 23.8,
+          "tMin": 16.8,
+          "rain": 1.6,
+          "code": 51,
+          "cloud": 96,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 152.4,
-        "rainForecast7": 60.8,
-        "minForecast7": 16.3,
-        "alerts": [
-          {
-            "type": "wet",
-            "severity": "watch",
-            "text": "61 mm forecast over 7 days — harvest/drying disruption risk."
-          }
-        ]
+        "rain14": 154,
+        "rainForecast7": 32.4,
+        "minForecast7": 16.7,
+        "alerts": []
       },
       {
         "key": "lampung",
@@ -3479,19 +3473,19 @@
         "lat": -5.45,
         "lon": 105.27,
         "current": {
-          "date": "2026-09-22",
-          "tMax": 31.4,
-          "tMin": 23.6,
-          "rain": 27.9,
-          "code": 95,
-          "cloud": 79,
+          "date": "2026-09-23",
+          "tMax": 33,
+          "tMin": 25.6,
+          "rain": 0,
+          "code": 3,
+          "cloud": 37,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
         "rain14": 98.9,
-        "rainForecast7": 24.3,
-        "minForecast7": 25,
+        "rainForecast7": 20.7,
+        "minForecast7": 24.5,
         "alerts": []
       },
       {
@@ -3502,19 +3496,19 @@
         "lat": 7.67,
         "lon": 36.83,
         "current": {
-          "date": "2026-09-22",
-          "tMax": 25,
-          "tMin": 13.2,
+          "date": "2026-09-23",
+          "tMax": 24.4,
+          "tMin": 13.8,
           "rain": 1.1,
           "code": 53,
-          "cloud": 65,
+          "cloud": 52,
           "observed": true
         },
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
-        "rain14": 50.2,
-        "rainForecast7": 19.5,
-        "minForecast7": 13,
+        "rain14": 45.2,
+        "rainForecast7": 25.8,
+        "minForecast7": 12.6,
         "alerts": []
       },
       {
@@ -3525,26 +3519,20 @@
         "lat": 14.16,
         "lon": -88.02,
         "current": {
-          "date": "2026-09-22",
-          "tMax": 27.6,
-          "tMin": 18.6,
-          "rain": 2.7,
-          "code": 53,
-          "cloud": 85,
+          "date": "2026-09-23",
+          "tMax": 28.6,
+          "tMin": 19.2,
+          "rain": 7.3,
+          "code": 80,
+          "cloud": 92,
           "observed": true
         },
-        "condition": "very-wet",
-        "conditionLabel": "Very wet",
-        "rain14": 60,
-        "rainForecast7": 50.2,
-        "minForecast7": 15.3,
-        "alerts": [
-          {
-            "type": "wet",
-            "severity": "watch",
-            "text": "50 mm forecast over 7 days — harvest/drying disruption risk."
-          }
-        ]
+        "condition": "wet",
+        "conditionLabel": "Wet",
+        "rain14": 66.1,
+        "rainForecast7": 28.5,
+        "minForecast7": 14.8,
+        "alerts": []
       },
       {
         "key": "chanchamayo",
@@ -3554,19 +3542,19 @@
         "lat": -11.05,
         "lon": -75.33,
         "current": {
-          "date": "2026-09-22",
-          "tMax": 29.4,
-          "tMin": 19.4,
-          "rain": 11.1,
-          "code": 81,
-          "cloud": 44,
+          "date": "2026-09-23",
+          "tMax": 31.6,
+          "tMin": 18.2,
+          "rain": 0.3,
+          "code": 51,
+          "cloud": 50,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 68,
-        "rainForecast7": 16.1,
-        "minForecast7": 18.2,
+        "rain14": 65.1,
+        "rainForecast7": 32.3,
+        "minForecast7": 18.6,
         "alerts": []
       }
     ],
@@ -3580,32 +3568,32 @@
   },
   "news": {
     "originWire": {
-      "fetchedAt": "2026-09-23T18:44:49.679Z",
+      "fetchedAt": "2026-09-24T06:08:04.921Z",
       "lookbackHours": 504,
       "headlines": [
         {
-          "title": "China’s stranglehold on rare earths must be ended, says hopeful supplier to EU",
-          "summary": "Rafael Moreno, whose company has opened demo plant in Brazil, says market is ‘nervous’ as Trump-Xi summit looms The head of a mining company hoping to supply the EU with rare earths in two years’ time has said it is “paramount” to end China’s stranglehold on…",
-          "url": "https://www.theguardian.com/environment/2026/sep/20/china-stranglehold-rare-earths-hopeful-supplier-eu-viridis",
+          "title": "Inside the illegal gold rush destroying the Amazon rainforest - video",
+          "summary": "The Guardian's Tom Phillips rides along with Brazilian forces as they inspect illegal mining operations in the Sararé indigenous territory. The destructive prospecting camps and mine sites have carved out swaths of the Amazon, threatening protected indigenous…",
+          "url": "https://www.theguardian.com/environment/video/2026/sep/23/brazil-illegal-gold-rush-amazon-rainforest",
           "publisher": "The Guardian",
           "region": "Brazil",
-          "published": "Sun, 20 Sep 2026 11:00:14 GMT"
+          "published": "Wed, 23 Sep 2026 22:17:17 GMT"
         },
         {
-          "title": "Vietnam's largest island Phu Quoc plans parking for nearly 90 aircraft ahead of APEC 2027",
-          "summary": "The Civil Aviation Authority of Vietnam (CAAV) has proposed adjustments to the planning of several facilities at Phu Quoc International Airport in the Mekong Delta province of An Giang to serve the APEC Economic Leaders' Meeting 2027 (APEC 2027).",
-          "url": "https://e.vnexpress.net/news/news/traffic/vietnam-s-largest-island-phu-quoc-plans-parking-for-nearly-90-aircraft-ahead-of-apec-2027-5123932.html",
+          "title": "Dollar strengthens against dong",
+          "summary": "The U.S. dollar rose against the Vietnamese dong Thursday morning.",
+          "url": "https://e.vnexpress.net/news/business/markets/dollar-strengthens-against-dong-5124179.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Wed, 23 Sep 2026 22:15:16 +0700"
+          "published": "Thu, 24 Sep 2026 12:25:31 +0700"
         },
         {
-          "title": "More than 170,000 respiratory cases recorded in haze-choked Indonesia",
-          "summary": "More than 40,000 of the cases – which range from mild coughs to pneumonia – involve toddlers.",
-          "url": "https://www.bbc.co.uk/news/articles/cq62j13gnyrko?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
+          "title": "Thailand bears Southeast Asia's second heaviest economic cost from air pollution, behind Indonesia",
+          "summary": "PM2.5 air pollution costs the Thai economy an estimated US$45.3 billion annually, or 3.89% of its GDP, the second-highest figure in Southeast Asia behind Indonesia's, per a World Bank assessment.",
+          "url": "https://e.vnexpress.net/news/business/economy/thailand-bears-southeast-asia-s-second-heaviest-economic-cost-from-air-pollution-behind-indonesia-5123815.html",
+          "publisher": "VnExpress International",
           "region": "Indonesia",
-          "published": "Wed, 23 Sep 2026 04:20:12 GMT"
+          "published": "Thu, 24 Sep 2026 05:00:00 +0700"
         },
         {
           "title": "Colombia declares public calamity as wildfire threatens popular tourist area",
@@ -3616,44 +3604,44 @@
           "published": "Mon, 21 Sep 2026 17:13:23 GMT"
         },
         {
-          "title": "Mexico braces for Hurricane Polo gathering strength",
-          "summary": "Hurricane Polo, one of the strongest Pacific cyclones in decades, brought dangerous waves and heavy rain to Mexico.",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/23/23-09-sv-mexico-hurricane-polo-mx?traffic_source=rss",
+          "title": "Venezuela’s Rodriguez pledges elections, path forward in UNGA speech",
+          "summary": "Venezuela’s Interim President Delcy Rodriguez says her country must abandon the ‘extremism’ of the past.",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/24/venezuelas-rodriguez-pledges-elections-path-forward-in-unga-speech?traffic_source=rss",
           "publisher": "Al Jazeera",
           "region": "South & Central America",
-          "published": "Wed, 23 Sep 2026 17:23:27 +0000"
+          "published": "Thu, 24 Sep 2026 02:23:06 +0000"
         },
         {
-          "title": "Ethiopia faces renewed war as armed groups launch offensive",
-          "summary": "There are fears of a renewed war in Ethiopia after seven armed groups formed an alliance to overthrow the government.",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/23/09-23-26-ethiopia-armed-groups-sv-mp4?traffic_source=rss",
+          "title": "Why have some nations developed while others struggle?",
+          "summary": "At UNGA, Iran, Syria and Kenya have highlighted how war and injustice have skewed global development.",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/24/why-have-some-nations-developed-while-others-struggle?traffic_source=rss",
           "publisher": "Al Jazeera",
           "region": "East Africa",
-          "published": "Wed, 23 Sep 2026 17:10:33 +0000"
+          "published": "Thu, 24 Sep 2026 05:02:12 +0000"
         },
         {
-          "title": "Brazil’s wind farms have been a huge success. So why isn’t everybody reaping the benefits?",
-          "summary": "While the country’s ambition is to be the ‘Saudi Arabia of green energy’, communities in the north-east are bearing the cost in diminished health and livelihoods Beneath the power lines cutting across Antonio de Souza’s property in Serra do Mel, in north-east…",
-          "url": "https://www.theguardian.com/global-development/2026/sep/19/brazils-wind-farms-have-been-a-huge-success-so-why-isnt-everybody-reaping-the-benefits",
+          "title": "China’s stranglehold on rare earths must be ended, says hopeful supplier to EU",
+          "summary": "Rafael Moreno, whose company has opened demo plant in Brazil, says market is ‘nervous’ as Trump-Xi summit looms The head of a mining company hoping to supply the EU with rare earths in two years’ time has said it is “paramount” to end China’s stranglehold on…",
+          "url": "https://www.theguardian.com/environment/2026/sep/20/china-stranglehold-rare-earths-hopeful-supplier-eu-viridis",
           "publisher": "The Guardian",
           "region": "Brazil",
-          "published": "Sat, 19 Sep 2026 12:00:46 GMT"
+          "published": "Sun, 20 Sep 2026 11:00:14 GMT"
         },
         {
-          "title": "Traveler forgets $55,000 gold Rolex at Vietnam airport security, gets it back as his flight boards",
-          "summary": "Border gate police at Da Nang International Airport took under 30 minutes to trace the Chinese owner of a gold Rolex left at security screening.",
-          "url": "https://e.vnexpress.net/news/news/traveler-forgets-55-000-gold-rolex-at-vietnam-airport-security-gets-it-back-as-his-flight-boards-5123876.html",
+          "title": "Gold prices hit 5-week bottom",
+          "summary": "Gold prices on Thursday fell to the lowest since Aug. 19 in Vietnam but remained steady on global markets.",
+          "url": "https://e.vnexpress.net/news/business/markets/gold-prices-hit-5-week-bottom-5124176.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Wed, 23 Sep 2026 16:06:31 +0700"
+          "published": "Thu, 24 Sep 2026 12:25:12 +0700"
         },
         {
-          "title": "Indonesia's richest man world's biggest wealth loser in a day",
-          "summary": "Indonesia's richest man Low Tuck Kwong saw his net worth fell nearly US$2.35 billion Tuesday, the largest drop globally, amid a plunge in stock prices.",
-          "url": "https://e.vnexpress.net/news/business/billionaires/indonesia-s-richest-man-world-s-biggest-wealth-loser-in-a-day-5123375.html",
-          "publisher": "VnExpress International",
+          "title": "More than 170,000 respiratory cases recorded in haze-choked Indonesia",
+          "summary": "More than 40,000 of the cases – which range from mild coughs to pneumonia – involve toddlers.",
+          "url": "https://www.bbc.co.uk/news/articles/cq62j13gnyrko?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
           "region": "Indonesia",
-          "published": "Tue, 22 Sep 2026 16:07:15 +0700"
+          "published": "Wed, 23 Sep 2026 04:20:12 GMT"
         },
         {
           "title": "Barrio Triste review – raw and dynamic portrait of anarchic slum life in 1980s Medellín",
@@ -3664,12 +3652,12 @@
           "published": "Mon, 14 Sep 2026 12:00:57 GMT"
         },
         {
-          "title": "Argentina to UN: Falkland Islands are a ‘national cause’",
-          "summary": "Argentina’s President Javier Milei says the “principle of self-determination does not apply\" to the Falkland Islands.",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/23/argentina-to-un-falkland-islands-are-a-national?traffic_source=rss",
+          "title": "Venezuela’s Delcy Rodriguez promises elections at UN, gives no date",
+          "summary": "Rodriguez says Venezuela is transitioning to full democracy and has opened dialogue with opposition sectors.",
+          "url": "https://www.aljazeera.com/news/2026/9/24/venezuelas-delcy-rodriguez-promises-elections-at-un-gives-no-date?traffic_source=rss",
           "publisher": "Al Jazeera",
           "region": "South & Central America",
-          "published": "Wed, 23 Sep 2026 16:12:48 +0000"
+          "published": "Thu, 24 Sep 2026 01:26:30 +0000"
         },
         {
           "title": "Ethiopia and Tigray accuse each of launching offensives, fuelling fears of new war",
@@ -3677,33 +3665,33 @@
           "url": "https://www.bbc.co.uk/news/articles/cry8zwwq21pxo?at_medium=RSS&amp;at_campaign=rss",
           "publisher": "BBC News",
           "region": "East Africa",
-          "published": "Wed, 23 Sep 2026 16:53:37 GMT"
+          "published": "Thu, 24 Sep 2026 04:37:47 GMT"
         },
         {
-          "title": "Brazil’s Lula announces higher welfare payments and free weight-loss jabs ahead of election",
-          "summary": "Critics say moves from leftwing incumbent president are electorally motivated two weeks before Brazil’s elections Brazil’s president, Luiz Inácio Lula da Silva, has announced a 15% increase in the country’s main cash-transfer programme for poor families, as…",
-          "url": "https://www.theguardian.com/world/2026/sep/18/brazil-lula-welfare-payments-weight-loss-jabs-election",
+          "title": "Brazil’s wind farms have been a huge success. So why isn’t everybody reaping the benefits?",
+          "summary": "While the country’s ambition is to be the ‘Saudi Arabia of green energy’, communities in the north-east are bearing the cost in diminished health and livelihoods Beneath the power lines cutting across Antonio de Souza’s property in Serra do Mel, in north-east…",
+          "url": "https://www.theguardian.com/global-development/2026/sep/19/brazils-wind-farms-have-been-a-huge-success-so-why-isnt-everybody-reaping-the-benefits",
           "publisher": "The Guardian",
           "region": "Brazil",
-          "published": "Fri, 18 Sep 2026 17:10:37 GMT"
+          "published": "Sat, 19 Sep 2026 12:00:46 GMT"
         },
         {
-          "title": "Foreign tourists sip beer in floodwater as heavy rain swamps Ho Chi Minh City center",
-          "summary": "More than an hour of heavy rain left Le Loi and Ham Nghi streets and Bui Vien backpacker street in central Ho Chi Minh City under deep water on Wednesday afternoon, snarling traffic as office workers and foreign tourists waded through the flood.",
-          "url": "https://e.vnexpress.net/photo/environment/foreign-tourists-sip-beer-in-floodwater-as-heavy-rain-swamps-ho-chi-minh-city-center-5123860.html",
+          "title": "HCMC set to begin construction of 3 new metro lines for $9.6B",
+          "summary": "Ho Chi Minh City plans to expand its metro network by nearly 90 km with three new lines, including one connecting Tan Son Nhat airport, built at a cost of more than VND254 trillion (US$9.6 billion).",
+          "url": "https://e.vnexpress.net/news/news/traffic/hcmc-set-to-begin-construction-of-3-new-metro-lines-for-9-6b-5124121.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Wed, 23 Sep 2026 15:47:14 +0700"
+          "published": "Thu, 24 Sep 2026 10:53:58 +0700"
         }
       ],
-      "totalTagged": 126,
+      "totalTagged": 128,
       "feedsQueried": 14,
       "errors": [],
       "note": "General headlines from the growing regions, taken from outlets of record and tagged to a region by the countries and cities they name."
     },
     "roundup": {
       "source": "assembled",
-      "fetchedAt": "2026-09-23T18:44:48.542Z",
+      "fetchedAt": "2026-09-24T06:08:03.893Z",
       "windowDays": 7,
       "publishers": [
         "Daily Coffee News",
@@ -3846,7 +3834,7 @@
       "note": "Assembled from the coffee trade press over the past seven days, ranked by relevance to the physical trade. Headlines and links are each publisher’s own."
     },
     "dailyRead": {
-      "fetchedAt": "2026-09-23T18:44:47.090Z",
+      "fetchedAt": "2026-09-24T06:08:02.267Z",
       "article": {
         "title": "Cafe Imports Now 100% Employee-Owned Through a Stock Plan",
         "summary": "Minneapolis-based green coffee importer Cafe Imports has become 100% employee-owned through an Employee Stock Ownership Plan (ESOP), the company announced today. The 33-year-old company did not disclose a valuation or...",
@@ -4174,38 +4162,38 @@
     {
       "source": "daily-read",
       "ok": true,
-      "ms": 436
-    },
-    {
-      "source": "weather",
-      "ok": true,
-      "ms": 616
+      "ms": 400
     },
     {
       "source": "fx",
       "ok": true,
-      "ms": 1088
+      "ms": 1147
     },
     {
       "source": "weekly-recap",
       "ok": true,
-      "ms": 1891
+      "ms": 2030
     },
     {
       "source": "arabica-futures",
       "ok": true,
-      "ms": 2024
+      "ms": 2171
     },
     {
       "source": "origin-wire",
       "ok": true,
-      "ms": 3032
+      "ms": 3062
     },
     {
       "source": "ico-report",
       "ok": false,
-      "ms": 10800,
+      "ms": 8366,
       "error": "indicator prices: 2025-09 has 1 values for 7 columns"
+    },
+    {
+      "source": "weather",
+      "ok": true,
+      "ms": 48577
     }
   ]
 }

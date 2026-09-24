@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T06:08:50.438Z",
+  "generatedAt": "2026-09-24T18:45:22.565Z",
   "schema": 5,
   "schedule": {
     "slotsUtc": [
@@ -26,8 +26,8 @@
       "frontMonth": {
         "code": "KCZ26",
         "label": "Dec 2026",
-        "close": 275.9,
-        "volume": 14984
+        "close": 276.6,
+        "volume": 9519
       },
       "rolled": false,
       "mostActive": "KCZ26",
@@ -35,60 +35,52 @@
         {
           "code": "KCZ26",
           "label": "Dec 2026",
-          "close": 275.9,
-          "volume": 14984
+          "close": 276.6,
+          "volume": 9519
         },
         {
           "code": "KCH27",
           "label": "Mar 2027",
-          "close": 268.15,
-          "volume": 5831
+          "close": 269.05,
+          "volume": 4670
         },
         {
           "code": "KCK27",
           "label": "May 2027",
-          "close": 265.85,
-          "volume": 3169
+          "close": 266.4,
+          "volume": 2648
         },
         {
           "code": "KCN27",
           "label": "Jul 2027",
-          "close": 264.5,
-          "volume": 1457
+          "close": 265.15,
+          "volume": 1706
         },
         {
           "code": "KCU27",
           "label": "Sep 2027",
-          "close": 262.95,
-          "volume": 815
+          "close": 263.45,
+          "volume": 416
         },
         {
           "code": "KCZ27",
           "label": "Dec 2027",
-          "close": 261.25,
-          "volume": 555
+          "close": 261.8,
+          "volume": 256
         }
       ],
       "quote": {
-        "last": 267.45,
-        "open": 265,
-        "high": 271.29998779296875,
-        "low": 262.6000061035156,
-        "previousClose": 264.70001220703125,
-        "change": 2.75,
-        "changePct": 1.039,
-        "volume": 6436,
-        "asOf": "2026-09-23T17:29:55.000Z"
+        "last": 269.05,
+        "open": 267.1499938964844,
+        "high": 271.1499938964844,
+        "low": 264.45001220703125,
+        "previousClose": 268.1499938964844,
+        "change": 0.9,
+        "changePct": 0.336,
+        "volume": 4670,
+        "asOf": "2026-09-24T17:29:53.000Z"
       },
       "bars": [
-        {
-          "date": "2025-06-17",
-          "open": 288.5,
-          "high": 288.5,
-          "low": 283.75,
-          "close": 285.5,
-          "volume": 39
-        },
         {
           "date": "2025-06-18",
           "open": 281.1499938964844,
@@ -2640,13 +2632,21 @@
           "low": 262.6000061035156,
           "close": 268.1499938964844,
           "volume": 6436
+        },
+        {
+          "date": "2026-09-24",
+          "open": 267.1499938964844,
+          "high": 271.1499938964844,
+          "low": 264.45001220703125,
+          "close": 269.04998779296875,
+          "volume": 4670
         }
       ],
       "crossCheck": {
-        "tradingView": 268.15,
-        "yahoo": 267.45,
-        "diff": 0.7,
-        "diffPct": 0.262,
+        "tradingView": 269.05,
+        "yahoo": 269.05,
+        "diff": 0,
+        "diffPct": 0,
         "agree": true
       },
       "sources": [
@@ -2662,24 +2662,28 @@
         }
       ],
       "technicals": {
-        "observations": 503,
-        "sma20": 282.92999877929685,
-        "sma50": 295.76499938964844,
-        "sma200": 282.95274978637696,
-        "rsi14": 35.995780515980016,
+        "observations": 504,
+        "sma20": 280.97749786376954,
+        "sma50": 295.07499938964844,
+        "sma200": 282.6972497558594,
+        "rsi14": 36.97686668995412,
         "macd": {
-          "line": -8.88061951507791,
-          "signal": -7.182279912087827,
-          "histogram": -1.6983396029900835
+          "line": -8.704773803045498,
+          "signal": -7.486778690279362,
+          "histogram": -1.2179951127661361
         },
-        "atr14": 9.44264258249011,
+        "atr14": 9.246738232987468,
         "donchian20": {
-          "high": 318.8500061035156,
+          "high": 305,
           "low": 262.6000061035156,
           "period": 20
         },
         "levels": {
           "support": [
+            {
+              "price": 268.20001220703125,
+              "date": "2025-04-07"
+            },
             {
               "price": 261.1000061035156,
               "date": "2026-03-16"
@@ -2687,17 +2691,9 @@
             {
               "price": 259,
               "date": "2025-02-26"
-            },
-            {
-              "price": 258.95001220703125,
-              "date": "2026-02-24"
             }
           ],
           "resistance": [
-            {
-              "price": 268.6000061035156,
-              "date": "2025-07-16"
-            },
             {
               "price": 272.6499938964844,
               "date": "2026-04-15"
@@ -2705,6 +2701,10 @@
             {
               "price": 275.04998779296875,
               "date": "2026-05-05"
+            },
+            {
+              "price": 280.8500061035156,
+              "date": "2026-03-26"
             }
           ]
         },
@@ -2713,29 +2713,25 @@
           "low": 207.8000030517578
         },
         "method": "Wilder RSI(14); MACD(12,26,9) on EMA; ATR(14); pivots = 5-bar swing highs/lows; Donchian(20).",
-        "basis": "503 daily bars for KCH27"
+        "basis": "504 daily bars for KCH27"
       },
       "barsPublished": 320,
-      "barsAnalysed": 503
+      "barsAnalysed": 504
     }
   },
   "fx": {
-    "asOf": "2026-09-23",
+    "asOf": "2026-09-24",
     "pairs": {
       "GBPUSD": {
         "pair": "GBP/USD",
-        "rate": 1.3276,
-        "previous": 1.3363,
+        "rate": 1.322,
+        "previous": 1.3276,
         "dp": 4,
         "note": "Sterling stronger means a dollar-priced contract costs a UK buyer less.",
-        "change": -0.0087,
-        "changePct": -0.651,
-        "change1m": -2.61,
+        "change": -0.0056,
+        "changePct": -0.422,
+        "change1m": -3.01,
         "history": [
-          {
-            "date": "2026-07-02",
-            "rate": 1.3306
-          },
           {
             "date": "2026-07-03",
             "rate": 1.3355
@@ -2971,23 +2967,23 @@
           {
             "date": "2026-09-23",
             "rate": 1.3276
+          },
+          {
+            "date": "2026-09-24",
+            "rate": 1.322
           }
         ]
       },
       "USDBRL": {
         "pair": "USD/BRL",
-        "rate": 5.1322,
-        "previous": 5.1231,
+        "rate": 5.1808,
+        "previous": 5.1322,
         "dp": 4,
         "note": "A weaker real encourages Brazilian producer selling.",
-        "change": 0.0091,
-        "changePct": 0.178,
-        "change1m": -0.5,
+        "change": 0.0486,
+        "changePct": 0.947,
+        "change1m": 0.67,
         "history": [
-          {
-            "date": "2026-07-02",
-            "rate": 5.201
-          },
           {
             "date": "2026-07-03",
             "rate": 5.1962
@@ -3223,14 +3219,18 @@
           {
             "date": "2026-09-23",
             "rate": 5.1322
+          },
+          {
+            "date": "2026-09-24",
+            "rate": 5.1808
           }
         ]
       }
     },
     "ptax": {
-      "buy": 5.1408,
-      "sell": 5.1414,
-      "quotedAt": "2026-09-23 13:04:22.36175"
+      "buy": 5.1789,
+      "sell": 5.1795,
+      "quotedAt": "2026-09-24 13:03:18.656275"
     },
     "sources": [
       {
@@ -3246,7 +3246,7 @@
     ]
   },
   "weather": {
-    "fetchedAt": "2026-09-24T06:08:50.435Z",
+    "fetchedAt": "2026-09-24T18:45:19.575Z",
     "thresholds": {
       "frostC": 4,
       "heavyRainMm": 50,
@@ -3273,17 +3273,17 @@
         "current": {
           "date": "2026-09-23",
           "tMax": 23.4,
-          "tMin": 14.4,
+          "tMin": 15.5,
           "rain": 28.2,
           "code": 95,
-          "cloud": 74,
+          "cloud": 85,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
         "rain14": 137,
-        "rainForecast7": 1.9,
-        "minForecast7": 13.2,
+        "rainForecast7": 3.3,
+        "minForecast7": 14.4,
         "alerts": []
       },
       {
@@ -3299,14 +3299,14 @@
           "tMin": 17.5,
           "rain": 4.1,
           "code": 53,
-          "cloud": 78,
+          "cloud": 77,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 22.3,
-        "rainForecast7": 2,
-        "minForecast7": 16.5,
+        "rainForecast7": 4.7,
+        "minForecast7": 17.4,
         "alerts": []
       },
       {
@@ -3319,17 +3319,17 @@
         "current": {
           "date": "2026-09-23",
           "tMax": 31.3,
-          "tMin": 21.2,
-          "rain": 5.8,
+          "tMin": 21.5,
+          "rain": 5.2,
           "code": 80,
           "cloud": 89,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 29.5,
-        "rainForecast7": 7.9,
-        "minForecast7": 20.7,
+        "rain14": 28.9,
+        "rainForecast7": 5.4,
+        "minForecast7": 20.9,
         "alerts": []
       },
       {
@@ -3350,14 +3350,14 @@
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 193,
-        "rainForecast7": 59.7,
-        "minForecast7": 21.8,
+        "rain14": 150.4,
+        "rainForecast7": 77.4,
+        "minForecast7": 22,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "60 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "77 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3379,14 +3379,14 @@
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 239,
-        "rainForecast7": 63.9,
-        "minForecast7": 19.5,
+        "rain14": 221.2,
+        "rainForecast7": 59.7,
+        "minForecast7": 19,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "64 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "60 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3401,16 +3401,16 @@
           "date": "2026-09-23",
           "tMax": 27.9,
           "tMin": 18.1,
-          "rain": 7.9,
+          "rain": 7.2,
           "code": 81,
-          "cloud": 69,
+          "cloud": 65,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 79.5,
-        "rainForecast7": 29.3,
-        "minForecast7": 15.2,
+        "rain14": 78.8,
+        "rainForecast7": 34.4,
+        "minForecast7": 16.1,
         "alerts": []
       },
       {
@@ -3424,21 +3424,21 @@
           "date": "2026-09-23",
           "tMax": 28.2,
           "tMin": 17.3,
-          "rain": 2.3,
+          "rain": 2.7,
           "code": 53,
-          "cloud": 100,
+          "cloud": 99,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 20.4,
-        "rainForecast7": 56.2,
-        "minForecast7": 15.6,
+        "rain14": 20.8,
+        "rainForecast7": 65.8,
+        "minForecast7": 16.2,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "56 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "66 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3460,10 +3460,16 @@
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 154,
-        "rainForecast7": 32.4,
-        "minForecast7": 16.7,
-        "alerts": []
+        "rain14": 150.3,
+        "rainForecast7": 65.5,
+        "minForecast7": 16.5,
+        "alerts": [
+          {
+            "type": "wet",
+            "severity": "watch",
+            "text": "66 mm forecast over 7 days — harvest/drying disruption risk."
+          }
+        ]
       },
       {
         "key": "lampung",
@@ -3484,8 +3490,8 @@
         "condition": "very-wet",
         "conditionLabel": "Very wet",
         "rain14": 98.9,
-        "rainForecast7": 20.7,
-        "minForecast7": 24.5,
+        "rainForecast7": 21.3,
+        "minForecast7": 25,
         "alerts": []
       },
       {
@@ -3507,8 +3513,8 @@
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
         "rain14": 45.2,
-        "rainForecast7": 25.8,
-        "minForecast7": 12.6,
+        "rainForecast7": 19.7,
+        "minForecast7": 13.1,
         "alerts": []
       },
       {
@@ -3522,17 +3528,23 @@
           "date": "2026-09-23",
           "tMax": 28.6,
           "tMin": 19.2,
-          "rain": 7.3,
+          "rain": 7.8,
           "code": 80,
           "cloud": 92,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 66.1,
-        "rainForecast7": 28.5,
-        "minForecast7": 14.8,
-        "alerts": []
+        "rain14": 66.6,
+        "rainForecast7": 51.4,
+        "minForecast7": 14.9,
+        "alerts": [
+          {
+            "type": "wet",
+            "severity": "watch",
+            "text": "51 mm forecast over 7 days — harvest/drying disruption risk."
+          }
+        ]
       },
       {
         "key": "chanchamayo",
@@ -3547,14 +3559,14 @@
           "tMin": 18.2,
           "rain": 0.3,
           "code": 51,
-          "cloud": 50,
+          "cloud": 51,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 65.1,
-        "rainForecast7": 32.3,
-        "minForecast7": 18.6,
+        "rainForecast7": 23.3,
+        "minForecast7": 18.8,
         "alerts": []
       }
     ],
@@ -3568,32 +3580,32 @@
   },
   "news": {
     "originWire": {
-      "fetchedAt": "2026-09-24T06:08:04.921Z",
+      "fetchedAt": "2026-09-24T18:45:22.274Z",
       "lookbackHours": 504,
       "headlines": [
         {
-          "title": "Inside the illegal gold rush destroying the Amazon rainforest - video",
-          "summary": "The Guardian's Tom Phillips rides along with Brazilian forces as they inspect illegal mining operations in the Sararé indigenous territory. The destructive prospecting camps and mine sites have carved out swaths of the Amazon, threatening protected indigenous…",
-          "url": "https://www.theguardian.com/environment/video/2026/sep/23/brazil-illegal-gold-rush-amazon-rainforest",
+          "title": "Democratic lawmakers accuse Trump administration of interference in Brazilian elections",
+          "summary": "Legislators sent letter to Marco Rubio saying US interference is weakening Brazil’s democratic institutions US politics live – latest updates A group of 31 Democratic members of the US Congress has sent a letter to the secretary of state, Marco Rubio…",
+          "url": "https://www.theguardian.com/world/2026/sep/24/trump-brazil-election-interference",
           "publisher": "The Guardian",
           "region": "Brazil",
-          "published": "Wed, 23 Sep 2026 22:17:17 GMT"
+          "published": "Thu, 24 Sep 2026 17:56:06 GMT"
         },
         {
-          "title": "Dollar strengthens against dong",
-          "summary": "The U.S. dollar rose against the Vietnamese dong Thursday morning.",
-          "url": "https://e.vnexpress.net/news/business/markets/dollar-strengthens-against-dong-5124179.html",
-          "publisher": "VnExpress International",
+          "title": "Rick Wakeman performs piano concert to 150 rescued moon bears in Vietnam",
+          "summary": "Former Yes musician plays at sanctuary to raise awareness of animals that remain stuck in cages at ‘bile farms’ Rick Wakeman has played to all kinds of people around the globe, but he has now performed to an audience he had never encountered before – an…",
+          "url": "https://www.theguardian.com/world/2026/sep/24/rick-wakeman-vietnam-bears-moon-sanctuary",
+          "publisher": "The Guardian",
           "region": "Vietnam",
-          "published": "Thu, 24 Sep 2026 12:25:31 +0700"
+          "published": "Thu, 24 Sep 2026 15:40:28 GMT"
         },
         {
-          "title": "Thailand bears Southeast Asia's second heaviest economic cost from air pollution, behind Indonesia",
-          "summary": "PM2.5 air pollution costs the Thai economy an estimated US$45.3 billion annually, or 3.89% of its GDP, the second-highest figure in Southeast Asia behind Indonesia's, per a World Bank assessment.",
-          "url": "https://e.vnexpress.net/news/business/economy/thailand-bears-southeast-asia-s-second-heaviest-economic-cost-from-air-pollution-behind-indonesia-5123815.html",
+          "title": "Singapore casino accepts 28 fake S$10,000 notes before Indonesian man is stopped",
+          "summary": "An Indonesian businessman is under investigation in Singapore after allegedly exchanging 28 counterfeit S$10,000 notes at the Resorts World Sentosa (RWS) casino and returning with six more.",
+          "url": "https://e.vnexpress.net/news/news/crime/singapore-casino-accepts-28-fake-s-10-000-notes-before-indonesian-man-is-stopped-5123968.html",
           "publisher": "VnExpress International",
           "region": "Indonesia",
-          "published": "Thu, 24 Sep 2026 05:00:00 +0700"
+          "published": "Thu, 24 Sep 2026 15:32:16 +0700"
         },
         {
           "title": "Colombia declares public calamity as wildfire threatens popular tourist area",
@@ -3604,44 +3616,44 @@
           "published": "Mon, 21 Sep 2026 17:13:23 GMT"
         },
         {
-          "title": "Venezuela’s Rodriguez pledges elections, path forward in UNGA speech",
-          "summary": "Venezuela’s Interim President Delcy Rodriguez says her country must abandon the ‘extremism’ of the past.",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/24/venezuelas-rodriguez-pledges-elections-path-forward-in-unga-speech?traffic_source=rss",
+          "title": "Hurricane Polo brings fears of heavy rain and landslides in Mexico",
+          "summary": "Heavy rains could cause life-threatening flooding and landslides in Mexico, the US National Hurricane Center warned.",
+          "url": "https://www.aljazeera.com/news/2026/9/24/hurricane-polo-hits-mexicos-coast-as-tropical-storm-nolo-approaches-hawaii?traffic_source=rss",
           "publisher": "Al Jazeera",
           "region": "South & Central America",
-          "published": "Thu, 24 Sep 2026 02:23:06 +0000"
+          "published": "Thu, 24 Sep 2026 13:02:43 +0000"
         },
         {
-          "title": "Why have some nations developed while others struggle?",
-          "summary": "At UNGA, Iran, Syria and Kenya have highlighted how war and injustice have skewed global development.",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/24/why-have-some-nations-developed-while-others-struggle?traffic_source=rss",
-          "publisher": "Al Jazeera",
+          "title": "Ethiopia's army says it has repelled attacks in first comment on fresh fighting",
+          "summary": "The military says its soldiers inflicted casualties as fears grow of a resumption of a full-blown civil war.",
+          "url": "https://www.bbc.co.uk/news/articles/cqevwm09w4xmo?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
           "region": "East Africa",
-          "published": "Thu, 24 Sep 2026 05:02:12 +0000"
+          "published": "Thu, 24 Sep 2026 15:37:45 GMT"
         },
         {
-          "title": "China’s stranglehold on rare earths must be ended, says hopeful supplier to EU",
-          "summary": "Rafael Moreno, whose company has opened demo plant in Brazil, says market is ‘nervous’ as Trump-Xi summit looms The head of a mining company hoping to supply the EU with rare earths in two years’ time has said it is “paramount” to end China’s stranglehold on…",
-          "url": "https://www.theguardian.com/environment/2026/sep/20/china-stranglehold-rare-earths-hopeful-supplier-eu-viridis",
+          "title": "Inside the illegal gold rush destroying the Amazon rainforest - video",
+          "summary": "The Guardian's Tom Phillips rides along with Brazilian forces as they inspect illegal mining operations in the Sararé indigenous territory. The destructive prospecting camps and mine sites have carved out swaths of the Amazon, threatening protected indigenous…",
+          "url": "https://www.theguardian.com/environment/video/2026/sep/23/brazil-illegal-gold-rush-amazon-rainforest",
           "publisher": "The Guardian",
           "region": "Brazil",
-          "published": "Sun, 20 Sep 2026 11:00:14 GMT"
+          "published": "Wed, 23 Sep 2026 22:17:17 GMT"
         },
         {
-          "title": "Gold prices hit 5-week bottom",
-          "summary": "Gold prices on Thursday fell to the lowest since Aug. 19 in Vietnam but remained steady on global markets.",
-          "url": "https://e.vnexpress.net/news/business/markets/gold-prices-hit-5-week-bottom-5124176.html",
-          "publisher": "VnExpress International",
+          "title": "Rescued bears enjoy private piano concert – video",
+          "summary": "Former Yes musician Rick Wakeman plays a piano concert to bears at a sanctuary in Vietnam. His concert was performed live on a Yamaha grand piano positioned in Animals Asia in the Tam Dao national park. Wakeman is trying to raise awareness of 125 animals that…",
+          "url": "https://www.theguardian.com/world/video/2026/sep/24/rick-wakeman-plays-piano-at-bear-sanctuary-video",
+          "publisher": "The Guardian",
           "region": "Vietnam",
-          "published": "Thu, 24 Sep 2026 12:25:12 +0700"
+          "published": "Thu, 24 Sep 2026 15:32:20 GMT"
         },
         {
-          "title": "More than 170,000 respiratory cases recorded in haze-choked Indonesia",
-          "summary": "More than 40,000 of the cases – which range from mild coughs to pneumonia – involve toddlers.",
-          "url": "https://www.bbc.co.uk/news/articles/cq62j13gnyrko?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
+          "title": "Thailand bears Southeast Asia's second heaviest economic cost from air pollution, behind Indonesia",
+          "summary": "PM2.5 air pollution costs the Thai economy an estimated US$45.3 billion annually, or 3.89% of its GDP, the second-highest figure in Southeast Asia behind Indonesia's, per a World Bank assessment.",
+          "url": "https://e.vnexpress.net/news/business/economy/thailand-bears-southeast-asia-s-second-heaviest-economic-cost-from-air-pollution-behind-indonesia-5123815.html",
+          "publisher": "VnExpress International",
           "region": "Indonesia",
-          "published": "Wed, 23 Sep 2026 04:20:12 GMT"
+          "published": "Thu, 24 Sep 2026 05:00:00 +0700"
         },
         {
           "title": "Barrio Triste review – raw and dynamic portrait of anarchic slum life in 1980s Medellín",
@@ -3652,52 +3664,79 @@
           "published": "Mon, 14 Sep 2026 12:00:57 GMT"
         },
         {
-          "title": "Venezuela’s Delcy Rodriguez promises elections at UN, gives no date",
-          "summary": "Rodriguez says Venezuela is transitioning to full democracy and has opened dialogue with opposition sectors.",
-          "url": "https://www.aljazeera.com/news/2026/9/24/venezuelas-delcy-rodriguez-promises-elections-at-un-gives-no-date?traffic_source=rss",
-          "publisher": "Al Jazeera",
+          "title": "‘You can’t just bet everything on exports’: as its gas runs out, is Bolivia doomed to repeat history?",
+          "summary": "A fossil gas boom that lifted millions out of poverty has collapsed and inflation is rising – but not everyone believes selling gold and soya is the answer Once hailed as the “energy heart of South America”, Bolivia ’s economy was buoyed up by a fossil gas…",
+          "url": "https://www.theguardian.com/global-development/2026/sep/24/fossil-gas-runs-out-bolivia-poverty-inflation",
+          "publisher": "The Guardian",
           "region": "South & Central America",
-          "published": "Thu, 24 Sep 2026 01:26:30 +0000"
+          "published": "Thu, 24 Sep 2026 13:00:18 GMT"
         },
         {
-          "title": "Ethiopia and Tigray accuse each of launching offensives, fuelling fears of new war",
-          "summary": "The local authorities reportedly seize Tigray's airports following reports of recent drone strikes.",
-          "url": "https://www.bbc.co.uk/news/articles/cry8zwwq21pxo?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
+          "title": "Rebel offensive against Ethiopian army stokes fears of return to civil war",
+          "summary": "Fighting escalates after Tigrayan rebels form new coalition aimed at overthrowing Abiy Ahmed government There are growing fears of a return to civil war in Ethiopia after an offensive by fighters from Tigray into the neighbouring states of Afar and Amhara and…",
+          "url": "https://www.theguardian.com/world/2026/sep/24/fears-return-to-war-tigray-rebels-launch-offensive-against-ethiopian-army",
+          "publisher": "The Guardian",
           "region": "East Africa",
-          "published": "Thu, 24 Sep 2026 04:37:47 GMT"
+          "published": "Thu, 24 Sep 2026 15:29:42 GMT"
         },
         {
-          "title": "Brazil’s wind farms have been a huge success. So why isn’t everybody reaping the benefits?",
-          "summary": "While the country’s ambition is to be the ‘Saudi Arabia of green energy’, communities in the north-east are bearing the cost in diminished health and livelihoods Beneath the power lines cutting across Antonio de Souza’s property in Serra do Mel, in north-east…",
-          "url": "https://www.theguardian.com/global-development/2026/sep/19/brazils-wind-farms-have-been-a-huge-success-so-why-isnt-everybody-reaping-the-benefits",
+          "title": "China’s stranglehold on rare earths must be ended, says hopeful supplier to EU",
+          "summary": "Rafael Moreno, whose company has opened demo plant in Brazil, says market is ‘nervous’ as Trump-Xi summit looms The head of a mining company hoping to supply the EU with rare earths in two years’ time has said it is “paramount” to end China’s stranglehold on…",
+          "url": "https://www.theguardian.com/environment/2026/sep/20/china-stranglehold-rare-earths-hopeful-supplier-eu-viridis",
           "publisher": "The Guardian",
           "region": "Brazil",
-          "published": "Sat, 19 Sep 2026 12:00:46 GMT"
+          "published": "Sun, 20 Sep 2026 11:00:14 GMT"
         },
         {
-          "title": "HCMC set to begin construction of 3 new metro lines for $9.6B",
-          "summary": "Ho Chi Minh City plans to expand its metro network by nearly 90 km with three new lines, including one connecting Tan Son Nhat airport, built at a cost of more than VND254 trillion (US$9.6 billion).",
-          "url": "https://e.vnexpress.net/news/news/traffic/hcmc-set-to-begin-construction-of-3-new-metro-lines-for-9-6b-5124121.html",
+          "title": "Ho Chi Minh City rules out gasoline vehicle ban, bets on free buses and EV incentives instead",
+          "summary": "Ho Chi Minh City will not ban gasoline vehicles, relying instead on free buses, wider public transport and incentives to go electric, city Party chief Tran Luu Quang told voters on Thursday.",
+          "url": "https://e.vnexpress.net/news/news/traffic/ho-chi-minh-city-rules-out-gasoline-vehicle-ban-bets-on-free-buses-and-ev-incentives-instead-5124409.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Thu, 24 Sep 2026 10:53:58 +0700"
+          "published": "Thu, 24 Sep 2026 20:30:58 +0700"
         }
       ],
-      "totalTagged": 128,
+      "totalTagged": 129,
       "feedsQueried": 14,
       "errors": [],
       "note": "General headlines from the growing regions, taken from outlets of record and tagged to a region by the countries and cities they name."
     },
     "roundup": {
       "source": "assembled",
-      "fetchedAt": "2026-09-24T06:08:03.893Z",
+      "fetchedAt": "2026-09-24T18:45:21.460Z",
       "windowDays": 7,
       "publishers": [
         "Daily Coffee News",
         "World Coffee Portal"
       ],
       "items": [
+        {
+          "headline": "Starbucks to close hundreds more North America stores",
+          "summary": "The second round of store closures in the US and Canada within 12 months is expected to cost Starbucks hundreds of millions of dollars",
+          "url": "https://www.worldcoffeeportal.com/news/starbucks-to-close-hundreds-more-north-america-stores/",
+          "publisher": "World Coffee Portal",
+          "published": "Thu, 24 Sep 2026 14:43:42 GMT",
+          "date": "Thu, 24 Sep",
+          "section": "Top stories of the week"
+        },
+        {
+          "headline": "Stumptown’s New LA Flagship Gives The Starland Theatre an Encore",
+          "summary": "The curtain has risen on a new era at a historic former neighborhood movie theater in Los Angeles, where Stumptown Coffee Roasters opened a new flagship cafe and regional training...",
+          "url": "https://dailycoffeenews.com/2026/09/24/stumptowns-new-la-flagship-gives-the-starland-theatre-an-encore/",
+          "publisher": "Daily Coffee News",
+          "published": "Thu, 24 Sep 2026 13:28:11 +0000",
+          "date": "Thu, 24 Sep",
+          "section": "Roasting & retail"
+        },
+        {
+          "headline": "Nespresso scores major European football club supply deal",
+          "summary": "The coffee pod giant has signed a five-year supply deal with one of Europe’s largest football clubs as Official Coffee Partner The agreement with FC Barcelona forms part of the Spanish football club’s Espai Barça transformation project, which will expand the…",
+          "url": "https://www.worldcoffeeportal.com/news/nespresso-scores-major-european-football-club-supply-deal/",
+          "publisher": "World Coffee Portal",
+          "published": "Thu, 24 Sep 2026 09:01:13 GMT",
+          "date": "Thu, 24 Sep",
+          "section": "Top stories of the week"
+        },
         {
           "headline": "New Coffee Resilience Paper Calls for Investment Beyond the Farm",
           "summary": "A new position paper from the Sustainable Coffee Challenge is urging coffee companies and other organizations that might have money to invest in the coffee sector to look beyond individual...",
@@ -3753,15 +3792,6 @@
           "section": "Top stories of the week"
         },
         {
-          "headline": "Variety Coffee Roasters Consistently Delivers with 10th New York Location",
-          "summary": "New York City’s Variety Coffee Roasters has reached the 10-shop milestone with a recent opening in Greenpoint, adding to existing locations across Brooklyn, Manhattan and Queens. Opened in June at...",
-          "url": "https://dailycoffeenews.com/2026/09/22/variety-coffee-roasters-consistently-delivers-with-10th-new-york-location/",
-          "publisher": "Daily Coffee News",
-          "published": "Tue, 22 Sep 2026 12:44:16 +0000",
-          "date": "Tue, 22 Sep",
-          "section": "Roasting & retail"
-        },
-        {
           "headline": "La Reserva de ¡Tierra! Selection: a certified approach to regenerative agriculture coffee",
           "summary": "When Lavazza officially launched La Reserva de ¡Tierra! Selection on International Earth Day in April 2026, it introduced more than just a new coffee product – it showcased a new approach to coffee production, combining product quality with a certification…",
           "url": "https://www.worldcoffeeportal.com/feature/la-reserva-de-tierra-selection-a-certified-approach-to-regenerative-agriculture-coffee/",
@@ -3778,51 +3808,6 @@
           "published": "Mon, 21 Sep 2026 18:17:26 +0000",
           "date": "Mon, 21 Sep",
           "section": "Top stories of the week"
-        },
-        {
-          "headline": "Romania’s Brewtifi attains €1.6m valuation one year after launch",
-          "summary": "A group of angel investors are backing the app’s potential to connect the European specialty coffee market with a new generation of coffee consumers An app for European specialty coffee enthusiasts has raised new investment to scale its reach across the…",
-          "url": "https://www.worldcoffeeportal.com/news/romanias-brewtifi-attains-eur1-6m-valuation-one-year-after-launch/",
-          "publisher": "World Coffee Portal",
-          "published": "Fri, 18 Sep 2026 15:01:32 GMT",
-          "date": "Fri, 18 Sep",
-          "section": "Trade & production"
-        },
-        {
-          "headline": "Swiss Water unveils multi-million-dollar investment in production expansion",
-          "summary": "The decaffeinated coffee company counts leading specialty coffee roasters Blue Bottle Coffee, Onyx Coffee Lab and Equator Coffees among its clients",
-          "url": "https://www.worldcoffeeportal.com/news/swiss-water-unveils-multi-million-dollar-investment-in-production-expansion/",
-          "publisher": "World Coffee Portal",
-          "published": "Fri, 18 Sep 2026 14:55:14 GMT",
-          "date": "Fri, 18 Sep",
-          "section": "Top stories of the week"
-        },
-        {
-          "headline": "Weekly Coffee News: Colombian Relief Collab + Superautomatic Espresso Launch",
-          "summary": "Welcome to DCN’s Weekly Coffee News! Subscribe here for all the latest coffee industry news. Also, check out the latest career opportunities at CoffeeIndustryJobs.com. Bigface and J Balvin Launch Colombia...",
-          "url": "https://dailycoffeenews.com/2026/09/18/weekly-coffee-news-colombian-relief-collab-superautomatic-espresso-launch/",
-          "publisher": "Daily Coffee News",
-          "published": "Fri, 18 Sep 2026 12:04:44 +0000",
-          "date": "Fri, 18 Sep",
-          "section": "Trade & production"
-        },
-        {
-          "headline": "Nestlé reviewing Russia operations after Kremlin moves to seize assets",
-          "summary": "The Nescafé and KitKat maker currently operates six production facilities in Russia and employed 7,000 staff at the outbreak of the war in Ukraine in February 2022",
-          "url": "https://www.worldcoffeeportal.com/news/nestle-reviewing-russia-operations-after-kremlin-moves-to-seize-assets/",
-          "publisher": "World Coffee Portal",
-          "published": "Fri, 18 Sep 2026 11:41:36 GMT",
-          "date": "Fri, 18 Sep",
-          "section": "Trade & production"
-        },
-        {
-          "headline": "New CEO for Australia’s Soul Origin as it looks to more than double in size",
-          "summary": "The new South Wales-based coffee group is seeking to gain ground on Australian branded coffee shop market leader, McCafé",
-          "url": "https://www.worldcoffeeportal.com/news/new-ceo-for-australias-soul-origin-as-it-looks-to-more-than-double-in-size/",
-          "publisher": "World Coffee Portal",
-          "published": "Fri, 18 Sep 2026 09:48:40 GMT",
-          "date": "Fri, 18 Sep",
-          "section": "Top stories of the week"
         }
       ],
       "errors": [
@@ -3834,7 +3819,7 @@
       "note": "Assembled from the coffee trade press over the past seven days, ranked by relevance to the physical trade. Headlines and links are each publisher’s own."
     },
     "dailyRead": {
-      "fetchedAt": "2026-09-24T06:08:02.267Z",
+      "fetchedAt": "2026-09-24T18:45:19.182Z",
       "article": {
         "title": "Cafe Imports Now 100% Employee-Owned Through a Stock Plan",
         "summary": "Minneapolis-based green coffee importer Cafe Imports has become 100% employee-owned through an Employee Stock Ownership Plan (ESOP), the company announced today. The 33-year-old company did not disclose a valuation or...",
@@ -4162,38 +4147,38 @@
     {
       "source": "daily-read",
       "ok": true,
-      "ms": 400
-    },
-    {
-      "source": "fx",
-      "ok": true,
-      "ms": 1147
-    },
-    {
-      "source": "weekly-recap",
-      "ok": true,
-      "ms": 2030
-    },
-    {
-      "source": "arabica-futures",
-      "ok": true,
-      "ms": 2171
-    },
-    {
-      "source": "origin-wire",
-      "ok": true,
-      "ms": 3062
-    },
-    {
-      "source": "ico-report",
-      "ok": false,
-      "ms": 8366,
-      "error": "indicator prices: 2025-09 has 1 values for 7 columns"
+      "ms": 389
     },
     {
       "source": "weather",
       "ok": true,
-      "ms": 48577
+      "ms": 790
+    },
+    {
+      "source": "fx",
+      "ok": true,
+      "ms": 1973
+    },
+    {
+      "source": "weekly-recap",
+      "ok": true,
+      "ms": 2670
+    },
+    {
+      "source": "arabica-futures",
+      "ok": true,
+      "ms": 2860
+    },
+    {
+      "source": "origin-wire",
+      "ok": true,
+      "ms": 3488
+    },
+    {
+      "source": "ico-report",
+      "ok": false,
+      "ms": 3762,
+      "error": "indicator prices: 2025-09 has 1 values for 7 columns"
     }
   ]
 }

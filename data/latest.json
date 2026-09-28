@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T18:44:33.177Z",
+  "generatedAt": "2026-09-28T06:08:45.038Z",
   "schema": 5,
   "schedule": {
     "slotsUtc": [
@@ -26,7 +26,7 @@
       "frontMonth": {
         "code": "KCZ26",
         "label": "Dec 2026",
-        "close": 278.1,
+        "close": 278.6,
         "volume": 12465
       },
       "rolled": false,
@@ -35,37 +35,37 @@
         {
           "code": "KCZ26",
           "label": "Dec 2026",
-          "close": 278.1,
+          "close": 278.6,
           "volume": 12465
         },
         {
           "code": "KCH27",
           "label": "Mar 2027",
-          "close": 270.95,
+          "close": 271.25,
           "volume": 6307
         },
         {
           "code": "KCK27",
           "label": "May 2027",
-          "close": 268.35,
+          "close": 268.9,
           "volume": 2738
         },
         {
           "code": "KCN27",
           "label": "Jul 2027",
-          "close": 266.95,
+          "close": 267.6,
           "volume": 1180
         },
         {
           "code": "KCU27",
           "label": "Sep 2027",
-          "close": 265.7,
+          "close": 266,
           "volume": 331
         },
         {
           "code": "KCZ27",
           "label": "Dec 2027",
-          "close": 264.2,
+          "close": 264.4,
           "volume": 129
         }
       ],
@@ -77,7 +77,7 @@
         "previousClose": 267.70001220703125,
         "change": 3.25,
         "changePct": 1.214,
-        "volume": 6307,
+        "volume": 4670,
         "asOf": "2026-09-25T17:29:55.000Z"
       },
       "bars": [
@@ -2631,22 +2631,22 @@
           "high": 271.1499938964844,
           "low": 264.45001220703125,
           "close": 267.70001220703125,
-          "volume": 5831
+          "volume": 4670
         },
         {
           "date": "2026-09-25",
           "open": 267.5,
           "high": 276,
           "low": 266.6000061035156,
-          "close": 270.95001220703125,
-          "volume": 6307
+          "close": 271.25,
+          "volume": 4670
         }
       ],
       "crossCheck": {
-        "tradingView": 270.95,
+        "tradingView": 271.25,
         "yahoo": 270.95,
-        "diff": 0,
-        "diffPct": 0,
+        "diff": 0.3,
+        "diffPct": 0.111,
         "agree": true
       },
       "sources": [
@@ -2662,15 +2662,15 @@
         }
       ],
       "technicals": {
-        "observations": 504,
-        "sma20": 279.5425003051758,
-        "sma50": 294.6440002441406,
-        "sma200": 282.4875,
-        "rsi14": 39.360485920379546,
+        "observations": 501,
+        "sma20": 279.55749969482423,
+        "sma50": 294.65,
+        "sma200": 282.48899993896487,
+        "rsi14": 39.67601802983161,
         "macd": {
-          "line": -8.39937989415904,
-          "signal": -7.686529388676378,
-          "histogram": -0.7128505054826615
+          "line": -8.375449244007712,
+          "signal": -7.681743258646113,
+          "histogram": -0.6937059853615981
         },
         "atr14": 9.25768506609439,
         "donchian20": {
@@ -2713,10 +2713,10 @@
           "low": 207.8000030517578
         },
         "method": "Wilder RSI(14); MACD(12,26,9) on EMA; ATR(14); pivots = 5-bar swing highs/lows; Donchian(20).",
-        "basis": "504 daily bars for KCH27"
+        "basis": "501 daily bars for KCH27"
       },
       "barsPublished": 320,
-      "barsAnalysed": 504
+      "barsAnalysed": 501
     }
   },
   "fx": {
@@ -3246,7 +3246,7 @@
     ]
   },
   "weather": {
-    "fetchedAt": "2026-09-25T18:44:30.866Z",
+    "fetchedAt": "2026-09-28T06:08:42.550Z",
     "thresholds": {
       "frostC": 4,
       "heavyRainMm": 50,
@@ -3271,20 +3271,26 @@
         "lat": -21.55,
         "lon": -45.43,
         "current": {
-          "date": "2026-09-24",
-          "tMax": 23.7,
-          "tMin": 14.4,
-          "rain": 0.6,
+          "date": "2026-09-27",
+          "tMax": 30.6,
+          "tMin": 19.7,
+          "rain": 0.1,
           "code": 51,
-          "cloud": 43,
+          "cloud": 9,
           "observed": true
         },
-        "condition": "very-wet",
-        "conditionLabel": "Very wet",
-        "rain14": 115.4,
-        "rainForecast7": 11.2,
-        "minForecast7": 16.2,
-        "alerts": []
+        "condition": "dry",
+        "conditionLabel": "Clear / dry",
+        "rain14": 112.7,
+        "rainForecast7": 55.6,
+        "minForecast7": 15.7,
+        "alerts": [
+          {
+            "type": "wet",
+            "severity": "watch",
+            "text": "56 mm forecast over 7 days — harvest/drying disruption risk."
+          }
+        ]
       },
       {
         "key": "cerrado",
@@ -3294,19 +3300,19 @@
         "lat": -18.94,
         "lon": -46.99,
         "current": {
-          "date": "2026-09-24",
-          "tMax": 28.1,
-          "tMin": 17.4,
-          "rain": 1.6,
-          "code": 53,
-          "cloud": 44,
+          "date": "2026-09-27",
+          "tMax": 31.9,
+          "tMin": 21.4,
+          "rain": 0.3,
+          "code": 51,
+          "cloud": 20,
           "observed": true
         },
-        "condition": "wet",
-        "conditionLabel": "Wet",
-        "rain14": 16.4,
-        "rainForecast7": 10.1,
-        "minForecast7": 19,
+        "condition": "dry",
+        "conditionLabel": "Clear / dry",
+        "rain14": 17.3,
+        "rainForecast7": 23.3,
+        "minForecast7": 18.7,
         "alerts": []
       },
       {
@@ -3317,19 +3323,19 @@
         "lat": -19.39,
         "lon": -40.07,
         "current": {
-          "date": "2026-09-24",
-          "tMax": 25.1,
-          "tMin": 20.9,
-          "rain": 2.5,
-          "code": 53,
-          "cloud": 98,
+          "date": "2026-09-27",
+          "tMax": 31.4,
+          "tMin": 21.6,
+          "rain": 0,
+          "code": 3,
+          "cloud": 20,
           "observed": true
         },
-        "condition": "wet",
-        "conditionLabel": "Wet",
-        "rain14": 29.5,
-        "rainForecast7": 4.2,
-        "minForecast7": 21.4,
+        "condition": "cloudy",
+        "conditionLabel": "Cloudy",
+        "rain14": 32.1,
+        "rainForecast7": 42,
+        "minForecast7": 21.5,
         "alerts": []
       },
       {
@@ -3340,19 +3346,19 @@
         "lat": 12.68,
         "lon": 108.05,
         "current": {
-          "date": "2026-09-24",
-          "tMax": 27.7,
-          "tMin": 22.6,
-          "rain": 7.2,
-          "code": 80,
-          "cloud": 98,
+          "date": "2026-09-27",
+          "tMax": 30.3,
+          "tMin": 22.5,
+          "rain": 31.7,
+          "code": 95,
+          "cloud": 72,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 145.8,
-        "rainForecast7": 33.5,
-        "minForecast7": 21.9,
+        "rain14": 182.1,
+        "rainForecast7": 43,
+        "minForecast7": 20.8,
         "alerts": []
       },
       {
@@ -3363,19 +3369,19 @@
         "lat": 11.55,
         "lon": 107.81,
         "current": {
-          "date": "2026-09-24",
-          "tMax": 23.8,
-          "tMin": 20.1,
-          "rain": 10.6,
-          "code": 53,
-          "cloud": 99,
+          "date": "2026-09-27",
+          "tMax": 27.6,
+          "tMin": 19.9,
+          "rain": 5.1,
+          "code": 80,
+          "cloud": 86,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 206.6,
-        "rainForecast7": 40.1,
-        "minForecast7": 19,
+        "rain14": 222.2,
+        "rainForecast7": 33.3,
+        "minForecast7": 18.4,
         "alerts": []
       },
       {
@@ -3386,20 +3392,26 @@
         "lat": 1.85,
         "lon": -76.05,
         "current": {
-          "date": "2026-09-24",
-          "tMax": 29.4,
-          "tMin": 17.9,
-          "rain": 1.4,
-          "code": 53,
-          "cloud": 86,
+          "date": "2026-09-27",
+          "tMax": 25.6,
+          "tMin": 15.7,
+          "rain": 5.2,
+          "code": 55,
+          "cloud": 88,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 74.8,
-        "rainForecast7": 40.4,
-        "minForecast7": 16.5,
-        "alerts": []
+        "rain14": 81.5,
+        "rainForecast7": 57.4,
+        "minForecast7": 15.1,
+        "alerts": [
+          {
+            "type": "wet",
+            "severity": "watch",
+            "text": "57 mm forecast over 7 days — harvest/drying disruption risk."
+          }
+        ]
       },
       {
         "key": "antioquia",
@@ -3409,24 +3421,24 @@
         "lat": 6.25,
         "lon": -75.56,
         "current": {
-          "date": "2026-09-24",
-          "tMax": 28,
-          "tMin": 16.9,
-          "rain": 7,
+          "date": "2026-09-27",
+          "tMax": 26.5,
+          "tMin": 17.4,
+          "rain": 12.8,
           "code": 81,
-          "cloud": 97,
+          "cloud": 92,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 26.4,
-        "rainForecast7": 59.9,
-        "minForecast7": 15.6,
+        "rain14": 37.5,
+        "rainForecast7": 76.3,
+        "minForecast7": 16.3,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "60 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "76 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3438,24 +3450,24 @@
         "lat": 4.63,
         "lon": 96.85,
         "current": {
-          "date": "2026-09-24",
-          "tMax": 24.1,
-          "tMin": 17.2,
-          "rain": 9.6,
-          "code": 81,
-          "cloud": 98,
+          "date": "2026-09-27",
+          "tMax": 24.8,
+          "tMin": 17.3,
+          "rain": 0.9,
+          "code": 51,
+          "cloud": 93,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 155.9,
-        "rainForecast7": 73.7,
+        "rain14": 159.1,
+        "rainForecast7": 66.4,
         "minForecast7": 16.2,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "74 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "66 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3467,19 +3479,19 @@
         "lat": -5.45,
         "lon": 105.27,
         "current": {
-          "date": "2026-09-24",
-          "tMax": 33.7,
-          "tMin": 26.1,
-          "rain": 8.9,
-          "code": 81,
-          "cloud": 72,
+          "date": "2026-09-27",
+          "tMax": 31,
+          "tMin": 25.6,
+          "rain": 0.3,
+          "code": 51,
+          "cloud": 55,
           "observed": true
         },
-        "condition": "very-wet",
-        "conditionLabel": "Very wet",
-        "rain14": 103.4,
-        "rainForecast7": 22,
-        "minForecast7": 24.7,
+        "condition": "wet",
+        "conditionLabel": "Wet",
+        "rain14": 107.8,
+        "rainForecast7": 25.1,
+        "minForecast7": 24.9,
         "alerts": []
       },
       {
@@ -3490,19 +3502,19 @@
         "lat": 7.67,
         "lon": 36.83,
         "current": {
-          "date": "2026-09-24",
-          "tMax": 24.4,
-          "tMin": 13.3,
-          "rain": 0.7,
-          "code": 51,
-          "cloud": 63,
+          "date": "2026-09-27",
+          "tMax": 23.8,
+          "tMin": 14.6,
+          "rain": 2.3,
+          "code": 53,
+          "cloud": 67,
           "observed": true
         },
-        "condition": "cloudy",
-        "conditionLabel": "Cloudy",
-        "rain14": 43.6,
-        "rainForecast7": 20,
-        "minForecast7": 12.7,
+        "condition": "wet",
+        "conditionLabel": "Wet",
+        "rain14": 27.1,
+        "rainForecast7": 15.5,
+        "minForecast7": 12.4,
         "alerts": []
       },
       {
@@ -3513,20 +3525,26 @@
         "lat": 14.16,
         "lon": -88.02,
         "current": {
-          "date": "2026-09-24",
-          "tMax": 28.3,
-          "tMin": 17.2,
-          "rain": 12.8,
+          "date": "2026-09-27",
+          "tMax": 28.1,
+          "tMin": 16.8,
+          "rain": 10.4,
           "code": 95,
-          "cloud": 89,
+          "cloud": 88,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 78.9,
-        "rainForecast7": 49.9,
-        "minForecast7": 15,
-        "alerts": []
+        "rain14": 84.3,
+        "rainForecast7": 63.2,
+        "minForecast7": 16.3,
+        "alerts": [
+          {
+            "type": "wet",
+            "severity": "watch",
+            "text": "63 mm forecast over 7 days — harvest/drying disruption risk."
+          }
+        ]
       },
       {
         "key": "chanchamayo",
@@ -3536,19 +3554,19 @@
         "lat": -11.05,
         "lon": -75.33,
         "current": {
-          "date": "2026-09-24",
-          "tMax": 32.4,
-          "tMin": 19.1,
-          "rain": 3.3,
-          "code": 80,
-          "cloud": 44,
+          "date": "2026-09-27",
+          "tMax": 30.6,
+          "tMin": 19.6,
+          "rain": 1.9,
+          "code": 53,
+          "cloud": 58,
           "observed": true
         },
-        "condition": "wet",
-        "conditionLabel": "Wet",
-        "rain14": 59.5,
-        "rainForecast7": 22.8,
-        "minForecast7": 18.2,
+        "condition": "very-wet",
+        "conditionLabel": "Very wet",
+        "rain14": 69.8,
+        "rainForecast7": 27.2,
+        "minForecast7": 17.7,
         "alerts": []
       }
     ],
@@ -3562,32 +3580,32 @@
   },
   "news": {
     "originWire": {
-      "fetchedAt": "2026-09-25T18:44:32.883Z",
+      "fetchedAt": "2026-09-28T06:08:45.035Z",
       "lookbackHours": 504,
       "headlines": [
         {
-          "title": "Lebanese in Brazil, Brazilian in Lebanon",
-          "summary": "Their families left Lebanon generations ago. For some Lebanese Brazilians, Lebanon’s pull never disappeared.",
-          "url": "https://www.aljazeera.com/features/longform/2026/9/25/lebanese-in-brazil-brazilian-in-lebanon?traffic_source=rss",
-          "publisher": "Al Jazeera",
+          "title": "‘Viscerally dedicated to social issues’: behind Lula’s drive to win final term in Brazil’s crunch election",
+          "summary": "Longtime friend tells of president’s obsession with social justice and fears for country’s future under another Bolsonaro presidency On 1 January 2023, a few hours after being sworn in for his third stint as Brazil’s president, a ravenous Luiz Inácio Lula da…",
+          "url": "https://www.theguardian.com/world/2026/sep/27/viscerally-dedicated-to-social-issues-behind-lulas-drive-to-win-final-term-in-brazils-crunch-election",
+          "publisher": "The Guardian",
           "region": "Brazil",
-          "published": "Fri, 25 Sep 2026 17:44:39 +0000"
+          "published": "Sun, 27 Sep 2026 07:00:59 GMT"
         },
         {
-          "title": "221 passengers evacuate Air Seoul flight to Vietnam after fire breaks out in bag, power bank suspected",
-          "summary": "A suspected power bank fire broke out aboard a Da Nang-bound Air Seoul flight carrying 221 passengers as it prepared to take off from South Korea's Incheon International Airport on the night of Sept. 24.",
-          "url": "https://e.vnexpress.net/news/news/traffic/221-passengers-evacuate-air-seoul-flight-to-vietnam-after-fire-breaks-out-in-bag-power-bank-suspected-5124838.html",
+          "title": "Ho Chi Minh City warns of severe flooding as high tides peak at 1.85 m",
+          "summary": "Ho Chi Minh City is forecast to experience high tides of 1.6 to 1.85 meters from Sept. 28 to 30, exceeding a Level 3 alert, the highest and most critical warning in Vietnam's river flood warning system.",
+          "url": "https://e.vnexpress.net/news/news/environment/ho-chi-minh-city-warns-of-severe-flooding-as-high-tides-peak-at-1-85-m-5125644.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Fri, 25 Sep 2026 19:44:36 +0700"
+          "published": "Mon, 28 Sep 2026 11:38:43 +0700"
         },
         {
-          "title": "Singapore-born billionaire Low Tuck Kwong's Indonesian coal miner lifts force majeure after quota revision approval, 30% stake sale",
-          "summary": "Indonesia-based PT Bayan Resources has lifted the force majeure on its coal supply obligations following the approval of its subsidiaries' mining quota revisions, a week after its billionaire founder Low Tuck Kwong agreed to sell a 30% stake.",
-          "url": "https://e.vnexpress.net/news/business/companies/singapore-born-billionaire-low-tuck-kwong-s-indonesian-coal-miner-lifts-force-majeure-after-quota-revision-approval-30-stake-sale-5124636.html",
-          "publisher": "VnExpress International",
+          "title": "World’s worst-performing market slashes minimum price for stocks",
+          "summary": "Indonesia is trying to boost liquidity by allowing shares to trade at a tiny fraction of a US cent",
+          "url": "https://www.ft.com/content/04923b0e-a955-4cfa-bd05-cd828807f61d?syn-25a6b1a6=1",
+          "publisher": "Financial Times",
           "region": "Indonesia",
-          "published": "Fri, 25 Sep 2026 11:18:30 +0700"
+          "published": "Mon, 28 Sep 2026 02:51:26 GMT"
         },
         {
           "title": "Colombia declares public calamity as wildfire threatens popular tourist area",
@@ -3598,44 +3616,44 @@
           "published": "Mon, 21 Sep 2026 17:13:23 GMT"
         },
         {
-          "title": "Hurricane Polo barrels towards Baja California region of Mexico",
-          "summary": "Area’s second-most intense hurricane on record being fuelled by exceptionally warm Pacific waters Hurricane Polo is barreling towards the Baja California region of Mexico, the latest system in a Pacific hurricane season that has been notably active in recent…",
-          "url": "https://www.theguardian.com/world/2026/sep/25/weather-tracker-hurricane-polo-baja-california-mexico",
-          "publisher": "The Guardian",
+          "title": "Foreign investors bet Panama can shrug off social unrest and Trump threats",
+          "summary": "Central American country’s bonds perform better than many investors expected despite crisis that threatened to hamstring its economy",
+          "url": "https://www.ft.com/content/b782f295-c8d7-4e72-9987-a24ede2b1fd4?syn-25a6b1a6=1",
+          "publisher": "Financial Times",
           "region": "South & Central America",
-          "published": "Fri, 25 Sep 2026 10:28:45 GMT"
+          "published": "Mon, 28 Sep 2026 04:00:10 GMT"
         },
         {
-          "title": "Internet restricted after fighting breaks out in Ethiopia's Tigray region",
-          "summary": "During the two-year civil war in Tigray, the region was totally cut off from the outside world.",
-          "url": "https://www.bbc.co.uk/news/articles/cqp8dxxg325no?at_medium=RSS&amp;at_campaign=rss",
+          "title": "Are Ethiopians marching back to war in Tigray?",
+          "summary": "Exploring the issues behind the escalation of tensions between the TPLF and the national army.",
+          "url": "https://www.bbc.co.uk/news/articles/c6d94wywx0ypo?at_medium=RSS&amp;at_campaign=rss",
           "publisher": "BBC News",
           "region": "East Africa",
-          "published": "Fri, 25 Sep 2026 17:13:55 GMT"
+          "published": "Fri, 25 Sep 2026 23:42:39 GMT"
         },
         {
-          "title": "Lula says Trump wants to ‘colonise’ and capture Brazil’s resources by meddling in election",
-          "summary": "A TV spot claims the US president is trying to sway October’s presidential vote in favour of Lula’s far-right opponents Luiz Inácio Lula da Silva’s presidential campaign has accused Donald Trump of wanting to “colonise” Brazil in order to capture its natural…",
-          "url": "https://www.theguardian.com/world/2026/sep/25/lula-says-trump-wants-to-colonise-and-capture-brazils-resources-by-meddling-in-election",
-          "publisher": "The Guardian",
+          "title": "Brazil's Lula bans online gambling ahead of presidential election",
+          "summary": "Lula, who is currently in a tight presidential race against Flávio Bolsonaro, said the industry was a \"cancer\" that he must \"remove\".",
+          "url": "https://www.bbc.co.uk/news/articles/c914ddj21rzlo?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
           "region": "Brazil",
-          "published": "Fri, 25 Sep 2026 03:33:48 GMT"
+          "published": "Sat, 26 Sep 2026 15:46:40 GMT"
         },
         {
-          "title": "Dollar gains over dong on black market",
-          "summary": "The U.S. dollar rose against the Vietnamese dong on the black market Friday morning.",
-          "url": "https://e.vnexpress.net/news/business/markets/dollar-gains-over-dong-on-black-market-5124672.html",
+          "title": "Vietnam police uncover online gambling ring with over $38.6M in transactions processed",
+          "summary": "Police in the northern province of Hung Yen have uncovered an online gambling ring operating through the Net.win website, with transactions worth more than VND1 trillion (US$38.61 million) processed through bank accounts linked to the system, authorities have…",
+          "url": "https://e.vnexpress.net/news/news/crime/vietnam-police-uncover-online-gambling-ring-with-over-38-6m-in-transactions-processed-5125537.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Fri, 25 Sep 2026 14:57:28 +0700"
+          "published": "Mon, 28 Sep 2026 10:16:34 +0700"
         },
         {
-          "title": "Indonesia advances transport corridor linking with Malaysia, Brunei",
-          "summary": "Indonesia is preparing infrastructure and finalizing the legal framework and procedures for the Kalimantan Corridor under the ASEAN Customs Transit System (ACTS), thereby promoting freight transport connectivity among Indonesia, Malaysia, and Brunei on the…",
-          "url": "https://e.vnexpress.net/news/news/traffic/indonesia-advances-transport-corridor-linking-with-malaysia-brunei-5124567.html",
+          "title": "Woman offers her skills to any stranger who will pay for her $64,700 Singapore MBA",
+          "summary": "A 28-year-old Indonesian woman admitted to Singapore Management University's MBA program has apologized after her public request for strangers to fund the S$82,840 (US$64,700) degree drew accusations of entitlement.",
+          "url": "https://e.vnexpress.net/news/news/education/woman-offers-her-skills-to-any-stranger-who-will-pay-for-her-64-700-singapore-mba-5124902.html",
           "publisher": "VnExpress International",
           "region": "Indonesia",
-          "published": "Fri, 25 Sep 2026 10:56:38 +0700"
+          "published": "Sat, 26 Sep 2026 13:43:14 +0700"
         },
         {
           "title": "Barrio Triste review – raw and dynamic portrait of anarchic slum life in 1980s Medellín",
@@ -3646,46 +3664,46 @@
           "published": "Mon, 14 Sep 2026 12:00:57 GMT"
         },
         {
-          "title": "‘You can’t just bet everything on exports’: as its gas runs out, is Bolivia doomed to repeat history?",
-          "summary": "A fossil gas boom that lifted millions out of poverty has collapsed and inflation is rising – but not everyone believes selling gold and soya is the answer Once hailed as the “energy heart of South America”, Bolivia ’s economy was buoyed up by a fossil gas…",
-          "url": "https://www.theguardian.com/global-development/2026/sep/24/fossil-gas-runs-out-bolivia-poverty-inflation",
-          "publisher": "The Guardian",
-          "region": "South & Central America",
-          "published": "Thu, 24 Sep 2026 13:00:18 GMT"
-        },
-        {
-          "title": "Ethiopia’s new rebel alliance faces an old problem",
-          "summary": "Former enemies have united against Abiy Ahmed, but disputes over territory, power and command could pull them apart.",
-          "url": "https://www.aljazeera.com/opinions/2026/9/25/ethiopias-new-rebel-alliance-faces-an-old-problem?traffic_source=rss",
+          "title": "Venezuelans rally for opposition leader’s return and presidential elections",
+          "summary": "Nobel laureate Maria Corina Machado has been living in exile, with plans to return to Venezuela spoiled multiple times.",
+          "url": "https://www.aljazeera.com/news/2026/9/28/venezuelans-rally-for-opposition-leaders-return-and-presidential-elections?traffic_source=rss",
           "publisher": "Al Jazeera",
-          "region": "East Africa",
-          "published": "Fri, 25 Sep 2026 16:10:55 +0000"
+          "region": "South & Central America",
+          "published": "Mon, 28 Sep 2026 02:36:00 +0000"
         },
         {
-          "title": "Democratic lawmakers accuse Trump administration of interference in Brazilian elections",
-          "summary": "Legislators sent letter to Marco Rubio saying US interference is weakening Brazil’s democratic institutions A group of 31 Democratic members of the US Congress has sent a letter to the secretary of state, Marco Rubio , criticising the Trump administration…",
-          "url": "https://www.theguardian.com/world/2026/sep/24/trump-brazil-election-interference",
+          "title": "Internet restricted after fighting breaks out in Ethiopia's Tigray region",
+          "summary": "During the two-year civil war in Tigray, the region was totally cut off from the outside world.",
+          "url": "https://www.bbc.co.uk/news/articles/cqp8dxxg325no?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
+          "region": "East Africa",
+          "published": "Fri, 25 Sep 2026 17:13:55 GMT"
+        },
+        {
+          "title": "Lula bans fixed-odds sports betting a week before Brazilian elections",
+          "summary": "President’s ‘hard, drastic and necessary measure’, likely to attract widespread public support, polls suggest The Brazilian president, Luiz Inácio Lula da Silva, has signed an order banning fixed-odds sports betting just over a week before the first round of…",
+          "url": "https://www.theguardian.com/world/2026/sep/26/lula-bans-fixed-odds-sports-betting-a-week-before-brazilian-elections",
           "publisher": "The Guardian",
           "region": "Brazil",
-          "published": "Thu, 24 Sep 2026 17:56:06 GMT"
+          "published": "Sat, 26 Sep 2026 07:58:05 GMT"
         },
         {
-          "title": "Vietnam, Canada elevate ties to Strategic Partnership",
-          "summary": "Vietnam and Canada have elevated ties to Strategic Partnership during a state visit to the North American nation by Party General Secretary and President To Lam.",
-          "url": "https://e.vnexpress.net/news/news/politics/vietnam-canada-elevate-ties-to-strategic-partnership-5124056.html",
+          "title": "Techcombank Hanoi International Marathon generates nearly $14M for local economy",
+          "summary": "The Techcombank Hanoi International Marathon contributed US$13.7 million to Hanoi's economy in 2025, with more than 13,000 runners generating demand for accommodation, dining, transportation and other services, according to organizer Sunrise Events Vietnam.",
+          "url": "https://e.vnexpress.net/news/business/techcombank-hanoi-international-marathon-generates-nearly-14m-for-local-economy-5124790.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Fri, 25 Sep 2026 09:26:03 +0700"
+          "published": "Mon, 28 Sep 2026 08:00:00 +0700"
         }
       ],
-      "totalTagged": 128,
+      "totalTagged": 112,
       "feedsQueried": 14,
       "errors": [],
       "note": "General headlines from the growing regions, taken from outlets of record and tagged to a region by the countries and cities they name."
     },
     "roundup": {
       "source": "assembled",
-      "fetchedAt": "2026-09-25T18:44:32.184Z",
+      "fetchedAt": "2026-09-28T06:08:43.913Z",
       "windowDays": 7,
       "publishers": [
         "Daily Coffee News",
@@ -3802,7 +3820,7 @@
       "note": "Assembled from the coffee trade press over the past seven days, ranked by relevance to the physical trade. Headlines and links are each publisher’s own."
     },
     "dailyRead": {
-      "fetchedAt": "2026-09-25T18:44:30.420Z",
+      "fetchedAt": "2026-09-28T06:08:42.205Z",
       "article": {
         "title": "Cafe Imports Now 100% Employee-Owned Through a Stock Plan",
         "summary": "Minneapolis-based green coffee importer Cafe Imports has become 100% employee-owned through an Employee Stock Ownership Plan (ESOP), the company announced today. The 33-year-old company did not disclose a valuation or...",
@@ -4130,38 +4148,38 @@
     {
       "source": "daily-read",
       "ok": true,
-      "ms": 275
+      "ms": 200
     },
     {
       "source": "weather",
       "ok": true,
-      "ms": 729
-    },
-    {
-      "source": "fx",
-      "ok": true,
-      "ms": 1386
-    },
-    {
-      "source": "arabica-futures",
-      "ok": true,
-      "ms": 2083
-    },
-    {
-      "source": "weekly-recap",
-      "ok": true,
-      "ms": 2042
-    },
-    {
-      "source": "origin-wire",
-      "ok": true,
-      "ms": 2744
+      "ms": 554
     },
     {
       "source": "ico-report",
       "ok": false,
-      "ms": 3023,
+      "ms": 1776,
       "error": "indicator prices: 2025-09 has 1 values for 7 columns"
+    },
+    {
+      "source": "weekly-recap",
+      "ok": true,
+      "ms": 1911
+    },
+    {
+      "source": "arabica-futures",
+      "ok": true,
+      "ms": 2064
+    },
+    {
+      "source": "fx",
+      "ok": true,
+      "ms": 2826
+    },
+    {
+      "source": "origin-wire",
+      "ok": true,
+      "ms": 3037
     }
   ]
 }

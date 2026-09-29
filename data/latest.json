@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T11:56:16.018Z",
+  "generatedAt": "2026-09-29T22:31:52.244Z",
   "schema": 5,
   "schedule": {
     "slotsUtc": [
@@ -26,8 +26,8 @@
       "frontMonth": {
         "code": "KCZ26",
         "label": "Dec 2026",
-        "close": 287.55,
-        "volume": 2389
+        "close": 292.7,
+        "volume": 15002
       },
       "rolled": false,
       "mostActive": "KCZ26",
@@ -35,50 +35,50 @@
         {
           "code": "KCZ26",
           "label": "Dec 2026",
-          "close": 287.55,
-          "volume": 2389
+          "close": 292.7,
+          "volume": 15002
         },
         {
           "code": "KCH27",
           "label": "Mar 2027",
-          "close": 279.85,
-          "volume": 1040
+          "close": 283.75,
+          "volume": 6419
         },
         {
           "code": "KCK27",
           "label": "May 2027",
-          "close": 277.2,
-          "volume": 371
+          "close": 280.55,
+          "volume": 3443
         },
         {
           "code": "KCN27",
           "label": "Jul 2027",
-          "close": 275.4,
-          "volume": 149
+          "close": 278.1,
+          "volume": 1333
         },
         {
           "code": "KCU27",
           "label": "Sep 2027",
-          "close": 273.55,
-          "volume": 66
+          "close": 275.75,
+          "volume": 408
         },
         {
           "code": "KCZ27",
           "label": "Dec 2027",
-          "close": 271.55,
-          "volume": 41
+          "close": 272.95,
+          "volume": 300
         }
       ],
       "quote": {
-        "last": 279,
+        "last": 283.75,
         "open": 281.29998779296875,
-        "high": 282.1000061035156,
-        "low": 277.45001220703125,
+        "high": 284.54998779296875,
+        "low": 274.54998779296875,
         "previousClose": 280.8999938964844,
-        "change": -1.9,
-        "changePct": -0.676,
-        "volume": 1012,
-        "asOf": "2026-09-29T11:35:43.000Z"
+        "change": 2.85,
+        "changePct": 1.015,
+        "volume": 6419,
+        "asOf": "2026-09-29T17:29:45.000Z"
       },
       "bars": [
         {
@@ -2636,17 +2636,17 @@
         {
           "date": "2026-09-29",
           "open": 281.29998779296875,
-          "high": 282.1000061035156,
-          "low": 277.45001220703125,
-          "close": 279,
-          "volume": 1012
+          "high": 284.54998779296875,
+          "low": 274.54998779296875,
+          "close": 283.75,
+          "volume": 6419
         }
       ],
       "crossCheck": {
-        "tradingView": 279.85,
-        "yahoo": 279,
-        "diff": 0.85,
-        "diffPct": 0.305,
+        "tradingView": 283.75,
+        "yahoo": 283.75,
+        "diff": 0,
+        "diffPct": 0,
         "agree": true
       },
       "sources": [
@@ -2663,16 +2663,16 @@
       ],
       "technicals": {
         "observations": 503,
-        "sma20": 277.55749969482423,
-        "sma50": 293.8409997558594,
-        "sma200": 282.12024993896483,
-        "rsi14": 47.355624245186824,
+        "sma20": 277.79499969482424,
+        "sma50": 293.93599975585937,
+        "sma200": 282.14399993896484,
+        "rsi14": 51.256928500723156,
         "macd": {
-          "line": -6.291539177789446,
-          "signal": -7.321473415472023,
-          "histogram": 1.0299342376825775
+          "line": -5.912621798872067,
+          "signal": -7.245689939688548,
+          "histogram": 1.333068140816481
         },
-        "atr14": 9.226523932248638,
+        "atr14": 9.608667225356896,
         "donchian20": {
           "high": 302.8999938964844,
           "low": 262.6000061035156,
@@ -2681,30 +2681,30 @@
         "levels": {
           "support": [
             {
+              "price": 281.8500061035156,
+              "date": "2025-03-27"
+            },
+            {
               "price": 270,
               "date": "2026-02-06"
             },
             {
               "price": 268.20001220703125,
               "date": "2025-04-07"
-            },
-            {
-              "price": 261.1000061035156,
-              "date": "2026-03-16"
             }
           ],
           "resistance": [
             {
-              "price": 280.8500061035156,
-              "date": "2026-03-26"
+              "price": 289.6499938964844,
+              "date": "2026-02-13"
             },
             {
-              "price": 281.6000061035156,
-              "date": "2026-03-09"
+              "price": 289.95001220703125,
+              "date": "2025-03-05"
             },
             {
-              "price": 282.04998779296875,
-              "date": "2026-04-24"
+              "price": 295.95001220703125,
+              "date": "2025-02-19"
             }
           ]
         },
@@ -2720,22 +2720,18 @@
     }
   },
   "fx": {
-    "asOf": "2026-09-28",
+    "asOf": "2026-09-29",
     "pairs": {
       "GBPUSD": {
         "pair": "GBP/USD",
-        "rate": 1.3263,
-        "previous": 1.3252,
+        "rate": 1.3247,
+        "previous": 1.3263,
         "dp": 4,
         "note": "Sterling stronger means a dollar-priced contract costs a UK buyer less.",
-        "change": 0.0011,
-        "changePct": 0.083,
-        "change1m": -2.36,
+        "change": -0.0016,
+        "changePct": -0.121,
+        "change1m": -2.16,
         "history": [
-          {
-            "date": "2026-07-07",
-            "rate": 1.3386
-          },
           {
             "date": "2026-07-08",
             "rate": 1.3348
@@ -2971,23 +2967,23 @@
           {
             "date": "2026-09-28",
             "rate": 1.3263
+          },
+          {
+            "date": "2026-09-29",
+            "rate": 1.3247
           }
         ]
       },
       "USDBRL": {
         "pair": "USD/BRL",
-        "rate": 5.2018,
-        "previous": 5.1821,
+        "rate": 5.2115,
+        "previous": 5.2018,
         "dp": 4,
         "note": "A weaker real encourages Brazilian producer selling.",
-        "change": 0.0197,
-        "changePct": 0.38,
-        "change1m": 0.73,
+        "change": 0.0097,
+        "changePct": 0.186,
+        "change1m": 0.77,
         "history": [
-          {
-            "date": "2026-07-07",
-            "rate": 5.1413
-          },
           {
             "date": "2026-07-08",
             "rate": 5.1563
@@ -3223,14 +3219,18 @@
           {
             "date": "2026-09-28",
             "rate": 5.2018
+          },
+          {
+            "date": "2026-09-29",
+            "rate": 5.2115
           }
         ]
       }
     },
     "ptax": {
-      "buy": 5.2126,
-      "sell": 5.2132,
-      "quotedAt": "2026-09-28 13:03:11.35885"
+      "buy": 5.2198,
+      "sell": 5.2204,
+      "quotedAt": "2026-09-29 13:06:06.446305"
     },
     "sources": [
       {
@@ -3246,7 +3246,7 @@
     ]
   },
   "weather": {
-    "fetchedAt": "2026-09-29T11:56:13.443Z",
+    "fetchedAt": "2026-09-29T22:31:49.649Z",
     "thresholds": {
       "frostC": 4,
       "heavyRainMm": 50,
@@ -3282,8 +3282,8 @@
         "condition": "dry",
         "conditionLabel": "Clear / dry",
         "rain14": 71.8,
-        "rainForecast7": 46.6,
-        "minForecast7": 15.8,
+        "rainForecast7": 45,
+        "minForecast7": 15.6,
         "alerts": []
       },
       {
@@ -3305,8 +3305,8 @@
         "condition": "dry",
         "conditionLabel": "Clear / dry",
         "rain14": 15.8,
-        "rainForecast7": 33.6,
-        "minForecast7": 19,
+        "rainForecast7": 23,
+        "minForecast7": 18.5,
         "alerts": []
       },
       {
@@ -3328,8 +3328,8 @@
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
         "rain14": 28.7,
-        "rainForecast7": 10.2,
-        "minForecast7": 21.1,
+        "rainForecast7": 15.9,
+        "minForecast7": 21.9,
         "alerts": []
       },
       {
@@ -3350,9 +3350,9 @@
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 174.6,
-        "rainForecast7": 20.6,
-        "minForecast7": 21.6,
+        "rain14": 171.4,
+        "rainForecast7": 34,
+        "minForecast7": 21.8,
         "alerts": []
       },
       {
@@ -3373,14 +3373,14 @@
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 224.6,
-        "rainForecast7": 73.5,
-        "minForecast7": 17.8,
+        "rain14": 209.9,
+        "rainForecast7": 66,
+        "minForecast7": 18.5,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "74 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "66 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3403,13 +3403,13 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 79.3,
-        "rainForecast7": 53.8,
+        "rainForecast7": 62.6,
         "minForecast7": 15.3,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "54 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "63 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3432,15 +3432,9 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 37.6,
-        "rainForecast7": 51.8,
-        "minForecast7": 16.4,
-        "alerts": [
-          {
-            "type": "wet",
-            "severity": "watch",
-            "text": "52 mm forecast over 7 days — harvest/drying disruption risk."
-          }
-        ]
+        "rainForecast7": 45.4,
+        "minForecast7": 16.5,
+        "alerts": []
       },
       {
         "key": "gayo",
@@ -3460,14 +3454,14 @@
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 139.3,
-        "rainForecast7": 65.6,
-        "minForecast7": 16.4,
+        "rain14": 111.7,
+        "rainForecast7": 64.2,
+        "minForecast7": 16.2,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "66 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "64 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3489,9 +3483,9 @@
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 111,
-        "rainForecast7": 26.7,
-        "minForecast7": 24,
+        "rain14": 109.1,
+        "rainForecast7": 28.3,
+        "minForecast7": 23.5,
         "alerts": []
       },
       {
@@ -3512,8 +3506,8 @@
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 24.9,
-        "rainForecast7": 6.8,
+        "rain14": 22.9,
+        "rainForecast7": 4.1,
         "minForecast7": 12,
         "alerts": []
       },
@@ -3536,9 +3530,15 @@
         "condition": "very-wet",
         "conditionLabel": "Very wet",
         "rain14": 81.1,
-        "rainForecast7": 46.2,
-        "minForecast7": 16,
-        "alerts": []
+        "rainForecast7": 64.2,
+        "minForecast7": 16.4,
+        "alerts": [
+          {
+            "type": "wet",
+            "severity": "watch",
+            "text": "64 mm forecast over 7 days — harvest/drying disruption risk."
+          }
+        ]
       },
       {
         "key": "chanchamayo",
@@ -3559,8 +3559,8 @@
         "condition": "very-wet",
         "conditionLabel": "Very wet",
         "rain14": 60.8,
-        "rainForecast7": 30.8,
-        "minForecast7": 17.6,
+        "rainForecast7": 37.2,
+        "minForecast7": 17.4,
         "alerts": []
       }
     ],
@@ -3574,7 +3574,7 @@
   },
   "news": {
     "originWire": {
-      "fetchedAt": "2026-09-29T11:56:14.943Z",
+      "fetchedAt": "2026-09-29T22:31:51.377Z",
       "lookbackHours": 504,
       "headlines": [
         {
@@ -3610,20 +3610,20 @@
           "published": "Mon, 21 Sep 2026 17:13:23 GMT"
         },
         {
-          "title": "Hurricane Polo makes landfall on Mexico's Pacific coast",
-          "summary": "The storm moved ashore on the Baja California peninsula, which is a popular tourist destination.",
-          "url": "https://www.bbc.co.uk/news/articles/cw8d3z5y7958o?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
+          "title": "How gold surpassed cocaine as Peru’s most profitable criminal industry",
+          "summary": "As gold prices surge, illegal mining has laid waste to swathes of Tambopata National Reserve’s rainforest “Halt, stop right there,” shouts a Peruvian Navy Seal, firing warning shots into the air. But the fleeing man pays no attention, scrambling up to the rim…",
+          "url": "https://www.theguardian.com/world/2026/sep/29/how-gold-surpassed-cocaine-as-perus-most-profitable-criminal-industry",
+          "publisher": "The Guardian",
           "region": "South & Central America",
-          "published": "Tue, 29 Sep 2026 10:34:53 GMT"
+          "published": "Tue, 29 Sep 2026 12:00:50 GMT"
         },
         {
-          "title": "Fighting in Ethiopia intensifies: What’s the latest?",
-          "summary": "Capture of key town could pave the way for federal forces to push towards Tigray's capital, Mekelle.",
-          "url": "https://www.aljazeera.com/news/2026/9/29/fighting-in-ethiopia-intensifies-whats-the-latest?traffic_source=rss",
-          "publisher": "Al Jazeera",
+          "title": "Journalist crowned king in Uganda after bitter succession dispute",
+          "summary": "Kijanangoma has been crowned amid a dispute over a young heir whom the royal clan does not recognise.",
+          "url": "https://www.bbc.co.uk/news/articles/cx7v4glz50elo?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
           "region": "East Africa",
-          "published": "Tue, 29 Sep 2026 08:19:23 +0000"
+          "published": "Tue, 29 Sep 2026 20:09:27 GMT"
         },
         {
           "title": "‘Viscerally dedicated to social issues’: behind Lula’s drive to win final term in Brazil’s crunch election",
@@ -3658,20 +3658,20 @@
           "published": "Mon, 14 Sep 2026 12:00:57 GMT"
         },
         {
-          "title": "Argentina’s Milei threatens legal action over Falklands oil project",
-          "summary": "Argentina gives UK two weeks to cease operations or face maritime court action.",
-          "url": "https://www.aljazeera.com/news/2026/9/29/argentinas-milei-threatens-legal-action-over-falklands-oil-project?traffic_source=rss",
-          "publisher": "Al Jazeera",
+          "title": "Hurricane Polo makes landfall on Mexico's Pacific coast",
+          "summary": "The storm moved ashore on the Baja California peninsula, which is a popular tourist destination.",
+          "url": "https://www.bbc.co.uk/news/articles/cw8d3z5y7958o?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
           "region": "South & Central America",
-          "published": "Tue, 29 Sep 2026 09:17:22 +0000"
+          "published": "Tue, 29 Sep 2026 10:34:53 GMT"
         },
         {
-          "title": "Journalist to be crowned king in Uganda after bitter succession dispute",
-          "summary": "Kijanangoma is being crowned amid a dispute over a young heir whom the royal clan does not recognise.",
-          "url": "https://www.bbc.co.uk/news/articles/cx7v4glz50elo?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
+          "title": "Ethiopia blames regional rivals as risk of conflict spillover rises",
+          "summary": "Ethiopia accuses Sudan and Egypt of backing armed groups, deepening tensions amid internal unrest.",
+          "url": "https://www.aljazeera.com/news/2026/9/29/ethiopia-blames-regional-rivals-as-risk-of-conflict-spillover-rises?traffic_source=rss",
+          "publisher": "Al Jazeera",
           "region": "East Africa",
-          "published": "Mon, 28 Sep 2026 23:44:49 GMT"
+          "published": "Tue, 29 Sep 2026 17:25:09 +0000"
         },
         {
           "title": "Brazil's Lula bans online gambling ahead of presidential election",
@@ -3690,21 +3690,49 @@
           "published": "Tue, 29 Sep 2026 15:44:29 +0700"
         }
       ],
-      "totalTagged": 110,
+      "totalTagged": 109,
       "feedsQueried": 14,
       "errors": [],
       "note": "General headlines from the growing regions, taken from outlets of record and tagged to a region by the countries and cities they name."
     },
     "roundup": {
       "source": "assembled",
-      "fetchedAt": "2026-09-29T11:56:14.291Z",
+      "fetchedAt": "2026-09-29T22:31:50.902Z",
       "windowDays": 7,
       "publishers": [
         "Daily Coffee News",
         "Fresh Cup",
+        "Specialty Coffee Association",
         "World Coffee Portal"
       ],
       "items": [
+        {
+          "headline": "Coffee Decoded: What Makes Coffee Bitter?",
+          "summary": "Welcome to Coffee, Decoded, the Specialty Coffee Association’s weekly column on science, research, and all things coffee knowledge. PETER GIULIANO, the SCA's Senior Advisor for Scientific Communication explores the phenomenon of bitterness in coffee. Why does…",
+          "url": "https://sca.coffee/sca-news/coffee-decoded-18-bitterness-in-coffee",
+          "publisher": "Specialty Coffee Association",
+          "published": "Tue, 29 Sep 2026 16:03:28 +0000",
+          "date": "Tue, 29 Sep",
+          "section": "Top stories of the week"
+        },
+        {
+          "headline": "Design Details: A New Dimension at Café Shin Marais in Paris",
+          "summary": "Welcome to Design Details, an ongoing editorial feature in Daily Coffee News focused on individual examples of coffee shop architecture, interior design, packaging design or branding. If you are a...",
+          "url": "https://dailycoffeenews.com/2026/09/29/design-details-a-new-dimension-at-cafe-shin-marais-in-paris/",
+          "publisher": "Daily Coffee News",
+          "published": "Tue, 29 Sep 2026 12:24:11 +0000",
+          "date": "Tue, 29 Sep",
+          "section": "Top stories of the week"
+        },
+        {
+          "headline": "Sun Bear Coffee Basks in its First Standalone St. Petersburg Cafe",
+          "summary": "In Florida’s “Sunshine City,” St. Petersburg, Sun Bear Specialty Coffee Roasters is soaking up the remaining rays of the season at its first standalone cafe. Opened in late July, the...",
+          "url": "https://dailycoffeenews.com/2026/09/29/sun-bear-coffee-basks-in-its-first-standalone-st-petersburg-cafe/",
+          "publisher": "Daily Coffee News",
+          "published": "Tue, 29 Sep 2026 12:21:39 +0000",
+          "date": "Tue, 29 Sep",
+          "section": "Roasting & retail"
+        },
         {
           "headline": "Mochas Around the World: How Cafes Are Fusing Global Ingredients Into the Classic Drink",
           "summary": "From habanero to hojicha, coffee shops are reworking the classic coffee-plus-chocolate pairing by layering on flavors from around the world. The post Mochas Around the World: How Cafes Are Fusing Global Ingredients Into the Classic Drink appeared first on…",
@@ -3712,7 +3740,7 @@
           "publisher": "Fresh Cup",
           "published": "Tue, 29 Sep 2026 11:10:00 +0000",
           "date": "Tue, 29 Sep",
-          "section": "Top stories of the week"
+          "section": "Roasting & retail"
         },
         {
           "headline": "Podback expands coffee capsule recycling to over 200 Co-op supermarkets",
@@ -3721,7 +3749,7 @@
           "publisher": "World Coffee Portal",
           "published": "Tue, 29 Sep 2026 07:00:46 GMT",
           "date": "Tue, 29 Sep",
-          "section": "Top stories of the week"
+          "section": "Roasting & retail"
         },
         {
           "headline": "Costa Coffee Professional expands Podio range to bring coffee-shop quality to more businesses",
@@ -3760,33 +3788,6 @@
           "section": "Top stories of the week"
         },
         {
-          "headline": "The Week in Coffee, 21-27 September 2026",
-          "summary": "Your weekly round-up of the five biggest stories from across the global coffee industry...",
-          "url": "https://www.worldcoffeeportal.com/news/the-week-in-coffee-21-27-september-2026/",
-          "publisher": "World Coffee Portal",
-          "published": "Mon, 28 Sep 2026 11:09:18 GMT",
-          "date": "Mon, 28 Sep",
-          "section": "Roasting & retail"
-        },
-        {
-          "headline": "Episode 221: The French art of coffee – a conversation with Belleville Brûlerie",
-          "summary": "David Flynn, Founder of Paris’ iconic Belleville Brûlerie, explores France’s growing specialty coffee scene and how its deep-rooted appreciation for food and flavour is shaping the country’s coffee culture",
-          "url": "https://www.worldcoffeeportal.com/podcast/episode-221-the-french-art-of-coffee-a-conversation-with-belleville-brulerie/",
-          "publisher": "World Coffee Portal",
-          "published": "Mon, 28 Sep 2026 10:00:49 GMT",
-          "date": "Mon, 28 Sep",
-          "section": "Roasting & retail"
-        },
-        {
-          "headline": "China’s Cotti Coffee to kickstart UK regional expansion",
-          "summary": "The value-focused operator has rapidly scaled across Europe since the start of 2026",
-          "url": "https://www.worldcoffeeportal.com/news/chinas-cotti-coffee-to-kickstart-uk-regional-expansion/",
-          "publisher": "World Coffee Portal",
-          "published": "Fri, 25 Sep 2026 11:58:29 GMT",
-          "date": "Fri, 25 Sep",
-          "section": "Roasting & retail"
-        },
-        {
           "headline": "Weekly Coffee News: ‘Roasted at Origin’ Program + 53 Coffee Workers Rescued",
           "summary": "Welcome to DCN’s Weekly Coffee News! Subscribe here for all the latest coffee industry news. Also, check out the latest career opportunities at CoffeeIndustryJobs.com. Go Get Em Tiger Introduces ‘Roasted...",
           "url": "https://dailycoffeenews.com/2026/09/25/weekly-coffee-news-roasted-at-origin-program-53-coffee-workers-rescued/",
@@ -3814,7 +3815,7 @@
       "note": "Assembled from the coffee trade press over the past seven days, ranked by relevance to the physical trade. Headlines and links are each publisher’s own."
     },
     "dailyRead": {
-      "fetchedAt": "2026-09-29T11:56:12.823Z",
+      "fetchedAt": "2026-09-29T22:31:49.255Z",
       "article": {
         "title": "Gen Z Coffee Study Finds Convenience Trumps Sustainability",
         "summary": "A new study involving young coffee drinkers in Slovenia found that while they welcome the idea of sustainability in their coffee, factors such as convenience, price and routine are more...",
@@ -4142,37 +4143,37 @@
     {
       "source": "daily-read",
       "ok": true,
-      "ms": 231
+      "ms": 432
     },
     {
       "source": "weather",
       "ok": true,
-      "ms": 860
-    },
-    {
-      "source": "weekly-recap",
-      "ok": true,
-      "ms": 1703
-    },
-    {
-      "source": "arabica-futures",
-      "ok": true,
-      "ms": 2037
-    },
-    {
-      "source": "origin-wire",
-      "ok": true,
-      "ms": 2359
+      "ms": 831
     },
     {
       "source": "fx",
       "ok": true,
-      "ms": 2410
+      "ms": 1806
+    },
+    {
+      "source": "arabica-futures",
+      "ok": true,
+      "ms": 2110
+    },
+    {
+      "source": "weekly-recap",
+      "ok": true,
+      "ms": 2081
+    },
+    {
+      "source": "origin-wire",
+      "ok": true,
+      "ms": 2559
     },
     {
       "source": "ico-report",
       "ok": false,
-      "ms": 3417,
+      "ms": 3420,
       "error": "indicator prices: 2025-09 has 1 values for 7 columns"
     }
   ]

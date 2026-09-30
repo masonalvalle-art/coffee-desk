@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T22:31:52.244Z",
+  "generatedAt": "2026-09-30T11:44:08.020Z",
   "schema": 5,
   "schedule": {
     "slotsUtc": [
@@ -26,8 +26,8 @@
       "frontMonth": {
         "code": "KCZ26",
         "label": "Dec 2026",
-        "close": 292.7,
-        "volume": 15002
+        "close": 297.5,
+        "volume": 3854
       },
       "rolled": false,
       "mostActive": "KCZ26",
@@ -35,60 +35,52 @@
         {
           "code": "KCZ26",
           "label": "Dec 2026",
-          "close": 292.7,
-          "volume": 15002
+          "close": 297.5,
+          "volume": 3854
         },
         {
           "code": "KCH27",
           "label": "Mar 2027",
-          "close": 283.75,
-          "volume": 6419
+          "close": 288.15,
+          "volume": 1605
         },
         {
           "code": "KCK27",
           "label": "May 2027",
-          "close": 280.55,
-          "volume": 3443
+          "close": 284.8,
+          "volume": 442
         },
         {
           "code": "KCN27",
           "label": "Jul 2027",
-          "close": 278.1,
-          "volume": 1333
+          "close": 282.5,
+          "volume": 208
         },
         {
           "code": "KCU27",
           "label": "Sep 2027",
-          "close": 275.75,
-          "volume": 408
+          "close": 280.35,
+          "volume": 56
         },
         {
           "code": "KCZ27",
           "label": "Dec 2027",
-          "close": 272.95,
-          "volume": 300
+          "close": 277.5,
+          "volume": 58
         }
       ],
       "quote": {
-        "last": 283.75,
-        "open": 281.29998779296875,
-        "high": 284.54998779296875,
-        "low": 274.54998779296875,
-        "previousClose": 280.8999938964844,
-        "change": 2.85,
-        "changePct": 1.015,
-        "volume": 6419,
-        "asOf": "2026-09-29T17:29:45.000Z"
+        "last": 288.45,
+        "open": 283.6000061035156,
+        "high": 289.3500061035156,
+        "low": 282.8999938964844,
+        "previousClose": 281.5,
+        "change": 6.95,
+        "changePct": 2.469,
+        "volume": 1559,
+        "asOf": "2026-09-30T11:20:32.000Z"
       },
       "bars": [
-        {
-          "date": "2025-06-24",
-          "open": 274.3500061035156,
-          "high": 274.8500061035156,
-          "low": 267.6000061035156,
-          "close": 268.95001220703125,
-          "volume": 99
-        },
         {
           "date": "2025-06-25",
           "open": 273.79998779296875,
@@ -2631,22 +2623,30 @@
           "high": 283.5,
           "low": 269.75,
           "close": 280.8999938964844,
-          "volume": 6307
+          "volume": 7850
         },
         {
           "date": "2026-09-29",
           "open": 281.29998779296875,
           "high": 284.54998779296875,
           "low": 274.54998779296875,
-          "close": 283.75,
-          "volume": 6419
+          "close": 281.5,
+          "volume": 7850
+        },
+        {
+          "date": "2026-09-30",
+          "open": 283.6000061035156,
+          "high": 289.3500061035156,
+          "low": 282.8999938964844,
+          "close": 288.45001220703125,
+          "volume": 1559
         }
       ],
       "crossCheck": {
-        "tradingView": 283.75,
-        "yahoo": 283.75,
-        "diff": 0,
-        "diffPct": 0,
+        "tradingView": 288.15,
+        "yahoo": 288.45,
+        "diff": -0.3,
+        "diffPct": -0.104,
         "agree": true
       },
       "sources": [
@@ -2662,35 +2662,35 @@
         }
       ],
       "technicals": {
-        "observations": 503,
-        "sma20": 277.79499969482424,
-        "sma50": 293.93599975585937,
-        "sma200": 282.14399993896484,
-        "rsi14": 51.256928500723156,
+        "observations": 504,
+        "sma20": 277.2225006103516,
+        "sma50": 293.63,
+        "sma200": 281.96324996948243,
+        "rsi14": 55.079105435200425,
         "macd": {
-          "line": -5.912621798872067,
-          "signal": -7.245689939688548,
-          "histogram": 1.333068140816481
+          "line": -4.625479164603689,
+          "signal": -6.7503657333895255,
+          "histogram": 2.1248865687858363
         },
-        "atr14": 9.608667225356896,
+        "atr14": 9.483048573796806,
         "donchian20": {
-          "high": 302.8999938964844,
+          "high": 295.95001220703125,
           "low": 262.6000061035156,
           "period": 20
         },
         "levels": {
           "support": [
             {
-              "price": 281.8500061035156,
-              "date": "2025-03-27"
+              "price": 287.20001220703125,
+              "date": "2026-07-24"
             },
             {
-              "price": 270,
-              "date": "2026-02-06"
+              "price": 285.45001220703125,
+              "date": "2025-06-03"
             },
             {
-              "price": 268.20001220703125,
-              "date": "2025-04-07"
+              "price": 283.79998779296875,
+              "date": "2025-09-19"
             }
           ],
           "resistance": [
@@ -2713,10 +2713,10 @@
           "low": 207.8000030517578
         },
         "method": "Wilder RSI(14); MACD(12,26,9) on EMA; ATR(14); pivots = 5-bar swing highs/lows; Donchian(20).",
-        "basis": "503 daily bars for KCH27"
+        "basis": "504 daily bars for KCH27"
       },
       "barsPublished": 320,
-      "barsAnalysed": 503
+      "barsAnalysed": 504
     }
   },
   "fx": {
@@ -3246,7 +3246,7 @@
     ]
   },
   "weather": {
-    "fetchedAt": "2026-09-29T22:31:49.649Z",
+    "fetchedAt": "2026-09-30T11:44:05.193Z",
     "thresholds": {
       "frostC": 4,
       "heavyRainMm": 50,
@@ -3271,20 +3271,26 @@
         "lat": -21.55,
         "lon": -45.43,
         "current": {
-          "date": "2026-09-28",
-          "tMax": 30.2,
-          "tMin": 18.9,
+          "date": "2026-09-29",
+          "tMax": 29.8,
+          "tMin": 19.8,
           "rain": 0.3,
           "code": 51,
-          "cloud": 28,
+          "cloud": 49,
           "observed": true
         },
         "condition": "dry",
         "conditionLabel": "Clear / dry",
-        "rain14": 71.8,
-        "rainForecast7": 45,
-        "minForecast7": 15.6,
-        "alerts": []
+        "rain14": 66.6,
+        "rainForecast7": 74.4,
+        "minForecast7": 16.3,
+        "alerts": [
+          {
+            "type": "wet",
+            "severity": "watch",
+            "text": "74 mm forecast over 7 days — harvest/drying disruption risk."
+          }
+        ]
       },
       {
         "key": "cerrado",
@@ -3294,20 +3300,26 @@
         "lat": -18.94,
         "lon": -46.99,
         "current": {
-          "date": "2026-09-28",
+          "date": "2026-09-29",
           "tMax": 31.9,
-          "tMin": 20.9,
+          "tMin": 21.5,
           "rain": 0,
-          "code": 1,
-          "cloud": 6,
+          "code": 3,
+          "cloud": 20,
           "observed": true
         },
-        "condition": "dry",
-        "conditionLabel": "Clear / dry",
-        "rain14": 15.8,
-        "rainForecast7": 23,
-        "minForecast7": 18.5,
-        "alerts": []
+        "condition": "cloudy",
+        "conditionLabel": "Cloudy",
+        "rain14": 11.9,
+        "rainForecast7": 52.5,
+        "minForecast7": 18.1,
+        "alerts": [
+          {
+            "type": "wet",
+            "severity": "watch",
+            "text": "53 mm forecast over 7 days — harvest/drying disruption risk."
+          }
+        ]
       },
       {
         "key": "espirito-santo",
@@ -3317,19 +3329,19 @@
         "lat": -19.39,
         "lon": -40.07,
         "current": {
-          "date": "2026-09-28",
-          "tMax": 29,
-          "tMin": 21.6,
-          "rain": 0.6,
+          "date": "2026-09-29",
+          "tMax": 30.8,
+          "tMin": 22.1,
+          "rain": 0.1,
           "code": 51,
-          "cloud": 37,
+          "cloud": 56,
           "observed": true
         },
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
-        "rain14": 28.7,
-        "rainForecast7": 15.9,
-        "minForecast7": 21.9,
+        "rain14": 28.5,
+        "rainForecast7": 9.3,
+        "minForecast7": 22.1,
         "alerts": []
       },
       {
@@ -3340,19 +3352,19 @@
         "lat": 12.68,
         "lon": 108.05,
         "current": {
-          "date": "2026-09-28",
-          "tMax": 29.5,
-          "tMin": 22.7,
-          "rain": 11.6,
-          "code": 95,
-          "cloud": 63,
+          "date": "2026-09-29",
+          "tMax": 30,
+          "tMin": 22.1,
+          "rain": 2.5,
+          "code": 55,
+          "cloud": 53,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 171.4,
-        "rainForecast7": 34,
-        "minForecast7": 21.8,
+        "rain14": 173.9,
+        "rainForecast7": 26.7,
+        "minForecast7": 21.7,
         "alerts": []
       },
       {
@@ -3363,24 +3375,24 @@
         "lat": 11.55,
         "lon": 107.81,
         "current": {
-          "date": "2026-09-28",
-          "tMax": 27.8,
-          "tMin": 19.9,
-          "rain": 9.4,
+          "date": "2026-09-29",
+          "tMax": 29.5,
+          "tMin": 18.7,
+          "rain": 6.9,
           "code": 81,
-          "cloud": 86,
+          "cloud": 76,
           "observed": true
         },
-        "condition": "very-wet",
-        "conditionLabel": "Very wet",
-        "rain14": 209.9,
-        "rainForecast7": 66,
-        "minForecast7": 18.5,
+        "condition": "wet",
+        "conditionLabel": "Wet",
+        "rain14": 216.8,
+        "rainForecast7": 71,
+        "minForecast7": 18.4,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "66 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "71 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3392,26 +3404,20 @@
         "lat": 1.85,
         "lon": -76.05,
         "current": {
-          "date": "2026-09-28",
-          "tMax": 27.6,
-          "tMin": 16.8,
-          "rain": 4.1,
-          "code": 81,
-          "cloud": 69,
+          "date": "2026-09-29",
+          "tMax": 27.3,
+          "tMin": 15.3,
+          "rain": 2.6,
+          "code": 55,
+          "cloud": 88,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 79.3,
-        "rainForecast7": 62.6,
-        "minForecast7": 15.3,
-        "alerts": [
-          {
-            "type": "wet",
-            "severity": "watch",
-            "text": "63 mm forecast over 7 days — harvest/drying disruption risk."
-          }
-        ]
+        "rain14": 69.9,
+        "rainForecast7": 32.7,
+        "minForecast7": 15,
+        "alerts": []
       },
       {
         "key": "antioquia",
@@ -3421,20 +3427,26 @@
         "lat": 6.25,
         "lon": -75.56,
         "current": {
-          "date": "2026-09-28",
-          "tMax": 26.6,
-          "tMin": 17.3,
-          "rain": 0.2,
-          "code": 51,
-          "cloud": 85,
+          "date": "2026-09-29",
+          "tMax": 29.7,
+          "tMin": 16.5,
+          "rain": 1.3,
+          "code": 53,
+          "cloud": 93,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 37.6,
-        "rainForecast7": 45.4,
-        "minForecast7": 16.5,
-        "alerts": []
+        "rain14": 38.8,
+        "rainForecast7": 59.6,
+        "minForecast7": 16.2,
+        "alerts": [
+          {
+            "type": "wet",
+            "severity": "watch",
+            "text": "60 mm forecast over 7 days — harvest/drying disruption risk."
+          }
+        ]
       },
       {
         "key": "gayo",
@@ -3444,24 +3456,24 @@
         "lat": 4.63,
         "lon": 96.85,
         "current": {
-          "date": "2026-09-28",
-          "tMax": 26.4,
-          "tMin": 16.2,
-          "rain": 3.4,
-          "code": 80,
-          "cloud": 90,
+          "date": "2026-09-29",
+          "tMax": 24.7,
+          "tMin": 17,
+          "rain": 9.9,
+          "code": 95,
+          "cloud": 91,
           "observed": true
         },
-        "condition": "wet",
-        "conditionLabel": "Wet",
-        "rain14": 111.7,
-        "rainForecast7": 64.2,
-        "minForecast7": 16.2,
+        "condition": "very-wet",
+        "conditionLabel": "Very wet",
+        "rain14": 121.6,
+        "rainForecast7": 66.3,
+        "minForecast7": 15.8,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "64 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "66 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3473,19 +3485,19 @@
         "lat": -5.45,
         "lon": 105.27,
         "current": {
-          "date": "2026-09-28",
-          "tMax": 32,
-          "tMin": 25.7,
-          "rain": 4.3,
-          "code": 80,
-          "cloud": 51,
+          "date": "2026-09-29",
+          "tMax": 33.3,
+          "tMin": 25.3,
+          "rain": 2.5,
+          "code": 53,
+          "cloud": 25,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 109.1,
-        "rainForecast7": 28.3,
-        "minForecast7": 23.5,
+        "rain14": 111.6,
+        "rainForecast7": 29.5,
+        "minForecast7": 23.9,
         "alerts": []
       },
       {
@@ -3496,19 +3508,19 @@
         "lat": 7.67,
         "lon": 36.83,
         "current": {
-          "date": "2026-09-28",
-          "tMax": 23.1,
-          "tMin": 13.5,
-          "rain": 0.4,
+          "date": "2026-09-29",
+          "tMax": 23.7,
+          "tMin": 12,
+          "rain": 1,
           "code": 51,
-          "cloud": 64,
+          "cloud": 49,
           "observed": true
         },
-        "condition": "wet",
-        "conditionLabel": "Wet",
-        "rain14": 22.9,
-        "rainForecast7": 4.1,
-        "minForecast7": 12,
+        "condition": "cloudy",
+        "conditionLabel": "Cloudy",
+        "rain14": 23.9,
+        "rainForecast7": 8.8,
+        "minForecast7": 12.1,
         "alerts": []
       },
       {
@@ -3519,26 +3531,20 @@
         "lat": 14.16,
         "lon": -88.02,
         "current": {
-          "date": "2026-09-28",
-          "tMax": 29.4,
-          "tMin": 17.1,
-          "rain": 8,
-          "code": 95,
-          "cloud": 98,
+          "date": "2026-09-29",
+          "tMax": 28.4,
+          "tMin": 17.7,
+          "rain": 10.3,
+          "code": 80,
+          "cloud": 86,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 81.1,
-        "rainForecast7": 64.2,
-        "minForecast7": 16.4,
-        "alerts": [
-          {
-            "type": "wet",
-            "severity": "watch",
-            "text": "64 mm forecast over 7 days — harvest/drying disruption risk."
-          }
-        ]
+        "rain14": 84.8,
+        "rainForecast7": 38.1,
+        "minForecast7": 16,
+        "alerts": []
       },
       {
         "key": "chanchamayo",
@@ -3548,19 +3554,19 @@
         "lat": -11.05,
         "lon": -75.33,
         "current": {
-          "date": "2026-09-28",
-          "tMax": 32.2,
-          "tMin": 19.6,
-          "rain": 0.6,
-          "code": 51,
-          "cloud": 31,
+          "date": "2026-09-29",
+          "tMax": 29.6,
+          "tMin": 18.5,
+          "rain": 7.4,
+          "code": 80,
+          "cloud": 51,
           "observed": true
         },
-        "condition": "very-wet",
-        "conditionLabel": "Very wet",
-        "rain14": 60.8,
-        "rainForecast7": 37.2,
-        "minForecast7": 17.4,
+        "condition": "wet",
+        "conditionLabel": "Wet",
+        "rain14": 63.4,
+        "rainForecast7": 33.1,
+        "minForecast7": 17.9,
         "alerts": []
       }
     ],
@@ -3574,32 +3580,32 @@
   },
   "news": {
     "originWire": {
-      "fetchedAt": "2026-09-29T22:31:51.377Z",
+      "fetchedAt": "2026-09-30T11:44:08.017Z",
       "lookbackHours": 504,
       "headlines": [
         {
-          "title": "John Oliver on Brazil’s Flávio Bolsonaro: ‘Fearmongering and flagrant daddy issues’",
-          "summary": "The Last Week Tonight host digs into Brazil’s election, with current leader Lula faces a disgraced former president’s son On the latest Last Week Tonight, John Oliver looked ahead to Sunday’s major election in Brazil , where 160 million people will vote to…",
-          "url": "https://www.theguardian.com/tv-and-radio/2026/sep/28/john-oliver-brazil-flavio-bolsonaro",
-          "publisher": "The Guardian",
+          "title": "Brazil election roiled by row over Flávio Bolsonaro and patron saint",
+          "summary": "False allegation involving Our Lady of Aparecida puts religion at centre of race days before vote",
+          "url": "https://www.ft.com/content/bc1dd9d4-39ed-4aa2-a11d-89be1b6f3844?syn-25a6b1a6=1",
+          "publisher": "Financial Times",
           "region": "Brazil",
-          "published": "Mon, 28 Sep 2026 15:29:07 GMT"
+          "published": "Wed, 30 Sep 2026 11:34:03 GMT"
         },
         {
-          "title": "Vietnamese student clinches top 3 spot in world's largest Chinese-language competition",
-          "summary": "A Vietnamese high school student in the northern province of Lang Son won the Asian championship and placed among the world's top three at the Chinese Bridge competition.",
-          "url": "https://e.vnexpress.net/news/news/education/vietnamese-student-clinches-top-3-spot-in-world-s-largest-chinese-language-competition-5125588.html",
+          "title": "Dollar slips against dong",
+          "summary": "The U.S. dollar dipped against the Vietnamese dong Wednesday and was on track to end September higher against major peers.",
+          "url": "https://e.vnexpress.net/news/business/markets/dollar-slips-against-dong-5126708.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Tue, 29 Sep 2026 17:00:00 +0700"
+          "published": "Wed, 30 Sep 2026 15:26:13 +0700"
         },
         {
-          "title": "Watch: Luxury units uncovered inside an Indonesian prison",
-          "summary": "A surprise inspection at the prison revealed apartment-like units appearing to house inmates, equipped with televisions, a gym and fridges stocked with alcohol.",
-          "url": "https://www.bbc.co.uk/news/videos/c6vgy293vvp3o?at_medium=RSS&amp;at_campaign=rss",
+          "title": "Watch: Luxury prison in Indonesia demolished after public outcry",
+          "summary": "Indonesian lawmakers on Wednesday ordered the demolition of a controversial luxury compound inside a penitentiary near the capital.",
+          "url": "https://www.bbc.co.uk/news/videos/cmwyz8j9j85wo?at_medium=RSS&amp;at_campaign=rss",
           "publisher": "BBC News",
           "region": "Indonesia",
-          "published": "Tue, 29 Sep 2026 09:43:47 GMT"
+          "published": "Wed, 30 Sep 2026 10:41:03 GMT"
         },
         {
           "title": "Colombia declares public calamity as wildfire threatens popular tourist area",
@@ -3610,44 +3616,44 @@
           "published": "Mon, 21 Sep 2026 17:13:23 GMT"
         },
         {
-          "title": "How gold surpassed cocaine as Peru’s most profitable criminal industry",
-          "summary": "As gold prices surge, illegal mining has laid waste to swathes of Tambopata National Reserve’s rainforest “Halt, stop right there,” shouts a Peruvian Navy Seal, firing warning shots into the air. But the fleeing man pays no attention, scrambling up to the rim…",
-          "url": "https://www.theguardian.com/world/2026/sep/29/how-gold-surpassed-cocaine-as-perus-most-profitable-criminal-industry",
-          "publisher": "The Guardian",
+          "title": "Venezuelan man shot by ICE in Texas is charged with assault",
+          "summary": "Wilber Rafael Garces-Perez is accused of striking an agent with his car's side-view mirror while driving away.",
+          "url": "https://www.bbc.co.uk/news/articles/c63eqgz41n0xo?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
           "region": "South & Central America",
-          "published": "Tue, 29 Sep 2026 12:00:50 GMT"
+          "published": "Tue, 29 Sep 2026 23:27:47 GMT"
         },
         {
-          "title": "Journalist crowned king in Uganda after bitter succession dispute",
-          "summary": "Kijanangoma has been crowned amid a dispute over a young heir whom the royal clan does not recognise.",
-          "url": "https://www.bbc.co.uk/news/articles/cx7v4glz50elo?at_medium=RSS&amp;at_campaign=rss",
+          "title": "Africa's richest man launches Kenya oil refinery despite land protests",
+          "summary": "The Kenya refinery is part of Dangote's ambitious bid to expand and help industralise Africa by 2030.",
+          "url": "https://www.bbc.co.uk/news/articles/cmkg8dpwy25po?at_medium=RSS&amp;at_campaign=rss",
           "publisher": "BBC News",
           "region": "East Africa",
-          "published": "Tue, 29 Sep 2026 20:09:27 GMT"
+          "published": "Wed, 30 Sep 2026 11:25:12 GMT"
         },
         {
-          "title": "‘Viscerally dedicated to social issues’: behind Lula’s drive to win final term in Brazil’s crunch election",
-          "summary": "Longtime friend tells of president’s obsession with social justice and fears for country’s future under another Bolsonaro presidency On 1 January 2023, a few hours after being sworn in for his third stint as Brazil’s president, a ravenous Luiz Inácio Lula da…",
-          "url": "https://www.theguardian.com/world/2026/sep/27/viscerally-dedicated-to-social-issues-behind-lulas-drive-to-win-final-term-in-brazils-crunch-election",
+          "title": "‘We’re afraid of dying’: Brazilian news site will not cover upcoming elections after threats",
+          "summary": "Co-founder of independent website Tapajós de Fato said decision was made to protect journalists and their families Four years ago, during Brazil’s last presidential election, the tyres were slashed on the pickup truck used for reporting by Tapajós de Fato, an…",
+          "url": "https://www.theguardian.com/world/2026/sep/30/brazil-newspaper-threats-tapajos-de-fato",
           "publisher": "The Guardian",
           "region": "Brazil",
-          "published": "Sun, 27 Sep 2026 07:00:59 GMT"
+          "published": "Wed, 30 Sep 2026 08:00:19 GMT"
         },
         {
-          "title": "Tea exports to US jump 36% on higher volumes, prices",
-          "summary": "Vietnam exported US$7.64 million worth of tea to the U.S. in the first eight months of 2026, up 36.4% year-on-year as both volumes and prices rose.",
-          "url": "https://e.vnexpress.net/news/business/economy/tea-exports-to-us-jump-36-on-higher-volumes-prices-5126215.html",
+          "title": "Gold prices gain",
+          "summary": "Vietnam's gold prices rose on Wednesday morning as global bullion rates headed for a 6% monthly drop.",
+          "url": "https://e.vnexpress.net/news/business/markets/gold-prices-gain-5126630.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Tue, 29 Sep 2026 16:42:14 +0700"
+          "published": "Wed, 30 Sep 2026 14:47:44 +0700"
         },
         {
-          "title": "Woman offers her skills to any stranger who will pay for her $64,700 Singapore MBA",
-          "summary": "A 28-year-old Indonesian woman admitted to Singapore Management University's MBA program has apologized after her public request for strangers to fund the S$82,840 (US$64,700) degree drew accusations of entitlement.",
-          "url": "https://e.vnexpress.net/news/news/education/woman-offers-her-skills-to-any-stranger-who-will-pay-for-her-64-700-singapore-mba-5124902.html",
-          "publisher": "VnExpress International",
+          "title": "Double beds, aircon and big-screen TVs: Indonesia suspends officials over luxury prison cells",
+          "summary": "Indonesia’s prisons have long faced allegations that well-connected inmates can obtain preferential treatment through bribery Five Indonesian prison officials have been suspended after investigators found an apartment-style compound complete with…",
+          "url": "https://www.theguardian.com/world/2026/sep/30/indonesia-prison-officials-suspended-luxury-apartments-prisoners",
+          "publisher": "The Guardian",
           "region": "Indonesia",
-          "published": "Sat, 26 Sep 2026 13:43:14 +0700"
+          "published": "Wed, 30 Sep 2026 05:27:22 GMT"
         },
         {
           "title": "Barrio Triste review – raw and dynamic portrait of anarchic slum life in 1980s Medellín",
@@ -3658,46 +3664,46 @@
           "published": "Mon, 14 Sep 2026 12:00:57 GMT"
         },
         {
-          "title": "Hurricane Polo makes landfall on Mexico's Pacific coast",
-          "summary": "The storm moved ashore on the Baja California peninsula, which is a popular tourist destination.",
-          "url": "https://www.bbc.co.uk/news/articles/cw8d3z5y7958o?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
+          "title": "How gold surpassed cocaine as Peru’s most profitable criminal industry",
+          "summary": "As gold prices surge, illegal mining has laid waste to swathes of Tambopata National Reserve’s rainforest “Halt, stop right there,” shouts a Peruvian Navy Seal, firing warning shots into the air. But the fleeing man pays no attention, scrambling up to the rim…",
+          "url": "https://www.theguardian.com/world/2026/sep/29/how-gold-surpassed-cocaine-as-perus-most-profitable-criminal-industry",
+          "publisher": "The Guardian",
           "region": "South & Central America",
-          "published": "Tue, 29 Sep 2026 10:34:53 GMT"
+          "published": "Tue, 29 Sep 2026 12:00:50 GMT"
         },
         {
-          "title": "Ethiopia blames regional rivals as risk of conflict spillover rises",
-          "summary": "Ethiopia accuses Sudan and Egypt of backing armed groups, deepening tensions amid internal unrest.",
-          "url": "https://www.aljazeera.com/news/2026/9/29/ethiopia-blames-regional-rivals-as-risk-of-conflict-spillover-rises?traffic_source=rss",
+          "title": "Photos: A journalist is crowned king in Uganda",
+          "summary": "The death of King Oyo Nyimba in August triggered widespread grief and a succession dispute in Uganda’s Tooro Kingdom.",
+          "url": "https://www.aljazeera.com/gallery/2026/9/30/photos-a-journalist-is-crowned-king-in-uganda?traffic_source=rss",
           "publisher": "Al Jazeera",
           "region": "East Africa",
-          "published": "Tue, 29 Sep 2026 17:25:09 +0000"
+          "published": "Wed, 30 Sep 2026 09:39:00 +0000"
         },
         {
-          "title": "Brazil's Lula bans online gambling ahead of presidential election",
-          "summary": "Lula, who is currently in a tight presidential race against Flávio Bolsonaro, said the industry was a \"cancer\" that he must \"remove\".",
-          "url": "https://www.bbc.co.uk/news/articles/c914ddj21rzlo?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
+          "title": "John Oliver on Brazil’s Flávio Bolsonaro: ‘Fearmongering and flagrant daddy issues’",
+          "summary": "The Last Week Tonight host digs into Brazil’s election, with current leader Lula faces a disgraced former president’s son On the latest Last Week Tonight, John Oliver looked ahead to Sunday’s major election in Brazil , where 160 million people will vote to…",
+          "url": "https://www.theguardian.com/tv-and-radio/2026/sep/28/john-oliver-brazil-flavio-bolsonaro",
+          "publisher": "The Guardian",
           "region": "Brazil",
-          "published": "Sat, 26 Sep 2026 15:46:40 GMT"
+          "published": "Mon, 28 Sep 2026 15:29:07 GMT"
         },
         {
-          "title": "Gold prices decline to 8-week bottom",
-          "summary": "Vietnam gold prices fell Tuesday morning to the lowest since August 4, following a dip of the precious metal on global markets.",
-          "url": "https://e.vnexpress.net/news/business/markets/gold-prices-decline-to-8-week-bottom-5126131.html",
+          "title": "Passengers taking international flights from Long Thanh airport to pay $25 service fee",
+          "summary": "Passengers departing on international flights from Long Thanh Airport will pay a US$25 service fee, the same as at Hanoi's Noi Bai Airport and $5 more than at Ho Chi Minh City's Tan Son Nhat Airport.",
+          "url": "https://e.vnexpress.net/news/news/traffic/passengers-taking-international-flights-from-long-thanh-airport-to-pay-25-service-fee-5126641.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Tue, 29 Sep 2026 15:44:29 +0700"
+          "published": "Wed, 30 Sep 2026 14:19:51 +0700"
         }
       ],
-      "totalTagged": 109,
+      "totalTagged": 107,
       "feedsQueried": 14,
       "errors": [],
       "note": "General headlines from the growing regions, taken from outlets of record and tagged to a region by the countries and cities they name."
     },
     "roundup": {
       "source": "assembled",
-      "fetchedAt": "2026-09-29T22:31:50.902Z",
+      "fetchedAt": "2026-09-30T11:44:06.974Z",
       "windowDays": 7,
       "publishers": [
         "Daily Coffee News",
@@ -3707,13 +3713,31 @@
       ],
       "items": [
         {
+          "headline": "Cafe Imports Transitions to 100% Employee Ownership",
+          "summary": "Cafe Imports is now 100% employee owned via an ESOP, as other green coffee traders face bankruptcy or acquisition. The post Cafe Imports Transitions to 100% Employee Ownership appeared first on Fresh Cup .",
+          "url": "https://freshcup.com/cafe-imports-transitions-to-100-employee-ownership/",
+          "publisher": "Fresh Cup",
+          "published": "Wed, 30 Sep 2026 11:40:00 +0000",
+          "date": "Wed, 30 Sep",
+          "section": "Top stories of the week"
+        },
+        {
+          "headline": "Instant gratification: KDP takes on Nestlé with espresso concentrate range",
+          "summary": "The US beverage giant wants a head start with the next generation of coffee consumers across key international markets",
+          "url": "https://www.worldcoffeeportal.com/news/instant-gratification-kdp-takes-on-nestle-with-espresso-concentrate-range/",
+          "publisher": "World Coffee Portal",
+          "published": "Wed, 30 Sep 2026 11:13:47 GMT",
+          "date": "Wed, 30 Sep",
+          "section": "Top stories of the week"
+        },
+        {
           "headline": "Coffee Decoded: What Makes Coffee Bitter?",
           "summary": "Welcome to Coffee, Decoded, the Specialty Coffee Association’s weekly column on science, research, and all things coffee knowledge. PETER GIULIANO, the SCA's Senior Advisor for Scientific Communication explores the phenomenon of bitterness in coffee. Why does…",
           "url": "https://sca.coffee/sca-news/coffee-decoded-18-bitterness-in-coffee",
           "publisher": "Specialty Coffee Association",
           "published": "Tue, 29 Sep 2026 16:03:28 +0000",
           "date": "Tue, 29 Sep",
-          "section": "Top stories of the week"
+          "section": "Roasting & retail"
         },
         {
           "headline": "Design Details: A New Dimension at Café Shin Marais in Paris",
@@ -3722,7 +3746,7 @@
           "publisher": "Daily Coffee News",
           "published": "Tue, 29 Sep 2026 12:24:11 +0000",
           "date": "Tue, 29 Sep",
-          "section": "Top stories of the week"
+          "section": "Roasting & retail"
         },
         {
           "headline": "Sun Bear Coffee Basks in its First Standalone St. Petersburg Cafe",
@@ -3752,15 +3776,6 @@
           "section": "Roasting & retail"
         },
         {
-          "headline": "Costa Coffee Professional expands Podio range to bring coffee-shop quality to more businesses",
-          "summary": "The UK-based coffee group has designed a complete portfolio of machines to fulfil the coffee needs of your business and bring coffee shop quality to more away-from-home environments As consumer expectations for premium coffee continue to rise, businesses…",
-          "url": "https://www.worldcoffeeportal.com/news/costa-coffee-professional-expands-podio-range/",
-          "publisher": "World Coffee Portal",
-          "published": "Tue, 29 Sep 2026 06:30:44 GMT",
-          "date": "Tue, 29 Sep",
-          "section": "Roasting & retail"
-        },
-        {
           "headline": "Gen Z Coffee Study Finds Convenience Trumps Sustainability",
           "summary": "A new study involving young coffee drinkers in Slovenia found that while they welcome the idea of sustainability in their coffee, factors such as convenience, price and routine are more...",
           "url": "https://dailycoffeenews.com/2026/09/28/gen-z-coffee-study-finds-convenience-trumps-sustainability/",
@@ -3768,15 +3783,6 @@
           "published": "Mon, 28 Sep 2026 14:43:53 +0000",
           "date": "Mon, 28 Sep",
           "section": "Top stories of the week"
-        },
-        {
-          "headline": "Starbucks Closing 250 Stores, Remodeling Hundreds More",
-          "summary": "Starbucks is closing approximately 250 coffeehouses across North America, marking the second major round of store closures under CEO Brian Niccol as the coffee giant continues reshaping its sprawling retail...",
-          "url": "https://dailycoffeenews.com/2026/09/28/starbucks-closing-250-stores-remodeling-hundreds-more/",
-          "publisher": "Daily Coffee News",
-          "published": "Mon, 28 Sep 2026 13:32:35 +0000",
-          "date": "Mon, 28 Sep",
-          "section": "Roasting & retail"
         },
         {
           "headline": "Coffee News Club: Week of September 28",
@@ -3815,7 +3821,7 @@
       "note": "Assembled from the coffee trade press over the past seven days, ranked by relevance to the physical trade. Headlines and links are each publisher’s own."
     },
     "dailyRead": {
-      "fetchedAt": "2026-09-29T22:31:49.255Z",
+      "fetchedAt": "2026-09-30T11:44:04.949Z",
       "article": {
         "title": "Gen Z Coffee Study Finds Convenience Trumps Sustainability",
         "summary": "A new study involving young coffee drinkers in Slovenia found that while they welcome the idea of sustainability in their coffee, factors such as convenience, price and routine are more...",
@@ -4143,38 +4149,38 @@
     {
       "source": "daily-read",
       "ok": true,
-      "ms": 432
+      "ms": 346
     },
     {
       "source": "weather",
       "ok": true,
-      "ms": 831
+      "ms": 598
     },
     {
       "source": "fx",
       "ok": true,
-      "ms": 1806
-    },
-    {
-      "source": "arabica-futures",
-      "ok": true,
-      "ms": 2110
+      "ms": 1921
     },
     {
       "source": "weekly-recap",
       "ok": true,
-      "ms": 2081
+      "ms": 2374
     },
     {
-      "source": "origin-wire",
+      "source": "arabica-futures",
       "ok": true,
-      "ms": 2559
+      "ms": 2490
     },
     {
       "source": "ico-report",
       "ok": false,
-      "ms": 3420,
+      "ms": 3256,
       "error": "indicator prices: 2025-09 has 1 values for 7 columns"
+    },
+    {
+      "source": "origin-wire",
+      "ok": true,
+      "ms": 3421
     }
   ]
 }

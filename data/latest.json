@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T12:13:10.611Z",
+  "generatedAt": "2026-10-01T22:51:02.758Z",
   "schema": 5,
   "schedule": {
     "slotsUtc": [
@@ -26,8 +26,8 @@
       "frontMonth": {
         "code": "KCZ26",
         "label": "Dec 2026",
-        "close": 290.1,
-        "volume": 3277
+        "close": 289.25,
+        "volume": 13368
       },
       "rolled": false,
       "mostActive": "KCZ26",
@@ -35,56 +35,56 @@
         {
           "code": "KCZ26",
           "label": "Dec 2026",
-          "close": 290.1,
-          "volume": 3277
+          "close": 289.25,
+          "volume": 13368
         },
         {
           "code": "KCH27",
           "label": "Mar 2027",
-          "close": 281.65,
-          "volume": 1510
+          "close": 280.25,
+          "volume": 6163
         },
         {
           "code": "KCK27",
           "label": "May 2027",
-          "close": 279.4,
-          "volume": 675
+          "close": 277,
+          "volume": 2567
         },
         {
           "code": "KCN27",
           "label": "Jul 2027",
-          "close": 277,
-          "volume": 203
+          "close": 274.9,
+          "volume": 1017
         },
         {
           "code": "KCU27",
           "label": "Sep 2027",
-          "close": 275.5,
-          "volume": 30
+          "close": 272.95,
+          "volume": 275
         },
         {
           "code": "KCZ27",
           "label": "Dec 2027",
-          "close": 269.3,
-          "volume": 38
+          "close": 269.75,
+          "volume": 146
         },
         {
           "code": "KCH28",
           "label": "Mar 2028",
-          "close": 267.75,
-          "volume": 22
+          "close": 267.95,
+          "volume": 30
         }
       ],
       "quote": {
-        "last": 282.3,
+        "last": 280.25,
         "open": 280.25,
-        "high": 282.3500061035156,
-        "low": 277.1499938964844,
+        "high": 282.6499938964844,
+        "low": 275.3500061035156,
         "previousClose": 282.6499938964844,
-        "change": -0.35,
-        "changePct": -0.124,
-        "volume": 1382,
-        "asOf": "2026-10-01T11:52:13.000Z"
+        "change": -2.4,
+        "changePct": -0.849,
+        "volume": 6163,
+        "asOf": "2026-10-01T17:29:55.000Z"
       },
       "bars": [
         {
@@ -2642,17 +2642,17 @@
         {
           "date": "2026-10-01",
           "open": 280.25,
-          "high": 282.3500061035156,
-          "low": 277.1499938964844,
-          "close": 282.29998779296875,
-          "volume": 1382
+          "high": 282.6499938964844,
+          "low": 275.3500061035156,
+          "close": 280.25,
+          "volume": 6163
         }
       ],
       "crossCheck": {
-        "tradingView": 281.65,
-        "yahoo": 282.3,
-        "diff": -0.65,
-        "diffPct": -0.23,
+        "tradingView": 280.25,
+        "yahoo": 280.25,
+        "diff": 0,
+        "diffPct": 0,
         "agree": true
       },
       "sources": [
@@ -2669,16 +2669,16 @@
       ],
       "technicals": {
         "observations": 504,
-        "sma20": 276.65999908447264,
-        "sma50": 293.20899963378906,
-        "sma200": 281.7562498474121,
-        "rsi14": 50.105951067248995,
+        "sma20": 276.55749969482423,
+        "sma50": 293.1679998779297,
+        "sma200": 281.7459999084473,
+        "rsi14": 48.223797709355054,
         "macd": {
-          "line": -4.271523948022491,
-          "signal": -6.328626100051874,
-          "histogram": 2.0571021520293833
+          "line": -4.435055737774917,
+          "signal": -6.36133245800236,
+          "histogram": 1.9262767202274427
         },
-        "atr14": 9.225075311659774,
+        "atr14": 9.353645868300399,
         "donchian20": {
           "high": 291.6499938964844,
           "low": 262.6000061035156,
@@ -2687,30 +2687,30 @@
         "levels": {
           "support": [
             {
-              "price": 281.8500061035156,
-              "date": "2025-03-27"
-            },
-            {
               "price": 270,
               "date": "2026-02-06"
             },
             {
               "price": 268.20001220703125,
               "date": "2025-04-07"
+            },
+            {
+              "price": 262.6000061035156,
+              "date": "2026-09-23"
             }
           ],
           "resistance": [
             {
-              "price": 289.6499938964844,
-              "date": "2026-02-13"
+              "price": 280.8500061035156,
+              "date": "2026-03-26"
             },
             {
-              "price": 289.95001220703125,
-              "date": "2025-03-05"
+              "price": 281.6000061035156,
+              "date": "2026-03-09"
             },
             {
-              "price": 295.95001220703125,
-              "date": "2025-02-19"
+              "price": 282.04998779296875,
+              "date": "2026-04-24"
             }
           ]
         },
@@ -2726,22 +2726,18 @@
     }
   },
   "fx": {
-    "asOf": "2026-09-30",
+    "asOf": "2026-10-01",
     "pairs": {
       "GBPUSD": {
         "pair": "GBP/USD",
-        "rate": 1.3286,
-        "previous": 1.3247,
+        "rate": 1.3234,
+        "previous": 1.3286,
         "dp": 4,
         "note": "Sterling stronger means a dollar-priced contract costs a UK buyer less.",
-        "change": 0.0039,
-        "changePct": 0.294,
-        "change1m": -1.81,
+        "change": -0.0052,
+        "changePct": -0.391,
+        "change1m": -1.85,
         "history": [
-          {
-            "date": "2026-07-09",
-            "rate": 1.3396
-          },
           {
             "date": "2026-07-10",
             "rate": 1.3423
@@ -2977,23 +2973,23 @@
           {
             "date": "2026-09-30",
             "rate": 1.3286
+          },
+          {
+            "date": "2026-10-01",
+            "rate": 1.3234
           }
         ]
       },
       "USDBRL": {
         "pair": "USD/BRL",
-        "rate": 5.2027,
-        "previous": 5.2115,
+        "rate": 5.1885,
+        "previous": 5.2027,
         "dp": 4,
         "note": "A weaker real encourages Brazilian producer selling.",
-        "change": -0.0088,
-        "changePct": -0.169,
-        "change1m": 0.07,
+        "change": -0.0142,
+        "changePct": -0.273,
+        "change1m": 0.73,
         "history": [
-          {
-            "date": "2026-07-09",
-            "rate": 5.1453
-          },
           {
             "date": "2026-07-10",
             "rate": 5.1185
@@ -3229,14 +3225,18 @@
           {
             "date": "2026-09-30",
             "rate": 5.2027
+          },
+          {
+            "date": "2026-10-01",
+            "rate": 5.1885
           }
         ]
       }
     },
     "ptax": {
-      "buy": 5.1803,
-      "sell": 5.1809,
-      "quotedAt": "2026-09-30 13:11:44.783262"
+      "buy": 5.2073,
+      "sell": 5.2079,
+      "quotedAt": "2026-10-01 13:10:35.4469"
     },
     "sources": [
       {
@@ -3252,7 +3252,7 @@
     ]
   },
   "weather": {
-    "fetchedAt": "2026-10-01T12:13:07.733Z",
+    "fetchedAt": "2026-10-01T22:50:59.633Z",
     "thresholds": {
       "frostC": 4,
       "heavyRainMm": 50,
@@ -3288,13 +3288,13 @@
         "condition": "dry",
         "conditionLabel": "Clear / dry",
         "rain14": 63.4,
-        "rainForecast7": 104.1,
-        "minForecast7": 16.5,
+        "rainForecast7": 104.6,
+        "minForecast7": 16.6,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "104 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "105 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3317,13 +3317,13 @@
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
         "rain14": 11.1,
-        "rainForecast7": 58.1,
-        "minForecast7": 18.2,
+        "rainForecast7": 79.8,
+        "minForecast7": 18.5,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "58 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "80 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3346,7 +3346,7 @@
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
         "rain14": 15.6,
-        "rainForecast7": 5.5,
+        "rainForecast7": 3.8,
         "minForecast7": 22.2,
         "alerts": []
       },
@@ -3368,9 +3368,9 @@
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 175.9,
-        "rainForecast7": 39.7,
-        "minForecast7": 21.4,
+        "rain14": 167.8,
+        "rainForecast7": 36.6,
+        "minForecast7": 21.7,
         "alerts": []
       },
       {
@@ -3391,14 +3391,14 @@
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 214,
-        "rainForecast7": 59.3,
-        "minForecast7": 18.8,
+        "rain14": 199,
+        "rainForecast7": 68.2,
+        "minForecast7": 18.5,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "59 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "68 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3421,13 +3421,13 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 47.7,
-        "rainForecast7": 55.2,
-        "minForecast7": 16.8,
+        "rainForecast7": 59.2,
+        "minForecast7": 16.6,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "55 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "59 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3450,13 +3450,13 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 48.9,
-        "rainForecast7": 68.1,
-        "minForecast7": 16.7,
+        "rainForecast7": 73.1,
+        "minForecast7": 16.1,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "68 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "73 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3478,10 +3478,16 @@
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 104.5,
-        "rainForecast7": 41,
+        "rain14": 85.6,
+        "rainForecast7": 51.5,
         "minForecast7": 16.1,
-        "alerts": []
+        "alerts": [
+          {
+            "type": "wet",
+            "severity": "watch",
+            "text": "52 mm forecast over 7 days — harvest/drying disruption risk."
+          }
+        ]
       },
       {
         "key": "lampung",
@@ -3502,8 +3508,8 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 112.7,
-        "rainForecast7": 22.8,
-        "minForecast7": 24.8,
+        "rainForecast7": 19.3,
+        "minForecast7": 24.6,
         "alerts": []
       },
       {
@@ -3524,9 +3530,9 @@
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 26.2,
-        "rainForecast7": 6.5,
-        "minForecast7": 12.2,
+        "rain14": 25.6,
+        "rainForecast7": 3.4,
+        "minForecast7": 12.7,
         "alerts": []
       },
       {
@@ -3548,9 +3554,15 @@
         "condition": "very-wet",
         "conditionLabel": "Very wet",
         "rain14": 94.7,
-        "rainForecast7": 49.7,
+        "rainForecast7": 71.9,
         "minForecast7": 15.6,
-        "alerts": []
+        "alerts": [
+          {
+            "type": "wet",
+            "severity": "watch",
+            "text": "72 mm forecast over 7 days — harvest/drying disruption risk."
+          }
+        ]
       },
       {
         "key": "chanchamayo",
@@ -3571,7 +3583,7 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 55,
-        "rainForecast7": 41.8,
+        "rainForecast7": 35.9,
         "minForecast7": 16.8,
         "alerts": []
       }
@@ -3586,21 +3598,21 @@
   },
   "news": {
     "originWire": {
-      "fetchedAt": "2026-10-01T12:13:10.009Z",
+      "fetchedAt": "2026-10-01T22:51:02.291Z",
       "lookbackHours": 504,
       "headlines": [
         {
-          "title": "The Guardian view on Lula v the Bolsonaros: the decision of Brazilian voters will affect us all | Editorial",
-          "summary": "Sunday’s general election is too close to call, with the incumbent president facing the son of the man who attempted a coup against him Sunday’s election in Brazil could hardly be a clearer-cut choice – nor a closer call. President Luiz Inácio Lula da Silva…",
-          "url": "https://www.theguardian.com/commentisfree/2026/sep/30/the-guardian-view-on-lula-v-the-bolsonaros-the-decision-of-brazilian-voters-will-affect-us-all",
+          "title": "Brazil attorney general says meddling ‘cannot be tolerated’ after Trump funding plans revealed",
+          "summary": "Jorge Messias calls Guardian report ‘an important alert for Brazilian sovereignty’ as nation prepares to go to polls Brazil’s attorney general has said foreign meddling in his country’s institutions and democracy “cannot be tolerated” after a Guardian report…",
+          "url": "https://www.theguardian.com/world/2026/oct/01/brazil-attorney-general-election-meddling-trump-funding-plans",
           "publisher": "The Guardian",
           "region": "Brazil",
-          "published": "Wed, 30 Sep 2026 17:37:06 GMT"
+          "published": "Thu, 01 Oct 2026 18:34:10 GMT"
         },
         {
-          "title": "Ambulance sirens wail in vain as heavy thunderstorm triggers hour-long gridlock to Vietnam's busiest airport",
-          "summary": "Torrential rain with violent thunder and lightning pounded central Ho Chi Minh City on Thursday evening, causing prolonged gridlock on several roads near Tan Son Nhat International Airport.",
-          "url": "https://e.vnexpress.net/photo/traffic/ambulance-sirens-wail-in-vain-as-heavy-thunderstorm-triggers-hour-long-gridlock-to-vietnams-busiest-airport-5127311.html",
+          "title": "Flooding, gridlock stretch from downtown HCMC through expat area",
+          "summary": "A torrential downpour flooded streets and brought traffic to a standstill from downtown Ho Chi Minh City through its expat hub to roads leading to Tan Son Nhat Airport.",
+          "url": "https://e.vnexpress.net/photo/traffic/flooding-gridlock-stretch-from-downtown-hcmc-through-expat-area-5127311.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
           "published": "Thu, 01 Oct 2026 18:36:59 +0700"
@@ -3622,28 +3634,28 @@
           "published": "Thu, 01 Oct 2026 12:00:50 GMT"
         },
         {
-          "title": "‘It’s utter surrealism’: Venezuela’s Chavistas lament government’s embrace of Trump",
-          "summary": "Diehard Hugo Chávez supporters struggle to comprehend ideological U-turn being executed by Delcy Rodríguez’s interim administration He was one of the most passionate propagandists for Hugo Chávez’s Bolivarian revolution: a feisty leftist TV personality who…",
-          "url": "https://www.theguardian.com/world/2026/oct/01/venezuela-hugo-chavez-supporters-critical-delcy-rodriguez-embrace-of-trump",
-          "publisher": "The Guardian",
+          "title": "Bolivia arrests attorney-general after US accuses him of protecting drug traffickers",
+          "summary": "Move comes as the country deepens ties with Washington following the election of centre-right president Rodrigo Paz",
+          "url": "https://www.ft.com/content/21f0822e-eb0b-4056-bcf2-2b6e2a14c221",
+          "publisher": "Financial Times",
           "region": "South & Central America",
-          "published": "Thu, 01 Oct 2026 09:00:34 GMT"
+          "published": "Thu, 01 Oct 2026 18:28:19 GMT"
         },
         {
-          "title": "Explosions heard in Ethiopia's capital after drone flights banned",
-          "summary": "It comes a week after fighting erupted north of the capital between the army and a new alliance of armed groups.",
-          "url": "https://www.bbc.co.uk/news/articles/c3vgygpqky9zo?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
+          "title": "Alan Ferguson obituary",
+          "summary": "My brother, Alan Ferguson, who has died aged 79, was a Scotsman who began his working life as a geography lecturer at Nairobi University in Kenya, before working with aid agencies in that country. Alan joined the university in 1972, but left after a couple of…",
+          "url": "https://www.theguardian.com/world/2026/oct/01/alan-ferguson-obituary",
+          "publisher": "The Guardian",
           "region": "East Africa",
-          "published": "Thu, 01 Oct 2026 11:25:03 GMT"
+          "published": "Thu, 01 Oct 2026 20:31:31 GMT"
         },
         {
-          "title": "How Trump is meddling in Brazil's election – explainer",
-          "summary": "Brazil will head to the polls on 4 October for the first vote in its presidential race. The incumbent, Luiz Inácio Lula da Silva, is neck-and-neck with Flávio Bolsonaro, the son of the former president Jair Bolsonaro, who is in prison for plotting a military…",
-          "url": "https://www.theguardian.com/world/video/2026/sep/30/how-trump-is-meddling-in-brazils-upcoming-election-explainer",
+          "title": "The Guardian view on Lula v the Bolsonaros: the decision of Brazilian voters will affect us all | Editorial",
+          "summary": "Sunday’s general election is too close to call, with the incumbent president facing the son of the man who attempted a coup against him Sunday’s election in Brazil could hardly be a clearer-cut choice – nor a closer call. President Luiz Inácio Lula da Silva…",
+          "url": "https://www.theguardian.com/commentisfree/2026/sep/30/the-guardian-view-on-lula-v-the-bolsonaros-the-decision-of-brazilian-voters-will-affect-us-all",
           "publisher": "The Guardian",
           "region": "Brazil",
-          "published": "Wed, 30 Sep 2026 13:24:37 GMT"
+          "published": "Wed, 30 Sep 2026 17:37:06 GMT"
         },
         {
           "title": "Bamboo Airways makes 8th chairman change in under 5 years",
@@ -3670,28 +3682,28 @@
           "published": "Mon, 21 Sep 2026 17:13:23 GMT"
         },
         {
-          "title": "Mexico's National Guard debuts chihuahua dog recruit named 'Comando'",
-          "summary": "The 13-month-old small canine is equipped with protective gear and a camera, and is being trained for search-and-rescue missions.",
-          "url": "https://www.bbc.co.uk/news/videos/cke878yzngd8o?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
+          "title": "‘It’s utter surrealism’: Venezuela’s Chavistas lament government’s embrace of Trump",
+          "summary": "Diehard Hugo Chávez supporters struggle to comprehend ideological U-turn being executed by Delcy Rodríguez’s interim administration He was one of the most passionate propagandists for Hugo Chávez’s Bolivarian revolution: a feisty leftist TV personality who…",
+          "url": "https://www.theguardian.com/world/2026/oct/01/venezuela-hugo-chavez-supporters-critical-delcy-rodriguez-embrace-of-trump",
+          "publisher": "The Guardian",
           "region": "South & Central America",
-          "published": "Wed, 30 Sep 2026 22:08:49 GMT"
+          "published": "Thu, 01 Oct 2026 09:00:34 GMT"
         },
         {
-          "title": "Africa's richest man launches Kenya oil refinery despite land protests",
-          "summary": "The Kenya refinery is part of Dangote's ambitious bid to expand and help industralise Africa by 2030.",
-          "url": "https://www.bbc.co.uk/news/articles/cmkg8dpwy25po?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
+          "title": "The filmmaker taking on Kenya’s colonised tea plantations",
+          "summary": "The filmmaker taking on Kenya’s colonised tea plantations",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/1/the-filmmaker-taking-on-kenyas-colonised-tea-plantations?traffic_source=rss",
+          "publisher": "Al Jazeera",
           "region": "East Africa",
-          "published": "Thu, 01 Oct 2026 07:04:27 GMT"
+          "published": "Thu, 01 Oct 2026 20:29:51 +0000"
         },
         {
-          "title": "‘We’re afraid of dying’: Brazilian news site will not cover upcoming elections after threats",
-          "summary": "Co-founder of independent website Tapajós de Fato said decision was made to protect journalists and their families Four years ago, during Brazil’s last presidential election, the tyres were slashed on the pickup truck used for reporting by Tapajós de Fato, an…",
-          "url": "https://www.theguardian.com/world/2026/sep/30/brazil-newspaper-threats-tapajos-de-fato",
+          "title": "How Trump is meddling in Brazil's election – explainer",
+          "summary": "Brazil will head to the polls on 4 October for the first vote in its presidential race. The incumbent, Luiz Inácio Lula da Silva, is neck-and-neck with Flávio Bolsonaro, the son of the former president Jair Bolsonaro, who is in prison for plotting a military…",
+          "url": "https://www.theguardian.com/world/video/2026/sep/30/how-trump-is-meddling-in-brazils-upcoming-election-explainer",
           "publisher": "The Guardian",
           "region": "Brazil",
-          "published": "Wed, 30 Sep 2026 08:00:19 GMT"
+          "published": "Wed, 30 Sep 2026 13:24:37 GMT"
         },
         {
           "title": "Japanese retail giant Aeon targets 300 supermarkets, 30 shopping malls in Vietnam",
@@ -3702,14 +3714,14 @@
           "published": "Thu, 01 Oct 2026 16:19:01 +0700"
         }
       ],
-      "totalTagged": 109,
+      "totalTagged": 113,
       "feedsQueried": 14,
       "errors": [],
       "note": "General headlines from the growing regions, taken from outlets of record and tagged to a region by the countries and cities they name."
     },
     "roundup": {
       "source": "assembled",
-      "fetchedAt": "2026-10-01T12:13:09.316Z",
+      "fetchedAt": "2026-10-01T22:51:01.855Z",
       "windowDays": 7,
       "publishers": [
         "Daily Coffee News",
@@ -3717,6 +3729,24 @@
         "World Coffee Portal"
       ],
       "items": [
+        {
+          "headline": "Keurig Dr Pepper Taps New Head for Global Coffee Co., Russ Torres",
+          "summary": "Keurig Dr Pepper (KDP) named Kimberly-Clark President and COO Russ Torres to lead its massive global coffee business ahead of a planned corporate split in early 2027. Torres will join...",
+          "url": "https://dailycoffeenews.com/2026/10/01/keurig-dr-pepper-taps-new-head-for-global-coffee-co-russ-torres/",
+          "publisher": "Daily Coffee News",
+          "published": "Thu, 01 Oct 2026 16:04:25 +0000",
+          "date": "Thu, 1 Oct",
+          "section": "Roasting & retail"
+        },
+        {
+          "headline": "Today is the First Official UN International Coffee Day. Guess Which One Country Voted Against It",
+          "summary": "Today, Oct. 1, marks the first International Coffee Day officially recognized by the United Nations. On March 10, the UN General Assembly formally designated Oct. 1 as International Coffee Day...",
+          "url": "https://dailycoffeenews.com/2026/10/01/today-is-the-first-official-un-international-coffee-day-guess-which-one-country-voted-against-it/",
+          "publisher": "Daily Coffee News",
+          "published": "Thu, 01 Oct 2026 14:40:17 +0000",
+          "date": "Thu, 1 Oct",
+          "section": "Roasting & retail"
+        },
         {
           "headline": "SCA Creates $1 Million Fellowship for Coffee Science at UC Davis",
           "summary": "The Specialty Coffee Association has donated $1 million to UC Davis to fund graduate-level coffee research through a new endowed fellowship. The post SCA Creates $1 Million Fellowship for Coffee Science at UC Davis appeared first on Fresh Cup .",
@@ -3745,15 +3775,6 @@
           "section": "Roasting & retail"
         },
         {
-          "headline": "Allpress Espresso and Hario unveil their biggest V60 Championship yet",
-          "summary": "Celebrating the craft of pourover coffee, the 2026 Allpress x Hario V60 Championship is heading across Australia, New Zealand, Singapore and the UK, bringing together brewers to put their pour-over skills to the test The Allpress x HARIO V60 Championship…",
-          "url": "https://www.worldcoffeeportal.com/news/allpress-espresso-and-hario-unveil-their-biggest-v60-championship-yet/",
-          "publisher": "World Coffee Portal",
-          "published": "Thu, 01 Oct 2026 07:30:24 GMT",
-          "date": "Thu, 1 Oct",
-          "section": "Roasting & retail"
-        },
-        {
           "headline": "Coffee industry investments, mergers and acquisitions: September 2026",
           "summary": "A round-up of the latest major deals from across the global coffee industry, including major stake sales at China’s Luckin Coffee, Vietnam’s Highlands Coffee and Turkey’s Espressolab Abu Dhabi sovereign wealth fund takes $1bn minority stake in Luckin Coffee…",
           "url": "https://www.worldcoffeeportal.com/news/coffee-industry-investments-mergers-and-acquisitions-september-2026/",
@@ -3761,15 +3782,6 @@
           "published": "Thu, 01 Oct 2026 07:00:50 GMT",
           "date": "Thu, 1 Oct",
           "section": "Top stories of the week"
-        },
-        {
-          "headline": "Coffee and High Fructose Mix in New Health Review",
-          "summary": "Drinking coffee may offer some biological defenses against a high fructose diet, according to a new review, but the evidence comes with several key caveats. The review, published Aug. 11...",
-          "url": "https://dailycoffeenews.com/2026/09/30/coffee-and-high-fructose-mix-in-new-health-review/",
-          "publisher": "Daily Coffee News",
-          "published": "Wed, 30 Sep 2026 19:58:42 +0000",
-          "date": "Wed, 30 Sep",
-          "section": "Roasting & retail"
         },
         {
           "headline": "Major Coffee Groups Combine Efforts Toward Responsible Procurement",
@@ -3815,15 +3827,6 @@
           "published": "Mon, 28 Sep 2026 11:45:00 +0000",
           "date": "Mon, 28 Sep",
           "section": "Top stories of the week"
-        },
-        {
-          "headline": "Weekly Coffee News: ‘Roasted at Origin’ Program + 53 Coffee Workers Rescued",
-          "summary": "Welcome to DCN’s Weekly Coffee News! Subscribe here for all the latest coffee industry news. Also, check out the latest career opportunities at CoffeeIndustryJobs.com. Go Get Em Tiger Introduces ‘Roasted...",
-          "url": "https://dailycoffeenews.com/2026/09/25/weekly-coffee-news-roasted-at-origin-program-53-coffee-workers-rescued/",
-          "publisher": "Daily Coffee News",
-          "published": "Fri, 25 Sep 2026 11:37:43 +0000",
-          "date": "Fri, 25 Sep",
-          "section": "Trade & production"
         }
       ],
       "errors": [
@@ -3835,7 +3838,7 @@
       "note": "Assembled from the coffee trade press over the past seven days, ranked by relevance to the physical trade. Headlines and links are each publisher’s own."
     },
     "dailyRead": {
-      "fetchedAt": "2026-10-01T12:13:07.624Z",
+      "fetchedAt": "2026-10-01T22:50:59.651Z",
       "article": {
         "title": "ICO Puts Global Coffee Market Data in One Interactive Place",
         "summary": "The International Coffee Organization (ICO) has launched an interactive data platform giving people free access to a range of global market information spanning prices, trade, production, consumption and certified stocks....",
@@ -4161,39 +4164,39 @@
   },
   "status": [
     {
-      "source": "daily-read",
+      "source": "arabica-futures",
       "ok": true,
-      "ms": 759
+      "ms": 821
     },
     {
       "source": "weather",
       "ok": true,
-      "ms": 876
+      "ms": 800
     },
     {
-      "source": "arabica-futures",
+      "source": "daily-read",
       "ok": true,
-      "ms": 1001
-    },
-    {
-      "source": "weekly-recap",
-      "ok": true,
-      "ms": 2454
+      "ms": 808
     },
     {
       "source": "fx",
       "ok": true,
-      "ms": 2488
+      "ms": 2291
+    },
+    {
+      "source": "weekly-recap",
+      "ok": true,
+      "ms": 3015
     },
     {
       "source": "origin-wire",
       "ok": true,
-      "ms": 3151
+      "ms": 3456
     },
     {
       "source": "ico-report",
       "ok": false,
-      "ms": 3736,
+      "ms": 3905,
       "error": "indicator prices: 2025-09 has 1 values for 7 columns"
     }
   ]

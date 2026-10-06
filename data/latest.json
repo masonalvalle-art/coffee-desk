@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T12:34:03.241Z",
+  "generatedAt": "2026-10-06T22:44:59.211Z",
   "schema": 5,
   "schedule": {
     "slotsUtc": [
@@ -26,8 +26,8 @@
       "frontMonth": {
         "code": "KCZ26",
         "label": "Dec 2026",
-        "close": 293.3,
-        "volume": 2794
+        "close": 303.2,
+        "volume": 20967
       },
       "rolled": false,
       "mostActive": "KCZ26",
@@ -35,56 +35,56 @@
         {
           "code": "KCZ26",
           "label": "Dec 2026",
-          "close": 293.3,
-          "volume": 2794
+          "close": 303.2,
+          "volume": 20967
         },
         {
           "code": "KCH27",
           "label": "Mar 2027",
-          "close": 284.8,
-          "volume": 1273
+          "close": 294.6,
+          "volume": 9188
         },
         {
           "code": "KCK27",
           "label": "May 2027",
-          "close": 281.35,
-          "volume": 528
+          "close": 291.55,
+          "volume": 3030
         },
         {
           "code": "KCN27",
           "label": "Jul 2027",
-          "close": 279.95,
-          "volume": 237
+          "close": 288.9,
+          "volume": 1046
         },
         {
           "code": "KCU27",
           "label": "Sep 2027",
-          "close": 278.3,
-          "volume": 115
+          "close": 286.15,
+          "volume": 539
         },
         {
           "code": "KCZ27",
           "label": "Dec 2027",
-          "close": 276.2,
-          "volume": 24
+          "close": 283.7,
+          "volume": 309
         },
         {
           "code": "KCH28",
           "label": "Mar 2028",
-          "close": 273.85,
-          "volume": 2
+          "close": 282.35,
+          "volume": 55
         }
       ],
       "quote": {
-        "last": 287.2,
+        "last": 294.6,
         "open": 282.6499938964844,
-        "high": 287.75,
+        "high": 297.45001220703125,
         "low": 282.6499938964844,
         "previousClose": 284.29998779296875,
-        "change": 2.9,
-        "changePct": 1.02,
-        "volume": 1161,
-        "asOf": "2026-10-06T12:13:30.000Z"
+        "change": 10.3,
+        "changePct": 3.623,
+        "volume": 9188,
+        "asOf": "2026-10-06T17:29:56.000Z"
       },
       "bars": [
         {
@@ -2642,17 +2642,17 @@
         {
           "date": "2026-10-06",
           "open": 282.6499938964844,
-          "high": 287.75,
+          "high": 297.45001220703125,
           "low": 282.6499938964844,
-          "close": 287.20001220703125,
-          "volume": 1161
+          "close": 294.6000061035156,
+          "volume": 9188
         }
       ],
       "crossCheck": {
-        "tradingView": 284.8,
-        "yahoo": 287.2,
-        "diff": -2.4,
-        "diffPct": -0.836,
+        "tradingView": 294.6,
+        "yahoo": 294.6,
+        "diff": 0,
+        "diffPct": 0,
         "agree": true
       },
       "sources": [
@@ -2669,48 +2669,48 @@
       ],
       "technicals": {
         "observations": 503,
-        "sma20": 276.3700012207031,
-        "sma50": 292.59,
-        "sma200": 281.3899998474121,
-        "rsi14": 54.99023317730597,
+        "sma20": 276.74000091552733,
+        "sma50": 292.73799987792967,
+        "sma200": 281.4269998168945,
+        "rsi14": 60.65279756817123,
         "macd": {
-          "line": -2.176728075232461,
-          "signal": -4.688756436512526,
-          "histogram": 2.5120283612800653
+          "line": -1.5864151718092785,
+          "signal": -4.57069385582789,
+          "histogram": 2.9842786840186113
         },
-        "atr14": 9.06971981375548,
+        "atr14": 9.762577828543426,
         "donchian20": {
-          "high": 290.6000061035156,
+          "high": 297.45001220703125,
           "low": 262.6000061035156,
           "period": 20
         },
         "levels": {
           "support": [
             {
-              "price": 285.45001220703125,
-              "date": "2025-06-03"
+              "price": 291.95001220703125,
+              "date": "2025-05-13"
             },
             {
-              "price": 283.79998779296875,
-              "date": "2025-09-19"
+              "price": 289.29998779296875,
+              "date": "2026-07-16"
             },
             {
-              "price": 281.8500061035156,
-              "date": "2025-03-27"
+              "price": 287.20001220703125,
+              "date": "2026-07-24"
             }
           ],
           "resistance": [
             {
-              "price": 289.6499938964844,
-              "date": "2026-02-13"
-            },
-            {
-              "price": 289.95001220703125,
-              "date": "2025-03-05"
-            },
-            {
               "price": 295.95001220703125,
               "date": "2025-02-19"
+            },
+            {
+              "price": 297.3999938964844,
+              "date": "2025-02-10"
+            },
+            {
+              "price": 300,
+              "date": "2025-04-02"
             }
           ]
         },
@@ -2726,22 +2726,18 @@
     }
   },
   "fx": {
-    "asOf": "2026-10-05",
+    "asOf": "2026-10-06",
     "pairs": {
       "GBPUSD": {
         "pair": "GBP/USD",
-        "rate": 1.3225,
-        "previous": 1.3201,
+        "rate": 1.3276,
+        "previous": 1.3225,
         "dp": 4,
         "note": "Sterling stronger means a dollar-priced contract costs a UK buyer less.",
-        "change": 0.0024,
-        "changePct": 0.182,
-        "change1m": -2.25,
+        "change": 0.0051,
+        "changePct": 0.386,
+        "change1m": -1.88,
         "history": [
-          {
-            "date": "2026-07-14",
-            "rate": 1.3384
-          },
           {
             "date": "2026-07-15",
             "rate": 1.3404
@@ -2977,23 +2973,23 @@
           {
             "date": "2026-10-05",
             "rate": 1.3225
+          },
+          {
+            "date": "2026-10-06",
+            "rate": 1.3276
           }
         ]
       },
       "USDBRL": {
         "pair": "USD/BRL",
-        "rate": 4.9847,
-        "previous": 5.2214,
+        "rate": 4.9686,
+        "previous": 4.9847,
         "dp": 4,
         "note": "A weaker real encourages Brazilian producer selling.",
-        "change": -0.2367,
-        "changePct": -4.533,
-        "change1m": -2.48,
+        "change": -0.0161,
+        "changePct": -0.323,
+        "change1m": -3.07,
         "history": [
-          {
-            "date": "2026-07-14",
-            "rate": 5.1233
-          },
           {
             "date": "2026-07-15",
             "rate": 5.081
@@ -3229,14 +3225,18 @@
           {
             "date": "2026-10-05",
             "rate": 4.9847
+          },
+          {
+            "date": "2026-10-06",
+            "rate": 4.9686
           }
         ]
       }
     },
     "ptax": {
-      "buy": 4.9853,
-      "sell": 4.9859,
-      "quotedAt": "2026-10-05 13:07:36.558602"
+      "buy": 4.9692,
+      "sell": 4.9698,
+      "quotedAt": "2026-10-06 13:03:21.267287"
     },
     "sources": [
       {
@@ -3252,7 +3252,7 @@
     ]
   },
   "weather": {
-    "fetchedAt": "2026-10-06T12:34:00.625Z",
+    "fetchedAt": "2026-10-06T22:44:56.414Z",
     "thresholds": {
       "frostC": 4,
       "heavyRainMm": 50,
@@ -3288,8 +3288,8 @@
         "condition": "very-wet",
         "conditionLabel": "Very wet",
         "rain14": 82.3,
-        "rainForecast7": 29,
-        "minForecast7": 17.1,
+        "rainForecast7": 13.2,
+        "minForecast7": 16.7,
         "alerts": []
       },
       {
@@ -3311,7 +3311,7 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 56.4,
-        "rainForecast7": 4.7,
+        "rainForecast7": 4.8,
         "minForecast7": 17.9,
         "alerts": []
       },
@@ -3334,8 +3334,8 @@
         "condition": "very-wet",
         "conditionLabel": "Very wet",
         "rain14": 39.8,
-        "rainForecast7": 2.1,
-        "minForecast7": 21.8,
+        "rainForecast7": 0.4,
+        "minForecast7": 21.7,
         "alerts": []
       },
       {
@@ -3356,14 +3356,14 @@
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 135,
-        "rainForecast7": 69.7,
-        "minForecast7": 21.9,
+        "rain14": 119.9,
+        "rainForecast7": 79.3,
+        "minForecast7": 21.8,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "70 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "79 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3385,14 +3385,14 @@
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 129.5,
-        "rainForecast7": 55.8,
-        "minForecast7": 18.9,
+        "rain14": 106.4,
+        "rainForecast7": 57.7,
+        "minForecast7": 19.1,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "56 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "58 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3415,9 +3415,15 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 82.5,
-        "rainForecast7": 40.5,
-        "minForecast7": 16.7,
-        "alerts": []
+        "rainForecast7": 52,
+        "minForecast7": 16.8,
+        "alerts": [
+          {
+            "type": "wet",
+            "severity": "watch",
+            "text": "52 mm forecast over 7 days — harvest/drying disruption risk."
+          }
+        ]
       },
       {
         "key": "antioquia",
@@ -3438,13 +3444,13 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 60.7,
-        "rainForecast7": 107,
-        "minForecast7": 16,
+        "rainForecast7": 92.6,
+        "minForecast7": 16.6,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "107 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "93 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3466,14 +3472,14 @@
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 156.5,
-        "rainForecast7": 56.4,
-        "minForecast7": 16.5,
+        "rain14": 149,
+        "rainForecast7": 67.6,
+        "minForecast7": 16.7,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "56 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "68 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3495,9 +3501,9 @@
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 85.8,
-        "rainForecast7": 8.9,
-        "minForecast7": 24.7,
+        "rain14": 57.9,
+        "rainForecast7": 19.1,
+        "minForecast7": 24.4,
         "alerts": []
       },
       {
@@ -3518,9 +3524,9 @@
         },
         "condition": "dry",
         "conditionLabel": "Clear / dry",
-        "rain14": 20.7,
-        "rainForecast7": 17.1,
-        "minForecast7": 12.7,
+        "rain14": 19.6,
+        "rainForecast7": 19.1,
+        "minForecast7": 12.1,
         "alerts": []
       },
       {
@@ -3542,13 +3548,13 @@
         "condition": "very-wet",
         "conditionLabel": "Very wet",
         "rain14": 97.3,
-        "rainForecast7": 75.9,
-        "minForecast7": 15.1,
+        "rainForecast7": 50.5,
+        "minForecast7": 15.3,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "76 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "51 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3571,13 +3577,13 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 58.1,
-        "rainForecast7": 58.7,
-        "minForecast7": 19.4,
+        "rainForecast7": 70.7,
+        "minForecast7": 18.8,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "59 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "71 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       }
@@ -3592,16 +3598,16 @@
   },
   "news": {
     "originWire": {
-      "fetchedAt": "2026-10-06T12:34:02.268Z",
+      "fetchedAt": "2026-10-06T22:44:59.209Z",
       "lookbackHours": 504,
       "headlines": [
         {
-          "title": "FirstFT: Le Pen lays out economic plan for France",
-          "summary": "Also in today’s newsletter: Brazil’s stock market surges and Trump eases limits on use of red diesel",
-          "url": "https://www.ft.com/content/1d152b5b-decb-41c3-a197-8de1d1ca26fc?syn-25a6b1a6=1",
-          "publisher": "Financial Times",
+          "title": "Why Flavio Bolsonaro outperformed the polls in Brazil’s election",
+          "summary": "A late right-wing shift, a banking scandal and economic frustration may be behind Bolsonaro's last-minute gains.",
+          "url": "https://www.aljazeera.com/news/2026/10/6/why-flavio-bolsonaro-outperformed-the-polls-in-brazils-election?traffic_source=rss",
+          "publisher": "Al Jazeera",
           "region": "Brazil",
-          "published": "Tue, 06 Oct 2026 09:55:57 GMT"
+          "published": "Tue, 06 Oct 2026 20:44:12 +0000"
         },
         {
           "title": "8,500 people join CapitaLand campaign to support vulnerable children",
@@ -3628,12 +3634,12 @@
           "published": "Thu, 01 Oct 2026 12:00:50 GMT"
         },
         {
-          "title": "Argentina will stop Falklands exploiting offshore oilfields, foreign minister says",
-          "summary": "Pablo Quirno says move is part of Argentinian government’s strategy to peacefully assert sovereignty over the islands Argentina’s foreign minister has told an audience that included the British ambassador that his government would stop the Falkland Islands…",
-          "url": "https://www.theguardian.com/uk-news/2026/oct/06/argentina-to-stop-falkland-islands-exploiting-offshore-oilfields-sovereignty",
-          "publisher": "The Guardian",
+          "title": "Fans flood Buenos Aires ahead of Messi’s final international match",
+          "summary": "Thousands of Argentina fans poured into Buenos Aires’ Monumental stadium ahead of Lionel Messi’s final match.",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/6/10-7-messi-fans-flock-clip?traffic_source=rss",
+          "publisher": "Al Jazeera",
           "region": "South & Central America",
-          "published": "Tue, 06 Oct 2026 11:40:03 GMT"
+          "published": "Tue, 06 Oct 2026 22:07:44 +0000"
         },
         {
           "title": "Kenya confirms its first Ebola death as outbreak spreads",
@@ -3641,10 +3647,10 @@
           "url": "https://www.bbc.co.uk/news/articles/cqzrd7v1j163o?at_medium=RSS&amp;at_campaign=rss",
           "publisher": "BBC News",
           "region": "East Africa",
-          "published": "Tue, 06 Oct 2026 11:51:26 GMT"
+          "published": "Tue, 06 Oct 2026 16:02:32 GMT"
         },
         {
-          "title": "Keeping up with the Bolsonaros: Flávio’s surprise first-round election win heralds rise of a political dynasty",
+          "title": "Flávio’s surprise first-round election win highlights rapid rise of Brazil’s House of Bolsonaro",
           "summary": "Four members of disgraced ex-president Jair Bolsonaro’s family have been elected to office, most notably his wife and son Flávio, who won the first round of voting to be Brazil’s new president The weekend’s elections in Brazil not only put Jair Bolsonaro’s…",
           "url": "https://www.theguardian.com/world/2026/oct/06/keeping-up-with-the-bolsonaros-flavios-surprise-first-round-election-win-heralds-rise-of-a-political-dynasty",
           "publisher": "The Guardian",
@@ -3676,20 +3682,20 @@
           "published": "Mon, 21 Sep 2026 17:13:23 GMT"
         },
         {
-          "title": "‘They take our water, our soil’: protesters fight ‘foreignisation’ as Javier Milei encourages land sales in Argentina",
-          "summary": "The country’s far-right president is courting billionaire investors by removing a block on foreign ownership of land and natural resources On 19 September, Marta Sahores, an 84-year-old chemistry professor and activist who has mobilised against mega-mining…",
-          "url": "https://www.theguardian.com/global-development/2026/oct/06/argentina-land-reform-protests-javier-milei",
-          "publisher": "The Guardian",
+          "title": "Messi super fan travels from India to Argentina for idol’s final game",
+          "summary": "Lionel Messi super fan Yadil M Iqbal traveled from Kerala, India, to Buenos Aires to watch him play his last game.",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/6/6-10-sv-messi-superfan-from-kerala-in?traffic_source=rss",
+          "publisher": "Al Jazeera",
           "region": "South & Central America",
-          "published": "Tue, 06 Oct 2026 10:00:51 GMT"
+          "published": "Tue, 06 Oct 2026 20:36:53 +0000"
         },
         {
-          "title": "Kenya confirms first case of Ebola",
-          "summary": "Virus spread from DR Congo, which is experiencing its worst outbreak",
-          "url": "https://www.ft.com/content/d4a2ee8a-e41f-437f-b5cc-827806a512e8?syn-25a6b1a6=1",
-          "publisher": "Financial Times",
+          "title": "Kenya confirms first Ebola case as virus ‘surges’ in DR Congo province",
+          "summary": "Health minister says 28 contacts identified after death of citizen who arrived from DRC on Saturday Kenya has reported its first-ever Ebola death, the health minister announced on Tuesday, as the disease continues to spread rapidly through the north-east of…",
+          "url": "https://www.theguardian.com/world/2026/oct/06/kenya-first-ebola-case-death-drc",
+          "publisher": "The Guardian",
           "region": "East Africa",
-          "published": "Tue, 06 Oct 2026 11:04:32 GMT"
+          "published": "Tue, 06 Oct 2026 12:46:56 GMT"
         },
         {
           "title": "Flávio Bolsonaro rides right-wing wave to win first round of Brazil election",
@@ -3708,14 +3714,14 @@
           "published": "Tue, 06 Oct 2026 13:37:14 +0700"
         }
       ],
-      "totalTagged": 120,
+      "totalTagged": 119,
       "feedsQueried": 14,
       "errors": [],
       "note": "General headlines from the growing regions, taken from outlets of record and tagged to a region by the countries and cities they name."
     },
     "roundup": {
       "source": "assembled",
-      "fetchedAt": "2026-10-06T12:34:01.370Z",
+      "fetchedAt": "2026-10-06T22:44:58.169Z",
       "windowDays": 7,
       "publishers": [
         "Daily Coffee News",
@@ -3725,13 +3731,40 @@
       ],
       "items": [
         {
+          "headline": "Scenes from the 2026 Roast Summit in Portland, Oregon",
+          "summary": "Tastings, talks and technical demonstrations for coffee industry professionals filled two sunny days in Portland, Oregon, last week at the 2026 Roast Summit event hosted by Roast magazine. Interspersed with...",
+          "url": "https://dailycoffeenews.com/2026/10/06/scenes-from-the-2026-roast-summit-in-portland-oregon/",
+          "publisher": "Daily Coffee News",
+          "published": "Tue, 06 Oct 2026 14:25:58 +0000",
+          "date": "Tue, 6 Oct",
+          "section": "Top stories of the week"
+        },
+        {
+          "headline": "Wingsure Launches AI-Powered Coffee Farm Intelligence Platform",
+          "summary": "United States-based agricultural tech company Wingsure has launched a coffee-focused platform that uses artificial intelligence, computer vision and geospatial tools to create evolving digital records of individual coffee farms. Called...",
+          "url": "https://dailycoffeenews.com/2026/10/06/wingsure-launches-ai-powered-coffee-farm-intelligence-platform/",
+          "publisher": "Daily Coffee News",
+          "published": "Tue, 06 Oct 2026 13:51:40 +0000",
+          "date": "Tue, 6 Oct",
+          "section": "Top stories of the week"
+        },
+        {
+          "headline": "Provis Coffee Roasters Provides Ample Space for Specialty Brews in North Kansas City",
+          "summary": "A bend in the Missouri River in North Kansas City, Missouri, is opening up to the first brick-and-mortar cafe from Provis Coffee Roasters, occupying more than 6,000 square feet across...",
+          "url": "https://dailycoffeenews.com/2026/10/06/provis-coffee-roasters-provides-ample-space-for-specialty-brews-in-north-kansas-city/",
+          "publisher": "Daily Coffee News",
+          "published": "Tue, 06 Oct 2026 13:19:18 +0000",
+          "date": "Tue, 6 Oct",
+          "section": "Top stories of the week"
+        },
+        {
           "headline": "International Coffee Day is Official, No Thanks to the U.S.",
           "summary": "Mark your calendars: International Coffee Day has been recognized by the United Nations. The post International Coffee Day is Official, No Thanks to the U.S. appeared first on Fresh Cup .",
           "url": "https://freshcup.com/international-coffee-day-is-official-no-thanks-to-the-u-s/",
           "publisher": "Fresh Cup",
           "published": "Tue, 06 Oct 2026 12:01:00 +0000",
           "date": "Tue, 6 Oct",
-          "section": "Top stories of the week"
+          "section": "Roasting & retail"
         },
         {
           "headline": "Coffee Decoded: What is Terroir in Coffee?",
@@ -3779,39 +3812,12 @@
           "section": "Top stories of the week"
         },
         {
-          "headline": "Coffee News Club: Week of October 5",
-          "summary": "Spent coffee grounds become insulation, the UN recognizes International Coffee Day, and a new data platform tracks global coffee trade. The post Coffee News Club: Week of October 5 appeared first on Fresh Cup .",
-          "url": "https://freshcup.com/coffee-news-club-week-of-october-5/",
-          "publisher": "Fresh Cup",
-          "published": "Mon, 05 Oct 2026 11:36:00 +0000",
-          "date": "Mon, 5 Oct",
-          "section": "Roasting & retail"
-        },
-        {
           "headline": "Joe & The Juice’s global rollout gathers pace with new market launch",
           "summary": "The Danish lifestyle hospitality group has entered five new international markets so far in 2026 as part of plans to reach 1,000 stores globally by 2028 Copenhagen-based Joe & The Juice has taken another step toward its goal of reaching 1,000 stores by 2028…",
           "url": "https://www.worldcoffeeportal.com/news/joe-the-juices-global-rollout-gathers-pace-with-new-market-launch/",
           "publisher": "World Coffee Portal",
           "published": "Mon, 05 Oct 2026 11:24:33 GMT",
           "date": "Mon, 5 Oct",
-          "section": "Top stories of the week"
-        },
-        {
-          "headline": "Major Coffee Groups Combine Efforts Toward Responsible Procurement",
-          "summary": "Four major sustainability and development organizations are combining existing work on green coffee buying practices for a broader effort designed to ultimately reach more industry actors. The multi-stakeholder sustainability group...",
-          "url": "https://dailycoffeenews.com/2026/09/30/major-coffee-groups-combine-efforts-toward-responsible-procurement/",
-          "publisher": "Daily Coffee News",
-          "published": "Wed, 30 Sep 2026 19:38:46 +0000",
-          "date": "Wed, 30 Sep",
-          "section": "Top stories of the week"
-        },
-        {
-          "headline": "ICO Puts Global Coffee Market Data in One Interactive Place",
-          "summary": "The International Coffee Organization (ICO) has launched an interactive data platform giving people free access to a range of global market information spanning prices, trade, production, consumption and certified stocks....",
-          "url": "https://dailycoffeenews.com/2026/09/30/ico-puts-global-coffee-market-data-in-one-interactive-place/",
-          "publisher": "Daily Coffee News",
-          "published": "Wed, 30 Sep 2026 13:22:36 +0000",
-          "date": "Wed, 30 Sep",
           "section": "Top stories of the week"
         },
         {
@@ -3833,13 +3839,13 @@
       "note": "Assembled from the coffee trade press over the past seven days, ranked by relevance to the physical trade. Headlines and links are each publisher’s own."
     },
     "dailyRead": {
-      "fetchedAt": "2026-10-06T12:34:00.151Z",
+      "fetchedAt": "2026-10-06T22:44:56.511Z",
       "article": {
-        "title": "ICO Puts Global Coffee Market Data in One Interactive Place",
-        "summary": "The International Coffee Organization (ICO) has launched an interactive data platform giving people free access to a range of global market information spanning prices, trade, production, consumption and certified stocks....",
-        "url": "https://dailycoffeenews.com/2026/09/30/ico-puts-global-coffee-market-data-in-one-interactive-place/",
+        "title": "Green Coffee Trader Hacea Gets Bigger in Brea",
+        "summary": "Green coffee importer Hacea Coffee Source has moved its Southern California headquarters from Anaheim to a larger warehouse in Brea, adding green coffee storage, an expanded cupping lab and additional...",
+        "url": "https://dailycoffeenews.com/2026/10/05/green-coffee-trader-hacea-gets-bigger-in-brea/",
         "publisher": "Daily Coffee News",
-        "published": "Wed, 30 Sep 2026 13:22:36 +0000"
+        "published": "Mon, 05 Oct 2026 13:02:26 +0000"
       },
       "considered": 10
     }
@@ -4159,40 +4165,40 @@
   },
   "status": [
     {
+      "source": "weather",
+      "ok": true,
+      "ms": 383
+    },
+    {
       "source": "daily-read",
       "ok": true,
-      "ms": 429
+      "ms": 471
     },
     {
       "source": "arabica-futures",
       "ok": true,
-      "ms": 577
-    },
-    {
-      "source": "weather",
-      "ok": true,
-      "ms": 910
-    },
-    {
-      "source": "weekly-recap",
-      "ok": true,
-      "ms": 1650
+      "ms": 722
     },
     {
       "source": "fx",
       "ok": true,
-      "ms": 2171
+      "ms": 1522
     },
     {
-      "source": "origin-wire",
+      "source": "weekly-recap",
       "ok": true,
-      "ms": 2552
+      "ms": 2133
     },
     {
       "source": "ico-report",
       "ok": false,
-      "ms": 3511,
+      "ms": 3146,
       "error": "indicator prices: 2025-09 has 1 values for 7 columns"
+    },
+    {
+      "source": "origin-wire",
+      "ok": true,
+      "ms": 3176
     }
   ]
 }

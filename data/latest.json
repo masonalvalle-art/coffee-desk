@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T22:44:59.211Z",
+  "generatedAt": "2026-10-07T12:27:12.791Z",
   "schema": 5,
   "schedule": {
     "slotsUtc": [
@@ -26,8 +26,8 @@
       "frontMonth": {
         "code": "KCZ26",
         "label": "Dec 2026",
-        "close": 303.2,
-        "volume": 20967
+        "close": 295.05,
+        "volume": 6099
       },
       "rolled": false,
       "mostActive": "KCZ26",
@@ -35,66 +35,58 @@
         {
           "code": "KCZ26",
           "label": "Dec 2026",
-          "close": 303.2,
-          "volume": 20967
+          "close": 295.05,
+          "volume": 6099
         },
         {
           "code": "KCH27",
           "label": "Mar 2027",
-          "close": 294.6,
-          "volume": 9188
+          "close": 286.95,
+          "volume": 2432
         },
         {
           "code": "KCK27",
           "label": "May 2027",
-          "close": 291.55,
-          "volume": 3030
+          "close": 283.65,
+          "volume": 789
         },
         {
           "code": "KCN27",
           "label": "Jul 2027",
-          "close": 288.9,
-          "volume": 1046
+          "close": 281.55,
+          "volume": 281
         },
         {
           "code": "KCU27",
           "label": "Sep 2027",
-          "close": 286.15,
-          "volume": 539
+          "close": 278.9,
+          "volume": 118
         },
         {
           "code": "KCZ27",
           "label": "Dec 2027",
-          "close": 283.7,
-          "volume": 309
+          "close": 275.7,
+          "volume": 83
         },
         {
           "code": "KCH28",
           "label": "Mar 2028",
-          "close": 282.35,
-          "volume": 55
+          "close": 281.95,
+          "volume": 11
         }
       ],
       "quote": {
-        "last": 294.6,
-        "open": 282.6499938964844,
-        "high": 297.45001220703125,
-        "low": 282.6499938964844,
-        "previousClose": 284.29998779296875,
-        "change": 10.3,
-        "changePct": 3.623,
-        "volume": 9188,
-        "asOf": "2026-10-06T17:29:56.000Z"
+        "last": 288.15,
+        "open": 294.3999938964844,
+        "high": 300,
+        "low": 287.95001220703125,
+        "previousClose": 295.8500061035156,
+        "change": -7.7,
+        "changePct": -2.603,
+        "volume": 2189,
+        "asOf": "2026-10-07T12:07:09.000Z"
       },
       "bars": [
-        {
-          "date": "2025-07-01",
-          "open": 259.75,
-          "high": 261.04998779296875,
-          "low": 253.8000030517578,
-          "close": 255.9499969482422,
-          "volume": 192
-        },
         {
           "date": "2025-07-02",
           "open": 253.1999969482422,
@@ -2637,22 +2629,30 @@
           "high": 290.25,
           "low": 283.20001220703125,
           "close": 284.29998779296875,
-          "volume": 6396
+          "volume": 7719
         },
         {
           "date": "2026-10-06",
           "open": 282.6499938964844,
           "high": 297.45001220703125,
           "low": 282.6499938964844,
-          "close": 294.6000061035156,
-          "volume": 9188
+          "close": 295.8500061035156,
+          "volume": 7719
+        },
+        {
+          "date": "2026-10-07",
+          "open": 294.3999938964844,
+          "high": 300,
+          "low": 287.95001220703125,
+          "close": 288.1499938964844,
+          "volume": 2189
         }
       ],
       "crossCheck": {
-        "tradingView": 294.6,
-        "yahoo": 294.6,
-        "diff": 0,
-        "diffPct": 0,
+        "tradingView": 286.95,
+        "yahoo": 288.15,
+        "diff": -1.2,
+        "diffPct": -0.416,
         "agree": true
       },
       "sources": [
@@ -2668,49 +2668,49 @@
         }
       ],
       "technicals": {
-        "observations": 503,
-        "sma20": 276.74000091552733,
-        "sma50": 292.73799987792967,
-        "sma200": 281.4269998168945,
-        "rsi14": 60.65279756817123,
+        "observations": 504,
+        "sma20": 277.02750091552736,
+        "sma50": 292.3379998779297,
+        "sma200": 281.3662498474121,
+        "rsi14": 54.015098719350895,
         "macd": {
-          "line": -1.5864151718092785,
-          "signal": -4.57069385582789,
-          "histogram": 2.9842786840186113
+          "line": -0.8356620517492388,
+          "signal": -3.807733079057731,
+          "histogram": 2.972071027308492
         },
-        "atr14": 9.762577828543426,
+        "atr14": 9.925964254573804,
         "donchian20": {
-          "high": 297.45001220703125,
+          "high": 300,
           "low": 262.6000061035156,
           "period": 20
         },
         "levels": {
           "support": [
             {
-              "price": 291.95001220703125,
-              "date": "2025-05-13"
-            },
-            {
-              "price": 289.29998779296875,
-              "date": "2026-07-16"
-            },
-            {
               "price": 287.20001220703125,
               "date": "2026-07-24"
+            },
+            {
+              "price": 285.45001220703125,
+              "date": "2025-06-03"
+            },
+            {
+              "price": 283.79998779296875,
+              "date": "2025-09-19"
             }
           ],
           "resistance": [
             {
+              "price": 289.6499938964844,
+              "date": "2026-02-13"
+            },
+            {
+              "price": 289.95001220703125,
+              "date": "2025-03-05"
+            },
+            {
               "price": 295.95001220703125,
               "date": "2025-02-19"
-            },
-            {
-              "price": 297.3999938964844,
-              "date": "2025-02-10"
-            },
-            {
-              "price": 300,
-              "date": "2025-04-02"
             }
           ]
         },
@@ -2719,10 +2719,10 @@
           "low": 207.8000030517578
         },
         "method": "Wilder RSI(14); MACD(12,26,9) on EMA; ATR(14); pivots = 5-bar swing highs/lows; Donchian(20).",
-        "basis": "503 daily bars for KCH27"
+        "basis": "504 daily bars for KCH27"
       },
       "barsPublished": 320,
-      "barsAnalysed": 503
+      "barsAnalysed": 504
     }
   },
   "fx": {
@@ -3252,7 +3252,7 @@
     ]
   },
   "weather": {
-    "fetchedAt": "2026-10-06T22:44:56.414Z",
+    "fetchedAt": "2026-10-07T12:27:10.308Z",
     "thresholds": {
       "frostC": 4,
       "heavyRainMm": 50,
@@ -3277,19 +3277,19 @@
         "lat": -21.55,
         "lon": -45.43,
         "current": {
-          "date": "2026-10-05",
-          "tMax": 24.7,
+          "date": "2026-10-06",
+          "tMax": 25.5,
           "tMin": 17.7,
-          "rain": 8.5,
+          "rain": 5.5,
           "code": 80,
-          "cloud": 98,
+          "cloud": 94,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 82.3,
-        "rainForecast7": 13.2,
-        "minForecast7": 16.7,
+        "rain14": 79.1,
+        "rainForecast7": 16.4,
+        "minForecast7": 17.1,
         "alerts": []
       },
       {
@@ -3300,19 +3300,19 @@
         "lat": -18.94,
         "lon": -46.99,
         "current": {
-          "date": "2026-10-05",
-          "tMax": 21.7,
-          "tMin": 17.4,
-          "rain": 15.7,
-          "code": 81,
-          "cloud": 96,
+          "date": "2026-10-06",
+          "tMax": 27.4,
+          "tMin": 17.9,
+          "rain": 2,
+          "code": 53,
+          "cloud": 88,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 56.4,
-        "rainForecast7": 4.8,
-        "minForecast7": 17.9,
+        "rain14": 57.4,
+        "rainForecast7": 0.4,
+        "minForecast7": 17.6,
         "alerts": []
       },
       {
@@ -3323,19 +3323,19 @@
         "lat": -19.39,
         "lon": -40.07,
         "current": {
-          "date": "2026-10-05",
-          "tMax": 29.6,
-          "tMin": 22.8,
-          "rain": 0.3,
-          "code": 51,
-          "cloud": 32,
+          "date": "2026-10-06",
+          "tMax": 31.1,
+          "tMin": 22.3,
+          "rain": 0,
+          "code": 3,
+          "cloud": 34,
           "observed": true
         },
-        "condition": "very-wet",
-        "conditionLabel": "Very wet",
+        "condition": "cloudy",
+        "conditionLabel": "Cloudy",
         "rain14": 39.8,
-        "rainForecast7": 0.4,
-        "minForecast7": 21.7,
+        "rainForecast7": 1.1,
+        "minForecast7": 21.8,
         "alerts": []
       },
       {
@@ -3346,26 +3346,20 @@
         "lat": 12.68,
         "lon": 108.05,
         "current": {
-          "date": "2026-10-05",
-          "tMax": 29.9,
-          "tMin": 21.1,
-          "rain": 8.8,
-          "code": 81,
-          "cloud": 54,
+          "date": "2026-10-06",
+          "tMax": 29.5,
+          "tMin": 22.5,
+          "rain": 16.8,
+          "code": 95,
+          "cloud": 68,
           "observed": true
         },
-        "condition": "wet",
-        "conditionLabel": "Wet",
-        "rain14": 119.9,
-        "rainForecast7": 79.3,
+        "condition": "very-wet",
+        "conditionLabel": "Very wet",
+        "rain14": 136.7,
+        "rainForecast7": 41.6,
         "minForecast7": 21.8,
-        "alerts": [
-          {
-            "type": "wet",
-            "severity": "watch",
-            "text": "79 mm forecast over 7 days — harvest/drying disruption risk."
-          }
-        ]
+        "alerts": []
       },
       {
         "key": "lam-dong",
@@ -3375,26 +3369,20 @@
         "lat": 11.55,
         "lon": 107.81,
         "current": {
-          "date": "2026-10-05",
-          "tMax": 28.6,
-          "tMin": 18.9,
-          "rain": 3.5,
-          "code": 55,
-          "cloud": 82,
+          "date": "2026-10-06",
+          "tMax": 27.5,
+          "tMin": 20.3,
+          "rain": 17.8,
+          "code": 95,
+          "cloud": 83,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 106.4,
-        "rainForecast7": 57.7,
-        "minForecast7": 19.1,
-        "alerts": [
-          {
-            "type": "wet",
-            "severity": "watch",
-            "text": "58 mm forecast over 7 days — harvest/drying disruption risk."
-          }
-        ]
+        "rain14": 124.2,
+        "rainForecast7": 38.8,
+        "minForecast7": 18.9,
+        "alerts": []
       },
       {
         "key": "huila",
@@ -3404,26 +3392,20 @@
         "lat": 1.85,
         "lon": -76.05,
         "current": {
-          "date": "2026-10-05",
-          "tMax": 29.3,
-          "tMin": 15.7,
-          "rain": 2.6,
+          "date": "2026-10-06",
+          "tMax": 26.9,
+          "tMin": 17.3,
+          "rain": 4.3,
           "code": 80,
-          "cloud": 63,
+          "cloud": 80,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 82.5,
-        "rainForecast7": 52,
-        "minForecast7": 16.8,
-        "alerts": [
-          {
-            "type": "wet",
-            "severity": "watch",
-            "text": "52 mm forecast over 7 days — harvest/drying disruption risk."
-          }
-        ]
+        "rain14": 83.3,
+        "rainForecast7": 38,
+        "minForecast7": 16.5,
+        "alerts": []
       },
       {
         "key": "antioquia",
@@ -3433,24 +3415,24 @@
         "lat": 6.25,
         "lon": -75.56,
         "current": {
-          "date": "2026-10-05",
-          "tMax": 30,
-          "tMin": 17.3,
-          "rain": 5.3,
-          "code": 81,
-          "cloud": 78,
+          "date": "2026-10-06",
+          "tMax": 27,
+          "tMin": 17.4,
+          "rain": 8.8,
+          "code": 95,
+          "cloud": 94,
           "observed": true
         },
-        "condition": "wet",
-        "conditionLabel": "Wet",
-        "rain14": 60.7,
-        "rainForecast7": 92.6,
+        "condition": "very-wet",
+        "conditionLabel": "Very wet",
+        "rain14": 66.6,
+        "rainForecast7": 102.6,
         "minForecast7": 16.6,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "93 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "103 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3462,24 +3444,24 @@
         "lat": 4.63,
         "lon": 96.85,
         "current": {
-          "date": "2026-10-05",
-          "tMax": 23.6,
-          "tMin": 17.8,
-          "rain": 10.1,
+          "date": "2026-10-06",
+          "tMax": 21.9,
+          "tMin": 17.5,
+          "rain": 12.8,
           "code": 81,
-          "cloud": 97,
+          "cloud": 96,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 149,
-        "rainForecast7": 67.6,
-        "minForecast7": 16.7,
+        "rain14": 161.8,
+        "rainForecast7": 62.3,
+        "minForecast7": 16.5,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "68 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "62 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3491,19 +3473,19 @@
         "lat": -5.45,
         "lon": 105.27,
         "current": {
-          "date": "2026-10-05",
-          "tMax": 32.4,
-          "tMin": 25.4,
-          "rain": 2.5,
-          "code": 53,
-          "cloud": 77,
+          "date": "2026-10-06",
+          "tMax": 33.7,
+          "tMin": 26,
+          "rain": 6.1,
+          "code": 80,
+          "cloud": 82,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 57.9,
-        "rainForecast7": 19.1,
-        "minForecast7": 24.4,
+        "rain14": 64,
+        "rainForecast7": 17.6,
+        "minForecast7": 24.6,
         "alerts": []
       },
       {
@@ -3514,19 +3496,19 @@
         "lat": 7.67,
         "lon": 36.83,
         "current": {
-          "date": "2026-10-05",
-          "tMax": 25.1,
+          "date": "2026-10-06",
+          "tMax": 23.2,
           "tMin": 14.5,
-          "rain": 0.9,
-          "code": 51,
-          "cloud": 22,
+          "rain": 12.6,
+          "code": 95,
+          "cloud": 93,
           "observed": true
         },
-        "condition": "dry",
-        "conditionLabel": "Clear / dry",
-        "rain14": 19.6,
-        "rainForecast7": 19.1,
-        "minForecast7": 12.1,
+        "condition": "very-wet",
+        "conditionLabel": "Very wet",
+        "rain14": 32.2,
+        "rainForecast7": 14.1,
+        "minForecast7": 13.4,
         "alerts": []
       },
       {
@@ -3537,24 +3519,24 @@
         "lat": 14.16,
         "lon": -88.02,
         "current": {
-          "date": "2026-10-05",
-          "tMax": 29.9,
-          "tMin": 16.7,
-          "rain": 4.3,
-          "code": 53,
-          "cloud": 67,
+          "date": "2026-10-06",
+          "tMax": 28.6,
+          "tMin": 18,
+          "rain": 27.2,
+          "code": 96,
+          "cloud": 92,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 97.3,
-        "rainForecast7": 50.5,
-        "minForecast7": 15.3,
+        "rain14": 121.8,
+        "rainForecast7": 53.6,
+        "minForecast7": 15.1,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "51 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "54 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3566,24 +3548,24 @@
         "lat": -11.05,
         "lon": -75.33,
         "current": {
-          "date": "2026-10-05",
-          "tMax": 29.1,
-          "tMin": 20.5,
-          "rain": 4.9,
-          "code": 55,
-          "cloud": 65,
+          "date": "2026-10-06",
+          "tMax": 31.5,
+          "tMin": 20.6,
+          "rain": 2.2,
+          "code": 53,
+          "cloud": 53,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 58.1,
-        "rainForecast7": 70.7,
-        "minForecast7": 18.8,
+        "rain14": 49.2,
+        "rainForecast7": 74.7,
+        "minForecast7": 19.2,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "71 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "75 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       }
@@ -3598,32 +3580,32 @@
   },
   "news": {
     "originWire": {
-      "fetchedAt": "2026-10-06T22:44:59.209Z",
+      "fetchedAt": "2026-10-07T12:27:12.788Z",
       "lookbackHours": 504,
       "headlines": [
         {
-          "title": "Why Flavio Bolsonaro outperformed the polls in Brazil’s election",
-          "summary": "A late right-wing shift, a banking scandal and economic frustration may be behind Bolsonaro's last-minute gains.",
-          "url": "https://www.aljazeera.com/news/2026/10/6/why-flavio-bolsonaro-outperformed-the-polls-in-brazils-election?traffic_source=rss",
-          "publisher": "Al Jazeera",
+          "title": "Flávio Bolsonaro’s advance in Brazil’s election is grim jolt for climate campaigners",
+          "summary": "Inquest under way into why President Lula’s success in curbing Amazon deforestation has not lead to success at polls More fire, more ash, more crime, more death. And a globally important ecosystem driven ever more rapidly towards a point of no return. That is…",
+          "url": "https://www.theguardian.com/world/2026/oct/07/flavio-bolsonaro-advance-brazil-election-jolt-climate-campaigners",
+          "publisher": "The Guardian",
           "region": "Brazil",
-          "published": "Tue, 06 Oct 2026 20:44:12 +0000"
+          "published": "Wed, 07 Oct 2026 12:03:52 GMT"
         },
         {
-          "title": "8,500 people join CapitaLand campaign to support vulnerable children",
-          "summary": "More than 8,500 people joined CapitaLand Development's Step For Kindness campaign, logging over 490 million steps and unlocking a US$98,000 donation to support education and skills development for vulnerable children and youth in Vietnam.",
-          "url": "https://e.vnexpress.net/news/business/8-500-people-join-capitaland-campaign-to-support-vulnerable-children-5129095.html",
+          "title": "Gold prices slide",
+          "summary": "Vietnam's gold prices declined on Wednesday afternoon following a drop in global bullion rates.",
+          "url": "https://e.vnexpress.net/news/business/markets/gold-prices-slide-5129479.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Tue, 06 Oct 2026 18:00:00 +0700"
+          "published": "Wed, 07 Oct 2026 15:09:48 +0700"
         },
         {
-          "title": "Watch: Moment Indonesian shoe shop is torn apart by explosion",
-          "summary": "Police have said it is “strongly suspected” that the incident was caused by a gas leak.",
-          "url": "https://www.bbc.co.uk/news/videos/cmkg7dx8wpygo?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
+          "title": "Man caught with knife in shoe at Singapore Changi airport gets 10 months' jail",
+          "summary": "A Singapore court on Oct. 6 sentenced an Indonesian seafarer to 10 months in jail and six strokes of the cane for trying to board a flight at Changi Airport with a knife hidden in his shoe.",
+          "url": "https://e.vnexpress.net/news/news/traffic/man-caught-with-knife-in-shoe-at-singapore-changi-airport-gets-10-months-jail-5129489.html",
+          "publisher": "VnExpress International",
           "region": "Indonesia",
-          "published": "Tue, 06 Oct 2026 04:57:16 GMT"
+          "published": "Wed, 07 Oct 2026 14:48:51 +0700"
         },
         {
           "title": "‘Water yes, mining no!’: the 87-year-old farmer who became a nature hero in Colombia",
@@ -3634,20 +3616,20 @@
           "published": "Thu, 01 Oct 2026 12:00:50 GMT"
         },
         {
-          "title": "Fans flood Buenos Aires ahead of Messi’s final international match",
-          "summary": "Thousands of Argentina fans poured into Buenos Aires’ Monumental stadium ahead of Lionel Messi’s final match.",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/6/10-7-messi-fans-flock-clip?traffic_source=rss",
+          "title": "Miles away from Argentina, Messi’s farewell hits home for his Indian fans",
+          "summary": "Almost 15,000km away from Argentina, Messi's magical presence on the field left a lasting mark on fans across India.",
+          "url": "https://www.aljazeera.com/sports/2026/10/7/lionel-messi-farewell-friendly-benin-india-fans-kerala-kolkata-mumbai?traffic_source=rss",
           "publisher": "Al Jazeera",
           "region": "South & Central America",
-          "published": "Tue, 06 Oct 2026 22:07:44 +0000"
+          "published": "Wed, 07 Oct 2026 11:48:49 +0000"
         },
         {
-          "title": "Kenya confirms its first Ebola death as outbreak spreads",
-          "summary": "The patient had been living in DR Congo, where more than 4,000 people have died from the disease this year.",
-          "url": "https://www.bbc.co.uk/news/articles/cqzrd7v1j163o?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
+          "title": "Women behind the lens: ‘I felt suspended between hope and giving up’",
+          "summary": "The Ethiopian photographer Sosina Mengistu’s self-portraits draw on personal experience to reflect young people’s anxiety and frustration This self-portrait is part of my project So I See Me, which I began in 2020 during the Covid-19 pandemic and continue to…",
+          "url": "https://www.theguardian.com/global-development/2026/oct/07/women-behind-the-lens-ethiopian-photographer-sosina-mengistu-self-portraits",
+          "publisher": "The Guardian",
           "region": "East Africa",
-          "published": "Tue, 06 Oct 2026 16:02:32 GMT"
+          "published": "Wed, 07 Oct 2026 06:00:35 GMT"
         },
         {
           "title": "Flávio’s surprise first-round election win highlights rapid rise of Brazil’s House of Bolsonaro",
@@ -3658,20 +3640,20 @@
           "published": "Tue, 06 Oct 2026 07:00:05 GMT"
         },
         {
-          "title": "Dollar strengthens against dong on black market",
-          "summary": "The U.S. dollar rose against the Vietnamese dong on the black market Tuesday morning, while the euro hovered near the lowest agains the greenback in 17 months.",
-          "url": "https://e.vnexpress.net/news/business/markets/dollar-strengthens-against-dong-on-black-market-5128960.html",
+          "title": "Dollar dips against dong",
+          "summary": "The U.S. dollar weakened against the Vietnamese dong Wednesday morning while trading slightly firmer against some major currencies.",
+          "url": "https://e.vnexpress.net/news/business/markets/dollar-dips-against-dong-5129437.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Tue, 06 Oct 2026 14:10:23 +0700"
+          "published": "Wed, 07 Oct 2026 14:07:14 +0700"
         },
         {
-          "title": "Extreme heat warnings issued for parts of southern California",
-          "summary": "Temperatures in US state forecast to hit high 30s celsius this week, while regions in Indonesia grapple with wildfires The National Weather Service in the US has issued extreme heat warnings for parts of southern California, including Los Angeles, until…",
-          "url": "https://www.theguardian.com/us-news/2026/oct/05/extreme-heat-warnings-southern-california",
-          "publisher": "The Guardian",
+          "title": "Watch: Moment Indonesian shoe shop is torn apart by explosion",
+          "summary": "Police have said it is “strongly suspected” that the incident was caused by a gas leak.",
+          "url": "https://www.bbc.co.uk/news/videos/cmkg7dx8wpygo?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
           "region": "Indonesia",
-          "published": "Mon, 05 Oct 2026 08:20:52 GMT"
+          "published": "Tue, 06 Oct 2026 04:57:16 GMT"
         },
         {
           "title": "Colombia declares public calamity as wildfire threatens popular tourist area",
@@ -3682,20 +3664,20 @@
           "published": "Mon, 21 Sep 2026 17:13:23 GMT"
         },
         {
-          "title": "Messi super fan travels from India to Argentina for idol’s final game",
-          "summary": "Lionel Messi super fan Yadil M Iqbal traveled from Kerala, India, to Buenos Aires to watch him play his last game.",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/6/6-10-sv-messi-superfan-from-kerala-in?traffic_source=rss",
-          "publisher": "Al Jazeera",
+          "title": "The 80-year-old market trader who became a Chilean music star",
+          "summary": "Born and raised in Valparaíso, JM is seen as one of the last of a golden generation after a late foray At a concert hall in the Chilean capital, Santiago, an 80-year-old man edges unsteadily down a steep staircase. With one hand he grips the metal bannister…",
+          "url": "https://www.theguardian.com/world/2026/oct/07/jm-luis-gomez-bolero-los-crack-del-puerto-interview-80-year-old-chilean-singer",
+          "publisher": "The Guardian",
           "region": "South & Central America",
-          "published": "Tue, 06 Oct 2026 20:36:53 +0000"
+          "published": "Wed, 07 Oct 2026 11:40:08 GMT"
         },
         {
-          "title": "Kenya confirms first Ebola case as virus ‘surges’ in DR Congo province",
-          "summary": "Health minister says 28 contacts identified after death of citizen who arrived from DRC on Saturday Kenya has reported its first-ever Ebola death, the health minister announced on Tuesday, as the disease continues to spread rapidly through the north-east of…",
-          "url": "https://www.theguardian.com/world/2026/oct/06/kenya-first-ebola-case-death-drc",
-          "publisher": "The Guardian",
+          "title": "Kenya confirms its first Ebola death as outbreak spreads",
+          "summary": "The patient had been living in DR Congo, where more than 4,000 people have died from the disease this year.",
+          "url": "https://www.bbc.co.uk/news/articles/cqzrd7v1j163o?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
           "region": "East Africa",
-          "published": "Tue, 06 Oct 2026 12:46:56 GMT"
+          "published": "Tue, 06 Oct 2026 16:02:32 GMT"
         },
         {
           "title": "Flávio Bolsonaro rides right-wing wave to win first round of Brazil election",
@@ -3706,22 +3688,22 @@
           "published": "Mon, 05 Oct 2026 20:42:19 GMT"
         },
         {
-          "title": "Plastic bags as boots as foreign tourists wade through flooded downtown HCMC",
-          "summary": "Foreign tourists are forced to navigate flooded streets in the heart of Ho Chi Minh City on Tuesday afternoon following a heavy rain.",
-          "url": "https://e.vnexpress.net/photo/environment/plastic-bags-as-boots-as-foreign-tourists-wade-through-flooded-downtown-hcmc-5129035.html",
+          "title": "Wife of Southeast Asia's richest man among 5 Vietnamese on Asia’s most powerful women list",
+          "summary": "Pham Thu Huong, wife of Southeast Asia's richest man Pham Nhat Vuong, and four other Vietnamese business leaders are featured on Fortune magazine's list of the 100 most powerful women in Asia.",
+          "url": "https://e.vnexpress.net/news/business/companies/wife-of-southeast-asia-s-richest-man-among-5-vietnamese-on-asia-s-most-powerful-women-list-5129321.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Tue, 06 Oct 2026 13:37:14 +0700"
+          "published": "Wed, 07 Oct 2026 11:43:37 +0700"
         }
       ],
-      "totalTagged": 119,
+      "totalTagged": 114,
       "feedsQueried": 14,
       "errors": [],
       "note": "General headlines from the growing regions, taken from outlets of record and tagged to a region by the countries and cities they name."
     },
     "roundup": {
       "source": "assembled",
-      "fetchedAt": "2026-10-06T22:44:58.169Z",
+      "fetchedAt": "2026-10-07T12:27:11.828Z",
       "windowDays": 7,
       "publishers": [
         "Daily Coffee News",
@@ -3730,6 +3712,24 @@
         "World Coffee Portal"
       ],
       "items": [
+        {
+          "headline": "Stop Trying to Build Community",
+          "summary": "You can’t force community by posting online, but you can facilitate the real-world connections that make it happen naturally. The post Stop Trying to Build Community appeared first on Fresh Cup .",
+          "url": "https://freshcup.com/stop-trying-to-build-community/",
+          "publisher": "Fresh Cup",
+          "published": "Wed, 07 Oct 2026 11:35:00 +0000",
+          "date": "Wed, 7 Oct",
+          "section": "Top stories of the week"
+        },
+        {
+          "headline": "There is a rumour that Starbucks and Chipotle could join forces",
+          "summary": "Shares in the two brands rose amid speculation that Starbucks CEO Brian Niccol could explore a tie-up with his former employer",
+          "url": "https://www.worldcoffeeportal.com/news/there-is-a-rumour-that-starbucks-and-chipotle-could-merge/",
+          "publisher": "World Coffee Portal",
+          "published": "Wed, 07 Oct 2026 10:59:12 GMT",
+          "date": "Wed, 7 Oct",
+          "section": "Top stories of the week"
+        },
         {
           "headline": "Scenes from the 2026 Roast Summit in Portland, Oregon",
           "summary": "Tastings, talks and technical demonstrations for coffee industry professionals filled two sunny days in Portland, Oregon, last week at the 2026 Roast Summit event hosted by Roast magazine. Interspersed with...",
@@ -3755,7 +3755,7 @@
           "publisher": "Daily Coffee News",
           "published": "Tue, 06 Oct 2026 13:19:18 +0000",
           "date": "Tue, 6 Oct",
-          "section": "Top stories of the week"
+          "section": "Roasting & retail"
         },
         {
           "headline": "International Coffee Day is Official, No Thanks to the U.S.",
@@ -3794,15 +3794,6 @@
           "section": "Roasting & retail"
         },
         {
-          "headline": "Small Study Links Polyphenols to Breast Cancer Survival",
-          "summary": "A small long-term study of women with breast cancer found an association between reduced mortality and polyphenols, a class of plant-based compounds found abundantly in coffee. Published July 10 in...",
-          "url": "https://dailycoffeenews.com/2026/10/05/small-study-links-polyphenols-to-breast-cancer-survival/",
-          "publisher": "Daily Coffee News",
-          "published": "Mon, 05 Oct 2026 13:58:07 +0000",
-          "date": "Mon, 5 Oct",
-          "section": "Roasting & retail"
-        },
-        {
           "headline": "Green Coffee Trader Hacea Gets Bigger in Brea",
           "summary": "Green coffee importer Hacea Coffee Source has moved its Southern California headquarters from Anaheim to a larger warehouse in Brea, adding green coffee storage, an expanded cupping lab and additional...",
           "url": "https://dailycoffeenews.com/2026/10/05/green-coffee-trader-hacea-gets-bigger-in-brea/",
@@ -3819,15 +3810,6 @@
           "published": "Mon, 05 Oct 2026 11:24:33 GMT",
           "date": "Mon, 5 Oct",
           "section": "Top stories of the week"
-        },
-        {
-          "headline": "Cafe Imports Transitions to 100% Employee Ownership",
-          "summary": "Cafe Imports is now 100% employee owned via an ESOP, as other green coffee traders face bankruptcy or acquisition. The post Cafe Imports Transitions to 100% Employee Ownership appeared first on Fresh Cup .",
-          "url": "https://freshcup.com/cafe-imports-transitions-to-100-employee-ownership/",
-          "publisher": "Fresh Cup",
-          "published": "Wed, 30 Sep 2026 11:40:00 +0000",
-          "date": "Wed, 30 Sep",
-          "section": "Top stories of the week"
         }
       ],
       "errors": [
@@ -3839,7 +3821,7 @@
       "note": "Assembled from the coffee trade press over the past seven days, ranked by relevance to the physical trade. Headlines and links are each publisher’s own."
     },
     "dailyRead": {
-      "fetchedAt": "2026-10-06T22:44:56.511Z",
+      "fetchedAt": "2026-10-07T12:27:10.352Z",
       "article": {
         "title": "Green Coffee Trader Hacea Gets Bigger in Brea",
         "summary": "Green coffee importer Hacea Coffee Source has moved its Southern California headquarters from Anaheim to a larger warehouse in Brea, adding green coffee storage, an expanded cupping lab and additional...",
@@ -4167,38 +4149,38 @@
     {
       "source": "weather",
       "ok": true,
-      "ms": 383
+      "ms": 371
     },
     {
       "source": "daily-read",
       "ok": true,
-      "ms": 471
+      "ms": 407
     },
     {
       "source": "arabica-futures",
       "ok": true,
-      "ms": 722
-    },
-    {
-      "source": "fx",
-      "ok": true,
-      "ms": 1522
+      "ms": 775
     },
     {
       "source": "weekly-recap",
       "ok": true,
-      "ms": 2133
+      "ms": 1886
+    },
+    {
+      "source": "fx",
+      "ok": true,
+      "ms": 2204
     },
     {
       "source": "ico-report",
       "ok": false,
-      "ms": 3146,
+      "ms": 2801,
       "error": "indicator prices: 2025-09 has 1 values for 7 columns"
     },
     {
       "source": "origin-wire",
       "ok": true,
-      "ms": 3176
+      "ms": 2850
     }
   ]
 }

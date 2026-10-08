@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T12:36:50.268Z",
+  "generatedAt": "2026-10-08T23:31:06.946Z",
   "schema": 5,
   "schedule": {
     "slotsUtc": [
@@ -26,8 +26,8 @@
       "frontMonth": {
         "code": "KCZ26",
         "label": "Dec 2026",
-        "close": 289.45,
-        "volume": 4188
+        "close": 287.85,
+        "volume": 14516
       },
       "rolled": false,
       "mostActive": "KCZ26",
@@ -35,56 +35,56 @@
         {
           "code": "KCZ26",
           "label": "Dec 2026",
-          "close": 289.45,
-          "volume": 4188
+          "close": 287.85,
+          "volume": 14516
         },
         {
           "code": "KCH27",
           "label": "Mar 2027",
-          "close": 281.75,
-          "volume": 1710
+          "close": 280.1,
+          "volume": 8150
         },
         {
           "code": "KCK27",
           "label": "May 2027",
-          "close": 278.2,
-          "volume": 756
+          "close": 276.65,
+          "volume": 3404
         },
         {
           "code": "KCN27",
           "label": "Jul 2027",
-          "close": 275.95,
-          "volume": 247
+          "close": 274.1,
+          "volume": 1770
         },
         {
           "code": "KCU27",
           "label": "Sep 2027",
-          "close": 272.65,
-          "volume": 93
+          "close": 271.6,
+          "volume": 632
         },
         {
           "code": "KCZ27",
           "label": "Dec 2027",
-          "close": 270.2,
-          "volume": 62
+          "close": 268.85,
+          "volume": 550
         },
         {
           "code": "KCH28",
           "label": "Mar 2028",
-          "close": 266.05,
-          "volume": 6
+          "close": 268,
+          "volume": 136
         }
       ],
       "quote": {
-        "last": 281.6,
+        "last": 280.1,
         "open": 285.8999938964844,
         "high": 286.75,
-        "low": 278.8999938964844,
+        "low": 278.45001220703125,
         "previousClose": 284.8999938964844,
-        "change": -3.3,
-        "changePct": -1.158,
-        "volume": 1638,
-        "asOf": "2026-10-08T12:16:15.000Z"
+        "change": -4.8,
+        "changePct": -1.685,
+        "volume": 0,
+        "asOf": "2026-10-08T17:29:55.000Z"
       },
       "bars": [
         {
@@ -2643,16 +2643,16 @@
           "date": "2026-10-08",
           "open": 285.8999938964844,
           "high": 286.75,
-          "low": 278.8999938964844,
-          "close": 281.6000061035156,
-          "volume": 1638
+          "low": 278.45001220703125,
+          "close": 280.1000061035156,
+          "volume": 0
         }
       ],
       "crossCheck": {
-        "tradingView": 281.75,
-        "yahoo": 281.6,
-        "diff": 0.15,
-        "diffPct": 0.053,
+        "tradingView": 280.1,
+        "yahoo": 280.1,
+        "diff": 0,
+        "diffPct": 0,
         "agree": true
       },
       "sources": [
@@ -2669,16 +2669,16 @@
       ],
       "technicals": {
         "observations": 504,
-        "sma20": 276.9725006103516,
-        "sma50": 291.89599975585935,
-        "sma200": 281.2567498779297,
-        "rsi14": 48.78610935795299,
+        "sma20": 276.8975006103516,
+        "sma50": 291.8659997558594,
+        "sma200": 281.2492498779297,
+        "rsi14": 47.69000415076038,
         "macd": {
-          "line": -1.0387412929473498,
-          "signal": -3.295416203317133,
-          "histogram": 2.256674910369783
+          "line": -1.1583994126054904,
+          "signal": -3.319347827248761,
+          "histogram": 2.1609484146432707
         },
-        "atr14": 10.016457444527319,
+        "atr14": 10.04859899377397,
         "donchian20": {
           "high": 300,
           "low": 262.6000061035156,
@@ -2701,16 +2701,16 @@
           ],
           "resistance": [
             {
+              "price": 280.8500061035156,
+              "date": "2026-03-26"
+            },
+            {
+              "price": 281.6000061035156,
+              "date": "2026-03-09"
+            },
+            {
               "price": 282.04998779296875,
               "date": "2026-04-24"
-            },
-            {
-              "price": 289.6499938964844,
-              "date": "2026-02-13"
-            },
-            {
-              "price": 289.95001220703125,
-              "date": "2025-03-05"
             }
           ]
         },
@@ -2726,22 +2726,18 @@
     }
   },
   "fx": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-08",
     "pairs": {
       "GBPUSD": {
         "pair": "GBP/USD",
-        "rate": 1.3205,
-        "previous": 1.3276,
+        "rate": 1.3207,
+        "previous": 1.3205,
         "dp": 4,
         "note": "Sterling stronger means a dollar-priced contract costs a UK buyer less.",
-        "change": -0.0071,
-        "changePct": -0.535,
-        "change1m": -2.52,
+        "change": 0.0002,
+        "changePct": 0.015,
+        "change1m": -2.64,
         "history": [
-          {
-            "date": "2026-07-16",
-            "rate": 1.3511
-          },
           {
             "date": "2026-07-17",
             "rate": 1.3437
@@ -2977,23 +2973,23 @@
           {
             "date": "2026-10-07",
             "rate": 1.3205
+          },
+          {
+            "date": "2026-10-08",
+            "rate": 1.3207
           }
         ]
       },
       "USDBRL": {
         "pair": "USD/BRL",
-        "rate": 5.0061,
-        "previous": 4.9686,
+        "rate": 5.0168,
+        "previous": 5.0061,
         "dp": 4,
         "note": "A weaker real encourages Brazilian producer selling.",
-        "change": 0.0375,
-        "changePct": 0.755,
-        "change1m": -2.05,
+        "change": 0.0107,
+        "changePct": 0.214,
+        "change1m": -1.42,
         "history": [
-          {
-            "date": "2026-07-16",
-            "rate": 5.0857
-          },
           {
             "date": "2026-07-17",
             "rate": 5.1158
@@ -3229,14 +3225,18 @@
           {
             "date": "2026-10-07",
             "rate": 5.0061
+          },
+          {
+            "date": "2026-10-08",
+            "rate": 5.0168
           }
         ]
       }
     },
     "ptax": {
-      "buy": 4.9929,
-      "sell": 4.9935,
-      "quotedAt": "2026-10-07 13:05:23.249063"
+      "buy": 5.0113,
+      "sell": 5.0119,
+      "quotedAt": "2026-10-08 13:08:16.814037"
     },
     "sources": [
       {
@@ -3252,7 +3252,7 @@
     ]
   },
   "weather": {
-    "fetchedAt": "2026-10-08T12:36:48.370Z",
+    "fetchedAt": "2026-10-08T23:31:03.797Z",
     "thresholds": {
       "frostC": 4,
       "heavyRainMm": 50,
@@ -3288,7 +3288,7 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 60.4,
-        "rainForecast7": 19.4,
+        "rainForecast7": 13.7,
         "minForecast7": 16.6,
         "alerts": []
       },
@@ -3311,8 +3311,8 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 53.5,
-        "rainForecast7": 1.4,
-        "minForecast7": 18.5,
+        "rainForecast7": 2.1,
+        "minForecast7": 18.7,
         "alerts": []
       },
       {
@@ -3334,7 +3334,7 @@
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
         "rain14": 34.7,
-        "rainForecast7": 0,
+        "rainForecast7": 0.2,
         "minForecast7": 21.8,
         "alerts": []
       },
@@ -3356,10 +3356,16 @@
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 119.6,
-        "rainForecast7": 30.8,
-        "minForecast7": 21.9,
-        "alerts": []
+        "rain14": 112.4,
+        "rainForecast7": 52.8,
+        "minForecast7": 22,
+        "alerts": [
+          {
+            "type": "wet",
+            "severity": "watch",
+            "text": "53 mm forecast over 7 days — harvest/drying disruption risk."
+          }
+        ]
       },
       {
         "key": "lam-dong",
@@ -3379,14 +3385,14 @@
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 109.9,
-        "rainForecast7": 60.6,
-        "minForecast7": 19,
+        "rain14": 99.3,
+        "rainForecast7": 68.1,
+        "minForecast7": 18.7,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "61 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "68 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3409,8 +3415,8 @@
         "condition": "very-wet",
         "conditionLabel": "Very wet",
         "rain14": 93.8,
-        "rainForecast7": 40.2,
-        "minForecast7": 16.9,
+        "rainForecast7": 44.1,
+        "minForecast7": 16.6,
         "alerts": []
       },
       {
@@ -3432,13 +3438,13 @@
         "condition": "very-wet",
         "conditionLabel": "Very wet",
         "rain14": 72.6,
-        "rainForecast7": 77.6,
-        "minForecast7": 16.5,
+        "rainForecast7": 88.9,
+        "minForecast7": 15.5,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "78 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "89 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3460,14 +3466,14 @@
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 172.5,
-        "rainForecast7": 60.2,
-        "minForecast7": 16.5,
+        "rain14": 162.9,
+        "rainForecast7": 84.1,
+        "minForecast7": 16.6,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "60 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "84 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3489,9 +3495,9 @@
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 68.4,
-        "rainForecast7": 24.9,
-        "minForecast7": 25.1,
+        "rain14": 59.5,
+        "rainForecast7": 26.6,
+        "minForecast7": 24.3,
         "alerts": []
       },
       {
@@ -3512,8 +3518,8 @@
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 32.8,
-        "rainForecast7": 16.4,
+        "rain14": 32.1,
+        "rainForecast7": 21.3,
         "minForecast7": 13.1,
         "alerts": []
       },
@@ -3536,15 +3542,9 @@
         "condition": "very-wet",
         "conditionLabel": "Very wet",
         "rain14": 121.5,
-        "rainForecast7": 60.7,
-        "minForecast7": 16.2,
-        "alerts": [
-          {
-            "type": "wet",
-            "severity": "watch",
-            "text": "61 mm forecast over 7 days — harvest/drying disruption risk."
-          }
-        ]
+        "rainForecast7": 31.7,
+        "minForecast7": 15.4,
+        "alerts": []
       },
       {
         "key": "chanchamayo",
@@ -3565,13 +3565,13 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 51,
-        "rainForecast7": 78.1,
+        "rainForecast7": 80.3,
         "minForecast7": 19.8,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "78 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "80 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       }
@@ -3586,16 +3586,16 @@
   },
   "news": {
     "originWire": {
-      "fetchedAt": "2026-10-08T12:36:50.266Z",
+      "fetchedAt": "2026-10-08T23:31:05.269Z",
       "lookbackHours": 504,
       "headlines": [
         {
-          "title": "Flávio Bolsonaro’s plan to ‘wield the big scissors’ on Brazil’s budget",
-          "summary": "Hard-right senator has pledged to slash outlays by 1.5% of GDP, but analysts warn austerity will be politically challenging",
-          "url": "https://www.ft.com/content/c09ef0e4-c5f8-4b69-a510-9864f907fe55?syn-25a6b1a6=1",
-          "publisher": "Financial Times",
+          "title": "Flávio Bolsonaro’s advance in Brazil’s election is grim jolt for climate campaigners",
+          "summary": "Inquest under way into why President Lula’s success in curbing Amazon deforestation has not led to success at polls More fire, more ash, more crime, more death. And a globally important ecosystem driven ever more rapidly towards a point of no return. That is…",
+          "url": "https://www.theguardian.com/world/2026/oct/07/flavio-bolsonaro-advance-brazil-election-jolt-climate-campaigners",
+          "publisher": "The Guardian",
           "region": "Brazil",
-          "published": "Thu, 08 Oct 2026 10:00:02 GMT"
+          "published": "Wed, 07 Oct 2026 19:23:30 GMT"
         },
         {
           "title": "BUV, Manchester Metropolitan expand partnership on work-integrated education",
@@ -3606,44 +3606,44 @@
           "published": "Thu, 08 Oct 2026 19:00:00 +0700"
         },
         {
-          "title": "Teacher who sexually abused pupil back in Indonesia jail after BBC revealed secret release",
-          "summary": "Mochamad Subchi Azal Tsani had been secretly released on parole in August 2025, after serving less than half his sentence.",
+          "title": "Teacher who sexually abused pupil back in Indonesia jail after BBC investigation",
+          "summary": "Mochamad Subchi Azal Tsani had been secretly released on parole in 2025, after serving less than half his sentence.",
           "url": "https://www.bbc.co.uk/news/articles/ckgel9r341gdo?at_medium=RSS&amp;at_campaign=rss",
           "publisher": "BBC News",
           "region": "Indonesia",
           "published": "Thu, 08 Oct 2026 12:04:25 GMT"
         },
         {
-          "title": "Mum's last words to son before he went missing in Colombia",
-          "summary": "The mum of Anton Green, from Whalley Range, Manchester, is desperate to find her missing son.",
-          "url": "https://www.bbc.co.uk/news/articles/cm4g1l54vrydo?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
+          "title": "Colombian embassy to open in Jerusalem, Israeli FM says",
+          "summary": "Colombian President Abelardo De la Espriella had promised closer ties with Israel on the campaign trail.",
+          "url": "https://www.aljazeera.com/news/2026/10/8/colombian-embassy-to-open-in-jerusalem-israeli-fm-says?traffic_source=rss",
+          "publisher": "Al Jazeera",
           "region": "Colombia",
-          "published": "Thu, 08 Oct 2026 07:22:41 GMT"
+          "published": "Thu, 08 Oct 2026 18:07:06 +0000"
         },
         {
-          "title": "Residents airlifted to safety after flooding in central Chile",
-          "summary": "The Mapocho river has burst its banks after an unusually large amount of rain fell in recent days.",
-          "url": "https://www.bbc.co.uk/news/articles/ck5yn8jn677vo?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
+          "title": "US charges Venezuela’s Nicolas Maduro over torture allegations",
+          "summary": "Former Venezuelan President Nicolas Maduro and his wife, Cilia Flores face a new US charge over alleged torture.",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/8/us-charges-venezuelas-nicolas-maduro-over-torture-allegations?traffic_source=rss",
+          "publisher": "Al Jazeera",
           "region": "South & Central America",
-          "published": "Thu, 08 Oct 2026 11:31:22 GMT"
+          "published": "Thu, 08 Oct 2026 20:47:43 +0000"
         },
         {
-          "title": "‘Someone else will do it for less’: Refugees in Kenya are powering tech for dwindling pay",
-          "summary": "Refugee gig workers for tech companies don’t know how much they’ll be paid – if AI hasn’t already taken their jobs In a portable building in Kakuma, a refugee camp near Kenya ’s northern border with South Sudan , Grace used ChatGPT to research translations of…",
-          "url": "https://www.theguardian.com/technology/ng-interactive/2026/oct/08/ai-gig-work-refugees-kenya",
+          "title": "The Guardian view on Ethiopia’s return to conflict: civilian catastrophe and a spiralling regional polycrisis | Editorial",
+          "summary": "The escalating violence reflects deep domestic rifts – but is fuelled by broader geopolitical power games When the Nobel peace laureate is announced on Friday, the committee will be hoping that its choice ages better than 2019’s. Ethiopia’s prime minister…",
+          "url": "https://www.theguardian.com/commentisfree/2026/oct/08/the-guardian-view-on-ethiopias-return-to-conflict-civilian-catastrophe-and-a-spiralling-regional-polycrisis",
           "publisher": "The Guardian",
           "region": "East Africa",
-          "published": "Thu, 08 Oct 2026 09:00:15 GMT"
+          "published": "Thu, 08 Oct 2026 17:49:38 GMT"
         },
         {
-          "title": "Flávio Bolsonaro’s advance in Brazil’s election is grim jolt for climate campaigners",
-          "summary": "Inquest under way into why President Lula’s success in curbing Amazon deforestation has not led to success at polls More fire, more ash, more crime, more death. And a globally important ecosystem driven ever more rapidly towards a point of no return. That is…",
-          "url": "https://www.theguardian.com/world/2026/oct/07/flavio-bolsonaro-advance-brazil-election-jolt-climate-campaigners",
+          "title": "‘Another coup d’état’: fears grow as Flávio Bolsonaro vows to ‘re-democratise’ Brazil",
+          "summary": "After a surprise first-round victory, critics suggest son of disgraced ex-president could seek to continue his father’s authoritarian project Flávio’s surprise first-round win highlights rapid rise of Brazil’s House of Bolsonaro Flávio Bolsonaro, the…",
+          "url": "https://www.theguardian.com/world/2026/oct/07/flavio-bolsonaro-vows-to-re-democratise-brazil-election",
           "publisher": "The Guardian",
           "region": "Brazil",
-          "published": "Wed, 07 Oct 2026 19:23:30 GMT"
+          "published": "Wed, 07 Oct 2026 15:03:26 GMT"
         },
         {
           "title": "Vingroup, controlled by Southeast Asia’s richest billionaire, orders 200 driverless metro trains from Alstom for Hanoi",
@@ -3662,36 +3662,36 @@
           "published": "Thu, 08 Oct 2026 17:00:00 +0700"
         },
         {
-          "title": "‘Water yes, mining no!’: the 87-year-old farmer who became a nature hero in Colombia",
-          "summary": "Porfirio Garcés is one of the ‘Jerico 11’, who face kidnapping charges after opposing a copper mine. Now, with a far-right president prioritising extraction, their fight has become more urgent In the rural hamlet of Palo Cabildo in Colombia ’s western Andes…",
-          "url": "https://www.theguardian.com/global-development/2026/oct/01/water-yes-mining-no-the-87-year-old-farmer-who-became-a-nature-hero-in-colombia",
-          "publisher": "The Guardian",
+          "title": "Mum's last words to son before he went missing in Colombia",
+          "summary": "The mum of Anton Green, from Whalley Range, Manchester, is desperate to find her missing son.",
+          "url": "https://www.bbc.co.uk/news/articles/cm4g1l54vrydo?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
           "region": "Colombia",
-          "published": "Thu, 01 Oct 2026 12:00:50 GMT"
+          "published": "Thu, 08 Oct 2026 07:22:41 GMT"
         },
         {
-          "title": "Cristiano Ronaldo pays tribute to Lionel Messi after Argentina farewell",
-          "summary": "'I have the utmost respect for what you've accomplished with Argentina,' Ronaldo writes in response to Messi's post.",
-          "url": "https://www.aljazeera.com/sports/2026/10/8/cristiano-ronaldo-pays-tribute-to-lionel-messi-after-argentina-farewell?traffic_source=rss",
-          "publisher": "Al Jazeera",
+          "title": "Men accused of shooting Australian surfer brothers and US friend dead in Mexico to learn fate as trial concludes",
+          "summary": "The brothers’ parents, Martin and Debra Robinson, to address court before a Mexican judge hands down verdict A Mexican judge is expected to hand down his verdict in the high-profile murder trial of three men accused of killing two Australian surfers and their…",
+          "url": "https://www.theguardian.com/australia-news/2026/oct/09/jake-callum-robinson-australian-surfers-carter-rhoad-mexico-murder-trial-ntwnfb",
+          "publisher": "The Guardian",
           "region": "South & Central America",
-          "published": "Thu, 08 Oct 2026 07:12:46 +0000"
+          "published": "Thu, 08 Oct 2026 20:40:55 GMT"
         },
         {
-          "title": "Bullet and blast injuries … and a constant need for blood: inside South Sudan’s overwhelmed trauma wards",
-          "summary": "Renewed fighting is bringing a flow of wounded to Juba’s military hospital, where medics never know what the next day will bring By 11am on a recent Thursday, Dr Slobodan Mirosavljev had already seen two critically wounded patients at Juba military hospital…",
-          "url": "https://www.theguardian.com/world/2026/oct/08/inside-south-sudan-overwhelmed-trauma-wards",
+          "title": "Ethiopia launches drone attack against Eritrean troops who crossed into Tigray",
+          "summary": "Government forces’ attack raises risk of internal conflict in Ethiopia that could trigger regional war Eritrean troops who crossed into Ethiopia’s Tigray region have come under drone attack from government forces, raising the risk that renewed internal…",
+          "url": "https://www.theguardian.com/world/2026/oct/08/ethiopia-drone-attack-against-eritrean-troops-in-tigray",
           "publisher": "The Guardian",
           "region": "East Africa",
-          "published": "Thu, 08 Oct 2026 08:46:53 GMT"
+          "published": "Thu, 08 Oct 2026 16:11:32 GMT"
         },
         {
-          "title": "‘Another coup d’état’: fears grow as Flávio Bolsonaro vows to ‘re-democratise’ Brazil",
-          "summary": "After a surprise first-round victory, critics suggest son of disgraced ex-president could seek to continue his father’s authoritarian project Flávio’s surprise first-round win highlights rapid rise of Brazil’s House of Bolsonaro Flávio Bolsonaro, the…",
-          "url": "https://www.theguardian.com/world/2026/oct/07/flavio-bolsonaro-vows-to-re-democratise-brazil-election",
+          "title": "Flávio’s surprise first-round election win highlights rapid rise of Brazil’s House of Bolsonaro",
+          "summary": "Four members of disgraced ex-president Jair Bolsonaro’s family have been elected to office, most notably his wife and son Flávio, who won the first round of voting to be Brazil’s new president The weekend’s elections in Brazil not only put Jair Bolsonaro’s…",
+          "url": "https://www.theguardian.com/world/2026/oct/06/keeping-up-with-the-bolsonaros-flavios-surprise-first-round-election-win-heralds-rise-of-a-political-dynasty",
           "publisher": "The Guardian",
           "region": "Brazil",
-          "published": "Wed, 07 Oct 2026 15:03:26 GMT"
+          "published": "Tue, 06 Oct 2026 07:00:05 GMT"
         },
         {
           "title": "World Bank lifts Vietnam’s 2026 GDP growth forecast to 7.4%",
@@ -3702,14 +3702,14 @@
           "published": "Thu, 08 Oct 2026 17:15:50 +0700"
         }
       ],
-      "totalTagged": 120,
+      "totalTagged": 119,
       "feedsQueried": 14,
       "errors": [],
       "note": "General headlines from the growing regions, taken from outlets of record and tagged to a region by the countries and cities they name."
     },
     "roundup": {
       "source": "assembled",
-      "fetchedAt": "2026-10-08T12:36:48.868Z",
+      "fetchedAt": "2026-10-08T23:31:04.728Z",
       "windowDays": 7,
       "publishers": [
         "Daily Coffee News",
@@ -3717,6 +3717,24 @@
         "World Coffee Portal"
       ],
       "items": [
+        {
+          "headline": "Citing Quality, Nespresso Discontinues Compostable Capsules",
+          "summary": "Nestlé-owned coffee giant Nespresso is discontinuing its paper-based, home-compostable coffee capsules, abandoning a packaging innovation rolled out in 2023 as an alternative to the company’s aluminum single-use capsules. The Swiss...",
+          "url": "https://dailycoffeenews.com/2026/10/08/citing-quality-nespresso-discontinues-compostable-capsules/",
+          "publisher": "Daily Coffee News",
+          "published": "Thu, 08 Oct 2026 15:09:28 +0000",
+          "date": "Thu, 8 Oct",
+          "section": "Top stories of the week"
+        },
+        {
+          "headline": "Gray Squirrel Coffee Branches Out in Carrboro, North Carolina",
+          "summary": "Skittering with excitement in Carrboro, North Carolina, Gray Squirrel Coffee Company last week opened its expanded roastery cafe after remodeling an adjoining retail space. Gray Squirrel launched in 2015 in...",
+          "url": "https://dailycoffeenews.com/2026/10/08/gray-squirrel-coffee-branches-out-in-carrboro-north-carolina/",
+          "publisher": "Daily Coffee News",
+          "published": "Thu, 08 Oct 2026 13:35:05 +0000",
+          "date": "Thu, 8 Oct",
+          "section": "Top stories of the week"
+        },
         {
           "headline": "The ICO Launches New Dashboard for Coffee Trade and Market Data",
           "summary": "The International Coffee Organization wants its new market intelligence platform to help the industry make data-driven decisions. The post The ICO Launches New Dashboard for Coffee Trade and Market Data appeared first on Fresh Cup .",
@@ -3797,24 +3815,6 @@
           "published": "Wed, 07 Oct 2026 10:59:12 GMT",
           "date": "Wed, 7 Oct",
           "section": "Roasting & retail"
-        },
-        {
-          "headline": "Green Coffee Trader Hacea Gets Bigger in Brea",
-          "summary": "Green coffee importer Hacea Coffee Source has moved its Southern California headquarters from Anaheim to a larger warehouse in Brea, adding green coffee storage, an expanded cupping lab and additional...",
-          "url": "https://dailycoffeenews.com/2026/10/05/green-coffee-trader-hacea-gets-bigger-in-brea/",
-          "publisher": "Daily Coffee News",
-          "published": "Mon, 05 Oct 2026 13:02:26 +0000",
-          "date": "Mon, 5 Oct",
-          "section": "Top stories of the week"
-        },
-        {
-          "headline": "Joe & The Juice’s global rollout gathers pace with new market launch",
-          "summary": "The Danish lifestyle hospitality group has entered five new international markets so far in 2026 as part of plans to reach 1,000 stores globally by 2028 Copenhagen-based Joe & The Juice has taken another step toward its goal of reaching 1,000 stores by 2028…",
-          "url": "https://www.worldcoffeeportal.com/news/joe-the-juices-global-rollout-gathers-pace-with-new-market-launch/",
-          "publisher": "World Coffee Portal",
-          "published": "Mon, 05 Oct 2026 11:24:33 GMT",
-          "date": "Mon, 5 Oct",
-          "section": "Top stories of the week"
         }
       ],
       "errors": [
@@ -3826,7 +3826,7 @@
       "note": "Assembled from the coffee trade press over the past seven days, ranked by relevance to the physical trade. Headlines and links are each publisher’s own."
     },
     "dailyRead": {
-      "fetchedAt": "2026-10-08T12:36:47.240Z",
+      "fetchedAt": "2026-10-08T23:31:02.992Z",
       "article": {
         "title": "EUDR Compliance Gaps Persist for Smallholders, New Report Finds",
         "summary": "As the European Union Deforestation Regulation (EUDR) heads toward its Dec. 30 application date, a new report from the International Institute for Sustainable Development (IISD) suggests many smallholders still lack...",
@@ -4154,38 +4154,38 @@
     {
       "source": "daily-read",
       "ok": true,
-      "ms": 354
+      "ms": 311
     },
     {
       "source": "arabica-futures",
       "ok": true,
-      "ms": 635
-    },
-    {
-      "source": "weather",
-      "ok": true,
-      "ms": 1492
-    },
-    {
-      "source": "weekly-recap",
-      "ok": true,
-      "ms": 1985
+      "ms": 980
     },
     {
       "source": "fx",
       "ok": true,
-      "ms": 2308
+      "ms": 960
     },
     {
-      "source": "ico-report",
-      "ok": false,
-      "ms": 2839,
-      "error": "indicator prices: 2025-09 has 1 values for 7 columns"
+      "source": "weather",
+      "ok": true,
+      "ms": 1125
+    },
+    {
+      "source": "weekly-recap",
+      "ok": true,
+      "ms": 2051
     },
     {
       "source": "origin-wire",
       "ok": true,
-      "ms": 3387
+      "ms": 2596
+    },
+    {
+      "source": "ico-report",
+      "ok": false,
+      "ms": 4258,
+      "error": "indicator prices: 2025-09 has 1 values for 7 columns"
     }
   ]
 }

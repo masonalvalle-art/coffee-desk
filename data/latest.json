@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T00:55:21.552Z",
+  "generatedAt": "2026-10-13T13:19:24.510Z",
   "schema": 5,
   "schedule": {
     "slotsUtc": [
@@ -26,8 +26,8 @@
       "frontMonth": {
         "code": "KCZ26",
         "label": "Dec 2026",
-        "close": 290.6,
-        "volume": 12804
+        "close": 294.85,
+        "volume": 6261
       },
       "rolled": false,
       "mostActive": "KCZ26",
@@ -35,66 +35,58 @@
         {
           "code": "KCZ26",
           "label": "Dec 2026",
-          "close": 290.6,
-          "volume": 12804
+          "close": 294.85,
+          "volume": 6261
         },
         {
           "code": "KCH27",
           "label": "Mar 2027",
-          "close": 283.5,
-          "volume": 8441
+          "close": 287.75,
+          "volume": 2886
         },
         {
           "code": "KCK27",
           "label": "May 2027",
-          "close": 280,
-          "volume": 3141
+          "close": 284.1,
+          "volume": 853
         },
         {
           "code": "KCN27",
           "label": "Jul 2027",
-          "close": 277.55,
-          "volume": 1484
+          "close": 281.15,
+          "volume": 323
         },
         {
           "code": "KCU27",
           "label": "Sep 2027",
-          "close": 275.35,
-          "volume": 316
+          "close": 278.3,
+          "volume": 130
         },
         {
           "code": "KCZ27",
           "label": "Dec 2027",
-          "close": 273.1,
-          "volume": 151
+          "close": 275.55,
+          "volume": 45
         },
         {
           "code": "KCH28",
           "label": "Mar 2028",
-          "close": 271.6,
-          "volume": 7
+          "close": 274.35,
+          "volume": 15
         }
       ],
       "quote": {
-        "last": 283,
-        "open": 279.29998779296875,
-        "high": 283.8500061035156,
-        "low": 276.45001220703125,
-        "previousClose": 279.79998779296875,
-        "change": 3.2,
-        "changePct": 1.144,
-        "volume": 0,
-        "asOf": "2026-10-12T17:29:55.000Z"
+        "last": 285.8,
+        "open": 284,
+        "high": 288.1000061035156,
+        "low": 283.45001220703125,
+        "previousClose": 283.5,
+        "change": 2.3,
+        "changePct": 0.811,
+        "volume": 2643,
+        "asOf": "2026-10-13T12:59:05.000Z"
       },
       "bars": [
-        {
-          "date": "2025-07-07",
-          "open": 248.64999389648438,
-          "high": 251,
-          "low": 244.9499969482422,
-          "close": 244.5500030517578,
-          "volume": 40
-        },
         {
           "date": "2025-07-08",
           "open": 245.89999389648438,
@@ -2525,7 +2517,7 @@
           "high": 274.5,
           "low": 266.3500061035156,
           "close": 268.45001220703125,
-          "volume": 6530
+          "volume": 5887
         },
         {
           "date": "2026-09-22",
@@ -2637,22 +2629,30 @@
           "high": 284.29998779296875,
           "low": 277.1000061035156,
           "close": 279.79998779296875,
-          "volume": 8150
+          "volume": 8567
         },
         {
           "date": "2026-10-12",
           "open": 279.29998779296875,
           "high": 283.8500061035156,
           "low": 276.45001220703125,
-          "close": 283,
-          "volume": 0
+          "close": 283.5,
+          "volume": 8567
+        },
+        {
+          "date": "2026-10-13",
+          "open": 284,
+          "high": 288.1000061035156,
+          "low": 283.45001220703125,
+          "close": 285.79998779296875,
+          "volume": 2643
         }
       ],
       "crossCheck": {
-        "tradingView": 283.5,
-        "yahoo": 283,
-        "diff": 0.5,
-        "diffPct": 0.177,
+        "tradingView": 287.75,
+        "yahoo": 285.8,
+        "diff": 1.95,
+        "diffPct": 0.682,
         "agree": true
       },
       "sources": [
@@ -2668,17 +2668,17 @@
         }
       ],
       "technicals": {
-        "observations": 502,
-        "sma20": 277.175,
-        "sma50": 291.04899963378904,
-        "sma200": 280.995249786377,
-        "rsi14": 50.14639285001771,
+        "observations": 503,
+        "sma20": 277.7375,
+        "sma50": 290.85599914550784,
+        "sma200": 280.8889997863769,
+        "rsi14": 52.461518199325994,
         "macd": {
-          "line": -0.9387718207183866,
-          "signal": -2.482073746134814,
-          "histogram": 1.5433019254164275
+          "line": -0.5147895946257108,
+          "signal": -2.082235149451229,
+          "histogram": 1.5674455548255182
         },
-        "atr14": 9.670474012558534,
+        "atr14": 9.311868289981808,
         "donchian20": {
           "high": 300,
           "low": 262.6000061035156,
@@ -2687,16 +2687,16 @@
         "levels": {
           "support": [
             {
+              "price": 285.45001220703125,
+              "date": "2025-06-03"
+            },
+            {
+              "price": 283.79998779296875,
+              "date": "2025-09-19"
+            },
+            {
               "price": 281.8500061035156,
               "date": "2025-03-27"
-            },
-            {
-              "price": 270,
-              "date": "2026-02-06"
-            },
-            {
-              "price": 268.20001220703125,
-              "date": "2025-04-07"
             }
           ],
           "resistance": [
@@ -2719,10 +2719,10 @@
           "low": 207.8000030517578
         },
         "method": "Wilder RSI(14); MACD(12,26,9) on EMA; ATR(14); pivots = 5-bar swing highs/lows; Donchian(20).",
-        "basis": "502 daily bars for KCH27"
+        "basis": "503 daily bars for KCH27"
       },
       "barsPublished": 320,
-      "barsAnalysed": 502
+      "barsAnalysed": 503
     }
   },
   "fx": {
@@ -3252,7 +3252,7 @@
     ]
   },
   "weather": {
-    "fetchedAt": "2026-10-13T00:55:18.997Z",
+    "fetchedAt": "2026-10-13T13:19:22.742Z",
     "thresholds": {
       "frostC": 4,
       "heavyRainMm": 50,
@@ -3282,14 +3282,14 @@
           "tMin": 17.5,
           "rain": 11.1,
           "code": 81,
-          "cloud": 98,
+          "cloud": 94,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 84.1,
-        "rainForecast7": 34.1,
-        "minForecast7": 15.5,
+        "rain14": 83.8,
+        "rainForecast7": 28.5,
+        "minForecast7": 14.2,
         "alerts": []
       },
       {
@@ -3303,16 +3303,16 @@
           "date": "2026-10-12",
           "tMax": 27.7,
           "tMin": 17.9,
-          "rain": 1.5,
+          "rain": 0.9,
           "code": 53,
-          "cloud": 79,
+          "cloud": 75,
           "observed": true
         },
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
-        "rain14": 50.7,
-        "rainForecast7": 46.6,
-        "minForecast7": 16.1,
+        "rain14": 50.1,
+        "rainForecast7": 23.5,
+        "minForecast7": 16.6,
         "alerts": []
       },
       {
@@ -3328,14 +3328,14 @@
           "tMin": 22.6,
           "rain": 0,
           "code": 3,
-          "cloud": 38,
+          "cloud": 40,
           "observed": true
         },
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
-        "rain14": 28.6,
-        "rainForecast7": 43,
-        "minForecast7": 21.4,
+        "rain14": 28,
+        "rainForecast7": 49.1,
+        "minForecast7": 20.3,
         "alerts": []
       },
       {
@@ -3357,8 +3357,8 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 75.1,
-        "rainForecast7": 14,
-        "minForecast7": 22.6,
+        "rainForecast7": 12.2,
+        "minForecast7": 21.3,
         "alerts": []
       },
       {
@@ -3380,15 +3380,9 @@
         "condition": "very-wet",
         "conditionLabel": "Very wet",
         "rain14": 114.3,
-        "rainForecast7": 67.5,
-        "minForecast7": 18.4,
-        "alerts": [
-          {
-            "type": "wet",
-            "severity": "watch",
-            "text": "68 mm forecast over 7 days — harvest/drying disruption risk."
-          }
-        ]
+        "rainForecast7": 49.7,
+        "minForecast7": 18.9,
+        "alerts": []
       },
       {
         "key": "huila",
@@ -3403,14 +3397,14 @@
           "tMin": 17.4,
           "rain": 5.8,
           "code": 81,
-          "cloud": 90,
+          "cloud": 89,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 92.9,
-        "rainForecast7": 28.2,
-        "minForecast7": 15.8,
+        "rain14": 88.8,
+        "rainForecast7": 34.4,
+        "minForecast7": 16.9,
         "alerts": []
       },
       {
@@ -3424,21 +3418,21 @@
           "date": "2026-10-12",
           "tMax": 25,
           "tMin": 18,
-          "rain": 21.1,
+          "rain": 23.7,
           "code": 81,
           "cloud": 98,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 97.8,
-        "rainForecast7": 61.9,
-        "minForecast7": 16.4,
+        "rain14": 100.2,
+        "rainForecast7": 56.6,
+        "minForecast7": 16.1,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "62 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "57 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3461,13 +3455,13 @@
         "condition": "very-wet",
         "conditionLabel": "Very wet",
         "rain14": 236.5,
-        "rainForecast7": 75.6,
-        "minForecast7": 17.1,
+        "rainForecast7": 103,
+        "minForecast7": 16.6,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "76 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "103 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3490,8 +3484,8 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 55.8,
-        "rainForecast7": 14.4,
-        "minForecast7": 23.7,
+        "rainForecast7": 15.2,
+        "minForecast7": 24.1,
         "alerts": []
       },
       {
@@ -3513,8 +3507,8 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 39.4,
-        "rainForecast7": 18.5,
-        "minForecast7": 12.6,
+        "rainForecast7": 22.9,
+        "minForecast7": 12.8,
         "alerts": []
       },
       {
@@ -3528,16 +3522,16 @@
           "date": "2026-10-12",
           "tMax": 25.8,
           "tMin": 17.2,
-          "rain": 3.6,
+          "rain": 3.8,
           "code": 53,
-          "cloud": 92,
+          "cloud": 93,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 125.6,
-        "rainForecast7": 27.6,
-        "minForecast7": 16.1,
+        "rain14": 117.8,
+        "rainForecast7": 32.7,
+        "minForecast7": 15.5,
         "alerts": []
       },
       {
@@ -3551,17 +3545,23 @@
           "date": "2026-10-12",
           "tMax": 31.1,
           "tMin": 19.4,
-          "rain": 1.5,
+          "rain": 1.9,
           "code": 53,
-          "cloud": 54,
+          "cloud": 57,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 71,
-        "rainForecast7": 40.3,
+        "rain14": 70.8,
+        "rainForecast7": 60.1,
         "minForecast7": 19.4,
-        "alerts": []
+        "alerts": [
+          {
+            "type": "wet",
+            "severity": "watch",
+            "text": "60 mm forecast over 7 days — harvest/drying disruption risk."
+          }
+        ]
       }
     ],
     "sources": [
@@ -3574,9 +3574,57 @@
   },
   "news": {
     "originWire": {
-      "fetchedAt": "2026-10-13T00:55:21.550Z",
+      "fetchedAt": "2026-10-13T13:19:23.808Z",
       "lookbackHours": 504,
       "headlines": [
+        {
+          "title": "How a scandal engulfing Brazil’s top court could return the Bolsonaros to power",
+          "summary": "The judge who helped convict Jair Bolsonaro is caught up in a crisis that could benefit his son and damage Lula Marina Silva on Flávio Bolsonaro: He will try to finish his father’s ‘perverse project’ to destroy the Amazon Thundering to a crowd of thousands of…",
+          "url": "https://www.theguardian.com/world/2026/oct/13/scandal-brazil-court-jair-flavio-bolsonaro-power-election-moraes-lula",
+          "publisher": "The Guardian",
+          "region": "Brazil",
+          "published": "Tue, 13 Oct 2026 10:00:05 GMT"
+        },
+        {
+          "title": "Hanoi adds greenery to transport infrastructure to reduce urban heat",
+          "summary": "Vietnam's capital is stepping up efforts to plant more trees and greenery around transport infrastructure and public spaces to improve the urban landscape, reduce heat and enhance environmental quality.",
+          "url": "https://e.vnexpress.net/photo/traffic/hanoi-adds-greenery-to-transport-infrastructure-to-reduce-urban-heat-5130898.html",
+          "publisher": "VnExpress International",
+          "region": "Vietnam",
+          "published": "Tue, 13 Oct 2026 17:00:00 +0700"
+        },
+        {
+          "title": "Indonesia wildfire fuelled by El Niño razes almost 300 homes",
+          "summary": "Hundreds of people displaced in Bangka Belitung province as shift in wind direction drove blaze towards settlement A forest fire on Indonesia’s Sumatra island fuelled by El Niño has razed nearly 300 homes, forcing hundreds of people to evacuate, an official…",
+          "url": "https://www.theguardian.com/world/2026/oct/13/indonesia-wildfire-el-nino-razes-300-homes-bankga-belitung",
+          "publisher": "The Guardian",
+          "region": "Indonesia",
+          "published": "Tue, 13 Oct 2026 12:44:44 GMT"
+        },
+        {
+          "title": "IPCC is under pressure to delay publication of key global climate report",
+          "summary": "AR7 report was scheduled for 2028 in time for Cop33 summit but some petro-states and major developing countries want to postpone it Scientists are coming under pressure from some petro-states and major developing countries to delay publication of a key global…",
+          "url": "https://www.theguardian.com/environment/2026/oct/13/ipcc-pressure-delay-publication-climate-report-ar7-cop33",
+          "publisher": "The Guardian",
+          "region": "Colombia",
+          "published": "Tue, 13 Oct 2026 05:00:15 GMT"
+        },
+        {
+          "title": "Mexican gang kidnaps officials to force detained member's release",
+          "summary": "The gang seized the officials shortly after a high-ranking member was detained, demanding he be released.",
+          "url": "https://www.bbc.co.uk/news/articles/c5zjxnm1y02po?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
+          "region": "South & Central America",
+          "published": "Tue, 13 Oct 2026 12:55:14 GMT"
+        },
+        {
+          "title": "Rwanda to host a Grand Prix in 2030s as Formula One returns to Africa",
+          "summary": "Rwanda has secured a 10-year deal to host F1 races at a purpose-built race track on the outskirts of the capital, Kigali.",
+          "url": "https://www.aljazeera.com/sports/2026/10/13/rwanda-to-host-a-grand-prix-in-2030s-as-formula-one-returns-to-africa?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "region": "East Africa",
+          "published": "Tue, 13 Oct 2026 12:59:27 +0000"
+        },
         {
           "title": "Marina Silva on Flávio Bolsonaro: He will try to finish his father’s ‘perverse project’ to destroy the Amazon",
           "summary": "Exclusive: Former Brazilian environment minister warns of destruction as far-right scion favourite to become president The former Brazilian environment minister Marina Silva has said that if Flávio Bolsonaro becomes president he will seek to finish the…",
@@ -3586,44 +3634,44 @@
           "published": "Sat, 10 Oct 2026 13:00:57 GMT"
         },
         {
-          "title": "Vietnam could lose winter by 2100 as major cities face 100 more hot days, scientists warn",
-          "summary": "Inner Ho Chi Minh City could see 90-100 more days a year above 35 degrees Celsius by the end of the century under a high-emissions scenario, and inner Hanoi 50-90 more, Vietnam's updated climate projections show.",
-          "url": "https://e.vnexpress.net/news/news/environment/vietnam-could-lose-winter-by-2100-as-major-cities-face-100-more-hot-days-scientists-warn-5130766.html",
+          "title": "Vietnamese graduates fall short of employers' expectations in six key skills: report",
+          "summary": "Fresh graduates in Vietnam meet employers' expectations only in digital literacy, while time management and problem-solving show the widest gaps, a survey of 375 companies found.",
+          "url": "https://e.vnexpress.net/news/news/education/vietnamese-graduates-fall-short-of-employers-expectations-in-six-key-skills-report-5131450.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Tue, 13 Oct 2026 05:58:01 +0700"
+          "published": "Tue, 13 Oct 2026 16:00:00 +0700"
         },
         {
-          "title": "Coal billionaire Low Tuck Kwong loses a third of his fortune after selling Bayan Resources stake",
-          "summary": "Singapore-born billionaire Low Tuck Kwong's net worth fell by US$5.78 billion, or 33.9%, after he and his daughter sold a stake in his Indonesian coal mining firm Bayan Resources.",
-          "url": "https://e.vnexpress.net/news/business/billionaires/coal-billionaire-low-tuck-kwong-loses-a-third-of-his-fortune-after-selling-bayan-resources-stake-5131401.html",
+          "title": "Indonesia's official says its forests 'send oxygen' to Malaysia, Singapore when there's no haze",
+          "summary": "An Indonesian official described the forest fires causing haze across Malaysia and Singapore as a natural phenomenon, claiming that Indonesia's forests also supply oxygen to its neighbors.",
+          "url": "https://e.vnexpress.net/news/news/environment/indonesia-s-official-says-its-forests-send-oxygen-to-malaysia-singapore-when-there-s-no-haze-5131789.html",
           "publisher": "VnExpress International",
           "region": "Indonesia",
-          "published": "Mon, 12 Oct 2026 18:07:28 +0700"
+          "published": "Tue, 13 Oct 2026 16:17:37 +0700"
         },
         {
-          "title": "Severe turbulence injures at least eight and forces emergency landing in Miami",
-          "summary": "Multiple hospitalized after Avianca flight from Medellín to New York had to divert to Miami due to strong turbulence At least eight people were injured when an Avianca flight encountered severe turbulence and had to make an emergency landing in Miami early on…",
-          "url": "https://www.theguardian.com/us-news/2026/oct/09/avianca-flight-turbulence-injuries-miami",
+          "title": "The billion-dollar shipwreck and the man who tried to find it – podcast",
+          "summary": "Journalist Julian Sancton on the story of the most valuable shipwreck in history and who could end up with its treasures A few years ago, the journalist Julian Sancton came across a story about a shipwreck found off the coast of Colombia. Onboard were…",
+          "url": "https://www.theguardian.com/news/audio/2026/oct/13/billion-dollar-shipwreck-san-jose-and-the-man-who-tried-to-find-it-podcast",
           "publisher": "The Guardian",
           "region": "Colombia",
-          "published": "Fri, 09 Oct 2026 17:07:16 GMT"
+          "published": "Tue, 13 Oct 2026 02:00:11 GMT"
         },
         {
-          "title": "Two deaths reported as Hurricane Simon, storm Rachel batter Mexico’s coast",
-          "summary": "Simon caps a Pacific season of record-breaking intensity, as deadly storms wreak havoc from Hawaii to Mexico.",
-          "url": "https://www.aljazeera.com/news/2026/10/12/two-deaths-reported-as-hurricane-simon-storm-rachel-batter-mexicos-coast?traffic_source=rss",
-          "publisher": "Al Jazeera",
+          "title": "UK asks Interpol to reject Argentina’s ‘politically motivated’ requests for Falklands oil arrests",
+          "summary": "Exclusive: Caution urged over Javier Milei government’s ‘red notice’ requests for arrest of individuals linked to oil project Britain has appealed to Interpol to reject Argentina’s requests for the arrest of individuals involved in a large oil project off the…",
+          "url": "https://www.theguardian.com/uk-news/2026/oct/13/britain-interpol-reject-argentina-falkland-islands-arrests",
+          "publisher": "The Guardian",
           "region": "South & Central America",
-          "published": "Mon, 12 Oct 2026 23:09:50 +0000"
+          "published": "Tue, 13 Oct 2026 11:00:55 GMT"
         },
         {
-          "title": "Ethiopian forces enter strategic Tigray town of Adwa, witnesses say",
-          "summary": "Ethiopian Airlines resumed flights to Tigray's capital, Mekelle, on Sunday.",
-          "url": "https://www.aljazeera.com/news/2026/10/12/ethiopian-troops-capture-adwa-without-a-fight-witnesses-say?traffic_source=rss",
-          "publisher": "Al Jazeera",
+          "title": "Rwanda to host F1's first race in Africa since 1993",
+          "summary": "Rwanda signs a 10-year deal with Formula 1 to host races in the African country, starting \"in the early 2030s\".",
+          "url": "https://www.bbc.co.uk/sport/formula1/articles/c5rmy3v3mn9jo?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
           "region": "East Africa",
-          "published": "Mon, 12 Oct 2026 18:01:41 +0000"
+          "published": "Tue, 13 Oct 2026 09:20:09 GMT"
         },
         {
           "title": "Flávio Bolsonaro’s advance in Brazil’s election is grim jolt for climate campaigners",
@@ -3634,77 +3682,57 @@
           "published": "Wed, 07 Oct 2026 19:23:30 GMT"
         },
         {
-          "title": "‘We always do everything together’: Chloe has no way to contact her husband, a democracy campaigner detained in Vietnam",
-          "summary": "Tran Hiep spent his 51st birthday alone in a notorious detention centre in Ho Chi Minh City after his sudden arrest last month Follow our Australia politics live blog for latest updates Get our breaking news email , free app or daily news podcast Tran Hiep…",
-          "url": "https://www.theguardian.com/australia-news/2026/oct/12/australian-democracy-campaigner-detained-in-vietnam-on-alleged-terrorism-offences-uncontactable-wife-says",
-          "publisher": "The Guardian",
-          "region": "Vietnam",
-          "published": "Mon, 12 Oct 2026 14:00:57 GMT"
-        },
-        {
-          "title": "5 Asian billionaires lead world in single-day wealth loss",
-          "summary": "Five billionaires, comprising three from China, one from Indonesia and one from South Korea, were the biggest wealth losers in the world on Monday, with a combined net worth decline of US$5.3 billion.",
-          "url": "https://e.vnexpress.net/news/business/billionaires/5-asian-billionaires-lead-world-in-single-day-wealth-loss-5131308.html",
-          "publisher": "VnExpress International",
-          "region": "Indonesia",
-          "published": "Mon, 12 Oct 2026 14:54:53 +0700"
-        },
-        {
-          "title": "How a plant selfie in Colombian jungle led to ‘jaw dropping’ giant waterlily find",
-          "summary": "Species with leaves large enough to be seen from space is already critically endangered – and plans are afoot to protect it A chance social media encounter has led to the race-against-time discovery of a new species of giant waterlily that has until now been…",
-          "url": "https://www.theguardian.com/environment/2026/oct/09/plant-selfie-jaw-dropping-giant-waterlily-discovery-colombia",
-          "publisher": "The Guardian",
-          "region": "Colombia",
-          "published": "Fri, 09 Oct 2026 04:00:37 GMT"
-        },
-        {
-          "title": "Bolivia investigates ex-president Evo Morales over alleged ties to 2009 killings",
-          "summary": "Leftist former leader accused of involvement in shooting of three Europeans in Santa Cruz and torture of two others Bolivia’s attorney general has announced an investigation into leftist former president Evo Morales, alleging his involvement in the murder and…",
-          "url": "https://www.theguardian.com/world/2026/oct/12/bolivia-investigates-ex-president-evo-morales-2009-killings",
-          "publisher": "The Guardian",
-          "region": "South & Central America",
-          "published": "Mon, 12 Oct 2026 21:40:51 GMT"
-        },
-        {
-          "title": "Mourners killed by Kenya police at Odinga national farewell not part of violence, BBC finds",
-          "summary": "After analysing 1,500 videos and images of the Raila Odinga memorial, Africa Eye finds that those killed were far from the scuffles.",
-          "url": "https://www.bbc.co.uk/news/articles/c962y4ld1d7do?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
-          "region": "East Africa",
-          "published": "Sun, 11 Oct 2026 23:13:20 GMT"
-        },
-        {
-          "title": "‘Another coup d’état’: fears grow as Flávio Bolsonaro vows to ‘re-democratise’ Brazil",
-          "summary": "After a surprise first-round victory, critics suggest son of disgraced ex-president could seek to continue his father’s authoritarian project Flávio’s surprise first-round win highlights rapid rise of Brazil’s House of Bolsonaro Flávio Bolsonaro, the…",
-          "url": "https://www.theguardian.com/world/2026/oct/07/flavio-bolsonaro-vows-to-re-democratise-brazil-election",
-          "publisher": "The Guardian",
-          "region": "Brazil",
-          "published": "Wed, 07 Oct 2026 15:03:26 GMT"
-        },
-        {
-          "title": "Dollar strengthens against dong",
-          "summary": "The U.S. dollar rose against the Vietnamese dong on Monday while trading near an 18-month high against major peers.",
-          "url": "https://e.vnexpress.net/news/business/markets/dollar-strengthens-against-dong-5131325.html",
+          "title": "Ho Chi Minh City to eliminate 28 traffic bottlenecks by 2030",
+          "summary": "Ho Chi Minh City is rolling out major infrastructure projects over the next five years to eliminate 28 severe traffic bottlenecks, according to the Department of Construction.",
+          "url": "https://e.vnexpress.net/news/news/traffic/ho-chi-minh-city-to-eliminate-28-traffic-bottlenecks-by-2030-5131662.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Mon, 12 Oct 2026 15:23:21 +0700"
+          "published": "Tue, 13 Oct 2026 13:33:27 +0700"
         }
       ],
-      "totalTagged": 125,
+      "totalTagged": 135,
       "feedsQueried": 14,
       "errors": [],
       "note": "General headlines from the growing regions, taken from outlets of record and tagged to a region by the countries and cities they name."
     },
     "roundup": {
       "source": "assembled",
-      "fetchedAt": "2026-10-13T00:55:20.343Z",
+      "fetchedAt": "2026-10-13T13:19:23.780Z",
       "windowDays": 7,
       "publishers": [
         "Daily Coffee News",
         "Fresh Cup",
+        "Specialty Coffee Association",
         "World Coffee Portal"
       ],
       "items": [
+        {
+          "headline": "Starbucks pours cold water on Chipotle acquisition reports",
+          "summary": "Speculation over building a potential new global QSR giant largely focused on the experience and leadership of current Starbucks CEO Brian Niccol",
+          "url": "https://www.worldcoffeeportal.com/news/starbucks-pours-cold-water-on-chipotle-acquisition-reports/",
+          "publisher": "World Coffee Portal",
+          "published": "Tue, 13 Oct 2026 09:27:11 GMT",
+          "date": "Tue, 13 Oct",
+          "section": "Roasting & retail"
+        },
+        {
+          "headline": "Meet the Members of the 2027 SCA Board of Directors",
+          "summary": "The SCA Board of Directors nominated three professionals who responded to our call for nominations this June",
+          "url": "https://sca.coffee/sca-news/announcements/webinar-meet-the-members-of-the-2025-sca-board-of-directors-fksd6-w3jac-ac5m5",
+          "publisher": "Specialty Coffee Association",
+          "published": "Tue, 13 Oct 2026 08:57:40 +0000",
+          "date": "Tue, 13 Oct",
+          "section": "Roasting & retail"
+        },
+        {
+          "headline": "Coffee Decoded: What Makes Fruit-Dried Coffees Taste Fruity?",
+          "summary": "Welcome to Coffee, Decoded, the Specialty Coffee Association’s weekly column on science, research, and all things coffee knowledge. PETER GIULIANO, the SCA's Senior Advisor for Scientific Communication explores why fruit-dried coffees (including natural…",
+          "url": "https://sca.coffee/sca-news/coffee-decoded-20-fruit-dried-coffees-fruity",
+          "publisher": "Specialty Coffee Association",
+          "published": "Tue, 13 Oct 2026 05:33:35 +0000",
+          "date": "Tue, 13 Oct",
+          "section": "Roasting & retail"
+        },
         {
           "headline": "Episode 223: Maxwell Colonna-Dashwood on the next era of specialty coffee",
           "summary": "Maxwell Colonna-Dashwood returns to 5THWAVE to explore the future of specialty coffee and what independent roasters can learn from larger commercial operations",
@@ -3739,33 +3767,6 @@
           "publisher": "Daily Coffee News",
           "published": "Mon, 12 Oct 2026 13:31:37 +0000",
           "date": "Mon, 12 Oct",
-          "section": "Roasting & retail"
-        },
-        {
-          "headline": "Coffee News Club: Week of October 12",
-          "summary": "Would you like a burrito with your coffee? Starbucks reportedly mulls Chipotle takeover. Plus, bacteria-boosted Liberica, and coffee farming in Sicily. The post Coffee News Club: Week of October 12 appeared first on Fresh Cup .",
-          "url": "https://freshcup.com/coffee-news-club-week-of-october-12/",
-          "publisher": "Fresh Cup",
-          "published": "Mon, 12 Oct 2026 11:45:00 +0000",
-          "date": "Mon, 12 Oct",
-          "section": "Roasting & retail"
-        },
-        {
-          "headline": "The Week in Coffee, 5-11 October 2026",
-          "summary": "Your weekly round-up of the five biggest stories from across the global coffee industry...",
-          "url": "https://www.worldcoffeeportal.com/news/the-week-in-coffee-5-11-october-2026/",
-          "publisher": "World Coffee Portal",
-          "published": "Mon, 12 Oct 2026 10:36:57 GMT",
-          "date": "Mon, 12 Oct",
-          "section": "Roasting & retail"
-        },
-        {
-          "headline": "Roast Magazine Launches iRoast — a Community for Coffee Roasting Professionals",
-          "summary": "Roast magazine has launched iRoast, a new professional community and premium subscription created to connect, recognize and support coffee roasting professionals around the world. Built by Roast as a network...",
-          "url": "https://dailycoffeenews.com/2026/10/09/roast-magazine-launches-iroast-a-community-for-coffee-roasting-professionals/",
-          "publisher": "Daily Coffee News",
-          "published": "Fri, 09 Oct 2026 15:11:45 +0000",
-          "date": "Fri, 9 Oct",
           "section": "Roasting & retail"
         },
         {
@@ -3832,7 +3833,7 @@
       "note": "Assembled from the coffee trade press over the past seven days, ranked by relevance to the physical trade. Headlines and links are each publisher’s own."
     },
     "dailyRead": {
-      "fetchedAt": "2026-10-13T00:55:18.500Z",
+      "fetchedAt": "2026-10-13T13:19:22.077Z",
       "article": {
         "title": "StoneX Acquiring Colombian Coffee Trader Integra",
         "summary": "Global financial services and commodities company StoneX Group said it signed an agreement to acquire Colombian green coffee processor and exporter Integra, expanding StoneX’s coffee operations in Colombia. The acquisition...",
@@ -4160,38 +4161,38 @@
     {
       "source": "daily-read",
       "ok": true,
-      "ms": 463
-    },
-    {
-      "source": "weather",
-      "ok": true,
-      "ms": 969
+      "ms": 525
     },
     {
       "source": "arabica-futures",
       "ok": true,
-      "ms": 2292
+      "ms": 729
     },
     {
-      "source": "fx",
+      "source": "weather",
       "ok": true,
-      "ms": 2242
+      "ms": 1195
     },
     {
       "source": "weekly-recap",
       "ok": true,
-      "ms": 2309
-    },
-    {
-      "source": "ico-report",
-      "ok": false,
-      "ms": 2918,
-      "error": "indicator prices: no month-labelled rows found"
+      "ms": 2230
     },
     {
       "source": "origin-wire",
       "ok": true,
-      "ms": 3521
+      "ms": 2260
+    },
+    {
+      "source": "fx",
+      "ok": true,
+      "ms": 2300
+    },
+    {
+      "source": "ico-report",
+      "ok": false,
+      "ms": 2944,
+      "error": "indicator prices: no month-labelled rows found"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T13:19:24.510Z",
+  "generatedAt": "2026-10-13T23:01:54.473Z",
   "schema": 5,
   "schedule": {
     "slotsUtc": [
@@ -26,8 +26,8 @@
       "frontMonth": {
         "code": "KCZ26",
         "label": "Dec 2026",
-        "close": 294.85,
-        "volume": 6261
+        "close": 293.2,
+        "volume": 16262
       },
       "rolled": false,
       "mostActive": "KCZ26",
@@ -35,56 +35,56 @@
         {
           "code": "KCZ26",
           "label": "Dec 2026",
-          "close": 294.85,
-          "volume": 6261
+          "close": 293.2,
+          "volume": 16262
         },
         {
           "code": "KCH27",
           "label": "Mar 2027",
-          "close": 287.75,
-          "volume": 2886
+          "close": 285.65,
+          "volume": 9327
         },
         {
           "code": "KCK27",
           "label": "May 2027",
-          "close": 284.1,
-          "volume": 853
+          "close": 282.25,
+          "volume": 3672
         },
         {
           "code": "KCN27",
           "label": "Jul 2027",
-          "close": 281.15,
-          "volume": 323
+          "close": 279.75,
+          "volume": 1333
         },
         {
           "code": "KCU27",
           "label": "Sep 2027",
-          "close": 278.3,
-          "volume": 130
+          "close": 277.2,
+          "volume": 332
         },
         {
           "code": "KCZ27",
           "label": "Dec 2027",
-          "close": 275.55,
-          "volume": 45
+          "close": 274.85,
+          "volume": 160
         },
         {
           "code": "KCH28",
           "label": "Mar 2028",
-          "close": 274.35,
-          "volume": 15
+          "close": 272.75,
+          "volume": 35
         }
       ],
       "quote": {
-        "last": 285.8,
+        "last": 285.65,
         "open": 284,
-        "high": 288.1000061035156,
-        "low": 283.45001220703125,
+        "high": 288.8999938964844,
+        "low": 283.29998779296875,
         "previousClose": 283.5,
-        "change": 2.3,
-        "changePct": 0.811,
-        "volume": 2643,
-        "asOf": "2026-10-13T12:59:05.000Z"
+        "change": 2.15,
+        "changePct": 0.758,
+        "volume": 9327,
+        "asOf": "2026-10-13T17:29:55.000Z"
       },
       "bars": [
         {
@@ -2517,7 +2517,7 @@
           "high": 274.5,
           "low": 266.3500061035156,
           "close": 268.45001220703125,
-          "volume": 5887
+          "volume": 6530
         },
         {
           "date": "2026-09-22",
@@ -2642,17 +2642,17 @@
         {
           "date": "2026-10-13",
           "open": 284,
-          "high": 288.1000061035156,
-          "low": 283.45001220703125,
-          "close": 285.79998779296875,
-          "volume": 2643
+          "high": 288.8999938964844,
+          "low": 283.29998779296875,
+          "close": 285.6499938964844,
+          "volume": 9327
         }
       ],
       "crossCheck": {
-        "tradingView": 287.75,
-        "yahoo": 285.8,
-        "diff": 1.95,
-        "diffPct": 0.682,
+        "tradingView": 285.65,
+        "yahoo": 285.65,
+        "diff": 0,
+        "diffPct": 0,
         "agree": true
       },
       "sources": [
@@ -2669,16 +2669,16 @@
       ],
       "technicals": {
         "observations": 503,
-        "sma20": 277.7375,
-        "sma50": 290.85599914550784,
-        "sma200": 280.8889997863769,
-        "rsi14": 52.461518199325994,
+        "sma20": 277.7300003051758,
+        "sma50": 290.8529992675781,
+        "sma200": 280.88824981689453,
+        "rsi14": 52.34142690260537,
         "macd": {
-          "line": -0.5147895946257108,
-          "signal": -2.082235149451229,
-          "histogram": 1.5674455548255182
+          "line": -0.5267549197014318,
+          "signal": -2.084628214466373,
+          "histogram": 1.5578732947649412
         },
-        "atr14": 9.311868289981808,
+        "atr14": 9.379726304769756,
         "donchian20": {
           "high": 300,
           "low": 262.6000061035156,
@@ -2726,22 +2726,18 @@
     }
   },
   "fx": {
-    "asOf": "2026-10-12",
+    "asOf": "2026-10-13",
     "pairs": {
       "GBPUSD": {
         "pair": "GBP/USD",
-        "rate": 1.3235,
-        "previous": 1.322,
+        "rate": 1.3247,
+        "previous": 1.3235,
         "dp": 4,
         "note": "Sterling stronger means a dollar-priced contract costs a UK buyer less.",
-        "change": 0.0015,
-        "changePct": 0.113,
-        "change1m": -2.02,
+        "change": 0.0012,
+        "changePct": 0.091,
+        "change1m": -1.83,
         "history": [
-          {
-            "date": "2026-07-21",
-            "rate": 1.3401
-          },
           {
             "date": "2026-07-22",
             "rate": 1.3368
@@ -2977,23 +2973,23 @@
           {
             "date": "2026-10-12",
             "rate": 1.3235
+          },
+          {
+            "date": "2026-10-13",
+            "rate": 1.3247
           }
         ]
       },
       "USDBRL": {
         "pair": "USD/BRL",
-        "rate": 4.9923,
-        "previous": 5.005,
+        "rate": 5.0165,
+        "previous": 4.9923,
         "dp": 4,
         "note": "A weaker real encourages Brazilian producer selling.",
-        "change": -0.0127,
-        "changePct": -0.254,
-        "change1m": -2.32,
+        "change": 0.0242,
+        "changePct": 0.485,
+        "change1m": -2.72,
         "history": [
-          {
-            "date": "2026-07-21",
-            "rate": 5.0794
-          },
           {
             "date": "2026-07-22",
             "rate": 5.0797
@@ -3229,14 +3225,18 @@
           {
             "date": "2026-10-12",
             "rate": 4.9923
+          },
+          {
+            "date": "2026-10-13",
+            "rate": 5.0165
           }
         ]
       }
     },
     "ptax": {
-      "buy": 4.9886,
-      "sell": 4.9892,
-      "quotedAt": "2026-10-09 13:07:30.746597"
+      "buy": 5.009,
+      "sell": 5.0096,
+      "quotedAt": "2026-10-13 13:04:26.866133"
     },
     "sources": [
       {
@@ -3252,7 +3252,7 @@
     ]
   },
   "weather": {
-    "fetchedAt": "2026-10-13T13:19:22.742Z",
+    "fetchedAt": "2026-10-13T23:01:51.632Z",
     "thresholds": {
       "frostC": 4,
       "heavyRainMm": 50,
@@ -3288,8 +3288,8 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 83.8,
-        "rainForecast7": 28.5,
-        "minForecast7": 14.2,
+        "rainForecast7": 29.7,
+        "minForecast7": 13.8,
         "alerts": []
       },
       {
@@ -3311,8 +3311,8 @@
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
         "rain14": 50.1,
-        "rainForecast7": 23.5,
-        "minForecast7": 16.6,
+        "rainForecast7": 40.9,
+        "minForecast7": 15.2,
         "alerts": []
       },
       {
@@ -3334,8 +3334,8 @@
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
         "rain14": 28,
-        "rainForecast7": 49.1,
-        "minForecast7": 20.3,
+        "rainForecast7": 31.7,
+        "minForecast7": 20.7,
         "alerts": []
       },
       {
@@ -3356,9 +3356,9 @@
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 75.1,
-        "rainForecast7": 12.2,
-        "minForecast7": 21.3,
+        "rain14": 72.6,
+        "rainForecast7": 27.9,
+        "minForecast7": 22.6,
         "alerts": []
       },
       {
@@ -3379,10 +3379,16 @@
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 114.3,
-        "rainForecast7": 49.7,
-        "minForecast7": 18.9,
-        "alerts": []
+        "rain14": 107.4,
+        "rainForecast7": 77.4,
+        "minForecast7": 18.7,
+        "alerts": [
+          {
+            "type": "wet",
+            "severity": "watch",
+            "text": "77 mm forecast over 7 days — harvest/drying disruption risk."
+          }
+        ]
       },
       {
         "key": "huila",
@@ -3403,8 +3409,8 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 88.8,
-        "rainForecast7": 34.4,
-        "minForecast7": 16.9,
+        "rainForecast7": 39,
+        "minForecast7": 16.4,
         "alerts": []
       },
       {
@@ -3419,20 +3425,20 @@
           "tMax": 25,
           "tMin": 18,
           "rain": 23.7,
-          "code": 81,
+          "code": 95,
           "cloud": 98,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
         "rain14": 100.2,
-        "rainForecast7": 56.6,
-        "minForecast7": 16.1,
+        "rainForecast7": 60.6,
+        "minForecast7": 15.7,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "57 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "61 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3454,14 +3460,14 @@
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 236.5,
-        "rainForecast7": 103,
-        "minForecast7": 16.6,
+        "rain14": 226.6,
+        "rainForecast7": 118.6,
+        "minForecast7": 16.5,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "103 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "119 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3483,9 +3489,9 @@
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 55.8,
-        "rainForecast7": 15.2,
-        "minForecast7": 24.1,
+        "rain14": 53.3,
+        "rainForecast7": 18.5,
+        "minForecast7": 24.4,
         "alerts": []
       },
       {
@@ -3506,9 +3512,9 @@
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 39.4,
-        "rainForecast7": 22.9,
-        "minForecast7": 12.8,
+        "rain14": 38.4,
+        "rainForecast7": 26.5,
+        "minForecast7": 13.2,
         "alerts": []
       },
       {
@@ -3530,8 +3536,8 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 117.8,
-        "rainForecast7": 32.7,
-        "minForecast7": 15.5,
+        "rainForecast7": 29.1,
+        "minForecast7": 15.7,
         "alerts": []
       },
       {
@@ -3553,13 +3559,13 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 70.8,
-        "rainForecast7": 60.1,
-        "minForecast7": 19.4,
+        "rainForecast7": 71.5,
+        "minForecast7": 19.6,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "60 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "72 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       }
@@ -3574,7 +3580,7 @@
   },
   "news": {
     "originWire": {
-      "fetchedAt": "2026-10-13T13:19:23.808Z",
+      "fetchedAt": "2026-10-13T23:01:54.471Z",
       "lookbackHours": 504,
       "headlines": [
         {
@@ -3594,12 +3600,12 @@
           "published": "Tue, 13 Oct 2026 17:00:00 +0700"
         },
         {
-          "title": "Indonesia wildfire fuelled by El Niño razes almost 300 homes",
-          "summary": "Hundreds of people displaced in Bangka Belitung province as shift in wind direction drove blaze towards settlement A forest fire on Indonesia’s Sumatra island fuelled by El Niño has razed nearly 300 homes, forcing hundreds of people to evacuate, an official…",
-          "url": "https://www.theguardian.com/world/2026/oct/13/indonesia-wildfire-el-nino-razes-300-homes-bankga-belitung",
-          "publisher": "The Guardian",
+          "title": "Who's to blame for the toxic smog choking South East Asia?",
+          "summary": "Anger is mounting at the companies accused of burning land in Indonesia and the authorities who have failed to stop them.",
+          "url": "https://www.bbc.co.uk/news/articles/ckreyq9re0n0o?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
           "region": "Indonesia",
-          "published": "Tue, 13 Oct 2026 12:44:44 GMT"
+          "published": "Tue, 13 Oct 2026 22:01:43 GMT"
         },
         {
           "title": "IPCC is under pressure to delay publication of key global climate report",
@@ -3610,20 +3616,20 @@
           "published": "Tue, 13 Oct 2026 05:00:15 GMT"
         },
         {
-          "title": "Mexican gang kidnaps officials to force detained member's release",
-          "summary": "The gang seized the officials shortly after a high-ranking member was detained, demanding he be released.",
-          "url": "https://www.bbc.co.uk/news/articles/c5zjxnm1y02po?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
+          "title": "California coastal homes battered and bruised after weekend of intense waves and flooding",
+          "summary": "Boardwalk destroyed in Long Beach and homes damaged, while Baja California in Mexico and Las Vegas also affected Southern California coastal communities are picking up the pieces after a weekend of extreme weather brought flooding that overtook city streets…",
+          "url": "https://www.theguardian.com/us-news/2026/oct/13/california-storm-floods",
+          "publisher": "The Guardian",
           "region": "South & Central America",
-          "published": "Tue, 13 Oct 2026 12:55:14 GMT"
+          "published": "Tue, 13 Oct 2026 21:29:08 GMT"
         },
         {
-          "title": "Rwanda to host a Grand Prix in 2030s as Formula One returns to Africa",
-          "summary": "Rwanda has secured a 10-year deal to host F1 races at a purpose-built race track on the outskirts of the capital, Kigali.",
-          "url": "https://www.aljazeera.com/sports/2026/10/13/rwanda-to-host-a-grand-prix-in-2030s-as-formula-one-returns-to-africa?traffic_source=rss",
+          "title": "US trial begins for Rwandan-American accused of role in genocide",
+          "summary": "Eric Nshimiye, a US citizen, says the evidence against him consists of unreliable eyewitness accounts.",
+          "url": "https://www.aljazeera.com/news/2026/10/13/us-trial-begins-for-rwandan-american-accused-of-role-in-genocide?traffic_source=rss",
           "publisher": "Al Jazeera",
           "region": "East Africa",
-          "published": "Tue, 13 Oct 2026 12:59:27 +0000"
+          "published": "Tue, 13 Oct 2026 22:15:44 +0000"
         },
         {
           "title": "Marina Silva on Flávio Bolsonaro: He will try to finish his father’s ‘perverse project’ to destroy the Amazon",
@@ -3642,12 +3648,12 @@
           "published": "Tue, 13 Oct 2026 16:00:00 +0700"
         },
         {
-          "title": "Indonesia's official says its forests 'send oxygen' to Malaysia, Singapore when there's no haze",
-          "summary": "An Indonesian official described the forest fires causing haze across Malaysia and Singapore as a natural phenomenon, claiming that Indonesia's forests also supply oxygen to its neighbors.",
-          "url": "https://e.vnexpress.net/news/news/environment/indonesia-s-official-says-its-forests-send-oxygen-to-malaysia-singapore-when-there-s-no-haze-5131789.html",
-          "publisher": "VnExpress International",
+          "title": "Eight orangutans find new forest home in Indonesia after wildfire rescue",
+          "summary": "Eight endangered orangutans were released into a protected forest in Indonesia after wildfires destroyed their habitat.",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/13/10-13-orangutans-new-home-clip-mp4?traffic_source=rss",
+          "publisher": "Al Jazeera",
           "region": "Indonesia",
-          "published": "Tue, 13 Oct 2026 16:17:37 +0700"
+          "published": "Tue, 13 Oct 2026 19:24:50 +0000"
         },
         {
           "title": "The billion-dollar shipwreck and the man who tried to find it – podcast",
@@ -3663,7 +3669,7 @@
           "url": "https://www.theguardian.com/uk-news/2026/oct/13/britain-interpol-reject-argentina-falkland-islands-arrests",
           "publisher": "The Guardian",
           "region": "South & Central America",
-          "published": "Tue, 13 Oct 2026 11:00:55 GMT"
+          "published": "Tue, 13 Oct 2026 17:42:03 GMT"
         },
         {
           "title": "Rwanda to host F1's first race in Africa since 1993",
@@ -3671,7 +3677,7 @@
           "url": "https://www.bbc.co.uk/sport/formula1/articles/c5rmy3v3mn9jo?at_medium=RSS&amp;at_campaign=rss",
           "publisher": "BBC News",
           "region": "East Africa",
-          "published": "Tue, 13 Oct 2026 09:20:09 GMT"
+          "published": "Tue, 13 Oct 2026 13:21:02 GMT"
         },
         {
           "title": "Flávio Bolsonaro’s advance in Brazil’s election is grim jolt for climate campaigners",
@@ -3690,22 +3696,57 @@
           "published": "Tue, 13 Oct 2026 13:33:27 +0700"
         }
       ],
-      "totalTagged": 135,
+      "totalTagged": 137,
       "feedsQueried": 14,
       "errors": [],
       "note": "General headlines from the growing regions, taken from outlets of record and tagged to a region by the countries and cities they name."
     },
     "roundup": {
       "source": "assembled",
-      "fetchedAt": "2026-10-13T13:19:23.780Z",
+      "fetchedAt": "2026-10-13T23:01:53.427Z",
       "windowDays": 7,
       "publishers": [
         "Daily Coffee News",
-        "Fresh Cup",
         "Specialty Coffee Association",
         "World Coffee Portal"
       ],
       "items": [
+        {
+          "headline": "Presenting the 2027 Roaster of the Year Finalists",
+          "summary": "Roast magazine is thrilled to announce the finalists for the 23rd Annual Roaster of the Year awards! The Micro Roaster category includes companies roasting less than 100,000 pounds of coffee each...",
+          "url": "https://dailycoffeenews.com/2026/10/13/presenting-the-2027-roaster-of-the-year-finalists/",
+          "publisher": "Daily Coffee News",
+          "published": "Tue, 13 Oct 2026 18:01:01 +0000",
+          "date": "Tue, 13 Oct",
+          "section": "Top stories of the week"
+        },
+        {
+          "headline": "NCA Convention Returns to Austin in March 2027",
+          "summary": "Registration is open for the 2027 National Coffee Association (NCA) Convention, taking place March 4-6 at the JW Marriott Austin in Austin, Texas. The U.S. coffee trade group expects approximately...",
+          "url": "https://dailycoffeenews.com/2026/10/13/nca-convention-returns-to-austin-in-march-2027/",
+          "publisher": "Daily Coffee News",
+          "published": "Tue, 13 Oct 2026 16:06:00 +0000",
+          "date": "Tue, 13 Oct",
+          "section": "Roasting & retail"
+        },
+        {
+          "headline": "The Mocha Monopoly: How Yemen’s Dominance of the Global Coffee Trade Birthed the Houthi Rebels",
+          "summary": "The Red Sea often makes headlines as the launch site for attacks on oil tankers and infrastructure by the Houthi rebels, a political and religious group that controls much of the northern and...",
+          "url": "https://dailycoffeenews.com/2026/10/13/the-mocha-monopoly-how-yemens-dominance-of-the-global-coffee-trade-birthed-the-houthi-rebels/",
+          "publisher": "Daily Coffee News",
+          "published": "Tue, 13 Oct 2026 12:52:39 +0000",
+          "date": "Tue, 13 Oct",
+          "section": "Roasting & retail"
+        },
+        {
+          "headline": "Hypnos Coffee Reawakens with Second Multiroaster Cafe in Portland",
+          "summary": "A multiroaster program is now a multi-location phenomenon on both sides of the Willamette River in Portland, Oregon, where Hypnos Coffee opened its second design-forward shop last month. The new...",
+          "url": "https://dailycoffeenews.com/2026/10/13/hypnos-coffee-reawakens-with-second-multiroaster-cafe-in-portland/",
+          "publisher": "Daily Coffee News",
+          "published": "Tue, 13 Oct 2026 12:38:17 +0000",
+          "date": "Tue, 13 Oct",
+          "section": "Roasting & retail"
+        },
         {
           "headline": "Starbucks pours cold water on Chipotle acquisition reports",
           "summary": "Speculation over building a potential new global QSR giant largely focused on the experience and leadership of current Starbucks CEO Brian Niccol",
@@ -3725,15 +3766,6 @@
           "section": "Roasting & retail"
         },
         {
-          "headline": "Coffee Decoded: What Makes Fruit-Dried Coffees Taste Fruity?",
-          "summary": "Welcome to Coffee, Decoded, the Specialty Coffee Association’s weekly column on science, research, and all things coffee knowledge. PETER GIULIANO, the SCA's Senior Advisor for Scientific Communication explores why fruit-dried coffees (including natural…",
-          "url": "https://sca.coffee/sca-news/coffee-decoded-20-fruit-dried-coffees-fruity",
-          "publisher": "Specialty Coffee Association",
-          "published": "Tue, 13 Oct 2026 05:33:35 +0000",
-          "date": "Tue, 13 Oct",
-          "section": "Roasting & retail"
-        },
-        {
           "headline": "Episode 223: Maxwell Colonna-Dashwood on the next era of specialty coffee",
           "summary": "Maxwell Colonna-Dashwood returns to 5THWAVE to explore the future of specialty coffee and what independent roasters can learn from larger commercial operations",
           "url": "https://www.worldcoffeeportal.com/podcast/episode-223-maxwell-colonna-dashwood-on-the-next-era-of-specialty-coffee/",
@@ -3743,15 +3775,6 @@
           "section": "Top stories of the week"
         },
         {
-          "headline": "Water: The most overlooked ingredient in coffee",
-          "summary": "What if the problem with your coffee isn’t the coffee at all?",
-          "url": "https://www.worldcoffeeportal.com/opinion/water-the-most-overlooked-ingredient-in-coffee-2/",
-          "publisher": "World Coffee Portal",
-          "published": "Mon, 12 Oct 2026 14:57:12 GMT",
-          "date": "Mon, 12 Oct",
-          "section": "Roasting & retail"
-        },
-        {
           "headline": "StoneX Acquiring Colombian Coffee Trader Integra",
           "summary": "Global financial services and commodities company StoneX Group said it signed an agreement to acquire Colombian green coffee processor and exporter Integra, expanding StoneX’s coffee operations in Colombia. The acquisition...",
           "url": "https://dailycoffeenews.com/2026/10/12/stonex-acquiring-colombian-coffee-trader-integra/",
@@ -3759,15 +3782,6 @@
           "published": "Mon, 12 Oct 2026 14:18:29 +0000",
           "date": "Mon, 12 Oct",
           "section": "Top stories of the week"
-        },
-        {
-          "headline": "Tempest Stirs Up Craft Coffee and Cocktails in Suburban Indianapolis",
-          "summary": "Swirling into suburban Indianapolis with aromas from its roastery, kitchen and craft cocktail bar, Tempest Artisan Coffee Bar has opened its first location in Brownsburg. Open since July, the shop’s...",
-          "url": "https://dailycoffeenews.com/2026/10/12/tempest-stirs-up-craft-coffee-and-cocktails-in-suburban-indianapolis/",
-          "publisher": "Daily Coffee News",
-          "published": "Mon, 12 Oct 2026 13:31:37 +0000",
-          "date": "Mon, 12 Oct",
-          "section": "Roasting & retail"
         },
         {
           "headline": "Back to profitability, back on the market? Coca-Cola reportedly revisits Costa Coffee sale",
@@ -3788,43 +3802,20 @@
           "section": "Top stories of the week"
         },
         {
-          "headline": "Wholesale Coffee Prices: 40+ Roasters Shared Their Rates and 2027 Plans",
-          "summary": "We surveyed 40+ roasters on what they charge for wholesale coffee, how they feel about those prices, and whether they plan to raise prices in 2027. The post Wholesale Coffee Prices: 40+ Roasters Shared Their Rates and 2027 Plans appeared first on Fresh Cup .",
-          "url": "https://freshcup.com/wholesale-coffee-prices-40-roasters-shared-their-rates-and-2027-plans/",
-          "publisher": "Fresh Cup",
-          "published": "Fri, 09 Oct 2026 11:50:00 +0000",
-          "date": "Fri, 9 Oct",
-          "section": "Top stories of the week"
-        },
-        {
           "headline": "The UK’s Rounton Coffee to double production following roastery relocation",
           "summary": "The move represents a near six-figure investment for the specialty coffee roaster, which uses Loring S35 Kestrel and S15 Falcon convection coffee roasters",
           "url": "https://www.worldcoffeeportal.com/news/the-uks-rounton-coffee-to-ramp-up-production-following-roastery-relocation/",
           "publisher": "World Coffee Portal",
           "published": "Fri, 09 Oct 2026 11:10:56 GMT",
           "date": "Fri, 9 Oct",
-          "section": "Trade & production"
-        },
-        {
-          "headline": "The ICO Launches New Dashboard for Coffee Trade and Market Data",
-          "summary": "The International Coffee Organization wants its new market intelligence platform to help the industry make data-driven decisions. The post The ICO Launches New Dashboard for Coffee Trade and Market Data appeared first on Fresh Cup .",
-          "url": "https://freshcup.com/the-ico-launches-new-dashboard-for-coffee-trade-and-market-data/",
-          "publisher": "Fresh Cup",
-          "published": "Thu, 08 Oct 2026 12:00:00 +0000",
-          "date": "Thu, 8 Oct",
-          "section": "Trade & production"
-        },
-        {
-          "headline": "EUDR Compliance Gaps Persist for Smallholders, New Report Finds",
-          "summary": "As the European Union Deforestation Regulation (EUDR) heads toward its Dec. 30 application date, a new report from the International Institute for Sustainable Development (IISD) suggests many smallholders still lack...",
-          "url": "https://dailycoffeenews.com/2026/10/07/eudr-compliance-gaps-persist-for-smallholders-new-report-finds/",
-          "publisher": "Daily Coffee News",
-          "published": "Wed, 07 Oct 2026 14:36:43 +0000",
-          "date": "Wed, 7 Oct",
           "section": "Top stories of the week"
         }
       ],
       "errors": [
+        {
+          "feed": "Fresh Cup",
+          "error": "HTTP 403 for https://freshcup.com/feed/"
+        },
         {
           "feed": "Sprudge",
           "error": "HTTP 403 for https://sprudge.com/feed"
@@ -3833,7 +3824,7 @@
       "note": "Assembled from the coffee trade press over the past seven days, ranked by relevance to the physical trade. Headlines and links are each publisher’s own."
     },
     "dailyRead": {
-      "fetchedAt": "2026-10-13T13:19:22.077Z",
+      "fetchedAt": "2026-10-13T23:01:51.487Z",
       "article": {
         "title": "StoneX Acquiring Colombian Coffee Trader Integra",
         "summary": "Global financial services and commodities company StoneX Group said it signed an agreement to acquire Colombian green coffee processor and exporter Integra, expanding StoneX’s coffee operations in Colombia. The acquisition...",
@@ -4161,38 +4152,38 @@
     {
       "source": "daily-read",
       "ok": true,
-      "ms": 525
-    },
-    {
-      "source": "arabica-futures",
-      "ok": true,
-      "ms": 729
+      "ms": 200
     },
     {
       "source": "weather",
       "ok": true,
-      "ms": 1195
+      "ms": 352
     },
     {
-      "source": "weekly-recap",
+      "source": "arabica-futures",
       "ok": true,
-      "ms": 2230
-    },
-    {
-      "source": "origin-wire",
-      "ok": true,
-      "ms": 2260
+      "ms": 644
     },
     {
       "source": "fx",
       "ok": true,
-      "ms": 2300
+      "ms": 1152
     },
     {
       "source": "ico-report",
       "ok": false,
-      "ms": 2944,
-      "error": "indicator prices: no month-labelled rows found"
+      "ms": 1640,
+      "error": "Table 1 (indicator prices) not found"
+    },
+    {
+      "source": "weekly-recap",
+      "ok": true,
+      "ms": 2143
+    },
+    {
+      "source": "origin-wire",
+      "ok": true,
+      "ms": 3190
     }
   ]
 }

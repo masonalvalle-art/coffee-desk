@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T23:01:54.473Z",
+  "generatedAt": "2026-10-14T10:59:08.422Z",
   "schema": 5,
   "schedule": {
     "slotsUtc": [
@@ -26,8 +26,8 @@
       "frontMonth": {
         "code": "KCZ26",
         "label": "Dec 2026",
-        "close": 293.2,
-        "volume": 16262
+        "close": 295.65,
+        "volume": 2042
       },
       "rolled": false,
       "mostActive": "KCZ26",
@@ -35,66 +35,58 @@
         {
           "code": "KCZ26",
           "label": "Dec 2026",
-          "close": 293.2,
-          "volume": 16262
+          "close": 295.65,
+          "volume": 2042
         },
         {
           "code": "KCH27",
           "label": "Mar 2027",
-          "close": 285.65,
-          "volume": 9327
+          "close": 288.05,
+          "volume": 988
         },
         {
           "code": "KCK27",
           "label": "May 2027",
-          "close": 282.25,
-          "volume": 3672
+          "close": 284.95,
+          "volume": 418
         },
         {
           "code": "KCN27",
           "label": "Jul 2027",
-          "close": 279.75,
-          "volume": 1333
+          "close": 282.3,
+          "volume": 101
         },
         {
           "code": "KCU27",
           "label": "Sep 2027",
-          "close": 277.2,
-          "volume": 332
+          "close": 279.9,
+          "volume": 26
         },
         {
           "code": "KCZ27",
           "label": "Dec 2027",
-          "close": 274.85,
-          "volume": 160
+          "close": 276.85,
+          "volume": 4
         },
         {
           "code": "KCH28",
           "label": "Mar 2028",
-          "close": 272.75,
+          "close": 273.15,
           "volume": 35
         }
       ],
       "quote": {
-        "last": 285.65,
-        "open": 284,
+        "last": 288.45,
+        "open": 285.25,
         "high": 288.8999938964844,
-        "low": 283.29998779296875,
-        "previousClose": 283.5,
-        "change": 2.15,
-        "changePct": 0.758,
-        "volume": 9327,
-        "asOf": "2026-10-13T17:29:55.000Z"
+        "low": 285.04998779296875,
+        "previousClose": 285.5,
+        "change": 2.95,
+        "changePct": 1.033,
+        "volume": 966,
+        "asOf": "2026-10-14T10:39:00.000Z"
       },
       "bars": [
-        {
-          "date": "2025-07-08",
-          "open": 245.89999389648438,
-          "high": 249.9499969482422,
-          "low": 244.39999389648438,
-          "close": 251.1999969482422,
-          "volume": 41
-        },
         {
           "date": "2025-07-09",
           "open": 248.64999389648438,
@@ -2637,22 +2629,30 @@
           "high": 283.8500061035156,
           "low": 276.45001220703125,
           "close": 283.5,
-          "volume": 8567
+          "volume": 8441
         },
         {
           "date": "2026-10-13",
           "open": 284,
           "high": 288.8999938964844,
-          "low": 283.29998779296875,
-          "close": 285.6499938964844,
-          "volume": 9327
+          "low": 283.25,
+          "close": 285.5,
+          "volume": 8441
+        },
+        {
+          "date": "2026-10-14",
+          "open": 285.25,
+          "high": 288.8999938964844,
+          "low": 285.04998779296875,
+          "close": 288.45001220703125,
+          "volume": 966
         }
       ],
       "crossCheck": {
-        "tradingView": 285.65,
-        "yahoo": 285.65,
-        "diff": 0,
-        "diffPct": 0,
+        "tradingView": 288.05,
+        "yahoo": 288.45,
+        "diff": -0.4,
+        "diffPct": -0.139,
         "agree": true
       },
       "sources": [
@@ -2668,17 +2668,17 @@
         }
       ],
       "technicals": {
-        "observations": 503,
-        "sma20": 277.7300003051758,
-        "sma50": 290.8529992675781,
-        "sma200": 280.88824981689453,
-        "rsi14": 52.34142690260537,
+        "observations": 504,
+        "sma20": 278.47750091552734,
+        "sma50": 290.62499938964845,
+        "sma200": 280.77174987792966,
+        "rsi14": 54.65319101232325,
         "macd": {
-          "line": -0.5267549197014318,
-          "signal": -2.084628214466373,
-          "histogram": 1.5578732947649412
+          "line": -0.015071398078589482,
+          "signal": -1.6726313032009228,
+          "histogram": 1.6575599051223333
         },
-        "atr14": 9.379726304769756,
+        "atr14": 8.988061807275042,
         "donchian20": {
           "high": 300,
           "low": 262.6000061035156,
@@ -2687,16 +2687,16 @@
         "levels": {
           "support": [
             {
+              "price": 287.20001220703125,
+              "date": "2026-07-24"
+            },
+            {
               "price": 285.45001220703125,
               "date": "2025-06-03"
             },
             {
               "price": 283.79998779296875,
               "date": "2025-09-19"
-            },
-            {
-              "price": 281.8500061035156,
-              "date": "2025-03-27"
             }
           ],
           "resistance": [
@@ -2719,10 +2719,10 @@
           "low": 207.8000030517578
         },
         "method": "Wilder RSI(14); MACD(12,26,9) on EMA; ATR(14); pivots = 5-bar swing highs/lows; Donchian(20).",
-        "basis": "503 daily bars for KCH27"
+        "basis": "504 daily bars for KCH27"
       },
       "barsPublished": 320,
-      "barsAnalysed": 503
+      "barsAnalysed": 504
     }
   },
   "fx": {
@@ -3252,7 +3252,7 @@
     ]
   },
   "weather": {
-    "fetchedAt": "2026-10-13T23:01:51.632Z",
+    "fetchedAt": "2026-10-14T10:58:58.647Z",
     "thresholds": {
       "frostC": 4,
       "heavyRainMm": 50,
@@ -3277,19 +3277,19 @@
         "lat": -21.55,
         "lon": -45.43,
         "current": {
-          "date": "2026-10-12",
-          "tMax": 22.5,
-          "tMin": 17.5,
-          "rain": 11.1,
-          "code": 81,
-          "cloud": 94,
+          "date": "2026-10-13",
+          "tMax": 28.1,
+          "tMin": 16.4,
+          "rain": 0.6,
+          "code": 51,
+          "cloud": 22,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 83.8,
-        "rainForecast7": 29.7,
-        "minForecast7": 13.8,
+        "rain14": 84.1,
+        "rainForecast7": 39.9,
+        "minForecast7": 14.4,
         "alerts": []
       },
       {
@@ -3300,19 +3300,19 @@
         "lat": -18.94,
         "lon": -46.99,
         "current": {
-          "date": "2026-10-12",
-          "tMax": 27.7,
-          "tMin": 17.9,
-          "rain": 0.9,
-          "code": 53,
-          "cloud": 75,
+          "date": "2026-10-13",
+          "tMax": 29.8,
+          "tMin": 19.1,
+          "rain": 2.3,
+          "code": 80,
+          "cloud": 25,
           "observed": true
         },
-        "condition": "cloudy",
-        "conditionLabel": "Cloudy",
-        "rain14": 50.1,
-        "rainForecast7": 40.9,
-        "minForecast7": 15.2,
+        "condition": "dry",
+        "conditionLabel": "Clear / dry",
+        "rain14": 52.4,
+        "rainForecast7": 36.5,
+        "minForecast7": 15.6,
         "alerts": []
       },
       {
@@ -3323,20 +3323,26 @@
         "lat": -19.39,
         "lon": -40.07,
         "current": {
-          "date": "2026-10-12",
-          "tMax": 32.2,
-          "tMin": 22.6,
+          "date": "2026-10-13",
+          "tMax": 33.1,
+          "tMin": 22.9,
           "rain": 0,
           "code": 3,
-          "cloud": 40,
+          "cloud": 27,
           "observed": true
         },
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
-        "rain14": 28,
-        "rainForecast7": 31.7,
-        "minForecast7": 20.7,
-        "alerts": []
+        "rain14": 27.9,
+        "rainForecast7": 72,
+        "minForecast7": 21.9,
+        "alerts": [
+          {
+            "type": "wet",
+            "severity": "watch",
+            "text": "72 mm forecast over 7 days — harvest/drying disruption risk."
+          }
+        ]
       },
       {
         "key": "dak-lak",
@@ -3346,19 +3352,19 @@
         "lat": 12.68,
         "lon": 108.05,
         "current": {
-          "date": "2026-10-12",
-          "tMax": 28.9,
-          "tMin": 22.2,
-          "rain": 3.2,
+          "date": "2026-10-13",
+          "tMax": 29,
+          "tMin": 22.7,
+          "rain": 3.1,
           "code": 55,
           "cloud": 85,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 72.6,
-        "rainForecast7": 27.9,
-        "minForecast7": 22.6,
+        "rain14": 75.5,
+        "rainForecast7": 29.5,
+        "minForecast7": 22,
         "alerts": []
       },
       {
@@ -3369,24 +3375,24 @@
         "lat": 11.55,
         "lon": 107.81,
         "current": {
-          "date": "2026-10-12",
-          "tMax": 27.6,
-          "tMin": 19.8,
-          "rain": 18.1,
+          "date": "2026-10-13",
+          "tMax": 27.7,
+          "tMin": 19.6,
+          "rain": 10.5,
           "code": 95,
-          "cloud": 89,
+          "cloud": 91,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 107.4,
-        "rainForecast7": 77.4,
-        "minForecast7": 18.7,
+        "rain14": 117.8,
+        "rainForecast7": 75.2,
+        "minForecast7": 18.4,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "77 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "75 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3398,19 +3404,19 @@
         "lat": 1.85,
         "lon": -76.05,
         "current": {
-          "date": "2026-10-12",
-          "tMax": 26.4,
-          "tMin": 17.4,
-          "rain": 5.8,
+          "date": "2026-10-13",
+          "tMax": 28.2,
+          "tMin": 16.8,
+          "rain": 6.3,
           "code": 81,
-          "cloud": 89,
+          "cloud": 63,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 88.8,
-        "rainForecast7": 39,
-        "minForecast7": 16.4,
+        "rain14": 92.5,
+        "rainForecast7": 27.8,
+        "minForecast7": 16.8,
         "alerts": []
       },
       {
@@ -3421,24 +3427,24 @@
         "lat": 6.25,
         "lon": -75.56,
         "current": {
-          "date": "2026-10-12",
-          "tMax": 25,
-          "tMin": 18,
-          "rain": 23.7,
-          "code": 95,
-          "cloud": 98,
+          "date": "2026-10-13",
+          "tMax": 23.4,
+          "tMin": 17.4,
+          "rain": 10,
+          "code": 81,
+          "cloud": 96,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 100.2,
-        "rainForecast7": 60.6,
-        "minForecast7": 15.7,
+        "rain14": 108.7,
+        "rainForecast7": 66.9,
+        "minForecast7": 15.3,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "61 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "67 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3450,24 +3456,24 @@
         "lat": 4.63,
         "lon": 96.85,
         "current": {
-          "date": "2026-10-12",
-          "tMax": 24.4,
-          "tMin": 18.2,
-          "rain": 11.4,
-          "code": 80,
-          "cloud": 98,
+          "date": "2026-10-13",
+          "tMax": 25.5,
+          "tMin": 17.8,
+          "rain": 17.9,
+          "code": 95,
+          "cloud": 96,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 226.6,
-        "rainForecast7": 118.6,
-        "minForecast7": 16.5,
+        "rain14": 244.5,
+        "rainForecast7": 70.4,
+        "minForecast7": 16.9,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "119 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "70 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3479,19 +3485,19 @@
         "lat": -5.45,
         "lon": 105.27,
         "current": {
-          "date": "2026-10-12",
-          "tMax": 32.6,
-          "tMin": 25.4,
-          "rain": 2.5,
-          "code": 53,
-          "cloud": 51,
+          "date": "2026-10-13",
+          "tMax": 32.5,
+          "tMin": 25.7,
+          "rain": 7.7,
+          "code": 80,
+          "cloud": 41,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 53.3,
-        "rainForecast7": 18.5,
-        "minForecast7": 24.4,
+        "rain14": 61.4,
+        "rainForecast7": 11.8,
+        "minForecast7": 23.7,
         "alerts": []
       },
       {
@@ -3502,19 +3508,19 @@
         "lat": 7.67,
         "lon": 36.83,
         "current": {
-          "date": "2026-10-12",
-          "tMax": 23.9,
-          "tMin": 14.8,
-          "rain": 4,
-          "code": 55,
-          "cloud": 84,
+          "date": "2026-10-13",
+          "tMax": 23.4,
+          "tMin": 14.3,
+          "rain": 9.1,
+          "code": 80,
+          "cloud": 70,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 38.4,
-        "rainForecast7": 26.5,
-        "minForecast7": 13.2,
+        "rain14": 48.6,
+        "rainForecast7": 12.8,
+        "minForecast7": 12.4,
         "alerts": []
       },
       {
@@ -3525,19 +3531,19 @@
         "lat": 14.16,
         "lon": -88.02,
         "current": {
-          "date": "2026-10-12",
-          "tMax": 25.8,
-          "tMin": 17.2,
-          "rain": 3.8,
+          "date": "2026-10-13",
+          "tMax": 24.6,
+          "tMin": 17.9,
+          "rain": 2.9,
           "code": 53,
-          "cloud": 93,
+          "cloud": 99,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 117.8,
-        "rainForecast7": 29.1,
-        "minForecast7": 15.7,
+        "rain14": 109.9,
+        "rainForecast7": 34.4,
+        "minForecast7": 15.3,
         "alerts": []
       },
       {
@@ -3548,24 +3554,24 @@
         "lat": -11.05,
         "lon": -75.33,
         "current": {
-          "date": "2026-10-12",
-          "tMax": 31.1,
-          "tMin": 19.4,
-          "rain": 1.9,
-          "code": 53,
-          "cloud": 57,
+          "date": "2026-10-13",
+          "tMax": 31.7,
+          "tMin": 20.7,
+          "rain": 4.6,
+          "code": 80,
+          "cloud": 60,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 70.8,
-        "rainForecast7": 71.5,
-        "minForecast7": 19.6,
+        "rain14": 68.6,
+        "rainForecast7": 54,
+        "minForecast7": 19.5,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "72 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "54 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       }
@@ -3580,32 +3586,32 @@
   },
   "news": {
     "originWire": {
-      "fetchedAt": "2026-10-13T23:01:54.471Z",
+      "fetchedAt": "2026-10-14T10:59:04.480Z",
       "lookbackHours": 504,
       "headlines": [
         {
-          "title": "How a scandal engulfing Brazil’s top court could return the Bolsonaros to power",
-          "summary": "The judge who helped convict Jair Bolsonaro is caught up in a crisis that could benefit his son and damage Lula Marina Silva on Flávio Bolsonaro: He will try to finish his father’s ‘perverse project’ to destroy the Amazon Thundering to a crowd of thousands of…",
-          "url": "https://www.theguardian.com/world/2026/oct/13/scandal-brazil-court-jair-flavio-bolsonaro-power-election-moraes-lula",
-          "publisher": "The Guardian",
+          "title": "Shampoo bottles from Brazil hide one of Bali's largest liquid cocaine hauls in years",
+          "summary": "A 36-year-old Brazilian woman is being held in Bali on suspicion of smuggling more than 3.6 kg of liquid cocaine into Indonesia in shampoo and body care bottles, police said.",
+          "url": "https://e.vnexpress.net/news/news/crime/shampoo-bottles-from-brazil-hide-one-of-bali-s-largest-liquid-cocaine-hauls-in-years-5131948.html",
+          "publisher": "VnExpress International",
           "region": "Brazil",
-          "published": "Tue, 13 Oct 2026 10:00:05 GMT"
+          "published": "Wed, 14 Oct 2026 09:29:51 +0700"
         },
         {
-          "title": "Hanoi adds greenery to transport infrastructure to reduce urban heat",
-          "summary": "Vietnam's capital is stepping up efforts to plant more trees and greenery around transport infrastructure and public spaces to improve the urban landscape, reduce heat and enhance environmental quality.",
-          "url": "https://e.vnexpress.net/photo/traffic/hanoi-adds-greenery-to-transport-infrastructure-to-reduce-urban-heat-5130898.html",
+          "title": "Hanoi apartment sales plunge 50% in Q3",
+          "summary": "Sales of new apartments in Hanoi were only 31% of the inventory on offer in the third quarter, compared with 70-80% a year earlier, amid prices exceeding affordability and high interest rates, a new report shows.",
+          "url": "https://e.vnexpress.net/news/business/property/hanoi-apartment-sales-plunge-50-in-q3-5132193.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Tue, 13 Oct 2026 17:00:00 +0700"
+          "published": "Wed, 14 Oct 2026 16:38:33 +0700"
         },
         {
-          "title": "Who's to blame for the toxic smog choking South East Asia?",
-          "summary": "Anger is mounting at the companies accused of burning land in Indonesia and the authorities who have failed to stop them.",
-          "url": "https://www.bbc.co.uk/news/articles/ckreyq9re0n0o?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
+          "title": "Malaysia's Firefly extends Kuala Lumpur – Singapore flight cancellations due to haze",
+          "summary": "Malaysian low-cost carrier Firefly extended cancellations of flights between Kuala Lumpur and Singapore until Wedneday, the airline said, as haze from fires in neighboring Indonesia chokes air quality in the region.",
+          "url": "https://e.vnexpress.net/news/news/environment/malaysia-s-firefly-extends-kuala-lumpur-singapore-flight-cancellations-due-to-haze-5132121.html",
+          "publisher": "VnExpress International",
           "region": "Indonesia",
-          "published": "Tue, 13 Oct 2026 22:01:43 GMT"
+          "published": "Wed, 14 Oct 2026 11:10:05 +0700"
         },
         {
           "title": "IPCC is under pressure to delay publication of key global climate report",
@@ -3616,44 +3622,44 @@
           "published": "Tue, 13 Oct 2026 05:00:15 GMT"
         },
         {
-          "title": "California coastal homes battered and bruised after weekend of intense waves and flooding",
-          "summary": "Boardwalk destroyed in Long Beach and homes damaged, while Baja California in Mexico and Las Vegas also affected Southern California coastal communities are picking up the pieces after a weekend of extreme weather brought flooding that overtook city streets…",
-          "url": "https://www.theguardian.com/us-news/2026/oct/13/california-storm-floods",
+          "title": "Mistura review – ice queen brings Peruvian culinary drama to a gentle simmer",
+          "summary": "Bárbara Mori stars in tepid tale of a high-society wife who opens a restaurant in her home after her husband leaves her What you expect from a film about a fancy high-end restaurant is a certain amount of heat: the roiling intensity of staff pushed to their…",
+          "url": "https://www.theguardian.com/film/2026/oct/14/mistura-review-peruvian-drama-barbara-mori",
           "publisher": "The Guardian",
           "region": "South & Central America",
-          "published": "Tue, 13 Oct 2026 21:29:08 GMT"
+          "published": "Wed, 14 Oct 2026 10:00:03 GMT"
         },
         {
-          "title": "US trial begins for Rwandan-American accused of role in genocide",
-          "summary": "Eric Nshimiye, a US citizen, says the evidence against him consists of unreliable eyewitness accounts.",
-          "url": "https://www.aljazeera.com/news/2026/10/13/us-trial-begins-for-rwandan-american-accused-of-role-in-genocide?traffic_source=rss",
-          "publisher": "Al Jazeera",
+          "title": "From black soldier flies to mealworms: farming insects for food, fodder and fertiliser in Uganda",
+          "summary": "Cultivating the nutritious bugs means families can raise livestock and enrich their own food, while lowering pressures on the land A few minutes’ walk from his home in the Kyaka II refugee settlement, Kanane Bikanyale feeds black soldier fly larvae to…",
+          "url": "https://www.theguardian.com/global-development/2026/oct/14/farming-insects-food-fodder-fertiliser-uganda",
+          "publisher": "The Guardian",
           "region": "East Africa",
-          "published": "Tue, 13 Oct 2026 22:15:44 +0000"
+          "published": "Wed, 14 Oct 2026 10:00:01 GMT"
         },
         {
-          "title": "Marina Silva on Flávio Bolsonaro: He will try to finish his father’s ‘perverse project’ to destroy the Amazon",
-          "summary": "Exclusive: Former Brazilian environment minister warns of destruction as far-right scion favourite to become president The former Brazilian environment minister Marina Silva has said that if Flávio Bolsonaro becomes president he will seek to finish the…",
-          "url": "https://www.theguardian.com/world/2026/oct/10/marina-silva-flavio-bolsonaro-the-amazon-brazil-president-far-right",
+          "title": "How a scandal engulfing Brazil’s top court could return the Bolsonaros to power",
+          "summary": "The judge who helped convict Jair Bolsonaro is caught up in a crisis that could benefit his son and damage Lula Marina Silva on Flávio Bolsonaro: He will try to finish his father’s ‘perverse project’ to destroy the Amazon Thundering to a crowd of thousands of…",
+          "url": "https://www.theguardian.com/world/2026/oct/13/scandal-brazil-court-jair-flavio-bolsonaro-power-election-moraes-lula",
           "publisher": "The Guardian",
           "region": "Brazil",
-          "published": "Sat, 10 Oct 2026 13:00:57 GMT"
+          "published": "Tue, 13 Oct 2026 10:00:05 GMT"
         },
         {
-          "title": "Vietnamese graduates fall short of employers' expectations in six key skills: report",
-          "summary": "Fresh graduates in Vietnam meet employers' expectations only in digital literacy, while time management and problem-solving show the widest gaps, a survey of 375 companies found.",
-          "url": "https://e.vnexpress.net/news/news/education/vietnamese-graduates-fall-short-of-employers-expectations-in-six-key-skills-report-5131450.html",
+          "title": "Gold prices slip",
+          "summary": "Vietnam's gold prices fell on Wednesday while global bullion rates were mostly firm.",
+          "url": "https://e.vnexpress.net/news/business/markets/gold-prices-slip-5132229.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Tue, 13 Oct 2026 16:00:00 +0700"
+          "published": "Wed, 14 Oct 2026 14:41:53 +0700"
         },
         {
-          "title": "Eight orangutans find new forest home in Indonesia after wildfire rescue",
-          "summary": "Eight endangered orangutans were released into a protected forest in Indonesia after wildfires destroyed their habitat.",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/13/10-13-orangutans-new-home-clip-mp4?traffic_source=rss",
-          "publisher": "Al Jazeera",
+          "title": "Who's to blame for the toxic haze choking South East Asia?",
+          "summary": "Anger is mounting at the companies accused of burning land in Indonesia and the authorities who have failed to stop them.",
+          "url": "https://www.bbc.co.uk/news/articles/ckreyq9re0n0o?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
           "region": "Indonesia",
-          "published": "Tue, 13 Oct 2026 19:24:50 +0000"
+          "published": "Tue, 13 Oct 2026 22:01:43 GMT"
         },
         {
           "title": "The billion-dollar shipwreck and the man who tried to find it – podcast",
@@ -3664,53 +3670,62 @@
           "published": "Tue, 13 Oct 2026 02:00:11 GMT"
         },
         {
-          "title": "UK asks Interpol to reject Argentina’s ‘politically motivated’ requests for Falklands oil arrests",
-          "summary": "Exclusive: Caution urged over Javier Milei government’s ‘red notice’ requests for arrest of individuals linked to oil project Britain has appealed to Interpol to reject Argentina’s requests for the arrest of individuals involved in a large oil project off the…",
-          "url": "https://www.theguardian.com/uk-news/2026/oct/13/britain-interpol-reject-argentina-falkland-islands-arrests",
+          "title": "How Europe’s most wanted cocaine trafficker turned Sierra Leone into the world’s first true narco state",
+          "summary": "Drawing on dozens of interviews with intelligence and police officers across two continents, a Guardian investigation reveals the murderous cost of our insatiable appetite for cocaine Read more: Latin American organised crime ‘may operate in 16 European…",
+          "url": "https://www.theguardian.com/global-development/ng-interactive/2026/oct/14/europes-most-wanted-cocaine-trafficker-sierra-leone-crime-drugs-narco-state",
           "publisher": "The Guardian",
           "region": "South & Central America",
-          "published": "Tue, 13 Oct 2026 17:42:03 GMT"
+          "published": "Wed, 14 Oct 2026 06:00:46 GMT"
         },
         {
-          "title": "Rwanda to host F1's first race in Africa since 1993",
-          "summary": "Rwanda signs a 10-year deal with Formula 1 to host races in the African country, starting \"in the early 2030s\".",
-          "url": "https://www.bbc.co.uk/sport/formula1/articles/c5rmy3v3mn9jo?at_medium=RSS&amp;at_campaign=rss",
+          "title": "A 'landmark' moment - why has Rwanda been chosen to host F1?",
+          "summary": "How Rwanda has succeeded where Morocco and South Africa, among others, have failed by agreeing a deal to stage the African Grand Prix.",
+          "url": "https://www.bbc.co.uk/sport/formula1/articles/cw62yglre6y5o?at_medium=RSS&amp;at_campaign=rss",
           "publisher": "BBC News",
           "region": "East Africa",
-          "published": "Tue, 13 Oct 2026 13:21:02 GMT"
+          "published": "Tue, 13 Oct 2026 15:01:17 GMT"
         },
         {
-          "title": "Flávio Bolsonaro’s advance in Brazil’s election is grim jolt for climate campaigners",
-          "summary": "Inquest under way into why President Lula’s success in curbing Amazon deforestation has not led to success at polls More fire, more ash, more crime, more death. And a globally important ecosystem driven ever more rapidly towards a point of no return. That is…",
-          "url": "https://www.theguardian.com/world/2026/oct/07/flavio-bolsonaro-advance-brazil-election-jolt-climate-campaigners",
+          "title": "Marina Silva on Flávio Bolsonaro: He will try to finish his father’s ‘perverse project’ to destroy the Amazon",
+          "summary": "Exclusive: Former Brazilian environment minister warns of destruction as far-right scion favourite to become president The former Brazilian environment minister Marina Silva has said that if Flávio Bolsonaro becomes president he will seek to finish the…",
+          "url": "https://www.theguardian.com/world/2026/oct/10/marina-silva-flavio-bolsonaro-the-amazon-brazil-president-far-right",
           "publisher": "The Guardian",
           "region": "Brazil",
-          "published": "Wed, 07 Oct 2026 19:23:30 GMT"
+          "published": "Sat, 10 Oct 2026 13:00:57 GMT"
         },
         {
-          "title": "Ho Chi Minh City to eliminate 28 traffic bottlenecks by 2030",
-          "summary": "Ho Chi Minh City is rolling out major infrastructure projects over the next five years to eliminate 28 severe traffic bottlenecks, according to the Department of Construction.",
-          "url": "https://e.vnexpress.net/news/news/traffic/ho-chi-minh-city-to-eliminate-28-traffic-bottlenecks-by-2030-5131662.html",
+          "title": "Dollar slides against dong",
+          "summary": "The U.S. dollar slid against the Vietnamese dong on Wednesday while edging down against major currencies.",
+          "url": "https://e.vnexpress.net/news/business/markets/dollar-slides-against-dong-5132247.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Tue, 13 Oct 2026 13:33:27 +0700"
+          "published": "Wed, 14 Oct 2026 14:41:26 +0700"
         }
       ],
-      "totalTagged": 137,
+      "totalTagged": 134,
       "feedsQueried": 14,
       "errors": [],
       "note": "General headlines from the growing regions, taken from outlets of record and tagged to a region by the countries and cities they name."
     },
     "roundup": {
       "source": "assembled",
-      "fetchedAt": "2026-10-13T23:01:53.427Z",
+      "fetchedAt": "2026-10-14T10:59:03.555Z",
       "windowDays": 7,
       "publishers": [
         "Daily Coffee News",
-        "Specialty Coffee Association",
+        "Fresh Cup",
         "World Coffee Portal"
       ],
       "items": [
+        {
+          "headline": "Franke puts the design of its New A Line in focus",
+          "summary": "Award-winning design does more than shape how a fully automatic coffee machine looks. It enhances the guest experience, strengthens brand presence and turns every interaction into an opportunity to communicate A premium-looking coffee machine can still fall…",
+          "url": "https://www.worldcoffeeportal.com/news/franke-puts-the-design-of-its-new-a-line-in-focus/",
+          "publisher": "World Coffee Portal",
+          "published": "Wed, 14 Oct 2026 07:00:00 GMT",
+          "date": "Wed, 14 Oct",
+          "section": "Roasting & retail"
+        },
         {
           "headline": "Presenting the 2027 Roaster of the Year Finalists",
           "summary": "Roast magazine is thrilled to announce the finalists for the 23rd Annual Roaster of the Year awards! The Micro Roaster category includes companies roasting less than 100,000 pounds of coffee each...",
@@ -3718,7 +3733,7 @@
           "publisher": "Daily Coffee News",
           "published": "Tue, 13 Oct 2026 18:01:01 +0000",
           "date": "Tue, 13 Oct",
-          "section": "Top stories of the week"
+          "section": "Roasting & retail"
         },
         {
           "headline": "NCA Convention Returns to Austin in March 2027",
@@ -3730,38 +3745,20 @@
           "section": "Roasting & retail"
         },
         {
+          "headline": "Researchers Find Kopi Luwak-Like Fermentation Can Raise Liberica Coffee’s Score Ten Points",
+          "summary": "Bacteria often used in food fermentation, and in the digestive tracts of civet cats, have been found to have a dramatic impact on Liberica coffee's flavor. The post Researchers Find Kopi Luwak-Like Fermentation Can Raise Liberica Coffee’s Score Ten Points…",
+          "url": "https://freshcup.com/researchers-find-kopi-luwak-like-fermentation-can-raise-liberica-coffees-score-ten-points/",
+          "publisher": "Fresh Cup",
+          "published": "Tue, 13 Oct 2026 13:48:26 +0000",
+          "date": "Tue, 13 Oct",
+          "section": "Roasting & retail"
+        },
+        {
           "headline": "The Mocha Monopoly: How Yemen’s Dominance of the Global Coffee Trade Birthed the Houthi Rebels",
           "summary": "The Red Sea often makes headlines as the launch site for attacks on oil tankers and infrastructure by the Houthi rebels, a political and religious group that controls much of the northern and...",
           "url": "https://dailycoffeenews.com/2026/10/13/the-mocha-monopoly-how-yemens-dominance-of-the-global-coffee-trade-birthed-the-houthi-rebels/",
           "publisher": "Daily Coffee News",
           "published": "Tue, 13 Oct 2026 12:52:39 +0000",
-          "date": "Tue, 13 Oct",
-          "section": "Roasting & retail"
-        },
-        {
-          "headline": "Hypnos Coffee Reawakens with Second Multiroaster Cafe in Portland",
-          "summary": "A multiroaster program is now a multi-location phenomenon on both sides of the Willamette River in Portland, Oregon, where Hypnos Coffee opened its second design-forward shop last month. The new...",
-          "url": "https://dailycoffeenews.com/2026/10/13/hypnos-coffee-reawakens-with-second-multiroaster-cafe-in-portland/",
-          "publisher": "Daily Coffee News",
-          "published": "Tue, 13 Oct 2026 12:38:17 +0000",
-          "date": "Tue, 13 Oct",
-          "section": "Roasting & retail"
-        },
-        {
-          "headline": "Starbucks pours cold water on Chipotle acquisition reports",
-          "summary": "Speculation over building a potential new global QSR giant largely focused on the experience and leadership of current Starbucks CEO Brian Niccol",
-          "url": "https://www.worldcoffeeportal.com/news/starbucks-pours-cold-water-on-chipotle-acquisition-reports/",
-          "publisher": "World Coffee Portal",
-          "published": "Tue, 13 Oct 2026 09:27:11 GMT",
-          "date": "Tue, 13 Oct",
-          "section": "Roasting & retail"
-        },
-        {
-          "headline": "Meet the Members of the 2027 SCA Board of Directors",
-          "summary": "The SCA Board of Directors nominated three professionals who responded to our call for nominations this June",
-          "url": "https://sca.coffee/sca-news/announcements/webinar-meet-the-members-of-the-2025-sca-board-of-directors-fksd6-w3jac-ac5m5",
-          "publisher": "Specialty Coffee Association",
-          "published": "Tue, 13 Oct 2026 08:57:40 +0000",
           "date": "Tue, 13 Oct",
           "section": "Roasting & retail"
         },
@@ -3802,6 +3799,15 @@
           "section": "Top stories of the week"
         },
         {
+          "headline": "Wholesale Coffee Prices: 40+ Roasters Shared Their Rates and 2027 Plans",
+          "summary": "We surveyed 40+ roasters on what they charge for wholesale coffee, how they feel about those prices, and whether they plan to raise prices in 2027. The post Wholesale Coffee Prices: 40+ Roasters Shared Their Rates and 2027 Plans appeared first on Fresh Cup .",
+          "url": "https://freshcup.com/wholesale-coffee-prices-40-roasters-shared-their-rates-and-2027-plans/",
+          "publisher": "Fresh Cup",
+          "published": "Fri, 09 Oct 2026 11:50:00 +0000",
+          "date": "Fri, 9 Oct",
+          "section": "Top stories of the week"
+        },
+        {
           "headline": "The UK’s Rounton Coffee to double production following roastery relocation",
           "summary": "The move represents a near six-figure investment for the specialty coffee roaster, which uses Loring S35 Kestrel and S15 Falcon convection coffee roasters",
           "url": "https://www.worldcoffeeportal.com/news/the-uks-rounton-coffee-to-ramp-up-production-following-roastery-relocation/",
@@ -3809,13 +3815,18 @@
           "published": "Fri, 09 Oct 2026 11:10:56 GMT",
           "date": "Fri, 9 Oct",
           "section": "Top stories of the week"
+        },
+        {
+          "headline": "The ICO Launches New Dashboard for Coffee Trade and Market Data",
+          "summary": "The International Coffee Organization wants its new market intelligence platform to help the industry make data-driven decisions. The post The ICO Launches New Dashboard for Coffee Trade and Market Data appeared first on Fresh Cup .",
+          "url": "https://freshcup.com/the-ico-launches-new-dashboard-for-coffee-trade-and-market-data/",
+          "publisher": "Fresh Cup",
+          "published": "Thu, 08 Oct 2026 12:00:00 +0000",
+          "date": "Thu, 8 Oct",
+          "section": "Trade & production"
         }
       ],
       "errors": [
-        {
-          "feed": "Fresh Cup",
-          "error": "HTTP 403 for https://freshcup.com/feed/"
-        },
         {
           "feed": "Sprudge",
           "error": "HTTP 403 for https://sprudge.com/feed"
@@ -3824,7 +3835,7 @@
       "note": "Assembled from the coffee trade press over the past seven days, ranked by relevance to the physical trade. Headlines and links are each publisher’s own."
     },
     "dailyRead": {
-      "fetchedAt": "2026-10-13T23:01:51.487Z",
+      "fetchedAt": "2026-10-14T10:58:58.311Z",
       "article": {
         "title": "StoneX Acquiring Colombian Coffee Trader Integra",
         "summary": "Global financial services and commodities company StoneX Group said it signed an agreement to acquire Colombian green coffee processor and exporter Integra, expanding StoneX’s coffee operations in Colombia. The acquisition...",
@@ -4152,38 +4163,38 @@
     {
       "source": "daily-read",
       "ok": true,
-      "ms": 200
+      "ms": 612
     },
     {
       "source": "weather",
       "ok": true,
-      "ms": 352
+      "ms": 956
     },
     {
       "source": "arabica-futures",
       "ok": true,
-      "ms": 644
-    },
-    {
-      "source": "fx",
-      "ok": true,
-      "ms": 1152
-    },
-    {
-      "source": "ico-report",
-      "ok": false,
-      "ms": 1640,
-      "error": "Table 1 (indicator prices) not found"
+      "ms": 5023
     },
     {
       "source": "weekly-recap",
       "ok": true,
-      "ms": 2143
+      "ms": 5859
+    },
+    {
+      "source": "fx",
+      "ok": true,
+      "ms": 6430
     },
     {
       "source": "origin-wire",
       "ok": true,
-      "ms": 3190
+      "ms": 6788
+    },
+    {
+      "source": "ico-report",
+      "ok": false,
+      "ms": 10719,
+      "error": "Table 1 (indicator prices) not found"
     }
   ]
 }

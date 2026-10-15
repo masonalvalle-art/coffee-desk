@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T10:41:03.066Z",
+  "generatedAt": "2026-10-15T21:39:45.378Z",
   "schema": 5,
   "schedule": {
     "slotsUtc": [
@@ -26,8 +26,8 @@
       "frontMonth": {
         "code": "KCZ26",
         "label": "Dec 2026",
-        "close": 294.05,
-        "volume": 1415
+        "close": 298.7,
+        "volume": 13054
       },
       "rolled": false,
       "mostActive": "KCZ26",
@@ -35,56 +35,56 @@
         {
           "code": "KCZ26",
           "label": "Dec 2026",
-          "close": 294.05,
-          "volume": 1415
+          "close": 298.7,
+          "volume": 13054
         },
         {
           "code": "KCH27",
           "label": "Mar 2027",
-          "close": 286,
-          "volume": 743
+          "close": 287.25,
+          "volume": 9734
         },
         {
           "code": "KCK27",
           "label": "May 2027",
-          "close": 282.4,
-          "volume": 418
+          "close": 283.25,
+          "volume": 3481
         },
         {
           "code": "KCN27",
           "label": "Jul 2027",
-          "close": 280.25,
-          "volume": 67
+          "close": 280.6,
+          "volume": 867
         },
         {
           "code": "KCU27",
           "label": "Sep 2027",
-          "close": 280.75,
-          "volume": 17
+          "close": 277.25,
+          "volume": 237
         },
         {
           "code": "KCZ27",
           "label": "Dec 2027",
-          "close": 278.1,
-          "volume": 5
+          "close": 274.6,
+          "volume": 102
         },
         {
           "code": "KCH28",
           "label": "Mar 2028",
-          "close": 277.1,
-          "volume": 36
+          "close": 272.35,
+          "volume": 1
         }
       ],
       "quote": {
-        "last": 285.7,
+        "last": 287.25,
         "open": 288.8500061035156,
         "high": 290.1000061035156,
-        "low": 285.3500061035156,
+        "low": 283.54998779296875,
         "previousClose": 290.1499938964844,
-        "change": -4.45,
-        "changePct": -1.534,
-        "volume": 723,
-        "asOf": "2026-10-15T10:20:06.000Z"
+        "change": -2.9,
+        "changePct": -0.999,
+        "volume": 9734,
+        "asOf": "2026-10-15T17:29:57.000Z"
       },
       "bars": [
         {
@@ -2501,7 +2501,7 @@
           "high": 274.5,
           "low": 266.3500061035156,
           "close": 268.45001220703125,
-          "volume": 6530
+          "volume": 5887
         },
         {
           "date": "2026-09-22",
@@ -2643,16 +2643,16 @@
           "date": "2026-10-15",
           "open": 288.8500061035156,
           "high": 290.1000061035156,
-          "low": 285.3500061035156,
-          "close": 285.70001220703125,
-          "volume": 723
+          "low": 283.54998779296875,
+          "close": 287.25,
+          "volume": 9734
         }
       ],
       "crossCheck": {
-        "tradingView": 286,
-        "yahoo": 285.7,
-        "diff": 0.3,
-        "diffPct": 0.105,
+        "tradingView": 287.25,
+        "yahoo": 287.25,
+        "diff": 0,
+        "diffPct": 0,
         "agree": true
       },
       "sources": [
@@ -2669,16 +2669,16 @@
       ],
       "technicals": {
         "observations": 504,
-        "sma20": 279.4200012207031,
-        "sma50": 290.3259991455078,
-        "sma200": 280.6399998474121,
-        "rsi14": 51.78490224212758,
+        "sma20": 279.49750061035155,
+        "sma50": 290.3569989013672,
+        "sma200": 280.64774978637695,
+        "rsi14": 53.16203730213689,
         "macd": {
-          "line": 0.2806958946385407,
-          "signal": -1.260268091642291,
-          "histogram": 1.5409639862808318
+          "line": 0.40434164450499566,
+          "signal": -1.2355389416690001,
+          "histogram": 1.6398805861739958
         },
-        "atr14": 9.08687284706949,
+        "atr14": 9.215445583537123,
         "donchian20": {
           "high": 300,
           "low": 262.6000061035156,
@@ -2687,16 +2687,16 @@
         "levels": {
           "support": [
             {
+              "price": 287.20001220703125,
+              "date": "2026-07-24"
+            },
+            {
               "price": 285.45001220703125,
               "date": "2025-06-03"
             },
             {
               "price": 283.79998779296875,
               "date": "2025-09-19"
-            },
-            {
-              "price": 281.8500061035156,
-              "date": "2025-03-27"
             }
           ],
           "resistance": [
@@ -2726,22 +2726,18 @@
     }
   },
   "fx": {
-    "asOf": "2026-10-14",
+    "asOf": "2026-10-15",
     "pairs": {
       "GBPUSD": {
         "pair": "GBP/USD",
-        "rate": 1.3267,
-        "previous": 1.3247,
+        "rate": 1.3247,
+        "previous": 1.3267,
         "dp": 4,
         "note": "Sterling stronger means a dollar-priced contract costs a UK buyer less.",
-        "change": 0.002,
-        "changePct": 0.151,
-        "change1m": -1.6,
+        "change": -0.002,
+        "changePct": -0.151,
+        "change1m": -1.55,
         "history": [
-          {
-            "date": "2026-07-23",
-            "rate": 1.3352
-          },
           {
             "date": "2026-07-24",
             "rate": 1.3324
@@ -2977,23 +2973,23 @@
           {
             "date": "2026-10-14",
             "rate": 1.3267
+          },
+          {
+            "date": "2026-10-15",
+            "rate": 1.3247
           }
         ]
       },
       "USDBRL": {
         "pair": "USD/BRL",
-        "rate": 5.0242,
-        "previous": 5.0165,
+        "rate": 5.057,
+        "previous": 5.0242,
         "dp": 4,
         "note": "A weaker real encourages Brazilian producer selling.",
-        "change": 0.0077,
-        "changePct": 0.153,
-        "change1m": -2.47,
+        "change": 0.0328,
+        "changePct": 0.653,
+        "change1m": -1.73,
         "history": [
-          {
-            "date": "2026-07-23",
-            "rate": 5.0715
-          },
           {
             "date": "2026-07-24",
             "rate": 5.0827
@@ -3229,14 +3225,18 @@
           {
             "date": "2026-10-14",
             "rate": 5.0242
+          },
+          {
+            "date": "2026-10-15",
+            "rate": 5.057
           }
         ]
       }
     },
     "ptax": {
-      "buy": 5.0435,
-      "sell": 5.0441,
-      "quotedAt": "2026-10-14 13:05:17.833426"
+      "buy": 5.0515,
+      "sell": 5.0521,
+      "quotedAt": "2026-10-15 13:05:33.305854"
     },
     "sources": [
       {
@@ -3252,7 +3252,7 @@
     ]
   },
   "weather": {
-    "fetchedAt": "2026-10-15T10:41:00.567Z",
+    "fetchedAt": "2026-10-15T21:39:42.199Z",
     "thresholds": {
       "frostC": 4,
       "heavyRainMm": 50,
@@ -3288,9 +3288,15 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 88.6,
-        "rainForecast7": 37.2,
-        "minForecast7": 13.5,
-        "alerts": []
+        "rainForecast7": 51.1,
+        "minForecast7": 14.2,
+        "alerts": [
+          {
+            "type": "wet",
+            "severity": "watch",
+            "text": "51 mm forecast over 7 days — harvest/drying disruption risk."
+          }
+        ]
       },
       {
         "key": "cerrado",
@@ -3311,15 +3317,9 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 60.3,
-        "rainForecast7": 52,
+        "rainForecast7": 37.9,
         "minForecast7": 15.4,
-        "alerts": [
-          {
-            "type": "wet",
-            "severity": "watch",
-            "text": "52 mm forecast over 7 days — harvest/drying disruption risk."
-          }
-        ]
+        "alerts": []
       },
       {
         "key": "espirito-santo",
@@ -3340,13 +3340,13 @@
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
         "rain14": 29.6,
-        "rainForecast7": 53,
-        "minForecast7": 21.4,
+        "rainForecast7": 61.9,
+        "minForecast7": 21.9,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "53 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "62 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3368,9 +3368,9 @@
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 78.4,
-        "rainForecast7": 35.5,
-        "minForecast7": 22,
+        "rain14": 77.3,
+        "rainForecast7": 32.5,
+        "minForecast7": 22.2,
         "alerts": []
       },
       {
@@ -3391,14 +3391,14 @@
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 120.4,
-        "rainForecast7": 85.3,
-        "minForecast7": 18.3,
+        "rain14": 118.1,
+        "rainForecast7": 106.2,
+        "minForecast7": 19,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "85 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "106 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3421,8 +3421,8 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 99.6,
-        "rainForecast7": 36.1,
-        "minForecast7": 16.7,
+        "rainForecast7": 36,
+        "minForecast7": 17,
         "alerts": []
       },
       {
@@ -3444,13 +3444,13 @@
         "condition": "very-wet",
         "conditionLabel": "Very wet",
         "rain14": 102.1,
-        "rainForecast7": 58.9,
-        "minForecast7": 16.4,
+        "rainForecast7": 63.7,
+        "minForecast7": 17.1,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "59 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "64 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3472,14 +3472,14 @@
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 240.5,
-        "rainForecast7": 72.5,
-        "minForecast7": 16.5,
+        "rain14": 234.5,
+        "rainForecast7": 70.5,
+        "minForecast7": 16.6,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "73 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "71 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3501,9 +3501,9 @@
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 57.3,
-        "rainForecast7": 12.6,
-        "minForecast7": 23.9,
+        "rain14": 51,
+        "rainForecast7": 14.8,
+        "minForecast7": 24.1,
         "alerts": []
       },
       {
@@ -3524,8 +3524,8 @@
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 45.1,
-        "rainForecast7": 10.9,
+        "rain14": 43.9,
+        "rainForecast7": 13.5,
         "minForecast7": 12.7,
         "alerts": []
       },
@@ -3548,9 +3548,15 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 98.7,
-        "rainForecast7": 37.2,
-        "minForecast7": 16.1,
-        "alerts": []
+        "rainForecast7": 55.1,
+        "minForecast7": 17.1,
+        "alerts": [
+          {
+            "type": "wet",
+            "severity": "watch",
+            "text": "55 mm forecast over 7 days — harvest/drying disruption risk."
+          }
+        ]
       },
       {
         "key": "chanchamayo",
@@ -3571,13 +3577,13 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 69.9,
-        "rainForecast7": 66,
-        "minForecast7": 19.5,
+        "rainForecast7": 52.6,
+        "minForecast7": 18.8,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "66 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "53 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       }
@@ -3592,16 +3598,16 @@
   },
   "news": {
     "originWire": {
-      "fetchedAt": "2026-10-15T10:41:03.063Z",
+      "fetchedAt": "2026-10-15T21:39:43.649Z",
       "lookbackHours": 504,
       "headlines": [
         {
-          "title": "Brazil's Congress approves shorter working week in win for Lula",
-          "summary": "Lula's supporters hope the measure will boost his popularity ahead of a presidential run-off in 10 days.",
-          "url": "https://www.bbc.co.uk/news/articles/cmwy43pp08elo?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
+          "title": "Poll shows Bolsonaro with slight lead over Lula ahead of Brazilian run-off",
+          "summary": "Poll shows right-wing candidate with two percent advantage over Lula going into second round of voting on October 25.",
+          "url": "https://www.aljazeera.com/news/2026/10/15/poll-shows-bolsonaro-with-slight-lead-over-lula-ahead-of-brazilian-run-off?traffic_source=rss",
+          "publisher": "Al Jazeera",
           "region": "Brazil",
-          "published": "Thu, 15 Oct 2026 10:05:17 GMT"
+          "published": "Thu, 15 Oct 2026 20:07:58 +0000"
         },
         {
           "title": "Gasoline prices decline",
@@ -3628,12 +3634,12 @@
           "published": "Tue, 13 Oct 2026 05:00:15 GMT"
         },
         {
-          "title": "The hidden costs of fracking: boom in Argentina linked to trail of sickness",
-          "summary": "Families in Vaca Muerta, the centre of Patagonia’s shale operation, report cancers, miscarriages and pollution In Allen, a small town in Argentine Patagonia, many people living on the same street ended up falling ill. For some, it was severe migraines, nausea…",
-          "url": "https://www.theguardian.com/global-development/2026/oct/15/the-hidden-costs-of-fracking-boom-in-argentina-linked-to-trail-of-sickness",
+          "title": "Nicolás Maduro tells New York court new torture allegations are ‘false’",
+          "summary": "Rewritten indictment accuses ex-Venezuela president and wife Cilia Flores of leading campaign of torture Nicolás Maduro insisted on Thursday during an appearance in a New York court that torture allegations in a rewritten drug trafficking indictment against…",
+          "url": "https://www.theguardian.com/world/2026/oct/15/nicolas-maduro-torture-allegations-cilia-flores",
           "publisher": "The Guardian",
           "region": "South & Central America",
-          "published": "Thu, 15 Oct 2026 10:00:10 GMT"
+          "published": "Thu, 15 Oct 2026 16:38:32 GMT"
         },
         {
           "title": "UK threatens to ban Eritreans over migrant return policy",
@@ -3641,15 +3647,15 @@
           "url": "https://www.bbc.co.uk/news/articles/c30rl1q1j200o?at_medium=RSS&amp;at_campaign=rss",
           "publisher": "BBC News",
           "region": "East Africa",
-          "published": "Thu, 15 Oct 2026 09:17:57 GMT"
+          "published": "Thu, 15 Oct 2026 20:08:41 GMT"
         },
         {
-          "title": "Heavy rain causes mass pileup in Brazil tunnel",
-          "summary": "Flooding left vehicles piled up and people stranded inside Sao Paulo’s Anhangabau tunnel.",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/15/heavy-rain-causes-mass-pileup-in-brazil-tunnel?traffic_source=rss",
-          "publisher": "Al Jazeera",
+          "title": "Brazil's Congress approves shorter working week in win for Lula",
+          "summary": "Lula's supporters hope the measure will boost his popularity ahead of a presidential run-off in 10 days.",
+          "url": "https://www.bbc.co.uk/news/articles/cmwy43pp08elo?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
           "region": "Brazil",
-          "published": "Thu, 15 Oct 2026 04:19:06 +0000"
+          "published": "Thu, 15 Oct 2026 10:05:17 GMT"
         },
         {
           "title": "Gaz Vietnam showcases commercial vehicles at Cambodia auto exhibition",
@@ -3676,24 +3682,24 @@
           "published": "Tue, 13 Oct 2026 02:00:11 GMT"
         },
         {
-          "title": "Man United’s Martinez takes to social media to defend his criticism of club",
-          "summary": "Argentina defender Lisandro Martinez follows up criticism of his club with social media explanation of frustration.",
-          "url": "https://www.aljazeera.com/sports/2026/10/15/man-uniteds-martinez-takes-to-social-media-to-defend-his-criticism-of-club?traffic_source=rss",
+          "title": "Venezuela’s Maduro pleads not guilty to US conspiracy to torture charges",
+          "summary": "Maduro and wife appear in New York City court after new 'conspiracy to commit torture' charges.",
+          "url": "https://www.aljazeera.com/news/2026/10/15/venezuelas-maduro-pleads-not-guilty-to-us-conspiracy-to-torture-charges?traffic_source=rss",
           "publisher": "Al Jazeera",
           "region": "South & Central America",
-          "published": "Thu, 15 Oct 2026 08:27:32 +0000"
+          "published": "Thu, 15 Oct 2026 16:04:58 +0000"
         },
         {
-          "title": "Coe aims for African 'legacy' with 2029 World Championships",
-          "summary": "Hosting the World Athletics Championships in Nairobi in 2029 will leave a \"legacy of experience and expertise\", according to the sport's top official Sebastian Coe.",
-          "url": "https://www.bbc.co.uk/sport/athletics/articles/cmqxnew8427wo?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
+          "title": "Somalia says it will hold elections in 2027",
+          "summary": "Critics say unilateral decision to call polls is a recipe for more conflict.",
+          "url": "https://www.aljazeera.com/news/2026/10/15/somalia-says-it-will-hold-elections-in-2027?traffic_source=rss",
+          "publisher": "Al Jazeera",
           "region": "East Africa",
-          "published": "Thu, 15 Oct 2026 08:16:44 GMT"
+          "published": "Thu, 15 Oct 2026 20:04:02 +0000"
         },
         {
           "title": "Brazil cuts work week to 40 hours in win for Lula ahead of runoff",
-          "summary": "Congress approves constitutional amendment that bans six-day workweeks, which could effect up to 30 million Brazil’s congress has approved a constitutional amendment to shorten the working week to a maximum of 40 hours, a move that could affect 30 million…",
+          "summary": "Congress approves constitutional amendment that bans six-day workweeks, which could affect up to 30 million Brazil’s congress has approved a constitutional amendment to shorten the working week to a maximum of 40 hours, a move that could affect 30 million…",
           "url": "https://www.theguardian.com/world/2026/oct/15/brazil-cuts-work-week-to-40-hours-lula-bolsonaro-election-runoff",
           "publisher": "The Guardian",
           "region": "Brazil",
@@ -3708,14 +3714,14 @@
           "published": "Thu, 15 Oct 2026 11:58:30 +0700"
         }
       ],
-      "totalTagged": 142,
+      "totalTagged": 140,
       "feedsQueried": 14,
       "errors": [],
       "note": "General headlines from the growing regions, taken from outlets of record and tagged to a region by the countries and cities they name."
     },
     "roundup": {
       "source": "assembled",
-      "fetchedAt": "2026-10-15T10:41:01.771Z",
+      "fetchedAt": "2026-10-15T21:39:43.131Z",
       "windowDays": 7,
       "publishers": [
         "Daily Coffee News",
@@ -3724,13 +3730,58 @@
       ],
       "items": [
         {
+          "headline": "Three Questions with Esther Singer of Segara Coffee",
+          "summary": "For Esther Singer, a career in coffee grew out of a classic scientific impulse: Start digging and see what turns up. The German-Indonesian-Californian scientist spent more than a decade researching...",
+          "url": "https://dailycoffeenews.com/2026/10/15/three-questions-with-esther-singer-of-segara-coffee/",
+          "publisher": "Daily Coffee News",
+          "published": "Thu, 15 Oct 2026 15:50:07 +0000",
+          "date": "Thu, 15 Oct",
+          "section": "Roasting & retail"
+        },
+        {
+          "headline": "Chinese firm ordered to cease counterfeit espresso machine production",
+          "summary": "The case comes just over three months after Cimbali Group won a landmark counterfeiting ruling in a Chinese court Simonelli Group has secured a significant court victory in China over the design rights of its Victoria Arduino Eagle One and Black Eagle…",
+          "url": "https://www.worldcoffeeportal.com/news/chinese-firm-ordered-to-cease-counterfeit-espresso-machine-production/",
+          "publisher": "World Coffee Portal",
+          "published": "Thu, 15 Oct 2026 15:16:02 GMT",
+          "date": "Thu, 15 Oct",
+          "section": "Top stories of the week"
+        },
+        {
+          "headline": "Melitta Group lands on winning formula as half-year profits soar",
+          "summary": "Rising sales volumes, high-profile sponsorships and major production investments position the German coffee group to deliver growth goals",
+          "url": "https://www.worldcoffeeportal.com/news/melitta-group-lands-on-winning-formula-as-half-year-profits-soar/",
+          "publisher": "World Coffee Portal",
+          "published": "Thu, 15 Oct 2026 15:15:26 GMT",
+          "date": "Thu, 15 Oct",
+          "section": "Top stories of the week"
+        },
+        {
+          "headline": "Pastime Coffee Goes All In at New Portland Production Roastery",
+          "summary": "Portland, Oregon-based Pastime Coffee is heading full bore into professional production with the opening of a new 1,000-square-foot roastery in a former Northeast Portland flower shop. At the center of...",
+          "url": "https://dailycoffeenews.com/2026/10/15/pastime-coffee-goes-all-in-at-new-portland-production-roastery/",
+          "publisher": "Daily Coffee News",
+          "published": "Thu, 15 Oct 2026 14:11:13 +0000",
+          "date": "Thu, 15 Oct",
+          "section": "Top stories of the week"
+        },
+        {
+          "headline": "Starbucks Sued Over “Sugar-Free” Label on Eight Protein Drinks",
+          "summary": "Can drinks that feature dairy milk be labeled as \"sugar free?\" The post Starbucks Sued Over “Sugar-Free” Label on Eight Protein Drinks appeared first on Fresh Cup .",
+          "url": "https://freshcup.com/starbucks-sued-over-sugar-free-label-on-eight-protein-drinks/",
+          "publisher": "Fresh Cup",
+          "published": "Thu, 15 Oct 2026 12:10:11 +0000",
+          "date": "Thu, 15 Oct",
+          "section": "Roasting & retail"
+        },
+        {
           "headline": "Niyyah Coffee Brings a Deaf-Owned Cafe to Indianapolis",
           "summary": "Niyyah Coffee has opened Indianapolis’ first Deaf-owned coffee shop, designed around greater access, employment and interaction for the Deaf community. Opened June 27 near the intersection of North College Avenue...",
           "url": "https://dailycoffeenews.com/2026/10/14/niyyah-coffee-brings-a-deaf-owned-cafe-to-indianapolis/",
           "publisher": "Daily Coffee News",
           "published": "Wed, 14 Oct 2026 12:54:28 +0000",
           "date": "Wed, 14 Oct",
-          "section": "Top stories of the week"
+          "section": "Roasting & retail"
         },
         {
           "headline": "Today’s excellence is tomorrow’s ordinary: inside ECS+COHO Berlin 2026",
@@ -3751,15 +3802,6 @@
           "section": "Roasting & retail"
         },
         {
-          "headline": "Canada’s Purebread Plans to Acquire Caffè Artigiano’s Cafe Business",
-          "summary": "Canadian bakery and cafe company Purebread Brands has signed a letter of intent to acquire the cafe business of Vancouver, British Columbia-based Caffè Artigiano in a stock transaction valued at...",
-          "url": "https://dailycoffeenews.com/2026/10/14/canadas-purebread-plans-to-acquire-caffe-artigianos-cafe-business/",
-          "publisher": "Daily Coffee News",
-          "published": "Wed, 14 Oct 2026 11:29:54 +0000",
-          "date": "Wed, 14 Oct",
-          "section": "Roasting & retail"
-        },
-        {
           "headline": "Oatly gives UK coffee careers a £1m boost with Well Grounded partnership",
           "summary": "Funds raised through the Future of Coffee initiative will support educational programmes at Well Grounded’s four specialty coffee training academies",
           "url": "https://www.worldcoffeeportal.com/news/oatly-gives-uk-coffee-careers-a-1m-boost-with-well-grounded-partnership/",
@@ -3767,24 +3809,6 @@
           "published": "Wed, 14 Oct 2026 11:02:09 GMT",
           "date": "Wed, 14 Oct",
           "section": "Top stories of the week"
-        },
-        {
-          "headline": "Franke puts the design of its New A Line in focus",
-          "summary": "Award-winning design does more than shape how a fully automatic coffee machine looks. It enhances the guest experience, strengthens brand presence and turns every interaction into an opportunity to communicate A premium-looking coffee machine can still fall…",
-          "url": "https://www.worldcoffeeportal.com/news/franke-puts-the-design-of-its-new-a-line-in-focus/",
-          "publisher": "World Coffee Portal",
-          "published": "Wed, 14 Oct 2026 07:00:00 GMT",
-          "date": "Wed, 14 Oct",
-          "section": "Roasting & retail"
-        },
-        {
-          "headline": "Presenting the 2027 Roaster of the Year Finalists",
-          "summary": "Roast magazine is thrilled to announce the finalists for the 23rd Annual Roaster of the Year awards! The Micro Roaster category includes companies roasting less than 100,000 pounds of coffee each...",
-          "url": "https://dailycoffeenews.com/2026/10/13/presenting-the-2027-roaster-of-the-year-finalists/",
-          "publisher": "Daily Coffee News",
-          "published": "Tue, 13 Oct 2026 18:01:01 +0000",
-          "date": "Tue, 13 Oct",
-          "section": "Roasting & retail"
         },
         {
           "headline": "Episode 223: Maxwell Colonna-Dashwood on the next era of specialty coffee",
@@ -3811,16 +3835,7 @@
           "publisher": "Fresh Cup",
           "published": "Fri, 09 Oct 2026 11:50:00 +0000",
           "date": "Fri, 9 Oct",
-          "section": "Top stories of the week"
-        },
-        {
-          "headline": "The ICO Launches New Dashboard for Coffee Trade and Market Data",
-          "summary": "The International Coffee Organization wants its new market intelligence platform to help the industry make data-driven decisions. The post The ICO Launches New Dashboard for Coffee Trade and Market Data appeared first on Fresh Cup .",
-          "url": "https://freshcup.com/the-ico-launches-new-dashboard-for-coffee-trade-and-market-data/",
-          "publisher": "Fresh Cup",
-          "published": "Thu, 08 Oct 2026 12:00:00 +0000",
-          "date": "Thu, 8 Oct",
-          "section": "Top stories of the week"
+          "section": "Trade & production"
         }
       ],
       "errors": [
@@ -3832,13 +3847,13 @@
       "note": "Assembled from the coffee trade press over the past seven days, ranked by relevance to the physical trade. Headlines and links are each publisher’s own."
     },
     "dailyRead": {
-      "fetchedAt": "2026-10-15T10:41:00.122Z",
+      "fetchedAt": "2026-10-15T21:39:41.661Z",
       "article": {
-        "title": "StoneX Acquiring Colombian Coffee Trader Integra",
-        "summary": "Global financial services and commodities company StoneX Group said it signed an agreement to acquire Colombian green coffee processor and exporter Integra, expanding StoneX’s coffee operations in Colombia. The acquisition...",
-        "url": "https://dailycoffeenews.com/2026/10/12/stonex-acquiring-colombian-coffee-trader-integra/",
+        "title": "Pastime Coffee Goes All In at New Portland Production Roastery",
+        "summary": "Portland, Oregon-based Pastime Coffee is heading full bore into professional production with the opening of a new 1,000-square-foot roastery in a former Northeast Portland flower shop. At the center of...",
+        "url": "https://dailycoffeenews.com/2026/10/15/pastime-coffee-goes-all-in-at-new-portland-production-roastery/",
         "publisher": "Daily Coffee News",
-        "published": "Mon, 12 Oct 2026 14:18:29 +0000"
+        "published": "Thu, 15 Oct 2026 14:11:13 +0000"
       },
       "considered": 10
     }
@@ -4158,40 +4173,40 @@
   },
   "status": [
     {
-      "source": "daily-read",
-      "ok": true,
-      "ms": 496
-    },
-    {
       "source": "arabica-futures",
       "ok": true,
-      "ms": 778
+      "ms": 430
     },
     {
-      "source": "weather",
+      "source": "daily-read",
       "ok": true,
-      "ms": 949
-    },
-    {
-      "source": "weekly-recap",
-      "ok": true,
-      "ms": 2148
+      "ms": 378
     },
     {
       "source": "fx",
       "ok": true,
-      "ms": 2281
+      "ms": 829
     },
     {
-      "source": "ico-report",
-      "ok": false,
-      "ms": 3113,
-      "error": "Table 1 (indicator prices) not found"
+      "source": "weather",
+      "ok": true,
+      "ms": 924
+    },
+    {
+      "source": "weekly-recap",
+      "ok": true,
+      "ms": 1851
     },
     {
       "source": "origin-wire",
       "ok": true,
-      "ms": 3444
+      "ms": 2373
+    },
+    {
+      "source": "ico-report",
+      "ok": false,
+      "ms": 4080,
+      "error": "Table 1 (indicator prices) not found"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T10:27:59.128Z",
+  "generatedAt": "2026-10-16T21:35:45.619Z",
   "schema": 5,
   "schedule": {
     "slotsUtc": [
@@ -26,8 +26,8 @@
       "frontMonth": {
         "code": "KCZ26",
         "label": "Dec 2026",
-        "close": 309.9,
-        "volume": 5810
+        "close": 305.55,
+        "volume": 25328
       },
       "rolled": false,
       "mostActive": "KCZ26",
@@ -35,56 +35,56 @@
         {
           "code": "KCZ26",
           "label": "Dec 2026",
-          "close": 309.9,
-          "volume": 5810
+          "close": 305.55,
+          "volume": 25328
         },
         {
           "code": "KCH27",
           "label": "Mar 2027",
-          "close": 296.4,
-          "volume": 3346
+          "close": 294.6,
+          "volume": 17403
         },
         {
           "code": "KCK27",
           "label": "May 2027",
-          "close": 291.9,
-          "volume": 969
+          "close": 290.6,
+          "volume": 6650
         },
         {
           "code": "KCN27",
           "label": "Jul 2027",
-          "close": 288.2,
-          "volume": 400
+          "close": 287.5,
+          "volume": 1971
         },
         {
           "code": "KCU27",
           "label": "Sep 2027",
-          "close": 285,
-          "volume": 150
+          "close": 284.7,
+          "volume": 813
         },
         {
           "code": "KCZ27",
           "label": "Dec 2027",
-          "close": 280.95,
-          "volume": 113
+          "close": 281.7,
+          "volume": 582
         },
         {
           "code": "KCH28",
           "label": "Mar 2028",
-          "close": 278.35,
-          "volume": 96
+          "close": 281.05,
+          "volume": 300
         }
       ],
       "quote": {
-        "last": 296.25,
+        "last": 294.6,
         "open": 287.25,
-        "high": 297.1499938964844,
+        "high": 297.5,
         "low": 287.1499938964844,
         "previousClose": 285.3500061035156,
-        "change": 10.9,
-        "changePct": 3.82,
-        "volume": 3308,
-        "asOf": "2026-10-16T10:07:20.000Z"
+        "change": 9.25,
+        "changePct": 3.242,
+        "volume": 17403,
+        "asOf": "2026-10-16T17:29:55.000Z"
       },
       "bars": [
         {
@@ -2642,17 +2642,17 @@
         {
           "date": "2026-10-16",
           "open": 287.25,
-          "high": 297.1499938964844,
+          "high": 297.5,
           "low": 287.1499938964844,
-          "close": 296.25,
-          "volume": 3308
+          "close": 294.6000061035156,
+          "volume": 17403
         }
       ],
       "crossCheck": {
-        "tradingView": 296.4,
-        "yahoo": 296.25,
-        "diff": 0.15,
-        "diffPct": 0.051,
+        "tradingView": 294.6,
+        "yahoo": 294.6,
+        "diff": 0,
+        "diffPct": 0,
         "agree": true
       },
       "sources": [
@@ -2669,16 +2669,16 @@
       ],
       "technicals": {
         "observations": 504,
-        "sma20": 280.6175003051758,
-        "sma50": 290.2979992675781,
-        "sma200": 280.557749786377,
-        "rsi14": 59.401996109493545,
+        "sma20": 280.5350006103516,
+        "sma50": 290.26499938964844,
+        "sma200": 280.5494998168945,
+        "rsi14": 58.3735842613055,
         "macd": {
-          "line": 1.2230130479123318,
-          "signal": -0.7680791781010247,
-          "histogram": 1.9910922260133566
+          "line": 1.091389603178527,
+          "signal": -0.7944038670477857,
+          "histogram": 1.8857934702263126
         },
-        "atr14": 9.403371258234248,
+        "atr14": 9.428371694199651,
         "donchian20": {
           "high": 300,
           "low": 262.6000061035156,
@@ -2701,16 +2701,16 @@
           ],
           "resistance": [
             {
+              "price": 295.95001220703125,
+              "date": "2025-02-19"
+            },
+            {
               "price": 297.3999938964844,
               "date": "2025-02-10"
             },
             {
               "price": 300,
               "date": "2025-04-02"
-            },
-            {
-              "price": 300,
-              "date": "2026-10-07"
             }
           ]
         },
@@ -2726,22 +2726,18 @@
     }
   },
   "fx": {
-    "asOf": "2026-10-15",
+    "asOf": "2026-10-16",
     "pairs": {
       "GBPUSD": {
         "pair": "GBP/USD",
-        "rate": 1.3247,
-        "previous": 1.3267,
+        "rate": 1.3335,
+        "previous": 1.3247,
         "dp": 4,
         "note": "Sterling stronger means a dollar-priced contract costs a UK buyer less.",
-        "change": -0.002,
-        "changePct": -0.151,
-        "change1m": -1.55,
+        "change": 0.0088,
+        "changePct": 0.664,
+        "change1m": -0.31,
         "history": [
-          {
-            "date": "2026-07-24",
-            "rate": 1.3324
-          },
           {
             "date": "2026-07-27",
             "rate": 1.3317
@@ -2977,23 +2973,23 @@
           {
             "date": "2026-10-15",
             "rate": 1.3247
+          },
+          {
+            "date": "2026-10-16",
+            "rate": 1.3335
           }
         ]
       },
       "USDBRL": {
         "pair": "USD/BRL",
-        "rate": 5.057,
-        "previous": 5.0242,
+        "rate": 5.0828,
+        "previous": 5.057,
         "dp": 4,
         "note": "A weaker real encourages Brazilian producer selling.",
-        "change": 0.0328,
-        "changePct": 0.653,
-        "change1m": -1.73,
+        "change": 0.0258,
+        "changePct": 0.51,
+        "change1m": -0.93,
         "history": [
-          {
-            "date": "2026-07-24",
-            "rate": 5.0827
-          },
           {
             "date": "2026-07-27",
             "rate": 5.0825
@@ -3229,14 +3225,18 @@
           {
             "date": "2026-10-15",
             "rate": 5.057
+          },
+          {
+            "date": "2026-10-16",
+            "rate": 5.0828
           }
         ]
       }
     },
     "ptax": {
-      "buy": 5.0515,
-      "sell": 5.0521,
-      "quotedAt": "2026-10-15 13:05:33.305854"
+      "buy": 5.082,
+      "sell": 5.0826,
+      "quotedAt": "2026-10-16 13:04:14.548156"
     },
     "sources": [
       {
@@ -3252,7 +3252,7 @@
     ]
   },
   "weather": {
-    "fetchedAt": "2026-10-16T10:27:56.416Z",
+    "fetchedAt": "2026-10-16T21:35:42.809Z",
     "thresholds": {
       "frostC": 4,
       "heavyRainMm": 50,
@@ -3288,9 +3288,15 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 91.6,
-        "rainForecast7": 38.6,
-        "minForecast7": 12.8,
-        "alerts": []
+        "rainForecast7": 50,
+        "minForecast7": 13,
+        "alerts": [
+          {
+            "type": "wet",
+            "severity": "watch",
+            "text": "50 mm forecast over 7 days — harvest/drying disruption risk."
+          }
+        ]
       },
       {
         "key": "cerrado",
@@ -3311,8 +3317,8 @@
         "condition": "very-wet",
         "conditionLabel": "Very wet",
         "rain14": 73,
-        "rainForecast7": 41.6,
-        "minForecast7": 15.8,
+        "rainForecast7": 21.7,
+        "minForecast7": 15.6,
         "alerts": []
       },
       {
@@ -3334,15 +3340,9 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 40.4,
-        "rainForecast7": 71.3,
-        "minForecast7": 22,
-        "alerts": [
-          {
-            "type": "wet",
-            "severity": "watch",
-            "text": "71 mm forecast over 7 days — harvest/drying disruption risk."
-          }
-        ]
+        "rainForecast7": 48.4,
+        "minForecast7": 21.6,
+        "alerts": []
       },
       {
         "key": "dak-lak",
@@ -3362,7 +3362,7 @@
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 77.5,
+        "rain14": 76.5,
         "rainForecast7": 23.1,
         "minForecast7": 22,
         "alerts": []
@@ -3385,14 +3385,14 @@
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 147,
-        "rainForecast7": 74.6,
-        "minForecast7": 18.7,
+        "rain14": 144.8,
+        "rainForecast7": 93,
+        "minForecast7": 18.2,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "75 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "93 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3416,7 +3416,7 @@
         "conditionLabel": "Wet",
         "rain14": 92.4,
         "rainForecast7": 37.5,
-        "minForecast7": 16,
+        "minForecast7": 16.3,
         "alerts": []
       },
       {
@@ -3438,8 +3438,8 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 95.1,
-        "rainForecast7": 87.2,
-        "minForecast7": 16.6,
+        "rainForecast7": 86.6,
+        "minForecast7": 16.9,
         "alerts": [
           {
             "type": "wet",
@@ -3466,14 +3466,14 @@
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 239.7,
-        "rainForecast7": 88.8,
-        "minForecast7": 16.3,
+        "rain14": 228.6,
+        "rainForecast7": 87.4,
+        "minForecast7": 16.4,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "89 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "87 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3495,9 +3495,9 @@
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 53.5,
-        "rainForecast7": 6.2,
-        "minForecast7": 24.3,
+        "rain14": 50.9,
+        "rainForecast7": 8.6,
+        "minForecast7": 24.5,
         "alerts": []
       },
       {
@@ -3519,8 +3519,8 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 45.5,
-        "rainForecast7": 7.2,
-        "minForecast7": 12.9,
+        "rainForecast7": 6,
+        "minForecast7": 12.5,
         "alerts": []
       },
       {
@@ -3542,9 +3542,15 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 94.6,
-        "rainForecast7": 47.1,
-        "minForecast7": 16.2,
-        "alerts": []
+        "rainForecast7": 75.1,
+        "minForecast7": 16.9,
+        "alerts": [
+          {
+            "type": "wet",
+            "severity": "watch",
+            "text": "75 mm forecast over 7 days — harvest/drying disruption risk."
+          }
+        ]
       },
       {
         "key": "chanchamayo",
@@ -3565,9 +3571,15 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 74.7,
-        "rainForecast7": 45.7,
-        "minForecast7": 19.8,
-        "alerts": []
+        "rainForecast7": 60.9,
+        "minForecast7": 19.6,
+        "alerts": [
+          {
+            "type": "wet",
+            "severity": "watch",
+            "text": "61 mm forecast over 7 days — harvest/drying disruption risk."
+          }
+        ]
       }
     ],
     "sources": [
@@ -3580,32 +3592,32 @@
   },
   "news": {
     "originWire": {
-      "fetchedAt": "2026-10-16T10:27:58.359Z",
+      "fetchedAt": "2026-10-16T21:35:44.592Z",
       "lookbackHours": 504,
       "headlines": [
         {
-          "title": "Weird Baile: Collected Rips 2004-2024 review – a hallucinatory trip to baile funk’s outer limits",
-          "summary": "(TraTraTrax) Two decades of work from producers JLZ, VHOOR, Mu540 and DJ RaMeMes strips the Brazilian genre to its essential parts until it chimes with grime and drill Originating in 1980s Brazil, baile funk began as a bass-heavy blend of syncopated folk…",
-          "url": "https://www.theguardian.com/music/2026/oct/16/weird-baile-collected-rips-2004-2024-review-a-hallucinatory-trip-to-baile-funks-outer-limits",
-          "publisher": "The Guardian",
+          "title": "Meta employees say Lula’s accounts restricted in Brazil election: Report",
+          "summary": "The messages, reported by a Brazilian daily, say the platform recommended Bolsonaro's profile and his WhatsApp channel.",
+          "url": "https://www.aljazeera.com/economy/2026/10/16/meta-employees-say-lulas-accounts-restricted-in-brazil-election-report?traffic_source=rss",
+          "publisher": "Al Jazeera",
           "region": "Brazil",
-          "published": "Fri, 16 Oct 2026 07:30:54 GMT"
+          "published": "Fri, 16 Oct 2026 21:08:50 +0000"
         },
         {
-          "title": "Vietnam Mobility Show 2026 set for early December in Hanoi",
-          "summary": "Vietnam's marquee automotive and motorcycle showcase returns on Dec. 5–6 with dozens of vehicle makers and parts suppliers taking part.",
-          "url": "https://e.vnexpress.net/news/business/economy/vietnam-mobility-show-2026-set-for-early-december-in-hanoi-5133089.html",
+          "title": "Ho Chi Minh City unveils $193M wave-shaped bridge across Saigon River",
+          "summary": "The Thu Thiem 4 Bridge features wave-shaped arches and dedicated pedestrian decks across the Saigon River, linking Ho Chi Minh City's southern part with Thu Thiem new urban area in the city's east.",
+          "url": "https://e.vnexpress.net/photo/traffic/ho-chi-minh-city-unveils-193m-wave-shaped-bridge-across-saigon-river-5131333.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Fri, 16 Oct 2026 16:29:35 +0700"
+          "published": "Fri, 16 Oct 2026 20:08:34 +0700"
         },
         {
           "title": "‘Clean air is not a favour’: Indonesia’s neighbours fed up with acrid haze as Singapore threatens to prosecute",
-          "summary": "Companies behind fires in Indonesia threatened with legal action as region dogged by persistent, transboundary haze Singapore is threatening to prosecute companies responsible for some of the worst fires in years in neighbouring Indonesia, as the region grows…",
+          "summary": "Millions affected by smoke from wildfires as schools close, respiratory illnesses soar and diplomatic tensions rise Singapore is threatening to prosecute companies responsible for some of the worst fires in years in neighbouring Indonesia, as the region grows…",
           "url": "https://www.theguardian.com/world/2026/oct/16/singapore-threatens-prosecute-indonesia-fires-toxic-haze-smoke",
           "publisher": "The Guardian",
           "region": "Indonesia",
-          "published": "Fri, 16 Oct 2026 08:34:01 GMT"
+          "published": "Fri, 16 Oct 2026 10:51:07 GMT"
         },
         {
           "title": "IPCC is under pressure to delay publication of key global climate report",
@@ -3616,36 +3628,36 @@
           "published": "Tue, 13 Oct 2026 05:00:15 GMT"
         },
         {
-          "title": "Residents douse workers with flaming gasoline during eviction in Peru",
-          "summary": "A bystander has filmed residents of a condemned building in Peru throwing flaming gasoline on eviction workers.",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/16/residents-douse-workers-with-flaming-gasoline-during-eviction-in-peru?traffic_source=rss",
-          "publisher": "Al Jazeera",
+          "title": "US illegal border crossings from Mexico near 60-year low",
+          "summary": "About 98,700 apprehensions were recorded this year, down from peaks of more than 2mn people under Biden",
+          "url": "https://www.ft.com/content/e98c5079-0c9a-4747-afa7-7bc9725795cd?syn-25a6b1a6=1",
+          "publisher": "Financial Times",
           "region": "South & Central America",
-          "published": "Fri, 16 Oct 2026 02:35:57 +0000"
+          "published": "Fri, 16 Oct 2026 18:30:55 GMT"
         },
         {
-          "title": "UK threatens to ban Eritreans over migrant return policy",
-          "summary": "The home secretary said she would not hesitate to impose measures on other countries \"refusing to co-operate\".",
-          "url": "https://www.bbc.co.uk/news/articles/c30rl1q1j200o?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
+          "title": "Can diplomacy resolve longstanding Ethiopia-Eritrea differences?",
+          "summary": "The United States calls for dialogue as regional East Africa tension escalates.",
+          "url": "https://www.aljazeera.com/video/inside-story/2026/10/16/can-diplomacy-resolve-long-standing-ethiopia-eritrea-differences?traffic_source=rss",
+          "publisher": "Al Jazeera",
           "region": "East Africa",
-          "published": "Thu, 15 Oct 2026 20:08:41 GMT"
+          "published": "Fri, 16 Oct 2026 19:18:13 +0000"
         },
         {
-          "title": "Brazil's Congress approves shorter working week in win for Lula",
-          "summary": "Lula's supporters hope the measure will boost his popularity ahead of a presidential run-off in 10 days.",
-          "url": "https://www.bbc.co.uk/news/articles/cmwy43pp08elo?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
+          "title": "Brazilian Amazon deforestation falls to lowest on record as pivotal vote looms",
+          "summary": "Forest clearance at smallest total since records began in 1988 in success for Lula ahead of presidential run-off Deforestation in the Brazilian Amazon has fallen to its lowest level since records began, new government data shows. But whether this globally…",
+          "url": "https://www.theguardian.com/environment/2026/oct/16/brazil-amazon-deforestation-lowest-on-record-election",
+          "publisher": "The Guardian",
           "region": "Brazil",
-          "published": "Thu, 15 Oct 2026 10:05:17 GMT"
+          "published": "Fri, 16 Oct 2026 19:37:53 GMT"
         },
         {
-          "title": "Cambodia spends over $70M on coffee bean imports",
-          "summary": "Cambodia spends more than US$70 million annually importing green coffee beans from abroad to meet domestic demand, with Vietnam and Thailand among key suppliers.",
-          "url": "https://e.vnexpress.net/news/business/economy/cambodia-spends-over-70m-on-coffee-bean-imports-5133260.html",
+          "title": "Vietnam Mobility Show 2026 set for early December in Hanoi",
+          "summary": "Vietnam's marquee automotive and motorcycle showcase returns on Dec. 5–6 with dozens of vehicle makers and parts suppliers taking part.",
+          "url": "https://e.vnexpress.net/news/business/economy/vietnam-mobility-show-2026-set-for-early-december-in-hanoi-5133089.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Fri, 16 Oct 2026 15:53:43 +0700"
+          "published": "Fri, 16 Oct 2026 16:29:35 +0700"
         },
         {
           "title": "Revealed: VW, Ford and Tesla batteries linked to destructive deforestation of indigenous lands",
@@ -3664,46 +3676,46 @@
           "published": "Tue, 13 Oct 2026 02:00:11 GMT"
         },
         {
-          "title": "Argentine students protest on campus over Milei’s austerity",
-          "summary": "Judge fines the government for failing to fund universities as protests over Milei's cuts turn violent.",
-          "url": "https://www.aljazeera.com/news/2026/10/16/argentine-students-protest-on-campus-over-mileis-austerity?traffic_source=rss",
-          "publisher": "Al Jazeera",
-          "region": "South & Central America",
-          "published": "Fri, 16 Oct 2026 02:11:33 +0000"
-        },
-        {
-          "title": "Eritrean aggression must not be overlooked | Letter",
-          "summary": "Biruk Mekonnen , the Ethiopian ambassador to the UK, responds to an editorial on the war in Tigray Your attention to Ethiopia is welcome, but your editorial ( 8 October ) presents an incomplete account of the crisis, framing Ethiopia’s national interests as…",
-          "url": "https://www.theguardian.com/world/2026/oct/15/eritrean-aggression-must-not-be-overlooked",
+          "title": "Nicolás Maduro tells New York court new torture allegations are ‘false’",
+          "summary": "Rewritten indictment accuses ex-Venezuela president and wife Cilia Flores of leading campaign of torture Nicolás Maduro insisted on Thursday during an appearance in a New York court that torture allegations in a rewritten drug trafficking indictment against…",
+          "url": "https://www.theguardian.com/world/2026/oct/15/nicolas-maduro-torture-allegations-cilia-flores",
           "publisher": "The Guardian",
-          "region": "East Africa",
-          "published": "Thu, 15 Oct 2026 16:51:26 GMT"
+          "region": "South & Central America",
+          "published": "Thu, 15 Oct 2026 16:38:32 GMT"
         },
         {
-          "title": "Brazil cuts work week to 40 hours in win for Lula ahead of runoff",
-          "summary": "Congress approves constitutional amendment that bans six-day workweeks, which could affect up to 30 million Brazil’s congress has approved a constitutional amendment to shorten the working week to a maximum of 40 hours, a move that could affect 30 million…",
-          "url": "https://www.theguardian.com/world/2026/oct/15/brazil-cuts-work-week-to-40-hours-lula-bolsonaro-election-runoff",
+          "title": "Kenya records third Ebola case, linked to first patient who died",
+          "summary": "Nairobi says 65-year-old female patient in quarantine with Bundibugyo strain; no signs of community transmission.",
+          "url": "https://www.aljazeera.com/news/2026/10/16/kenya-reports-third-bundibugyo-strain-ebola-case?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "region": "East Africa",
+          "published": "Fri, 16 Oct 2026 18:57:40 +0000"
+        },
+        {
+          "title": "Brazil’s Lula says he now backs lowering age of criminal responsibility to 16",
+          "summary": "Lula reverses position on age of responsibility for ‘heinous’ crimes in what many see as a desperate electoral gambit Brazil’s president, Luiz Inácio Lula da Silva, has announced that he now supports lowering the age of criminal responsibility for “heinous”…",
+          "url": "https://www.theguardian.com/world/2026/oct/16/brazil-lula-age-criminal-responsibility",
           "publisher": "The Guardian",
           "region": "Brazil",
-          "published": "Thu, 15 Oct 2026 02:45:42 GMT"
+          "published": "Fri, 16 Oct 2026 16:47:35 GMT"
         },
         {
-          "title": "Gold prices gain",
-          "summary": "Vietnam gold prices rose on Friday afternoon amid an uptick in global bullion rates.",
-          "url": "https://e.vnexpress.net/news/business/markets/gold-prices-gain-5133225.html",
+          "title": "Cambodia spends over $70M on coffee bean imports",
+          "summary": "Cambodia spends more than US$70 million annually importing green coffee beans from abroad to meet domestic demand, with Vietnam and Thailand among key suppliers.",
+          "url": "https://e.vnexpress.net/news/business/economy/cambodia-spends-over-70m-on-coffee-bean-imports-5133260.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Fri, 16 Oct 2026 15:53:28 +0700"
+          "published": "Fri, 16 Oct 2026 15:53:43 +0700"
         }
       ],
-      "totalTagged": 141,
+      "totalTagged": 142,
       "feedsQueried": 14,
       "errors": [],
       "note": "General headlines from the growing regions, taken from outlets of record and tagged to a region by the countries and cities they name."
     },
     "roundup": {
       "source": "assembled",
-      "fetchedAt": "2026-10-16T10:27:57.897Z",
+      "fetchedAt": "2026-10-16T21:35:43.800Z",
       "windowDays": 7,
       "publishers": [
         "Daily Coffee News",
@@ -3712,21 +3724,66 @@
       ],
       "items": [
         {
-          "headline": "Westrock and Kofola among bidders for Massimo Zanetti Beverage Group, sources say",
-          "summary": "The Italian coffee group confirmed it was exploring sale options three months ago and could fetch €1.2bn",
-          "url": "https://www.worldcoffeeportal.com/news/westrock-and-kofolo-among-bidders-for-massimo-zanetti-beverage-group-sources-say/",
+          "headline": "De’Longhi increases stake in $2.3bn La Marzocco and Eversys division",
+          "summary": "The tie-up now generates approximately 25% of group profit and has soared in value since 2023",
+          "url": "https://www.worldcoffeeportal.com/news/delonghi-increases-stake-in-2-3bn-la-marzocco-and-eversys-division/",
           "publisher": "World Coffee Portal",
-          "published": "Fri, 16 Oct 2026 09:11:22 GMT",
+          "published": "Fri, 16 Oct 2026 15:28:47 GMT",
           "date": "Fri, 16 Oct",
           "section": "Roasting & retail"
         },
         {
-          "headline": "Three Questions with Esther Singer of Segara Coffee",
-          "summary": "For Esther Singer, a career in coffee grew out of a classic scientific impulse: Start digging and see what turns up. The German-Indonesian-Californian scientist spent more than a decade researching...",
-          "url": "https://dailycoffeenews.com/2026/10/15/three-questions-with-esther-singer-of-segara-coffee/",
+          "headline": "University of Hawaii to Lead New Federal Coffee and Cacao Research Lab",
+          "summary": "The University of Hawaiʻi at Mānoa will lead a new federally funded research program focused on coffee and cacao, with an initial $8 million obligation for its first year under...",
+          "url": "https://dailycoffeenews.com/2026/10/16/university-of-hawaii-to-lead-new-federal-coffee-and-cacao-research-lab/",
           "publisher": "Daily Coffee News",
-          "published": "Thu, 15 Oct 2026 15:50:07 +0000",
-          "date": "Thu, 15 Oct",
+          "published": "Fri, 16 Oct 2026 14:57:52 +0000",
+          "date": "Fri, 16 Oct",
+          "section": "Roasting & retail"
+        },
+        {
+          "headline": "Future-Proof Coffee: Unlocking Canephora’s Potential – with Pieke Abelman",
+          "summary": "2026-11-05",
+          "url": "https://www.worldcoffeeportal.com/gci-event/future-proof-coffee-unlocking-canephoras-potential-with-pieke-abelman/",
+          "publisher": "World Coffee Portal",
+          "published": "Fri, 16 Oct 2026 13:32:16 GMT",
+          "date": "Fri, 16 Oct",
+          "section": "Top stories of the week"
+        },
+        {
+          "headline": "Weekly Coffee News: New Look for IWCA + Nestlé in Mexico",
+          "summary": "Welcome to DCN’s Weekly Coffee News! Subscribe here for all the latest coffee industry news. Also, check out the latest career opportunities at CoffeeIndustryJobs.com. IWCA Introduces New Global Visual Identity...",
+          "url": "https://dailycoffeenews.com/2026/10/16/weekly-coffee-news-new-look-for-iwca-nestle-in-mexico/",
+          "publisher": "Daily Coffee News",
+          "published": "Fri, 16 Oct 2026 12:57:04 +0000",
+          "date": "Fri, 16 Oct",
+          "section": "Roasting & retail"
+        },
+        {
+          "headline": "Can Krispy Kreme reignite US expansion with New York development deal?",
+          "summary": "The Original Glazed doughnut maker is selling off its company-owned stores to franchisees in the US and abroad in a bid to reduce operational risk and improve profitability",
+          "url": "https://www.worldcoffeeportal.com/news/can-krispy-kreme-reignite-us-expansion-with-new-york-development-deal/",
+          "publisher": "World Coffee Portal",
+          "published": "Fri, 16 Oct 2026 12:02:41 GMT",
+          "date": "Fri, 16 Oct",
+          "section": "Roasting & retail"
+        },
+        {
+          "headline": "How Do Roasters Set Wholesale Coffee Prices? 40+ Shared Their Process",
+          "summary": "More than 40 roasters shared how they set wholesale coffee prices. We compared their methods with Luke Waite’s pricing lesson in Wholesale for Roasters. The post How Do Roasters Set Wholesale Coffee Prices? 40+ Shared Their Process appeared first on Fresh Cup…",
+          "url": "https://freshcup.com/how-do-roasters-set-wholesale-coffee-prices-40-shared-their-process/",
+          "publisher": "Fresh Cup",
+          "published": "Fri, 16 Oct 2026 11:06:00 +0000",
+          "date": "Fri, 16 Oct",
+          "section": "Top stories of the week"
+        },
+        {
+          "headline": "How Kyoto-style espresso solved a 20-year problem for Blue Bottle Coffee",
+          "summary": "Blue Bottle Coffee CEO Karl Strovink explains why Kyoto-style espresso is one of the most significant developments in the specialty coffee group’s history – and the beginning of a new era for cold coffee",
+          "url": "https://www.worldcoffeeportal.com/interview/how-kyoto-style-espresso-solved-a-20-year-problem-for-blue-bottle-coffee/",
+          "publisher": "World Coffee Portal",
+          "published": "Fri, 16 Oct 2026 10:48:59 GMT",
+          "date": "Fri, 16 Oct",
           "section": "Roasting & retail"
         },
         {
@@ -3757,57 +3814,12 @@
           "section": "Top stories of the week"
         },
         {
-          "headline": "Starbucks Sued Over “Sugar-Free” Label on Eight Protein Drinks",
-          "summary": "Can drinks that feature dairy milk be labeled as \"sugar free?\" The post Starbucks Sued Over “Sugar-Free” Label on Eight Protein Drinks appeared first on Fresh Cup .",
-          "url": "https://freshcup.com/starbucks-sued-over-sugar-free-label-on-eight-protein-drinks/",
-          "publisher": "Fresh Cup",
-          "published": "Thu, 15 Oct 2026 12:10:11 +0000",
-          "date": "Thu, 15 Oct",
-          "section": "Roasting & retail"
-        },
-        {
-          "headline": "Niyyah Coffee Brings a Deaf-Owned Cafe to Indianapolis",
-          "summary": "Niyyah Coffee has opened Indianapolis’ first Deaf-owned coffee shop, designed around greater access, employment and interaction for the Deaf community. Opened June 27 near the intersection of North College Avenue...",
-          "url": "https://dailycoffeenews.com/2026/10/14/niyyah-coffee-brings-a-deaf-owned-cafe-to-indianapolis/",
-          "publisher": "Daily Coffee News",
-          "published": "Wed, 14 Oct 2026 12:54:28 +0000",
-          "date": "Wed, 14 Oct",
-          "section": "Roasting & retail"
-        },
-        {
-          "headline": "Today’s excellence is tomorrow’s ordinary: inside ECS+COHO Berlin 2026",
-          "summary": "5THWAVE Editor Tobias Pearce sat down with Ludovic Rossignol, Chief Event Officer at Coffee Ventures Europe, to talk about this year’s theme, the pressures reshaping Europe’s coffee shop market, and what industry leaders from 52 countries can expect in Berlin",
-          "url": "https://www.worldcoffeeportal.com/interview/todays-excellence-is-tomorrows-ordinary-inside-ecs-coho-berlin-2026/",
-          "publisher": "World Coffee Portal",
-          "published": "Wed, 14 Oct 2026 12:07:45 GMT",
-          "date": "Wed, 14 Oct",
-          "section": "Roasting & retail"
-        },
-        {
           "headline": "Oatly gives UK coffee careers a £1m boost with Well Grounded partnership",
           "summary": "Funds raised through the Future of Coffee initiative will support educational programmes at Well Grounded’s four specialty coffee training academies",
           "url": "https://www.worldcoffeeportal.com/news/oatly-gives-uk-coffee-careers-a-1m-boost-with-well-grounded-partnership/",
           "publisher": "World Coffee Portal",
           "published": "Wed, 14 Oct 2026 11:02:09 GMT",
           "date": "Wed, 14 Oct",
-          "section": "Top stories of the week"
-        },
-        {
-          "headline": "StoneX Acquiring Colombian Coffee Trader Integra",
-          "summary": "Global financial services and commodities company StoneX Group said it signed an agreement to acquire Colombian green coffee processor and exporter Integra, expanding StoneX’s coffee operations in Colombia. The acquisition...",
-          "url": "https://dailycoffeenews.com/2026/10/12/stonex-acquiring-colombian-coffee-trader-integra/",
-          "publisher": "Daily Coffee News",
-          "published": "Mon, 12 Oct 2026 14:18:29 +0000",
-          "date": "Mon, 12 Oct",
-          "section": "Top stories of the week"
-        },
-        {
-          "headline": "Wholesale Coffee Prices: 40+ Roasters Shared Their Rates and 2027 Plans",
-          "summary": "We surveyed 40+ roasters on what they charge for wholesale coffee, how they feel about those prices, and whether they plan to raise prices in 2027. The post Wholesale Coffee Prices: 40+ Roasters Shared Their Rates and 2027 Plans appeared first on Fresh Cup .",
-          "url": "https://freshcup.com/wholesale-coffee-prices-40-roasters-shared-their-rates-and-2027-plans/",
-          "publisher": "Fresh Cup",
-          "published": "Fri, 09 Oct 2026 11:50:00 +0000",
-          "date": "Fri, 9 Oct",
           "section": "Top stories of the week"
         }
       ],
@@ -3820,7 +3832,7 @@
       "note": "Assembled from the coffee trade press over the past seven days, ranked by relevance to the physical trade. Headlines and links are each publisher’s own."
     },
     "dailyRead": {
-      "fetchedAt": "2026-10-16T10:27:55.902Z",
+      "fetchedAt": "2026-10-16T21:35:42.269Z",
       "article": {
         "title": "Pastime Coffee Goes All In at New Portland Production Roastery",
         "summary": "Portland, Oregon-based Pastime Coffee is heading full bore into professional production with the opening of a new 1,000-square-foot roastery in a former Northeast Portland flower shop. At the center of...",
@@ -4148,37 +4160,37 @@
     {
       "source": "daily-read",
       "ok": true,
-      "ms": 260
+      "ms": 679
     },
     {
       "source": "arabica-futures",
       "ok": true,
-      "ms": 805
+      "ms": 1029
     },
     {
       "source": "weather",
       "ok": true,
-      "ms": 780
-    },
-    {
-      "source": "weekly-recap",
-      "ok": true,
-      "ms": 2257
+      "ms": 1225
     },
     {
       "source": "fx",
       "ok": true,
-      "ms": 2520
+      "ms": 1951
+    },
+    {
+      "source": "weekly-recap",
+      "ok": true,
+      "ms": 2212
     },
     {
       "source": "origin-wire",
       "ok": true,
-      "ms": 2722
+      "ms": 3007
     },
     {
       "source": "ico-report",
       "ok": false,
-      "ms": 3473,
+      "ms": 4021,
       "error": "Table 1 (indicator prices) not found"
     }
   ]

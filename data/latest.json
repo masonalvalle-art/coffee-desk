@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T21:39:45.378Z",
+  "generatedAt": "2026-10-16T10:27:59.128Z",
   "schema": 5,
   "schedule": {
     "slotsUtc": [
@@ -26,8 +26,8 @@
       "frontMonth": {
         "code": "KCZ26",
         "label": "Dec 2026",
-        "close": 298.7,
-        "volume": 13054
+        "close": 309.9,
+        "volume": 5810
       },
       "rolled": false,
       "mostActive": "KCZ26",
@@ -35,66 +35,58 @@
         {
           "code": "KCZ26",
           "label": "Dec 2026",
-          "close": 298.7,
-          "volume": 13054
+          "close": 309.9,
+          "volume": 5810
         },
         {
           "code": "KCH27",
           "label": "Mar 2027",
-          "close": 287.25,
-          "volume": 9734
+          "close": 296.4,
+          "volume": 3346
         },
         {
           "code": "KCK27",
           "label": "May 2027",
-          "close": 283.25,
-          "volume": 3481
+          "close": 291.9,
+          "volume": 969
         },
         {
           "code": "KCN27",
           "label": "Jul 2027",
-          "close": 280.6,
-          "volume": 867
+          "close": 288.2,
+          "volume": 400
         },
         {
           "code": "KCU27",
           "label": "Sep 2027",
-          "close": 277.25,
-          "volume": 237
+          "close": 285,
+          "volume": 150
         },
         {
           "code": "KCZ27",
           "label": "Dec 2027",
-          "close": 274.6,
-          "volume": 102
+          "close": 280.95,
+          "volume": 113
         },
         {
           "code": "KCH28",
           "label": "Mar 2028",
-          "close": 272.35,
-          "volume": 1
+          "close": 278.35,
+          "volume": 96
         }
       ],
       "quote": {
-        "last": 287.25,
-        "open": 288.8500061035156,
-        "high": 290.1000061035156,
-        "low": 283.54998779296875,
-        "previousClose": 290.1499938964844,
-        "change": -2.9,
-        "changePct": -0.999,
-        "volume": 9734,
-        "asOf": "2026-10-15T17:29:57.000Z"
+        "last": 296.25,
+        "open": 287.25,
+        "high": 297.1499938964844,
+        "low": 287.1499938964844,
+        "previousClose": 285.3500061035156,
+        "change": 10.9,
+        "changePct": 3.82,
+        "volume": 3308,
+        "asOf": "2026-10-16T10:07:20.000Z"
       },
       "bars": [
-        {
-          "date": "2025-07-10",
-          "open": 244.35000610351562,
-          "high": 257.25,
-          "low": 244.35000610351562,
-          "close": 252.1999969482422,
-          "volume": 175
-        },
         {
           "date": "2025-07-11",
           "open": 261.3999938964844,
@@ -2637,22 +2629,30 @@
           "high": 294.8999938964844,
           "low": 285.04998779296875,
           "close": 290.1499938964844,
-          "volume": 9327
+          "volume": 9196
         },
         {
           "date": "2026-10-15",
           "open": 288.8500061035156,
           "high": 290.1000061035156,
-          "low": 283.54998779296875,
-          "close": 287.25,
-          "volume": 9734
+          "low": 283.5,
+          "close": 285.3500061035156,
+          "volume": 9196
+        },
+        {
+          "date": "2026-10-16",
+          "open": 287.25,
+          "high": 297.1499938964844,
+          "low": 287.1499938964844,
+          "close": 296.25,
+          "volume": 3308
         }
       ],
       "crossCheck": {
-        "tradingView": 287.25,
-        "yahoo": 287.25,
-        "diff": 0,
-        "diffPct": 0,
+        "tradingView": 296.4,
+        "yahoo": 296.25,
+        "diff": 0.15,
+        "diffPct": 0.051,
         "agree": true
       },
       "sources": [
@@ -2669,16 +2669,16 @@
       ],
       "technicals": {
         "observations": 504,
-        "sma20": 279.49750061035155,
-        "sma50": 290.3569989013672,
-        "sma200": 280.64774978637695,
-        "rsi14": 53.16203730213689,
+        "sma20": 280.6175003051758,
+        "sma50": 290.2979992675781,
+        "sma200": 280.557749786377,
+        "rsi14": 59.401996109493545,
         "macd": {
-          "line": 0.40434164450499566,
-          "signal": -1.2355389416690001,
-          "histogram": 1.6398805861739958
+          "line": 1.2230130479123318,
+          "signal": -0.7680791781010247,
+          "histogram": 1.9910922260133566
         },
-        "atr14": 9.215445583537123,
+        "atr14": 9.403371258234248,
         "donchian20": {
           "high": 300,
           "low": 262.6000061035156,
@@ -2687,30 +2687,30 @@
         "levels": {
           "support": [
             {
+              "price": 291.95001220703125,
+              "date": "2025-05-13"
+            },
+            {
+              "price": 289.29998779296875,
+              "date": "2026-07-16"
+            },
+            {
               "price": 287.20001220703125,
               "date": "2026-07-24"
-            },
-            {
-              "price": 285.45001220703125,
-              "date": "2025-06-03"
-            },
-            {
-              "price": 283.79998779296875,
-              "date": "2025-09-19"
             }
           ],
           "resistance": [
             {
-              "price": 289.6499938964844,
-              "date": "2026-02-13"
+              "price": 297.3999938964844,
+              "date": "2025-02-10"
             },
             {
-              "price": 289.95001220703125,
-              "date": "2025-03-05"
+              "price": 300,
+              "date": "2025-04-02"
             },
             {
-              "price": 295.95001220703125,
-              "date": "2025-02-19"
+              "price": 300,
+              "date": "2026-10-07"
             }
           ]
         },
@@ -3252,7 +3252,7 @@
     ]
   },
   "weather": {
-    "fetchedAt": "2026-10-15T21:39:42.199Z",
+    "fetchedAt": "2026-10-16T10:27:56.416Z",
     "thresholds": {
       "frostC": 4,
       "heavyRainMm": 50,
@@ -3277,26 +3277,20 @@
         "lat": -21.55,
         "lon": -45.43,
         "current": {
-          "date": "2026-10-14",
-          "tMax": 27.5,
-          "tMin": 17.6,
-          "rain": 6.1,
+          "date": "2026-10-15",
+          "tMax": 27.6,
+          "tMin": 17.8,
+          "rain": 5.2,
           "code": 80,
-          "cloud": 90,
+          "cloud": 83,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 88.6,
-        "rainForecast7": 51.1,
-        "minForecast7": 14.2,
-        "alerts": [
-          {
-            "type": "wet",
-            "severity": "watch",
-            "text": "51 mm forecast over 7 days — harvest/drying disruption risk."
-          }
-        ]
+        "rain14": 91.6,
+        "rainForecast7": 38.6,
+        "minForecast7": 12.8,
+        "alerts": []
       },
       {
         "key": "cerrado",
@@ -3306,19 +3300,19 @@
         "lat": -18.94,
         "lon": -46.99,
         "current": {
-          "date": "2026-10-14",
-          "tMax": 28,
-          "tMin": 18.4,
-          "rain": 8.3,
-          "code": 81,
-          "cloud": 70,
+          "date": "2026-10-15",
+          "tMax": 26.5,
+          "tMin": 17.5,
+          "rain": 14.4,
+          "code": 95,
+          "cloud": 95,
           "observed": true
         },
-        "condition": "wet",
-        "conditionLabel": "Wet",
-        "rain14": 60.3,
-        "rainForecast7": 37.9,
-        "minForecast7": 15.4,
+        "condition": "very-wet",
+        "conditionLabel": "Very wet",
+        "rain14": 73,
+        "rainForecast7": 41.6,
+        "minForecast7": 15.8,
         "alerts": []
       },
       {
@@ -3329,24 +3323,24 @@
         "lat": -19.39,
         "lon": -40.07,
         "current": {
-          "date": "2026-10-14",
-          "tMax": 34.4,
-          "tMin": 22.9,
-          "rain": 1.7,
-          "code": 51,
-          "cloud": 51,
+          "date": "2026-10-15",
+          "tMax": 34.7,
+          "tMin": 23.4,
+          "rain": 10.8,
+          "code": 81,
+          "cloud": 74,
           "observed": true
         },
-        "condition": "cloudy",
-        "conditionLabel": "Cloudy",
-        "rain14": 29.6,
-        "rainForecast7": 61.9,
-        "minForecast7": 21.9,
+        "condition": "wet",
+        "conditionLabel": "Wet",
+        "rain14": 40.4,
+        "rainForecast7": 71.3,
+        "minForecast7": 22,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "62 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "71 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3358,19 +3352,19 @@
         "lat": 12.68,
         "lon": 108.05,
         "current": {
-          "date": "2026-10-14",
-          "tMax": 30,
-          "tMin": 22.8,
-          "rain": 6.1,
-          "code": 80,
+          "date": "2026-10-15",
+          "tMax": 28.8,
+          "tMin": 22.2,
+          "rain": 0.2,
+          "code": 51,
           "cloud": 83,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 77.3,
-        "rainForecast7": 32.5,
-        "minForecast7": 22.2,
+        "rain14": 77.5,
+        "rainForecast7": 23.1,
+        "minForecast7": 22,
         "alerts": []
       },
       {
@@ -3381,24 +3375,24 @@
         "lat": 11.55,
         "lon": 107.81,
         "current": {
-          "date": "2026-10-14",
-          "tMax": 28.3,
-          "tMin": 19.3,
-          "rain": 7.1,
-          "code": 81,
-          "cloud": 87,
+          "date": "2026-10-15",
+          "tMax": 28.1,
+          "tMin": 20.3,
+          "rain": 28.9,
+          "code": 95,
+          "cloud": 98,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 118.1,
-        "rainForecast7": 106.2,
-        "minForecast7": 19,
+        "rain14": 147,
+        "rainForecast7": 74.6,
+        "minForecast7": 18.7,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "106 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "75 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3410,19 +3404,19 @@
         "lat": 1.85,
         "lon": -76.05,
         "current": {
-          "date": "2026-10-14",
-          "tMax": 29,
-          "tMin": 18.1,
-          "rain": 7.9,
-          "code": 81,
-          "cloud": 81,
+          "date": "2026-10-15",
+          "tMax": 29.4,
+          "tMin": 17.9,
+          "rain": 2.1,
+          "code": 55,
+          "cloud": 77,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 99.6,
-        "rainForecast7": 36,
-        "minForecast7": 17,
+        "rain14": 92.4,
+        "rainForecast7": 37.5,
+        "minForecast7": 16,
         "alerts": []
       },
       {
@@ -3433,24 +3427,24 @@
         "lat": 6.25,
         "lon": -75.56,
         "current": {
-          "date": "2026-10-14",
-          "tMax": 28.5,
-          "tMin": 15.6,
-          "rain": 3.6,
-          "code": 80,
-          "cloud": 66,
+          "date": "2026-10-15",
+          "tMax": 30.8,
+          "tMin": 17.4,
+          "rain": 0.5,
+          "code": 51,
+          "cloud": 68,
           "observed": true
         },
-        "condition": "very-wet",
-        "conditionLabel": "Very wet",
-        "rain14": 102.1,
-        "rainForecast7": 63.7,
-        "minForecast7": 17.1,
+        "condition": "wet",
+        "conditionLabel": "Wet",
+        "rain14": 95.1,
+        "rainForecast7": 87.2,
+        "minForecast7": 16.6,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "64 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "87 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3462,24 +3456,24 @@
         "lat": 4.63,
         "lon": 96.85,
         "current": {
-          "date": "2026-10-14",
-          "tMax": 23.7,
-          "tMin": 17.5,
-          "rain": 8.2,
-          "code": 80,
-          "cloud": 91,
+          "date": "2026-10-15",
+          "tMax": 26,
+          "tMin": 16.8,
+          "rain": 5.2,
+          "code": 81,
+          "cloud": 88,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 234.5,
-        "rainForecast7": 70.5,
-        "minForecast7": 16.6,
+        "rain14": 239.7,
+        "rainForecast7": 88.8,
+        "minForecast7": 16.3,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "71 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "89 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3491,19 +3485,19 @@
         "lat": -5.45,
         "lon": 105.27,
         "current": {
-          "date": "2026-10-14",
-          "tMax": 34.1,
-          "tMin": 25.4,
-          "rain": 1.8,
+          "date": "2026-10-15",
+          "tMax": 33.3,
+          "tMin": 24.1,
+          "rain": 2.5,
           "code": 53,
-          "cloud": 31,
+          "cloud": 68,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 51,
-        "rainForecast7": 14.8,
-        "minForecast7": 24.1,
+        "rain14": 53.5,
+        "rainForecast7": 6.2,
+        "minForecast7": 24.3,
         "alerts": []
       },
       {
@@ -3514,19 +3508,19 @@
         "lat": 7.67,
         "lon": 36.83,
         "current": {
-          "date": "2026-10-14",
-          "tMax": 24.6,
-          "tMin": 13.4,
-          "rain": 0.8,
-          "code": 51,
-          "cloud": 41,
+          "date": "2026-10-15",
+          "tMax": 23.8,
+          "tMin": 13.5,
+          "rain": 1.6,
+          "code": 53,
+          "cloud": 63,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 43.9,
-        "rainForecast7": 13.5,
-        "minForecast7": 12.7,
+        "rain14": 45.5,
+        "rainForecast7": 7.2,
+        "minForecast7": 12.9,
         "alerts": []
       },
       {
@@ -3537,26 +3531,20 @@
         "lat": 14.16,
         "lon": -88.02,
         "current": {
-          "date": "2026-10-14",
-          "tMax": 25.2,
-          "tMin": 18.1,
-          "rain": 4,
-          "code": 55,
+          "date": "2026-10-15",
+          "tMax": 25.8,
+          "tMin": 17.9,
+          "rain": 2.3,
+          "code": 53,
           "cloud": 96,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 98.7,
-        "rainForecast7": 55.1,
-        "minForecast7": 17.1,
-        "alerts": [
-          {
-            "type": "wet",
-            "severity": "watch",
-            "text": "55 mm forecast over 7 days — harvest/drying disruption risk."
-          }
-        ]
+        "rain14": 94.6,
+        "rainForecast7": 47.1,
+        "minForecast7": 16.2,
+        "alerts": []
       },
       {
         "key": "chanchamayo",
@@ -3566,26 +3554,20 @@
         "lat": -11.05,
         "lon": -75.33,
         "current": {
-          "date": "2026-10-14",
-          "tMax": 30.7,
-          "tMin": 19.9,
-          "rain": 2.9,
-          "code": 55,
-          "cloud": 41,
+          "date": "2026-10-15",
+          "tMax": 32.7,
+          "tMin": 20.3,
+          "rain": 5.8,
+          "code": 80,
+          "cloud": 50,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 69.9,
-        "rainForecast7": 52.6,
-        "minForecast7": 18.8,
-        "alerts": [
-          {
-            "type": "wet",
-            "severity": "watch",
-            "text": "53 mm forecast over 7 days — harvest/drying disruption risk."
-          }
-        ]
+        "rain14": 74.7,
+        "rainForecast7": 45.7,
+        "minForecast7": 19.8,
+        "alerts": []
       }
     ],
     "sources": [
@@ -3598,32 +3580,32 @@
   },
   "news": {
     "originWire": {
-      "fetchedAt": "2026-10-15T21:39:43.649Z",
+      "fetchedAt": "2026-10-16T10:27:58.359Z",
       "lookbackHours": 504,
       "headlines": [
         {
-          "title": "Poll shows Bolsonaro with slight lead over Lula ahead of Brazilian run-off",
-          "summary": "Poll shows right-wing candidate with two percent advantage over Lula going into second round of voting on October 25.",
-          "url": "https://www.aljazeera.com/news/2026/10/15/poll-shows-bolsonaro-with-slight-lead-over-lula-ahead-of-brazilian-run-off?traffic_source=rss",
-          "publisher": "Al Jazeera",
+          "title": "Weird Baile: Collected Rips 2004-2024 review – a hallucinatory trip to baile funk’s outer limits",
+          "summary": "(TraTraTrax) Two decades of work from producers JLZ, VHOOR, Mu540 and DJ RaMeMes strips the Brazilian genre to its essential parts until it chimes with grime and drill Originating in 1980s Brazil, baile funk began as a bass-heavy blend of syncopated folk…",
+          "url": "https://www.theguardian.com/music/2026/oct/16/weird-baile-collected-rips-2004-2024-review-a-hallucinatory-trip-to-baile-funks-outer-limits",
+          "publisher": "The Guardian",
           "region": "Brazil",
-          "published": "Thu, 15 Oct 2026 20:07:58 +0000"
+          "published": "Fri, 16 Oct 2026 07:30:54 GMT"
         },
         {
-          "title": "Gasoline prices decline",
-          "summary": "Vietnam gasoline prices fell Thursday afternoon amid a decline in global fuel prices.",
-          "url": "https://e.vnexpress.net/news/business/markets/gasoline-prices-decline-5132754.html",
+          "title": "Vietnam Mobility Show 2026 set for early December in Hanoi",
+          "summary": "Vietnam's marquee automotive and motorcycle showcase returns on Dec. 5–6 with dozens of vehicle makers and parts suppliers taking part.",
+          "url": "https://e.vnexpress.net/news/business/economy/vietnam-mobility-show-2026-set-for-early-december-in-hanoi-5133089.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Thu, 15 Oct 2026 17:33:55 +0700"
+          "published": "Fri, 16 Oct 2026 16:29:35 +0700"
         },
         {
-          "title": "Indonesia fights fire with dry ice as toxic haze spreads across region",
-          "summary": "Having tried cloud seeding and water bombing, one pilot project will see dry ice dispersed by plane across the province of South Sumatra As fires ravage Indonesia, emitting a toxic smoke that has drawn the ire of regional neighbours, the government is testing…",
-          "url": "https://www.theguardian.com/world/2026/oct/15/indonesia-fires-dry-ice-dropped-toxic-haze-spreads",
+          "title": "‘Clean air is not a favour’: Indonesia’s neighbours fed up with acrid haze as Singapore threatens to prosecute",
+          "summary": "Companies behind fires in Indonesia threatened with legal action as region dogged by persistent, transboundary haze Singapore is threatening to prosecute companies responsible for some of the worst fires in years in neighbouring Indonesia, as the region grows…",
+          "url": "https://www.theguardian.com/world/2026/oct/16/singapore-threatens-prosecute-indonesia-fires-toxic-haze-smoke",
           "publisher": "The Guardian",
           "region": "Indonesia",
-          "published": "Thu, 15 Oct 2026 04:25:03 GMT"
+          "published": "Fri, 16 Oct 2026 08:34:01 GMT"
         },
         {
           "title": "IPCC is under pressure to delay publication of key global climate report",
@@ -3634,12 +3616,12 @@
           "published": "Tue, 13 Oct 2026 05:00:15 GMT"
         },
         {
-          "title": "Nicolás Maduro tells New York court new torture allegations are ‘false’",
-          "summary": "Rewritten indictment accuses ex-Venezuela president and wife Cilia Flores of leading campaign of torture Nicolás Maduro insisted on Thursday during an appearance in a New York court that torture allegations in a rewritten drug trafficking indictment against…",
-          "url": "https://www.theguardian.com/world/2026/oct/15/nicolas-maduro-torture-allegations-cilia-flores",
-          "publisher": "The Guardian",
+          "title": "Residents douse workers with flaming gasoline during eviction in Peru",
+          "summary": "A bystander has filmed residents of a condemned building in Peru throwing flaming gasoline on eviction workers.",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/16/residents-douse-workers-with-flaming-gasoline-during-eviction-in-peru?traffic_source=rss",
+          "publisher": "Al Jazeera",
           "region": "South & Central America",
-          "published": "Thu, 15 Oct 2026 16:38:32 GMT"
+          "published": "Fri, 16 Oct 2026 02:35:57 +0000"
         },
         {
           "title": "UK threatens to ban Eritreans over migrant return policy",
@@ -3658,20 +3640,20 @@
           "published": "Thu, 15 Oct 2026 10:05:17 GMT"
         },
         {
-          "title": "Gaz Vietnam showcases commercial vehicles at Cambodia auto exhibition",
-          "summary": "Gaz Vietnam debuted at Cam Auto 2026 in Phnom Penh, showcasing minibuses, trucks and a specialized ambulance as it seeks to expand in Cambodia.",
-          "url": "https://e.vnexpress.net/news/business/gaz-vietnam-showcases-commercial-vehicles-at-cambodia-auto-exhibition-5131797.html",
+          "title": "Cambodia spends over $70M on coffee bean imports",
+          "summary": "Cambodia spends more than US$70 million annually importing green coffee beans from abroad to meet domestic demand, with Vietnam and Thailand among key suppliers.",
+          "url": "https://e.vnexpress.net/news/business/economy/cambodia-spends-over-70m-on-coffee-bean-imports-5133260.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Thu, 15 Oct 2026 15:15:00 +0700"
+          "published": "Fri, 16 Oct 2026 15:53:43 +0700"
         },
         {
-          "title": "Desperate to clear toxic haze, Indonesia douses its skies with dry ice",
-          "summary": "Authorities in South East Asia have turned to weather modification as fires blanket the region in smog.",
-          "url": "https://www.bbc.co.uk/news/articles/ck1l3djr5d5do?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
+          "title": "Revealed: VW, Ford and Tesla batteries linked to destructive deforestation of indigenous lands",
+          "summary": "Mines in supply chains of western carmakers linked to widespread deforestation of primary rainforest in nickel-rich lands inhabited by Tolaki people in Indonesia Volkswagen, Ford and Tesla are among the electric carmakers whose batteries may contain nickel…",
+          "url": "https://www.theguardian.com/environment/2026/oct/16/vw-ford-tesla-batteries-deforestation-indigenous-lands",
+          "publisher": "The Guardian",
           "region": "Indonesia",
-          "published": "Thu, 15 Oct 2026 03:59:56 GMT"
+          "published": "Fri, 16 Oct 2026 07:00:56 GMT"
         },
         {
           "title": "The billion-dollar shipwreck and the man who tried to find it – podcast",
@@ -3682,20 +3664,20 @@
           "published": "Tue, 13 Oct 2026 02:00:11 GMT"
         },
         {
-          "title": "Venezuela’s Maduro pleads not guilty to US conspiracy to torture charges",
-          "summary": "Maduro and wife appear in New York City court after new 'conspiracy to commit torture' charges.",
-          "url": "https://www.aljazeera.com/news/2026/10/15/venezuelas-maduro-pleads-not-guilty-to-us-conspiracy-to-torture-charges?traffic_source=rss",
+          "title": "Argentine students protest on campus over Milei’s austerity",
+          "summary": "Judge fines the government for failing to fund universities as protests over Milei's cuts turn violent.",
+          "url": "https://www.aljazeera.com/news/2026/10/16/argentine-students-protest-on-campus-over-mileis-austerity?traffic_source=rss",
           "publisher": "Al Jazeera",
           "region": "South & Central America",
-          "published": "Thu, 15 Oct 2026 16:04:58 +0000"
+          "published": "Fri, 16 Oct 2026 02:11:33 +0000"
         },
         {
-          "title": "Somalia says it will hold elections in 2027",
-          "summary": "Critics say unilateral decision to call polls is a recipe for more conflict.",
-          "url": "https://www.aljazeera.com/news/2026/10/15/somalia-says-it-will-hold-elections-in-2027?traffic_source=rss",
-          "publisher": "Al Jazeera",
+          "title": "Eritrean aggression must not be overlooked | Letter",
+          "summary": "Biruk Mekonnen , the Ethiopian ambassador to the UK, responds to an editorial on the war in Tigray Your attention to Ethiopia is welcome, but your editorial ( 8 October ) presents an incomplete account of the crisis, framing Ethiopia’s national interests as…",
+          "url": "https://www.theguardian.com/world/2026/oct/15/eritrean-aggression-must-not-be-overlooked",
+          "publisher": "The Guardian",
           "region": "East Africa",
-          "published": "Thu, 15 Oct 2026 20:04:02 +0000"
+          "published": "Thu, 15 Oct 2026 16:51:26 GMT"
         },
         {
           "title": "Brazil cuts work week to 40 hours in win for Lula ahead of runoff",
@@ -3706,22 +3688,22 @@
           "published": "Thu, 15 Oct 2026 02:45:42 GMT"
         },
         {
-          "title": "Vietnam tops Asia-Pacific, ranks 3rd globally for branded residential units",
-          "summary": "Vietnam has 16,135 branded residences across 68 projects, the highest number of units in Asia-Pacific and the third-highest worldwide, a report has found.",
-          "url": "https://e.vnexpress.net/news/business/property/vietnam-tops-asia-pacific-ranks-3rd-globally-for-branded-residential-units-5132550.html",
+          "title": "Gold prices gain",
+          "summary": "Vietnam gold prices rose on Friday afternoon amid an uptick in global bullion rates.",
+          "url": "https://e.vnexpress.net/news/business/markets/gold-prices-gain-5133225.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Thu, 15 Oct 2026 11:58:30 +0700"
+          "published": "Fri, 16 Oct 2026 15:53:28 +0700"
         }
       ],
-      "totalTagged": 140,
+      "totalTagged": 141,
       "feedsQueried": 14,
       "errors": [],
       "note": "General headlines from the growing regions, taken from outlets of record and tagged to a region by the countries and cities they name."
     },
     "roundup": {
       "source": "assembled",
-      "fetchedAt": "2026-10-15T21:39:43.131Z",
+      "fetchedAt": "2026-10-16T10:27:57.897Z",
       "windowDays": 7,
       "publishers": [
         "Daily Coffee News",
@@ -3729,6 +3711,15 @@
         "World Coffee Portal"
       ],
       "items": [
+        {
+          "headline": "Westrock and Kofola among bidders for Massimo Zanetti Beverage Group, sources say",
+          "summary": "The Italian coffee group confirmed it was exploring sale options three months ago and could fetch €1.2bn",
+          "url": "https://www.worldcoffeeportal.com/news/westrock-and-kofolo-among-bidders-for-massimo-zanetti-beverage-group-sources-say/",
+          "publisher": "World Coffee Portal",
+          "published": "Fri, 16 Oct 2026 09:11:22 GMT",
+          "date": "Fri, 16 Oct",
+          "section": "Roasting & retail"
+        },
         {
           "headline": "Three Questions with Esther Singer of Segara Coffee",
           "summary": "For Esther Singer, a career in coffee grew out of a classic scientific impulse: Start digging and see what turns up. The German-Indonesian-Californian scientist spent more than a decade researching...",
@@ -3793,30 +3784,12 @@
           "section": "Roasting & retail"
         },
         {
-          "headline": "Your Values Are on the Wall. Are They on the Floor?",
-          "summary": "Your brand values are meaningless unless you teach your team how to turn them into action. The post Your Values Are on the Wall. Are They on the Floor? appeared first on Fresh Cup .",
-          "url": "https://freshcup.com/your-values-are-on-the-wall-are-they-on-the-floor/",
-          "publisher": "Fresh Cup",
-          "published": "Wed, 14 Oct 2026 11:50:00 +0000",
-          "date": "Wed, 14 Oct",
-          "section": "Roasting & retail"
-        },
-        {
           "headline": "Oatly gives UK coffee careers a £1m boost with Well Grounded partnership",
           "summary": "Funds raised through the Future of Coffee initiative will support educational programmes at Well Grounded’s four specialty coffee training academies",
           "url": "https://www.worldcoffeeportal.com/news/oatly-gives-uk-coffee-careers-a-1m-boost-with-well-grounded-partnership/",
           "publisher": "World Coffee Portal",
           "published": "Wed, 14 Oct 2026 11:02:09 GMT",
           "date": "Wed, 14 Oct",
-          "section": "Top stories of the week"
-        },
-        {
-          "headline": "Episode 223: Maxwell Colonna-Dashwood on the next era of specialty coffee",
-          "summary": "Maxwell Colonna-Dashwood returns to 5THWAVE to explore the future of specialty coffee and what independent roasters can learn from larger commercial operations",
-          "url": "https://www.worldcoffeeportal.com/podcast/episode-223-maxwell-colonna-dashwood-on-the-next-era-of-specialty-coffee/",
-          "publisher": "World Coffee Portal",
-          "published": "Mon, 12 Oct 2026 15:41:39 GMT",
-          "date": "Mon, 12 Oct",
           "section": "Top stories of the week"
         },
         {
@@ -3835,7 +3808,7 @@
           "publisher": "Fresh Cup",
           "published": "Fri, 09 Oct 2026 11:50:00 +0000",
           "date": "Fri, 9 Oct",
-          "section": "Trade & production"
+          "section": "Top stories of the week"
         }
       ],
       "errors": [
@@ -3847,7 +3820,7 @@
       "note": "Assembled from the coffee trade press over the past seven days, ranked by relevance to the physical trade. Headlines and links are each publisher’s own."
     },
     "dailyRead": {
-      "fetchedAt": "2026-10-15T21:39:41.661Z",
+      "fetchedAt": "2026-10-16T10:27:55.902Z",
       "article": {
         "title": "Pastime Coffee Goes All In at New Portland Production Roastery",
         "summary": "Portland, Oregon-based Pastime Coffee is heading full bore into professional production with the opening of a new 1,000-square-foot roastery in a former Northeast Portland flower shop. At the center of...",
@@ -4173,39 +4146,39 @@
   },
   "status": [
     {
-      "source": "arabica-futures",
-      "ok": true,
-      "ms": 430
-    },
-    {
       "source": "daily-read",
       "ok": true,
-      "ms": 378
+      "ms": 260
     },
     {
-      "source": "fx",
+      "source": "arabica-futures",
       "ok": true,
-      "ms": 829
+      "ms": 805
     },
     {
       "source": "weather",
       "ok": true,
-      "ms": 924
+      "ms": 780
     },
     {
       "source": "weekly-recap",
       "ok": true,
-      "ms": 1851
+      "ms": 2257
+    },
+    {
+      "source": "fx",
+      "ok": true,
+      "ms": 2520
     },
     {
       "source": "origin-wire",
       "ok": true,
-      "ms": 2373
+      "ms": 2722
     },
     {
       "source": "ico-report",
       "ok": false,
-      "ms": 4080,
+      "ms": 3473,
       "error": "Table 1 (indicator prices) not found"
     }
   ]

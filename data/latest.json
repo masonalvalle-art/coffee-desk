@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T10:59:03.758Z",
+  "generatedAt": "2026-10-21T21:55:53.736Z",
   "schema": 5,
   "schedule": {
     "slotsUtc": [
@@ -26,8 +26,8 @@
       "frontMonth": {
         "code": "KCZ26",
         "label": "Dec 2026",
-        "close": 316.8,
-        "volume": 2118
+        "close": 316.65,
+        "volume": 19611
       },
       "rolled": false,
       "mostActive": "KCZ26",
@@ -35,56 +35,56 @@
         {
           "code": "KCZ26",
           "label": "Dec 2026",
-          "close": 316.8,
-          "volume": 2118
+          "close": 316.65,
+          "volume": 19611
         },
         {
           "code": "KCH27",
           "label": "Mar 2027",
-          "close": 303.1,
-          "volume": 1291
+          "close": 301.25,
+          "volume": 14428
         },
         {
           "code": "KCK27",
           "label": "May 2027",
-          "close": 298.35,
-          "volume": 303
+          "close": 296,
+          "volume": 4455
         },
         {
           "code": "KCN27",
           "label": "Jul 2027",
-          "close": 295.45,
-          "volume": 114
+          "close": 292.5,
+          "volume": 1623
         },
         {
           "code": "KCU27",
           "label": "Sep 2027",
-          "close": 292.15,
-          "volume": 54
+          "close": 289.25,
+          "volume": 467
         },
         {
           "code": "KCZ27",
           "label": "Dec 2027",
-          "close": 288.6,
-          "volume": 39
+          "close": 285.55,
+          "volume": 282
         },
         {
           "code": "KCH28",
           "label": "Mar 2028",
-          "close": 285.9,
-          "volume": 17
+          "close": 283.3,
+          "volume": 76
         }
       ],
       "quote": {
-        "last": 302.5,
+        "last": 301.25,
         "open": 297.95001220703125,
-        "high": 303.3500061035156,
-        "low": 297.95001220703125,
+        "high": 303.79998779296875,
+        "low": 295.1000061035156,
         "previousClose": 299,
-        "change": 3.5,
-        "changePct": 1.171,
-        "volume": 1195,
-        "asOf": "2026-10-21T10:38:15.000Z"
+        "change": 2.25,
+        "changePct": 0.753,
+        "volume": 14428,
+        "asOf": "2026-10-21T17:29:59.000Z"
       },
       "bars": [
         {
@@ -2642,17 +2642,17 @@
         {
           "date": "2026-10-21",
           "open": 297.95001220703125,
-          "high": 303.3500061035156,
-          "low": 297.95001220703125,
-          "close": 302.5,
-          "volume": 1195
+          "high": 303.79998779296875,
+          "low": 295.1000061035156,
+          "close": 301.25,
+          "volume": 14428
         }
       ],
       "crossCheck": {
-        "tradingView": 303.1,
-        "yahoo": 302.5,
-        "diff": 0.6,
-        "diffPct": 0.198,
+        "tradingView": 301.25,
+        "yahoo": 301.25,
+        "diff": 0,
+        "diffPct": 0,
         "agree": true
       },
       "sources": [
@@ -2669,16 +2669,16 @@
       ],
       "technicals": {
         "observations": 504,
-        "sma20": 285.6524993896484,
-        "sma50": 290.0039996337891,
-        "sma200": 280.3142497253418,
-        "rsi14": 62.117335544554116,
+        "sma20": 285.5899993896484,
+        "sma50": 289.97899963378904,
+        "sma200": 280.3079997253418,
+        "rsi14": 61.377689103897836,
         "macd": {
-          "line": 3.83067077180624,
-          "signal": 1.144309364080019,
-          "histogram": 2.6863614077262206
+          "line": 3.7309556720911132,
+          "signal": 1.1243663441369938,
+          "histogram": 2.6065893279541195
         },
-        "atr14": 9.166376013076254,
+        "atr14": 9.402089426859735,
         "donchian20": {
           "high": 304.45001220703125,
           "low": 264.45001220703125,
@@ -2687,16 +2687,16 @@
         "levels": {
           "support": [
             {
-              "price": 301.29998779296875,
-              "date": "2025-10-28"
-            },
-            {
-              "price": 301.25,
-              "date": "2025-11-21"
-            },
-            {
               "price": 300.1000061035156,
               "date": "2025-09-02"
+            },
+            {
+              "price": 299.6000061035156,
+              "date": "2025-12-22"
+            },
+            {
+              "price": 299.45001220703125,
+              "date": "2025-05-01"
             }
           ],
           "resistance": [
@@ -2726,22 +2726,18 @@
     }
   },
   "fx": {
-    "asOf": "2026-10-20",
+    "asOf": "2026-10-21",
     "pairs": {
       "GBPUSD": {
         "pair": "GBP/USD",
-        "rate": 1.3347,
-        "previous": 1.3331,
+        "rate": 1.3402,
+        "previous": 1.3347,
         "dp": 4,
         "note": "Sterling stronger means a dollar-priced contract costs a UK buyer less.",
-        "change": 0.0016,
-        "changePct": 0.12,
-        "change1m": -0.36,
+        "change": 0.0055,
+        "changePct": 0.412,
+        "change1m": 0.29,
         "history": [
-          {
-            "date": "2026-07-29",
-            "rate": 1.3289
-          },
           {
             "date": "2026-07-30",
             "rate": 1.3389
@@ -2977,23 +2973,23 @@
           {
             "date": "2026-10-20",
             "rate": 1.3347
+          },
+          {
+            "date": "2026-10-21",
+            "rate": 1.3402
           }
         ]
       },
       "USDBRL": {
         "pair": "USD/BRL",
-        "rate": 5.0235,
-        "previous": 5.0453,
+        "rate": 5.0233,
+        "previous": 5.0235,
         "dp": 4,
         "note": "A weaker real encourages Brazilian producer selling.",
-        "change": -0.0218,
-        "changePct": -0.432,
-        "change1m": -2.04,
+        "change": -0.0002,
+        "changePct": -0.004,
+        "change1m": -1.95,
         "history": [
-          {
-            "date": "2026-07-29",
-            "rate": 5.1202
-          },
           {
             "date": "2026-07-30",
             "rate": 5.1006
@@ -3229,14 +3225,18 @@
           {
             "date": "2026-10-20",
             "rate": 5.0235
+          },
+          {
+            "date": "2026-10-21",
+            "rate": 5.0233
           }
         ]
       }
     },
     "ptax": {
-      "buy": 5.0134,
-      "sell": 5.014,
-      "quotedAt": "2026-10-20 13:09:36.250006"
+      "buy": 5.027,
+      "sell": 5.0277,
+      "quotedAt": "2026-10-21 13:08:17.041224"
     },
     "sources": [
       {
@@ -3252,7 +3252,7 @@
     ]
   },
   "weather": {
-    "fetchedAt": "2026-10-21T10:59:01.280Z",
+    "fetchedAt": "2026-10-21T21:55:38.698Z",
     "thresholds": {
       "frostC": 4,
       "heavyRainMm": 50,
@@ -3279,7 +3279,7 @@
         "current": {
           "date": "2026-10-20",
           "tMax": 26.5,
-          "tMin": 14.1,
+          "tMin": 14,
           "rain": 0,
           "code": 3,
           "cloud": 28,
@@ -3288,9 +3288,15 @@
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
         "rain14": 63.5,
-        "rainForecast7": 27.1,
-        "minForecast7": 15.2,
-        "alerts": []
+        "rainForecast7": 62.5,
+        "minForecast7": 14.9,
+        "alerts": [
+          {
+            "type": "wet",
+            "severity": "watch",
+            "text": "63 mm forecast over 7 days — harvest/drying disruption risk."
+          }
+        ]
       },
       {
         "key": "cerrado",
@@ -3302,7 +3308,7 @@
         "current": {
           "date": "2026-10-20",
           "tMax": 31,
-          "tMin": 16,
+          "tMin": 15.8,
           "rain": 0,
           "code": 0,
           "cloud": 0,
@@ -3311,8 +3317,8 @@
         "condition": "dry",
         "conditionLabel": "Clear / dry",
         "rain14": 44.8,
-        "rainForecast7": 23.1,
-        "minForecast7": 18.3,
+        "rainForecast7": 36.8,
+        "minForecast7": 18.6,
         "alerts": []
       },
       {
@@ -3325,17 +3331,17 @@
         "current": {
           "date": "2026-10-20",
           "tMax": 26.6,
-          "tMin": 21.8,
+          "tMin": 21.7,
           "rain": 2.4,
           "code": 53,
           "cloud": 90,
           "observed": true
         },
-        "condition": "very-wet",
-        "conditionLabel": "Very wet",
+        "condition": "wet",
+        "conditionLabel": "Wet",
         "rain14": 42.6,
-        "rainForecast7": 20.1,
-        "minForecast7": 21,
+        "rainForecast7": 31.4,
+        "minForecast7": 20.9,
         "alerts": []
       },
       {
@@ -3347,7 +3353,7 @@
         "lon": 108.05,
         "current": {
           "date": "2026-10-20",
-          "tMax": 29.6,
+          "tMax": 29.8,
           "tMin": 22.1,
           "rain": 4.4,
           "code": 80,
@@ -3356,9 +3362,9 @@
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 57.1,
-        "rainForecast7": 15.5,
-        "minForecast7": 21,
+        "rain14": 56.2,
+        "rainForecast7": 6.5,
+        "minForecast7": 20.1,
         "alerts": []
       },
       {
@@ -3379,9 +3385,9 @@
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 179.8,
-        "rainForecast7": 8.2,
-        "minForecast7": 16.7,
+        "rain14": 170.7,
+        "rainForecast7": 33.4,
+        "minForecast7": 15.2,
         "alerts": []
       },
       {
@@ -3395,7 +3401,7 @@
           "date": "2026-10-20",
           "tMax": 26.9,
           "tMin": 17.1,
-          "rain": 6.8,
+          "rain": 6.6,
           "code": 55,
           "cloud": 80,
           "observed": true
@@ -3403,8 +3409,8 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 76.2,
-        "rainForecast7": 29.6,
-        "minForecast7": 16.4,
+        "rainForecast7": 39.7,
+        "minForecast7": 16.3,
         "alerts": []
       },
       {
@@ -3426,13 +3432,13 @@
         "condition": "very-wet",
         "conditionLabel": "Very wet",
         "rain14": 133.9,
-        "rainForecast7": 109.6,
-        "minForecast7": 16.7,
+        "rainForecast7": 84,
+        "minForecast7": 16.3,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "110 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "84 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3447,21 +3453,21 @@
           "date": "2026-10-20",
           "tMax": 22.4,
           "tMin": 17.8,
-          "rain": 3.6,
+          "rain": 3.1,
           "code": 53,
           "cloud": 99,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 186.4,
-        "rainForecast7": 63.6,
-        "minForecast7": 17,
+        "rain14": 173.6,
+        "rainForecast7": 73.7,
+        "minForecast7": 16.3,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "64 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "74 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3475,7 +3481,7 @@
         "current": {
           "date": "2026-10-20",
           "tMax": 31,
-          "tMin": 24,
+          "tMin": 23.9,
           "rain": 1.1,
           "code": 53,
           "cloud": 55,
@@ -3483,9 +3489,9 @@
         },
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
-        "rain14": 33.2,
-        "rainForecast7": 9.3,
-        "minForecast7": 24.6,
+        "rain14": 28.8,
+        "rainForecast7": 13.5,
+        "minForecast7": 24.9,
         "alerts": []
       },
       {
@@ -3497,8 +3503,8 @@
         "lon": 36.83,
         "current": {
           "date": "2026-10-20",
-          "tMax": 25.7,
-          "tMin": 13.3,
+          "tMax": 26.1,
+          "tMin": 13.2,
           "rain": 0,
           "code": 3,
           "cloud": 52,
@@ -3506,9 +3512,9 @@
         },
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
-        "rain14": 41.2,
-        "rainForecast7": 22.9,
-        "minForecast7": 13.1,
+        "rain14": 39.5,
+        "rainForecast7": 19.4,
+        "minForecast7": 13,
         "alerts": []
       },
       {
@@ -3521,8 +3527,8 @@
         "current": {
           "date": "2026-10-20",
           "tMax": 25.8,
-          "tMin": 18.1,
-          "rain": 11.2,
+          "tMin": 17.9,
+          "rain": 10.9,
           "code": 80,
           "cloud": 100,
           "observed": true
@@ -3530,8 +3536,8 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 74.9,
-        "rainForecast7": 6.2,
-        "minForecast7": 11.5,
+        "rainForecast7": 12.1,
+        "minForecast7": 11.8,
         "alerts": []
       },
       {
@@ -3543,9 +3549,9 @@
         "lon": -75.33,
         "current": {
           "date": "2026-10-20",
-          "tMax": 30,
-          "tMin": 20.4,
-          "rain": 13.2,
+          "tMax": 30.1,
+          "tMin": 20.3,
+          "rain": 9.3,
           "code": 95,
           "cloud": 56,
           "observed": true
@@ -3553,9 +3559,15 @@
         "condition": "very-wet",
         "conditionLabel": "Very wet",
         "rain14": 97,
-        "rainForecast7": 41.3,
-        "minForecast7": 19.5,
-        "alerts": []
+        "rainForecast7": 50.4,
+        "minForecast7": 18.7,
+        "alerts": [
+          {
+            "type": "wet",
+            "severity": "watch",
+            "text": "50 mm forecast over 7 days — harvest/drying disruption risk."
+          }
+        ]
       }
     ],
     "sources": [
@@ -3568,16 +3580,16 @@
   },
   "news": {
     "originWire": {
-      "fetchedAt": "2026-10-21T10:59:03.756Z",
+      "fetchedAt": "2026-10-21T21:55:53.733Z",
       "lookbackHours": 504,
       "headlines": [
         {
-          "title": "Battle over Meta’s alleged Bolsonaro bias intensifies days before Brazil presidential runoff",
-          "summary": "Lula’s supporters suspect tech firm meddling on behalf of US president Donald Trump, who has close ties to Bolsonaro family Five days after his defeat in the first round of the Brazilian presidential election, leftwing president Luiz Inácio Lula da Silva…",
-          "url": "https://www.theguardian.com/world/2026/oct/21/battle-meta-alleged-bolsonaro-bias-intensifies-days-before-brazil-presidential-runoff",
-          "publisher": "The Guardian",
+          "title": "Why social media has become an election issue in Brazil’s presidential race",
+          "summary": "Critics have accused the tech giant Meta of censoring the political campaign of President Lula and favouring Bolsonaro.",
+          "url": "https://www.aljazeera.com/features/2026/10/21/why-social-media-has-become-an-election-issue-in-brazils-presidential-race?traffic_source=rss",
+          "publisher": "Al Jazeera",
           "region": "Brazil",
-          "published": "Wed, 21 Oct 2026 05:00:00 GMT"
+          "published": "Wed, 21 Oct 2026 18:14:02 +0000"
         },
         {
           "title": "Gold prices fall",
@@ -3588,12 +3600,60 @@
           "published": "Wed, 21 Oct 2026 15:36:16 +0700"
         },
         {
-          "title": "Are index providers overstepping the mark?",
-          "summary": "Action against Indonesia and Turkey is a venture into territory best left to local regulators and governments",
-          "url": "https://www.ft.com/content/0a892b95-0216-40d9-89a4-e1654b9a3fa2",
+          "title": "Qatar, Turkiye, Pakistan and Indonesia sign ‘Badr’ defence pact",
+          "summary": "Al Jazeera’s Osama Bin Javaid reports on the ‘Badr’ Memorandum of Understanding.",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/21/qatar-turkiye-pakistan-and-indonesia-sign-badr-defence-pact?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "region": "Indonesia",
+          "published": "Wed, 21 Oct 2026 18:35:42 +0000"
+        },
+        {
+          "title": "Colombia seizes 7.6 tonnes of cocaine in biggest haul in a decade",
+          "summary": "Colombian authorities have seized 7.6 tonnes of cocaine at the Caribbean port of Cartagena",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/21/colombia-seizes-7-6-tonnes-of-cocaine-in-biggest-haul-in-a-decade?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "region": "Colombia",
+          "published": "Wed, 21 Oct 2026 20:51:23 +0000"
+        },
+        {
+          "title": "Mexico charges prosecutor with treason over US involvement in drug raid",
+          "summary": "The participation of US agents in an April drug operation has raised questions about whether Mexico's laws were upheld.",
+          "url": "https://www.aljazeera.com/news/2026/10/21/mexico-charges-prosecutor-with-treason-over-us-involvement-in-drug-raid?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "region": "South & Central America",
+          "published": "Wed, 21 Oct 2026 21:25:21 +0000"
+        },
+        {
+          "title": "Nigeria's first Ebola patient holidayed in Uganda, officials say",
+          "summary": "The wife of a diplomat based in Abuja travelled to Kampala for a vacation.",
+          "url": "https://www.bbc.co.uk/news/articles/c62kepvg2x9lo?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
+          "region": "East Africa",
+          "published": "Wed, 21 Oct 2026 19:29:40 GMT"
+        },
+        {
+          "title": "Battle over Meta’s alleged Bolsonaro bias intensifies days before Brazil presidential runoff",
+          "summary": "Lula’s supporters suspect tech firm meddling on behalf of US president Donald Trump, who has close ties to Bolsonaro family Five days after his defeat in the first round of the Brazilian presidential election, leftwing president Luiz Inácio Lula da Silva…",
+          "url": "https://www.theguardian.com/world/2026/oct/21/battle-meta-alleged-bolsonaro-bias-intensifies-days-before-brazil-presidential-runoff",
+          "publisher": "The Guardian",
+          "region": "Brazil",
+          "published": "Wed, 21 Oct 2026 05:00:00 GMT"
+        },
+        {
+          "title": "Dollar strengthens against dong",
+          "summary": "The U.S. dollar rose against the Vietnamese dong on Wednesday morning while trading mostly firm against major currencies.",
+          "url": "https://e.vnexpress.net/news/business/markets/dollar-strengthens-against-dong-5135050.html",
+          "publisher": "VnExpress International",
+          "region": "Vietnam",
+          "published": "Wed, 21 Oct 2026 15:35:55 +0700"
+        },
+        {
+          "title": "Indonesia should heed MSCI’s warning",
+          "summary": "A credible stock market is essential if the country is to fulfil its enormous economic promise",
+          "url": "https://www.ft.com/content/8c443652-5c29-4711-81d1-dd985f2e4578?syn-25a6b1a6=1",
           "publisher": "Financial Times",
           "region": "Indonesia",
-          "published": "Wed, 21 Oct 2026 06:27:42 GMT"
+          "published": "Wed, 21 Oct 2026 17:36:57 GMT"
         },
         {
           "title": "IPCC is under pressure to delay publication of key global climate report",
@@ -3604,12 +3664,12 @@
           "published": "Tue, 13 Oct 2026 05:00:15 GMT"
         },
         {
-          "title": "Which countries and players have won the most Ballon d’Or awards?",
-          "summary": "Argentina's Lionel Messi has won all of his country's eight prizes, while Portugal's Cristiano Ronaldo has won five.",
-          "url": "https://www.aljazeera.com/sports/2026/10/21/which-countries-and-players-have-won-the-most-ballon-dor-awards?traffic_source=rss",
+          "title": "Judge orders Meta to pay $25bn in fines for Facebook privacy violations",
+          "summary": "A jury found Meta guilty of lying to Facebook users in ⁠⁠⁠⁠⁠⁠⁠⁠New Mexico about access to their data.",
+          "url": "https://www.aljazeera.com/news/2026/10/21/judge-orders-meta-to-pay-25bn-in-fines-for-facebook-privacy-violations?traffic_source=rss",
           "publisher": "Al Jazeera",
           "region": "South & Central America",
-          "published": "Wed, 21 Oct 2026 05:29:28 +0000"
+          "published": "Wed, 21 Oct 2026 21:01:32 +0000"
         },
         {
           "title": "Is Ebola under control in Kenya after nine cases confirmed?",
@@ -3628,54 +3688,6 @@
           "published": "Tue, 20 Oct 2026 15:41:44 GMT"
         },
         {
-          "title": "Dollar strengthens against dong",
-          "summary": "The U.S. dollar rose against the Vietnamese dong on Wednesday morning while trading mostly firm against major currencies.",
-          "url": "https://e.vnexpress.net/news/business/markets/dollar-strengthens-against-dong-5135050.html",
-          "publisher": "VnExpress International",
-          "region": "Vietnam",
-          "published": "Wed, 21 Oct 2026 15:35:55 +0700"
-        },
-        {
-          "title": "Borneo burning: Life on the frontline of South East Asia's toxic haze",
-          "summary": "A \"Super El Niño\" has fuelled months-long fires in Indonesia, making hundreds of thousands of people sick.",
-          "url": "https://www.bbc.co.uk/news/articles/cqm2dzwdmmywo?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
-          "region": "Indonesia",
-          "published": "Tue, 20 Oct 2026 23:51:43 GMT"
-        },
-        {
-          "title": "The billion-dollar shipwreck and the man who tried to find it – podcast",
-          "summary": "Journalist Julian Sancton on the story of the most valuable shipwreck in history and who could end up with its treasures A few years ago, the journalist Julian Sancton came across a story about a shipwreck found off the coast of Colombia. Onboard were…",
-          "url": "https://www.theguardian.com/news/audio/2026/oct/13/billion-dollar-shipwreck-san-jose-and-the-man-who-tried-to-find-it-podcast",
-          "publisher": "The Guardian",
-          "region": "Colombia",
-          "published": "Tue, 13 Oct 2026 02:00:11 GMT"
-        },
-        {
-          "title": "Giving £2 a day to people in the Amazon helps protect rainforest, pilot project finds",
-          "summary": "Researchers say almost 90% of participants in unconditional basic income scheme in Peru adopted environmentally beneficial practices A pioneering project to provide Indigenous people in the Peruvian Amazon with an unconditional basic income has contributed to…",
-          "url": "https://www.theguardian.com/environment/2026/oct/20/unconditional-basic-income-amazon-rainforest-peru-study",
-          "publisher": "The Guardian",
-          "region": "South & Central America",
-          "published": "Tue, 20 Oct 2026 12:00:36 GMT"
-        },
-        {
-          "title": "Drone attack in disputed Sudan-South Sudan border region kills at least 153",
-          "summary": "South Sudan authorities say Sudan's army launched drone attack on market, as MSF says it is treating 20 wounded people.",
-          "url": "https://www.aljazeera.com/news/2026/10/21/drone-attack-in-disputed-sudan-south-sudan-border-region-kills-at-least-153?traffic_source=rss",
-          "publisher": "Al Jazeera",
-          "region": "East Africa",
-          "published": "Wed, 21 Oct 2026 08:25:45 +0000"
-        },
-        {
-          "title": "‘Taylor Swift tells us to take the lead!’ Could highly organised pop fans clinch victory for Brazil’s Lula?",
-          "summary": "Brazil’s famously outspoken fandoms have near-unanimously rallied behind the leftwing presidential candidate. On the streets of São Paulo, they explain their mission Earlier this month, Brazil’s president Luiz Inácio Lula da Silva led a rally in São Paulo, as…",
-          "url": "https://www.theguardian.com/music/2026/oct/20/taylor-swift-tells-us-to-take-the-lead-could-highly-organised-pop-fans-clinch-victory-for-brazils-lula",
-          "publisher": "The Guardian",
-          "region": "Brazil",
-          "published": "Tue, 20 Oct 2026 10:23:23 GMT"
-        },
-        {
           "title": "Vietnamese doctor joins cabin crew to resuscitate Australian tourist who collapses midflight",
           "summary": "A doctor joined cabin crew in resuscitating a 50-year-old Australian woman who lost consciousness on a Vietnam Airlines flight from Hanoi to Ho Chi Minh City on Oct. 20.",
           "url": "https://e.vnexpress.net/news/news/vietnamese-doctor-joins-cabin-crew-to-resuscitate-australian-tourist-who-collapses-midflight-5135153.html",
@@ -3684,22 +3696,57 @@
           "published": "Wed, 21 Oct 2026 15:06:54 +0700"
         }
       ],
-      "totalTagged": 131,
+      "totalTagged": 135,
       "feedsQueried": 14,
       "errors": [],
       "note": "General headlines from the growing regions, taken from outlets of record and tagged to a region by the countries and cities they name."
     },
     "roundup": {
       "source": "assembled",
-      "fetchedAt": "2026-10-21T10:59:02.677Z",
+      "fetchedAt": "2026-10-21T21:55:53.252Z",
       "windowDays": 7,
       "publishers": [
         "Daily Coffee News",
         "Fresh Cup",
-        "Specialty Coffee Association",
         "World Coffee Portal"
       ],
       "items": [
+        {
+          "headline": "Three Questions with Kris Carlson of Coffeekris",
+          "summary": "After more than a decade working in cafes, roasting, wholesale, green coffee sales and sourcing, Kris Carlson decided to give herself a distinct new job title: sourcing curator. Carlson launched...",
+          "url": "https://dailycoffeenews.com/2026/10/21/three-questions-with-kris-carlson-of-coffeekris/",
+          "publisher": "Daily Coffee News",
+          "published": "Wed, 21 Oct 2026 14:26:08 +0000",
+          "date": "Wed, 21 Oct",
+          "section": "Top stories of the week"
+        },
+        {
+          "headline": "Design Details: ‘Elevated Maru’ at Blue Bottle Coffee Busan",
+          "summary": "Welcome to Design Details, an ongoing editorial feature in Daily Coffee News focused on individual examples of coffee shop architecture, interior design, packaging design or branding. If you are a...",
+          "url": "https://dailycoffeenews.com/2026/10/21/design-details-elevated-maru-at-blue-bottle-coffee-busan/",
+          "publisher": "Daily Coffee News",
+          "published": "Wed, 21 Oct 2026 14:24:05 +0000",
+          "date": "Wed, 21 Oct",
+          "section": "Roasting & retail"
+        },
+        {
+          "headline": "Little Nest Coffee Roasters Hatches Outside Detroit",
+          "summary": "A family-friendly new roost for fresh roasts recently hatched in the Detroit suburb of Grosse Pointe Woods with the opening of Little Nest Coffee Roasters. The 3,400-square-foot location is effectively...",
+          "url": "https://dailycoffeenews.com/2026/10/21/little-nest-coffee-roasters-hatches-outside-detroit/",
+          "publisher": "Daily Coffee News",
+          "published": "Wed, 21 Oct 2026 13:17:15 +0000",
+          "date": "Wed, 21 Oct",
+          "section": "Roasting & retail"
+        },
+        {
+          "headline": "At a glance – the North American Branded Coffee Shop Market",
+          "summary": null,
+          "url": "https://www.worldcoffeeportal.com/infographic/at-a-glance-the-north-american-branded-coffee-shop-market/",
+          "publisher": "World Coffee Portal",
+          "published": "Wed, 21 Oct 2026 11:13:27 GMT",
+          "date": "Wed, 21 Oct",
+          "section": "Top stories of the week"
+        },
         {
           "headline": "Costa upgrades more than 13,000 Express machines as UK self-serve market heats up",
           "summary": "The UK coffee giant is investing in beverage quality, cup-fill and speed-of-service in a market where it says “expectations have never been higher”",
@@ -3716,7 +3763,7 @@
           "publisher": "Daily Coffee News",
           "published": "Tue, 20 Oct 2026 14:59:36 +0000",
           "date": "Tue, 20 Oct",
-          "section": "Top stories of the week"
+          "section": "Roasting & retail"
         },
         {
           "headline": "Built For Farms, the LE Scale Pivots Into Roasteries",
@@ -3746,33 +3793,6 @@
           "section": "Roasting & retail"
         },
         {
-          "headline": "Incapto ST1: bringing traditional espresso quality to a new generation of super-automatic machines",
-          "summary": "The Barcelona-based coffee group enters the emerging ‘super-automatic traditional’ category with a connected four-bean platform designed to deliver the experience and quality of traditional espresso equipment at a comparable investment cost",
-          "url": "https://www.worldcoffeeportal.com/news/incapto-st1-bringing-traditional-espresso-quality-to-a-new-generation-of-super-automatic-machines/",
-          "publisher": "World Coffee Portal",
-          "published": "Tue, 20 Oct 2026 08:10:44 GMT",
-          "date": "Tue, 20 Oct",
-          "section": "Roasting & retail"
-        },
-        {
-          "headline": "Coffee Decoded: The Chemistry of Decaffeination",
-          "summary": "Welcome to Coffee, Decoded, the Specialty Coffee Association’s weekly column on science, research, and all things coffee knowledge. PETER GIULIANO, the SCA's Senior Advisor for Scientific Communication explains the foundational chemistry behind many common…",
-          "url": "https://sca.coffee/sca-news/coffee-decoded-21-chemistry-of-decaf",
-          "publisher": "Specialty Coffee Association",
-          "published": "Mon, 19 Oct 2026 18:09:46 +0000",
-          "date": "Mon, 19 Oct",
-          "section": "Roasting & retail"
-        },
-        {
-          "headline": "Roast Magazine Announces 2027 Roaster of the Year Winners",
-          "summary": "Dessert Oasis Coffee Roasters and Utopian Coffee have been honored with Roast magazine’s 23rd annual Roaster of the Year award in the Micro and Macro roaster categories, respectively. The two...",
-          "url": "https://dailycoffeenews.com/2026/10/19/roast-magazine-announces-2027-roaster-of-the-year-winners/",
-          "publisher": "Daily Coffee News",
-          "published": "Mon, 19 Oct 2026 15:00:20 +0000",
-          "date": "Mon, 19 Oct",
-          "section": "Roasting & retail"
-        },
-        {
           "headline": "Future-Proof Coffee: Unlocking Canephora’s Potential – with Pieke Abelman",
           "summary": "2026-11-05",
           "url": "https://www.worldcoffeeportal.com/gci-event/future-proof-coffee-unlocking-canephoras-potential-with-pieke-abelman/",
@@ -3789,15 +3809,6 @@
           "published": "Fri, 16 Oct 2026 11:06:00 +0000",
           "date": "Fri, 16 Oct",
           "section": "Top stories of the week"
-        },
-        {
-          "headline": "Pastime Coffee Goes All In at New Portland Production Roastery",
-          "summary": "Portland, Oregon-based Pastime Coffee is heading full bore into professional production with the opening of a new 1,000-square-foot roastery in a former Northeast Portland flower shop. At the center of...",
-          "url": "https://dailycoffeenews.com/2026/10/15/pastime-coffee-goes-all-in-at-new-portland-production-roastery/",
-          "publisher": "Daily Coffee News",
-          "published": "Thu, 15 Oct 2026 14:11:13 +0000",
-          "date": "Thu, 15 Oct",
-          "section": "Top stories of the week"
         }
       ],
       "errors": [
@@ -3809,7 +3820,7 @@
       "note": "Assembled from the coffee trade press over the past seven days, ranked by relevance to the physical trade. Headlines and links are each publisher’s own."
     },
     "dailyRead": {
-      "fetchedAt": "2026-10-21T10:59:01.420Z",
+      "fetchedAt": "2026-10-21T21:55:38.393Z",
       "article": {
         "title": "Built For Farms, the LE Scale Pivots Into Roasteries",
         "summary": "A heavy-duty farm scale from American Scale Co. is expanding into the coffee industry, appealing to coffee producers and roasters. Priced at $1,200, the LE Scale is a rugged wireless...",
@@ -4135,40 +4146,40 @@
   },
   "status": [
     {
-      "source": "weather",
-      "ok": true,
-      "ms": 375
-    },
-    {
       "source": "daily-read",
       "ok": true,
-      "ms": 509
+      "ms": 1157
+    },
+    {
+      "source": "weather",
+      "ok": true,
+      "ms": 1471
     },
     {
       "source": "arabica-futures",
       "ok": true,
-      "ms": 756
-    },
-    {
-      "source": "weekly-recap",
-      "ok": true,
-      "ms": 1769
+      "ms": 2371
     },
     {
       "source": "fx",
       "ok": true,
-      "ms": 2240
+      "ms": 2613
     },
     {
       "source": "ico-report",
       "ok": false,
-      "ms": 2647,
+      "ms": 15687,
       "error": "Table 1 (indicator prices) not found"
+    },
+    {
+      "source": "weekly-recap",
+      "ok": true,
+      "ms": 16019
     },
     {
       "source": "origin-wire",
       "ok": true,
-      "ms": 2851
+      "ms": 16505
     }
   ]
 }

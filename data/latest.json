@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T11:56:25.691Z",
+  "generatedAt": "2026-10-28T22:46:34.644Z",
   "schema": 5,
   "schedule": {
     "slotsUtc": [
@@ -26,8 +26,8 @@
       "frontMonth": {
         "code": "KCZ26",
         "label": "Dec 2026",
-        "close": 286.75,
-        "volume": 4270
+        "close": 286.35,
+        "volume": 18365
       },
       "rolled": false,
       "mostActive": "KCZ26",
@@ -35,56 +35,56 @@
         {
           "code": "KCZ26",
           "label": "Dec 2026",
-          "close": 286.75,
-          "volume": 4270
+          "close": 286.35,
+          "volume": 18365
         },
         {
           "code": "KCH27",
           "label": "Mar 2027",
-          "close": 275.4,
-          "volume": 3359
+          "close": 275.9,
+          "volume": 12975
         },
         {
           "code": "KCK27",
           "label": "May 2027",
           "close": 272,
-          "volume": 1270
+          "volume": 4223
         },
         {
           "code": "KCN27",
           "label": "Jul 2027",
-          "close": 269.35,
-          "volume": 640
+          "close": 269.25,
+          "volume": 1717
         },
         {
           "code": "KCU27",
           "label": "Sep 2027",
-          "close": 266.85,
-          "volume": 372
+          "close": 266.65,
+          "volume": 704
         },
         {
           "code": "KCZ27",
           "label": "Dec 2027",
-          "close": 263.6,
-          "volume": 222
+          "close": 263.45,
+          "volume": 443
         },
         {
           "code": "KCH28",
           "label": "Mar 2028",
-          "close": 260.15,
-          "volume": 206
+          "close": 260.45,
+          "volume": 342
         }
       ],
       "quote": {
-        "last": 275.35,
+        "last": 275.9,
         "open": 280.70001220703125,
         "high": 280.8999938964844,
-        "low": 275.1499938964844,
+        "low": 273.70001220703125,
         "previousClose": 281.1000061035156,
-        "change": -5.75,
-        "changePct": -2.046,
-        "volume": 3208,
-        "asOf": "2026-10-28T11:36:13.000Z"
+        "change": -5.2,
+        "changePct": -1.85,
+        "volume": 12975,
+        "asOf": "2026-10-28T17:29:59.000Z"
       },
       "bars": [
         {
@@ -2643,16 +2643,16 @@
           "date": "2026-10-28",
           "open": 280.70001220703125,
           "high": 280.8999938964844,
-          "low": 275.1499938964844,
-          "close": 275.3500061035156,
-          "volume": 3208
+          "low": 273.70001220703125,
+          "close": 275.8999938964844,
+          "volume": 12975
         }
       ],
       "crossCheck": {
-        "tradingView": 275.4,
-        "yahoo": 275.35,
-        "diff": 0.05,
-        "diffPct": 0.018,
+        "tradingView": 275.9,
+        "yahoo": 275.9,
+        "diff": 0,
+        "diffPct": 0,
         "agree": true
       },
       "sources": [
@@ -2669,19 +2669,19 @@
       ],
       "technicals": {
         "observations": 504,
-        "sma20": 288.01500091552737,
-        "sma50": 287.8190002441406,
-        "sma200": 279.36224975585935,
-        "rsi14": 40.553669033257364,
+        "sma20": 288.0425003051758,
+        "sma50": 287.83,
+        "sma200": 279.36499969482423,
+        "rsi14": 40.88985946275398,
         "macd": {
-          "line": 0.5222629329525716,
-          "signal": 1.8299217374168608,
-          "histogram": -1.3076588044642892
+          "line": 0.5661366030469139,
+          "signal": 1.8386964714357292,
+          "histogram": -1.2725598683888153
         },
-        "atr14": 9.570023964756464,
+        "atr14": 9.673594085431688,
         "donchian20": {
           "high": 304.45001220703125,
-          "low": 275.1499938964844,
+          "low": 273.70001220703125,
           "period": 20
         },
         "levels": {
@@ -2726,22 +2726,18 @@
     }
   },
   "fx": {
-    "asOf": "2026-10-27",
+    "asOf": "2026-10-28",
     "pairs": {
       "GBPUSD": {
         "pair": "GBP/USD",
-        "rate": 1.3328,
-        "previous": 1.3348,
+        "rate": 1.3288,
+        "previous": 1.3328,
         "dp": 4,
         "note": "Sterling stronger means a dollar-priced contract costs a UK buyer less.",
-        "change": -0.002,
-        "changePct": -0.15,
-        "change1m": 0.49,
+        "change": -0.004,
+        "changePct": -0.3,
+        "change1m": 0.31,
         "history": [
-          {
-            "date": "2026-08-05",
-            "rate": 1.3479
-          },
           {
             "date": "2026-08-06",
             "rate": 1.3467
@@ -2977,23 +2973,23 @@
           {
             "date": "2026-10-27",
             "rate": 1.3328
+          },
+          {
+            "date": "2026-10-28",
+            "rate": 1.3288
           }
         ]
       },
       "USDBRL": {
         "pair": "USD/BRL",
-        "rate": 5.3474,
-        "previous": 5.5884,
+        "rate": 5.3271,
+        "previous": 5.3474,
         "dp": 4,
         "note": "A weaker real encourages Brazilian producer selling.",
-        "change": -0.241,
-        "changePct": -4.313,
-        "change1m": 2.8,
+        "change": -0.0203,
+        "changePct": -0.38,
+        "change1m": 2.22,
         "history": [
-          {
-            "date": "2026-08-05",
-            "rate": 5.1153
-          },
           {
             "date": "2026-08-06",
             "rate": 5.1237
@@ -3229,14 +3225,18 @@
           {
             "date": "2026-10-27",
             "rate": 5.3474
+          },
+          {
+            "date": "2026-10-28",
+            "rate": 5.3271
           }
         ]
       }
     },
     "ptax": {
-      "buy": 5.334,
-      "sell": 5.3346,
-      "quotedAt": "2026-10-27 13:05:26.521898"
+      "buy": 5.3414,
+      "sell": 5.342,
+      "quotedAt": "2026-10-28 13:05:31.600448"
     },
     "sources": [
       {
@@ -3252,7 +3252,7 @@
     ]
   },
   "weather": {
-    "fetchedAt": "2026-10-28T11:56:23.467Z",
+    "fetchedAt": "2026-10-28T22:46:32.426Z",
     "thresholds": {
       "frostC": 4,
       "heavyRainMm": 50,
@@ -3288,13 +3288,13 @@
         "condition": "very-wet",
         "conditionLabel": "Very wet",
         "rain14": 81.4,
-        "rainForecast7": 66.9,
-        "minForecast7": 15.3,
+        "rainForecast7": 62.1,
+        "minForecast7": 15.6,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "67 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "62 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3317,13 +3317,13 @@
         "condition": "very-wet",
         "conditionLabel": "Very wet",
         "rain14": 83.1,
-        "rainForecast7": 60.2,
+        "rainForecast7": 50.3,
         "minForecast7": 18.3,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "60 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "50 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3346,8 +3346,8 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 69.5,
-        "rainForecast7": 42.9,
-        "minForecast7": 20.3,
+        "rainForecast7": 38.1,
+        "minForecast7": 20.8,
         "alerts": []
       },
       {
@@ -3368,9 +3368,9 @@
         },
         "condition": "dry",
         "conditionLabel": "Clear / dry",
-        "rain14": 24.9,
-        "rainForecast7": 30.1,
-        "minForecast7": 22.2,
+        "rain14": 18.9,
+        "rainForecast7": 30,
+        "minForecast7": 22,
         "alerts": []
       },
       {
@@ -3391,9 +3391,9 @@
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 133,
-        "rainForecast7": 43.9,
-        "minForecast7": 18.7,
+        "rain14": 125.9,
+        "rainForecast7": 45.4,
+        "minForecast7": 18.3,
         "alerts": []
       },
       {
@@ -3415,8 +3415,8 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 63.5,
-        "rainForecast7": 28.6,
-        "minForecast7": 16,
+        "rainForecast7": 42.7,
+        "minForecast7": 16.7,
         "alerts": []
       },
       {
@@ -3438,13 +3438,13 @@
         "condition": "very-wet",
         "conditionLabel": "Very wet",
         "rain14": 159.9,
-        "rainForecast7": 94.8,
+        "rainForecast7": 89,
         "minForecast7": 16.7,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "95 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "89 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3466,14 +3466,14 @@
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 180.8,
-        "rainForecast7": 86.2,
+        "rain14": 172.6,
+        "rainForecast7": 119.9,
         "minForecast7": 16.4,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "86 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "120 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3495,9 +3495,9 @@
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 22.9,
-        "rainForecast7": 52.9,
-        "minForecast7": 24.2,
+        "rain14": 21.1,
+        "rainForecast7": 52.8,
+        "minForecast7": 24.3,
         "alerts": [
           {
             "type": "wet",
@@ -3524,9 +3524,9 @@
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 58.2,
-        "rainForecast7": 8.5,
-        "minForecast7": 12.5,
+        "rain14": 57.4,
+        "rainForecast7": 10.3,
+        "minForecast7": 12.4,
         "alerts": []
       },
       {
@@ -3548,8 +3548,8 @@
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
         "rain14": 52.5,
-        "rainForecast7": 4,
-        "minForecast7": 12.8,
+        "rainForecast7": 3.9,
+        "minForecast7": 12.6,
         "alerts": []
       },
       {
@@ -3571,13 +3571,13 @@
         "condition": "very-wet",
         "conditionLabel": "Very wet",
         "rain14": 110.7,
-        "rainForecast7": 133.1,
-        "minForecast7": 19.1,
+        "rainForecast7": 142.3,
+        "minForecast7": 19.3,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "133 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "142 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       }
@@ -3592,16 +3592,16 @@
   },
   "news": {
     "originWire": {
-      "fetchedAt": "2026-10-28T11:56:25.127Z",
+      "fetchedAt": "2026-10-28T22:46:34.642Z",
       "lookbackHours": 504,
       "headlines": [
         {
-          "title": "Flávio Bolsonaro on flight to Miami after fleeing Brazil amid election defeat",
-          "summary": "Far-right senator and family expected to land in US after crossing into Argentina and then flying out of Ecuador A jet carrying the far-right Brazilian senator Flávio Bolsonaro has left Guayaquil in Ecuador and is on its way to Miami, Florida, where it is…",
+          "title": "Flávio Bolsonaro calls himself the ‘leader of Brazil’ after fleeing to Miami",
+          "summary": "Far-right senator and family land in US after crossing from Brazil into Argentina and then flying via Ecuador Flávio Bolsonaro declared himself the “true president” of Brazil after losing last Sunday’s presidential election and fleeing to the United States…",
           "url": "https://www.theguardian.com/world/2026/oct/28/flavio-bolsonaro-miami-us-fleeing-brazilian-election-defeat",
           "publisher": "The Guardian",
           "region": "Brazil",
-          "published": "Wed, 28 Oct 2026 11:32:31 GMT"
+          "published": "Wed, 28 Oct 2026 22:06:46 GMT"
         },
         {
           "title": "Dollar dips against dong on black market",
@@ -3612,12 +3612,12 @@
           "published": "Wed, 28 Oct 2026 18:25:10 +0700"
         },
         {
-          "title": "Indonesia’s second-richest man among world’s biggest wealth losers",
-          "summary": "Indonesia’s second-richest man Prajogo Pangestu was among the world’s five biggest wealth losers on Wednesday, as the country’s stock market dive brought down its billionaires’ assets.",
-          "url": "https://e.vnexpress.net/news/business/billionaires/indonesia-s-second-richest-man-among-world-s-biggest-wealth-losers-5137822.html",
-          "publisher": "VnExpress International",
+          "title": "Indonesian students demand action on wildfires and rising costs",
+          "summary": "Hundreds of Indonesian students protested against the government's handling of forest fires and rising costs.",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/aje-onl-nf_indonesian-students-demand-action-on-wildfires-281026?traffic_source=rss",
+          "publisher": "Al Jazeera",
           "region": "Indonesia",
-          "published": "Wed, 28 Oct 2026 11:50:21 +0700"
+          "published": "Wed, 28 Oct 2026 21:23:17 +0000"
         },
         {
           "title": "Pablo Escobar tried to bomb me in Bogotá. To stop the cartels infiltrating Europe, we should legalise cocaine | Letter",
@@ -3628,28 +3628,28 @@
           "published": "Tue, 27 Oct 2026 17:55:04 GMT"
         },
         {
-          "title": "A US woman feared dead was reported alive in Mexico. But cops now say that isn’t true",
-          "summary": "Mexican police had said they found Shayna Feinman in Tijuana, raising the hopes of missing Arizonan’s family Arizona authorities say their Mexican counterparts were resoundingly mistaken when they publicly claimed recently that they found alive a woman who…",
-          "url": "https://www.theguardian.com/us-news/2026/oct/28/shayna-feinman-missing-arizona-woman-mexico",
-          "publisher": "The Guardian",
+          "title": "Costa Rica’s mega-prison receives first inmates",
+          "summary": "President Laura Fernandez inaugurated the $35m mega-prison built to house up to 5,100 inmates near San Jose.",
+          "url": "https://www.aljazeera.com/news/2026/10/28/costa-ricas-mega-prison-receives-first-inmates?traffic_source=rss",
+          "publisher": "Al Jazeera",
           "region": "South & Central America",
-          "published": "Wed, 28 Oct 2026 10:00:05 GMT"
+          "published": "Wed, 28 Oct 2026 21:36:16 +0000"
         },
         {
-          "title": "Tanzania celebrates first natural gas discovery in more than 10 years",
-          "summary": "The energy minister described it as a \"major milestone\" for the East African nation.",
-          "url": "https://www.bbc.co.uk/news/articles/c5m2dry2xwwvo?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
+          "title": "Rwanda’s milk bars",
+          "summary": "Rwanda’s milk bars",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/rwandas-milk-bars?traffic_source=rss",
+          "publisher": "Al Jazeera",
           "region": "East Africa",
-          "published": "Wed, 28 Oct 2026 10:18:40 GMT"
+          "published": "Wed, 28 Oct 2026 20:14:13 +0000"
         },
         {
-          "title": "FirstFT: Netanyahu moves ahead in Israel’s election",
-          "summary": "Also in today’s newsletter: Flávio Bolsonaro flees to the US, and law firm Weil assesses its options",
-          "url": "https://www.ft.com/content/fadbee3f-16cd-4892-a41f-7d6682b77e4d?syn-25a6b1a6=1",
-          "publisher": "Financial Times",
+          "title": "What’s next for Brazil’s Flavio Bolsonaro after election defeat?",
+          "summary": "The far-right ally of US President Donald Trump has fled to Miami with his wife and children.",
+          "url": "https://www.aljazeera.com/news/2026/10/28/whats-next-for-brazils-flavio-bolsonaro-after-election-defeat?traffic_source=rss",
+          "publisher": "Al Jazeera",
           "region": "Brazil",
-          "published": "Wed, 28 Oct 2026 10:22:37 GMT"
+          "published": "Wed, 28 Oct 2026 20:38:01 +0000"
         },
         {
           "title": "HCMC financial center’s 10 members pledge to raise $2.7B for projects",
@@ -3660,12 +3660,12 @@
           "published": "Wed, 28 Oct 2026 18:19:08 +0700"
         },
         {
-          "title": "Singapore, Indonesia set up task force to combat haze from illegal burning",
-          "summary": "Indonesia and Singapore agreed Tuesday to cooperate more closely to combat the illegal burning of land that has contributed to a toxic haze that has blanketed multiple cities across Southeast Asia in recent weeks.",
-          "url": "https://e.vnexpress.net/news/news/environment/singapore-indonesia-set-up-task-force-to-combat-haze-from-illegal-burning-5137718.html",
+          "title": "Indonesia’s second-richest man among world’s biggest wealth losers",
+          "summary": "Indonesia’s second-richest man Prajogo Pangestu was among the world’s five biggest wealth losers on Wednesday, as the country’s stock market dive brought down its billionaires’ assets.",
+          "url": "https://e.vnexpress.net/news/business/billionaires/indonesia-s-second-richest-man-among-world-s-biggest-wealth-losers-5137822.html",
           "publisher": "VnExpress International",
           "region": "Indonesia",
-          "published": "Wed, 28 Oct 2026 10:37:34 +0700"
+          "published": "Wed, 28 Oct 2026 11:50:21 +0700"
         },
         {
           "title": "IPCC is under pressure to delay publication of key global climate report",
@@ -3676,28 +3676,28 @@
           "published": "Tue, 13 Oct 2026 05:00:15 GMT"
         },
         {
-          "title": "Trump shows off tanker with ‘1m barrels of oil’ and floats Venezuela as 51st state",
-          "summary": "President at Texas campaign rally hails deal struck with post-Maduro government as ‘greatest oil victory in history’ Donald Trump suggested Venezuela would become the 51st state of the United States on Tuesday as the president showed off a tanker he claimed…",
-          "url": "https://www.theguardian.com/us-news/2026/oct/27/trump-oil-tanker-venezuela",
+          "title": "A US woman feared dead was reported alive in Mexico. But police now say that isn’t true",
+          "summary": "Mexican police had said they found Shayna Feinman in Tijuana, raising the hopes of missing Arizonan’s family Arizona authorities say their Mexican counterparts were resoundingly mistaken when they publicly claimed recently that they found alive a woman who…",
+          "url": "https://www.theguardian.com/us-news/2026/oct/28/shayna-feinman-missing-arizona-woman-mexico",
           "publisher": "The Guardian",
           "region": "South & Central America",
-          "published": "Tue, 27 Oct 2026 23:07:06 GMT"
+          "published": "Wed, 28 Oct 2026 10:00:05 GMT"
         },
         {
-          "title": "Kenyan family protest extradition hearing delay of ex-British soldier accused of murdering kin",
-          "summary": "No official reason has been given for postponing next month’s hearing to May 2027, family says.",
-          "url": "https://www.bbc.co.uk/news/articles/cmly073ql392o?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
+          "title": "US jury convicts Rwandan American of lying about role in genocide",
+          "summary": "Jurors heard competing witness testimony on where Eric Nshimiye was and what he was doing in April 1994.",
+          "url": "https://www.aljazeera.com/news/2026/10/28/us-jury-convicts-rwandan-american-of-lying-about-role-in-genocide?traffic_source=rss",
+          "publisher": "Al Jazeera",
           "region": "East Africa",
-          "published": "Wed, 28 Oct 2026 08:28:39 GMT"
+          "published": "Wed, 28 Oct 2026 19:02:38 +0000"
         },
         {
-          "title": "Confusion about Flávio Bolsonaro's whereabouts as Argentina says he flew to Ecuador",
-          "summary": "The defeated presidential candidate crossed a land border into Argentina late on Tuesday, Argentine migration authorities say.",
-          "url": "https://www.bbc.co.uk/news/articles/ckly0xpxp243o?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
+          "title": "Flávio Bolsonaro lands in Florida after fleeing Brazil – video",
+          "summary": "A jet carrying the Brazilian far-right senator Flávio Bolsonaro has landed in Miami, Florida, where the losing candidate in Sunday’s presidential election runoff left the airport under police escort without speaking to the press. The Gulfstream IV, registered…",
+          "url": "https://www.theguardian.com/world/video/2026/oct/28/flavio-bolsonaro-lands-in-florida-after-fleeing-brazil-video",
+          "publisher": "The Guardian",
           "region": "Brazil",
-          "published": "Wed, 28 Oct 2026 08:55:49 GMT"
+          "published": "Wed, 28 Oct 2026 19:53:41 GMT"
         },
         {
           "title": "Priority bus lanes proposed on Ho Chi Minh City - Long Thanh Airport routes",
@@ -3708,14 +3708,14 @@
           "published": "Wed, 28 Oct 2026 14:11:04 +0700"
         }
       ],
-      "totalTagged": 123,
+      "totalTagged": 125,
       "feedsQueried": 14,
       "errors": [],
       "note": "General headlines from the growing regions, taken from outlets of record and tagged to a region by the countries and cities they name."
     },
     "roundup": {
       "source": "assembled",
-      "fetchedAt": "2026-10-28T11:56:25.140Z",
+      "fetchedAt": "2026-10-28T22:46:33.750Z",
       "windowDays": 7,
       "publishers": [
         "Daily Coffee News",
@@ -3723,6 +3723,42 @@
         "World Coffee Portal"
       ],
       "items": [
+        {
+          "headline": "Design Details: The Calming Mesh Tunnel at % Arabica Shanghai",
+          "summary": "Welcome to Design Details, an ongoing editorial feature in Daily Coffee News focused on individual examples of coffee shop architecture, interior design, packaging design or branding. If you are a...",
+          "url": "https://dailycoffeenews.com/2026/10/28/design-details-the-calming-mesh-tunnel-at-arabica-shanghai/",
+          "publisher": "Daily Coffee News",
+          "published": "Wed, 28 Oct 2026 15:55:13 +0000",
+          "date": "Wed, 28 Oct",
+          "section": "Top stories of the week"
+        },
+        {
+          "headline": "Questions to Ask Before Buying a Used Coffee Roaster",
+          "summary": "Used roasters have quietly become one of the most common ways smaller roasters and cafes get their first serious machine. They typically cost less than new equipment, they show up...",
+          "url": "https://dailycoffeenews.com/2026/10/28/questions-to-ask-before-buying-a-used-coffee-roaster/",
+          "publisher": "Daily Coffee News",
+          "published": "Wed, 28 Oct 2026 14:10:53 +0000",
+          "date": "Wed, 28 Oct",
+          "section": "Roasting & retail"
+        },
+        {
+          "headline": "Kilo Coffee Weighs Every Detail at New Dallas Cafe",
+          "summary": "Meticulously measured approaches to brewing and service are at the center of Kilo Coffee, a new high-end specialty coffee bar that opened in September in Dallas. At the Snider Plaza...",
+          "url": "https://dailycoffeenews.com/2026/10/28/kilo-coffee-weighs-every-detail-at-new-dallas-cafe/",
+          "publisher": "Daily Coffee News",
+          "published": "Wed, 28 Oct 2026 13:20:04 +0000",
+          "date": "Wed, 28 Oct",
+          "section": "Roasting & retail"
+        },
+        {
+          "headline": "New Flavor Map Seeks to Center Local Voices in Kenyan Coffee",
+          "summary": "Professional cuppers can apply for free to help map the flavors of Kenyan coffee at November evaluations in Nairobi. The post New Flavor Map Seeks to Center Local Voices in Kenyan Coffee appeared first on Fresh Cup .",
+          "url": "https://freshcup.com/new-flavor-map-seeks-to-center-local-voices-in-kenyan-coffee/",
+          "publisher": "Fresh Cup",
+          "published": "Wed, 28 Oct 2026 12:04:00 +0000",
+          "date": "Wed, 28 Oct",
+          "section": "Roasting & retail"
+        },
         {
           "headline": "Your Merch Needs a Strategy, and the Black Tee Is Not It",
           "summary": "Have your logo on a mug? That’s a start. Here’s how to create a merch strategy that builds loyalty and affinity for your brand. The post Your Merch Needs a Strategy, and the Black Tee Is Not It appeared first on Fresh Cup .",
@@ -3742,24 +3778,6 @@
           "section": "Roasting & retail"
         },
         {
-          "headline": "AI Coffee Defect Detector Gets Much Smarter When It Flips the Beans",
-          "summary": "A new prototype coffee inspection system combines AI and a simple mechanical idea — flipping coffee beans over — to capture more data to improve defect detection. The prototype was...",
-          "url": "https://dailycoffeenews.com/2026/10/27/ai-coffee-defect-detector-gets-much-smarter-when-it-flips-the-beans/",
-          "publisher": "Daily Coffee News",
-          "published": "Tue, 27 Oct 2026 14:09:07 +0000",
-          "date": "Tue, 27 Oct",
-          "section": "Roasting & retail"
-        },
-        {
-          "headline": "Lovr Boys Cafe & Roastery is Pouring Hearts in Bonita Springs, Florida",
-          "summary": "Home is where the hearts are for Lovr Boys Cafe & Roastery in Bonita Springs, Florida. Between Adirondack-green walls, the 2,000-square-foot coffee shop that opened in late August includes a...",
-          "url": "https://dailycoffeenews.com/2026/10/27/lovr-boys-cafe-roastery-is-pouring-hearts-in-bonita-springs-florida/",
-          "publisher": "Daily Coffee News",
-          "published": "Tue, 27 Oct 2026 12:34:33 +0000",
-          "date": "Tue, 27 Oct",
-          "section": "Roasting & retail"
-        },
-        {
           "headline": "U.S. Funds New Coffee and Cacao Research Led by UH Mānoa and Clemson",
           "summary": "The new Coffee and Cacao Innovation Lab will research hardier crops and more resilient farming practices, with $8 million from the State Department in year one. The post U.S. Funds New Coffee and Cacao Research Led by UH Mānoa and Clemson appeared first on…",
           "url": "https://freshcup.com/u-s-funds-new-coffee-and-cacao-research-led-by-uh-manoa-and-clemson/",
@@ -3767,15 +3785,6 @@
           "published": "Tue, 27 Oct 2026 11:45:00 +0000",
           "date": "Tue, 27 Oct",
           "section": "Top stories of the week"
-        },
-        {
-          "headline": "New leadership for Tchibo in Poland",
-          "summary": "The FMCG and brand strategy specialist will lead one of the German coffee group’s key European growth markets",
-          "url": "https://www.worldcoffeeportal.com/news/new-leadership-for-tchibo-in-poland/",
-          "publisher": "World Coffee Portal",
-          "published": "Tue, 27 Oct 2026 07:00:00 GMT",
-          "date": "Tue, 27 Oct",
-          "section": "Roasting & retail"
         },
         {
           "headline": "Large cups, low cost. Mega Coffee makes its play for the US market",
@@ -3812,15 +3821,6 @@
           "published": "Thu, 22 Oct 2026 13:38:04 +0000",
           "date": "Thu, 22 Oct",
           "section": "Top stories of the week"
-        },
-        {
-          "headline": "Three Questions with Kris Carlson of Coffeekris",
-          "summary": "After more than a decade working in cafes, roasting, wholesale, green coffee sales and sourcing, Kris Carlson decided to give herself a distinct new job title: sourcing curator. Carlson launched...",
-          "url": "https://dailycoffeenews.com/2026/10/21/three-questions-with-kris-carlson-of-coffeekris/",
-          "publisher": "Daily Coffee News",
-          "published": "Wed, 21 Oct 2026 14:26:08 +0000",
-          "date": "Wed, 21 Oct",
-          "section": "Top stories of the week"
         }
       ],
       "errors": [
@@ -3832,7 +3832,7 @@
       "note": "Assembled from the coffee trade press over the past seven days, ranked by relevance to the physical trade. Headlines and links are each publisher’s own."
     },
     "dailyRead": {
-      "fetchedAt": "2026-10-28T11:56:22.802Z",
+      "fetchedAt": "2026-10-28T22:46:32.358Z",
       "article": {
         "title": "Massive Coffee Variety Trial Reveals Yield and Leaf Rust Winners",
         "summary": "The coffee industry’s largest coordinated field trial has found that recently bred arabica varieties generally provided higher yields and greater resistance to coffee leaf rust than traditional pure-arabica varieties, while...",
@@ -4158,40 +4158,40 @@
   },
   "status": [
     {
-      "source": "daily-read",
-      "ok": true,
-      "ms": 411
-    },
-    {
       "source": "arabica-futures",
       "ok": true,
-      "ms": 840
+      "ms": 681
+    },
+    {
+      "source": "daily-read",
+      "ok": true,
+      "ms": 769
     },
     {
       "source": "weather",
       "ok": true,
-      "ms": 1085
-    },
-    {
-      "source": "origin-wire",
-      "ok": true,
-      "ms": 2743
-    },
-    {
-      "source": "weekly-recap",
-      "ok": true,
-      "ms": 2752
+      "ms": 846
     },
     {
       "source": "fx",
       "ok": true,
-      "ms": 2822
+      "ms": 1203
+    },
+    {
+      "source": "weekly-recap",
+      "ok": true,
+      "ms": 2164
     },
     {
       "source": "ico-report",
       "ok": false,
-      "ms": 3283,
+      "ms": 2475,
       "error": "Table 1 (indicator prices) not found"
+    },
+    {
+      "source": "origin-wire",
+      "ok": true,
+      "ms": 3061
     }
   ]
 }

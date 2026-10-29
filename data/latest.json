@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T12:05:28.718Z",
+  "generatedAt": "2026-10-29T22:55:12.949Z",
   "schema": 5,
   "schedule": {
     "slotsUtc": [
@@ -26,8 +26,8 @@
       "frontMonth": {
         "code": "KCZ26",
         "label": "Dec 2026",
-        "close": 286.05,
-        "volume": 3262
+        "close": 286.55,
+        "volume": 18561
       },
       "rolled": false,
       "mostActive": "KCZ26",
@@ -35,56 +35,56 @@
         {
           "code": "KCZ26",
           "label": "Dec 2026",
-          "close": 286.05,
-          "volume": 3262
+          "close": 286.55,
+          "volume": 18561
         },
         {
           "code": "KCH27",
           "label": "Mar 2027",
-          "close": 276.2,
-          "volume": 2188
+          "close": 277.35,
+          "volume": 14466
         },
         {
           "code": "KCK27",
           "label": "May 2027",
-          "close": 272.2,
-          "volume": 745
+          "close": 273.6,
+          "volume": 4532
         },
         {
           "code": "KCN27",
           "label": "Jul 2027",
-          "close": 269.35,
-          "volume": 133
+          "close": 270.4,
+          "volume": 1424
         },
         {
           "code": "KCU27",
           "label": "Sep 2027",
-          "close": 266.85,
-          "volume": 36
+          "close": 267.5,
+          "volume": 379
         },
         {
           "code": "KCZ27",
           "label": "Dec 2027",
-          "close": 263.8,
-          "volume": 43
+          "close": 264.15,
+          "volume": 329
         },
         {
           "code": "KCH28",
           "label": "Mar 2028",
           "close": 260.95,
-          "volume": 17
+          "volume": 168
         }
       ],
       "quote": {
-        "last": 276.45,
+        "last": 277.35,
         "open": 276.45001220703125,
-        "high": 278.3500061035156,
-        "low": 275.6000061035156,
+        "high": 279.20001220703125,
+        "low": 272.70001220703125,
         "previousClose": 276.20001220703125,
-        "change": 0.25,
-        "changePct": 0.091,
-        "volume": 2049,
-        "asOf": "2026-10-29T11:45:01.000Z"
+        "change": 1.15,
+        "changePct": 0.416,
+        "volume": 14466,
+        "asOf": "2026-10-29T17:29:58.000Z"
       },
       "bars": [
         {
@@ -2642,17 +2642,17 @@
         {
           "date": "2026-10-29",
           "open": 276.45001220703125,
-          "high": 278.3500061035156,
-          "low": 275.6000061035156,
-          "close": 276.45001220703125,
-          "volume": 2049
+          "high": 279.20001220703125,
+          "low": 272.70001220703125,
+          "close": 277.3500061035156,
+          "volume": 14466
         }
       ],
       "crossCheck": {
-        "tradingView": 276.2,
-        "yahoo": 276.45,
-        "diff": -0.25,
-        "diffPct": -0.09,
+        "tradingView": 277.35,
+        "yahoo": 277.35,
+        "diff": 0,
+        "diffPct": 0,
         "agree": true
       },
       "sources": [
@@ -2669,23 +2669,27 @@
       ],
       "technicals": {
         "observations": 504,
-        "sma20": 287.9000015258789,
-        "sma50": 287.0710003662109,
-        "sma200": 279.1462498474121,
-        "rsi14": 41.314845985449445,
+        "sma20": 287.94500122070315,
+        "sma50": 287.0890002441406,
+        "sma200": 279.1507498168945,
+        "rsi14": 42.160230965823416,
         "macd": {
-          "line": -0.3553271000757263,
-          "signal": 1.4037210506697662,
-          "histogram": -1.7590481507454925
+          "line": -0.28353271517096346,
+          "signal": 1.4180799276507188,
+          "histogram": -1.7016126428216822
         },
-        "atr14": 9.179051650757996,
+        "atr14": 9.446908793615139,
         "donchian20": {
           "high": 304.45001220703125,
-          "low": 273.70001220703125,
+          "low": 272.70001220703125,
           "period": 20
         },
         "levels": {
           "support": [
+            {
+              "price": 276.45001220703125,
+              "date": "2026-10-12"
+            },
             {
               "price": 270,
               "date": "2026-02-06"
@@ -2693,10 +2697,6 @@
             {
               "price": 268.20001220703125,
               "date": "2025-04-07"
-            },
-            {
-              "price": 262.6000061035156,
-              "date": "2026-09-23"
             }
           ],
           "resistance": [
@@ -2726,22 +2726,18 @@
     }
   },
   "fx": {
-    "asOf": "2026-10-28",
+    "asOf": "2026-10-29",
     "pairs": {
       "GBPUSD": {
         "pair": "GBP/USD",
-        "rate": 1.3288,
-        "previous": 1.3328,
+        "rate": 1.3317,
+        "previous": 1.3288,
         "dp": 4,
         "note": "Sterling stronger means a dollar-priced contract costs a UK buyer less.",
-        "change": -0.004,
-        "changePct": -0.3,
-        "change1m": 0.31,
+        "change": 0.0029,
+        "changePct": 0.218,
+        "change1m": 0.23,
         "history": [
-          {
-            "date": "2026-08-06",
-            "rate": 1.3467
-          },
           {
             "date": "2026-08-07",
             "rate": 1.345
@@ -2977,23 +2973,23 @@
           {
             "date": "2026-10-28",
             "rate": 1.3288
+          },
+          {
+            "date": "2026-10-29",
+            "rate": 1.3317
           }
         ]
       },
       "USDBRL": {
         "pair": "USD/BRL",
-        "rate": 5.3271,
-        "previous": 5.3474,
+        "rate": 5.3516,
+        "previous": 5.3271,
         "dp": 4,
         "note": "A weaker real encourages Brazilian producer selling.",
-        "change": -0.0203,
-        "changePct": -0.38,
-        "change1m": 2.22,
+        "change": 0.0245,
+        "changePct": 0.46,
+        "change1m": 2.86,
         "history": [
-          {
-            "date": "2026-08-06",
-            "rate": 5.1237
-          },
           {
             "date": "2026-08-07",
             "rate": 5.0998
@@ -3229,14 +3225,18 @@
           {
             "date": "2026-10-28",
             "rate": 5.3271
+          },
+          {
+            "date": "2026-10-29",
+            "rate": 5.3516
           }
         ]
       }
     },
     "ptax": {
-      "buy": 5.3414,
-      "sell": 5.342,
-      "quotedAt": "2026-10-28 13:05:31.600448"
+      "buy": 5.3738,
+      "sell": 5.3744,
+      "quotedAt": "2026-10-29 13:11:53.555689"
     },
     "sources": [
       {
@@ -3252,7 +3252,7 @@
     ]
   },
   "weather": {
-    "fetchedAt": "2026-10-29T12:05:25.369Z",
+    "fetchedAt": "2026-10-29T22:55:10.119Z",
     "thresholds": {
       "frostC": 4,
       "heavyRainMm": 50,
@@ -3288,15 +3288,9 @@
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
         "rain14": 75.3,
-        "rainForecast7": 57.4,
-        "minForecast7": 16.8,
-        "alerts": [
-          {
-            "type": "wet",
-            "severity": "watch",
-            "text": "57 mm forecast over 7 days — harvest/drying disruption risk."
-          }
-        ]
+        "rainForecast7": 38.6,
+        "minForecast7": 17.5,
+        "alerts": []
       },
       {
         "key": "cerrado",
@@ -3317,13 +3311,13 @@
         "condition": "very-wet",
         "conditionLabel": "Very wet",
         "rain14": 76.1,
-        "rainForecast7": 59.5,
-        "minForecast7": 18,
+        "rainForecast7": 58,
+        "minForecast7": 17.8,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "60 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "58 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3346,7 +3340,7 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 69.1,
-        "rainForecast7": 20,
+        "rainForecast7": 30.9,
         "minForecast7": 21.4,
         "alerts": []
       },
@@ -3368,9 +3362,9 @@
         },
         "condition": "dry",
         "conditionLabel": "Clear / dry",
-        "rain14": 21.3,
-        "rainForecast7": 18.5,
-        "minForecast7": 21.9,
+        "rain14": 21,
+        "rainForecast7": 19.2,
+        "minForecast7": 21.6,
         "alerts": []
       },
       {
@@ -3391,9 +3385,9 @@
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 131.8,
-        "rainForecast7": 42.6,
-        "minForecast7": 18.6,
+        "rain14": 102.9,
+        "rainForecast7": 49.3,
+        "minForecast7": 18.1,
         "alerts": []
       },
       {
@@ -3415,8 +3409,8 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 68.5,
-        "rainForecast7": 35.2,
-        "minForecast7": 17.2,
+        "rainForecast7": 34.2,
+        "minForecast7": 16.3,
         "alerts": []
       },
       {
@@ -3438,13 +3432,13 @@
         "condition": "very-wet",
         "conditionLabel": "Very wet",
         "rain14": 162.6,
-        "rainForecast7": 98.1,
-        "minForecast7": 16.4,
+        "rainForecast7": 80.3,
+        "minForecast7": 16.5,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "98 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "80 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3466,14 +3460,14 @@
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 184.2,
-        "rainForecast7": 52.6,
-        "minForecast7": 16.2,
+        "rain14": 179,
+        "rainForecast7": 72.4,
+        "minForecast7": 16.4,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "53 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "72 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3495,9 +3489,9 @@
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 30,
-        "rainForecast7": 42.4,
-        "minForecast7": 24,
+        "rain14": 27.5,
+        "rainForecast7": 48.4,
+        "minForecast7": 23.9,
         "alerts": []
       },
       {
@@ -3518,9 +3512,9 @@
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 65.5,
+        "rain14": 64,
         "rainForecast7": 1.3,
-        "minForecast7": 12.5,
+        "minForecast7": 12.2,
         "alerts": []
       },
       {
@@ -3542,8 +3536,8 @@
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
         "rain14": 48.8,
-        "rainForecast7": 7.1,
-        "minForecast7": 14.9,
+        "rainForecast7": 11.7,
+        "minForecast7": 12.7,
         "alerts": []
       },
       {
@@ -3565,13 +3559,13 @@
         "condition": "very-wet",
         "conditionLabel": "Very wet",
         "rain14": 126,
-        "rainForecast7": 114.8,
-        "minForecast7": 19.9,
+        "rainForecast7": 102.1,
+        "minForecast7": 19.5,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "115 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "102 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       }
@@ -3586,24 +3580,24 @@
   },
   "news": {
     "originWire": {
-      "fetchedAt": "2026-10-29T12:05:28.717Z",
+      "fetchedAt": "2026-10-29T22:55:12.360Z",
       "lookbackHours": 504,
       "headlines": [
         {
-          "title": "Flávio Bolsonaro’s defeat is a major blow to Trump and his orange wave",
-          "summary": "The far-right candidate was supposed to claim the presidency, but Brazilian voters had other ideas For Donald Trump, Brazil’s presidential election was meant to represent the crest of the “orange wave” – a three-year surge of rightwing triumphs that has…",
-          "url": "https://www.theguardian.com/world/2026/oct/29/bolsonaro-defeat-trump-orange-wave",
-          "publisher": "The Guardian",
+          "title": "How Flávio Bolsonaro fled Brazil",
+          "summary": "Facing a money laundering probe, the losing presidential candidate said he had never thought of leaving. The next day he was gone",
+          "url": "https://www.ft.com/content/0cb91253-62e1-4cdf-864e-61174b297e51?syn-25a6b1a6=1",
+          "publisher": "Financial Times",
           "region": "Brazil",
-          "published": "Thu, 29 Oct 2026 10:00:32 GMT"
+          "published": "Thu, 29 Oct 2026 20:53:21 GMT"
         },
         {
-          "title": "Gold prices slip",
-          "summary": "Vietnam gold prices fell marginally Thursday morning amid a slight decline of the precious metal on global markets.",
-          "url": "https://e.vnexpress.net/news/business/markets/gold-prices-slip-5138268.html",
+          "title": "Company director's unsafe design led to Japanese boy's drowning at Vietnam 5-star resort: police",
+          "summary": "A Vietnamese company's director has been accused of designing unsafe pool suction outlets that led to an 11-year-old Japanese boy's death at the five-star Centara Mirage Resort Mui Ne in 2022.",
+          "url": "https://e.vnexpress.net/news/news/crime/company-director-s-unsafe-design-led-to-japanese-boy-s-drowning-at-vietnam-5-star-resort-police-5138497.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Thu, 29 Oct 2026 16:56:13 +0700"
+          "published": "Thu, 29 Oct 2026 20:45:10 +0700"
         },
         {
           "title": "‘Feels like we’ve gone backwards’: Indonesia’s choking haze provides spark for wider protests",
@@ -3622,36 +3616,36 @@
           "published": "Tue, 27 Oct 2026 17:55:04 GMT"
         },
         {
-          "title": "Argentina farmers evacuate cattle by boat as El Nino escalates",
-          "summary": "Argentina’s farmers are evacuating their cattle by boat to higher ground as El Nino raises water levels.",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/29/argentina-farmers-evacuate-cattle-by-boat-as-el-nino-escalates?traffic_source=rss",
-          "publisher": "Al Jazeera",
+          "title": "Venezuela opposition leader hails Trump on return from exile",
+          "summary": "María Corina Machado praises US president and secretary of state after Washington sets out timetable for elections",
+          "url": "https://www.ft.com/content/bc97b73d-2a7f-4873-b955-441abdf8f4a9",
+          "publisher": "Financial Times",
           "region": "South & Central America",
-          "published": "Thu, 29 Oct 2026 09:17:10 +0000"
+          "published": "Thu, 29 Oct 2026 18:59:02 GMT"
         },
         {
-          "title": "US sanctions Rwanda's defence ministry over DR Congo conflict",
-          "summary": "Congo accuses Rwanda of backing M23 rebels and plundering minerals in its conflict hit East",
-          "url": "https://www.bbc.co.uk/news/articles/cm87zw51qw0jo?at_medium=RSS&amp;at_campaign=rss",
+          "title": "US convicts Rwandan man who hid genocide role for decades",
+          "summary": "Eric Nshimiye was accused of lying to a jury to protect himself and a fellow perpetrator of the genocide.",
+          "url": "https://www.bbc.co.uk/news/articles/cmkgq90yxg7ko?at_medium=RSS&amp;at_campaign=rss",
           "publisher": "BBC News",
           "region": "East Africa",
-          "published": "Thu, 29 Oct 2026 11:25:16 GMT"
+          "published": "Thu, 29 Oct 2026 13:49:20 GMT"
         },
         {
-          "title": "Brazilians split over Flavio Bolsonaro’s exit to US",
-          "summary": "Brazilians are split over Flavio Bolsonaro fleeing to the US after refusing to concede the election to President Lula.",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/29/brazilians-split-over-flavio-bolsonaros-exit-to-us-2?traffic_source=rss",
+          "title": "Trump says won’t ‘take sides’ in Brazil election, but calls it a ‘disgrace’",
+          "summary": "Comments come after Trump ally Flavio Bolsonaro fled to Miami in US and claimed, without evidence, that vote was stolen.",
+          "url": "https://www.aljazeera.com/news/2026/10/29/trump-says-wont-take-sides-in-brazil-election-but-calls-it-a-disgrace?traffic_source=rss",
           "publisher": "Al Jazeera",
           "region": "Brazil",
-          "published": "Thu, 29 Oct 2026 09:12:40 +0000"
+          "published": "Thu, 29 Oct 2026 19:21:19 +0000"
         },
         {
-          "title": "Dollar strengthens against dong",
-          "summary": "The U.S. dollar went up against the Vietnamese dong Thursday.",
-          "url": "https://e.vnexpress.net/news/business/markets/dollar-strengthens-against-dong-5138288.html",
+          "title": "Ho Chi Minh City unveils tower design for multi-level interchange linking roads to seaports, Long Thanh airport",
+          "summary": "A twisting tower will rise among elevated roadways, interspersed with ponds and green spaces, in a proposed interchange connecting Ho Chi Minh City's major seaports, industrial areas and regional transport corridors.",
+          "url": "https://e.vnexpress.net/photo/traffic/ho-chi-minh-city-unveils-tower-design-for-multi-level-interchange-linking-roads-to-seaports-long-thanh-airport-5138372.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Thu, 29 Oct 2026 16:53:59 +0700"
+          "published": "Thu, 29 Oct 2026 19:00:00 +0700"
         },
         {
           "title": "Indonesia’s second-richest man among world’s biggest wealth losers",
@@ -3678,38 +3672,38 @@
           "published": "Thu, 29 Oct 2026 06:24:56 GMT"
         },
         {
-          "title": "Ethiopia acquires Russian fighter jets and air defence systems amid war in Tigray",
-          "summary": "The acquisition of the warplanes comes amid ongoing fighting in northern Tigray region that started last month.",
-          "url": "https://www.bbc.co.uk/news/articles/cw78prj801pvo?at_medium=RSS&amp;at_campaign=rss",
+          "title": "US sanctions Rwanda's defence ministry over DR Congo conflict",
+          "summary": "Congo accuses Rwanda of backing M23 rebels and plundering minerals in its conflict hit East",
+          "url": "https://www.bbc.co.uk/news/articles/cm87zw51qw0jo?at_medium=RSS&amp;at_campaign=rss",
           "publisher": "BBC News",
           "region": "East Africa",
-          "published": "Thu, 29 Oct 2026 08:23:31 GMT"
+          "published": "Thu, 29 Oct 2026 11:25:16 GMT"
         },
         {
-          "title": "Flávio Bolsonaro denies fleeing Brazil after landing in Miami",
-          "summary": "The defeated Brazilian candidate claims to be the victim of a coup d’état and political persecution, recycling unsubstantiated allegations of “electoral fraud”.",
-          "url": "https://www.bbc.co.uk/news/articles/c6kglwe4lxwzo?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
+          "title": "Brazil politicians back away from Bolsonaro election fraud claims",
+          "summary": "Even some allies of the losing candidate reject complaints that Lula won unfairly",
+          "url": "https://www.ft.com/content/fa67c9ad-882a-4713-a0be-de909c8f3f0a?syn-25a6b1a6=1",
+          "publisher": "Financial Times",
           "region": "Brazil",
-          "published": "Thu, 29 Oct 2026 01:14:01 GMT"
+          "published": "Thu, 29 Oct 2026 18:29:18 GMT"
         },
         {
-          "title": "Gasoline prices edge up",
-          "summary": "Gasoline and diesel prices in Vietnam rose Thursday afternoon, following hikes in fuel prices on global markets.",
-          "url": "https://e.vnexpress.net/news/business/markets/gasoline-prices-edge-up-5138405.html",
+          "title": "Gold prices slip",
+          "summary": "Vietnam gold prices fell marginally Thursday morning amid a slight decline of the precious metal on global markets.",
+          "url": "https://e.vnexpress.net/news/business/markets/gold-prices-slip-5138268.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Thu, 29 Oct 2026 16:52:20 +0700"
+          "published": "Thu, 29 Oct 2026 16:56:13 +0700"
         }
       ],
-      "totalTagged": 125,
+      "totalTagged": 127,
       "feedsQueried": 14,
       "errors": [],
       "note": "General headlines from the growing regions, taken from outlets of record and tagged to a region by the countries and cities they name."
     },
     "roundup": {
       "source": "assembled",
-      "fetchedAt": "2026-10-29T12:05:27.215Z",
+      "fetchedAt": "2026-10-29T22:55:11.526Z",
       "windowDays": 7,
       "publishers": [
         "Daily Coffee News",
@@ -3718,13 +3712,67 @@
       ],
       "items": [
         {
+          "headline": "Exclusive: UK’s Pact Coffee reports another year of double-digit growth",
+          "summary": "The specialty coffee roaster reported strong momentum across all sales channels last year, with retail rollout a key priority moving forward",
+          "url": "https://www.worldcoffeeportal.com/news/exclusive-uks-pact-coffee-reports-another-year-of-double-digit-growth/",
+          "publisher": "World Coffee Portal",
+          "published": "Thu, 29 Oct 2026 16:14:24 GMT",
+          "date": "Thu, 29 Oct",
+          "section": "Roasting & retail"
+        },
+        {
+          "headline": "Water is life for our coffee-growing communities. It is still not guaranteed",
+          "summary": "In the Oromia region of Ethiopia, water is one of the most challenging issues our communities face – and it is inseparable from coffee, writes Dejene Dadi, OCFCU General Manager Every washing station along a river uses water for processing. After processing…",
+          "url": "https://www.worldcoffeeportal.com/opinion/water-is-life-for-our-coffee-growing-communities-it-is-still-not-guaranteed/",
+          "publisher": "World Coffee Portal",
+          "published": "Thu, 29 Oct 2026 15:33:55 GMT",
+          "date": "Thu, 29 Oct",
+          "section": "Top stories of the week"
+        },
+        {
+          "headline": "From wastewater to safe water: inside the Oromia Coffee Project",
+          "summary": "A rare example of cross supply chain collaboration is seeking to improve water use and wastewater management at coffee washing stations, while increasing access to safe and clean water for communities in Ethiopia’s Limu region",
+          "url": "https://www.worldcoffeeportal.com/feature/from-wastewater-to-safe-water-inside-the-oromia-coffee-project/",
+          "publisher": "World Coffee Portal",
+          "published": "Thu, 29 Oct 2026 13:58:51 GMT",
+          "date": "Thu, 29 Oct",
+          "section": "Top stories of the week"
+        },
+        {
+          "headline": "Bodum Recalls 5.9 Million French Presses After Burn Reports",
+          "summary": "Bodum USA is recalling approximately 5.9 million French press coffee makers in the United States sold during a 52-year span. The recall follows 70 reports of glass carafes breaking during...",
+          "url": "https://dailycoffeenews.com/2026/10/29/bodum-recalls-5-9-million-french-presses-after-burn-reports/",
+          "publisher": "Daily Coffee News",
+          "published": "Thu, 29 Oct 2026 13:39:45 +0000",
+          "date": "Thu, 29 Oct",
+          "section": "Roasting & retail"
+        },
+        {
+          "headline": "Kerry Opens Massive Roasting and Extraction Plant in Pennsylvania",
+          "summary": "Global taste and nutrition company Kerry cut the ribbon on a 48,600-square-foot coffee roasting and extraction facility near Bethlehem, Pennsylvania, in September, significantly expanding the company’s North American coffee production...",
+          "url": "https://dailycoffeenews.com/2026/10/29/kerry-opens-massive-roasting-and-extraction-plant-in-pennsylvania/",
+          "publisher": "Daily Coffee News",
+          "published": "Thu, 29 Oct 2026 13:14:28 +0000",
+          "date": "Thu, 29 Oct",
+          "section": "Top stories of the week"
+        },
+        {
+          "headline": "Coffee Warehouse Stockpiles Are Low, Keeping Futures High",
+          "summary": "Brazil’s bumper coffee harvest was forecast to ease global prices, which hit record highs last year. However, futures prices remain elevated. As Cole Martin reports for Bloomberg, this can partly be put down to low stockpiles at warehouses monitored by the…",
+          "url": "https://freshcup.com/need-a-headline/",
+          "publisher": "Fresh Cup",
+          "published": "Thu, 29 Oct 2026 12:08:00 +0000",
+          "date": "Thu, 29 Oct",
+          "section": "Top stories of the week"
+        },
+        {
           "headline": "Design Details: The Calming Mesh Tunnel at % Arabica Shanghai",
           "summary": "Welcome to Design Details, an ongoing editorial feature in Daily Coffee News focused on individual examples of coffee shop architecture, interior design, packaging design or branding. If you are a...",
           "url": "https://dailycoffeenews.com/2026/10/28/design-details-the-calming-mesh-tunnel-at-arabica-shanghai/",
           "publisher": "Daily Coffee News",
           "published": "Wed, 28 Oct 2026 15:55:13 +0000",
           "date": "Wed, 28 Oct",
-          "section": "Top stories of the week"
+          "section": "Roasting & retail"
         },
         {
           "headline": "Questions to Ask Before Buying a Used Coffee Roaster",
@@ -3745,33 +3793,6 @@
           "section": "Roasting & retail"
         },
         {
-          "headline": "New Flavor Map Seeks to Center Local Voices in Kenyan Coffee",
-          "summary": "Professional cuppers can apply for free to help map the flavors of Kenyan coffee at November evaluations in Nairobi. The post New Flavor Map Seeks to Center Local Voices in Kenyan Coffee appeared first on Fresh Cup .",
-          "url": "https://freshcup.com/new-flavor-map-seeks-to-center-local-voices-in-kenyan-coffee/",
-          "publisher": "Fresh Cup",
-          "published": "Wed, 28 Oct 2026 12:04:00 +0000",
-          "date": "Wed, 28 Oct",
-          "section": "Roasting & retail"
-        },
-        {
-          "headline": "Your Merch Needs a Strategy, and the Black Tee Is Not It",
-          "summary": "Have your logo on a mug? That’s a start. Here’s how to create a merch strategy that builds loyalty and affinity for your brand. The post Your Merch Needs a Strategy, and the Black Tee Is Not It appeared first on Fresh Cup .",
-          "url": "https://freshcup.com/your-merch-needs-a-strategy-and-the-black-tee-is-not-it/",
-          "publisher": "Fresh Cup",
-          "published": "Wed, 28 Oct 2026 11:45:00 +0000",
-          "date": "Wed, 28 Oct",
-          "section": "Roasting & retail"
-        },
-        {
-          "headline": "Episode 224: The business case for sustainable coffee equipment – a conversation with Evoca Group",
-          "summary": "Evoca Group's Giusy Bonini and Andrew Barrow on why environmental responsibility can co-exist with, and even contribute to, long term commercial performance",
-          "url": "https://www.worldcoffeeportal.com/podcast/episode-224-the-business-case-for-sustainable-coffee-equipment-a-conversation-with-evoca-group/",
-          "publisher": "World Coffee Portal",
-          "published": "Wed, 28 Oct 2026 07:00:00 GMT",
-          "date": "Wed, 28 Oct",
-          "section": "Roasting & retail"
-        },
-        {
           "headline": "U.S. Funds New Coffee and Cacao Research Led by UH Mānoa and Clemson",
           "summary": "The new Coffee and Cacao Innovation Lab will research hardier crops and more resilient farming practices, with $8 million from the State Department in year one. The post U.S. Funds New Coffee and Cacao Research Led by UH Mānoa and Clemson appeared first on…",
           "url": "https://freshcup.com/u-s-funds-new-coffee-and-cacao-research-led-by-uh-manoa-and-clemson/",
@@ -3781,39 +3802,12 @@
           "section": "Top stories of the week"
         },
         {
-          "headline": "Large cups, low cost. Mega Coffee makes its play for the US market",
-          "summary": "US consumers are used to larger cup sizes, and the South Korean market leader could offer bigger beverages at cheaper prices than its competitors",
-          "url": "https://www.worldcoffeeportal.com/news/large-cups-low-cost-mega-coffee-makes-its-play-for-the-us-market/",
-          "publisher": "World Coffee Portal",
-          "published": "Mon, 26 Oct 2026 14:25:56 GMT",
-          "date": "Mon, 26 Oct",
-          "section": "Top stories of the week"
-        },
-        {
           "headline": "Coffee News Club: October 26th",
           "summary": "Biohackers think they can offset caffeine’s consequences. Plus, low stockpiles weigh on coffee prices despite Brazil’s harvest, and the U.S. funds new research. The post Coffee News Club: October 26th appeared first on Fresh Cup .",
           "url": "https://freshcup.com/coffee-news-club-october-26th/",
           "publisher": "Fresh Cup",
           "published": "Mon, 26 Oct 2026 11:45:00 +0000",
           "date": "Mon, 26 Oct",
-          "section": "Top stories of the week"
-        },
-        {
-          "headline": "Japan’s % Arabica enters tenth MENA market",
-          "summary": "The specialty coffee group is the latest boutique hospitality brand to announce expansion plans in Iraq",
-          "url": "https://www.worldcoffeeportal.com/news/japans-arabica-enters-tenth-mena-market/",
-          "publisher": "World Coffee Portal",
-          "published": "Fri, 23 Oct 2026 15:57:15 GMT",
-          "date": "Fri, 23 Oct",
-          "section": "Top stories of the week"
-        },
-        {
-          "headline": "Massive Coffee Variety Trial Reveals Yield and Leaf Rust Winners",
-          "summary": "The coffee industry’s largest coordinated field trial has found that recently bred arabica varieties generally provided higher yields and greater resistance to coffee leaf rust than traditional pure-arabica varieties, while...",
-          "url": "https://dailycoffeenews.com/2026/10/22/massive-coffee-variety-trial-reveals-yield-and-leaf-rust-winners/",
-          "publisher": "Daily Coffee News",
-          "published": "Thu, 22 Oct 2026 13:38:04 +0000",
-          "date": "Thu, 22 Oct",
           "section": "Top stories of the week"
         }
       ],
@@ -3826,13 +3820,13 @@
       "note": "Assembled from the coffee trade press over the past seven days, ranked by relevance to the physical trade. Headlines and links are each publisher’s own."
     },
     "dailyRead": {
-      "fetchedAt": "2026-10-29T12:05:25.250Z",
+      "fetchedAt": "2026-10-29T22:55:09.910Z",
       "article": {
-        "title": "Massive Coffee Variety Trial Reveals Yield and Leaf Rust Winners",
-        "summary": "The coffee industry’s largest coordinated field trial has found that recently bred arabica varieties generally provided higher yields and greater resistance to coffee leaf rust than traditional pure-arabica varieties, while...",
-        "url": "https://dailycoffeenews.com/2026/10/22/massive-coffee-variety-trial-reveals-yield-and-leaf-rust-winners/",
+        "title": "Kerry Opens Massive Roasting and Extraction Plant in Pennsylvania",
+        "summary": "Global taste and nutrition company Kerry cut the ribbon on a 48,600-square-foot coffee roasting and extraction facility near Bethlehem, Pennsylvania, in September, significantly expanding the company’s North American coffee production...",
+        "url": "https://dailycoffeenews.com/2026/10/29/kerry-opens-massive-roasting-and-extraction-plant-in-pennsylvania/",
         "publisher": "Daily Coffee News",
-        "published": "Thu, 22 Oct 2026 13:38:04 +0000"
+        "published": "Thu, 29 Oct 2026 13:14:28 +0000"
       },
       "considered": 10
     }
@@ -4154,38 +4148,38 @@
     {
       "source": "daily-read",
       "ok": true,
-      "ms": 484
+      "ms": 366
     },
     {
       "source": "weather",
       "ok": true,
-      "ms": 609
+      "ms": 582
     },
     {
       "source": "arabica-futures",
       "ok": true,
-      "ms": 693
-    },
-    {
-      "source": "weekly-recap",
-      "ok": true,
-      "ms": 2451
+      "ms": 720
     },
     {
       "source": "fx",
       "ok": true,
-      "ms": 2897
+      "ms": 1515
     },
     {
-      "source": "ico-report",
-      "ok": false,
-      "ms": 3434,
-      "error": "Table 1 (indicator prices) not found"
+      "source": "weekly-recap",
+      "ok": true,
+      "ms": 1985
     },
     {
       "source": "origin-wire",
       "ok": true,
-      "ms": 3956
+      "ms": 2822
+    },
+    {
+      "source": "ico-report",
+      "ok": false,
+      "ms": 3396,
+      "error": "Table 1 (indicator prices) not found"
     }
   ]
 }

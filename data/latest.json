@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T11:57:40.481Z",
+  "generatedAt": "2026-10-30T22:35:51.779Z",
   "schema": 5,
   "schedule": {
     "slotsUtc": [
@@ -26,8 +26,8 @@
       "frontMonth": {
         "code": "KCZ26",
         "label": "Dec 2026",
-        "close": 287.1,
-        "volume": 2195
+        "close": 287.15,
+        "volume": 14051
       },
       "rolled": false,
       "mostActive": "KCZ26",
@@ -35,56 +35,56 @@
         {
           "code": "KCZ26",
           "label": "Dec 2026",
-          "close": 287.1,
-          "volume": 2195
+          "close": 287.15,
+          "volume": 14051
         },
         {
           "code": "KCH27",
           "label": "Mar 2027",
-          "close": 277.8,
-          "volume": 1692
+          "close": 276.35,
+          "volume": 11396
         },
         {
           "code": "KCK27",
           "label": "May 2027",
-          "close": 274.05,
-          "volume": 409
+          "close": 272.35,
+          "volume": 3900
         },
         {
           "code": "KCN27",
           "label": "Jul 2027",
-          "close": 271.1,
-          "volume": 210
+          "close": 269.95,
+          "volume": 1720
         },
         {
           "code": "KCU27",
           "label": "Sep 2027",
-          "close": 269.9,
-          "volume": 32
+          "close": 267.1,
+          "volume": 429
         },
         {
           "code": "KCZ27",
           "label": "Dec 2027",
-          "close": 266.6,
-          "volume": 10
+          "close": 264,
+          "volume": 222
         },
         {
           "code": "KCH28",
           "label": "Mar 2028",
-          "close": 260.8,
-          "volume": 2
+          "close": 260.95,
+          "volume": 41
         }
       ],
       "quote": {
-        "last": 278.95,
+        "last": 276.35,
         "open": 278.45001220703125,
-        "high": 280.5,
+        "high": 281.5,
         "low": 274.3999938964844,
         "previousClose": 276.75,
-        "change": 2.2,
-        "changePct": 0.795,
-        "volume": 1620,
-        "asOf": "2026-10-30T11:37:27.000Z"
+        "change": -0.4,
+        "changePct": -0.145,
+        "volume": 11393,
+        "asOf": "2026-10-30T17:29:57.000Z"
       },
       "bars": [
         {
@@ -2642,17 +2642,17 @@
         {
           "date": "2026-10-30",
           "open": 278.45001220703125,
-          "high": 280.5,
+          "high": 281.5,
           "low": 274.3999938964844,
-          "close": 278.95001220703125,
-          "volume": 1620
+          "close": 276.3500061035156,
+          "volume": 11393
         }
       ],
       "crossCheck": {
-        "tradingView": 277.8,
-        "yahoo": 278.95,
-        "diff": -1.15,
-        "diffPct": -0.412,
+        "tradingView": 276.35,
+        "yahoo": 276.35,
+        "diff": 0,
+        "diffPct": 0,
         "agree": true
       },
       "sources": [
@@ -2669,16 +2669,16 @@
       ],
       "technicals": {
         "observations": 504,
-        "sma20": 287.8375015258789,
-        "sma50": 286.34600036621094,
-        "sma200": 278.95349990844727,
-        "rsi14": 43.753069502482994,
+        "sma20": 287.70750122070314,
+        "sma50": 286.29400024414065,
+        "sma200": 278.9404998779297,
+        "rsi14": 41.31176344659678,
         "macd": {
-          "line": -0.8740667070072163,
-          "signal": 0.9519924031585913,
-          "histogram": -1.8260591101658077
+          "line": -1.0814746013047625,
+          "signal": 0.910510824299082,
+          "histogram": -1.9919854256038445
         },
-        "atr14": 9.207844315750888,
+        "atr14": 9.27927288717946,
         "donchian20": {
           "high": 304.45001220703125,
           "low": 272.70001220703125,
@@ -2687,16 +2687,16 @@
         "levels": {
           "support": [
             {
-              "price": 276.45001220703125,
-              "date": "2026-10-12"
-            },
-            {
               "price": 270,
               "date": "2026-02-06"
             },
             {
               "price": 268.20001220703125,
               "date": "2025-04-07"
+            },
+            {
+              "price": 262.6000061035156,
+              "date": "2026-09-23"
             }
           ],
           "resistance": [
@@ -2726,22 +2726,18 @@
     }
   },
   "fx": {
-    "asOf": "2026-10-29",
+    "asOf": "2026-10-30",
     "pairs": {
       "GBPUSD": {
         "pair": "GBP/USD",
-        "rate": 1.3317,
-        "previous": 1.3288,
+        "rate": 1.3399,
+        "previous": 1.3317,
         "dp": 4,
         "note": "Sterling stronger means a dollar-priced contract costs a UK buyer less.",
-        "change": 0.0029,
-        "changePct": 0.218,
-        "change1m": 0.23,
+        "change": 0.0082,
+        "changePct": 0.616,
+        "change1m": 1.25,
         "history": [
-          {
-            "date": "2026-08-07",
-            "rate": 1.345
-          },
           {
             "date": "2026-08-10",
             "rate": 1.3504
@@ -2977,23 +2973,23 @@
           {
             "date": "2026-10-29",
             "rate": 1.3317
+          },
+          {
+            "date": "2026-10-30",
+            "rate": 1.3399
           }
         ]
       },
       "USDBRL": {
         "pair": "USD/BRL",
-        "rate": 5.3516,
-        "previous": 5.3271,
+        "rate": 5.4325,
+        "previous": 5.3516,
         "dp": 4,
         "note": "A weaker real encourages Brazilian producer selling.",
-        "change": 0.0245,
-        "changePct": 0.46,
-        "change1m": 2.86,
+        "change": 0.0809,
+        "changePct": 1.512,
+        "change1m": 4.7,
         "history": [
-          {
-            "date": "2026-08-07",
-            "rate": 5.0998
-          },
           {
             "date": "2026-08-10",
             "rate": 5.0856
@@ -3229,14 +3225,18 @@
           {
             "date": "2026-10-29",
             "rate": 5.3516
+          },
+          {
+            "date": "2026-10-30",
+            "rate": 5.4325
           }
         ]
       }
     },
     "ptax": {
-      "buy": 5.3738,
-      "sell": 5.3744,
-      "quotedAt": "2026-10-29 13:11:53.555689"
+      "buy": 5.4206,
+      "sell": 5.4212,
+      "quotedAt": "2026-10-30 13:04:18.706316"
     },
     "sources": [
       {
@@ -3252,7 +3252,7 @@
     ]
   },
   "weather": {
-    "fetchedAt": "2026-10-30T11:57:38.375Z",
+    "fetchedAt": "2026-10-30T22:35:48.516Z",
     "thresholds": {
       "frostC": 4,
       "heavyRainMm": 50,
@@ -3288,8 +3288,8 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 83.6,
-        "rainForecast7": 43.4,
-        "minForecast7": 17,
+        "rainForecast7": 36.6,
+        "minForecast7": 17.4,
         "alerts": []
       },
       {
@@ -3311,8 +3311,8 @@
         "condition": "very-wet",
         "conditionLabel": "Very wet",
         "rain14": 86.7,
-        "rainForecast7": 44.6,
-        "minForecast7": 18,
+        "rainForecast7": 35.5,
+        "minForecast7": 17.7,
         "alerts": []
       },
       {
@@ -3334,7 +3334,7 @@
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
         "rain14": 58.2,
-        "rainForecast7": 31.7,
+        "rainForecast7": 33.7,
         "minForecast7": 22.3,
         "alerts": []
       },
@@ -3356,8 +3356,8 @@
         },
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
-        "rain14": 21.3,
-        "rainForecast7": 22.9,
+        "rain14": 21.2,
+        "rainForecast7": 15.4,
         "minForecast7": 21.6,
         "alerts": []
       },
@@ -3379,10 +3379,16 @@
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 106.7,
-        "rainForecast7": 30,
-        "minForecast7": 17.7,
-        "alerts": []
+        "rain14": 99.8,
+        "rainForecast7": 55.8,
+        "minForecast7": 15.7,
+        "alerts": [
+          {
+            "type": "wet",
+            "severity": "watch",
+            "text": "56 mm forecast over 7 days — harvest/drying disruption risk."
+          }
+        ]
       },
       {
         "key": "huila",
@@ -3403,8 +3409,8 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 74.7,
-        "rainForecast7": 28,
-        "minForecast7": 16.6,
+        "rainForecast7": 46.2,
+        "minForecast7": 16.4,
         "alerts": []
       },
       {
@@ -3426,13 +3432,13 @@
         "condition": "very-wet",
         "conditionLabel": "Very wet",
         "rain14": 163.7,
-        "rainForecast7": 102.6,
-        "minForecast7": 16.4,
+        "rainForecast7": 107.5,
+        "minForecast7": 16.1,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "103 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "108 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3454,14 +3460,14 @@
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 186.2,
-        "rainForecast7": 70.5,
-        "minForecast7": 16.5,
+        "rain14": 180.5,
+        "rainForecast7": 105.4,
+        "minForecast7": 16.6,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "71 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "105 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3483,9 +3489,9 @@
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 36.1,
+        "rain14": 34,
         "rainForecast7": 47,
-        "minForecast7": 24,
+        "minForecast7": 23.9,
         "alerts": []
       },
       {
@@ -3506,8 +3512,8 @@
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 65.3,
-        "rainForecast7": 0.2,
+        "rain14": 62.1,
+        "rainForecast7": 0.6,
         "minForecast7": 12,
         "alerts": []
       },
@@ -3530,8 +3536,8 @@
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
         "rain14": 48.3,
-        "rainForecast7": 11.4,
-        "minForecast7": 15.9,
+        "rainForecast7": 8.8,
+        "minForecast7": 15.6,
         "alerts": []
       },
       {
@@ -3553,13 +3559,13 @@
         "condition": "very-wet",
         "conditionLabel": "Very wet",
         "rain14": 147.4,
-        "rainForecast7": 61.3,
-        "minForecast7": 19.4,
+        "rainForecast7": 56.5,
+        "minForecast7": 19.6,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "61 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "57 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       }
@@ -3574,16 +3580,16 @@
   },
   "news": {
     "originWire": {
-      "fetchedAt": "2026-10-30T11:57:40.478Z",
+      "fetchedAt": "2026-10-30T22:35:51.098Z",
       "lookbackHours": 504,
       "headlines": [
         {
-          "title": "Could 2026 be the year that democracy fought back? | David Van Reybrouck",
-          "summary": "Elections are never enough by themselves, but the stunning results from Serbia, Brazil and Hungary have given us hope in dark times It is undoubtedly too early to declare victory, but the recent electoral defeats of Viktor Orbán , Aleksandar Vučić and Flávio…",
-          "url": "https://www.theguardian.com/commentisfree/2026/oct/30/could-2026-be-the-year-that-democracy-fought-back",
-          "publisher": "The Guardian",
+          "title": "Lula, Brazil’s 81-year-old comeback kid",
+          "summary": "The four-time president has pulled off one of the greatest unexpected victories in modern democratic politics",
+          "url": "https://www.ft.com/content/5726c4a2-61b7-4296-9c0a-89bf1630e09f?syn-25a6b1a6=1",
+          "publisher": "Financial Times",
           "region": "Brazil",
-          "published": "Fri, 30 Oct 2026 05:00:47 GMT"
+          "published": "Fri, 30 Oct 2026 16:57:16 GMT"
         },
         {
           "title": "Investors pledge $16.4B for 12 projects in HCMC",
@@ -3594,12 +3600,60 @@
           "published": "Fri, 30 Oct 2026 16:39:47 +0700"
         },
         {
-          "title": "Smoke from wildfires killed 3,500 people in Indonesia in September: Report",
-          "summary": "Persistent wildfires sparked by drought have enveloped the region in smog.",
-          "url": "https://www.aljazeera.com/news/2026/10/30/smoke-from-wildfires-killed-3500-people-in-indonesia-in-september-report?traffic_source=rss",
-          "publisher": "Al Jazeera",
+          "title": "Singapore’s largest lender denies merging unit with bank of Indonesia’s richest man",
+          "summary": "Singapore’s largest lender DBS has denied rumors of a potential merger between its unit and Indonesia’s top private lender Bank Central Asia (BCA), controlled by Indonesia’s richest billionaire Robert Budi Hartono.",
+          "url": "https://e.vnexpress.net/news/business/companies/singapore-s-largest-lender-denies-merging-unit-with-bank-of-indonesia-s-richest-man-5138386.html",
+          "publisher": "VnExpress International",
           "region": "Indonesia",
-          "published": "Fri, 30 Oct 2026 08:20:30 +0000"
+          "published": "Fri, 30 Oct 2026 06:31:26 +0700"
+        },
+        {
+          "title": "How cuts under Colombia’s de la Espriella threaten a key human rights court",
+          "summary": "Colombia's president plans to slash spending on a transitional justice court. But war crimes victims fear the cost.",
+          "url": "https://www.aljazeera.com/news/longform/2026/10/30/how-cuts-under-colombias-de-la-espriella-threaten-a-key-human-rights-court?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "region": "Colombia",
+          "published": "Fri, 30 Oct 2026 17:43:21 +0000"
+        },
+        {
+          "title": "María Corina Machado thanks Donald Trump and Marco Rubio for their actions in Venezuela - video",
+          "summary": "Venezuelan opposition leader, María Corina Machado, has thanked the US president, Donald Trump, and US secretary of state, Marco Rubio, for their role in ousting their previous president. On 3 January, Trump administration captured Nicolás Maduro, who is…",
+          "url": "https://www.theguardian.com/world/video/2026/oct/30/maria-corina-machado-thanks-donald-trump-and-marco-rubio-for-their-actions-in-venezuela-video",
+          "publisher": "The Guardian",
+          "region": "South & Central America",
+          "published": "Fri, 30 Oct 2026 15:39:00 GMT"
+        },
+        {
+          "title": "How Kenyans got caught in $130m US ghost student scam",
+          "summary": "The alleged scheme used stolen identities to claim US student aid, with Kenyans among those charged.",
+          "url": "https://www.bbc.co.uk/news/articles/cxvgdzpy7241o?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
+          "region": "East Africa",
+          "published": "Fri, 30 Oct 2026 08:32:35 GMT"
+        },
+        {
+          "title": "‘Amateur morons’: Flávio Bolsonaro’s short-lived ‘president-elect’ claim met with mockery",
+          "summary": "Brazilian media ridicule defeated candidate over ‘shameful’ absconsion to US and bizarre letter with wrong coat of arms Flávio Bolsonaro had hoped that by Sunday night people would be calling him the next president of Brazil. Instead, the far-right…",
+          "url": "https://www.theguardian.com/world/2026/oct/30/flavio-bolsonaros-president-elect-claim-mockery-brazil",
+          "publisher": "The Guardian",
+          "region": "Brazil",
+          "published": "Fri, 30 Oct 2026 14:08:41 GMT"
+        },
+        {
+          "title": "Old growth model cannot make Vietnam rich: World Bank official",
+          "summary": "Vietnam must shift from labor-intensive growth and capital accumulation to productivity and higher-quality jobs to become a high-income economy by 2045, a World Bank official says.",
+          "url": "https://e.vnexpress.net/news/business/old-growth-model-cannot-make-vietnam-rich-world-bank-official-5138858.html",
+          "publisher": "VnExpress International",
+          "region": "Vietnam",
+          "published": "Fri, 30 Oct 2026 16:39:13 +0700"
+        },
+        {
+          "title": "‘Feels like we’ve gone backwards’: Indonesia’s choking haze provides spark for wider protests",
+          "summary": "After two years, President Prabowo Subianto is struggling with economic malaise, policy blunders and a devastating fire season in the world’s third-largest democracy As almost 2m hectares has gone up in smoke in Indonesia’s worst fire season in a decade…",
+          "url": "https://www.theguardian.com/world/2026/oct/29/indonesia-protests-fire-haze-economy",
+          "publisher": "The Guardian",
+          "region": "Indonesia",
+          "published": "Thu, 29 Oct 2026 03:09:29 GMT"
         },
         {
           "title": "Pablo Escobar tried to bomb me in Bogotá. To stop the cartels infiltrating Europe, we should legalise cocaine | Letter",
@@ -3618,68 +3672,20 @@
           "published": "Thu, 29 Oct 2026 21:05:03 GMT"
         },
         {
-          "title": "AFCON returns to 2-year cycle after CAF reverses quadrennial decision",
-          "summary": "Kenya, Tanzania and Uganda will cohost the next AFCON in 2027, with subsequent tournaments in 2028, 2031 and 2033.",
-          "url": "https://www.aljazeera.com/sports/2026/10/30/afcon-returns-to-2-year-cycle-after-caf-reverses-quadrennial-decision?traffic_source=rss",
-          "publisher": "Al Jazeera",
-          "region": "East Africa",
-          "published": "Fri, 30 Oct 2026 09:57:36 +0000"
-        },
-        {
-          "title": "Brazil’s victory for the planet and democracy: seven lessons from Lula’s win",
-          "summary": "The trouncing of the far right provides a playbook for social and environmental movements in other countries facing elections, including the US, Spain and France Thank you, Brazil, for demonstrating how the far right can be trounced while protection for the…",
-          "url": "https://www.theguardian.com/world/2026/oct/29/brazil-victory-planet-democracy-lessons-lula-win",
-          "publisher": "The Guardian",
-          "region": "Brazil",
-          "published": "Thu, 29 Oct 2026 17:46:38 GMT"
-        },
-        {
-          "title": "Old growth model cannot make Vietnam rich: World Bank official",
-          "summary": "Vietnam must shift from labor-intensive growth and capital accumulation to productivity and higher-quality jobs to become a high-income economy by 2045, a World Bank official says.",
-          "url": "https://e.vnexpress.net/news/business/old-growth-model-cannot-make-vietnam-rich-world-bank-official-5138858.html",
-          "publisher": "VnExpress International",
-          "region": "Vietnam",
-          "published": "Fri, 30 Oct 2026 16:39:13 +0700"
-        },
-        {
-          "title": "Singapore’s largest lender denies merging unit with bank of Indonesia’s richest man",
-          "summary": "Singapore’s largest lender DBS has denied rumors of a potential merger between its unit and Indonesia’s top private lender Bank Central Asia (BCA), controlled by Indonesia’s richest billionaire Robert Budi Hartono.",
-          "url": "https://e.vnexpress.net/news/business/companies/singapore-s-largest-lender-denies-merging-unit-with-bank-of-indonesia-s-richest-man-5138386.html",
-          "publisher": "VnExpress International",
-          "region": "Indonesia",
-          "published": "Fri, 30 Oct 2026 06:31:26 +0700"
-        },
-        {
-          "title": "IPCC is under pressure to delay publication of key global climate report",
-          "summary": "AR7 report was scheduled for 2028 in time for Cop33 summit but some petro-states and major developing countries want to postpone it Scientists are coming under pressure from some petro-states and major developing countries to delay publication of a key global…",
-          "url": "https://www.theguardian.com/environment/2026/oct/13/ipcc-pressure-delay-publication-climate-report-ar7-cop33",
-          "publisher": "The Guardian",
-          "region": "Colombia",
-          "published": "Tue, 13 Oct 2026 05:00:15 GMT"
-        },
-        {
-          "title": "El Salvador sends 2,000 troops to Haiti to rescue four missing soldiers",
-          "summary": "The troops are trying to recover four military personnel who went missing in an ambush on the outskirts of the Haitian capital Port-au-Prince.",
-          "url": "https://www.bbc.co.uk/news/articles/ck0e075n79j5o?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
-          "region": "South & Central America",
-          "published": "Thu, 29 Oct 2026 06:24:56 GMT"
-        },
-        {
-          "title": "How Kenyans got caught in $130m US ghost student scam",
-          "summary": "The alleged scheme used stolen identities to claim US student aid, with Kenyans among those charged.",
-          "url": "https://www.bbc.co.uk/news/articles/cxvgdzpy7241o?at_medium=RSS&amp;at_campaign=rss",
+          "title": "The Documentary Podcast",
+          "summary": "The nun who rehabilitates child victims of Uganda’s Lord’s Resistance Army",
+          "url": "https://www.bbc.co.uk/sounds/play/p0pjwj3t?at_medium=RSS&amp;at_campaign=rss",
           "publisher": "BBC News",
           "region": "East Africa",
-          "published": "Fri, 30 Oct 2026 08:32:35 GMT"
+          "published": "Fri, 30 Oct 2026 01:30:00 GMT"
         },
         {
-          "title": "Flávio Bolsonaro calls himself 'leader of Brazil' after election loss",
-          "summary": "The defeated presidential candidate says he will lead the opposition from the US.",
-          "url": "https://www.bbc.co.uk/news/articles/c3x2w4109pj8o?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
+          "title": "Could 2026 be the year that democracy fought back? | David Van Reybrouck",
+          "summary": "Elections are never enough by themselves, but the stunning results from Serbia, Brazil and Hungary have given us hope in dark times It is undoubtedly too early to declare victory, but the recent electoral defeats of Viktor Orbán , Aleksandar Vučić and Flávio…",
+          "url": "https://www.theguardian.com/commentisfree/2026/oct/30/could-2026-be-the-year-that-democracy-fought-back",
+          "publisher": "The Guardian",
           "region": "Brazil",
-          "published": "Thu, 29 Oct 2026 14:58:28 GMT"
+          "published": "Fri, 30 Oct 2026 05:00:47 GMT"
         },
         {
           "title": "Foreign employers in Vietnam face new hiring duties from November",
@@ -3690,21 +3696,58 @@
           "published": "Fri, 30 Oct 2026 13:45:33 +0700"
         }
       ],
-      "totalTagged": 122,
+      "totalTagged": 118,
       "feedsQueried": 14,
       "errors": [],
       "note": "General headlines from the growing regions, taken from outlets of record and tagged to a region by the countries and cities they name."
     },
     "roundup": {
       "source": "assembled",
-      "fetchedAt": "2026-10-30T11:57:39.702Z",
+      "fetchedAt": "2026-10-30T22:35:50.215Z",
       "windowDays": 7,
       "publishers": [
         "Daily Coffee News",
         "Fresh Cup",
+        "Specialty Coffee Association",
         "World Coffee Portal"
       ],
       "items": [
+        {
+          "headline": "From Theory to Practice | 25, Issue 26",
+          "summary": "The Specialty Coffee Association (SCA) is pleased to announce the release of Issue 26 of 25, the SCA’s twice-yearly journal exploring the research, science, and ideas shaping specialty coffee. This issue focuses on bridging the gap between theory and…",
+          "url": "https://sca.coffee/sca-news/25/issue-26",
+          "publisher": "Specialty Coffee Association",
+          "published": "Fri, 30 Oct 2026 17:33:30 +0000",
+          "date": "Fri, 30 Oct",
+          "section": "Roasting & retail"
+        },
+        {
+          "headline": "Popular San Francisco Coffee Company Closes Both Cafes After Landlord Disputes",
+          "summary": "Three-year-old San Francisco specialty coffee company Outset Coffee has closed both of its cafes after separate landlord disputes, one ending in a $200,196 court judgment and the other in a...",
+          "url": "https://dailycoffeenews.com/2026/10/30/popular-san-francisco-coffee-company-closes-both-cafes-after-landlord-disputes/",
+          "publisher": "Daily Coffee News",
+          "published": "Fri, 30 Oct 2026 13:38:46 +0000",
+          "date": "Fri, 30 Oct",
+          "section": "Roasting & retail"
+        },
+        {
+          "headline": "Weekly Coffee News: FAO Grant Opportunity + Multiple Home Brewer Launches",
+          "summary": "Welcome to DCN’s Weekly Coffee News! Subscribe here for all the latest coffee industry news. Also, check out the latest career opportunities at CoffeeIndustryJobs.com. FAO Opens Grants for Coffee Enterprises...",
+          "url": "https://dailycoffeenews.com/2026/10/30/weekly-coffee-news-fao-grant-opportunity-multiple-home-brewer-launches/",
+          "publisher": "Daily Coffee News",
+          "published": "Fri, 30 Oct 2026 12:50:36 +0000",
+          "date": "Fri, 30 Oct",
+          "section": "Roasting & retail"
+        },
+        {
+          "headline": "How Coffee Carts and Caterers Price Gigs: 4 Operators Share Their Processes",
+          "summary": "Four coffee caterers explain how they quote events, with their methods checked against pricing data from 25,860 bookings. The post How Coffee Carts and Caterers Price Gigs: 4 Operators Share Their Processes appeared first on Fresh Cup .",
+          "url": "https://freshcup.com/how-coffee-carts-and-caterers-price-gigs-4-operators-share-their-processes/",
+          "publisher": "Fresh Cup",
+          "published": "Fri, 30 Oct 2026 11:57:00 +0000",
+          "date": "Fri, 30 Oct",
+          "section": "Top stories of the week"
+        },
         {
           "headline": "Starbucks turnaround plan is now “our growth plan”, Niccol says",
           "summary": "US sales exceeded expectations during fourth quarter in the latest endorsement of CEO’s Back to Starbucks strategy – but China stake sale weighs heavily on international business",
@@ -3739,16 +3782,7 @@
           "publisher": "World Coffee Portal",
           "published": "Thu, 29 Oct 2026 13:58:51 GMT",
           "date": "Thu, 29 Oct",
-          "section": "Top stories of the week"
-        },
-        {
-          "headline": "Bodum Recalls 5.9 Million French Presses After Burn Reports",
-          "summary": "Bodum USA is recalling approximately 5.9 million French press coffee makers in the United States sold during a 52-year span. The recall follows 70 reports of glass carafes breaking during...",
-          "url": "https://dailycoffeenews.com/2026/10/29/bodum-recalls-5-9-million-french-presses-after-burn-reports/",
-          "publisher": "Daily Coffee News",
-          "published": "Thu, 29 Oct 2026 13:39:45 +0000",
-          "date": "Thu, 29 Oct",
-          "section": "Roasting & retail"
+          "section": "Trade & production"
         },
         {
           "headline": "Kerry Opens Massive Roasting and Extraction Plant in Pennsylvania",
@@ -3767,24 +3801,6 @@
           "published": "Thu, 29 Oct 2026 12:08:00 +0000",
           "date": "Thu, 29 Oct",
           "section": "Top stories of the week"
-        },
-        {
-          "headline": "Design Details: The Calming Mesh Tunnel at % Arabica Shanghai",
-          "summary": "Welcome to Design Details, an ongoing editorial feature in Daily Coffee News focused on individual examples of coffee shop architecture, interior design, packaging design or branding. If you are a...",
-          "url": "https://dailycoffeenews.com/2026/10/28/design-details-the-calming-mesh-tunnel-at-arabica-shanghai/",
-          "publisher": "Daily Coffee News",
-          "published": "Wed, 28 Oct 2026 15:55:13 +0000",
-          "date": "Wed, 28 Oct",
-          "section": "Roasting & retail"
-        },
-        {
-          "headline": "Questions to Ask Before Buying a Used Coffee Roaster",
-          "summary": "Used roasters have quietly become one of the most common ways smaller roasters and cafes get their first serious machine. They typically cost less than new equipment, they show up...",
-          "url": "https://dailycoffeenews.com/2026/10/28/questions-to-ask-before-buying-a-used-coffee-roaster/",
-          "publisher": "Daily Coffee News",
-          "published": "Wed, 28 Oct 2026 14:10:53 +0000",
-          "date": "Wed, 28 Oct",
-          "section": "Roasting & retail"
         },
         {
           "headline": "U.S. Funds New Coffee and Cacao Research Led by UH Mānoa and Clemson",
@@ -3814,7 +3830,7 @@
       "note": "Assembled from the coffee trade press over the past seven days, ranked by relevance to the physical trade. Headlines and links are each publisher’s own."
     },
     "dailyRead": {
-      "fetchedAt": "2026-10-30T11:57:38.294Z",
+      "fetchedAt": "2026-10-30T22:35:48.471Z",
       "article": {
         "title": "Kerry Opens Massive Roasting and Extraction Plant in Pennsylvania",
         "summary": "Global taste and nutrition company Kerry cut the ribbon on a 48,600-square-foot coffee roasting and extraction facility near Bethlehem, Pennsylvania, in September, significantly expanding the company’s North American coffee production...",
@@ -4142,38 +4158,38 @@
     {
       "source": "daily-read",
       "ok": true,
-      "ms": 226
+      "ms": 545
     },
     {
       "source": "weather",
       "ok": true,
-      "ms": 315
+      "ms": 598
     },
     {
       "source": "arabica-futures",
       "ok": true,
-      "ms": 622
+      "ms": 870
     },
     {
       "source": "fx",
       "ok": true,
-      "ms": 1559
+      "ms": 1591
     },
     {
       "source": "weekly-recap",
       "ok": true,
-      "ms": 1637
-    },
-    {
-      "source": "ico-report",
-      "ok": false,
-      "ms": 2340,
-      "error": "Table 1 (indicator prices) not found"
+      "ms": 2292
     },
     {
       "source": "origin-wire",
       "ok": true,
-      "ms": 2417
+      "ms": 3179
+    },
+    {
+      "source": "ico-report",
+      "ok": false,
+      "ms": 3836,
+      "error": "Table 1 (indicator prices) not found"
     }
   ]
 }

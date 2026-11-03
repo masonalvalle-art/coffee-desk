@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T14:27:57.674Z",
+  "generatedAt": "2026-11-03T01:10:29.846Z",
   "schema": 5,
   "schedule": {
     "slotsUtc": [
@@ -26,8 +26,8 @@
       "frontMonth": {
         "code": "KCZ26",
         "label": "Dec 2026",
-        "close": 293.4,
-        "volume": 6422
+        "close": 294.15,
+        "volume": 13870
       },
       "rolled": false,
       "mostActive": "KCZ26",
@@ -35,56 +35,56 @@
         {
           "code": "KCZ26",
           "label": "Dec 2026",
-          "close": 293.4,
-          "volume": 6422
+          "close": 294.15,
+          "volume": 13870
         },
         {
           "code": "KCH27",
           "label": "Mar 2027",
-          "close": 283.25,
-          "volume": 4414
+          "close": 282.3,
+          "volume": 10371
         },
         {
           "code": "KCK27",
           "label": "May 2027",
-          "close": 279.2,
-          "volume": 1377
+          "close": 278.55,
+          "volume": 3661
         },
         {
           "code": "KCN27",
           "label": "Jul 2027",
-          "close": 275.45,
-          "volume": 598
+          "close": 275.75,
+          "volume": 1560
         },
         {
           "code": "KCU27",
           "label": "Sep 2027",
-          "close": 272.75,
-          "volume": 112
+          "close": 272.8,
+          "volume": 381
         },
         {
           "code": "KCZ27",
           "label": "Dec 2027",
-          "close": 269.45,
-          "volume": 41
+          "close": 269.35,
+          "volume": 163
         },
         {
           "code": "KCH28",
           "label": "Mar 2028",
-          "close": 265.25,
-          "volume": 10
+          "close": 266.65,
+          "volume": 25
         }
       ],
       "quote": {
-        "last": 282.6,
+        "last": 282.3,
         "open": 278.3999938964844,
-        "high": 285.25,
+        "high": 285.20001220703125,
         "low": 278.1499938964844,
         "previousClose": 276.79998779296875,
-        "change": 5.8,
-        "changePct": 2.095,
-        "volume": 4327,
-        "asOf": "2026-11-02T14:07:44.000Z"
+        "change": 5.5,
+        "changePct": 1.987,
+        "volume": 0,
+        "asOf": "2026-11-02T18:29:55.000Z"
       },
       "bars": [
         {
@@ -2637,22 +2637,22 @@
           "high": 281.5,
           "low": 274.3999938964844,
           "close": 276.79998779296875,
-          "volume": 14466
+          "volume": 11396
         },
         {
           "date": "2026-11-02",
           "open": 278.3999938964844,
-          "high": 285.25,
+          "high": 285.20001220703125,
           "low": 278.1499938964844,
-          "close": 282.6000061035156,
-          "volume": 4327
+          "close": 282.29998779296875,
+          "volume": 0
         }
       ],
       "crossCheck": {
-        "tradingView": 283.25,
-        "yahoo": 282.6,
-        "diff": 0.65,
-        "diffPct": 0.23,
+        "tradingView": 282.3,
+        "yahoo": 282.3,
+        "diff": 0,
+        "diffPct": 0,
         "agree": true
       },
       "sources": [
@@ -2669,16 +2669,16 @@
       ],
       "technicals": {
         "observations": 502,
-        "sma20": 287.64500122070314,
-        "sma50": 285.76,
-        "sma200": 278.7569998168945,
-        "rsi14": 47.366982604731774,
+        "sma20": 287.63000030517577,
+        "sma50": 285.7539996337891,
+        "sma200": 278.7554997253418,
+        "rsi14": 47.09888037575092,
         "macd": {
-          "line": -1.1305281167972794,
-          "signal": 0.5080463921161287,
-          "histogram": -1.638574508913408
+          "line": -1.1544612013993287,
+          "signal": 0.5032597751957187,
+          "histogram": -1.6577209765950474
         },
-        "atr14": 9.220039981454587,
+        "atr14": 9.216469424813962,
         "donchian20": {
           "high": 304.45001220703125,
           "low": 272.70001220703125,
@@ -2726,22 +2726,18 @@
     }
   },
   "fx": {
-    "asOf": "2026-10-30",
+    "asOf": "2026-11-02",
     "pairs": {
       "GBPUSD": {
         "pair": "GBP/USD",
-        "rate": 1.3399,
-        "previous": 1.3317,
+        "rate": 1.3419,
+        "previous": 1.3399,
         "dp": 4,
         "note": "Sterling stronger means a dollar-priced contract costs a UK buyer less.",
-        "change": 0.0082,
-        "changePct": 0.616,
-        "change1m": 1.25,
+        "change": 0.002,
+        "changePct": 0.149,
+        "change1m": 1.65,
         "history": [
-          {
-            "date": "2026-08-10",
-            "rate": 1.3504
-          },
           {
             "date": "2026-08-11",
             "rate": 1.35
@@ -2977,23 +2973,23 @@
           {
             "date": "2026-10-30",
             "rate": 1.3399
+          },
+          {
+            "date": "2026-11-02",
+            "rate": 1.3419
           }
         ]
       },
       "USDBRL": {
         "pair": "USD/BRL",
-        "rate": 5.4325,
-        "previous": 5.3516,
+        "rate": 5.4378,
+        "previous": 5.4325,
         "dp": 4,
         "note": "A weaker real encourages Brazilian producer selling.",
-        "change": 0.0809,
-        "changePct": 1.512,
-        "change1m": 4.7,
+        "change": 0.0053,
+        "changePct": 0.098,
+        "change1m": 4.14,
         "history": [
-          {
-            "date": "2026-08-10",
-            "rate": 5.0856
-          },
           {
             "date": "2026-08-11",
             "rate": 5.1049
@@ -3229,6 +3225,10 @@
           {
             "date": "2026-10-30",
             "rate": 5.4325
+          },
+          {
+            "date": "2026-11-02",
+            "rate": 5.4378
           }
         ]
       }
@@ -3252,7 +3252,7 @@
     ]
   },
   "weather": {
-    "fetchedAt": "2026-11-02T14:27:55.260Z",
+    "fetchedAt": "2026-11-03T01:10:26.321Z",
     "thresholds": {
       "frostC": 4,
       "heavyRainMm": 50,
@@ -3277,19 +3277,19 @@
         "lat": -21.55,
         "lon": -45.43,
         "current": {
-          "date": "2026-11-01",
-          "tMax": 26.4,
-          "tMin": 18.1,
-          "rain": 15.7,
-          "code": 95,
-          "cloud": 83,
+          "date": "2026-11-02",
+          "tMax": 26.8,
+          "tMin": 17.9,
+          "rain": 15.5,
+          "code": 96,
+          "cloud": 76,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 98.3,
-        "rainForecast7": 39.2,
-        "minForecast7": 10.9,
+        "rain14": 113.8,
+        "rainForecast7": 36.2,
+        "minForecast7": 11.5,
         "alerts": []
       },
       {
@@ -3300,19 +3300,19 @@
         "lat": -18.94,
         "lon": -46.99,
         "current": {
-          "date": "2026-11-01",
-          "tMax": 28.2,
-          "tMin": 18.6,
-          "rain": 0.1,
-          "code": 51,
-          "cloud": 82,
+          "date": "2026-11-02",
+          "tMax": 29.1,
+          "tMin": 18.9,
+          "rain": 6.5,
+          "code": 81,
+          "cloud": 47,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 89.2,
-        "rainForecast7": 30.9,
-        "minForecast7": 18.2,
+        "rain14": 95.7,
+        "rainForecast7": 24.8,
+        "minForecast7": 14.8,
         "alerts": []
       },
       {
@@ -3323,19 +3323,19 @@
         "lat": -19.39,
         "lon": -40.07,
         "current": {
-          "date": "2026-11-01",
-          "tMax": 27.9,
-          "tMin": 23.1,
-          "rain": 15.6,
-          "code": 95,
-          "cloud": 100,
+          "date": "2026-11-02",
+          "tMax": 28.1,
+          "tMin": 22.5,
+          "rain": 11.3,
+          "code": 81,
+          "cloud": 66,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 64.3,
-        "rainForecast7": 28.6,
-        "minForecast7": 19.8,
+        "rain14": 75.6,
+        "rainForecast7": 20,
+        "minForecast7": 19.2,
         "alerts": []
       },
       {
@@ -3346,19 +3346,19 @@
         "lat": 12.68,
         "lon": 108.05,
         "current": {
-          "date": "2026-11-01",
-          "tMax": 31.1,
-          "tMin": 22,
-          "rain": 0,
-          "code": 3,
-          "cloud": 43,
+          "date": "2026-11-02",
+          "tMax": 29.8,
+          "tMin": 22.7,
+          "rain": 0.7,
+          "code": 51,
+          "cloud": 53,
           "observed": true
         },
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
-        "rain14": 17.1,
-        "rainForecast7": 15.5,
-        "minForecast7": 22.1,
+        "rain14": 15.1,
+        "rainForecast7": 17.3,
+        "minForecast7": 22,
         "alerts": []
       },
       {
@@ -3369,26 +3369,20 @@
         "lat": 11.55,
         "lon": 107.81,
         "current": {
-          "date": "2026-11-01",
-          "tMax": 28.4,
-          "tMin": 18.4,
-          "rain": 0,
-          "code": 45,
-          "cloud": 68,
+          "date": "2026-11-02",
+          "tMax": 28,
+          "tMin": 20.2,
+          "rain": 3.8,
+          "code": 53,
+          "cloud": 70,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 80.3,
-        "rainForecast7": 65.8,
-        "minForecast7": 17.4,
-        "alerts": [
-          {
-            "type": "wet",
-            "severity": "watch",
-            "text": "66 mm forecast over 7 days — harvest/drying disruption risk."
-          }
-        ]
+        "rain14": 70.7,
+        "rainForecast7": 38.8,
+        "minForecast7": 17.5,
+        "alerts": []
       },
       {
         "key": "huila",
@@ -3398,18 +3392,18 @@
         "lat": 1.85,
         "lon": -76.05,
         "current": {
-          "date": "2026-11-01",
-          "tMax": 26.6,
-          "tMin": 17.9,
-          "rain": 9.4,
+          "date": "2026-11-02",
+          "tMax": 27.2,
+          "tMin": 17.4,
+          "rain": 6.9,
           "code": 95,
-          "cloud": 94,
+          "cloud": 91,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 75.9,
-        "rainForecast7": 24.8,
+        "rain14": 82.8,
+        "rainForecast7": 22.5,
         "minForecast7": 15.6,
         "alerts": []
       },
@@ -3421,24 +3415,24 @@
         "lat": 6.25,
         "lon": -75.56,
         "current": {
-          "date": "2026-11-01",
-          "tMax": 28.2,
-          "tMin": 17.7,
-          "rain": 4.2,
-          "code": 53,
-          "cloud": 99,
+          "date": "2026-11-02",
+          "tMax": 28.9,
+          "tMin": 18.4,
+          "rain": 0.9,
+          "code": 51,
+          "cloud": 94,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 139.9,
-        "rainForecast7": 61.4,
-        "minForecast7": 16.8,
+        "rain14": 140.8,
+        "rainForecast7": 56.3,
+        "minForecast7": 16.9,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "61 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "56 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3450,24 +3444,24 @@
         "lat": 4.63,
         "lon": 96.85,
         "current": {
-          "date": "2026-11-01",
+          "date": "2026-11-02",
           "tMax": 26.2,
-          "tMin": 16.5,
-          "rain": 1.2,
-          "code": 51,
-          "cloud": 72,
+          "tMin": 16.6,
+          "rain": 4.4,
+          "code": 80,
+          "cloud": 80,
           "observed": true
         },
-        "condition": "very-wet",
-        "conditionLabel": "Very wet",
-        "rain14": 188.6,
-        "rainForecast7": 69.9,
-        "minForecast7": 16.6,
+        "condition": "wet",
+        "conditionLabel": "Wet",
+        "rain14": 184,
+        "rainForecast7": 72.8,
+        "minForecast7": 16.4,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "70 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "73 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3479,19 +3473,19 @@
         "lat": -5.45,
         "lon": 105.27,
         "current": {
-          "date": "2026-11-01",
-          "tMax": 32.9,
-          "tMin": 25.2,
-          "rain": 7.1,
-          "code": 80,
-          "cloud": 89,
+          "date": "2026-11-02",
+          "tMax": 32.4,
+          "tMin": 25.8,
+          "rain": 3.1,
+          "code": 53,
+          "cloud": 86,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 45.4,
-        "rainForecast7": 37.6,
-        "minForecast7": 24.4,
+        "rain14": 48.5,
+        "rainForecast7": 36.5,
+        "minForecast7": 24.8,
         "alerts": []
       },
       {
@@ -3502,19 +3496,19 @@
         "lat": 7.67,
         "lon": 36.83,
         "current": {
-          "date": "2026-11-01",
-          "tMax": 24.7,
-          "tMin": 12.5,
+          "date": "2026-11-02",
+          "tMax": 24.5,
+          "tMin": 12.1,
           "rain": 0,
           "code": 3,
-          "cloud": 26,
+          "cloud": 17,
           "observed": true
         },
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
-        "rain14": 57.1,
-        "rainForecast7": 4.8,
-        "minForecast7": 12.1,
+        "rain14": 56.3,
+        "rainForecast7": 2.1,
+        "minForecast7": 12.9,
         "alerts": []
       },
       {
@@ -3525,19 +3519,19 @@
         "lat": 14.16,
         "lon": -88.02,
         "current": {
-          "date": "2026-11-01",
-          "tMax": 26.2,
-          "tMin": 17,
-          "rain": 1.8,
-          "code": 51,
-          "cloud": 66,
+          "date": "2026-11-02",
+          "tMax": 25.3,
+          "tMin": 17.2,
+          "rain": 3.4,
+          "code": 53,
+          "cloud": 78,
           "observed": true
         },
-        "condition": "cloudy",
-        "conditionLabel": "Cloudy",
-        "rain14": 33.1,
-        "rainForecast7": 13,
-        "minForecast7": 15.1,
+        "condition": "wet",
+        "conditionLabel": "Wet",
+        "rain14": 36.5,
+        "rainForecast7": 9.2,
+        "minForecast7": 16.3,
         "alerts": []
       },
       {
@@ -3548,19 +3542,19 @@
         "lat": -11.05,
         "lon": -75.33,
         "current": {
-          "date": "2026-11-01",
-          "tMax": 31.8,
-          "tMin": 20.3,
-          "rain": 5.8,
+          "date": "2026-11-02",
+          "tMax": 32.6,
+          "tMin": 19.2,
+          "rain": 13.6,
           "code": 80,
-          "cloud": 65,
+          "cloud": 89,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 146.8,
-        "rainForecast7": 22.9,
-        "minForecast7": 19.2,
+        "rain14": 160.4,
+        "rainForecast7": 38.2,
+        "minForecast7": 19.5,
         "alerts": []
       }
     ],
@@ -3574,7 +3568,7 @@
   },
   "news": {
     "originWire": {
-      "fetchedAt": "2026-11-02T14:27:57.275Z",
+      "fetchedAt": "2026-11-03T01:10:28.023Z",
       "lookbackHours": 504,
       "headlines": [
         {
@@ -3584,6 +3578,54 @@
           "publisher": "The Guardian",
           "region": "Brazil",
           "published": "Sat, 31 Oct 2026 13:37:39 GMT"
+        },
+        {
+          "title": "Vietnam, Japan's biggest source of foreign workers, struggles to recruit more",
+          "summary": "Vietnamese recruitment firms that once had seven or eight applicants for every Japan job order now send staff into villages and still find it hard to fill their quotas.",
+          "url": "https://e.vnexpress.net/news/news/vietnam-japan-s-biggest-source-of-foreign-workers-struggles-to-recruit-more-5138895.html",
+          "publisher": "VnExpress International",
+          "region": "Vietnam",
+          "published": "Tue, 03 Nov 2026 05:54:56 +0700"
+        },
+        {
+          "title": "Indonesia's toxic haze is giving its neighbours a political headache",
+          "summary": "Governments in Singapore and Malaysia are split between anxious citizens and an irascible neighbour.",
+          "url": "https://www.bbc.co.uk/news/articles/c3dxwzjn2gw8o?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
+          "region": "Indonesia",
+          "published": "Mon, 02 Nov 2026 23:02:01 GMT"
+        },
+        {
+          "title": "Baby among four killed in bomb attack in western Colombia, official says",
+          "summary": "It is not yet clear who was behind the attack, which appears to have targeted a military base.",
+          "url": "https://www.bbc.co.uk/news/articles/cqn06n30l406o?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
+          "region": "Colombia",
+          "published": "Mon, 02 Nov 2026 15:08:56 GMT"
+        },
+        {
+          "title": "I Died review – moving portrait of Tzotzil women confronting patriarchal violence in the Mexican highlands",
+          "summary": "Ana Ts’uyeb’s poetic film celebrates the resilience of Indigenous women while exploring the possibility of a different future Shot in her home village of Naranjatic Alto in the Mexican highlands, Ana Ts’uyeb’s documentary debut is a stirring ode to the…",
+          "url": "https://www.theguardian.com/film/2026/nov/02/i-died-review-moving-portrait-of-tzotzil-women-confronting-patriarchal-violence-in-the-mexican-highlands",
+          "publisher": "The Guardian",
+          "region": "South & Central America",
+          "published": "Mon, 02 Nov 2026 07:00:35 GMT"
+        },
+        {
+          "title": "Ebola outbreak kills more than 5,300 people in DR Congo",
+          "summary": "The Bundibugyo strain has spread to Kenya and Uganda, while two in Nigeria returned negative results.",
+          "url": "https://www.aljazeera.com/news/2026/11/3/ebola-outbreak-kills-more-than-5300-people-in-dr-congo?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "region": "East Africa",
+          "published": "Tue, 03 Nov 2026 00:50:38 +0000"
+        },
+        {
+          "title": "‘Amateur morons’: Flávio Bolsonaro’s short-lived ‘president-elect’ claim met with mockery",
+          "summary": "Brazilian media ridicule defeated candidate over ‘shameful’ absconsion to US and bizarre letter with wrong coat of arms Flávio Bolsonaro had hoped that by Sunday night people would be calling him the next president of Brazil. Instead, the far-right…",
+          "url": "https://www.theguardian.com/world/2026/oct/30/flavio-bolsonaros-president-elect-claim-mockery-brazil",
+          "publisher": "The Guardian",
+          "region": "Brazil",
+          "published": "Fri, 30 Oct 2026 14:08:41 GMT"
         },
         {
           "title": "Asian brands drive demand for HCMC retail space",
@@ -3602,54 +3644,6 @@
           "published": "Sat, 31 Oct 2026 06:01:02 +0700"
         },
         {
-          "title": "Baby among four killed in bomb attack in western Colombia, official says",
-          "summary": "It is not yet clear who was behind the attack, which appears to have targeted a military base.",
-          "url": "https://www.bbc.co.uk/news/articles/cqn06n30l406o?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
-          "region": "Colombia",
-          "published": "Mon, 02 Nov 2026 14:16:29 GMT"
-        },
-        {
-          "title": "I Died review – moving portrait of Tzotzil women confronting patriarchal violence in the Mexican highlands",
-          "summary": "Ana Ts’uyeb’s poetic film celebrates the resilience of Indigenous women while exploring the possibility of a different future Shot in her home village of Naranjatic Alto in the Mexican highlands, Ana Ts’uyeb’s documentary debut is a stirring ode to the…",
-          "url": "https://www.theguardian.com/film/2026/nov/02/i-died-review-moving-portrait-of-tzotzil-women-confronting-patriarchal-violence-in-the-mexican-highlands",
-          "publisher": "The Guardian",
-          "region": "South & Central America",
-          "published": "Mon, 02 Nov 2026 07:00:35 GMT"
-        },
-        {
-          "title": "Uganda begins withdrawing troops from Somalia after 20 years",
-          "summary": "The country was the first to contribute troops to the AU mission established to stabilise Somalia in 2007.",
-          "url": "https://www.bbc.co.uk/news/articles/c8zxlqxwed4do?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
-          "region": "East Africa",
-          "published": "Mon, 02 Nov 2026 12:05:34 GMT"
-        },
-        {
-          "title": "‘Amateur morons’: Flávio Bolsonaro’s short-lived ‘president-elect’ claim met with mockery",
-          "summary": "Brazilian media ridicule defeated candidate over ‘shameful’ absconsion to US and bizarre letter with wrong coat of arms Flávio Bolsonaro had hoped that by Sunday night people would be calling him the next president of Brazil. Instead, the far-right…",
-          "url": "https://www.theguardian.com/world/2026/oct/30/flavio-bolsonaros-president-elect-claim-mockery-brazil",
-          "publisher": "The Guardian",
-          "region": "Brazil",
-          "published": "Fri, 30 Oct 2026 14:08:41 GMT"
-        },
-        {
-          "title": "Vietnam needs $300B in annual investment, productivity gains to achieve double-digit growth",
-          "summary": "Vietnam needs to mobilize and efficiently deploy investments of US$300 billion a year and improve productivity to realize its target of double-digit economic growth, a government economist has said.",
-          "url": "https://e.vnexpress.net/news/business/economy/vietnam-needs-300b-in-annual-investment-productivity-gains-to-achieve-double-digit-growth-5139710.html",
-          "publisher": "VnExpress International",
-          "region": "Vietnam",
-          "published": "Mon, 02 Nov 2026 16:29:37 +0700"
-        },
-        {
-          "title": "Singapore’s largest lender denies merging unit with bank of Indonesia’s richest man",
-          "summary": "Singapore’s largest lender DBS has denied rumors of a potential merger between its unit and Indonesia’s top private lender Bank Central Asia (BCA), controlled by Indonesia’s richest billionaire Robert Budi Hartono.",
-          "url": "https://e.vnexpress.net/news/business/companies/singapore-s-largest-lender-denies-merging-unit-with-bank-of-indonesia-s-richest-man-5138386.html",
-          "publisher": "VnExpress International",
-          "region": "Indonesia",
-          "published": "Fri, 30 Oct 2026 06:31:26 +0700"
-        },
-        {
           "title": "Pablo Escobar tried to bomb me in Bogotá. To stop the cartels infiltrating Europe, we should legalise cocaine | Letter",
           "summary": "Responding to a Guardian investigation into trafficking, former British ambassador to Colombia Keith Morris says the ‘war on drugs’ has failed I congratulate the Guardian on this investigation ( Latin American organised crime ‘may operate in 16 European…",
           "url": "https://www.theguardian.com/world/2026/oct/27/pablo-escobar-tried-to-bomb-me-in-bogota-to-stop-the-cartels-infiltrating-europe-we-should-legalise-cocaine",
@@ -3666,12 +3660,12 @@
           "published": "Fri, 30 Oct 2026 15:39:00 GMT"
         },
         {
-          "title": "Sudan files complaints against Ethiopia with UN over deadly drone spree",
-          "summary": "One-way drone attacks have killed or wounded 484 civilians since February, Khartoum says.",
-          "url": "https://www.aljazeera.com/news/2026/11/2/sudan-files-complaints-against-ethiopia-with-un-over-deadly-drone-spree?traffic_source=rss",
+          "title": "US to suspend South Africa and Rwanda from duty-free trade access",
+          "summary": "South Africa to lose duty-free access, affecting $1.7bn worth of annual exports, including cars and farm products.",
+          "url": "https://www.aljazeera.com/economy/2026/11/2/us-to-suspend-south-africa-and-rwanda-from-duty-free-trade-access?traffic_source=rss",
           "publisher": "Al Jazeera",
           "region": "East Africa",
-          "published": "Mon, 02 Nov 2026 10:25:22 +0000"
+          "published": "Mon, 02 Nov 2026 20:38:04 +0000"
         },
         {
           "title": "Could 2026 be the year that democracy fought back? | David Van Reybrouck",
@@ -3682,22 +3676,22 @@
           "published": "Fri, 30 Oct 2026 05:00:47 GMT"
         },
         {
-          "title": "Dollar rises against dong on black market",
-          "summary": "The U.S. dollar climbed against the Vietnamese dong on the black market on Monday.",
-          "url": "https://e.vnexpress.net/news/business/markets/dollar-rises-against-dong-on-black-market-5139750.html",
+          "title": "Vietnam needs $300B in annual investment, productivity gains to achieve double-digit growth",
+          "summary": "Vietnam needs to mobilize and efficiently deploy investments of US$300 billion a year and improve productivity to realize its target of double-digit economic growth, a government economist has said.",
+          "url": "https://e.vnexpress.net/news/business/economy/vietnam-needs-300b-in-annual-investment-productivity-gains-to-achieve-double-digit-growth-5139710.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Mon, 02 Nov 2026 14:36:55 +0700"
+          "published": "Mon, 02 Nov 2026 16:29:37 +0700"
         }
       ],
-      "totalTagged": 118,
+      "totalTagged": 121,
       "feedsQueried": 14,
       "errors": [],
       "note": "General headlines from the growing regions, taken from outlets of record and tagged to a region by the countries and cities they name."
     },
     "roundup": {
       "source": "assembled",
-      "fetchedAt": "2026-11-02T14:27:56.195Z",
+      "fetchedAt": "2026-11-03T01:10:27.447Z",
       "windowDays": 7,
       "publishers": [
         "Daily Coffee News",
@@ -3707,39 +3701,48 @@
       ],
       "items": [
         {
-          "headline": "The Week in Coffee, 26 October-1 November 2026",
-          "summary": "Your weekly round-up of the five biggest stories from across the global coffee industry...",
-          "url": "https://www.worldcoffeeportal.com/news/the-week-in-coffee-26-october-1-november-2026/",
-          "publisher": "World Coffee Portal",
-          "published": "Mon, 02 Nov 2026 14:21:37 GMT",
+          "headline": "Wilfa Establishes US Operations, Introduces New Home Coffee Equipment",
+          "summary": "Norwegian home appliance brand Wilfa is reintroducing itself to the United States, establishing Wilfa USA operations and rolling out new products as part of a broader U.S. expansion. Wilfa presented...",
+          "url": "https://dailycoffeenews.com/2026/11/02/wilfa-establishes-us-operations-introduces-new-home-coffee-equipment/",
+          "publisher": "Daily Coffee News",
+          "published": "Mon, 02 Nov 2026 18:18:38 +0000",
           "date": "Mon, 2 Nov",
           "section": "Roasting & retail"
         },
         {
-          "headline": "From Theory to Practice | 25, Issue 26",
-          "summary": "The Specialty Coffee Association (SCA) is pleased to announce the release of Issue 26 of 25, the SCA’s twice-yearly journal exploring the research, science, and ideas shaping specialty coffee. This issue focuses on bridging the gap between theory and…",
-          "url": "https://sca.coffee/sca-news/25/issue-26",
+          "headline": "Global Megabrands",
+          "summary": "2027-01-11",
+          "url": "https://www.worldcoffeeportal.com/global-megabrands/",
+          "publisher": "World Coffee Portal",
+          "published": "Mon, 02 Nov 2026 15:54:11 GMT",
+          "date": "Mon, 2 Nov",
+          "section": "Roasting & retail"
+        },
+        {
+          "headline": "Odeko eyes new cross-border opportunities with first international acquisition",
+          "summary": "Montreal-based Nantel McDiarmid is the New York-based hospitality solutions provider’s fourth acquisition of 2026",
+          "url": "https://www.worldcoffeeportal.com/news/odeko-eyes-new-cross-border-opportunities-with-first-international-acquisition/",
+          "publisher": "World Coffee Portal",
+          "published": "Mon, 02 Nov 2026 15:02:17 GMT",
+          "date": "Mon, 2 Nov",
+          "section": "Roasting & retail"
+        },
+        {
+          "headline": "Gen Z Consumers",
+          "summary": "https://portal.worldcoffeeportal.com/MediaLibrary/WorldCoffeePortal/GCI-Trend-Reports/06_26-GCI-Trend-Reports-Gen-Z-Consumers.pdf",
+          "url": "https://www.worldcoffeeportal.com/gen-z-consumers/",
+          "publisher": "World Coffee Portal",
+          "published": "Mon, 02 Nov 2026 15:00:00 GMT",
+          "date": "Mon, 2 Nov",
+          "section": "Roasting & retail"
+        },
+        {
+          "headline": "Coffee Decoded: The Science of Plant-Based “Milks”",
+          "summary": "Welcome to Coffee, Decoded, the Specialty Coffee Association’s weekly column on science, research, and all things coffee knowledge. PETER GIULIANO, the SCA's Senior Advisor for Scientific Communication dives into the composition and characteristics of three…",
+          "url": "https://sca.coffee/sca-news/coffee-decoded-23-plant-based-milks-composition",
           "publisher": "Specialty Coffee Association",
-          "published": "Fri, 30 Oct 2026 17:33:30 +0000",
-          "date": "Fri, 30 Oct",
-          "section": "Roasting & retail"
-        },
-        {
-          "headline": "Popular San Francisco Coffee Company Closes Both Cafes After Landlord Disputes",
-          "summary": "Three-year-old San Francisco specialty coffee company Outset Coffee has closed both of its cafes after separate landlord disputes, one ending in a $200,196 court judgment and the other in a...",
-          "url": "https://dailycoffeenews.com/2026/10/30/popular-san-francisco-coffee-company-closes-both-cafes-after-landlord-disputes/",
-          "publisher": "Daily Coffee News",
-          "published": "Fri, 30 Oct 2026 13:38:46 +0000",
-          "date": "Fri, 30 Oct",
-          "section": "Roasting & retail"
-        },
-        {
-          "headline": "Weekly Coffee News: FAO Grant Opportunity + Multiple Home Brewer Launches",
-          "summary": "Welcome to DCN’s Weekly Coffee News! Subscribe here for all the latest coffee industry news. Also, check out the latest career opportunities at CoffeeIndustryJobs.com. FAO Opens Grants for Coffee Enterprises...",
-          "url": "https://dailycoffeenews.com/2026/10/30/weekly-coffee-news-fao-grant-opportunity-multiple-home-brewer-launches/",
-          "publisher": "Daily Coffee News",
-          "published": "Fri, 30 Oct 2026 12:50:36 +0000",
-          "date": "Fri, 30 Oct",
+          "published": "Mon, 02 Nov 2026 14:54:06 +0000",
+          "date": "Mon, 2 Nov",
           "section": "Roasting & retail"
         },
         {
@@ -3750,15 +3753,6 @@
           "published": "Fri, 30 Oct 2026 11:57:00 +0000",
           "date": "Fri, 30 Oct",
           "section": "Top stories of the week"
-        },
-        {
-          "headline": "Starbucks turnaround plan is now “our growth plan”, Niccol says",
-          "summary": "US sales exceeded expectations during fourth quarter in the latest endorsement of CEO’s Back to Starbucks strategy – but China stake sale weighs heavily on international business",
-          "url": "https://www.worldcoffeeportal.com/news/starbucks-turnaround-plan-is-now-our-growth-plan-niccol-says/",
-          "publisher": "World Coffee Portal",
-          "published": "Thu, 29 Oct 2026 23:11:50 GMT",
-          "date": "Thu, 29 Oct",
-          "section": "Roasting & retail"
         },
         {
           "headline": "Water is life for our coffee-growing communities. It is still not guaranteed",
@@ -3815,7 +3809,7 @@
       "note": "Assembled from the coffee trade press over the past seven days, ranked by relevance to the physical trade. Headlines and links are each publisher’s own."
     },
     "dailyRead": {
-      "fetchedAt": "2026-11-02T14:27:54.855Z",
+      "fetchedAt": "2026-11-03T01:10:25.595Z",
       "article": {
         "title": "Kerry Opens Massive Roasting and Extraction Plant in Pennsylvania",
         "summary": "Global taste and nutrition company Kerry cut the ribbon on a 48,600-square-foot coffee roasting and extraction facility near Bethlehem, Pennsylvania, in September, significantly expanding the company’s North American coffee production...",
@@ -4143,38 +4137,38 @@
     {
       "source": "daily-read",
       "ok": true,
-      "ms": 412
+      "ms": 291
     },
     {
       "source": "arabica-futures",
       "ok": true,
-      "ms": 700
+      "ms": 638
     },
     {
       "source": "weather",
       "ok": true,
-      "ms": 826
+      "ms": 1026
     },
     {
       "source": "weekly-recap",
       "ok": true,
-      "ms": 1755
-    },
-    {
-      "source": "ico-report",
-      "ok": false,
-      "ms": 2551,
-      "error": "Table 1 (indicator prices) not found"
+      "ms": 2147
     },
     {
       "source": "origin-wire",
       "ok": true,
-      "ms": 2840
+      "ms": 2727
     },
     {
       "source": "fx",
       "ok": true,
-      "ms": 3238
+      "ms": 3260
+    },
+    {
+      "source": "ico-report",
+      "ok": false,
+      "ms": 4524,
+      "error": "Table 1 (indicator prices) not found"
     }
   ]
 }

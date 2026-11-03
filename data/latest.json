@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T01:10:29.846Z",
+  "generatedAt": "2026-11-03T13:26:05.628Z",
   "schema": 5,
   "schedule": {
     "slotsUtc": [
@@ -26,8 +26,8 @@
       "frontMonth": {
         "code": "KCZ26",
         "label": "Dec 2026",
-        "close": 294.15,
-        "volume": 13870
+        "close": 292.75,
+        "volume": 4800
       },
       "rolled": false,
       "mostActive": "KCZ26",
@@ -35,66 +35,58 @@
         {
           "code": "KCZ26",
           "label": "Dec 2026",
-          "close": 294.15,
-          "volume": 13870
+          "close": 292.75,
+          "volume": 4800
         },
         {
           "code": "KCH27",
           "label": "Mar 2027",
-          "close": 282.3,
-          "volume": 10371
+          "close": 281.15,
+          "volume": 2648
         },
         {
           "code": "KCK27",
           "label": "May 2027",
-          "close": 278.55,
-          "volume": 3661
+          "close": 277.4,
+          "volume": 591
         },
         {
           "code": "KCN27",
           "label": "Jul 2027",
-          "close": 275.75,
-          "volume": 1560
+          "close": 274.5,
+          "volume": 187
         },
         {
           "code": "KCU27",
           "label": "Sep 2027",
-          "close": 272.8,
-          "volume": 381
+          "close": 271.95,
+          "volume": 56
         },
         {
           "code": "KCZ27",
           "label": "Dec 2027",
-          "close": 269.35,
-          "volume": 163
+          "close": 268.6,
+          "volume": 28
         },
         {
           "code": "KCH28",
           "label": "Mar 2028",
-          "close": 266.65,
-          "volume": 25
+          "close": 265.2,
+          "volume": 6
         }
       ],
       "quote": {
-        "last": 282.3,
-        "open": 278.3999938964844,
-        "high": 285.20001220703125,
-        "low": 278.1499938964844,
-        "previousClose": 276.79998779296875,
-        "change": 5.5,
-        "changePct": 1.987,
-        "volume": 0,
-        "asOf": "2026-11-02T18:29:55.000Z"
+        "last": 280.9,
+        "open": 281.1499938964844,
+        "high": 284.6499938964844,
+        "low": 279.6000061035156,
+        "previousClose": 280.54998779296875,
+        "change": 0.35,
+        "changePct": 0.125,
+        "volume": 2457,
+        "asOf": "2026-11-03T13:05:47.000Z"
       },
       "bars": [
-        {
-          "date": "2025-07-28",
-          "open": 262.95001220703125,
-          "high": 264.8999938964844,
-          "low": 262.70001220703125,
-          "close": 263.8500061035156,
-          "volume": 71
-        },
         {
           "date": "2025-07-29",
           "open": 256.70001220703125,
@@ -2642,17 +2634,25 @@
         {
           "date": "2026-11-02",
           "open": 278.3999938964844,
-          "high": 285.20001220703125,
+          "high": 285.29998779296875,
           "low": 278.1499938964844,
-          "close": 282.29998779296875,
-          "volume": 0
+          "close": 280.54998779296875,
+          "volume": 11396
+        },
+        {
+          "date": "2026-11-03",
+          "open": 281.1499938964844,
+          "high": 284.6499938964844,
+          "low": 279.6000061035156,
+          "close": 280.8999938964844,
+          "volume": 2457
         }
       ],
       "crossCheck": {
-        "tradingView": 282.3,
-        "yahoo": 282.3,
-        "diff": 0,
-        "diffPct": 0,
+        "tradingView": 281.15,
+        "yahoo": 280.9,
+        "diff": 0.25,
+        "diffPct": 0.089,
         "agree": true
       },
       "sources": [
@@ -2668,17 +2668,17 @@
         }
       ],
       "technicals": {
-        "observations": 502,
-        "sma20": 287.63000030517577,
-        "sma50": 285.7539996337891,
-        "sma200": 278.7554997253418,
-        "rsi14": 47.09888037575092,
+        "observations": 503,
+        "sma20": 286.79499969482424,
+        "sma50": 284.79999938964846,
+        "sma200": 278.5662496948242,
+        "rsi14": 45.83619142889451,
         "macd": {
-          "line": -1.1544612013993287,
-          "signal": 0.5032597751957187,
-          "histogram": -1.6577209765950474
+          "line": -1.4460754502350142,
+          "signal": 0.09105654777338745,
+          "histogram": -1.5371319980084017
         },
-        "atr14": 9.216469424813962,
+        "atr14": 8.925494627729035,
         "donchian20": {
           "high": 304.45001220703125,
           "low": 272.70001220703125,
@@ -2687,30 +2687,30 @@
         "levels": {
           "support": [
             {
-              "price": 281.8500061035156,
-              "date": "2025-03-27"
-            },
-            {
               "price": 276.45001220703125,
               "date": "2026-10-12"
             },
             {
               "price": 270,
               "date": "2026-02-06"
+            },
+            {
+              "price": 268.20001220703125,
+              "date": "2025-04-07"
             }
           ],
           "resistance": [
             {
+              "price": 281.6000061035156,
+              "date": "2026-03-09"
+            },
+            {
+              "price": 282.04998779296875,
+              "date": "2026-04-24"
+            },
+            {
               "price": 289.6499938964844,
               "date": "2026-02-13"
-            },
-            {
-              "price": 289.95001220703125,
-              "date": "2025-03-05"
-            },
-            {
-              "price": 295.95001220703125,
-              "date": "2025-02-19"
             }
           ]
         },
@@ -2719,10 +2719,10 @@
           "low": 213
         },
         "method": "Wilder RSI(14); MACD(12,26,9) on EMA; ATR(14); pivots = 5-bar swing highs/lows; Donchian(20).",
-        "basis": "502 daily bars for KCH27"
+        "basis": "503 daily bars for KCH27"
       },
       "barsPublished": 320,
-      "barsAnalysed": 502
+      "barsAnalysed": 503
     }
   },
   "fx": {
@@ -3252,7 +3252,7 @@
     ]
   },
   "weather": {
-    "fetchedAt": "2026-11-03T01:10:26.321Z",
+    "fetchedAt": "2026-11-03T13:26:01.974Z",
     "thresholds": {
       "frostC": 4,
       "heavyRainMm": 50,
@@ -3280,16 +3280,16 @@
           "date": "2026-11-02",
           "tMax": 26.8,
           "tMin": 17.9,
-          "rain": 15.5,
+          "rain": 12.2,
           "code": 96,
-          "cloud": 76,
+          "cloud": 83,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 113.8,
-        "rainForecast7": 36.2,
-        "minForecast7": 11.5,
+        "rain14": 110.5,
+        "rainForecast7": 20.8,
+        "minForecast7": 10,
         "alerts": []
       },
       {
@@ -3302,17 +3302,17 @@
         "current": {
           "date": "2026-11-02",
           "tMax": 29.1,
-          "tMin": 18.9,
-          "rain": 6.5,
-          "code": 81,
+          "tMin": 18.7,
+          "rain": 3.6,
+          "code": 80,
           "cloud": 47,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 95.7,
-        "rainForecast7": 24.8,
-        "minForecast7": 14.8,
+        "rain14": 92.8,
+        "rainForecast7": 19.3,
+        "minForecast7": 15.2,
         "alerts": []
       },
       {
@@ -3326,16 +3326,16 @@
           "date": "2026-11-02",
           "tMax": 28.1,
           "tMin": 22.5,
-          "rain": 11.3,
+          "rain": 12.5,
           "code": 81,
-          "cloud": 66,
+          "cloud": 70,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 75.6,
-        "rainForecast7": 20,
-        "minForecast7": 19.2,
+        "rain14": 76,
+        "rainForecast7": 34.7,
+        "minForecast7": 18.7,
         "alerts": []
       },
       {
@@ -3357,8 +3357,8 @@
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
         "rain14": 15.1,
-        "rainForecast7": 17.3,
-        "minForecast7": 22,
+        "rainForecast7": 19.9,
+        "minForecast7": 21.6,
         "alerts": []
       },
       {
@@ -3380,8 +3380,8 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 70.7,
-        "rainForecast7": 38.8,
-        "minForecast7": 17.5,
+        "rainForecast7": 42.2,
+        "minForecast7": 18.2,
         "alerts": []
       },
       {
@@ -3394,17 +3394,17 @@
         "current": {
           "date": "2026-11-02",
           "tMax": 27.2,
-          "tMin": 17.4,
-          "rain": 6.9,
-          "code": 95,
-          "cloud": 91,
+          "tMin": 17.8,
+          "rain": 7.2,
+          "code": 81,
+          "cloud": 93,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 82.8,
-        "rainForecast7": 22.5,
-        "minForecast7": 15.6,
+        "rain14": 78.1,
+        "rainForecast7": 23,
+        "minForecast7": 15.4,
         "alerts": []
       },
       {
@@ -3416,23 +3416,23 @@
         "lon": -75.56,
         "current": {
           "date": "2026-11-02",
-          "tMax": 28.9,
-          "tMin": 18.4,
-          "rain": 0.9,
+          "tMax": 28.8,
+          "tMin": 18,
+          "rain": 1.3,
           "code": 51,
-          "cloud": 94,
+          "cloud": 93,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 140.8,
-        "rainForecast7": 56.3,
-        "minForecast7": 16.9,
+        "rain14": 136.4,
+        "rainForecast7": 56.5,
+        "minForecast7": 16.8,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "56 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "57 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3455,13 +3455,13 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 184,
-        "rainForecast7": 72.8,
-        "minForecast7": 16.4,
+        "rainForecast7": 83.7,
+        "minForecast7": 16.6,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "73 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "84 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3484,8 +3484,8 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 48.5,
-        "rainForecast7": 36.5,
-        "minForecast7": 24.8,
+        "rainForecast7": 35.3,
+        "minForecast7": 24.2,
         "alerts": []
       },
       {
@@ -3507,8 +3507,8 @@
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
         "rain14": 56.3,
-        "rainForecast7": 2.1,
-        "minForecast7": 12.9,
+        "rainForecast7": 6.6,
+        "minForecast7": 12.3,
         "alerts": []
       },
       {
@@ -3520,18 +3520,18 @@
         "lon": -88.02,
         "current": {
           "date": "2026-11-02",
-          "tMax": 25.3,
+          "tMax": 26.1,
           "tMin": 17.2,
-          "rain": 3.4,
+          "rain": 3.9,
           "code": 53,
-          "cloud": 78,
+          "cloud": 76,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 36.5,
-        "rainForecast7": 9.2,
-        "minForecast7": 16.3,
+        "rain14": 30.5,
+        "rainForecast7": 13.3,
+        "minForecast7": 15.5,
         "alerts": []
       },
       {
@@ -3545,16 +3545,16 @@
           "date": "2026-11-02",
           "tMax": 32.6,
           "tMin": 19.2,
-          "rain": 13.6,
+          "rain": 10.6,
           "code": 80,
-          "cloud": 89,
+          "cloud": 83,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 160.4,
-        "rainForecast7": 38.2,
-        "minForecast7": 19.5,
+        "rain14": 150,
+        "rainForecast7": 34.8,
+        "minForecast7": 19.2,
         "alerts": []
       }
     ],
@@ -3568,24 +3568,24 @@
   },
   "news": {
     "originWire": {
-      "fetchedAt": "2026-11-03T01:10:28.023Z",
+      "fetchedAt": "2026-11-03T13:26:03.207Z",
       "lookbackHours": 504,
       "headlines": [
         {
-          "title": "The secret behind Lula’s win in Brazil may be an ‘army’ – of social media creators",
-          "summary": "There are many explanations for the incumbent president’s win over Flávio Bolsonaro, but analysts – and he – point to reinvention of his social media use Four days before his stunning electoral comeback, Luiz Inácio Lula da Silva, Brazil’s president, got his…",
-          "url": "https://www.theguardian.com/world/2026/oct/31/brazil-lula-social-media",
+          "title": "Brazil publishes first global ‘roadmap’ for phasing out fossil fuels",
+          "summary": "Cop30 host sets out steps to break link with coal, oil and gas as it aims to move focus from negotiating to implementing All countries can start to break their dependence on fossil fuels now without needing to wait for new technologies or economic changes…",
+          "url": "https://www.theguardian.com/environment/2026/nov/03/brazil-first-global-roadmap-phasing-out-fossil-fuels",
           "publisher": "The Guardian",
           "region": "Brazil",
-          "published": "Sat, 31 Oct 2026 13:37:39 GMT"
+          "published": "Tue, 03 Nov 2026 13:00:07 GMT"
         },
         {
-          "title": "Vietnam, Japan's biggest source of foreign workers, struggles to recruit more",
-          "summary": "Vietnamese recruitment firms that once had seven or eight applicants for every Japan job order now send staff into villages and still find it hard to fill their quotas.",
-          "url": "https://e.vnexpress.net/news/news/vietnam-japan-s-biggest-source-of-foreign-workers-struggles-to-recruit-more-5138895.html",
+          "title": "Vietnam's new list of banned used electronics, refurbished phones included, takes effect from 2027",
+          "summary": "Used smartphones, computers and many other digital devices will remain barred from import into Vietnam under an updated list of banned goods that takes effect on Jan. 1, 2027.",
+          "url": "https://e.vnexpress.net/news/news/vietnam-s-new-list-of-banned-used-electronics-refurbished-phones-included-takes-effect-from-2027-5140252.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Tue, 03 Nov 2026 05:54:56 +0700"
+          "published": "Tue, 03 Nov 2026 19:55:09 +0700"
         },
         {
           "title": "Indonesia's toxic haze is giving its neighbours a political headache",
@@ -3604,36 +3604,36 @@
           "published": "Mon, 02 Nov 2026 15:08:56 GMT"
         },
         {
-          "title": "I Died review – moving portrait of Tzotzil women confronting patriarchal violence in the Mexican highlands",
-          "summary": "Ana Ts’uyeb’s poetic film celebrates the resilience of Indigenous women while exploring the possibility of a different future Shot in her home village of Naranjatic Alto in the Mexican highlands, Ana Ts’uyeb’s documentary debut is a stirring ode to the…",
-          "url": "https://www.theguardian.com/film/2026/nov/02/i-died-review-moving-portrait-of-tzotzil-women-confronting-patriarchal-violence-in-the-mexican-highlands",
-          "publisher": "The Guardian",
+          "title": "US urges Venezuela to release remaining political prisoners",
+          "summary": "The US secretary of state also discusses laying the groundwork for 'free, fair, and credible elections'.",
+          "url": "https://www.bbc.co.uk/news/articles/cxg5jln586pno?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
           "region": "South & Central America",
-          "published": "Mon, 02 Nov 2026 07:00:35 GMT"
+          "published": "Tue, 03 Nov 2026 12:09:20 GMT"
         },
         {
-          "title": "Ebola outbreak kills more than 5,300 people in DR Congo",
-          "summary": "The Bundibugyo strain has spread to Kenya and Uganda, while two in Nigeria returned negative results.",
-          "url": "https://www.aljazeera.com/news/2026/11/3/ebola-outbreak-kills-more-than-5300-people-in-dr-congo?traffic_source=rss",
+          "title": "Deadly RSF drone attacks reveal deep divisions between Sudan and Ethiopia",
+          "summary": "Sudan demands UN accountability after devastating drone attacks expose a complex regional crisis.",
+          "url": "https://www.aljazeera.com/news/2026/11/3/deadly-rsf-drone-strikes-reveal-deep-divisions-between-sudan-and-ethiopia?traffic_source=rss",
           "publisher": "Al Jazeera",
           "region": "East Africa",
-          "published": "Tue, 03 Nov 2026 00:50:38 +0000"
+          "published": "Tue, 03 Nov 2026 10:29:56 +0000"
         },
         {
-          "title": "‘Amateur morons’: Flávio Bolsonaro’s short-lived ‘president-elect’ claim met with mockery",
-          "summary": "Brazilian media ridicule defeated candidate over ‘shameful’ absconsion to US and bizarre letter with wrong coat of arms Flávio Bolsonaro had hoped that by Sunday night people would be calling him the next president of Brazil. Instead, the far-right…",
-          "url": "https://www.theguardian.com/world/2026/oct/30/flavio-bolsonaros-president-elect-claim-mockery-brazil",
+          "title": "The Amazon’s canary in the coalmine: what a tropical fish can tell us about climate upheaval",
+          "summary": "Scientist Adalberto Luis Val’s pioneering research on the tambaqui fish is revealing the effect of climate disruption in Brazil, with global implications for biodiversity and food security As a boy in rural São Paulo, Adalberto Luis Val used to stare into the…",
+          "url": "https://www.theguardian.com/global-development/2026/nov/03/the-amazons-canary-in-the-coalmine-what-a-tropical-fish-can-tell-us-about-climate-upheaval",
           "publisher": "The Guardian",
           "region": "Brazil",
-          "published": "Fri, 30 Oct 2026 14:08:41 GMT"
+          "published": "Tue, 03 Nov 2026 12:00:05 GMT"
         },
         {
-          "title": "Asian brands drive demand for HCMC retail space",
-          "summary": "Expansion by Asian food, fashion and lifestyle brands is helping Ho Chi Minh City's retail market maintain high occupancy despite some tenants reducing their store footprints.",
-          "url": "https://e.vnexpress.net/news/business/asian-brands-drive-demand-for-hcmc-retail-space-5139372.html",
+          "title": "Vietnam records hottest October in history",
+          "summary": "Vietnam's average temperature in October was 26.3 degrees Celsius, 1.74 degrees above the long-term average and the highest since records came to be maintained in 1961.",
+          "url": "https://e.vnexpress.net/news/news/environment/vietnam-records-hottest-october-in-history-5140308.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Mon, 02 Nov 2026 18:00:00 +0700"
+          "published": "Tue, 03 Nov 2026 17:00:52 +0700"
         },
         {
           "title": "Wildfire smoke kills an estimated 3,560 in one month in Southeast Asia's largest economy",
@@ -3652,46 +3652,46 @@
           "published": "Tue, 27 Oct 2026 17:55:04 GMT"
         },
         {
-          "title": "María Corina Machado thanks Donald Trump and Marco Rubio for their actions in Venezuela - video",
-          "summary": "Venezuelan opposition leader, María Corina Machado, has thanked the US president, Donald Trump, and US secretary of state, Marco Rubio, for their role in ousting their previous president. On 3 January, Trump administration captured Nicolás Maduro, who is…",
-          "url": "https://www.theguardian.com/world/video/2026/oct/30/maria-corina-machado-thanks-donald-trump-and-marco-rubio-for-their-actions-in-venezuela-video",
-          "publisher": "The Guardian",
+          "title": "10yo boy shoots teen over loud music, mother faces murder charges",
+          "summary": "Authorities in New Mexico have filed murder and other charges against the mother of a 10-year-old boy who fatally shot a teenage neighbor in a dispute over loud music.",
+          "url": "https://e.vnexpress.net/news/news/crime/10yo-boy-shoots-teen-over-loud-music-mother-faces-murder-charges-5140172.html",
+          "publisher": "VnExpress International",
           "region": "South & Central America",
-          "published": "Fri, 30 Oct 2026 15:39:00 GMT"
+          "published": "Tue, 03 Nov 2026 15:02:26 +0700"
         },
         {
-          "title": "US to suspend South Africa and Rwanda from duty-free trade access",
-          "summary": "South Africa to lose duty-free access, affecting $1.7bn worth of annual exports, including cars and farm products.",
-          "url": "https://www.aljazeera.com/economy/2026/11/2/us-to-suspend-south-africa-and-rwanda-from-duty-free-trade-access?traffic_source=rss",
-          "publisher": "Al Jazeera",
+          "title": "Trump to remove Rwanda and South Africa from US trade deal",
+          "summary": "The move comes barely a week after Rwanda's defence ministry was hit with sanctions by the US Treasury.",
+          "url": "https://www.bbc.co.uk/news/articles/c9j346xg0mkvo?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
           "region": "East Africa",
-          "published": "Mon, 02 Nov 2026 20:38:04 +0000"
+          "published": "Tue, 03 Nov 2026 10:26:26 GMT"
         },
         {
-          "title": "Could 2026 be the year that democracy fought back? | David Van Reybrouck",
-          "summary": "Elections are never enough by themselves, but the stunning results from Serbia, Brazil and Hungary have given us hope in dark times It is undoubtedly too early to declare victory, but the recent electoral defeats of Viktor Orbán , Aleksandar Vučić and Flávio…",
-          "url": "https://www.theguardian.com/commentisfree/2026/oct/30/could-2026-be-the-year-that-democracy-fought-back",
-          "publisher": "The Guardian",
+          "title": "FirstFT: Officials discuss Trump, Putin and Xi meeting",
+          "summary": "Also in today’s newsletter: America votes and how Lula’s electoral victory in Brazil has lifted the global left",
+          "url": "https://www.ft.com/content/65982705-e3f3-4dfe-8d5d-39809f8a1103?syn-25a6b1a6=1",
+          "publisher": "Financial Times",
           "region": "Brazil",
-          "published": "Fri, 30 Oct 2026 05:00:47 GMT"
+          "published": "Tue, 03 Nov 2026 10:47:20 GMT"
         },
         {
-          "title": "Vietnam needs $300B in annual investment, productivity gains to achieve double-digit growth",
-          "summary": "Vietnam needs to mobilize and efficiently deploy investments of US$300 billion a year and improve productivity to realize its target of double-digit economic growth, a government economist has said.",
-          "url": "https://e.vnexpress.net/news/business/economy/vietnam-needs-300b-in-annual-investment-productivity-gains-to-achieve-double-digit-growth-5139710.html",
+          "title": "Vietnam posts back-to-back monthly trade surpluses",
+          "summary": "Vietnam posted a trade surplus of US$7.31 billion in October, following its first this year in September, as trade turnover in the first 10 months rose to a record high.",
+          "url": "https://e.vnexpress.net/news/business/economy/vietnam-posts-back-to-back-monthly-trade-surpluses-5140266.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Mon, 02 Nov 2026 16:29:37 +0700"
+          "published": "Tue, 03 Nov 2026 16:01:25 +0700"
         }
       ],
-      "totalTagged": 121,
+      "totalTagged": 116,
       "feedsQueried": 14,
       "errors": [],
       "note": "General headlines from the growing regions, taken from outlets of record and tagged to a region by the countries and cities they name."
     },
     "roundup": {
       "source": "assembled",
-      "fetchedAt": "2026-11-03T01:10:27.447Z",
+      "fetchedAt": "2026-11-03T13:26:02.416Z",
       "windowDays": 7,
       "publishers": [
         "Daily Coffee News",
@@ -3700,6 +3700,24 @@
         "World Coffee Portal"
       ],
       "items": [
+        {
+          "headline": "Bodum Recalls 5.9 Million French Presses. The Fix Is a Plastic Spoon.",
+          "summary": "If you’ve ever broken a Bodum carafe, you’re in good company. Bodum has received 70 breakage and 48 burn reports, and the recall spans 52 years of sales. The post Bodum Recalls 5.9 Million French Presses. The Fix Is a Plastic Spoon. appeared first on Fresh…",
+          "url": "https://freshcup.com/bodum-recalls-5-9-million-french-presses-the-fix-is-a-plastic-spoon/",
+          "publisher": "Fresh Cup",
+          "published": "Tue, 03 Nov 2026 12:40:00 +0000",
+          "date": "Tue, 3 Nov",
+          "section": "Top stories of the week"
+        },
+        {
+          "headline": "Bridging research and business to navigate coffee’s next challenges",
+          "summary": "The Science Driven Coffee Cup conference offers coffee professionals a unique opportunity to access the latest scientific discoveries before they become mainstream industry practices What if the next breakthrough in coffee didn’t come from a roastery, a café…",
+          "url": "https://www.worldcoffeeportal.com/news/bridging-research-and-business-to-navigate-coffees-next-challenges/",
+          "publisher": "World Coffee Portal",
+          "published": "Tue, 03 Nov 2026 07:00:00 GMT",
+          "date": "Tue, 3 Nov",
+          "section": "Top stories of the week"
+        },
         {
           "headline": "Wilfa Establishes US Operations, Introduces New Home Coffee Equipment",
           "summary": "Norwegian home appliance brand Wilfa is reintroducing itself to the United States, establishing Wilfa USA operations and rolling out new products as part of a broader U.S. expansion. Wilfa presented...",
@@ -3764,15 +3782,6 @@
           "section": "Top stories of the week"
         },
         {
-          "headline": "From wastewater to safe water: inside the Oromia Coffee Project",
-          "summary": "A rare example of cross supply chain collaboration is seeking to improve water use and wastewater management at coffee washing stations, while increasing access to safe and clean water for communities in Ethiopia’s Limu region",
-          "url": "https://www.worldcoffeeportal.com/feature/from-wastewater-to-safe-water-inside-the-oromia-coffee-project/",
-          "publisher": "World Coffee Portal",
-          "published": "Thu, 29 Oct 2026 13:58:51 GMT",
-          "date": "Thu, 29 Oct",
-          "section": "Top stories of the week"
-        },
-        {
           "headline": "Kerry Opens Massive Roasting and Extraction Plant in Pennsylvania",
           "summary": "Global taste and nutrition company Kerry cut the ribbon on a 48,600-square-foot coffee roasting and extraction facility near Bethlehem, Pennsylvania, in September, significantly expanding the company’s North American coffee production...",
           "url": "https://dailycoffeenews.com/2026/10/29/kerry-opens-massive-roasting-and-extraction-plant-in-pennsylvania/",
@@ -3789,15 +3798,6 @@
           "published": "Thu, 29 Oct 2026 12:08:00 +0000",
           "date": "Thu, 29 Oct",
           "section": "Top stories of the week"
-        },
-        {
-          "headline": "U.S. Funds New Coffee and Cacao Research Led by UH Mānoa and Clemson",
-          "summary": "The new Coffee and Cacao Innovation Lab will research hardier crops and more resilient farming practices, with $8 million from the State Department in year one. The post U.S. Funds New Coffee and Cacao Research Led by UH Mānoa and Clemson appeared first on…",
-          "url": "https://freshcup.com/u-s-funds-new-coffee-and-cacao-research-led-by-uh-manoa-and-clemson/",
-          "publisher": "Fresh Cup",
-          "published": "Tue, 27 Oct 2026 11:45:00 +0000",
-          "date": "Tue, 27 Oct",
-          "section": "Top stories of the week"
         }
       ],
       "errors": [
@@ -3809,7 +3809,7 @@
       "note": "Assembled from the coffee trade press over the past seven days, ranked by relevance to the physical trade. Headlines and links are each publisher’s own."
     },
     "dailyRead": {
-      "fetchedAt": "2026-11-03T01:10:25.595Z",
+      "fetchedAt": "2026-11-03T13:26:01.160Z",
       "article": {
         "title": "Kerry Opens Massive Roasting and Extraction Plant in Pennsylvania",
         "summary": "Global taste and nutrition company Kerry cut the ribbon on a 48,600-square-foot coffee roasting and extraction facility near Bethlehem, Pennsylvania, in September, significantly expanding the company’s North American coffee production...",
@@ -4137,37 +4137,37 @@
     {
       "source": "daily-read",
       "ok": true,
-      "ms": 291
+      "ms": 220
     },
     {
       "source": "arabica-futures",
       "ok": true,
-      "ms": 638
+      "ms": 583
     },
     {
       "source": "weather",
       "ok": true,
-      "ms": 1026
+      "ms": 1042
     },
     {
       "source": "weekly-recap",
       "ok": true,
-      "ms": 2147
+      "ms": 1479
     },
     {
       "source": "origin-wire",
       "ok": true,
-      "ms": 2727
+      "ms": 2274
     },
     {
       "source": "fx",
       "ok": true,
-      "ms": 3260
+      "ms": 2799
     },
     {
       "source": "ico-report",
       "ok": false,
-      "ms": 4524,
+      "ms": 4678,
       "error": "Table 1 (indicator prices) not found"
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T13:37:19.536Z",
+  "generatedAt": "2026-11-04T23:52:54.742Z",
   "schema": 5,
   "schedule": {
     "slotsUtc": [
@@ -26,8 +26,8 @@
       "frontMonth": {
         "code": "KCZ26",
         "label": "Dec 2026",
-        "close": 280.1,
-        "volume": 7953
+        "close": 279.5,
+        "volume": 20113
       },
       "rolled": false,
       "mostActive": "KCZ26",
@@ -35,56 +35,56 @@
         {
           "code": "KCZ26",
           "label": "Dec 2026",
-          "close": 280.1,
-          "volume": 7953
+          "close": 279.5,
+          "volume": 20113
         },
         {
           "code": "KCH27",
           "label": "Mar 2027",
-          "close": 271.5,
-          "volume": 6007
+          "close": 270.4,
+          "volume": 16541
         },
         {
           "code": "KCK27",
           "label": "May 2027",
-          "close": 267.9,
-          "volume": 1538
+          "close": 266.75,
+          "volume": 5116
         },
         {
           "code": "KCN27",
           "label": "Jul 2027",
-          "close": 265.35,
-          "volume": 564
+          "close": 264.4,
+          "volume": 2012
         },
         {
           "code": "KCU27",
           "label": "Sep 2027",
-          "close": 263.1,
-          "volume": 201
+          "close": 262.55,
+          "volume": 841
         },
         {
           "code": "KCZ27",
           "label": "Dec 2027",
-          "close": 260.8,
-          "volume": 104
+          "close": 259.4,
+          "volume": 322
         },
         {
           "code": "KCH28",
           "label": "Mar 2028",
-          "close": 258.4,
-          "volume": 62
+          "close": 256.5,
+          "volume": 169
         }
       ],
       "quote": {
-        "last": 271.85,
+        "last": 270.4,
         "open": 275.8999938964844,
         "high": 276.79998779296875,
-        "low": 270.04998779296875,
+        "low": 269.1000061035156,
         "previousClose": 274.6000061035156,
-        "change": -2.75,
-        "changePct": -1.001,
-        "volume": 5764,
-        "asOf": "2026-11-04T13:17:15.000Z"
+        "change": -4.2,
+        "changePct": -1.529,
+        "volume": 16541,
+        "asOf": "2026-11-04T18:29:55.000Z"
       },
       "bars": [
         {
@@ -2643,16 +2643,16 @@
           "date": "2026-11-04",
           "open": 275.8999938964844,
           "high": 276.79998779296875,
-          "low": 270.04998779296875,
-          "close": 271.8500061035156,
-          "volume": 5764
+          "low": 269.1000061035156,
+          "close": 270.3999938964844,
+          "volume": 16541
         }
       ],
       "crossCheck": {
-        "tradingView": 271.5,
-        "yahoo": 271.85,
-        "diff": -0.35,
-        "diffPct": -0.129,
+        "tradingView": 270.4,
+        "yahoo": 270.4,
+        "diff": 0,
+        "diffPct": 0,
         "agree": true
       },
       "sources": [
@@ -2669,19 +2669,19 @@
       ],
       "technicals": {
         "observations": 504,
-        "sma20": 285.82750091552737,
-        "sma50": 283.68599975585937,
-        "sma200": 278.3474998474121,
-        "rsi14": 38.93976488410074,
+        "sma20": 285.75500030517577,
+        "sma50": 283.65699951171877,
+        "sma200": 278.34024978637694,
+        "rsi14": 37.98278138853689,
         "macd": {
-          "line": -2.6586497218648333,
-          "signal": -0.539294806759661,
-          "histogram": -2.1193549151051725
+          "line": -2.7743202113146026,
+          "signal": -0.5624289046496148,
+          "histogram": -2.2118913066649877
         },
-        "atr14": 9.174694395879527,
+        "atr14": 9.242550230840465,
         "donchian20": {
           "high": 304.45001220703125,
-          "low": 270.04998779296875,
+          "low": 269.1000061035156,
           "period": 20
         },
         "levels": {
@@ -2726,22 +2726,18 @@
     }
   },
   "fx": {
-    "asOf": "2026-11-03",
+    "asOf": "2026-11-04",
     "pairs": {
       "GBPUSD": {
         "pair": "GBP/USD",
-        "rate": 1.3411,
-        "previous": 1.3419,
+        "rate": 1.35,
+        "previous": 1.3411,
         "dp": 4,
         "note": "Sterling stronger means a dollar-priced contract costs a UK buyer less.",
-        "change": -0.0008,
-        "changePct": -0.06,
-        "change1m": 1.41,
+        "change": 0.0089,
+        "changePct": 0.664,
+        "change1m": 1.69,
         "history": [
-          {
-            "date": "2026-08-12",
-            "rate": 1.3525
-          },
           {
             "date": "2026-08-13",
             "rate": 1.3492
@@ -2977,23 +2973,23 @@
           {
             "date": "2026-11-03",
             "rate": 1.3411
+          },
+          {
+            "date": "2026-11-04",
+            "rate": 1.35
           }
         ]
       },
       "USDBRL": {
         "pair": "USD/BRL",
-        "rate": 5.4934,
-        "previous": 5.4378,
+        "rate": 5.4654,
+        "previous": 5.4934,
         "dp": 4,
         "note": "A weaker real encourages Brazilian producer selling.",
-        "change": 0.0556,
-        "changePct": 1.022,
-        "change1m": 10.21,
+        "change": -0.028,
+        "changePct": -0.51,
+        "change1m": 10,
         "history": [
-          {
-            "date": "2026-08-12",
-            "rate": 5.1557
-          },
           {
             "date": "2026-08-13",
             "rate": 5.1811
@@ -3229,14 +3225,18 @@
           {
             "date": "2026-11-03",
             "rate": 5.4934
+          },
+          {
+            "date": "2026-11-04",
+            "rate": 5.4654
           }
         ]
       }
     },
     "ptax": {
-      "buy": 5.4929,
-      "sell": 5.4935,
-      "quotedAt": "2026-11-03 13:06:31.943412"
+      "buy": 5.4772,
+      "sell": 5.4778,
+      "quotedAt": "2026-11-04 13:05:19.232051"
     },
     "sources": [
       {
@@ -3252,7 +3252,7 @@
     ]
   },
   "weather": {
-    "fetchedAt": "2026-11-04T13:37:16.674Z",
+    "fetchedAt": "2026-11-04T23:52:51.899Z",
     "thresholds": {
       "frostC": 4,
       "heavyRainMm": 50,
@@ -3288,8 +3288,8 @@
         "condition": "very-wet",
         "conditionLabel": "Very wet",
         "rain14": 111,
-        "rainForecast7": 23.5,
-        "minForecast7": 12.5,
+        "rainForecast7": 47.3,
+        "minForecast7": 12.1,
         "alerts": []
       },
       {
@@ -3311,8 +3311,8 @@
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
         "rain14": 92.9,
-        "rainForecast7": 32.9,
-        "minForecast7": 16.4,
+        "rainForecast7": 28.6,
+        "minForecast7": 16.7,
         "alerts": []
       },
       {
@@ -3334,8 +3334,8 @@
         "condition": "very-wet",
         "conditionLabel": "Very wet",
         "rain14": 73.6,
-        "rainForecast7": 24.3,
-        "minForecast7": 20,
+        "rainForecast7": 49.1,
+        "minForecast7": 19,
         "alerts": []
       },
       {
@@ -3356,8 +3356,8 @@
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 19.6,
-        "rainForecast7": 6.7,
+        "rain14": 16.3,
+        "rainForecast7": 8.2,
         "minForecast7": 22,
         "alerts": []
       },
@@ -3379,9 +3379,9 @@
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 60.6,
-        "rainForecast7": 21.2,
-        "minForecast7": 18,
+        "rain14": 45.2,
+        "rainForecast7": 38,
+        "minForecast7": 17.7,
         "alerts": []
       },
       {
@@ -3403,8 +3403,8 @@
         "condition": "very-wet",
         "conditionLabel": "Very wet",
         "rain14": 73.4,
-        "rainForecast7": 27.9,
-        "minForecast7": 15.4,
+        "rainForecast7": 20.2,
+        "minForecast7": 15.1,
         "alerts": []
       },
       {
@@ -3426,8 +3426,8 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 126,
-        "rainForecast7": 73.9,
-        "minForecast7": 16.4,
+        "rainForecast7": 74.3,
+        "minForecast7": 16.2,
         "alerts": [
           {
             "type": "wet",
@@ -3454,14 +3454,14 @@
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 187.8,
-        "rainForecast7": 119.7,
-        "minForecast7": 16.6,
+        "rain14": 158.5,
+        "rainForecast7": 112.6,
+        "minForecast7": 16.4,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "120 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "113 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3483,9 +3483,9 @@
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 51.9,
-        "rainForecast7": 36.4,
-        "minForecast7": 24.3,
+        "rain14": 51,
+        "rainForecast7": 24.2,
+        "minForecast7": 24.9,
         "alerts": []
       },
       {
@@ -3506,9 +3506,9 @@
         },
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
-        "rain14": 56.3,
-        "rainForecast7": 12.7,
-        "minForecast7": 12.8,
+        "rain14": 56.2,
+        "rainForecast7": 27.9,
+        "minForecast7": 12.7,
         "alerts": []
       },
       {
@@ -3530,8 +3530,8 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 20.5,
-        "rainForecast7": 13.8,
-        "minForecast7": 15.3,
+        "rainForecast7": 30.6,
+        "minForecast7": 12.6,
         "alerts": []
       },
       {
@@ -3553,8 +3553,8 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 140.7,
-        "rainForecast7": 32.1,
-        "minForecast7": 20,
+        "rainForecast7": 30.8,
+        "minForecast7": 18.8,
         "alerts": []
       }
     ],
@@ -3568,7 +3568,7 @@
   },
   "news": {
     "originWire": {
-      "fetchedAt": "2026-11-04T13:37:18.698Z",
+      "fetchedAt": "2026-11-04T23:52:53.659Z",
       "lookbackHours": 504,
       "headlines": [
         {
@@ -3580,20 +3580,20 @@
           "published": "Wed, 04 Nov 2026 13:05:30 GMT"
         },
         {
-          "title": "Gold prices extend morning gains",
-          "summary": "Vietnam gold prices rose further on Wednesday afternoon following a 2.4% surge in global bullion rates.",
-          "url": "https://e.vnexpress.net/news/business/markets/gold-prices-extend-morning-gains-5140786.html",
+          "title": "Australia's inflation storm squeezing international students",
+          "summary": "Skyrocketing rent, tuition hikes, and mounting living costs are forcing Vietnamese students in Australia to relocate to distant suburbs, juggle multiple part-time jobs, and scour for supermarket discounts just to survive.",
+          "url": "https://e.vnexpress.net/news/news/education/australia-s-inflation-storm-squeezing-international-students-5140627.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Wed, 04 Nov 2026 16:50:51 +0700"
+          "published": "Thu, 05 Nov 2026 05:59:02 +0700"
         },
         {
-          "title": "Indonesian president’s chief of staff dismissed over alleged wiretapping",
-          "summary": "Gov't says Listyo may have committed 'treason' after he is arrested and accused of wiretapping top officials' phones.",
-          "url": "https://www.aljazeera.com/news/2026/11/4/indonesian-presidents-chief-of-staff-dismissed-over-alleged?traffic_source=rss",
-          "publisher": "Al Jazeera",
+          "title": "FirstFT: Republican infighting erupts after landslide midterms defeat",
+          "summary": "Also in today’s newsletter: wiretapping scandal rocks Indonesia and Oracle cancels $7bn Tencent AI deal under Trump pressure",
+          "url": "https://www.ft.com/content/e7e1345b-7d9a-4d14-a726-33cee30f189a?syn-25a6b1a6=1",
+          "publisher": "Financial Times",
           "region": "Indonesia",
-          "published": "Wed, 04 Nov 2026 10:07:36 +0000"
+          "published": "Wed, 04 Nov 2026 21:52:36 GMT"
         },
         {
           "title": "Baby among four killed in bomb attack in western Colombia, official says",
@@ -3628,12 +3628,12 @@
           "published": "Tue, 03 Nov 2026 13:00:07 GMT"
         },
         {
-          "title": "Techcombank CEO upbeat on Vietnam's growth outlook at Fortune Summit 2026",
-          "summary": "Techcombank CEO Jens Lottner highlighted Vietnam's economic resilience, investment prospects and infrastructure development at the Fortune Southeast Asia 500 Summit 2026, emphasizing the need for long-term capital to sustain growth.",
-          "url": "https://e.vnexpress.net/news/business/techcombank-ceo-upbeat-on-vietnam-s-growth-outlook-at-fortune-summit-2026-5140730.html",
+          "title": "Gold prices extend morning gains",
+          "summary": "Vietnam gold prices rose further on Wednesday afternoon following a 2.4% surge in global bullion rates.",
+          "url": "https://e.vnexpress.net/news/business/markets/gold-prices-extend-morning-gains-5140786.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Wed, 04 Nov 2026 15:35:00 +0700"
+          "published": "Wed, 04 Nov 2026 16:50:51 +0700"
         },
         {
           "title": "Southeast Asia's largest economy will not export electricity to Singapore without fair price",
@@ -3660,12 +3660,12 @@
           "published": "Tue, 03 Nov 2026 15:02:26 +0700"
         },
         {
-          "title": "‘I will not delete my posts’: Inside Uganda’s crackdown on online critics",
-          "summary": "Uganda’s online critics allege abductions and intimidation as families search for missing relatives.",
-          "url": "https://www.aljazeera.com/news/2026/11/4/i-will-not-delete-my-posts-inside-ugandas-crackdown-on-online-critics?traffic_source=rss",
-          "publisher": "Al Jazeera",
+          "title": "US contractor gave Ethiopia secrets to help kill Tigray fighters",
+          "summary": "The Ethiopian-born American citizen admitted sharing dozens of classified documents with senior Ethiopian officials.",
+          "url": "https://www.bbc.co.uk/news/articles/c6y8lz73vmv7o?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
           "region": "East Africa",
-          "published": "Wed, 04 Nov 2026 10:59:31 +0000"
+          "published": "Wed, 04 Nov 2026 10:35:03 GMT"
         },
         {
           "title": "The Amazon’s canary in the coalmine: what a tropical fish can tell us about climate upheaval",
@@ -3676,22 +3676,22 @@
           "published": "Tue, 03 Nov 2026 12:00:05 GMT"
         },
         {
-          "title": "Companies look to absorb 1,600 workers laid off after HCMC-based Danish shoe factory closes",
-          "summary": "At least 12 companies are looking to hire the 1,600 workers at ECCO Vietnam's factory in Ho Chi Minh City after the Danish enterprise shut shop this week.",
-          "url": "https://e.vnexpress.net/news/news/companies-look-to-absorb-1-600-workers-laid-off-after-hcmc-based-danish-shoe-factory-closes-5140660.html",
+          "title": "Techcombank CEO upbeat on Vietnam's growth outlook at Fortune Summit 2026",
+          "summary": "Techcombank CEO Jens Lottner highlighted Vietnam's economic resilience, investment prospects and infrastructure development at the Fortune Southeast Asia 500 Summit 2026, emphasizing the need for long-term capital to sustain growth.",
+          "url": "https://e.vnexpress.net/news/business/techcombank-ceo-upbeat-on-vietnam-s-growth-outlook-at-fortune-summit-2026-5140730.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Wed, 04 Nov 2026 13:34:56 +0700"
+          "published": "Wed, 04 Nov 2026 15:35:00 +0700"
         }
       ],
-      "totalTagged": 114,
+      "totalTagged": 110,
       "feedsQueried": 14,
       "errors": [],
       "note": "General headlines from the growing regions, taken from outlets of record and tagged to a region by the countries and cities they name."
     },
     "roundup": {
       "source": "assembled",
-      "fetchedAt": "2026-11-04T13:37:18.401Z",
+      "fetchedAt": "2026-11-04T23:52:52.799Z",
       "windowDays": 7,
       "publishers": [
         "Daily Coffee News",
@@ -3700,13 +3700,49 @@
       ],
       "items": [
         {
+          "headline": "ECS+COHO 2026 Insights Series: Seven consumer wants shaping Europe’s coffee shop market",
+          "summary": "Europe’s coffee shop customers want more choice, more craft and more value, and they want it faster than ever. Ahead of the European Coffee Symposium + COHO in Berlin, we look at the seven consumer demands that will define the market in 2026 and beyond…",
+          "url": "https://www.worldcoffeeportal.com/analysis/ecs-coho-2026-insights-series-seven-consumer-wants-shaping-europes-coffee-shop-market/",
+          "publisher": "World Coffee Portal",
+          "published": "Wed, 04 Nov 2026 17:34:10 GMT",
+          "date": "Wed, 4 Nov",
+          "section": "Top stories of the week"
+        },
+        {
+          "headline": "Maxwell House and Tassimo among Kraft Heinz’s $650m coffee brand offload",
+          "summary": "The divestment comes as the US F&B giant seeks to recover from a $4.7bn loss last year and focus on more profitable food brands",
+          "url": "https://www.worldcoffeeportal.com/news/maxwell-house-and-tassimo-among-kraft-heinzs-650m-coffee-brand-offload/",
+          "publisher": "World Coffee Portal",
+          "published": "Wed, 04 Nov 2026 16:09:12 GMT",
+          "date": "Wed, 4 Nov",
+          "section": "Top stories of the week"
+        },
+        {
+          "headline": "Hundreds of Cuppers to Help Build a Kenya Coffee Flavor Atlas",
+          "summary": "A new initiative in Kenya plans to document the country’s diverse coffee flavors through a coordinated tasting effort involving more than 500 samples from 34 counties. The Kenya Coffee Flavor...",
+          "url": "https://dailycoffeenews.com/2026/11/04/hundreds-of-cuppers-to-help-build-a-kenya-coffee-flavor-atlas/",
+          "publisher": "Daily Coffee News",
+          "published": "Wed, 04 Nov 2026 15:52:43 +0000",
+          "date": "Wed, 4 Nov",
+          "section": "Roasting & retail"
+        },
+        {
           "headline": "Hey Chat, Help Me Dial in: How AI Is Dividing Home Brewers",
           "summary": "AI has become a flashpoint in online coffee forums, where home brewers are divided on using it as a learning partner in an industry built on human craft. The post Hey Chat, Help Me Dial in: How AI Is Dividing Home Brewers appeared first on Fresh Cup .",
           "url": "https://freshcup.com/hey-chat-help-me-dial-in-how-ai-is-dividing-home-brewers/",
           "publisher": "Fresh Cup",
           "published": "Wed, 04 Nov 2026 13:15:00 +0000",
           "date": "Wed, 4 Nov",
-          "section": "Top stories of the week"
+          "section": "Roasting & retail"
+        },
+        {
+          "headline": "Good Trouble is Brewing at Its New Roastery in Arlington, Virginia",
+          "summary": "Coffee isn’t all that’s brewing at Good Trouble Roasters, a new roastery cafe that opened in Arlington, Virginia, in late October, but it does form the heart of the business....",
+          "url": "https://dailycoffeenews.com/2026/11/04/good-trouble-is-brewing-at-its-new-roastery-in-arlington-virginia/",
+          "publisher": "Daily Coffee News",
+          "published": "Wed, 04 Nov 2026 13:07:32 +0000",
+          "date": "Wed, 4 Nov",
+          "section": "Roasting & retail"
         },
         {
           "headline": "What to Do About Holiday Gifting Season as a Coffee Brand",
@@ -3736,15 +3772,6 @@
           "section": "Top stories of the week"
         },
         {
-          "headline": "Design Details: The Performance of Pastry and Coffee at Moden Café in Athens",
-          "summary": "Welcome to Design Details, an ongoing editorial feature in Daily Coffee News focused on individual examples of coffee shop architecture, interior design, packaging design or branding. If you are a...",
-          "url": "https://dailycoffeenews.com/2026/11/03/design-details-the-performance-of-pastry-and-coffee-at-moden-cafe-in-athens/",
-          "publisher": "Daily Coffee News",
-          "published": "Tue, 03 Nov 2026 14:20:13 +0000",
-          "date": "Tue, 3 Nov",
-          "section": "Roasting & retail"
-        },
-        {
           "headline": "Diedrich Caps Roaster Line Transition with New DR-140",
           "summary": "Idaho-based coffee roaster manufacturer Diedrich Roasters capped off the new generation of its roasting equipment in October with the launch of the DR-140, designed to handle green coffee batches from...",
           "url": "https://dailycoffeenews.com/2026/11/03/diedrich-caps-roaster-line-transition-with-new-dr-140/",
@@ -3754,39 +3781,12 @@
           "section": "Top stories of the week"
         },
         {
-          "headline": "Bodum Recalls 5.9 Million French Presses. The Fix Is a Plastic Spoon.",
-          "summary": "If you’ve ever broken a Bodum carafe, you’re in good company. Bodum has received 70 breakage and 48 burn reports, and the recall spans 52 years of sales. The post Bodum Recalls 5.9 Million French Presses. The Fix Is a Plastic Spoon. appeared first on Fresh…",
-          "url": "https://freshcup.com/bodum-recalls-5-9-million-french-presses-the-fix-is-a-plastic-spoon/",
-          "publisher": "Fresh Cup",
-          "published": "Tue, 03 Nov 2026 12:40:00 +0000",
-          "date": "Tue, 3 Nov",
-          "section": "Roasting & retail"
-        },
-        {
-          "headline": "Bridging research and business to navigate coffee’s next challenges",
-          "summary": "The Science Driven Coffee Cup conference offers coffee professionals a unique opportunity to access the latest scientific discoveries before they become mainstream industry practices What if the next breakthrough in coffee didn’t come from a roastery, a café…",
-          "url": "https://www.worldcoffeeportal.com/news/bridging-research-and-business-to-navigate-coffees-next-challenges/",
-          "publisher": "World Coffee Portal",
-          "published": "Tue, 03 Nov 2026 07:00:00 GMT",
-          "date": "Tue, 3 Nov",
-          "section": "Roasting & retail"
-        },
-        {
           "headline": "How Coffee Carts and Caterers Price Gigs: 4 Operators Share Their Processes",
           "summary": "Four coffee caterers explain how they quote events, with their methods checked against pricing data from 25,860 bookings. The post How Coffee Carts and Caterers Price Gigs: 4 Operators Share Their Processes appeared first on Fresh Cup .",
           "url": "https://freshcup.com/how-coffee-carts-and-caterers-price-gigs-4-operators-share-their-processes/",
           "publisher": "Fresh Cup",
           "published": "Fri, 30 Oct 2026 11:57:00 +0000",
           "date": "Fri, 30 Oct",
-          "section": "Top stories of the week"
-        },
-        {
-          "headline": "Kerry Opens Massive Roasting and Extraction Plant in Pennsylvania",
-          "summary": "Global taste and nutrition company Kerry cut the ribbon on a 48,600-square-foot coffee roasting and extraction facility near Bethlehem, Pennsylvania, in September, significantly expanding the company’s North American coffee production...",
-          "url": "https://dailycoffeenews.com/2026/10/29/kerry-opens-massive-roasting-and-extraction-plant-in-pennsylvania/",
-          "publisher": "Daily Coffee News",
-          "published": "Thu, 29 Oct 2026 13:14:28 +0000",
-          "date": "Thu, 29 Oct",
           "section": "Top stories of the week"
         },
         {
@@ -3808,7 +3808,7 @@
       "note": "Assembled from the coffee trade press over the past seven days, ranked by relevance to the physical trade. Headlines and links are each publisher’s own."
     },
     "dailyRead": {
-      "fetchedAt": "2026-11-04T13:37:16.291Z",
+      "fetchedAt": "2026-11-04T23:52:51.691Z",
       "article": {
         "title": "Keurig and Luckin Report Growth Amid Coffee Market Shifts",
         "summary": "Two of the world’s largest coffee companies, Keurig Dr Pepper and Luckin Coffee, reported quarterly financial results today, Nov. 3, revealing strong overall growth alongside noticeable challenges in key parts...",
@@ -4136,37 +4136,37 @@
     {
       "source": "daily-read",
       "ok": true,
-      "ms": 260
+      "ms": 203
     },
     {
       "source": "weather",
       "ok": true,
-      "ms": 651
+      "ms": 420
     },
     {
       "source": "arabica-futures",
       "ok": true,
-      "ms": 749
-    },
-    {
-      "source": "weekly-recap",
-      "ok": true,
-      "ms": 2373
-    },
-    {
-      "source": "origin-wire",
-      "ok": true,
-      "ms": 2674
+      "ms": 644
     },
     {
       "source": "fx",
       "ok": true,
-      "ms": 2728
+      "ms": 1242
+    },
+    {
+      "source": "weekly-recap",
+      "ok": true,
+      "ms": 1315
+    },
+    {
+      "source": "origin-wire",
+      "ok": true,
+      "ms": 2179
     },
     {
       "source": "ico-report",
       "ok": false,
-      "ms": 3495,
+      "ms": 3243,
       "error": "Table 1 (indicator prices) not found"
     }
   ]

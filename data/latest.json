@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T13:50:26.212Z",
+  "generatedAt": "2026-11-05T23:48:07.583Z",
   "schema": 5,
   "schedule": {
     "slotsUtc": [
@@ -26,8 +26,8 @@
       "frontMonth": {
         "code": "KCZ26",
         "label": "Dec 2026",
-        "close": 281.2,
-        "volume": 5438
+        "close": 277.4,
+        "volume": 15946
       },
       "rolled": false,
       "mostActive": "KCZ26",
@@ -35,56 +35,56 @@
         {
           "code": "KCZ26",
           "label": "Dec 2026",
-          "close": 281.2,
-          "volume": 5438
+          "close": 277.4,
+          "volume": 15946
         },
         {
           "code": "KCH27",
           "label": "Mar 2027",
-          "close": 272.45,
-          "volume": 4305
+          "close": 269.3,
+          "volume": 14461
         },
         {
           "code": "KCK27",
           "label": "May 2027",
-          "close": 268.15,
-          "volume": 1175
+          "close": 265.65,
+          "volume": 4318
         },
         {
           "code": "KCN27",
           "label": "Jul 2027",
-          "close": 265.45,
-          "volume": 368
+          "close": 262.95,
+          "volume": 1856
         },
         {
           "code": "KCU27",
           "label": "Sep 2027",
-          "close": 263.85,
-          "volume": 133
+          "close": 260.7,
+          "volume": 677
         },
         {
           "code": "KCZ27",
           "label": "Dec 2027",
-          "close": 260.35,
-          "volume": 55
+          "close": 257.4,
+          "volume": 183
         },
         {
           "code": "KCH28",
           "label": "Mar 2028",
-          "close": 257.15,
-          "volume": 28
+          "close": 254.55,
+          "volume": 109
         }
       ],
       "quote": {
-        "last": 272.45,
+        "last": 269.3,
         "open": 272.25,
-        "high": 273.6000061035156,
-        "low": 270.3500061035156,
+        "high": 274.95001220703125,
+        "low": 268.54998779296875,
         "previousClose": 270.8999938964844,
-        "change": 1.55,
-        "changePct": 0.572,
-        "volume": 3997,
-        "asOf": "2026-11-05T13:30:19.000Z"
+        "change": -1.6,
+        "changePct": -0.591,
+        "volume": 14461,
+        "asOf": "2026-11-05T18:29:56.000Z"
       },
       "bars": [
         {
@@ -2642,15 +2642,15 @@
         {
           "date": "2026-11-05",
           "open": 272.25,
-          "high": 273.6000061035156,
-          "low": 270.3500061035156,
-          "close": 272.45001220703125,
-          "volume": 3997
+          "high": 274.95001220703125,
+          "low": 268.54998779296875,
+          "close": 269.29998779296875,
+          "volume": 14461
         }
       ],
       "crossCheck": {
-        "tradingView": 272.45,
-        "yahoo": 272.45,
+        "tradingView": 269.3,
+        "yahoo": 269.3,
         "diff": 0,
         "diffPct": 0,
         "agree": true
@@ -2669,27 +2669,23 @@
       ],
       "technicals": {
         "observations": 504,
-        "sma20": 285.3350006103516,
-        "sma50": 282.95399963378907,
-        "sma200": 278.1582498168945,
-        "rsi14": 40.01889292958236,
+        "sma20": 285.17749938964846,
+        "sma50": 282.8909991455078,
+        "sma200": 278.1424996948242,
+        "rsi14": 37.211395781986376,
         "macd": {
-          "line": -3.1952761615473264,
-          "signal": -1.0826165896474018,
-          "histogram": -2.1126595718999246
+          "line": -3.446560160389879,
+          "signal": -1.1328733894159124,
+          "histogram": -2.3136867709739666
         },
-        "atr14": 8.814510928637574,
+        "atr14": 9.039512672499182,
         "donchian20": {
           "high": 304.45001220703125,
-          "low": 269.1000061035156,
+          "low": 268.54998779296875,
           "period": 20
         },
         "levels": {
           "support": [
-            {
-              "price": 270,
-              "date": "2026-02-06"
-            },
             {
               "price": 268.20001220703125,
               "date": "2025-04-07"
@@ -2697,6 +2693,10 @@
             {
               "price": 262.6000061035156,
               "date": "2026-09-23"
+            },
+            {
+              "price": 261.1000061035156,
+              "date": "2026-03-16"
             }
           ],
           "resistance": [
@@ -2726,22 +2726,18 @@
     }
   },
   "fx": {
-    "asOf": "2026-11-04",
+    "asOf": "2026-11-05",
     "pairs": {
       "GBPUSD": {
         "pair": "GBP/USD",
-        "rate": 1.35,
-        "previous": 1.3411,
+        "rate": 1.3459,
+        "previous": 1.35,
         "dp": 4,
         "note": "Sterling stronger means a dollar-priced contract costs a UK buyer less.",
-        "change": 0.0089,
-        "changePct": 0.664,
-        "change1m": 1.69,
+        "change": -0.0041,
+        "changePct": -0.304,
+        "change1m": 1.92,
         "history": [
-          {
-            "date": "2026-08-13",
-            "rate": 1.3492
-          },
           {
             "date": "2026-08-14",
             "rate": 1.3537
@@ -2977,23 +2973,23 @@
           {
             "date": "2026-11-04",
             "rate": 1.35
+          },
+          {
+            "date": "2026-11-05",
+            "rate": 1.3459
           }
         ]
       },
       "USDBRL": {
         "pair": "USD/BRL",
-        "rate": 5.4654,
-        "previous": 5.4934,
+        "rate": 5.4664,
+        "previous": 5.4654,
         "dp": 4,
         "note": "A weaker real encourages Brazilian producer selling.",
-        "change": -0.028,
-        "changePct": -0.51,
-        "change1m": 10,
+        "change": 0.001,
+        "changePct": 0.018,
+        "change1m": 9.19,
         "history": [
-          {
-            "date": "2026-08-13",
-            "rate": 5.1811
-          },
           {
             "date": "2026-08-14",
             "rate": 5.1762
@@ -3229,14 +3225,18 @@
           {
             "date": "2026-11-04",
             "rate": 5.4654
+          },
+          {
+            "date": "2026-11-05",
+            "rate": 5.4664
           }
         ]
       }
     },
     "ptax": {
-      "buy": 5.4772,
-      "sell": 5.4778,
-      "quotedAt": "2026-11-04 13:05:19.232051"
+      "buy": 5.4615,
+      "sell": 5.4621,
+      "quotedAt": "2026-11-05 13:06:37.661774"
     },
     "sources": [
       {
@@ -3252,7 +3252,7 @@
     ]
   },
   "weather": {
-    "fetchedAt": "2026-11-05T13:50:24.098Z",
+    "fetchedAt": "2026-11-05T23:48:04.790Z",
     "thresholds": {
       "frostC": 4,
       "heavyRainMm": 50,
@@ -3288,7 +3288,7 @@
         "condition": "very-wet",
         "conditionLabel": "Very wet",
         "rain14": 111.2,
-        "rainForecast7": 41.3,
+        "rainForecast7": 34.7,
         "minForecast7": 13.6,
         "alerts": []
       },
@@ -3311,7 +3311,7 @@
         "condition": "dry",
         "conditionLabel": "Clear / dry",
         "rain14": 92.1,
-        "rainForecast7": 37.4,
+        "rainForecast7": 40.5,
         "minForecast7": 16.4,
         "alerts": []
       },
@@ -3334,8 +3334,8 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 73.8,
-        "rainForecast7": 24.8,
-        "minForecast7": 20,
+        "rainForecast7": 32.9,
+        "minForecast7": 20.2,
         "alerts": []
       },
       {
@@ -3356,9 +3356,9 @@
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 16.8,
-        "rainForecast7": 4.5,
-        "minForecast7": 21.9,
+        "rain14": 16.5,
+        "rainForecast7": 6.1,
+        "minForecast7": 21.7,
         "alerts": []
       },
       {
@@ -3379,9 +3379,9 @@
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 47.1,
-        "rainForecast7": 22.2,
-        "minForecast7": 17.5,
+        "rain14": 45.7,
+        "rainForecast7": 43.7,
+        "minForecast7": 17.4,
         "alerts": []
       },
       {
@@ -3403,8 +3403,8 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 61.5,
-        "rainForecast7": 17.9,
-        "minForecast7": 14.6,
+        "rainForecast7": 23.8,
+        "minForecast7": 14.9,
         "alerts": []
       },
       {
@@ -3426,13 +3426,13 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 117.6,
-        "rainForecast7": 66.8,
+        "rainForecast7": 54.1,
         "minForecast7": 16.3,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "67 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "54 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3454,14 +3454,14 @@
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 171.9,
-        "rainForecast7": 78.3,
+        "rain14": 147.3,
+        "rainForecast7": 76.4,
         "minForecast7": 16.2,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "78 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "76 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3483,9 +3483,9 @@
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 59,
-        "rainForecast7": 13.3,
-        "minForecast7": 24.6,
+        "rain14": 56.3,
+        "rainForecast7": 21.6,
+        "minForecast7": 24.9,
         "alerts": []
       },
       {
@@ -3507,8 +3507,8 @@
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
         "rain14": 56.2,
-        "rainForecast7": 25.8,
-        "minForecast7": 12.7,
+        "rainForecast7": 43.8,
+        "minForecast7": 12.8,
         "alerts": []
       },
       {
@@ -3530,8 +3530,8 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 18.9,
-        "rainForecast7": 15.4,
-        "minForecast7": 13.3,
+        "rainForecast7": 26.8,
+        "minForecast7": 14.2,
         "alerts": []
       },
       {
@@ -3553,8 +3553,8 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 137,
-        "rainForecast7": 25.4,
-        "minForecast7": 18.7,
+        "rainForecast7": 32.9,
+        "minForecast7": 18,
         "alerts": []
       }
     ],
@@ -3568,7 +3568,7 @@
   },
   "news": {
     "originWire": {
-      "fetchedAt": "2026-11-05T13:50:25.170Z",
+      "fetchedAt": "2026-11-05T23:48:06.465Z",
       "lookbackHours": 504,
       "headlines": [
         {
@@ -3580,20 +3580,20 @@
           "published": "Thu, 05 Nov 2026 11:03:25 GMT"
         },
         {
-          "title": "Korean men marry Japanese women in record number as K-culture's pull in Japan grows",
-          "summary": "Marriages between South Korean men and Japanese women rose 25.8% to a record 1,494 in 2025, even as unions with brides from Vietnam, China and Thailand declined, government data shows.",
-          "url": "https://e.vnexpress.net/news/news/korean-men-marry-japanese-women-in-record-number-as-k-culture-s-pull-in-japan-grows-5141293.html",
+          "title": "China buys 96% of Vietnam’s durian exports",
+          "summary": "China accounted for nearly 96% of Vietnam’s durian exports in the first nine months of the year, leaving the industry with virtually no alternative market.",
+          "url": "https://e.vnexpress.net/news/business/economy/china-buys-96-of-vietnam-s-durian-exports-5141054.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Thu, 05 Nov 2026 19:32:13 +0700"
+          "published": "Fri, 06 Nov 2026 06:08:23 +0700"
         },
         {
-          "title": "Indonesia rushes thousands of troops to Jakarta amid wiretap scandal",
-          "summary": "Indonesia is deploying thousands of troops in Jakarta amid an alleged wiretapping scandal targeting the president.",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/indonesia-rushes-thousands-of-troops-to-jakarta-amid-wiretap-scandal?traffic_source=rss",
-          "publisher": "Al Jazeera",
+          "title": "Southeast Asia's largest economy will not export electricity to Singapore without fair price",
+          "summary": "Indonesia will not export electricity to Singapore unless the two countries agree on a suitable price, an official has said, casting doubt on plans to supply up to 3.4 gigawatts of low-carbon electricity to the city-state.",
+          "url": "https://e.vnexpress.net/news/business/economy/southeast-asia-s-largest-economy-will-not-export-electricity-to-singapore-without-fair-price-5140557.html",
+          "publisher": "VnExpress International",
           "region": "Indonesia",
-          "published": "Thu, 05 Nov 2026 13:41:24 +0000"
+          "published": "Wed, 04 Nov 2026 11:39:16 +0700"
         },
         {
           "title": "Baby among four killed in bomb attack in western Colombia, official says",
@@ -3604,12 +3604,12 @@
           "published": "Mon, 02 Nov 2026 15:08:56 GMT"
         },
         {
-          "title": "3,000 tarantulas hidden inside luggage seized at Peruvian airport",
-          "summary": "In a peculiar failed smuggling attempt, 3,000 tarantulas were seized at a Peruvian airport.",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/3000-tarantulas-hidden-inside-luggage-seized-at-peruvian-airport?traffic_source=rss",
-          "publisher": "Al Jazeera",
+          "title": "Paraguay’s president quits after millions of people’s savings frozen in bank crisis",
+          "summary": "Santiago Peña’s rightwing administration had authorised Ueno Bank to drastically expand operations before collapse Paraguay’s rightwing president, Santiago Peña, resigned on Thursday after a political and financial crisis collapsed the South American…",
+          "url": "https://www.theguardian.com/world/2026/nov/05/paraguay-president-santiago-pena-resigns",
+          "publisher": "The Guardian",
           "region": "South & Central America",
-          "published": "Thu, 05 Nov 2026 12:56:10 +0000"
+          "published": "Thu, 05 Nov 2026 18:48:07 GMT"
         },
         {
           "title": "Kenyan pharmacists warn against viral craze of using allergy drug for vaginal tightening",
@@ -3628,20 +3628,20 @@
           "published": "Thu, 05 Nov 2026 11:00:21 GMT"
         },
         {
-          "title": "Vietnam's Da Lat eyes over 100 km of electric rail linking airport and top attractions",
-          "summary": "A consultant has proposed six electric rail lines totaling more than 100 km to link central Da Lat with Lien Khuong Airport and major tourist sites, in a draft urban plan for the highland city.",
-          "url": "https://e.vnexpress.net/news/news/traffic/vietnam-s-da-lat-eyes-over-100-km-of-electric-rail-linking-airport-and-top-attractions-5141291.html",
+          "title": "Korean men marry Japanese women in record number as K-culture's pull in Japan grows",
+          "summary": "Marriages between South Korean men and Japanese women rose 25.8% to a record 1,494 in 2025, even as unions with brides from Vietnam, China and Thailand declined, government data shows.",
+          "url": "https://e.vnexpress.net/news/news/korean-men-marry-japanese-women-in-record-number-as-k-culture-s-pull-in-japan-grows-5141293.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Thu, 05 Nov 2026 19:31:51 +0700"
+          "published": "Thu, 05 Nov 2026 19:32:13 +0700"
         },
         {
-          "title": "Southeast Asia's largest economy will not export electricity to Singapore without fair price",
-          "summary": "Indonesia will not export electricity to Singapore unless the two countries agree on a suitable price, an official has said, casting doubt on plans to supply up to 3.4 gigawatts of low-carbon electricity to the city-state.",
-          "url": "https://e.vnexpress.net/news/business/economy/southeast-asia-s-largest-economy-will-not-export-electricity-to-singapore-without-fair-price-5140557.html",
+          "title": "Director at unit of Indonesia richest family's bank makes Forbes Asia's Power Businesswomen list",
+          "summary": "Lanny Budiati, president director of BCA Digital, a subsidiary of Bank Central Asia, which is controlled by the billionaire Hartono family, has been named to Forbes Asia's Power Businesswomen 2026 list.",
+          "url": "https://e.vnexpress.net/news/business/companies/director-at-unit-of-indonesia-richest-family-s-bank-makes-forbes-asia-s-power-businesswomen-list-5140584.html",
           "publisher": "VnExpress International",
           "region": "Indonesia",
-          "published": "Wed, 04 Nov 2026 11:39:16 +0700"
+          "published": "Wed, 04 Nov 2026 11:38:59 +0700"
         },
         {
           "title": "Pablo Escobar tried to bomb me in Bogotá. To stop the cartels infiltrating Europe, we should legalise cocaine | Letter",
@@ -3652,12 +3652,12 @@
           "published": "Tue, 27 Oct 2026 17:55:04 GMT"
         },
         {
-          "title": "US urges Venezuela to release remaining political prisoners",
-          "summary": "The US secretary of state also discusses laying the groundwork for 'free, fair, and credible elections'.",
-          "url": "https://www.bbc.co.uk/news/articles/cxg5jln586pno?at_medium=RSS&amp;at_campaign=rss",
+          "title": "Paraguay President Santiago Peña resigns after bank collapse",
+          "summary": "The move follows a bank collapse and after the lower house of congress voted in favour of pursuing an impeachment trial against him.",
+          "url": "https://www.bbc.co.uk/news/articles/c6p9g39vln3yo?at_medium=RSS&amp;at_campaign=rss",
           "publisher": "BBC News",
           "region": "South & Central America",
-          "published": "Tue, 03 Nov 2026 12:09:20 GMT"
+          "published": "Thu, 05 Nov 2026 17:40:40 GMT"
         },
         {
           "title": "Rwanda's army team removed from Africa league after US sanctions, NBA says",
@@ -3676,22 +3676,22 @@
           "published": "Tue, 03 Nov 2026 13:00:07 GMT"
         },
         {
-          "title": "Ho Chi Minh City to issue bonds to finance major infrastructure projects",
-          "summary": "Ho Chi Minh City plans to issue municipal and project bonds through Vietnam International Financial Center and expand domestic borrowing to fund major infrastructure and urban development projects.",
-          "url": "https://e.vnexpress.net/news/business/ho-chi-minh-city-to-issue-bonds-to-finance-major-infrastructure-projects-5140816.html",
+          "title": "Vietnam's Da Lat eyes over 100 km of electric rail linking airport and top attractions",
+          "summary": "A consultant has proposed six electric rail lines totaling more than 100 km to link central Da Lat with Lien Khuong Airport and major tourist sites, in a draft urban plan for the highland city.",
+          "url": "https://e.vnexpress.net/news/news/traffic/vietnam-s-da-lat-eyes-over-100-km-of-electric-rail-linking-airport-and-top-attractions-5141291.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Thu, 05 Nov 2026 13:00:00 +0700"
+          "published": "Thu, 05 Nov 2026 19:31:51 +0700"
         }
       ],
-      "totalTagged": 107,
+      "totalTagged": 108,
       "feedsQueried": 14,
       "errors": [],
       "note": "General headlines from the growing regions, taken from outlets of record and tagged to a region by the countries and cities they name."
     },
     "roundup": {
       "source": "assembled",
-      "fetchedAt": "2026-11-05T13:50:25.103Z",
+      "fetchedAt": "2026-11-05T23:48:05.691Z",
       "windowDays": 7,
       "publishers": [
         "Daily Coffee News",
@@ -3700,13 +3700,49 @@
       ],
       "items": [
         {
+          "headline": "Colombia’s Libertario Coffee bets big on India’s specialty coffee boom",
+          "summary": "The Bogotá-based group, which launched in India last year, is one of just a handful of international specialty coffee operators in the South Asian market",
+          "url": "https://www.worldcoffeeportal.com/news/colombias-libertario-coffee-bets-big-on-indias-specialty-coffee-boom/",
+          "publisher": "World Coffee Portal",
+          "published": "Thu, 05 Nov 2026 17:16:47 GMT",
+          "date": "Thu, 5 Nov",
+          "section": "Top stories of the week"
+        },
+        {
+          "headline": "Researchers Challenge the Climate-Resilient Robusta Narrative",
+          "summary": "A major new literature review challenges the popular assumption that robusta offers a climate-resilient solution for sustaining global coffee production as climate change continues to disrupt the arabica landscape. Led...",
+          "url": "https://dailycoffeenews.com/2026/11/05/researchers-challenge-the-climate-resilient-robusta-narrative/",
+          "publisher": "Daily Coffee News",
+          "published": "Thu, 05 Nov 2026 15:24:30 +0000",
+          "date": "Thu, 5 Nov",
+          "section": "Top stories of the week"
+        },
+        {
+          "headline": "How Evoca Group connects sustainability with lower operating costs",
+          "summary": "From energy-saving programmes to telemetry and recycled steel, Evoca Group considers efficiency, materials and resource use throughout a coffee machine’s lifecycle",
+          "url": "https://www.worldcoffeeportal.com/feature/how-evoca-group-connects-sustainability-with-lower-operating-costs/",
+          "publisher": "World Coffee Portal",
+          "published": "Thu, 05 Nov 2026 14:54:22 GMT",
+          "date": "Thu, 5 Nov",
+          "section": "Roasting & retail"
+        },
+        {
+          "headline": "Le Mil’s Connects San Francisco to a Five-Generation Indian Coffee Farm",
+          "summary": "A new cafe called Le Mil’s Coffee is now open in San Francisco’s bustling Lower Nob Hill neighborhood, showcasing coffees from the owner’s family farm and neighboring producers in India....",
+          "url": "https://dailycoffeenews.com/2026/11/05/le-mils-connects-san-francisco-to-a-five-generation-indian-coffee-farm/",
+          "publisher": "Daily Coffee News",
+          "published": "Thu, 05 Nov 2026 14:16:24 +0000",
+          "date": "Thu, 5 Nov",
+          "section": "Top stories of the week"
+        },
+        {
           "headline": "George Howell Cafes Near Closed Starbucks Stores See Specialty Drink Sales Jump 30% to 35%",
           "summary": "Starbucks has closed nearly 20 Boston-area stores in the past year, leaving one downtown. Other cafes see more traffic but can’t link it to the closures. The post George Howell Cafes Near Closed Starbucks Stores See Specialty Drink Sales Jump 30% to 35%…",
           "url": "https://freshcup.com/george-howell-cafes-near-closed-starbucks-stores-see-specialty-drink-sales-jump-30-to-35/",
           "publisher": "Fresh Cup",
           "published": "Thu, 05 Nov 2026 12:55:00 +0000",
           "date": "Thu, 5 Nov",
-          "section": "Top stories of the week"
+          "section": "Roasting & retail"
         },
         {
           "headline": "ECS+COHO 2026 Insights Series: Seven consumer wants shaping Europe’s coffee shop market",
@@ -3724,7 +3760,7 @@
           "publisher": "World Coffee Portal",
           "published": "Wed, 04 Nov 2026 16:09:12 GMT",
           "date": "Wed, 4 Nov",
-          "section": "Top stories of the week"
+          "section": "Roasting & retail"
         },
         {
           "headline": "Hundreds of Cuppers to Help Build a Kenya Coffee Flavor Atlas",
@@ -3745,33 +3781,6 @@
           "section": "Roasting & retail"
         },
         {
-          "headline": "Good Trouble is Brewing at Its New Roastery in Arlington, Virginia",
-          "summary": "Coffee isn’t all that’s brewing at Good Trouble Roasters, a new roastery cafe that opened in Arlington, Virginia, in late October, but it does form the heart of the business....",
-          "url": "https://dailycoffeenews.com/2026/11/04/good-trouble-is-brewing-at-its-new-roastery-in-arlington-virginia/",
-          "publisher": "Daily Coffee News",
-          "published": "Wed, 04 Nov 2026 13:07:32 +0000",
-          "date": "Wed, 4 Nov",
-          "section": "Roasting & retail"
-        },
-        {
-          "headline": "What to Do About Holiday Gifting Season as a Coffee Brand",
-          "summary": "Serve your existing customers this holiday season, and they’ll bring you new ones. The post What to Do About Holiday Gifting Season as a Coffee Brand appeared first on Fresh Cup .",
-          "url": "https://freshcup.com/what-to-do-about-holiday-gifting-season-as-a-coffee-brand/",
-          "publisher": "Fresh Cup",
-          "published": "Wed, 04 Nov 2026 12:31:00 +0000",
-          "date": "Wed, 4 Nov",
-          "section": "Roasting & retail"
-        },
-        {
-          "headline": "New earnings show the shape of things to come for KDP’s ‘global coffee champion’",
-          "summary": "Premium pod partnerships, espresso concentrates and plastic-free capsule machines – Keurig Dr Pepper ramps up coffee innovation ahead of Global Coffee Co launch next year",
-          "url": "https://www.worldcoffeeportal.com/news/new-earnings-show-the-shape-of-things-to-come-for-kdps-global-coffee-champion/",
-          "publisher": "World Coffee Portal",
-          "published": "Wed, 04 Nov 2026 11:47:43 GMT",
-          "date": "Wed, 4 Nov",
-          "section": "Roasting & retail"
-        },
-        {
           "headline": "Keurig and Luckin Report Growth Amid Coffee Market Shifts",
           "summary": "Two of the world’s largest coffee companies, Keurig Dr Pepper and Luckin Coffee, reported quarterly financial results today, Nov. 3, revealing strong overall growth alongside noticeable challenges in key parts...",
           "url": "https://dailycoffeenews.com/2026/11/03/keurig-and-luckin-report-growth-amid-coffee-market-shifts/",
@@ -3787,7 +3796,7 @@
           "publisher": "Daily Coffee News",
           "published": "Tue, 03 Nov 2026 14:04:34 +0000",
           "date": "Tue, 3 Nov",
-          "section": "Top stories of the week"
+          "section": "Trade & production"
         },
         {
           "headline": "How Coffee Carts and Caterers Price Gigs: 4 Operators Share Their Processes",
@@ -3808,13 +3817,13 @@
       "note": "Assembled from the coffee trade press over the past seven days, ranked by relevance to the physical trade. Headlines and links are each publisher’s own."
     },
     "dailyRead": {
-      "fetchedAt": "2026-11-05T13:50:23.584Z",
+      "fetchedAt": "2026-11-05T23:48:04.421Z",
       "article": {
-        "title": "Keurig and Luckin Report Growth Amid Coffee Market Shifts",
-        "summary": "Two of the world’s largest coffee companies, Keurig Dr Pepper and Luckin Coffee, reported quarterly financial results today, Nov. 3, revealing strong overall growth alongside noticeable challenges in key parts...",
-        "url": "https://dailycoffeenews.com/2026/11/03/keurig-and-luckin-report-growth-amid-coffee-market-shifts/",
+        "title": "Researchers Challenge the Climate-Resilient Robusta Narrative",
+        "summary": "A major new literature review challenges the popular assumption that robusta offers a climate-resilient solution for sustaining global coffee production as climate change continues to disrupt the arabica landscape. Led...",
+        "url": "https://dailycoffeenews.com/2026/11/05/researchers-challenge-the-climate-resilient-robusta-narrative/",
         "publisher": "Daily Coffee News",
-        "published": "Tue, 03 Nov 2026 20:26:12 +0000"
+        "published": "Thu, 05 Nov 2026 15:24:30 +0000"
       },
       "considered": 10
     }
@@ -4134,39 +4143,39 @@
   },
   "status": [
     {
-      "source": "daily-read",
-      "ok": true,
-      "ms": 176
-    },
-    {
       "source": "arabica-futures",
       "ok": true,
-      "ms": 745
+      "ms": 508
+    },
+    {
+      "source": "daily-read",
+      "ok": true,
+      "ms": 475
     },
     {
       "source": "weather",
       "ok": true,
-      "ms": 699
+      "ms": 852
     },
     {
       "source": "fx",
       "ok": true,
-      "ms": 1686
+      "ms": 1438
     },
     {
       "source": "weekly-recap",
       "ok": true,
-      "ms": 1699
+      "ms": 1748
     },
     {
       "source": "origin-wire",
       "ok": true,
-      "ms": 1770
+      "ms": 2526
     },
     {
       "source": "ico-report",
       "ok": false,
-      "ms": 2787,
+      "ms": 3627,
       "error": "Table 1 (indicator prices) not found"
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T13:35:30.931Z",
+  "generatedAt": "2026-11-06T23:26:03.669Z",
   "schema": 5,
   "schedule": {
     "slotsUtc": [
@@ -26,8 +26,8 @@
       "frontMonth": {
         "code": "KCZ26",
         "label": "Dec 2026",
-        "close": 279.45,
-        "volume": 7181
+        "close": 280.15,
+        "volume": 24446
       },
       "rolled": false,
       "mostActive": "KCZ26",
@@ -35,56 +35,56 @@
         {
           "code": "KCZ26",
           "label": "Dec 2026",
-          "close": 279.45,
-          "volume": 7181
+          "close": 280.15,
+          "volume": 24446
         },
         {
           "code": "KCH27",
           "label": "Mar 2027",
-          "close": 270.95,
-          "volume": 5034
+          "close": 271.4,
+          "volume": 23195
         },
         {
           "code": "KCK27",
           "label": "May 2027",
-          "close": 267.25,
-          "volume": 2238
+          "close": 267.4,
+          "volume": 7337
         },
         {
           "code": "KCN27",
           "label": "Jul 2027",
-          "close": 264.7,
-          "volume": 775
+          "close": 264.4,
+          "volume": 2938
         },
         {
           "code": "KCU27",
           "label": "Sep 2027",
-          "close": 262.25,
-          "volume": 170
+          "close": 262.05,
+          "volume": 614
         },
         {
           "code": "KCZ27",
           "label": "Dec 2027",
-          "close": 259.25,
-          "volume": 60
+          "close": 258.8,
+          "volume": 210
         },
         {
           "code": "KCH28",
           "label": "Mar 2028",
-          "close": 255.4,
-          "volume": 28
+          "close": 256.5,
+          "volume": 56
         }
       ],
       "quote": {
-        "last": 270.45,
+        "last": 271.4,
         "open": 269.8999938964844,
-        "high": 270.75,
+        "high": 273.3999938964844,
         "low": 268.1000061035156,
         "previousClose": 269.25,
-        "change": 1.2,
-        "changePct": 0.446,
-        "volume": 4632,
-        "asOf": "2026-11-06T13:14:35.000Z"
+        "change": 2.15,
+        "changePct": 0.799,
+        "volume": 23195,
+        "asOf": "2026-11-06T18:29:58.000Z"
       },
       "bars": [
         {
@@ -2642,17 +2642,17 @@
         {
           "date": "2026-11-06",
           "open": 269.8999938964844,
-          "high": 270.75,
+          "high": 273.3999938964844,
           "low": 268.1000061035156,
-          "close": 270.45001220703125,
-          "volume": 4632
+          "close": 271.3999938964844,
+          "volume": 23195
         }
       ],
       "crossCheck": {
-        "tradingView": 270.95,
-        "yahoo": 270.45,
-        "diff": 0.5,
-        "diffPct": 0.185,
+        "tradingView": 271.4,
+        "yahoo": 271.4,
+        "diff": 0,
+        "diffPct": 0,
         "agree": true
       },
       "sources": [
@@ -2669,16 +2669,16 @@
       ],
       "technicals": {
         "observations": 504,
-        "sma20": 284.70750122070314,
-        "sma50": 282.3329998779297,
-        "sma200": 277.9444998168945,
-        "rsi14": 38.59589167402,
+        "sma20": 284.75500030517577,
+        "sma50": 282.35199951171876,
+        "sma200": 277.9492497253418,
+        "rsi14": 39.67364437175184,
         "macd": {
-          "line": -3.876555517984002,
-          "signal": -1.6822478359628699,
-          "histogram": -2.1943076820211322
+          "line": -3.800773502870925,
+          "signal": -1.6670914329402544,
+          "histogram": -2.1336820699306704
         },
-        "atr14": 8.58311847421241,
+        "atr14": 8.772403752532723,
         "donchian20": {
           "high": 304.45001220703125,
           "low": 268.1000061035156,
@@ -2726,22 +2726,18 @@
     }
   },
   "fx": {
-    "asOf": "2026-11-05",
+    "asOf": "2026-11-06",
     "pairs": {
       "GBPUSD": {
         "pair": "GBP/USD",
-        "rate": 1.3459,
-        "previous": 1.35,
+        "rate": 1.3385,
+        "previous": 1.3459,
         "dp": 4,
         "note": "Sterling stronger means a dollar-priced contract costs a UK buyer less.",
-        "change": -0.0041,
-        "changePct": -0.304,
-        "change1m": 1.92,
+        "change": -0.0074,
+        "changePct": -0.55,
+        "change1m": 1.35,
         "history": [
-          {
-            "date": "2026-08-14",
-            "rate": 1.3537
-          },
           {
             "date": "2026-08-17",
             "rate": 1.3559
@@ -2977,23 +2973,23 @@
           {
             "date": "2026-11-05",
             "rate": 1.3459
+          },
+          {
+            "date": "2026-11-06",
+            "rate": 1.3385
           }
         ]
       },
       "USDBRL": {
         "pair": "USD/BRL",
-        "rate": 5.4664,
-        "previous": 5.4654,
+        "rate": 5.5037,
+        "previous": 5.4664,
         "dp": 4,
         "note": "A weaker real encourages Brazilian producer selling.",
-        "change": 0.001,
-        "changePct": 0.018,
-        "change1m": 9.19,
+        "change": 0.0373,
+        "changePct": 0.682,
+        "change1m": 9.71,
         "history": [
-          {
-            "date": "2026-08-14",
-            "rate": 5.1762
-          },
           {
             "date": "2026-08-17",
             "rate": 5.2102
@@ -3229,14 +3225,18 @@
           {
             "date": "2026-11-05",
             "rate": 5.4664
+          },
+          {
+            "date": "2026-11-06",
+            "rate": 5.5037
           }
         ]
       }
     },
     "ptax": {
-      "buy": 5.4615,
-      "sell": 5.4621,
-      "quotedAt": "2026-11-05 13:06:37.661774"
+      "buy": 5.5007,
+      "sell": 5.5013,
+      "quotedAt": "2026-11-06 13:06:13.966362"
     },
     "sources": [
       {
@@ -3252,7 +3252,7 @@
     ]
   },
   "weather": {
-    "fetchedAt": "2026-11-06T13:34:41.071Z",
+    "fetchedAt": "2026-11-06T23:25:13.568Z",
     "thresholds": {
       "frostC": 4,
       "heavyRainMm": 50,
@@ -3288,8 +3288,8 @@
         "condition": "very-wet",
         "conditionLabel": "Very wet",
         "rain14": 110.4,
-        "rainForecast7": 39.6,
-        "minForecast7": 13.5,
+        "rainForecast7": 42.5,
+        "minForecast7": 13.7,
         "alerts": []
       },
       {
@@ -3311,9 +3311,15 @@
         "condition": "very-wet",
         "conditionLabel": "Very wet",
         "rain14": 93.6,
-        "rainForecast7": 28.4,
-        "minForecast7": 16.1,
-        "alerts": []
+        "rainForecast7": 58.6,
+        "minForecast7": 16.3,
+        "alerts": [
+          {
+            "type": "wet",
+            "severity": "watch",
+            "text": "59 mm forecast over 7 days — harvest/drying disruption risk."
+          }
+        ]
       },
       {
         "key": "espirito-santo",
@@ -3334,7 +3340,7 @@
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
         "rain14": 71.5,
-        "rainForecast7": 44.5,
+        "rainForecast7": 41.3,
         "minForecast7": 20.4,
         "alerts": []
       },
@@ -3357,7 +3363,7 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 16.8,
-        "rainForecast7": 4.1,
+        "rainForecast7": 7.8,
         "minForecast7": 22,
         "alerts": []
       },
@@ -3380,7 +3386,7 @@
         "condition": "very-wet",
         "conditionLabel": "Very wet",
         "rain14": 45.7,
-        "rainForecast7": 49.6,
+        "rainForecast7": 41.4,
         "minForecast7": 17.8,
         "alerts": []
       },
@@ -3403,8 +3409,8 @@
         "condition": "very-wet",
         "conditionLabel": "Very wet",
         "rain14": 69.8,
-        "rainForecast7": 22.9,
-        "minForecast7": 15.3,
+        "rainForecast7": 23.9,
+        "minForecast7": 14.6,
         "alerts": []
       },
       {
@@ -3426,7 +3432,7 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 121.5,
-        "rainForecast7": 48.2,
+        "rainForecast7": 41.4,
         "minForecast7": 17.1,
         "alerts": []
       },
@@ -3448,14 +3454,14 @@
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 150.6,
-        "rainForecast7": 65.6,
-        "minForecast7": 16.2,
+        "rain14": 131.7,
+        "rainForecast7": 93.8,
+        "minForecast7": 16.4,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "66 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "94 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3477,9 +3483,9 @@
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 59.7,
-        "rainForecast7": 15.2,
-        "minForecast7": 24.9,
+        "rain14": 58.3,
+        "rainForecast7": 19.7,
+        "minForecast7": 24.1,
         "alerts": []
       },
       {
@@ -3501,8 +3507,8 @@
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
         "rain14": 56.2,
-        "rainForecast7": 29.8,
-        "minForecast7": 13.1,
+        "rainForecast7": 49,
+        "minForecast7": 11.4,
         "alerts": []
       },
       {
@@ -3524,8 +3530,8 @@
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
         "rain14": 19.3,
-        "rainForecast7": 20.5,
-        "minForecast7": 15.7,
+        "rainForecast7": 21.4,
+        "minForecast7": 13.8,
         "alerts": []
       },
       {
@@ -3547,13 +3553,13 @@
         "condition": "very-wet",
         "conditionLabel": "Very wet",
         "rain14": 134.3,
-        "rainForecast7": 55.8,
-        "minForecast7": 17.9,
+        "rainForecast7": 59.6,
+        "minForecast7": 19.3,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "56 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "60 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       }
@@ -3568,7 +3574,7 @@
   },
   "news": {
     "originWire": {
-      "fetchedAt": "2026-11-06T13:34:42.973Z",
+      "fetchedAt": "2026-11-06T23:25:15.510Z",
       "lookbackHours": 504,
       "headlines": [
         {
@@ -3604,20 +3610,20 @@
           "published": "Mon, 02 Nov 2026 15:08:56 GMT"
         },
         {
-          "title": "Paraguay’s president quits after millions of people’s savings frozen in bank crisis",
-          "summary": "Santiago Peña’s rightwing administration had authorised Ueno Bank to drastically expand operations before collapse Paraguay’s rightwing president, Santiago Peña, resigned on Thursday after a political and financial crisis collapsed the South American…",
-          "url": "https://www.theguardian.com/world/2026/nov/05/paraguay-president-santiago-pena-resigns",
+          "title": "Sebastián Lelio was a fascinating film-maker of great passion and poetry",
+          "summary": "Chilean director of films including Gloria and A Fantastic Woman could expertly capture both the personal and political Sebastián Lelio, director of A Fantastic Woman and Gloria, dies aged 52 The last 20 years have seen an amazing flowering of creativity from…",
+          "url": "https://www.theguardian.com/film/2026/nov/06/sebastian-lelio-chilean-film-maker",
           "publisher": "The Guardian",
           "region": "South & Central America",
-          "published": "Fri, 06 Nov 2026 06:16:22 GMT"
+          "published": "Fri, 06 Nov 2026 20:56:41 GMT"
         },
         {
-          "title": "Kenyan doomsday cult leader given life sentence for murdering 191 people",
-          "summary": "Paul Mackenzie ordered his followers to starve their children to death in a forest so they could \"meet Jesus\".",
-          "url": "https://www.bbc.co.uk/news/articles/cm5yne5984l0o?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
+          "title": "Tanzanian opposition leader jailed in ‘politically motivated’ case",
+          "summary": "Tanzanian opposition leader Tundu Lissu has been jailed in a case widely condemned as politically motivated.",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/6/tanzanian-opposition-leader-jailed-in-politically-motivated-case?traffic_source=rss",
+          "publisher": "Al Jazeera",
           "region": "East Africa",
-          "published": "Fri, 06 Nov 2026 12:54:04 GMT"
+          "published": "Fri, 06 Nov 2026 19:42:46 +0000"
         },
         {
           "title": "Referee hands out record 53 red cards after chaos at under-20s game in Brazil",
@@ -3652,20 +3658,20 @@
           "published": "Tue, 27 Oct 2026 17:55:04 GMT"
         },
         {
-          "title": "Peru airport officials seize over 3,000 tarantulas hidden in socks – video",
-          "summary": "Peruvian authorities seized more than 3,000 tarantulas hidden inside socks packed in the suitcases of three people heading on a flight to Germany, the National Forestry and Wildlife Service said. Each case had between 15 and 22 socks, with each sock…",
-          "url": "https://www.theguardian.com/world/video/2026/nov/06/peru-airport-officials-seize-over-3000-tarantulas-hidden-in-socks-video",
-          "publisher": "The Guardian",
+          "title": "Pope Leo arrives in Uruguay starting 12-day Latin America tour",
+          "summary": "The 71-year-old pontiff is visiting three countries despite undergoing surgery to remove a tumour last month.",
+          "url": "https://www.aljazeera.com/news/2026/11/6/pope-leo-arrives-in-uruguay-starting-12-day-latin-america-tour?traffic_source=rss",
+          "publisher": "Al Jazeera",
           "region": "South & Central America",
-          "published": "Fri, 06 Nov 2026 03:22:37 GMT"
+          "published": "Fri, 06 Nov 2026 20:22:22 +0000"
         },
         {
-          "title": "Kenyan court sentences starvation cult leader to 200 years",
-          "summary": "Paul Mackenzie and accomplices were convicted of murdering 190 children and one adult.",
-          "url": "https://www.aljazeera.com/news/2026/11/6/kenyan-court-sentences-starvation-cult-leader-to-200-years?traffic_source=rss",
-          "publisher": "Al Jazeera",
+          "title": "Kenyan doomsday sect leader jailed for 200 years for murder of 190 children",
+          "summary": "Paul Mackenzie convicted over deaths of children and one adult after followers were ordered to starve themselves and their families The leader of a Kenyan doomsday sect has been sentenced to 200 years in prison for the murders of 190 children and one adult in…",
+          "url": "https://www.theguardian.com/world/2026/nov/06/kenyan-doomsday-sect-leader-jailed-murders-paul-mackenzie",
+          "publisher": "The Guardian",
           "region": "East Africa",
-          "published": "Fri, 06 Nov 2026 12:50:24 +0000"
+          "published": "Fri, 06 Nov 2026 15:08:43 GMT"
         },
         {
           "title": "How elderly ‘unsung heroes’ powered Lula’s historic fightback in Brazil",
@@ -3684,14 +3690,14 @@
           "published": "Fri, 06 Nov 2026 14:54:35 +0700"
         }
       ],
-      "totalTagged": 108,
+      "totalTagged": 111,
       "feedsQueried": 14,
       "errors": [],
       "note": "General headlines from the growing regions, taken from outlets of record and tagged to a region by the countries and cities they name."
     },
     "roundup": {
       "source": "assembled",
-      "fetchedAt": "2026-11-06T13:34:42.505Z",
+      "fetchedAt": "2026-11-06T23:25:14.845Z",
       "windowDays": 7,
       "publishers": [
         "Daily Coffee News",
@@ -3700,16 +3706,43 @@
       ],
       "items": [
         {
+          "headline": "Episode 225: From product-led to business-led – a conversation with Emma Loisel, Volcano Coffee",
+          "summary": "In this episode, Volcano Coffee’s Emma Loisel on how specialty roasters must can beyond supplying coffee to being true commercial partners.",
+          "url": "https://www.worldcoffeeportal.com/podcast/episode-225-from-product-led-to-business-led-a-conversation-with-emma-loisel-volcano-coffee/",
+          "publisher": "World Coffee Portal",
+          "published": "Fri, 06 Nov 2026 21:55:55 GMT",
+          "date": "Fri, 6 Nov",
+          "section": "Roasting & retail"
+        },
+        {
+          "headline": "Westrock builds momentum as investments yield strong third-quarter returns",
+          "summary": "The US coffee roaster, packager and supplier has ploughed $360m in new RTD and single-serve facilities to harness rising QSR demand for trending beverages",
+          "url": "https://www.worldcoffeeportal.com/news/westrock-builds-momentum-as-investments-yield-strong-third-quarter-returns/",
+          "publisher": "World Coffee Portal",
+          "published": "Fri, 06 Nov 2026 14:26:10 GMT",
+          "date": "Fri, 6 Nov",
+          "section": "Top stories of the week"
+        },
+        {
+          "headline": "Weekly Coffee News: Costa Rica Harvest Concerns + Restoring Iconic Coffee Sign",
+          "summary": "Welcome to DCN’s Weekly Coffee News! Subscribe here for all the latest coffee industry news. Also, check out the latest career opportunities at CoffeeIndustryJobs.com. El Niño Prompts Lower Harvest Estimates...",
+          "url": "https://dailycoffeenews.com/2026/11/06/weekly-coffee-news-costa-rica-harvest-concerns-restoring-iconic-coffee-sign/",
+          "publisher": "Daily Coffee News",
+          "published": "Fri, 06 Nov 2026 13:10:22 +0000",
+          "date": "Fri, 6 Nov",
+          "section": "Top stories of the week"
+        },
+        {
           "headline": "Nepal’s Ilam Tea Is Ready To Tell Its Own Story",
           "summary": "Without Darjeeling’s name recognition, smallholders in Nepal’s Ilam district and abroad are building a reputation. The post Nepal’s Ilam Tea Is Ready To Tell Its Own Story appeared first on Fresh Cup .",
           "url": "https://freshcup.com/nepals-ilam-tea-is-ready-to-tell-its-own-story/",
           "publisher": "Fresh Cup",
           "published": "Fri, 06 Nov 2026 12:45:00 +0000",
           "date": "Fri, 6 Nov",
-          "section": "Top stories of the week"
+          "section": "Trade & production"
         },
         {
-          "headline": "Café Amazon approaches 5,000 stores in Thailand as future in Cambodia hangs in the balance",
+          "headline": "As Café Amazon approaches 5,000 stores in Thailand, its future in Cambodia hangs in the balance",
           "summary": "Parent company PTT OR is scaling back its business in neighbouring Cambodia amid a simmering border dispute and ongoing consumer boycotts",
           "url": "https://www.worldcoffeeportal.com/news/cafe-amazon-approaches-5-000-stores-in-thailand-as-future-in-cambodia-hangs-in-the-balance/",
           "publisher": "World Coffee Portal",
@@ -3790,22 +3823,13 @@
           "section": "Roasting & retail"
         },
         {
-          "headline": "Hey Chat, Help Me Dial in: How AI Is Dividing Home Brewers",
-          "summary": "AI has become a flashpoint in online coffee forums, where home brewers are divided on using it as a learning partner in an industry built on human craft. The post Hey Chat, Help Me Dial in: How AI Is Dividing Home Brewers appeared first on Fresh Cup .",
-          "url": "https://freshcup.com/hey-chat-help-me-dial-in-how-ai-is-dividing-home-brewers/",
-          "publisher": "Fresh Cup",
-          "published": "Wed, 04 Nov 2026 13:15:00 +0000",
-          "date": "Wed, 4 Nov",
-          "section": "Roasting & retail"
-        },
-        {
           "headline": "Keurig and Luckin Report Growth Amid Coffee Market Shifts",
           "summary": "Two of the world’s largest coffee companies, Keurig Dr Pepper and Luckin Coffee, reported quarterly financial results today, Nov. 3, revealing strong overall growth alongside noticeable challenges in key parts...",
           "url": "https://dailycoffeenews.com/2026/11/03/keurig-and-luckin-report-growth-amid-coffee-market-shifts/",
           "publisher": "Daily Coffee News",
           "published": "Tue, 03 Nov 2026 20:26:12 +0000",
           "date": "Tue, 3 Nov",
-          "section": "Top stories of the week"
+          "section": "Trade & production"
         },
         {
           "headline": "Diedrich Caps Roaster Line Transition with New DR-140",
@@ -3826,13 +3850,13 @@
       "note": "Assembled from the coffee trade press over the past seven days, ranked by relevance to the physical trade. Headlines and links are each publisher’s own."
     },
     "dailyRead": {
-      "fetchedAt": "2026-11-06T13:34:40.481Z",
+      "fetchedAt": "2026-11-06T23:25:13.381Z",
       "article": {
-        "title": "Researchers Challenge the Climate-Resilient Robusta Narrative",
-        "summary": "A major new literature review challenges the popular assumption that robusta offers a climate-resilient solution for sustaining global coffee production as climate change continues to disrupt the arabica landscape. Led...",
-        "url": "https://dailycoffeenews.com/2026/11/05/researchers-challenge-the-climate-resilient-robusta-narrative/",
+        "title": "Weekly Coffee News: Costa Rica Harvest Concerns + Restoring Iconic Coffee Sign",
+        "summary": "Welcome to DCN’s Weekly Coffee News! Subscribe here for all the latest coffee industry news. Also, check out the latest career opportunities at CoffeeIndustryJobs.com. El Niño Prompts Lower Harvest Estimates...",
+        "url": "https://dailycoffeenews.com/2026/11/06/weekly-coffee-news-costa-rica-harvest-concerns-restoring-iconic-coffee-sign/",
         "publisher": "Daily Coffee News",
-        "published": "Thu, 05 Nov 2026 15:24:30 +0000"
+        "published": "Fri, 06 Nov 2026 13:10:22 +0000"
       },
       "considered": 10
     }
@@ -4154,32 +4178,32 @@
     {
       "source": "daily-read",
       "ok": true,
-      "ms": 159
-    },
-    {
-      "source": "arabica-futures",
-      "ok": true,
-      "ms": 735
+      "ms": 320
     },
     {
       "source": "weather",
       "ok": true,
-      "ms": 757
+      "ms": 515
     },
     {
-      "source": "weekly-recap",
+      "source": "arabica-futures",
       "ok": true,
-      "ms": 2187
+      "ms": 697
     },
     {
       "source": "fx",
       "ok": true,
-      "ms": 2513
+      "ms": 1418
+    },
+    {
+      "source": "weekly-recap",
+      "ok": true,
+      "ms": 1787
     },
     {
       "source": "origin-wire",
       "ok": true,
-      "ms": 2658
+      "ms": 2456
     },
     {
       "source": "ico-report",

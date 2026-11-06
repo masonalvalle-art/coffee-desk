@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T23:48:07.583Z",
+  "generatedAt": "2026-11-06T13:35:30.931Z",
   "schema": 5,
   "schedule": {
     "slotsUtc": [
@@ -26,8 +26,8 @@
       "frontMonth": {
         "code": "KCZ26",
         "label": "Dec 2026",
-        "close": 277.4,
-        "volume": 15946
+        "close": 279.45,
+        "volume": 7181
       },
       "rolled": false,
       "mostActive": "KCZ26",
@@ -35,66 +35,58 @@
         {
           "code": "KCZ26",
           "label": "Dec 2026",
-          "close": 277.4,
-          "volume": 15946
+          "close": 279.45,
+          "volume": 7181
         },
         {
           "code": "KCH27",
           "label": "Mar 2027",
-          "close": 269.3,
-          "volume": 14461
+          "close": 270.95,
+          "volume": 5034
         },
         {
           "code": "KCK27",
           "label": "May 2027",
-          "close": 265.65,
-          "volume": 4318
+          "close": 267.25,
+          "volume": 2238
         },
         {
           "code": "KCN27",
           "label": "Jul 2027",
-          "close": 262.95,
-          "volume": 1856
+          "close": 264.7,
+          "volume": 775
         },
         {
           "code": "KCU27",
           "label": "Sep 2027",
-          "close": 260.7,
-          "volume": 677
+          "close": 262.25,
+          "volume": 170
         },
         {
           "code": "KCZ27",
           "label": "Dec 2027",
-          "close": 257.4,
-          "volume": 183
+          "close": 259.25,
+          "volume": 60
         },
         {
           "code": "KCH28",
           "label": "Mar 2028",
-          "close": 254.55,
-          "volume": 109
+          "close": 255.4,
+          "volume": 28
         }
       ],
       "quote": {
-        "last": 269.3,
-        "open": 272.25,
-        "high": 274.95001220703125,
-        "low": 268.54998779296875,
-        "previousClose": 270.8999938964844,
-        "change": -1.6,
-        "changePct": -0.591,
-        "volume": 14461,
-        "asOf": "2026-11-05T18:29:56.000Z"
+        "last": 270.45,
+        "open": 269.8999938964844,
+        "high": 270.75,
+        "low": 268.1000061035156,
+        "previousClose": 269.25,
+        "change": 1.2,
+        "changePct": 0.446,
+        "volume": 4632,
+        "asOf": "2026-11-06T13:14:35.000Z"
       },
       "bars": [
-        {
-          "date": "2025-07-31",
-          "open": 260.45001220703125,
-          "high": 263.8500061035156,
-          "low": 260.45001220703125,
-          "close": 260.5,
-          "volume": 145
-        },
         {
           "date": "2025-08-01",
           "open": 256.45001220703125,
@@ -2637,22 +2629,30 @@
           "high": 276.79998779296875,
           "low": 269.1000061035156,
           "close": 270.8999938964844,
-          "volume": 14220
+          "volume": 16541
         },
         {
           "date": "2026-11-05",
           "open": 272.25,
           "high": 274.95001220703125,
           "low": 268.54998779296875,
-          "close": 269.29998779296875,
-          "volume": 14461
+          "close": 269.25,
+          "volume": 16541
+        },
+        {
+          "date": "2026-11-06",
+          "open": 269.8999938964844,
+          "high": 270.75,
+          "low": 268.1000061035156,
+          "close": 270.45001220703125,
+          "volume": 4632
         }
       ],
       "crossCheck": {
-        "tradingView": 269.3,
-        "yahoo": 269.3,
-        "diff": 0,
-        "diffPct": 0,
+        "tradingView": 270.95,
+        "yahoo": 270.45,
+        "diff": 0.5,
+        "diffPct": 0.185,
         "agree": true
       },
       "sources": [
@@ -2669,23 +2669,27 @@
       ],
       "technicals": {
         "observations": 504,
-        "sma20": 285.17749938964846,
-        "sma50": 282.8909991455078,
-        "sma200": 278.1424996948242,
-        "rsi14": 37.211395781986376,
+        "sma20": 284.70750122070314,
+        "sma50": 282.3329998779297,
+        "sma200": 277.9444998168945,
+        "rsi14": 38.59589167402,
         "macd": {
-          "line": -3.446560160389879,
-          "signal": -1.1328733894159124,
-          "histogram": -2.3136867709739666
+          "line": -3.876555517984002,
+          "signal": -1.6822478359628699,
+          "histogram": -2.1943076820211322
         },
-        "atr14": 9.039512672499182,
+        "atr14": 8.58311847421241,
         "donchian20": {
           "high": 304.45001220703125,
-          "low": 268.54998779296875,
+          "low": 268.1000061035156,
           "period": 20
         },
         "levels": {
           "support": [
+            {
+              "price": 270,
+              "date": "2026-02-06"
+            },
             {
               "price": 268.20001220703125,
               "date": "2025-04-07"
@@ -2693,10 +2697,6 @@
             {
               "price": 262.6000061035156,
               "date": "2026-09-23"
-            },
-            {
-              "price": 261.1000061035156,
-              "date": "2026-03-16"
             }
           ],
           "resistance": [
@@ -2716,7 +2716,7 @@
         },
         "fiftyTwoWeek": {
           "high": 340.29998779296875,
-          "low": 213.5
+          "low": 213.9499969482422
         },
         "method": "Wilder RSI(14); MACD(12,26,9) on EMA; ATR(14); pivots = 5-bar swing highs/lows; Donchian(20).",
         "basis": "504 daily bars for KCH27"
@@ -3252,7 +3252,7 @@
     ]
   },
   "weather": {
-    "fetchedAt": "2026-11-05T23:48:04.790Z",
+    "fetchedAt": "2026-11-06T13:34:41.071Z",
     "thresholds": {
       "frostC": 4,
       "heavyRainMm": 50,
@@ -3277,19 +3277,19 @@
         "lat": -21.55,
         "lon": -45.43,
         "current": {
-          "date": "2026-11-04",
-          "tMax": 30.5,
-          "tMin": 17.8,
-          "rain": 0.2,
-          "code": 51,
-          "cloud": 43,
+          "date": "2026-11-05",
+          "tMax": 29.9,
+          "tMin": 19.7,
+          "rain": 3.6,
+          "code": 95,
+          "cloud": 97,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 111.2,
-        "rainForecast7": 34.7,
-        "minForecast7": 13.6,
+        "rain14": 110.4,
+        "rainForecast7": 39.6,
+        "minForecast7": 13.5,
         "alerts": []
       },
       {
@@ -3300,19 +3300,19 @@
         "lat": -18.94,
         "lon": -46.99,
         "current": {
-          "date": "2026-11-04",
-          "tMax": 30.4,
-          "tMin": 20.1,
-          "rain": 0.6,
-          "code": 51,
-          "cloud": 50,
+          "date": "2026-11-05",
+          "tMax": 29,
+          "tMin": 19.8,
+          "rain": 3.8,
+          "code": 95,
+          "cloud": 91,
           "observed": true
         },
-        "condition": "dry",
-        "conditionLabel": "Clear / dry",
-        "rain14": 92.1,
-        "rainForecast7": 40.5,
-        "minForecast7": 16.4,
+        "condition": "very-wet",
+        "conditionLabel": "Very wet",
+        "rain14": 93.6,
+        "rainForecast7": 28.4,
+        "minForecast7": 16.1,
         "alerts": []
       },
       {
@@ -3323,19 +3323,19 @@
         "lat": -19.39,
         "lon": -40.07,
         "current": {
-          "date": "2026-11-04",
-          "tMax": 33.5,
-          "tMin": 23.2,
-          "rain": 1.6,
-          "code": 53,
-          "cloud": 43,
+          "date": "2026-11-05",
+          "tMax": 34.8,
+          "tMin": 24.6,
+          "rain": 0,
+          "code": 3,
+          "cloud": 72,
           "observed": true
         },
-        "condition": "wet",
-        "conditionLabel": "Wet",
-        "rain14": 73.8,
-        "rainForecast7": 32.9,
-        "minForecast7": 20.2,
+        "condition": "cloudy",
+        "conditionLabel": "Cloudy",
+        "rain14": 71.5,
+        "rainForecast7": 44.5,
+        "minForecast7": 20.4,
         "alerts": []
       },
       {
@@ -3346,19 +3346,19 @@
         "lat": 12.68,
         "lon": 108.05,
         "current": {
-          "date": "2026-11-04",
-          "tMax": 31.2,
-          "tMin": 22.6,
-          "rain": 0.5,
+          "date": "2026-11-05",
+          "tMax": 30.7,
+          "tMin": 21.9,
+          "rain": 0.3,
           "code": 51,
-          "cloud": 59,
+          "cloud": 41,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 16.5,
-        "rainForecast7": 6.1,
-        "minForecast7": 21.7,
+        "rain14": 16.8,
+        "rainForecast7": 4.1,
+        "minForecast7": 22,
         "alerts": []
       },
       {
@@ -3369,19 +3369,19 @@
         "lat": 11.55,
         "lon": 107.81,
         "current": {
-          "date": "2026-11-04",
-          "tMax": 29.1,
-          "tMin": 18.7,
-          "rain": 1.9,
-          "code": 53,
-          "cloud": 74,
+          "date": "2026-11-05",
+          "tMax": 28.9,
+          "tMin": 18.8,
+          "rain": 0,
+          "code": 45,
+          "cloud": 60,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
         "rain14": 45.7,
-        "rainForecast7": 43.7,
-        "minForecast7": 17.4,
+        "rainForecast7": 49.6,
+        "minForecast7": 17.8,
         "alerts": []
       },
       {
@@ -3392,19 +3392,19 @@
         "lat": 1.85,
         "lon": -76.05,
         "current": {
-          "date": "2026-11-04",
-          "tMax": 27.1,
-          "tMin": 18.1,
-          "rain": 3,
-          "code": 80,
-          "cloud": 96,
+          "date": "2026-11-05",
+          "tMax": 28.1,
+          "tMin": 17,
+          "rain": 8.5,
+          "code": 95,
+          "cloud": 89,
           "observed": true
         },
-        "condition": "wet",
-        "conditionLabel": "Wet",
-        "rain14": 61.5,
-        "rainForecast7": 23.8,
-        "minForecast7": 14.9,
+        "condition": "very-wet",
+        "conditionLabel": "Very wet",
+        "rain14": 69.8,
+        "rainForecast7": 22.9,
+        "minForecast7": 15.3,
         "alerts": []
       },
       {
@@ -3415,26 +3415,20 @@
         "lat": 6.25,
         "lon": -75.56,
         "current": {
-          "date": "2026-11-04",
-          "tMax": 25,
-          "tMin": 17.4,
-          "rain": 5.1,
-          "code": 55,
-          "cloud": 95,
+          "date": "2026-11-05",
+          "tMax": 27.9,
+          "tMin": 16.3,
+          "rain": 13.5,
+          "code": 81,
+          "cloud": 81,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 117.6,
-        "rainForecast7": 54.1,
-        "minForecast7": 16.3,
-        "alerts": [
-          {
-            "type": "wet",
-            "severity": "watch",
-            "text": "54 mm forecast over 7 days — harvest/drying disruption risk."
-          }
-        ]
+        "rain14": 121.5,
+        "rainForecast7": 48.2,
+        "minForecast7": 17.1,
+        "alerts": []
       },
       {
         "key": "gayo",
@@ -3444,24 +3438,24 @@
         "lat": 4.63,
         "lon": 96.85,
         "current": {
-          "date": "2026-11-04",
-          "tMax": 24.2,
-          "tMin": 17.5,
-          "rain": 13.4,
-          "code": 81,
-          "cloud": 87,
+          "date": "2026-11-05",
+          "tMax": 24.5,
+          "tMin": 16.8,
+          "rain": 3.3,
+          "code": 53,
+          "cloud": 98,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 147.3,
-        "rainForecast7": 76.4,
+        "rain14": 150.6,
+        "rainForecast7": 65.6,
         "minForecast7": 16.2,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "76 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "66 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3473,18 +3467,18 @@
         "lat": -5.45,
         "lon": 105.27,
         "current": {
-          "date": "2026-11-04",
-          "tMax": 30.6,
-          "tMin": 26.5,
-          "rain": 8,
-          "code": 80,
-          "cloud": 94,
+          "date": "2026-11-05",
+          "tMax": 31.4,
+          "tMin": 26,
+          "rain": 3.4,
+          "code": 53,
+          "cloud": 76,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 56.3,
-        "rainForecast7": 21.6,
+        "rain14": 59.7,
+        "rainForecast7": 15.2,
         "minForecast7": 24.9,
         "alerts": []
       },
@@ -3496,19 +3490,19 @@
         "lat": 7.67,
         "lon": 36.83,
         "current": {
-          "date": "2026-11-04",
-          "tMax": 25.2,
+          "date": "2026-11-05",
+          "tMax": 25,
           "tMin": 12.8,
           "rain": 0,
           "code": 3,
-          "cloud": 29,
+          "cloud": 45,
           "observed": true
         },
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
         "rain14": 56.2,
-        "rainForecast7": 43.8,
-        "minForecast7": 12.8,
+        "rainForecast7": 29.8,
+        "minForecast7": 13.1,
         "alerts": []
       },
       {
@@ -3519,19 +3513,19 @@
         "lat": 14.16,
         "lon": -88.02,
         "current": {
-          "date": "2026-11-04",
-          "tMax": 26,
-          "tMin": 15.4,
-          "rain": 0.3,
+          "date": "2026-11-05",
+          "tMax": 26.8,
+          "tMin": 17.1,
+          "rain": 1.1,
           "code": 51,
-          "cloud": 83,
+          "cloud": 93,
           "observed": true
         },
-        "condition": "wet",
-        "conditionLabel": "Wet",
-        "rain14": 18.9,
-        "rainForecast7": 26.8,
-        "minForecast7": 14.2,
+        "condition": "cloudy",
+        "conditionLabel": "Cloudy",
+        "rain14": 19.3,
+        "rainForecast7": 20.5,
+        "minForecast7": 15.7,
         "alerts": []
       },
       {
@@ -3542,20 +3536,26 @@
         "lat": -11.05,
         "lon": -75.33,
         "current": {
-          "date": "2026-11-04",
-          "tMax": 32.9,
-          "tMin": 20.7,
-          "rain": 0.4,
-          "code": 51,
-          "cloud": 81,
+          "date": "2026-11-05",
+          "tMax": 31.7,
+          "tMin": 19.9,
+          "rain": 6.4,
+          "code": 95,
+          "cloud": 61,
           "observed": true
         },
-        "condition": "wet",
-        "conditionLabel": "Wet",
-        "rain14": 137,
-        "rainForecast7": 32.9,
-        "minForecast7": 18,
-        "alerts": []
+        "condition": "very-wet",
+        "conditionLabel": "Very wet",
+        "rain14": 134.3,
+        "rainForecast7": 55.8,
+        "minForecast7": 17.9,
+        "alerts": [
+          {
+            "type": "wet",
+            "severity": "watch",
+            "text": "56 mm forecast over 7 days — harvest/drying disruption risk."
+          }
+        ]
       }
     ],
     "sources": [
@@ -3568,32 +3568,32 @@
   },
   "news": {
     "originWire": {
-      "fetchedAt": "2026-11-05T23:48:06.465Z",
+      "fetchedAt": "2026-11-06T13:34:42.973Z",
       "lookbackHours": 504,
       "headlines": [
         {
-          "title": "Referee hands out record 53 red cards after chaos at under-20s game in Brazil",
-          "summary": "Sendings-off include 43 players and two board members Goal celebration is said to have sparked brawl An under-20s match in the Brazilian state of Minas Gerais descended into chaos, with the referee handing out a record 53 red cards after a brawl. The incident…",
-          "url": "https://www.theguardian.com/football/2026/nov/05/record-53-red-cards-brazil-referee",
+          "title": "Flávio Bolsonaro battles to remain relevant as he speaks at rightwing conference at Mar-a-Lago",
+          "summary": "Far-right politician addresses Conservative Political Action Conference and makes unsubstantiated claims about election fraud Flávio Bolsonaro, the far-right politician who lost Brazil’s presidential election last month, has insisted his defeat is not “the…",
+          "url": "https://www.theguardian.com/world/2026/nov/06/flavio-bolsonaro-upbeat-brazil-election-us",
           "publisher": "The Guardian",
           "region": "Brazil",
-          "published": "Thu, 05 Nov 2026 11:03:25 GMT"
+          "published": "Fri, 06 Nov 2026 13:03:38 GMT"
         },
         {
-          "title": "China buys 96% of Vietnam’s durian exports",
-          "summary": "China accounted for nearly 96% of Vietnam’s durian exports in the first nine months of the year, leaving the industry with virtually no alternative market.",
-          "url": "https://e.vnexpress.net/news/business/economy/china-buys-96-of-vietnam-s-durian-exports-5141054.html",
+          "title": "Students recount moments of panic as fire engulfs Hanoi school, killing one",
+          "summary": "Vy, a seventh-grader at Kim Lien Secondary School, was studying for her midterm exam when she smelled something burning and was startled to hear her teacher and a security guard shouting: “Fire! Everyone evacuate!”",
+          "url": "https://e.vnexpress.net/news/news/students-recount-moments-of-panic-as-fire-engulfs-hanoi-school-killing-one-5141651.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Fri, 06 Nov 2026 06:08:23 +0700"
+          "published": "Fri, 06 Nov 2026 18:05:41 +0700"
         },
         {
-          "title": "Southeast Asia's largest economy will not export electricity to Singapore without fair price",
-          "summary": "Indonesia will not export electricity to Singapore unless the two countries agree on a suitable price, an official has said, casting doubt on plans to supply up to 3.4 gigawatts of low-carbon electricity to the city-state.",
-          "url": "https://e.vnexpress.net/news/business/economy/southeast-asia-s-largest-economy-will-not-export-electricity-to-singapore-without-fair-price-5140557.html",
-          "publisher": "VnExpress International",
+          "title": "What to know about the presidential wiretapping scandal rocking Indonesia",
+          "summary": "The scandal involves senior members of President Prabowo Subianto's government, and hint at growing tensions among its elites.",
+          "url": "https://www.bbc.co.uk/news/articles/cwkg55155mrro?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
           "region": "Indonesia",
-          "published": "Wed, 04 Nov 2026 11:39:16 +0700"
+          "published": "Fri, 06 Nov 2026 10:10:38 GMT"
         },
         {
           "title": "Baby among four killed in bomb attack in western Colombia, official says",
@@ -3609,39 +3609,39 @@
           "url": "https://www.theguardian.com/world/2026/nov/05/paraguay-president-santiago-pena-resigns",
           "publisher": "The Guardian",
           "region": "South & Central America",
-          "published": "Thu, 05 Nov 2026 18:48:07 GMT"
+          "published": "Fri, 06 Nov 2026 06:16:22 GMT"
         },
         {
-          "title": "Kenyan pharmacists warn against viral craze of using allergy drug for vaginal tightening",
-          "summary": "Women who have already tried inserting the tablets are advised to stop and seek medical attention if needed.",
-          "url": "https://www.bbc.co.uk/news/articles/cm1dwl13zge7o?at_medium=RSS&amp;at_campaign=rss",
+          "title": "Kenyan doomsday cult leader given life sentence for murdering 191 people",
+          "summary": "Paul Mackenzie ordered his followers to starve their children to death in a forest so they could \"meet Jesus\".",
+          "url": "https://www.bbc.co.uk/news/articles/cm5yne5984l0o?at_medium=RSS&amp;at_campaign=rss",
           "publisher": "BBC News",
           "region": "East Africa",
-          "published": "Thu, 05 Nov 2026 11:23:22 GMT"
+          "published": "Fri, 06 Nov 2026 12:54:04 GMT"
         },
         {
-          "title": "How elderly ‘unsung heroes’ powered Lula’s historic fightback in Brazil",
-          "summary": "Older voters praised for helping tip balance in leftwing president’s favour against far-right Flávio Bolsonaro in runoff It had been nearly a decade since Celia de Oliveira Soares last voted, and months since the 101-year-old great-grandmother last left her…",
-          "url": "https://www.theguardian.com/world/2026/nov/05/unsung-heroes-behind-lula-surprise-election-triumph-brazil-runoff-bolsonaro",
+          "title": "Referee hands out record 53 red cards after chaos at under-20s game in Brazil",
+          "summary": "Sendings-off include 43 players and two board members Goal celebration is said to have sparked brawl An under-20s match in the Brazilian state of Minas Gerais descended into chaos, with the referee handing out a record 53 red cards after a brawl. The incident…",
+          "url": "https://www.theguardian.com/football/2026/nov/05/record-53-red-cards-brazil-referee",
           "publisher": "The Guardian",
           "region": "Brazil",
-          "published": "Thu, 05 Nov 2026 11:00:21 GMT"
+          "published": "Thu, 05 Nov 2026 11:03:25 GMT"
         },
         {
-          "title": "Korean men marry Japanese women in record number as K-culture's pull in Japan grows",
-          "summary": "Marriages between South Korean men and Japanese women rose 25.8% to a record 1,494 in 2025, even as unions with brides from Vietnam, China and Thailand declined, government data shows.",
-          "url": "https://e.vnexpress.net/news/news/korean-men-marry-japanese-women-in-record-number-as-k-culture-s-pull-in-japan-grows-5141293.html",
+          "title": "Vietnam's top leader calls for preparations to study comprehensive constitutional amendments",
+          "summary": "Vietnam's Party General Secretary and President To Lam has called for a thorough review of the 2013 Constitution's implementation to provide a basis for studying and proposing comprehensive amendments.",
+          "url": "https://e.vnexpress.net/news/news/politics/vietnam-s-top-leader-calls-for-preparations-to-study-comprehensive-constitutional-amendments-5141575.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Thu, 05 Nov 2026 19:32:13 +0700"
+          "published": "Fri, 06 Nov 2026 15:42:30 +0700"
         },
         {
-          "title": "Director at unit of Indonesia richest family's bank makes Forbes Asia's Power Businesswomen list",
-          "summary": "Lanny Budiati, president director of BCA Digital, a subsidiary of Bank Central Asia, which is controlled by the billionaire Hartono family, has been named to Forbes Asia's Power Businesswomen 2026 list.",
-          "url": "https://e.vnexpress.net/news/business/companies/director-at-unit-of-indonesia-richest-family-s-bank-makes-forbes-asia-s-power-businesswomen-list-5140584.html",
+          "title": "Southeast Asia's largest economy records higher-than-expected 5.47% GDP growth in Q3",
+          "summary": "Indonesia's economy expanded by 5.47% in the third quarter, exceeding expectations as higher net exports of goods and services and steady household spending supported growth.",
+          "url": "https://e.vnexpress.net/news/business/economy/southeast-asia-s-largest-economy-records-higher-than-expected-5-47-gdp-growth-in-q3-5141214.html",
           "publisher": "VnExpress International",
           "region": "Indonesia",
-          "published": "Wed, 04 Nov 2026 11:38:59 +0700"
+          "published": "Fri, 06 Nov 2026 16:24:59 +0700"
         },
         {
           "title": "Pablo Escobar tried to bomb me in Bogotá. To stop the cartels infiltrating Europe, we should legalise cocaine | Letter",
@@ -3652,36 +3652,36 @@
           "published": "Tue, 27 Oct 2026 17:55:04 GMT"
         },
         {
-          "title": "Paraguay President Santiago Peña resigns after bank collapse",
-          "summary": "The move follows a bank collapse and after the lower house of congress voted in favour of pursuing an impeachment trial against him.",
-          "url": "https://www.bbc.co.uk/news/articles/c6p9g39vln3yo?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
+          "title": "Peru airport officials seize over 3,000 tarantulas hidden in socks – video",
+          "summary": "Peruvian authorities seized more than 3,000 tarantulas hidden inside socks packed in the suitcases of three people heading on a flight to Germany, the National Forestry and Wildlife Service said. Each case had between 15 and 22 socks, with each sock…",
+          "url": "https://www.theguardian.com/world/video/2026/nov/06/peru-airport-officials-seize-over-3000-tarantulas-hidden-in-socks-video",
+          "publisher": "The Guardian",
           "region": "South & Central America",
-          "published": "Thu, 05 Nov 2026 17:40:40 GMT"
+          "published": "Fri, 06 Nov 2026 03:22:37 GMT"
         },
         {
-          "title": "Rwanda's army team removed from Africa league after US sanctions, NBA says",
-          "summary": "The US imposed sanctions on Rwanda's army over its role in the conflict in DR Congo.",
-          "url": "https://www.bbc.co.uk/news/articles/c699zdx9knmpo?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
+          "title": "Kenyan court sentences starvation cult leader to 200 years",
+          "summary": "Paul Mackenzie and accomplices were convicted of murdering 190 children and one adult.",
+          "url": "https://www.aljazeera.com/news/2026/11/6/kenyan-court-sentences-starvation-cult-leader-to-200-years?traffic_source=rss",
+          "publisher": "Al Jazeera",
           "region": "East Africa",
-          "published": "Wed, 04 Nov 2026 11:46:09 GMT"
+          "published": "Fri, 06 Nov 2026 12:50:24 +0000"
         },
         {
-          "title": "Brazil publishes first global ‘roadmap’ for phasing out fossil fuels",
-          "summary": "Cop30 host sets out steps to break link with coal, oil and gas as it aims to move focus from negotiating to implementing All countries can start to break their dependence on fossil fuels now without needing to wait for new technologies or economic changes…",
-          "url": "https://www.theguardian.com/environment/2026/nov/03/brazil-first-global-roadmap-phasing-out-fossil-fuels",
+          "title": "How elderly ‘unsung heroes’ powered Lula’s historic fightback in Brazil",
+          "summary": "Older voters praised for helping tip balance in leftwing president’s favour against far-right Flávio Bolsonaro in runoff It had been nearly a decade since Celia de Oliveira Soares last voted, and months since the 101-year-old great-grandmother last left her…",
+          "url": "https://www.theguardian.com/world/2026/nov/05/unsung-heroes-behind-lula-surprise-election-triumph-brazil-runoff-bolsonaro",
           "publisher": "The Guardian",
           "region": "Brazil",
-          "published": "Tue, 03 Nov 2026 13:00:07 GMT"
+          "published": "Thu, 05 Nov 2026 11:00:21 GMT"
         },
         {
-          "title": "Vietnam's Da Lat eyes over 100 km of electric rail linking airport and top attractions",
-          "summary": "A consultant has proposed six electric rail lines totaling more than 100 km to link central Da Lat with Lien Khuong Airport and major tourist sites, in a draft urban plan for the highland city.",
-          "url": "https://e.vnexpress.net/news/news/traffic/vietnam-s-da-lat-eyes-over-100-km-of-electric-rail-linking-airport-and-top-attractions-5141291.html",
+          "title": "Sixth-grade student killed in fire at Hanoi school",
+          "summary": "The victim who died in a fire at Hanoi's Kim Lien Secondary School on Thursday was a sixth-grade student at the school.",
+          "url": "https://e.vnexpress.net/news/news/sixth-grade-student-killed-in-fire-at-hanoi-school-5141579.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Thu, 05 Nov 2026 19:31:51 +0700"
+          "published": "Fri, 06 Nov 2026 14:54:35 +0700"
         }
       ],
       "totalTagged": 108,
@@ -3691,7 +3691,7 @@
     },
     "roundup": {
       "source": "assembled",
-      "fetchedAt": "2026-11-05T23:48:05.691Z",
+      "fetchedAt": "2026-11-06T13:34:42.505Z",
       "windowDays": 7,
       "publishers": [
         "Daily Coffee News",
@@ -3699,6 +3699,24 @@
         "World Coffee Portal"
       ],
       "items": [
+        {
+          "headline": "Nepal’s Ilam Tea Is Ready To Tell Its Own Story",
+          "summary": "Without Darjeeling’s name recognition, smallholders in Nepal’s Ilam district and abroad are building a reputation. The post Nepal’s Ilam Tea Is Ready To Tell Its Own Story appeared first on Fresh Cup .",
+          "url": "https://freshcup.com/nepals-ilam-tea-is-ready-to-tell-its-own-story/",
+          "publisher": "Fresh Cup",
+          "published": "Fri, 06 Nov 2026 12:45:00 +0000",
+          "date": "Fri, 6 Nov",
+          "section": "Top stories of the week"
+        },
+        {
+          "headline": "Café Amazon approaches 5,000 stores in Thailand as future in Cambodia hangs in the balance",
+          "summary": "Parent company PTT OR is scaling back its business in neighbouring Cambodia amid a simmering border dispute and ongoing consumer boycotts",
+          "url": "https://www.worldcoffeeportal.com/news/cafe-amazon-approaches-5-000-stores-in-thailand-as-future-in-cambodia-hangs-in-the-balance/",
+          "publisher": "World Coffee Portal",
+          "published": "Fri, 06 Nov 2026 12:24:02 GMT",
+          "date": "Fri, 6 Nov",
+          "section": "Top stories of the week"
+        },
         {
           "headline": "Colombia’s Libertario Coffee bets big on India’s specialty coffee boom",
           "summary": "The Bogotá-based group, which launched in India last year, is one of just a handful of international specialty coffee operators in the South Asian market",
@@ -3733,7 +3751,7 @@
           "publisher": "Daily Coffee News",
           "published": "Thu, 05 Nov 2026 14:16:24 +0000",
           "date": "Thu, 5 Nov",
-          "section": "Top stories of the week"
+          "section": "Trade & production"
         },
         {
           "headline": "George Howell Cafes Near Closed Starbucks Stores See Specialty Drink Sales Jump 30% to 35%",
@@ -3797,15 +3815,6 @@
           "published": "Tue, 03 Nov 2026 14:04:34 +0000",
           "date": "Tue, 3 Nov",
           "section": "Trade & production"
-        },
-        {
-          "headline": "How Coffee Carts and Caterers Price Gigs: 4 Operators Share Their Processes",
-          "summary": "Four coffee caterers explain how they quote events, with their methods checked against pricing data from 25,860 bookings. The post How Coffee Carts and Caterers Price Gigs: 4 Operators Share Their Processes appeared first on Fresh Cup .",
-          "url": "https://freshcup.com/how-coffee-carts-and-caterers-price-gigs-4-operators-share-their-processes/",
-          "publisher": "Fresh Cup",
-          "published": "Fri, 30 Oct 2026 11:57:00 +0000",
-          "date": "Fri, 30 Oct",
-          "section": "Top stories of the week"
         }
       ],
       "errors": [
@@ -3817,7 +3826,7 @@
       "note": "Assembled from the coffee trade press over the past seven days, ranked by relevance to the physical trade. Headlines and links are each publisher’s own."
     },
     "dailyRead": {
-      "fetchedAt": "2026-11-05T23:48:04.421Z",
+      "fetchedAt": "2026-11-06T13:34:40.481Z",
       "article": {
         "title": "Researchers Challenge the Climate-Resilient Robusta Narrative",
         "summary": "A major new literature review challenges the popular assumption that robusta offers a climate-resilient solution for sustaining global coffee production as climate change continues to disrupt the arabica landscape. Led...",
@@ -4143,40 +4152,40 @@
   },
   "status": [
     {
-      "source": "arabica-futures",
-      "ok": true,
-      "ms": 508
-    },
-    {
       "source": "daily-read",
       "ok": true,
-      "ms": 475
+      "ms": 159
+    },
+    {
+      "source": "arabica-futures",
+      "ok": true,
+      "ms": 735
     },
     {
       "source": "weather",
       "ok": true,
-      "ms": 852
-    },
-    {
-      "source": "fx",
-      "ok": true,
-      "ms": 1438
+      "ms": 757
     },
     {
       "source": "weekly-recap",
       "ok": true,
-      "ms": 1748
+      "ms": 2187
+    },
+    {
+      "source": "fx",
+      "ok": true,
+      "ms": 2513
     },
     {
       "source": "origin-wire",
       "ok": true,
-      "ms": 2526
+      "ms": 2658
     },
     {
       "source": "ico-report",
       "ok": false,
-      "ms": 3627,
-      "error": "Table 1 (indicator prices) not found"
+      "ms": 50603,
+      "error": "This operation was aborted"
     }
   ]
 }

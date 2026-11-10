@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T14:05:37.574Z",
+  "generatedAt": "2026-11-10T23:38:59.690Z",
   "schema": 5,
   "schedule": {
     "slotsUtc": [
@@ -26,8 +26,8 @@
       "frontMonth": {
         "code": "KCZ26",
         "label": "Dec 2026",
-        "close": 273.2,
-        "volume": 7264
+        "close": 272.2,
+        "volume": 18934
       },
       "rolled": false,
       "mostActive": "KCH27",
@@ -35,56 +35,56 @@
         {
           "code": "KCZ26",
           "label": "Dec 2026",
-          "close": 273.2,
-          "volume": 7264
+          "close": 272.2,
+          "volume": 18934
         },
         {
           "code": "KCH27",
           "label": "Mar 2027",
-          "close": 266.45,
-          "volume": 8131
+          "close": 266.75,
+          "volume": 21949
         },
         {
           "code": "KCK27",
           "label": "May 2027",
-          "close": 262.1,
-          "volume": 1726
+          "close": 262.2,
+          "volume": 5889
         },
         {
           "code": "KCN27",
           "label": "Jul 2027",
-          "close": 258.9,
-          "volume": 824
+          "close": 259,
+          "volume": 2763
         },
         {
           "code": "KCU27",
           "label": "Sep 2027",
-          "close": 256.1,
-          "volume": 265
+          "close": 256.3,
+          "volume": 891
         },
         {
           "code": "KCZ27",
           "label": "Dec 2027",
-          "close": 253.1,
-          "volume": 111
+          "close": 252.95,
+          "volume": 430
         },
         {
           "code": "KCH28",
           "label": "Mar 2028",
-          "close": 250.95,
-          "volume": 48
+          "close": 249.5,
+          "volume": 136
         }
       ],
       "quote": {
-        "last": 265.45,
+        "last": 266.75,
         "open": 267.79998779296875,
         "high": 269,
-        "low": 265.5,
+        "low": 265.29998779296875,
         "previousClose": 267.25,
-        "change": -1.8,
-        "changePct": -0.674,
-        "volume": 7823,
-        "asOf": "2026-11-10T13:45:11.000Z"
+        "change": -0.5,
+        "changePct": -0.187,
+        "volume": 21949,
+        "asOf": "2026-11-10T18:29:57.000Z"
       },
       "bars": [
         {
@@ -2643,16 +2643,16 @@
           "date": "2026-11-10",
           "open": 267.79998779296875,
           "high": 269,
-          "low": 265.5,
-          "close": 265.45001220703125,
-          "volume": 7823
+          "low": 265.29998779296875,
+          "close": 266.75,
+          "volume": 21949
         }
       ],
       "crossCheck": {
-        "tradingView": 266.45,
-        "yahoo": 265.45,
-        "diff": 1,
-        "diffPct": 0.377,
+        "tradingView": 266.75,
+        "yahoo": 266.75,
+        "diff": 0,
+        "diffPct": 0,
         "agree": true
       },
       "sources": [
@@ -2669,19 +2669,19 @@
       ],
       "technicals": {
         "observations": 503,
-        "sma20": 282.95250091552737,
-        "sma50": 281.0129998779297,
-        "sma200": 277.4732498168945,
-        "rsi14": 35.49506061176638,
+        "sma20": 283.01750030517576,
+        "sma50": 281.03899963378905,
+        "sma200": 277.47974975585936,
+        "rsi14": 36.39156963569797,
         "macd": {
-          "line": -4.8855328474695625,
-          "signal": -2.737093860168021,
-          "histogram": -2.1484389873015415
+          "line": -4.7818301175461215,
+          "signal": -2.716353314183333,
+          "histogram": -2.0654768033627886
         },
-        "atr14": 8.235134252672108,
+        "atr14": 8.249420838888627,
         "donchian20": {
           "high": 304.45001220703125,
-          "low": 265.5,
+          "low": 265.29998779296875,
           "period": 20
         },
         "levels": {
@@ -2726,22 +2726,18 @@
     }
   },
   "fx": {
-    "asOf": "2026-11-09",
+    "asOf": "2026-11-10",
     "pairs": {
       "GBPUSD": {
         "pair": "GBP/USD",
-        "rate": 1.3416,
-        "previous": 1.3385,
+        "rate": 1.3423,
+        "previous": 1.3416,
         "dp": 4,
         "note": "Sterling stronger means a dollar-priced contract costs a UK buyer less.",
-        "change": 0.0031,
-        "changePct": 0.232,
-        "change1m": 1.48,
+        "change": 0.0007,
+        "changePct": 0.052,
+        "change1m": 1.42,
         "history": [
-          {
-            "date": "2026-08-18",
-            "rate": 1.3526
-          },
           {
             "date": "2026-08-19",
             "rate": 1.3556
@@ -2977,23 +2973,23 @@
           {
             "date": "2026-11-09",
             "rate": 1.3416
+          },
+          {
+            "date": "2026-11-10",
+            "rate": 1.3423
           }
         ]
       },
       "USDBRL": {
         "pair": "USD/BRL",
-        "rate": 5.5167,
-        "previous": 5.5037,
+        "rate": 5.5517,
+        "previous": 5.5167,
         "dp": 4,
         "note": "A weaker real encourages Brazilian producer selling.",
-        "change": 0.013,
-        "changePct": 0.236,
-        "change1m": 10.22,
+        "change": 0.035,
+        "changePct": 0.634,
+        "change1m": 11.21,
         "history": [
-          {
-            "date": "2026-08-18",
-            "rate": 5.2074
-          },
           {
             "date": "2026-08-19",
             "rate": 5.2041
@@ -3229,14 +3225,18 @@
           {
             "date": "2026-11-09",
             "rate": 5.5167
+          },
+          {
+            "date": "2026-11-10",
+            "rate": 5.5517
           }
         ]
       }
     },
     "ptax": {
-      "buy": 5.514,
-      "sell": 5.5146,
-      "quotedAt": "2026-11-09 13:11:19.041465"
+      "buy": 5.5834,
+      "sell": 5.584,
+      "quotedAt": "2026-11-10 13:06:01.353639"
     },
     "sources": [
       {
@@ -3252,7 +3252,7 @@
     ]
   },
   "weather": {
-    "fetchedAt": "2026-11-10T14:05:36.202Z",
+    "fetchedAt": "2026-11-10T23:38:56.490Z",
     "thresholds": {
       "frostC": 4,
       "heavyRainMm": 50,
@@ -3288,7 +3288,7 @@
         "condition": "very-wet",
         "conditionLabel": "Very wet",
         "rain14": 79.8,
-        "rainForecast7": 22.6,
+        "rainForecast7": 16.1,
         "minForecast7": 13.7,
         "alerts": []
       },
@@ -3311,8 +3311,8 @@
         "condition": "very-wet",
         "conditionLabel": "Very wet",
         "rain14": 114.7,
-        "rainForecast7": 37,
-        "minForecast7": 16.7,
+        "rainForecast7": 31.3,
+        "minForecast7": 16.3,
         "alerts": []
       },
       {
@@ -3334,13 +3334,13 @@
         "condition": "very-wet",
         "conditionLabel": "Very wet",
         "rain14": 72.1,
-        "rainForecast7": 52.3,
-        "minForecast7": 19.1,
+        "rainForecast7": 76.9,
+        "minForecast7": 19.5,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "52 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "77 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3362,9 +3362,9 @@
         },
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
-        "rain14": 18.7,
-        "rainForecast7": 30.5,
-        "minForecast7": 22,
+        "rain14": 18.4,
+        "rainForecast7": 29.9,
+        "minForecast7": 22.1,
         "alerts": []
       },
       {
@@ -3385,9 +3385,9 @@
         },
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
-        "rain14": 49,
-        "rainForecast7": 49,
-        "minForecast7": 18.8,
+        "rain14": 38.2,
+        "rainForecast7": 42.2,
+        "minForecast7": 18.5,
         "alerts": []
       },
       {
@@ -3409,8 +3409,8 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 78.2,
-        "rainForecast7": 31.9,
-        "minForecast7": 15.3,
+        "rainForecast7": 22.6,
+        "minForecast7": 15.4,
         "alerts": []
       },
       {
@@ -3432,7 +3432,7 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 77,
-        "rainForecast7": 18,
+        "rainForecast7": 23.3,
         "minForecast7": 15.7,
         "alerts": []
       },
@@ -3454,14 +3454,14 @@
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 150.5,
-        "rainForecast7": 108,
-        "minForecast7": 16.1,
+        "rain14": 145.4,
+        "rainForecast7": 106.6,
+        "minForecast7": 16.5,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "108 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "107 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3484,7 +3484,7 @@
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
         "rain14": 55.4,
-        "rainForecast7": 47,
+        "rainForecast7": 47.5,
         "minForecast7": 24.5,
         "alerts": []
       },
@@ -3506,14 +3506,14 @@
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 39.7,
-        "rainForecast7": 60.7,
-        "minForecast7": 12.3,
+        "rain14": 28.2,
+        "rainForecast7": 84.9,
+        "minForecast7": 12.1,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "61 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "85 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3536,8 +3536,8 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 36.9,
-        "rainForecast7": 11.4,
-        "minForecast7": 14.2,
+        "rainForecast7": 9.6,
+        "minForecast7": 14.8,
         "alerts": []
       },
       {
@@ -3559,15 +3559,9 @@
         "condition": "very-wet",
         "conditionLabel": "Very wet",
         "rain14": 150.8,
-        "rainForecast7": 81.4,
-        "minForecast7": 19.5,
-        "alerts": [
-          {
-            "type": "wet",
-            "severity": "watch",
-            "text": "81 mm forecast over 7 days — harvest/drying disruption risk."
-          }
-        ]
+        "rainForecast7": 41.8,
+        "minForecast7": 19.8,
+        "alerts": []
       }
     ],
     "sources": [
@@ -3580,7 +3574,7 @@
   },
   "news": {
     "originWire": {
-      "fetchedAt": "2026-11-10T14:05:37.572Z",
+      "fetchedAt": "2026-11-10T23:38:58.905Z",
       "lookbackHours": 504,
       "headlines": [
         {
@@ -3592,60 +3586,12 @@
           "published": "Tue, 10 Nov 2026 18:00:00 +0700"
         },
         {
-          "title": "Vietnamese hospital receives Japanese cell therapy technology for cancer and chronic disease treatment",
-          "summary": "Tam Anh General Hospital has completed an exclusive technology transfer from Japan's Grandsoul Medical Group covering immune cell and stem cell technologies being explored for treatment of cancer and chronic diseases.",
-          "url": "https://e.vnexpress.net/news/news/vietnamese-hospital-receives-japanese-cell-therapy-technology-for-cancer-and-chronic-disease-treatment-5143056.html",
+          "title": "Flights forced to circle over central Vietnam as thunderstorms cut airport visibility to 350 m",
+          "summary": "Seventeen flights bound for Da Nang and Hue were forced to circle on Monday as thunderstorms cut visibility at the two central Vietnam airports.",
+          "url": "https://e.vnexpress.net/news/news/traffic/flights-forced-to-circle-over-central-vietnam-as-thunderstorms-cut-airport-visibility-to-350-m-5143141.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Tue, 10 Nov 2026 17:00:00 +0700"
-        },
-        {
-          "title": "Indonesia’s vice-president ‘intends to resign’ after qualifications questioned",
-          "summary": "Gibran Rakabuming Raka’s departure could deepen instability and end crucial alliance between his influential father Joko Widodo and President Prabowo Subianto",
-          "url": "https://www.ft.com/content/87f2dfb7-e8b5-4248-9eee-fa3527200fee?syn-25a6b1a6=1",
-          "publisher": "Financial Times",
-          "region": "Indonesia",
-          "published": "Tue, 10 Nov 2026 11:53:07 GMT"
-        },
-        {
-          "title": "Baby among four killed in bomb attack in western Colombia, official says",
-          "summary": "It is not yet clear who was behind the attack, which appears to have targeted a military base.",
-          "url": "https://www.bbc.co.uk/news/articles/cqn06n30l406o?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
-          "region": "Colombia",
-          "published": "Mon, 02 Nov 2026 15:08:56 GMT"
-        },
-        {
-          "title": "‘We said no, no, no, but they kept insisting’: the Paraguayan people battling a eucalyptus empire",
-          "summary": "It is Paraguay’s largest private investment but local people accuse a forestry giant of ignoring their contamination concerns over its vast plantation When Paracel arrived in Tacuarita, an Indigenous community of homes made from planks and plastic sheeting in…",
-          "url": "https://www.theguardian.com/global-development/2026/nov/10/investigation-pulp-company-paraguay-paracel-eucalyptus-plantation",
-          "publisher": "The Guardian",
-          "region": "South & Central America",
-          "published": "Tue, 10 Nov 2026 11:00:49 GMT"
-        },
-        {
-          "title": "Who is Jean Leonard Teganya, deported by US over Rwanda genocide claims?",
-          "summary": "Teganya, a former medical student, is accused of participating in the 1994 genocide against the Tutsi in Rwanda.",
-          "url": "https://www.aljazeera.com/news/2026/11/10/who-is-jean-leonard-teganya-deported-by-us-over-rwanda-genocide-claims?traffic_source=rss",
-          "publisher": "Al Jazeera",
-          "region": "East Africa",
-          "published": "Tue, 10 Nov 2026 13:54:35 +0000"
-        },
-        {
-          "title": "Election results in Brazil, Serbia, Israel and US renew faith in resilience of democracy",
-          "summary": "Four pivotal elections in past two weeks show power of grassroots activism to push back against authoritarianism A sequence of four pivotal elections over the past two weeks in disparate regions of the world has inflicted significant setbacks on authoritarian…",
-          "url": "https://www.theguardian.com/world/2026/nov/08/election-brazil-serbia-israel-and-us-resilience-democracy-grassroots-activism-authoritarianism",
-          "publisher": "The Guardian",
-          "region": "Brazil",
-          "published": "Sun, 08 Nov 2026 10:00:37 GMT"
-        },
-        {
-          "title": "HCMC plans logistics hub network across 10 locations",
-          "summary": "Ho Chi Minh City plans 10 logistics hubs to connect industrial zones with seaports, airports and regional transport routes, aiming to cut costs and improve freight movement.",
-          "url": "https://e.vnexpress.net/news/business/hcmc-plans-logistics-hub-network-across-10-locations-5142451.html",
-          "publisher": "VnExpress International",
-          "region": "Vietnam",
-          "published": "Tue, 10 Nov 2026 17:00:00 +0700"
+          "published": "Tue, 10 Nov 2026 23:08:37 +0700"
         },
         {
           "title": "One killed in Indonesia helicopter crash during firefighting operation",
@@ -3656,20 +3602,20 @@
           "published": "Mon, 09 Nov 2026 04:14:56 GMT"
         },
         {
-          "title": "Pablo Escobar tried to bomb me in Bogotá. To stop the cartels infiltrating Europe, we should legalise cocaine | Letter",
-          "summary": "Responding to a Guardian investigation into trafficking, former British ambassador to Colombia Keith Morris says the ‘war on drugs’ has failed I congratulate the Guardian on this investigation ( Latin American organised crime ‘may operate in 16 European…",
-          "url": "https://www.theguardian.com/world/2026/oct/27/pablo-escobar-tried-to-bomb-me-in-bogota-to-stop-the-cartels-infiltrating-europe-we-should-legalise-cocaine",
-          "publisher": "The Guardian",
+          "title": "Baby among four killed in bomb attack in western Colombia, official says",
+          "summary": "It is not yet clear who was behind the attack, which appears to have targeted a military base.",
+          "url": "https://www.bbc.co.uk/news/articles/cqn06n30l406o?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
           "region": "Colombia",
-          "published": "Tue, 27 Oct 2026 17:55:04 GMT"
+          "published": "Mon, 02 Nov 2026 15:08:56 GMT"
         },
         {
-          "title": "Millions fill Buenos Aires streets to welcome Pope Leo XIV",
-          "summary": "The Pope celebrated an outdoor Mass in Argentina's capital, the second stop on a 12-day tour of Latin America, just three weeks after having had surgery for lung cancer.",
-          "url": "https://www.bbc.co.uk/news/videos/cvp8g82pled5o?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
+          "title": "Salvadoran troops target Haitian gang, leaving 20 dead",
+          "summary": "Salvadoran troops backed the police operation ahead of the Haitian prime minister’s visit to El Salvador.",
+          "url": "https://www.aljazeera.com/news/2026/11/10/salvadoran-troops-target-haitian-gang-leaving-20-dead?traffic_source=rss",
+          "publisher": "Al Jazeera",
           "region": "South & Central America",
-          "published": "Mon, 09 Nov 2026 19:09:27 GMT"
+          "published": "Tue, 10 Nov 2026 20:22:21 +0000"
         },
         {
           "title": "Kenya seizes 454kg of meth in drug crackdown",
@@ -3680,6 +3626,54 @@
           "published": "Mon, 09 Nov 2026 15:00:17 GMT"
         },
         {
+          "title": "Election results in Brazil, Serbia, Israel and US renew faith in resilience of democracy",
+          "summary": "Four pivotal elections in past two weeks show power of grassroots activism to push back against authoritarianism A sequence of four pivotal elections over the past two weeks in disparate regions of the world has inflicted significant setbacks on authoritarian…",
+          "url": "https://www.theguardian.com/world/2026/nov/08/election-brazil-serbia-israel-and-us-resilience-democracy-grassroots-activism-authoritarianism",
+          "publisher": "The Guardian",
+          "region": "Brazil",
+          "published": "Sun, 08 Nov 2026 10:00:37 GMT"
+        },
+        {
+          "title": "Vietnamese hospital receives Japanese cell therapy technology for cancer and chronic disease treatment",
+          "summary": "Tam Anh General Hospital has completed an exclusive technology transfer from Japan's Grandsoul Medical Group covering immune cell and stem cell technologies being explored for treatment of cancer and chronic diseases.",
+          "url": "https://e.vnexpress.net/news/news/vietnamese-hospital-receives-japanese-cell-therapy-technology-for-cancer-and-chronic-disease-treatment-5143056.html",
+          "publisher": "VnExpress International",
+          "region": "Vietnam",
+          "published": "Tue, 10 Nov 2026 17:00:00 +0700"
+        },
+        {
+          "title": "‘I can’t bear it’: young family takes refuge in bedroom as choking haze engulfs Indonesian city",
+          "summary": "Mother tells of desperate efforts to keep her five-month-old son healthy as residents of Palangkaraya flock to clean-air ‘safe houses’ to escape toxic haze Every day in Palangkaraya starts with an air quality check. For people who can afford one, a handheld…",
+          "url": "https://www.theguardian.com/world/2026/nov/09/indonesia-air-pollution-toxic-haze-family-takes-refuge-in-bedroom",
+          "publisher": "The Guardian",
+          "region": "Indonesia",
+          "published": "Mon, 09 Nov 2026 04:05:24 GMT"
+        },
+        {
+          "title": "Pablo Escobar tried to bomb me in Bogotá. To stop the cartels infiltrating Europe, we should legalise cocaine | Letter",
+          "summary": "Responding to a Guardian investigation into trafficking, former British ambassador to Colombia Keith Morris says the ‘war on drugs’ has failed I congratulate the Guardian on this investigation ( Latin American organised crime ‘may operate in 16 European…",
+          "url": "https://www.theguardian.com/world/2026/oct/27/pablo-escobar-tried-to-bomb-me-in-bogota-to-stop-the-cartels-infiltrating-europe-we-should-legalise-cocaine",
+          "publisher": "The Guardian",
+          "region": "Colombia",
+          "published": "Tue, 27 Oct 2026 17:55:04 GMT"
+        },
+        {
+          "title": "Falkland Islanders face ‘devastating consequences’ if Argentina blocks oil project, says UK",
+          "summary": "Countries clash over Sea Lion project as Hamburg tribunal risks deepening sovereignty dispute The people of the Falkland Islands face “devastating consequences” if Argentina is successful in blocking development of its offshore oilfield, the attorney general…",
+          "url": "https://www.theguardian.com/world/2026/nov/10/uk-and-argentina-clash-over-falklands-oil-project-as-hamburg-tribunal-starts",
+          "publisher": "The Guardian",
+          "region": "South & Central America",
+          "published": "Tue, 10 Nov 2026 19:01:33 GMT"
+        },
+        {
+          "title": "The young Somali woman changing how the world sees Mogadishu",
+          "summary": "For some tourists, the contrast between Somalia's reputation and what they experience on the ground can be striking.",
+          "url": "https://www.bbc.co.uk/news/articles/cq0k0lg48705o?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
+          "region": "East Africa",
+          "published": "Sat, 07 Nov 2026 01:19:49 GMT"
+        },
+        {
           "title": "Flávio Bolsonaro battles to remain relevant as he speaks at rightwing conference at Mar-a-Lago",
           "summary": "Far-right politician addresses Conservative Political Action Conference and makes unsubstantiated claims about election fraud Flávio Bolsonaro, the far-right politician who lost Brazil’s presidential election last month, has insisted his defeat is not “the…",
           "url": "https://www.theguardian.com/world/2026/nov/06/flavio-bolsonaro-upbeat-brazil-election-us",
@@ -3688,30 +3682,65 @@
           "published": "Fri, 06 Nov 2026 13:03:38 GMT"
         },
         {
-          "title": "Vietnam requires schools to have at least one English-fluent leader",
-          "summary": "At least one principal or vice principal at general education schools must be fluent enough in English to communicate directly with foreigners, according to new criteria under Vietnam's push to make English a second language.",
-          "url": "https://e.vnexpress.net/news/news/education/vietnam-requires-schools-to-have-at-least-one-english-fluent-leader-5143011.html",
+          "title": "HCMC plans logistics hub network across 10 locations",
+          "summary": "Ho Chi Minh City plans 10 logistics hubs to connect industrial zones with seaports, airports and regional transport routes, aiming to cut costs and improve freight movement.",
+          "url": "https://e.vnexpress.net/news/business/hcmc-plans-logistics-hub-network-across-10-locations-5142451.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Tue, 10 Nov 2026 16:10:04 +0700"
+          "published": "Tue, 10 Nov 2026 17:00:00 +0700"
         }
       ],
-      "totalTagged": 108,
+      "totalTagged": 107,
       "feedsQueried": 14,
       "errors": [],
       "note": "General headlines from the growing regions, taken from outlets of record and tagged to a region by the countries and cities they name."
     },
     "roundup": {
       "source": "assembled",
-      "fetchedAt": "2026-11-10T14:05:36.808Z",
+      "fetchedAt": "2026-11-10T23:38:58.145Z",
       "windowDays": 7,
       "publishers": [
         "Daily Coffee News",
         "Fresh Cup",
-        "Specialty Coffee Association",
         "World Coffee Portal"
       ],
       "items": [
+        {
+          "headline": "GCP Reports Drop in Sustainable Purchasing Among Large Green Coffee Buyers",
+          "summary": "Approximately 69% of green coffee purchased by 14 major coffee roasters and retailers in 2025 met a recognized baseline sustainability standard, down from 75% the previous year, according to the...",
+          "url": "https://dailycoffeenews.com/2026/11/10/gcp-reports-drop-in-sustainable-purchasing-among-large-green-coffee-buyers/",
+          "publisher": "Daily Coffee News",
+          "published": "Tue, 10 Nov 2026 17:00:09 +0000",
+          "date": "Tue, 10 Nov",
+          "section": "Top stories of the week"
+        },
+        {
+          "headline": "Sales surge but Blue Tokai falls further into the red as expansion costs spiral",
+          "summary": "The Indian specialty coffee group has invested heavily in growth – but soaring operational costs are taking their toll",
+          "url": "https://www.worldcoffeeportal.com/news/sales-surge-but-blue-tokai-falls-further-into-the-red-as-expansion-costs-spiral/",
+          "publisher": "World Coffee Portal",
+          "published": "Tue, 10 Nov 2026 15:58:16 GMT",
+          "date": "Tue, 10 Nov",
+          "section": "Roasting & retail"
+        },
+        {
+          "headline": "Design Details: A Comic Manuscript Backdrop at LEBOM in Seoul",
+          "summary": "Welcome to Design Details, an ongoing editorial feature in Daily Coffee News focused on individual examples of coffee shop architecture, interior design, packaging design or branding. If you are a...",
+          "url": "https://dailycoffeenews.com/2026/11/10/design-details-a-comic-manuscript-backdrop-at-lebom-in-seoul/",
+          "publisher": "Daily Coffee News",
+          "published": "Tue, 10 Nov 2026 14:22:37 +0000",
+          "date": "Tue, 10 Nov",
+          "section": "Roasting & retail"
+        },
+        {
+          "headline": "Mexican Coffee Finds a Welcome Home at Casa Libre in Southern California",
+          "summary": "Specialty coffee is joining the celebration of Mexican food and culture inside the sprawling 70,000-square-foot Mercado González food hall and supermarket in Costa Mesa, California, with the opening of Casa...",
+          "url": "https://dailycoffeenews.com/2026/11/10/mexican-coffee-finds-a-welcome-home-at-casa-libre-in-southern-california/",
+          "publisher": "Daily Coffee News",
+          "published": "Tue, 10 Nov 2026 14:17:49 +0000",
+          "date": "Tue, 10 Nov",
+          "section": "Roasting & retail"
+        },
         {
           "headline": "Esquires Coffee’s UK and Ireland strategy is delivering results",
           "summary": "The Cooks Coffee-owned operator has sustained strong trading across its core markets ahead of launches in India and the Middle East",
@@ -3731,15 +3760,6 @@
           "section": "Roasting & retail"
         },
         {
-          "headline": "Coffee Decoded: Flat vs. Conical Coffee Filters: Does Basket Shape Change Taste?",
-          "summary": "Welcome to Coffee, Decoded, the Specialty Coffee Association’s weekly column on science, research, and all things coffee knowledge. PETER GIULIANO, the SCA's Senior Advisor for Scientific Communication dives into research about filter coffee: Does the shape…",
-          "url": "https://sca.coffee/sca-news/coffee-decoded-24-filter-basket-brewing-shape-flavor",
-          "publisher": "Specialty Coffee Association",
-          "published": "Mon, 09 Nov 2026 18:57:34 +0000",
-          "date": "Mon, 9 Nov",
-          "section": "Roasting & retail"
-        },
-        {
           "headline": "Brazil Study Field-Tests the Economics of Regenerative Coffee",
           "summary": "A new study of seven Brazilian coffee farms suggests that beyond significant environmental benefits, regenerative agriculture can be economically competitive while maintaining strong productivity. Led by the Brazil arm of...",
           "url": "https://dailycoffeenews.com/2026/11/09/brazil-study-field-tests-the-economics-of-regenerative-coffee/",
@@ -3747,24 +3767,6 @@
           "published": "Mon, 09 Nov 2026 16:43:29 +0000",
           "date": "Mon, 9 Nov",
           "section": "Trade & production"
-        },
-        {
-          "headline": "Design Details: Social Space for Specialty Coffee at MIKSI in Valencia, Spain",
-          "summary": "Welcome to Design Details, an ongoing editorial feature in Daily Coffee News focused on individual examples of coffee shop architecture, interior design, packaging design or branding. If you are a...",
-          "url": "https://dailycoffeenews.com/2026/11/09/design-details-social-space-for-specialty-coffee-at-miksi-in-valencia-spain/",
-          "publisher": "Daily Coffee News",
-          "published": "Mon, 09 Nov 2026 16:41:17 +0000",
-          "date": "Mon, 9 Nov",
-          "section": "Roasting & retail"
-        },
-        {
-          "headline": "Outside Rome, Artefact Combines Italian Baking Heritage with Modern Coffee",
-          "summary": "Approaching its third anniversary in Frascati, Italy, Artefact Specialty Coffee is part of a newer wave of coffee shops expanding the Italian coffee landscape while simultaneously acting as a culture-rich...",
-          "url": "https://dailycoffeenews.com/2026/11/09/outside-rome-artefact-combines-italian-baking-heritage-with-modern-coffee/",
-          "publisher": "Daily Coffee News",
-          "published": "Mon, 09 Nov 2026 13:43:31 +0000",
-          "date": "Mon, 9 Nov",
-          "section": "Roasting & retail"
         },
         {
           "headline": "Coffee News Club: November 9",
@@ -3812,15 +3814,6 @@
           "section": "Top stories of the week"
         },
         {
-          "headline": "Colombia’s Libertario Coffee bets big on India’s specialty coffee boom",
-          "summary": "The Bogotá-based group, which launched in India last year, is one of just a handful of international specialty coffee operators in the South Asian market",
-          "url": "https://www.worldcoffeeportal.com/news/colombias-libertario-coffee-bets-big-on-indias-specialty-coffee-boom/",
-          "publisher": "World Coffee Portal",
-          "published": "Thu, 05 Nov 2026 17:16:47 GMT",
-          "date": "Thu, 5 Nov",
-          "section": "Top stories of the week"
-        },
-        {
           "headline": "Researchers Challenge the Climate-Resilient Robusta Narrative",
           "summary": "A major new literature review challenges the popular assumption that robusta offers a climate-resilient solution for sustaining global coffee production as climate change continues to disrupt the arabica landscape. Led...",
           "url": "https://dailycoffeenews.com/2026/11/05/researchers-challenge-the-climate-resilient-robusta-narrative/",
@@ -3837,15 +3830,6 @@
           "published": "Thu, 05 Nov 2026 14:16:24 +0000",
           "date": "Thu, 5 Nov",
           "section": "Trade & production"
-        },
-        {
-          "headline": "Keurig and Luckin Report Growth Amid Coffee Market Shifts",
-          "summary": "Two of the world’s largest coffee companies, Keurig Dr Pepper and Luckin Coffee, reported quarterly financial results today, Nov. 3, revealing strong overall growth alongside noticeable challenges in key parts...",
-          "url": "https://dailycoffeenews.com/2026/11/03/keurig-and-luckin-report-growth-amid-coffee-market-shifts/",
-          "publisher": "Daily Coffee News",
-          "published": "Tue, 03 Nov 2026 20:26:12 +0000",
-          "date": "Tue, 3 Nov",
-          "section": "Trade & production"
         }
       ],
       "errors": [
@@ -3857,7 +3841,7 @@
       "note": "Assembled from the coffee trade press over the past seven days, ranked by relevance to the physical trade. Headlines and links are each publisher’s own."
     },
     "dailyRead": {
-      "fetchedAt": "2026-11-10T14:05:35.930Z",
+      "fetchedAt": "2026-11-10T23:38:56.597Z",
       "article": {
         "title": "Weekly Coffee News: Costa Rica Harvest Concerns + Restoring Iconic Coffee Sign",
         "summary": "Welcome to DCN’s Weekly Coffee News! Subscribe here for all the latest coffee industry news. Also, check out the latest career opportunities at CoffeeIndustryJobs.com. El Niño Prompts Lower Harvest Estimates...",
@@ -4183,40 +4167,40 @@
   },
   "status": [
     {
+      "source": "weather",
+      "ok": true,
+      "ms": 408
+    },
+    {
       "source": "daily-read",
       "ok": true,
-      "ms": 327
+      "ms": 507
     },
     {
       "source": "arabica-futures",
       "ok": true,
-      "ms": 415
-    },
-    {
-      "source": "weather",
-      "ok": true,
-      "ms": 608
-    },
-    {
-      "source": "weekly-recap",
-      "ok": true,
-      "ms": 1208
+      "ms": 692
     },
     {
       "source": "fx",
       "ok": true,
-      "ms": 1490
+      "ms": 1503
     },
     {
-      "source": "ico-report",
-      "ok": false,
-      "ms": 1831,
-      "error": "Table 1 (indicator prices) not found"
+      "source": "weekly-recap",
+      "ok": true,
+      "ms": 2058
     },
     {
       "source": "origin-wire",
       "ok": true,
-      "ms": 1976
+      "ms": 2822
+    },
+    {
+      "source": "ico-report",
+      "ok": false,
+      "ms": 3590,
+      "error": "Table 1 (indicator prices) not found"
     }
   ]
 }

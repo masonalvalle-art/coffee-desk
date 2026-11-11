@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T23:38:59.690Z",
+  "generatedAt": "2026-11-11T13:22:43.896Z",
   "schema": 5,
   "schedule": {
     "slotsUtc": [
@@ -26,8 +26,8 @@
       "frontMonth": {
         "code": "KCZ26",
         "label": "Dec 2026",
-        "close": 272.2,
-        "volume": 18934
+        "close": 269.8,
+        "volume": 8069
       },
       "rolled": false,
       "mostActive": "KCH27",
@@ -35,66 +35,58 @@
         {
           "code": "KCZ26",
           "label": "Dec 2026",
-          "close": 272.2,
-          "volume": 18934
+          "close": 269.8,
+          "volume": 8069
         },
         {
           "code": "KCH27",
           "label": "Mar 2027",
-          "close": 266.75,
-          "volume": 21949
+          "close": 265,
+          "volume": 8929
         },
         {
           "code": "KCK27",
           "label": "May 2027",
-          "close": 262.2,
-          "volume": 5889
+          "close": 260.9,
+          "volume": 1883
         },
         {
           "code": "KCN27",
           "label": "Jul 2027",
-          "close": 259,
-          "volume": 2763
+          "close": 257.5,
+          "volume": 971
         },
         {
           "code": "KCU27",
           "label": "Sep 2027",
-          "close": 256.3,
-          "volume": 891
+          "close": 255.15,
+          "volume": 295
         },
         {
           "code": "KCZ27",
           "label": "Dec 2027",
-          "close": 252.95,
-          "volume": 430
+          "close": 252.25,
+          "volume": 152
         },
         {
           "code": "KCH28",
           "label": "Mar 2028",
-          "close": 249.5,
-          "volume": 136
+          "close": 248,
+          "volume": 45
         }
       ],
       "quote": {
-        "last": 266.75,
-        "open": 267.79998779296875,
-        "high": 269,
-        "low": 265.29998779296875,
-        "previousClose": 267.25,
-        "change": -0.5,
-        "changePct": -0.187,
-        "volume": 21949,
-        "asOf": "2026-11-10T18:29:57.000Z"
+        "last": 263.75,
+        "open": 265.25,
+        "high": 266.04998779296875,
+        "low": 262.6499938964844,
+        "previousClose": 265.8999938964844,
+        "change": -2.15,
+        "changePct": -0.809,
+        "volume": 8471,
+        "asOf": "2026-11-11T13:02:32.000Z"
       },
       "bars": [
-        {
-          "date": "2025-08-05",
-          "open": 256.95001220703125,
-          "high": 259.04998779296875,
-          "low": 256.95001220703125,
-          "close": 260.79998779296875,
-          "volume": 20
-        },
         {
           "date": "2025-08-06",
           "open": 256.79998779296875,
@@ -2637,22 +2629,30 @@
           "high": 273,
           "low": 266.6499938964844,
           "close": 267.25,
-          "volume": 23195
+          "volume": 27646
         },
         {
           "date": "2026-11-10",
           "open": 267.79998779296875,
           "high": 269,
           "low": 265.29998779296875,
-          "close": 266.75,
-          "volume": 21949
+          "close": 265.8999938964844,
+          "volume": 27646
+        },
+        {
+          "date": "2026-11-11",
+          "open": 265.25,
+          "high": 266.04998779296875,
+          "low": 262.6499938964844,
+          "close": 263.75,
+          "volume": 8471
         }
       ],
       "crossCheck": {
-        "tradingView": 266.75,
-        "yahoo": 266.75,
-        "diff": 0,
-        "diffPct": 0,
+        "tradingView": 265,
+        "yahoo": 263.75,
+        "diff": 1.25,
+        "diffPct": 0.474,
         "agree": true
       },
       "sources": [
@@ -2668,20 +2668,20 @@
         }
       ],
       "technicals": {
-        "observations": 503,
-        "sma20": 283.01750030517576,
-        "sma50": 281.03899963378905,
-        "sma200": 277.47974975585936,
-        "rsi14": 36.39156963569797,
+        "observations": 504,
+        "sma20": 281.6550003051758,
+        "sma50": 280.34399963378905,
+        "sma200": 277.18649978637694,
+        "rsi14": 34.28316116601496,
         "macd": {
-          "line": -4.7818301175461215,
-          "signal": -2.716353314183333,
-          "histogram": -2.0654768033627886
+          "line": -5.359284671330784,
+          "signal": -3.255788666364246,
+          "histogram": -2.1034960049665377
         },
-        "atr14": 8.249420838888627,
+        "atr14": 7.903033200145466,
         "donchian20": {
           "high": 304.45001220703125,
-          "low": 265.29998779296875,
+          "low": 262.6499938964844,
           "period": 20
         },
         "levels": {
@@ -2701,16 +2701,16 @@
           ],
           "resistance": [
             {
+              "price": 264.8999938964844,
+              "date": "2025-07-28"
+            },
+            {
+              "price": 264.95001220703125,
+              "date": "2026-06-18"
+            },
+            {
               "price": 268.6000061035156,
               "date": "2025-07-16"
-            },
-            {
-              "price": 272.6499938964844,
-              "date": "2026-04-15"
-            },
-            {
-              "price": 275.04998779296875,
-              "date": "2026-05-05"
             }
           ]
         },
@@ -2719,10 +2719,10 @@
           "low": 215.75
         },
         "method": "Wilder RSI(14); MACD(12,26,9) on EMA; ATR(14); pivots = 5-bar swing highs/lows; Donchian(20).",
-        "basis": "503 daily bars for KCH27"
+        "basis": "504 daily bars for KCH27"
       },
       "barsPublished": 320,
-      "barsAnalysed": 503
+      "barsAnalysed": 504
     }
   },
   "fx": {
@@ -3252,7 +3252,7 @@
     ]
   },
   "weather": {
-    "fetchedAt": "2026-11-10T23:38:56.490Z",
+    "fetchedAt": "2026-11-11T13:22:40.863Z",
     "thresholds": {
       "frostC": 4,
       "heavyRainMm": 50,
@@ -3277,19 +3277,19 @@
         "lat": -21.55,
         "lon": -45.43,
         "current": {
-          "date": "2026-11-09",
-          "tMax": 20.7,
-          "tMin": 14.4,
-          "rain": 0.3,
+          "date": "2026-11-10",
+          "tMax": 20.4,
+          "tMin": 13.7,
+          "rain": 0.5,
           "code": 51,
-          "cloud": 98,
+          "cloud": 90,
           "observed": true
         },
-        "condition": "very-wet",
-        "conditionLabel": "Very wet",
-        "rain14": 79.8,
-        "rainForecast7": 16.1,
-        "minForecast7": 13.7,
+        "condition": "cloudy",
+        "conditionLabel": "Cloudy",
+        "rain14": 80.3,
+        "rainForecast7": 27.7,
+        "minForecast7": 15,
         "alerts": []
       },
       {
@@ -3300,19 +3300,19 @@
         "lat": -18.94,
         "lon": -46.99,
         "current": {
-          "date": "2026-11-09",
-          "tMax": 24.9,
-          "tMin": 17.4,
-          "rain": 23,
-          "code": 82,
-          "cloud": 90,
+          "date": "2026-11-10",
+          "tMax": 22.4,
+          "tMin": 17.1,
+          "rain": 0.2,
+          "code": 51,
+          "cloud": 77,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 114.7,
-        "rainForecast7": 31.3,
-        "minForecast7": 16.3,
+        "rain14": 102.7,
+        "rainForecast7": 33.5,
+        "minForecast7": 16,
         "alerts": []
       },
       {
@@ -3323,26 +3323,20 @@
         "lat": -19.39,
         "lon": -40.07,
         "current": {
-          "date": "2026-11-09",
+          "date": "2026-11-10",
           "tMax": 22.8,
-          "tMin": 19.7,
-          "rain": 4.3,
-          "code": 53,
-          "cloud": 100,
+          "tMin": 19.1,
+          "rain": 10.6,
+          "code": 80,
+          "cloud": 99,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 72.1,
-        "rainForecast7": 76.9,
-        "minForecast7": 19.5,
-        "alerts": [
-          {
-            "type": "wet",
-            "severity": "watch",
-            "text": "77 mm forecast over 7 days — harvest/drying disruption risk."
-          }
-        ]
+        "rain14": 81.3,
+        "rainForecast7": 41.1,
+        "minForecast7": 19.4,
+        "alerts": []
       },
       {
         "key": "dak-lak",
@@ -3352,20 +3346,26 @@
         "lat": 12.68,
         "lon": 108.05,
         "current": {
-          "date": "2026-11-09",
-          "tMax": 29.1,
-          "tMin": 22.8,
+          "date": "2026-11-10",
+          "tMax": 27.7,
+          "tMin": 22.1,
           "rain": 1.1,
           "code": 51,
-          "cloud": 69,
+          "cloud": 87,
           "observed": true
         },
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
-        "rain14": 18.4,
-        "rainForecast7": 29.9,
-        "minForecast7": 22.1,
-        "alerts": []
+        "rain14": 19.5,
+        "rainForecast7": 53.1,
+        "minForecast7": 22,
+        "alerts": [
+          {
+            "type": "wet",
+            "severity": "watch",
+            "text": "53 mm forecast over 7 days — harvest/drying disruption risk."
+          }
+        ]
       },
       {
         "key": "lam-dong",
@@ -3375,19 +3375,19 @@
         "lat": 11.55,
         "lon": 107.81,
         "current": {
-          "date": "2026-11-09",
-          "tMax": 28.4,
-          "tMin": 18.7,
-          "rain": 0,
-          "code": 45,
-          "cloud": 42,
+          "date": "2026-11-10",
+          "tMax": 27.7,
+          "tMin": 19.5,
+          "rain": 3.4,
+          "code": 95,
+          "cloud": 80,
           "observed": true
         },
-        "condition": "cloudy",
-        "conditionLabel": "Cloudy",
-        "rain14": 38.2,
-        "rainForecast7": 42.2,
-        "minForecast7": 18.5,
+        "condition": "very-wet",
+        "conditionLabel": "Very wet",
+        "rain14": 41.6,
+        "rainForecast7": 33.8,
+        "minForecast7": 18.6,
         "alerts": []
       },
       {
@@ -3398,19 +3398,19 @@
         "lat": 1.85,
         "lon": -76.05,
         "current": {
-          "date": "2026-11-09",
-          "tMax": 26.9,
-          "tMin": 14.7,
-          "rain": 0.8,
-          "code": 51,
-          "cloud": 38,
+          "date": "2026-11-10",
+          "tMax": 26.4,
+          "tMin": 15.4,
+          "rain": 2.7,
+          "code": 80,
+          "cloud": 47,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 78.2,
-        "rainForecast7": 22.6,
-        "minForecast7": 15.4,
+        "rain14": 79.9,
+        "rainForecast7": 27.2,
+        "minForecast7": 15.1,
         "alerts": []
       },
       {
@@ -3421,19 +3421,19 @@
         "lat": 6.25,
         "lon": -75.56,
         "current": {
-          "date": "2026-11-09",
-          "tMax": 29.2,
-          "tMin": 15.2,
-          "rain": 0.1,
-          "code": 51,
-          "cloud": 83,
+          "date": "2026-11-10",
+          "tMax": 29.7,
+          "tMin": 15.7,
+          "rain": 0,
+          "code": 45,
+          "cloud": 70,
           "observed": true
         },
-        "condition": "wet",
-        "conditionLabel": "Wet",
-        "rain14": 77,
-        "rainForecast7": 23.3,
-        "minForecast7": 15.7,
+        "condition": "cloudy",
+        "conditionLabel": "Cloudy",
+        "rain14": 61.5,
+        "rainForecast7": 17.6,
+        "minForecast7": 15.5,
         "alerts": []
       },
       {
@@ -3444,24 +3444,24 @@
         "lat": 4.63,
         "lon": 96.85,
         "current": {
-          "date": "2026-11-09",
-          "tMax": 24.7,
-          "tMin": 18.4,
-          "rain": 24.5,
-          "code": 82,
-          "cloud": 99,
+          "date": "2026-11-10",
+          "tMax": 23.8,
+          "tMin": 17.6,
+          "rain": 27.9,
+          "code": 81,
+          "cloud": 95,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 145.4,
-        "rainForecast7": 106.6,
-        "minForecast7": 16.5,
+        "rain14": 173.3,
+        "rainForecast7": 77.6,
+        "minForecast7": 16.8,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "107 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "78 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3473,18 +3473,18 @@
         "lat": -5.45,
         "lon": 105.27,
         "current": {
-          "date": "2026-11-09",
-          "tMax": 33,
-          "tMin": 26.2,
-          "rain": 1.9,
-          "code": 80,
-          "cloud": 76,
+          "date": "2026-11-10",
+          "tMax": 32.3,
+          "tMin": 26.4,
+          "rain": 1.4,
+          "code": 51,
+          "cloud": 90,
           "observed": true
         },
-        "condition": "cloudy",
-        "conditionLabel": "Cloudy",
-        "rain14": 55.4,
-        "rainForecast7": 47.5,
+        "condition": "wet",
+        "conditionLabel": "Wet",
+        "rain14": 56.8,
+        "rainForecast7": 43.8,
         "minForecast7": 24.5,
         "alerts": []
       },
@@ -3496,24 +3496,24 @@
         "lat": 7.67,
         "lon": 36.83,
         "current": {
-          "date": "2026-11-09",
-          "tMax": 24.3,
-          "tMin": 12.9,
-          "rain": 6.1,
-          "code": 81,
-          "cloud": 34,
+          "date": "2026-11-10",
+          "tMax": 23.9,
+          "tMin": 13.6,
+          "rain": 5.4,
+          "code": 80,
+          "cloud": 78,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 28.2,
-        "rainForecast7": 84.9,
-        "minForecast7": 12.1,
+        "rain14": 33.6,
+        "rainForecast7": 68.3,
+        "minForecast7": 12.8,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "85 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "68 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3525,18 +3525,18 @@
         "lat": 14.16,
         "lon": -88.02,
         "current": {
-          "date": "2026-11-09",
-          "tMax": 23.9,
-          "tMin": 17.1,
-          "rain": 6.6,
-          "code": 61,
-          "cloud": 94,
+          "date": "2026-11-10",
+          "tMax": 26.4,
+          "tMin": 16.9,
+          "rain": 0.4,
+          "code": 51,
+          "cloud": 74,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 36.9,
-        "rainForecast7": 9.6,
+        "rain14": 37.1,
+        "rainForecast7": 21.5,
         "minForecast7": 14.8,
         "alerts": []
       },
@@ -3548,20 +3548,26 @@
         "lat": -11.05,
         "lon": -75.33,
         "current": {
-          "date": "2026-11-09",
-          "tMax": 26.4,
-          "tMin": 20.4,
-          "rain": 20.2,
-          "code": 81,
-          "cloud": 81,
+          "date": "2026-11-10",
+          "tMax": 32.1,
+          "tMin": 19.8,
+          "rain": 1.8,
+          "code": 53,
+          "cloud": 64,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 150.8,
-        "rainForecast7": 41.8,
-        "minForecast7": 19.8,
-        "alerts": []
+        "rain14": 128.3,
+        "rainForecast7": 62.4,
+        "minForecast7": 20.2,
+        "alerts": [
+          {
+            "type": "wet",
+            "severity": "watch",
+            "text": "62 mm forecast over 7 days — harvest/drying disruption risk."
+          }
+        ]
       }
     ],
     "sources": [
@@ -3574,7 +3580,7 @@
   },
   "news": {
     "originWire": {
-      "fetchedAt": "2026-11-10T23:38:58.905Z",
+      "fetchedAt": "2026-11-11T13:22:43.590Z",
       "lookbackHours": 504,
       "headlines": [
         {
@@ -3586,68 +3592,20 @@
           "published": "Tue, 10 Nov 2026 18:00:00 +0700"
         },
         {
-          "title": "Flights forced to circle over central Vietnam as thunderstorms cut airport visibility to 350 m",
-          "summary": "Seventeen flights bound for Da Nang and Hue were forced to circle on Monday as thunderstorms cut visibility at the two central Vietnam airports.",
-          "url": "https://e.vnexpress.net/news/news/traffic/flights-forced-to-circle-over-central-vietnam-as-thunderstorms-cut-airport-visibility-to-350-m-5143141.html",
+          "title": "Ho Chi Minh City outlines five key growth zones in 100-year master plan",
+          "summary": "Ho Chi Minh City's proposed master plan identifies five development zones focused on finance, technology, industry, logistics, maritime trade, healthcare and education, shaping the expanded city over the next century.",
+          "url": "https://e.vnexpress.net/news/business/ho-chi-minh-city-outlines-five-key-growth-zones-in-100-year-master-plan-5143516.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Tue, 10 Nov 2026 23:08:37 +0700"
+          "published": "Wed, 11 Nov 2026 18:00:00 +0700"
         },
         {
-          "title": "One killed in Indonesia helicopter crash during firefighting operation",
-          "summary": "An Indonesian crew member was killed, while an Australian and New Zealander were rescued after the crash.",
-          "url": "https://www.bbc.co.uk/news/articles/cxnv0442ml6vo?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
-          "region": "Indonesia",
-          "published": "Mon, 09 Nov 2026 04:14:56 GMT"
-        },
-        {
-          "title": "Baby among four killed in bomb attack in western Colombia, official says",
-          "summary": "It is not yet clear who was behind the attack, which appears to have targeted a military base.",
-          "url": "https://www.bbc.co.uk/news/articles/cqn06n30l406o?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
-          "region": "Colombia",
-          "published": "Mon, 02 Nov 2026 15:08:56 GMT"
-        },
-        {
-          "title": "Salvadoran troops target Haitian gang, leaving 20 dead",
-          "summary": "Salvadoran troops backed the police operation ahead of the Haitian prime minister’s visit to El Salvador.",
-          "url": "https://www.aljazeera.com/news/2026/11/10/salvadoran-troops-target-haitian-gang-leaving-20-dead?traffic_source=rss",
-          "publisher": "Al Jazeera",
-          "region": "South & Central America",
-          "published": "Tue, 10 Nov 2026 20:22:21 +0000"
-        },
-        {
-          "title": "Kenya seizes 454kg of meth in drug crackdown",
-          "summary": "Kenyan police said investigations started after a key suspect was arrested in Tanzania last week.",
-          "url": "https://www.bbc.co.uk/news/articles/c8vgxglkyzv4o?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
-          "region": "East Africa",
-          "published": "Mon, 09 Nov 2026 15:00:17 GMT"
-        },
-        {
-          "title": "Election results in Brazil, Serbia, Israel and US renew faith in resilience of democracy",
-          "summary": "Four pivotal elections in past two weeks show power of grassroots activism to push back against authoritarianism A sequence of four pivotal elections over the past two weeks in disparate regions of the world has inflicted significant setbacks on authoritarian…",
-          "url": "https://www.theguardian.com/world/2026/nov/08/election-brazil-serbia-israel-and-us-resilience-democracy-grassroots-activism-authoritarianism",
-          "publisher": "The Guardian",
-          "region": "Brazil",
-          "published": "Sun, 08 Nov 2026 10:00:37 GMT"
-        },
-        {
-          "title": "Vietnamese hospital receives Japanese cell therapy technology for cancer and chronic disease treatment",
-          "summary": "Tam Anh General Hospital has completed an exclusive technology transfer from Japan's Grandsoul Medical Group covering immune cell and stem cell technologies being explored for treatment of cancer and chronic diseases.",
-          "url": "https://e.vnexpress.net/news/news/vietnamese-hospital-receives-japanese-cell-therapy-technology-for-cancer-and-chronic-disease-treatment-5143056.html",
-          "publisher": "VnExpress International",
-          "region": "Vietnam",
-          "published": "Tue, 10 Nov 2026 17:00:00 +0700"
-        },
-        {
-          "title": "‘I can’t bear it’: young family takes refuge in bedroom as choking haze engulfs Indonesian city",
-          "summary": "Mother tells of desperate efforts to keep her five-month-old son healthy as residents of Palangkaraya flock to clean-air ‘safe houses’ to escape toxic haze Every day in Palangkaraya starts with an air quality check. For people who can afford one, a handheld…",
-          "url": "https://www.theguardian.com/world/2026/nov/09/indonesia-air-pollution-toxic-haze-family-takes-refuge-in-bedroom",
+          "title": "Ukraine captures first Indonesian prisoner of war amid surge in Russian recruitment",
+          "summary": "Capture of man from Java follows reports that hundreds are being recruited from the south-east Asian country as Moscow seeks to boost its war effort Ukraine says it has captured its first Indonesian prisoner of war, amid what it says is a spike in recruitment…",
+          "url": "https://www.theguardian.com/world/2026/nov/11/ukraine-indonesian-pow-prisoner-of-war-russia",
           "publisher": "The Guardian",
           "region": "Indonesia",
-          "published": "Mon, 09 Nov 2026 04:05:24 GMT"
+          "published": "Wed, 11 Nov 2026 05:33:27 GMT"
         },
         {
           "title": "Pablo Escobar tried to bomb me in Bogotá. To stop the cartels infiltrating Europe, we should legalise cocaine | Letter",
@@ -3658,20 +3616,60 @@
           "published": "Tue, 27 Oct 2026 17:55:04 GMT"
         },
         {
-          "title": "Falkland Islanders face ‘devastating consequences’ if Argentina blocks oil project, says UK",
-          "summary": "Countries clash over Sea Lion project as Hamburg tribunal risks deepening sovereignty dispute The people of the Falkland Islands face “devastating consequences” if Argentina is successful in blocking development of its offshore oilfield, the attorney general…",
-          "url": "https://www.theguardian.com/world/2026/nov/10/uk-and-argentina-clash-over-falklands-oil-project-as-hamburg-tribunal-starts",
-          "publisher": "The Guardian",
+          "title": "Haitian PM praises El Salvador after joint strike on alleged home of gang leader",
+          "summary": "The 400 Mawozo gang was targeted by El Salvador's military, which has deployed thousands of troops to combat Haiti's gang violence crisis.",
+          "url": "https://www.bbc.co.uk/news/articles/cmvg2xdwnwezo?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
           "region": "South & Central America",
-          "published": "Tue, 10 Nov 2026 19:01:33 GMT"
+          "published": "Wed, 11 Nov 2026 12:14:12 GMT"
         },
         {
-          "title": "The young Somali woman changing how the world sees Mogadishu",
-          "summary": "For some tourists, the contrast between Somalia's reputation and what they experience on the ground can be striking.",
-          "url": "https://www.bbc.co.uk/news/articles/cq0k0lg48705o?at_medium=RSS&amp;at_campaign=rss",
+          "title": "Kenya discharges last Ebola patient in major milestone towards virus-free status",
+          "summary": "The country begins a 42-day countdown to being declared Ebola-free, provided no new cases are recorded.",
+          "url": "https://www.bbc.co.uk/news/articles/cwe9kzv0g0v7o?at_medium=RSS&amp;at_campaign=rss",
           "publisher": "BBC News",
           "region": "East Africa",
-          "published": "Sat, 07 Nov 2026 01:19:49 GMT"
+          "published": "Wed, 11 Nov 2026 12:53:11 GMT"
+        },
+        {
+          "title": "Election results in Brazil, Serbia, Israel and US renew faith in resilience of democracy",
+          "summary": "Four pivotal elections in past two weeks show power of grassroots activism to push back against authoritarianism A sequence of four pivotal elections over the past two weeks in disparate regions of the world has inflicted significant setbacks on authoritarian…",
+          "url": "https://www.theguardian.com/world/2026/nov/08/election-brazil-serbia-israel-and-us-resilience-democracy-grassroots-activism-authoritarianism",
+          "publisher": "The Guardian",
+          "region": "Brazil",
+          "published": "Sun, 08 Nov 2026 10:00:37 GMT"
+        },
+        {
+          "title": "70-year-old Vietnamese university urged to rank among world's top 150 in selected fields by 2030",
+          "summary": "Prime Minister Le Minh Hung asked the National Economics University (NEU) on Wednesday to strive for a place among the world's top 150 universities in selected fields by 2030 and the top 100 by 2035.",
+          "url": "https://e.vnexpress.net/news/news/education/70-year-old-vietnamese-university-urged-to-rank-among-world-s-top-150-in-selected-fields-by-2030-5143524.html",
+          "publisher": "VnExpress International",
+          "region": "Vietnam",
+          "published": "Wed, 11 Nov 2026 17:28:11 +0700"
+        },
+        {
+          "title": "One killed in Indonesia helicopter crash during firefighting operation",
+          "summary": "An Indonesian crew member was killed, while an Australian and New Zealander were rescued after the crash.",
+          "url": "https://www.bbc.co.uk/news/articles/cxnv0442ml6vo?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
+          "region": "Indonesia",
+          "published": "Mon, 09 Nov 2026 04:14:56 GMT"
+        },
+        {
+          "title": "Transport workers in Chile block highways in protest over surging fuel prices",
+          "summary": "Hundreds of bus and lorry drivers are blocking traffic along major highway routes across the country.",
+          "url": "https://www.bbc.co.uk/news/articles/c6e3d895zne7o?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
+          "region": "South & Central America",
+          "published": "Wed, 11 Nov 2026 11:34:50 GMT"
+        },
+        {
+          "title": "From Jersey to Somalia... via Liverpool & Man City",
+          "summary": "BBC Sport charts Jarma Mohamed's surprising football journey from Premier League academies to the Somalia national team, via an app and Jersey Bulls.",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cm5ynnklgl9xo?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
+          "region": "East Africa",
+          "published": "Wed, 11 Nov 2026 07:13:52 GMT"
         },
         {
           "title": "Flávio Bolsonaro battles to remain relevant as he speaks at rightwing conference at Mar-a-Lago",
@@ -3682,22 +3680,30 @@
           "published": "Fri, 06 Nov 2026 13:03:38 GMT"
         },
         {
-          "title": "HCMC plans logistics hub network across 10 locations",
-          "summary": "Ho Chi Minh City plans 10 logistics hubs to connect industrial zones with seaports, airports and regional transport routes, aiming to cut costs and improve freight movement.",
-          "url": "https://e.vnexpress.net/news/business/hcmc-plans-logistics-hub-network-across-10-locations-5142451.html",
+          "title": "Top Vietnamese leader To Lam meets with Japanese Emperor Naruhito",
+          "summary": "Party General Secretary and President To Lam, and his spouse Ngo Phuong Ly, met Japanese Emperor Naruhito and Empress Masako on Wednesday, stressing that the two countries have many opportunities to boost cooperation across various fields.",
+          "url": "https://e.vnexpress.net/news/news/politics/top-vietnamese-leader-to-lam-meets-with-japanese-emperor-naruhito-5143523.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Tue, 10 Nov 2026 17:00:00 +0700"
+          "published": "Wed, 11 Nov 2026 17:13:28 +0700"
+        },
+        {
+          "title": "‘I can’t bear it’: young family takes refuge in bedroom as choking haze engulfs Indonesian city",
+          "summary": "Mother tells of desperate efforts to keep her five-month-old son healthy as residents of Palangkaraya flock to clean-air ‘safe houses’ to escape toxic haze Every day in Palangkaraya starts with an air quality check. For people who can afford one, a handheld…",
+          "url": "https://www.theguardian.com/world/2026/nov/09/indonesia-air-pollution-toxic-haze-family-takes-refuge-in-bedroom",
+          "publisher": "The Guardian",
+          "region": "Indonesia",
+          "published": "Mon, 09 Nov 2026 04:05:24 GMT"
         }
       ],
-      "totalTagged": 107,
+      "totalTagged": 109,
       "feedsQueried": 14,
       "errors": [],
       "note": "General headlines from the growing regions, taken from outlets of record and tagged to a region by the countries and cities they name."
     },
     "roundup": {
       "source": "assembled",
-      "fetchedAt": "2026-11-10T23:38:58.145Z",
+      "fetchedAt": "2026-11-11T13:22:42.783Z",
       "windowDays": 7,
       "publishers": [
         "Daily Coffee News",
@@ -3705,6 +3711,33 @@
         "World Coffee Portal"
       ],
       "items": [
+        {
+          "headline": "Specialty Robusta and Mastering Seasonal Launches w/ Gabriel Shohet of Black Sheep Coffee",
+          "summary": "Black Sheep Coffee’s co-founder on believing in robusta, launching seasonal drinks with conviction, and why opening-day influencer hype is a waste of money. The post Specialty Robusta and Mastering Seasonal Launches w/ Gabriel Shohet of Black Sheep Coffee…",
+          "url": "https://freshcup.com/specialty-robusta-and-mastering-seasonal-launches-w-gabriel-shohet-of-black-sheep-coffee/",
+          "publisher": "Fresh Cup",
+          "published": "Wed, 11 Nov 2026 13:10:00 +0000",
+          "date": "Wed, 11 Nov",
+          "section": "Roasting & retail"
+        },
+        {
+          "headline": "Smart Cafe Operators Know How to Borrow Ideas from Competitors",
+          "summary": "The coffee industry is a swirl of people inspiring each other. Here's how to borrow and iterate on great ideas without lazily copying them. The post Smart Cafe Operators Know How to Borrow Ideas from Competitors appeared first on Fresh Cup .",
+          "url": "https://freshcup.com/smart-cafe-operators-know-how-to-borrow-ideas-from-competitors/",
+          "publisher": "Fresh Cup",
+          "published": "Wed, 11 Nov 2026 12:40:00 +0000",
+          "date": "Wed, 11 Nov",
+          "section": "Roasting & retail"
+        },
+        {
+          "headline": "Starbucks ready for a “new chapter of growth” in Brazil",
+          "summary": "The world’s largest coffee chain has identified the South American country as a strategic market for long-term expansion",
+          "url": "https://www.worldcoffeeportal.com/news/starbucks-ready-for-a-new-chapter-of-growth-in-brazil/",
+          "publisher": "World Coffee Portal",
+          "published": "Wed, 11 Nov 2026 10:30:21 GMT",
+          "date": "Wed, 11 Nov",
+          "section": "Trade & production"
+        },
         {
           "headline": "GCP Reports Drop in Sustainable Purchasing Among Large Green Coffee Buyers",
           "summary": "Approximately 69% of green coffee purchased by 14 major coffee roasters and retailers in 2025 met a recognized baseline sustainability standard, down from 75% the previous year, according to the...",
@@ -3742,31 +3775,13 @@
           "section": "Roasting & retail"
         },
         {
-          "headline": "Esquires Coffee’s UK and Ireland strategy is delivering results",
-          "summary": "The Cooks Coffee-owned operator has sustained strong trading across its core markets ahead of launches in India and the Middle East",
-          "url": "https://www.worldcoffeeportal.com/news/esquires-coffees-uk-and-ireland-strategy-is-delivering-results/",
-          "publisher": "World Coffee Portal",
-          "published": "Tue, 10 Nov 2026 12:51:04 GMT",
-          "date": "Tue, 10 Nov",
-          "section": "Roasting & retail"
-        },
-        {
-          "headline": "Chaiiwala signs licensing agreement for UK expansion drive",
-          "summary": "The Indian street food concept wants to open more stores beyond UK high streets as it pursues a goal to reach 500 stores globally by 3035 The Indian street food concept wants to open more stores beyond UK high streets as it pursues a goal to reach 500 stores…",
-          "url": "https://www.worldcoffeeportal.com/news/chaiiwala-signs-licensing-agreement-for-uk-expansion-drive/",
-          "publisher": "World Coffee Portal",
-          "published": "Tue, 10 Nov 2026 09:01:41 GMT",
-          "date": "Tue, 10 Nov",
-          "section": "Roasting & retail"
-        },
-        {
           "headline": "Brazil Study Field-Tests the Economics of Regenerative Coffee",
           "summary": "A new study of seven Brazilian coffee farms suggests that beyond significant environmental benefits, regenerative agriculture can be economically competitive while maintaining strong productivity. Led by the Brazil arm of...",
           "url": "https://dailycoffeenews.com/2026/11/09/brazil-study-field-tests-the-economics-of-regenerative-coffee/",
           "publisher": "Daily Coffee News",
           "published": "Mon, 09 Nov 2026 16:43:29 +0000",
           "date": "Mon, 9 Nov",
-          "section": "Trade & production"
+          "section": "Top stories of the week"
         },
         {
           "headline": "Coffee News Club: November 9",
@@ -3805,15 +3820,6 @@
           "section": "Trade & production"
         },
         {
-          "headline": "As Café Amazon approaches 5,000 stores in Thailand, its future in Cambodia hangs in the balance",
-          "summary": "Parent company PTT OR is scaling back its business in neighbouring Cambodia amid a simmering border dispute and ongoing consumer boycotts",
-          "url": "https://www.worldcoffeeportal.com/news/cafe-amazon-approaches-5-000-stores-in-thailand-as-future-in-cambodia-hangs-in-the-balance/",
-          "publisher": "World Coffee Portal",
-          "published": "Fri, 06 Nov 2026 12:24:02 GMT",
-          "date": "Fri, 6 Nov",
-          "section": "Top stories of the week"
-        },
-        {
           "headline": "Researchers Challenge the Climate-Resilient Robusta Narrative",
           "summary": "A major new literature review challenges the popular assumption that robusta offers a climate-resilient solution for sustaining global coffee production as climate change continues to disrupt the arabica landscape. Led...",
           "url": "https://dailycoffeenews.com/2026/11/05/researchers-challenge-the-climate-resilient-robusta-narrative/",
@@ -3841,7 +3847,7 @@
       "note": "Assembled from the coffee trade press over the past seven days, ranked by relevance to the physical trade. Headlines and links are each publisher’s own."
     },
     "dailyRead": {
-      "fetchedAt": "2026-11-10T23:38:56.597Z",
+      "fetchedAt": "2026-11-11T13:22:40.870Z",
       "article": {
         "title": "Weekly Coffee News: Costa Rica Harvest Concerns + Restoring Iconic Coffee Sign",
         "summary": "Welcome to DCN’s Weekly Coffee News! Subscribe here for all the latest coffee industry news. Also, check out the latest career opportunities at CoffeeIndustryJobs.com. El Niño Prompts Lower Harvest Estimates...",
@@ -4169,37 +4175,37 @@
     {
       "source": "weather",
       "ok": true,
-      "ms": 408
+      "ms": 305
     },
     {
       "source": "daily-read",
       "ok": true,
-      "ms": 507
+      "ms": 306
     },
     {
       "source": "arabica-futures",
       "ok": true,
-      "ms": 692
-    },
-    {
-      "source": "fx",
-      "ok": true,
-      "ms": 1503
+      "ms": 763
     },
     {
       "source": "weekly-recap",
       "ok": true,
-      "ms": 2058
+      "ms": 2222
+    },
+    {
+      "source": "fx",
+      "ok": true,
+      "ms": 2848
     },
     {
       "source": "origin-wire",
       "ok": true,
-      "ms": 2822
+      "ms": 3032
     },
     {
       "source": "ico-report",
       "ok": false,
-      "ms": 3590,
+      "ms": 3321,
       "error": "Table 1 (indicator prices) not found"
     }
   ]

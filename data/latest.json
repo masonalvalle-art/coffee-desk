@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T14:27:36.014Z",
+  "generatedAt": "2026-11-12T23:48:08.657Z",
   "schema": 5,
   "schedule": {
     "slotsUtc": [
@@ -26,8 +26,8 @@
       "frontMonth": {
         "code": "KCZ26",
         "label": "Dec 2026",
-        "close": 274.95,
-        "volume": 10067
+        "close": 280.6,
+        "volume": 24251
       },
       "rolled": false,
       "mostActive": "KCH27",
@@ -35,56 +35,56 @@
         {
           "code": "KCZ26",
           "label": "Dec 2026",
-          "close": 274.95,
-          "volume": 10067
+          "close": 280.6,
+          "volume": 24251
         },
         {
           "code": "KCH27",
           "label": "Mar 2027",
-          "close": 270.25,
-          "volume": 11940
+          "close": 275.1,
+          "volume": 32751
         },
         {
           "code": "KCK27",
           "label": "May 2027",
-          "close": 265.6,
-          "volume": 2850
+          "close": 270.55,
+          "volume": 8210
         },
         {
           "code": "KCN27",
           "label": "Jul 2027",
-          "close": 261.75,
-          "volume": 1790
+          "close": 267.05,
+          "volume": 4574
         },
         {
           "code": "KCU27",
           "label": "Sep 2027",
-          "close": 258.7,
-          "volume": 425
+          "close": 263.9,
+          "volume": 1528
         },
         {
           "code": "KCZ27",
           "label": "Dec 2027",
-          "close": 255.75,
-          "volume": 188
+          "close": 260,
+          "volume": 701
         },
         {
           "code": "KCH28",
           "label": "Mar 2028",
-          "close": 254.5,
-          "volume": 56
+          "close": 256.85,
+          "volume": 302
         }
       ],
       "quote": {
-        "last": 269.3,
+        "last": 275.1,
         "open": 263.5,
-        "high": 275,
+        "high": 275.3999938964844,
         "low": 262.5,
         "previousClose": 264.6499938964844,
-        "change": 4.65,
-        "changePct": 1.757,
-        "volume": 11393,
-        "asOf": "2026-11-12T14:07:23.000Z"
+        "change": 10.45,
+        "changePct": 3.949,
+        "volume": 32751,
+        "asOf": "2026-11-12T18:29:55.000Z"
       },
       "bars": [
         {
@@ -2642,17 +2642,17 @@
         {
           "date": "2026-11-12",
           "open": 263.5,
-          "high": 275,
+          "high": 275.3999938964844,
           "low": 262.5,
-          "close": 269.29998779296875,
-          "volume": 11393
+          "close": 275.1000061035156,
+          "volume": 32751
         }
       ],
       "crossCheck": {
-        "tradingView": 270.25,
-        "yahoo": 269.3,
-        "diff": 0.95,
-        "diffPct": 0.353,
+        "tradingView": 275.1,
+        "yahoo": 275.1,
+        "diff": 0,
+        "diffPct": 0,
         "agree": true
       },
       "sources": [
@@ -2669,16 +2669,16 @@
       ],
       "technicals": {
         "observations": 504,
-        "sma20": 280.89749908447266,
-        "sma50": 279.9929992675781,
-        "sma200": 276.9817497253418,
-        "rsi14": 40.84664574626133,
+        "sma20": 281.1875,
+        "sma50": 280.10899963378904,
+        "sma200": 277.01074981689453,
+        "rsi14": 46.89514850873188,
         "macd": {
-          "line": -5.199341849540588,
-          "signal": -3.633012201414761,
-          "histogram": -1.5663296481258264
+          "line": -4.7366623261921745,
+          "signal": -3.540476296745079,
+          "histogram": -1.1961860294470954
         },
-        "atr14": 8.354092458021317,
+        "atr14": 8.382663450627344,
         "donchian20": {
           "high": 304.45001220703125,
           "low": 262.1499938964844,
@@ -2687,30 +2687,30 @@
         "levels": {
           "support": [
             {
+              "price": 270,
+              "date": "2026-02-06"
+            },
+            {
               "price": 268.20001220703125,
               "date": "2025-04-07"
             },
             {
               "price": 262.6000061035156,
               "date": "2026-09-23"
-            },
-            {
-              "price": 261.1000061035156,
-              "date": "2026-03-16"
             }
           ],
           "resistance": [
             {
-              "price": 272.6499938964844,
-              "date": "2026-04-15"
-            },
-            {
-              "price": 275.04998779296875,
-              "date": "2026-05-05"
-            },
-            {
               "price": 280.8500061035156,
               "date": "2026-03-26"
+            },
+            {
+              "price": 281.6000061035156,
+              "date": "2026-03-09"
+            },
+            {
+              "price": 282.04998779296875,
+              "date": "2026-04-24"
             }
           ]
         },
@@ -2726,22 +2726,18 @@
     }
   },
   "fx": {
-    "asOf": "2026-11-11",
+    "asOf": "2026-11-12",
     "pairs": {
       "GBPUSD": {
         "pair": "GBP/USD",
-        "rate": 1.3307,
-        "previous": 1.3423,
+        "rate": 1.3256,
+        "previous": 1.3307,
         "dp": 4,
         "note": "Sterling stronger means a dollar-priced contract costs a UK buyer less.",
-        "change": -0.0116,
-        "changePct": -0.864,
-        "change1m": 0.45,
+        "change": -0.0051,
+        "changePct": -0.383,
+        "change1m": -0.08,
         "history": [
-          {
-            "date": "2026-08-20",
-            "rate": 1.3626
-          },
           {
             "date": "2026-08-21",
             "rate": 1.3656
@@ -2977,23 +2973,23 @@
           {
             "date": "2026-11-11",
             "rate": 1.3307
+          },
+          {
+            "date": "2026-11-12",
+            "rate": 1.3256
           }
         ]
       },
       "USDBRL": {
         "pair": "USD/BRL",
-        "rate": 5.5565,
-        "previous": 5.5517,
+        "rate": 5.6169,
+        "previous": 5.5565,
         "dp": 4,
         "note": "A weaker real encourages Brazilian producer selling.",
-        "change": 0.0048,
-        "changePct": 0.086,
-        "change1m": 10.76,
+        "change": 0.0604,
+        "changePct": 1.087,
+        "change1m": 11.8,
         "history": [
-          {
-            "date": "2026-08-20",
-            "rate": 5.1936
-          },
           {
             "date": "2026-08-21",
             "rate": 5.1729
@@ -3229,14 +3225,18 @@
           {
             "date": "2026-11-11",
             "rate": 5.5565
+          },
+          {
+            "date": "2026-11-12",
+            "rate": 5.6169
           }
         ]
       }
     },
     "ptax": {
-      "buy": 5.56,
-      "sell": 5.5606,
-      "quotedAt": "2026-11-11 13:02:30.354667"
+      "buy": 5.6137,
+      "sell": 5.6143,
+      "quotedAt": "2026-11-12 13:08:21.353658"
     },
     "sources": [
       {
@@ -3252,7 +3252,7 @@
     ]
   },
   "weather": {
-    "fetchedAt": "2026-11-12T14:27:32.999Z",
+    "fetchedAt": "2026-11-12T23:48:05.971Z",
     "thresholds": {
       "frostC": 4,
       "heavyRainMm": 50,
@@ -3288,8 +3288,8 @@
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
         "rain14": 80.7,
-        "rainForecast7": 26.8,
-        "minForecast7": 16.2,
+        "rainForecast7": 31.5,
+        "minForecast7": 16.4,
         "alerts": []
       },
       {
@@ -3311,8 +3311,8 @@
         "condition": "very-wet",
         "conditionLabel": "Very wet",
         "rain14": 103,
-        "rainForecast7": 46.4,
-        "minForecast7": 17.6,
+        "rainForecast7": 41.4,
+        "minForecast7": 16.9,
         "alerts": []
       },
       {
@@ -3334,13 +3334,13 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 87,
-        "rainForecast7": 76.4,
+        "rainForecast7": 58.8,
         "minForecast7": 21.2,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "76 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "59 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3362,8 +3362,8 @@
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 27.3,
-        "rainForecast7": 24.7,
+        "rain14": 27,
+        "rainForecast7": 21.8,
         "minForecast7": 22,
         "alerts": []
       },
@@ -3385,9 +3385,9 @@
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 37.5,
-        "rainForecast7": 32.9,
-        "minForecast7": 16.8,
+        "rain14": 33.7,
+        "rainForecast7": 26.5,
+        "minForecast7": 15.9,
         "alerts": []
       },
       {
@@ -3409,8 +3409,8 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 69,
-        "rainForecast7": 32,
-        "minForecast7": 16.2,
+        "rainForecast7": 43.4,
+        "minForecast7": 15.8,
         "alerts": []
       },
       {
@@ -3432,8 +3432,8 @@
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
         "rain14": 55.2,
-        "rainForecast7": 25.1,
-        "minForecast7": 16.4,
+        "rainForecast7": 32,
+        "minForecast7": 16.5,
         "alerts": []
       },
       {
@@ -3454,14 +3454,14 @@
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 182.2,
-        "rainForecast7": 57.8,
-        "minForecast7": 15.8,
+        "rain14": 175,
+        "rainForecast7": 72.6,
+        "minForecast7": 16.7,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "58 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "73 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3483,16 +3483,10 @@
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 51.5,
-        "rainForecast7": 55.8,
-        "minForecast7": 24.8,
-        "alerts": [
-          {
-            "type": "wet",
-            "severity": "watch",
-            "text": "56 mm forecast over 7 days — harvest/drying disruption risk."
-          }
-        ]
+        "rain14": 42.9,
+        "rainForecast7": 46.3,
+        "minForecast7": 24.7,
+        "alerts": []
       },
       {
         "key": "jimma",
@@ -3512,9 +3506,9 @@
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 48.2,
-        "rainForecast7": 45.7,
-        "minForecast7": 12,
+        "rain14": 46.9,
+        "rainForecast7": 47.8,
+        "minForecast7": 11.5,
         "alerts": []
       },
       {
@@ -3536,8 +3530,8 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 37.1,
-        "rainForecast7": 11.4,
-        "minForecast7": 16.2,
+        "rainForecast7": 7.9,
+        "minForecast7": 14.8,
         "alerts": []
       },
       {
@@ -3559,9 +3553,15 @@
         "condition": "very-wet",
         "conditionLabel": "Very wet",
         "rain14": 125,
-        "rainForecast7": 47.6,
-        "minForecast7": 19.9,
-        "alerts": []
+        "rainForecast7": 50.8,
+        "minForecast7": 20,
+        "alerts": [
+          {
+            "type": "wet",
+            "severity": "watch",
+            "text": "51 mm forecast over 7 days — harvest/drying disruption risk."
+          }
+        ]
       }
     ],
     "sources": [
@@ -3574,7 +3574,7 @@
   },
   "news": {
     "originWire": {
-      "fetchedAt": "2026-11-12T14:27:34.605Z",
+      "fetchedAt": "2026-11-12T23:48:08.324Z",
       "lookbackHours": 504,
       "headlines": [
         {
@@ -3586,20 +3586,20 @@
           "published": "Wed, 11 Nov 2026 22:50:37 GMT"
         },
         {
-          "title": "Hanoi's parking shortage pushes cars onto sidewalks and streets",
-          "summary": "Hanoi's streets and sidewalks are increasingly crowded with parked cars, as only 72 of 1,690 planned public parking facilities have opened.",
-          "url": "https://e.vnexpress.net/photo/traffic/hanois-parking-shortage-pushes-cars-onto-sidewalks-and-streets-5143884.html",
+          "title": "2 foreign tourists rescued from sixth floor during Da Lat hotel fire",
+          "summary": "Firefighters rescued two foreign tourists trapped at a hotel in the Vietnamese hill town of Da Lat on Thursday evening after fire broke out in a sixth-floor room.",
+          "url": "https://e.vnexpress.net/news/news/2-foreign-tourists-rescued-from-sixth-floor-during-da-lat-hotel-fire-5144050.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Thu, 12 Nov 2026 19:31:00 +0700"
+          "published": "Thu, 12 Nov 2026 22:00:59 +0700"
         },
         {
-          "title": "Indonesia's vice-president resigns amid signs ruling alliance is fraying",
-          "summary": "The news comes at a turbulent time for President Prabowo, who faces a growing rift with his predecessor Joko Widodo.",
-          "url": "https://www.bbc.co.uk/news/articles/cmvgxgz87qqro?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
+          "title": "Did Indonesia’s vice-president just resign because he didn’t have a high school diploma?",
+          "summary": "Gibran Rakabuming Raka, the son of former president Joko Widodo, has faced months of questions about his eligibility for office It has been a turbulent few weeks in Indonesia, with claims the president’s phone was tapped, an uneasy political alliance…",
+          "url": "https://www.theguardian.com/world/2026/nov/13/indonesia-vice-president-diploma-resignation-explained",
+          "publisher": "The Guardian",
           "region": "Indonesia",
-          "published": "Thu, 12 Nov 2026 08:46:57 GMT"
+          "published": "Thu, 12 Nov 2026 23:05:02 GMT"
         },
         {
           "title": "Eight killed in Colombian air strike targeting Gulf Clan gang",
@@ -3610,12 +3610,12 @@
           "published": "Thu, 12 Nov 2026 13:58:49 GMT"
         },
         {
-          "title": "Trump threatens to double tariffs on Mexico over illegal immigration",
-          "summary": "US president says levies will increase if trade partner does nothing to stop illegal crossings",
-          "url": "https://www.ft.com/content/b4bb6e99-97c8-4392-a227-b7b74853ba26?syn-25a6b1a6=1",
-          "publisher": "Financial Times",
+          "title": "US releases report on $12bn from Venezuelan oil, mineral resources",
+          "summary": "The report seeks to address concerns about the Trump administration's handling of revenue held in trust for Venezuela.",
+          "url": "https://www.aljazeera.com/news/2026/11/12/us-releases-report-on-12bn-from-venezuelan-oil-mineral-resources?traffic_source=rss",
+          "publisher": "Al Jazeera",
           "region": "South & Central America",
-          "published": "Thu, 12 Nov 2026 14:12:20 GMT"
+          "published": "Thu, 12 Nov 2026 20:49:36 +0000"
         },
         {
           "title": "Oranges investigated after four girls die in suspected Uganda school poisoning",
@@ -3634,20 +3634,20 @@
           "published": "Tue, 10 Nov 2026 18:00:00 +0700"
         },
         {
-          "title": "New Ho Chi Minh City chairman pledges to tackle traffic congestion, flooding",
-          "summary": "Ho Chi Minh City's new chairman Le Quoc Phong has pledged to focus on tackling traffic congestion, flooding, and environmental pollution while improving residents' quality of life.",
-          "url": "https://e.vnexpress.net/news/news/politics/new-ho-chi-minh-city-chairman-pledges-to-tackle-traffic-congestion-flooding-5143852.html",
+          "title": "Hanoi's parking shortage pushes cars onto sidewalks and streets",
+          "summary": "Hanoi's streets and sidewalks are increasingly crowded with parked cars, as only 72 of 1,690 planned public parking facilities have opened.",
+          "url": "https://e.vnexpress.net/photo/traffic/hanois-parking-shortage-pushes-cars-onto-sidewalks-and-streets-5143884.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Thu, 12 Nov 2026 14:23:32 +0700"
+          "published": "Thu, 12 Nov 2026 19:31:00 +0700"
         },
         {
-          "title": "Indonesian billionaire Prajogo Pangestu's Barito Pacific to be removed from MSCI indexes",
-          "summary": "Global index provider MSCI has said it will remove Barito Pacific, an Indonesian energy firm controlled by billionaire Prajogo Pangestu, from its indexes.",
-          "url": "https://e.vnexpress.net/news/business/companies/indonesian-billionaire-prajogo-pangestu-s-barito-pacific-to-be-removed-from-msci-indexes-5143698.html",
-          "publisher": "VnExpress International",
+          "title": "Indonesia's vice-president resigns amid signs ruling alliance is fraying",
+          "summary": "The news comes at a turbulent time for President Prabowo, who faces a growing rift with his predecessor Joko Widodo.",
+          "url": "https://www.bbc.co.uk/news/articles/cmvgxgz87qqro?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
           "region": "Indonesia",
-          "published": "Thu, 12 Nov 2026 10:32:03 +0700"
+          "published": "Thu, 12 Nov 2026 08:46:57 GMT"
         },
         {
           "title": "Pablo Escobar tried to bomb me in Bogotá. To stop the cartels infiltrating Europe, we should legalise cocaine | Letter",
@@ -3658,12 +3658,12 @@
           "published": "Tue, 27 Oct 2026 17:55:04 GMT"
         },
         {
-          "title": "Rats, dengue and an all-day stench: can Panama City solve its waste crisis?",
-          "summary": "For decades, mountains of waste have blighted poor neighbourhoods on the edge of the city. But as the problems spread, a belated reckoning is under way Life in San Miguelito has long been dictated by rubbish. Routes to the shop are carefully navigated to…",
-          "url": "https://www.theguardian.com/global-development/2026/nov/12/rats-dengue-and-an-all-day-stench-can-panama-city-solve-its-waste-crisis",
-          "publisher": "The Guardian",
+          "title": "What’s at stake in the renewed tensions over the Falkland Islands?",
+          "summary": "Argentina and the UK are in a legal battle over an offshore oil-drilling project.",
+          "url": "https://www.aljazeera.com/video/inside-story/2026/11/12/whats-at-stake-in-the-renewed-tensions-over-the-falkland-islands?traffic_source=rss",
+          "publisher": "Al Jazeera",
           "region": "South & Central America",
-          "published": "Thu, 12 Nov 2026 13:00:41 GMT"
+          "published": "Thu, 12 Nov 2026 20:25:21 +0000"
         },
         {
           "title": "Kenya discharges last Ebola patient in major milestone towards virus-free status",
@@ -3682,22 +3682,22 @@
           "published": "Sun, 08 Nov 2026 10:00:37 GMT"
         },
         {
-          "title": "Nearly 150 new businesses established daily in HCMC",
-          "summary": "Nearly 45,000 businesses were established in HCMC in the first 10 months of the year, accounting for more than a quarter of Vietnam's total and averaging nearly 150 new firms a day.",
-          "url": "https://e.vnexpress.net/infographics/business/nearly-150-new-businesses-established-daily-in-hcmc-5143785.html",
+          "title": "New Ho Chi Minh City chairman pledges to tackle traffic congestion, flooding",
+          "summary": "Ho Chi Minh City's new chairman Le Quoc Phong has pledged to focus on tackling traffic congestion, flooding, and environmental pollution while improving residents' quality of life.",
+          "url": "https://e.vnexpress.net/news/news/politics/new-ho-chi-minh-city-chairman-pledges-to-tackle-traffic-congestion-flooding-5143852.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Thu, 12 Nov 2026 14:00:00 +0700"
+          "published": "Thu, 12 Nov 2026 14:23:32 +0700"
         }
       ],
-      "totalTagged": 107,
+      "totalTagged": 110,
       "feedsQueried": 14,
       "errors": [],
       "note": "General headlines from the growing regions, taken from outlets of record and tagged to a region by the countries and cities they name."
     },
     "roundup": {
       "source": "assembled",
-      "fetchedAt": "2026-11-12T14:27:33.897Z",
+      "fetchedAt": "2026-11-12T23:48:07.899Z",
       "windowDays": 7,
       "publishers": [
         "Daily Coffee News",
@@ -3706,13 +3706,31 @@
       ],
       "items": [
         {
+          "headline": "Accreditation closing soon for the European Coffee Symposium + COHO Expo",
+          "summary": "Europe’s coffee and hospitality industry meets at the JW Marriott Berlin on 24–26 November 2026. More than 2,500 senior coffee and hospitality professionals will be there – don’t miss your chance to join them",
+          "url": "https://www.worldcoffeeportal.com/news/accreditation-closing-soon-for-the-european-coffee-symposium-coho-expo/",
+          "publisher": "World Coffee Portal",
+          "published": "Thu, 12 Nov 2026 17:24:13 GMT",
+          "date": "Thu, 12 Nov",
+          "section": "Top stories of the week"
+        },
+        {
+          "headline": "Design Details: The Recessed Sculptural Bar of Palace Coffee in Melbourne",
+          "summary": "Welcome to Design Details, an ongoing editorial feature in Daily Coffee News focused on individual examples of coffee shop architecture, interior design, packaging design or branding. If you are a...",
+          "url": "https://dailycoffeenews.com/2026/11/12/design-details-the-recessed-sculptural-bar-of-palace-coffee-in-melbourne/",
+          "publisher": "Daily Coffee News",
+          "published": "Thu, 12 Nov 2026 15:44:32 +0000",
+          "date": "Thu, 12 Nov",
+          "section": "Roasting & retail"
+        },
+        {
           "headline": "New Study Explains Why We Learn to Love Bitter Coffee",
           "summary": "Researchers say a “slow” dopamine circuit connecting the gut and brain teaches us to link coffee’s bitter flavor with caffeine’s positive effects. The post New Study Explains Why We Learn to Love Bitter Coffee appeared first on Fresh Cup .",
           "url": "https://freshcup.com/new-study-explains-why-we-learn-to-love-bitter-coffee/",
           "publisher": "Fresh Cup",
           "published": "Thu, 12 Nov 2026 12:46:00 +0000",
           "date": "Thu, 12 Nov",
-          "section": "Top stories of the week"
+          "section": "Roasting & retail"
         },
         {
           "headline": "FairWave Opens Modular Coffee Lab in Kansas City",
@@ -3738,24 +3756,6 @@
           "url": "https://dailycoffeenews.com/2026/11/11/seven-of-the-weirdest-things-coffee-does-to-your-body/",
           "publisher": "Daily Coffee News",
           "published": "Wed, 11 Nov 2026 14:30:47 +0000",
-          "date": "Wed, 11 Nov",
-          "section": "Roasting & retail"
-        },
-        {
-          "headline": "A World of Influences Converges at Cosmopolis Coffee in Portland",
-          "summary": "Down mountains, from port to port, through cities and countless hands, coffee passes through myriad cultures and walks of life on its way to the cup. Embracing that diversity is...",
-          "url": "https://dailycoffeenews.com/2026/11/11/a-world-of-influences-converges-at-cosmopolis-coffee-in-portland/",
-          "publisher": "Daily Coffee News",
-          "published": "Wed, 11 Nov 2026 13:38:07 +0000",
-          "date": "Wed, 11 Nov",
-          "section": "Roasting & retail"
-        },
-        {
-          "headline": "Specialty Robusta and Mastering Seasonal Launches w/ Gabriel Shohet of Black Sheep Coffee",
-          "summary": "Black Sheep Coffee’s co-founder on believing in robusta, launching seasonal drinks with conviction, and why opening-day influencer hype is a waste of money. The post Specialty Robusta and Mastering Seasonal Launches w/ Gabriel Shohet of Black Sheep Coffee…",
-          "url": "https://freshcup.com/specialty-robusta-and-mastering-seasonal-launches-w-gabriel-shohet-of-black-sheep-coffee/",
-          "publisher": "Fresh Cup",
-          "published": "Wed, 11 Nov 2026 13:10:00 +0000",
           "date": "Wed, 11 Nov",
           "section": "Roasting & retail"
         },
@@ -3814,7 +3814,7 @@
       "note": "Assembled from the coffee trade press over the past seven days, ranked by relevance to the physical trade. Headlines and links are each publisher’s own."
     },
     "dailyRead": {
-      "fetchedAt": "2026-11-12T14:27:32.467Z",
+      "fetchedAt": "2026-11-12T23:48:05.939Z",
       "article": {
         "title": "GCP Reports Drop in Sustainable Purchasing Among Large Green Coffee Buyers",
         "summary": "Approximately 69% of green coffee purchased by 14 major coffee roasters and retailers in 2025 met a recognized baseline sustainability standard, down from 75% the previous year, according to the...",
@@ -4142,37 +4142,37 @@
     {
       "source": "daily-read",
       "ok": true,
-      "ms": 153
-    },
-    {
-      "source": "arabica-futures",
-      "ok": true,
-      "ms": 519
+      "ms": 328
     },
     {
       "source": "weather",
       "ok": true,
-      "ms": 694
+      "ms": 368
     },
     {
-      "source": "weekly-recap",
+      "source": "arabica-futures",
       "ok": true,
-      "ms": 1586
+      "ms": 590
     },
     {
       "source": "fx",
       "ok": true,
-      "ms": 2138
+      "ms": 1312
+    },
+    {
+      "source": "weekly-recap",
+      "ok": true,
+      "ms": 2291
     },
     {
       "source": "origin-wire",
       "ok": true,
-      "ms": 2298
+      "ms": 2720
     },
     {
       "source": "ico-report",
       "ok": false,
-      "ms": 3679,
+      "ms": 3035,
       "error": "Table 1 (indicator prices) not found"
     }
   ]

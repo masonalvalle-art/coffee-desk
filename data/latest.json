@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T13:45:28.199Z",
+  "generatedAt": "2026-11-13T23:47:09.267Z",
   "schema": 5,
   "schedule": {
     "slotsUtc": [
@@ -26,8 +26,8 @@
       "frontMonth": {
         "code": "KCZ26",
         "label": "Dec 2026",
-        "close": 280.5,
-        "volume": 2964
+        "close": 279.25,
+        "volume": 6777
       },
       "rolled": false,
       "mostActive": "KCH27",
@@ -35,56 +35,56 @@
         {
           "code": "KCZ26",
           "label": "Dec 2026",
-          "close": 280.5,
-          "volume": 2964
+          "close": 279.25,
+          "volume": 6777
         },
         {
           "code": "KCH27",
           "label": "Mar 2027",
-          "close": 275.3,
-          "volume": 6753
+          "close": 274,
+          "volume": 17133
         },
         {
           "code": "KCK27",
           "label": "May 2027",
-          "close": 270.7,
-          "volume": 1668
+          "close": 269.9,
+          "volume": 5962
         },
         {
           "code": "KCN27",
           "label": "Jul 2027",
-          "close": 267.2,
-          "volume": 844
+          "close": 266.75,
+          "volume": 2443
         },
         {
           "code": "KCU27",
           "label": "Sep 2027",
-          "close": 264.25,
-          "volume": 317
+          "close": 263.95,
+          "volume": 852
         },
         {
           "code": "KCZ27",
           "label": "Dec 2027",
-          "close": 260.85,
-          "volume": 104
+          "close": 260.25,
+          "volume": 309
         },
         {
           "code": "KCH28",
           "label": "Mar 2028",
-          "close": 258.1,
-          "volume": 64
+          "close": 257,
+          "volume": 175
         }
       ],
       "quote": {
-        "last": 276.9,
+        "last": 274,
         "open": 274.3500061035156,
         "high": 279.20001220703125,
-        "low": 272.54998779296875,
+        "low": 272.3500061035156,
         "previousClose": 274.54998779296875,
-        "change": 2.35,
-        "changePct": 0.856,
-        "volume": 6467,
-        "asOf": "2026-11-13T13:24:46.000Z"
+        "change": -0.55,
+        "changePct": -0.2,
+        "volume": 17133,
+        "asOf": "2026-11-13T18:29:55.000Z"
       },
       "bars": [
         {
@@ -2643,16 +2643,16 @@
           "date": "2026-11-13",
           "open": 274.3500061035156,
           "high": 279.20001220703125,
-          "low": 272.54998779296875,
-          "close": 276.8999938964844,
-          "volume": 6467
+          "low": 272.3500061035156,
+          "close": 274,
+          "volume": 17133
         }
       ],
       "crossCheck": {
-        "tradingView": 275.3,
-        "yahoo": 276.9,
-        "diff": -1.6,
-        "diffPct": -0.578,
+        "tradingView": 274,
+        "yahoo": 274,
+        "diff": 0,
+        "diffPct": 0,
         "agree": true
       },
       "sources": [
@@ -2669,16 +2669,16 @@
       ],
       "technicals": {
         "observations": 504,
-        "sma20": 280.2799987792969,
-        "sma50": 279.93499938964845,
-        "sma200": 276.85724975585936,
-        "rsi14": 48.686983431561494,
+        "sma20": 280.13499908447267,
+        "sma50": 279.87699951171874,
+        "sma200": 276.84274978637694,
+        "rsi14": 45.89129251016807,
         "macd": {
-          "line": -4.141409983626602,
-          "signal": -3.667683210848585,
-          "histogram": -0.4737267727780168
+          "line": -4.372748528075476,
+          "signal": -3.71395091973836,
+          "histogram": -0.6587976083371165
         },
-        "atr14": 8.258903519444141,
+        "atr14": 8.27318792583365,
         "donchian20": {
           "high": 304.45001220703125,
           "low": 262.1499938964844,
@@ -2687,19 +2687,23 @@
         "levels": {
           "support": [
             {
-              "price": 276.45001220703125,
-              "date": "2026-10-12"
-            },
-            {
               "price": 270,
               "date": "2026-02-06"
             },
             {
               "price": 268.20001220703125,
               "date": "2025-04-07"
+            },
+            {
+              "price": 262.6000061035156,
+              "date": "2026-09-23"
             }
           ],
           "resistance": [
+            {
+              "price": 275.04998779296875,
+              "date": "2026-05-05"
+            },
             {
               "price": 280.8500061035156,
               "date": "2026-03-26"
@@ -2707,10 +2711,6 @@
             {
               "price": 281.6000061035156,
               "date": "2026-03-09"
-            },
-            {
-              "price": 282.04998779296875,
-              "date": "2026-04-24"
             }
           ]
         },
@@ -2726,22 +2726,18 @@
     }
   },
   "fx": {
-    "asOf": "2026-11-12",
+    "asOf": "2026-11-13",
     "pairs": {
       "GBPUSD": {
         "pair": "GBP/USD",
-        "rate": 1.3256,
-        "previous": 1.3307,
+        "rate": 1.3227,
+        "previous": 1.3256,
         "dp": 4,
         "note": "Sterling stronger means a dollar-priced contract costs a UK buyer less.",
-        "change": -0.0051,
-        "changePct": -0.383,
-        "change1m": -0.08,
+        "change": -0.0029,
+        "changePct": -0.219,
+        "change1m": -0.15,
         "history": [
-          {
-            "date": "2026-08-21",
-            "rate": 1.3656
-          },
           {
             "date": "2026-08-24",
             "rate": 1.3634
@@ -2977,23 +2973,23 @@
           {
             "date": "2026-11-12",
             "rate": 1.3256
+          },
+          {
+            "date": "2026-11-13",
+            "rate": 1.3227
           }
         ]
       },
       "USDBRL": {
         "pair": "USD/BRL",
-        "rate": 5.6169,
-        "previous": 5.5565,
+        "rate": 5.6637,
+        "previous": 5.6169,
         "dp": 4,
         "note": "A weaker real encourages Brazilian producer selling.",
-        "change": 0.0604,
-        "changePct": 1.087,
-        "change1m": 11.8,
+        "change": 0.0468,
+        "changePct": 0.833,
+        "change1m": 12,
         "history": [
-          {
-            "date": "2026-08-21",
-            "rate": 5.1729
-          },
           {
             "date": "2026-08-24",
             "rate": 5.1499
@@ -3229,14 +3225,18 @@
           {
             "date": "2026-11-12",
             "rate": 5.6169
+          },
+          {
+            "date": "2026-11-13",
+            "rate": 5.6637
           }
         ]
       }
     },
     "ptax": {
-      "buy": 5.6137,
-      "sell": 5.6143,
-      "quotedAt": "2026-11-12 13:08:21.353658"
+      "buy": 5.6512,
+      "sell": 5.6518,
+      "quotedAt": "2026-11-13 13:03:27.375047"
     },
     "sources": [
       {
@@ -3251,10 +3251,336 @@
       }
     ]
   },
-  "weather": null,
+  "weather": {
+    "fetchedAt": "2026-11-13T23:47:06.474Z",
+    "thresholds": {
+      "frostC": 4,
+      "heavyRainMm": 50,
+      "dryMm": 5
+    },
+    "countryOrder": [
+      "Brazil",
+      "Vietnam",
+      "Colombia",
+      "Indonesia",
+      "Ethiopia",
+      "Honduras",
+      "Peru"
+    ],
+    "conditionMethod": "The condition icon reads the last three observed days: 30 mm of rain in total, 20 mm in any one day, or a heavy-rain code is very wet; 5 mm is wet; 60% mean cloud cover is cloudy; anything else is clear.",
+    "regions": [
+      {
+        "key": "sul-de-minas",
+        "name": "Sul de Minas",
+        "country": "Brazil",
+        "species": "Arabica",
+        "lat": -21.55,
+        "lon": -45.43,
+        "current": {
+          "date": "2026-11-12",
+          "tMax": 26,
+          "tMin": 16.8,
+          "rain": 4.1,
+          "code": 55,
+          "cloud": 83,
+          "observed": true
+        },
+        "condition": "wet",
+        "conditionLabel": "Wet",
+        "rain14": 71.3,
+        "rainForecast7": 30.3,
+        "minForecast7": 16.1,
+        "alerts": []
+      },
+      {
+        "key": "cerrado",
+        "name": "Cerrado Mineiro",
+        "country": "Brazil",
+        "species": "Arabica",
+        "lat": -18.94,
+        "lon": -46.99,
+        "current": {
+          "date": "2026-11-12",
+          "tMax": 26.7,
+          "tMin": 18.1,
+          "rain": 3.8,
+          "code": 80,
+          "cloud": 85,
+          "observed": true
+        },
+        "condition": "wet",
+        "conditionLabel": "Wet",
+        "rain14": 83,
+        "rainForecast7": 52.8,
+        "minForecast7": 16.8,
+        "alerts": [
+          {
+            "type": "wet",
+            "severity": "watch",
+            "text": "53 mm forecast over 7 days — harvest/drying disruption risk."
+          }
+        ]
+      },
+      {
+        "key": "espirito-santo",
+        "name": "Espírito Santo",
+        "country": "Brazil",
+        "species": "Robusta",
+        "lat": -19.39,
+        "lon": -40.07,
+        "current": {
+          "date": "2026-11-12",
+          "tMax": 26.1,
+          "tMin": 21.2,
+          "rain": 8.6,
+          "code": 95,
+          "cloud": 98,
+          "observed": true
+        },
+        "condition": "very-wet",
+        "conditionLabel": "Very wet",
+        "rain14": 95.6,
+        "rainForecast7": 90.6,
+        "minForecast7": 21.3,
+        "alerts": [
+          {
+            "type": "wet",
+            "severity": "watch",
+            "text": "91 mm forecast over 7 days — harvest/drying disruption risk."
+          }
+        ]
+      },
+      {
+        "key": "dak-lak",
+        "name": "Dak Lak",
+        "country": "Vietnam",
+        "species": "Robusta",
+        "lat": 12.68,
+        "lon": 108.05,
+        "current": {
+          "date": "2026-11-12",
+          "tMax": 24.7,
+          "tMin": 22,
+          "rain": 3.5,
+          "code": 53,
+          "cloud": 94,
+          "observed": true
+        },
+        "condition": "very-wet",
+        "conditionLabel": "Very wet",
+        "rain14": 28.8,
+        "rainForecast7": 15.1,
+        "minForecast7": 22,
+        "alerts": []
+      },
+      {
+        "key": "lam-dong",
+        "name": "Lam Dong",
+        "country": "Vietnam",
+        "species": "Robusta",
+        "lat": 11.55,
+        "lon": 107.81,
+        "current": {
+          "date": "2026-11-12",
+          "tMax": 26.7,
+          "tMin": 19.6,
+          "rain": 0.9,
+          "code": 51,
+          "cloud": 79,
+          "observed": true
+        },
+        "condition": "very-wet",
+        "conditionLabel": "Very wet",
+        "rain14": 31.7,
+        "rainForecast7": 31.8,
+        "minForecast7": 18,
+        "alerts": []
+      },
+      {
+        "key": "huila",
+        "name": "Huila",
+        "country": "Colombia",
+        "species": "Arabica",
+        "lat": 1.85,
+        "lon": -76.05,
+        "current": {
+          "date": "2026-11-12",
+          "tMax": 25,
+          "tMin": 17.2,
+          "rain": 5.1,
+          "code": 81,
+          "cloud": 95,
+          "observed": true
+        },
+        "condition": "wet",
+        "conditionLabel": "Wet",
+        "rain14": 65.8,
+        "rainForecast7": 38.1,
+        "minForecast7": 15.5,
+        "alerts": []
+      },
+      {
+        "key": "antioquia",
+        "name": "Antioquia",
+        "country": "Colombia",
+        "species": "Arabica",
+        "lat": 6.25,
+        "lon": -75.56,
+        "current": {
+          "date": "2026-11-12",
+          "tMax": 27.8,
+          "tMin": 16.7,
+          "rain": 1,
+          "code": 51,
+          "cloud": 94,
+          "observed": true
+        },
+        "condition": "cloudy",
+        "conditionLabel": "Cloudy",
+        "rain14": 54.7,
+        "rainForecast7": 38.6,
+        "minForecast7": 15.9,
+        "alerts": []
+      },
+      {
+        "key": "gayo",
+        "name": "Gayo Highlands",
+        "country": "Indonesia",
+        "species": "Arabica",
+        "lat": 4.63,
+        "lon": 96.85,
+        "current": {
+          "date": "2026-11-12",
+          "tMax": 25.1,
+          "tMin": 17.4,
+          "rain": 18.7,
+          "code": 81,
+          "cloud": 89,
+          "observed": true
+        },
+        "condition": "very-wet",
+        "conditionLabel": "Very wet",
+        "rain14": 171.7,
+        "rainForecast7": 68.8,
+        "minForecast7": 16.5,
+        "alerts": [
+          {
+            "type": "wet",
+            "severity": "watch",
+            "text": "69 mm forecast over 7 days — harvest/drying disruption risk."
+          }
+        ]
+      },
+      {
+        "key": "lampung",
+        "name": "Lampung",
+        "country": "Indonesia",
+        "species": "Robusta",
+        "lat": -5.45,
+        "lon": 105.27,
+        "current": {
+          "date": "2026-11-12",
+          "tMax": 32.6,
+          "tMin": 26.5,
+          "rain": 5.4,
+          "code": 55,
+          "cloud": 81,
+          "observed": true
+        },
+        "condition": "wet",
+        "conditionLabel": "Wet",
+        "rain14": 42.1,
+        "rainForecast7": 50.3,
+        "minForecast7": 24.8,
+        "alerts": [
+          {
+            "type": "wet",
+            "severity": "watch",
+            "text": "50 mm forecast over 7 days — harvest/drying disruption risk."
+          }
+        ]
+      },
+      {
+        "key": "jimma",
+        "name": "Jimma",
+        "country": "Ethiopia",
+        "species": "Arabica",
+        "lat": 7.67,
+        "lon": 36.83,
+        "current": {
+          "date": "2026-11-12",
+          "tMax": 23.2,
+          "tMin": 14.4,
+          "rain": 28.4,
+          "code": 81,
+          "cloud": 94,
+          "observed": true
+        },
+        "condition": "very-wet",
+        "conditionLabel": "Very wet",
+        "rain14": 75.2,
+        "rainForecast7": 21.2,
+        "minForecast7": 12.7,
+        "alerts": []
+      },
+      {
+        "key": "marcala",
+        "name": "Marcala",
+        "country": "Honduras",
+        "species": "Arabica",
+        "lat": 14.16,
+        "lon": -88.02,
+        "current": {
+          "date": "2026-11-12",
+          "tMax": 27.7,
+          "tMin": 17.8,
+          "rain": 2,
+          "code": 55,
+          "cloud": 82,
+          "observed": true
+        },
+        "condition": "cloudy",
+        "conditionLabel": "Cloudy",
+        "rain14": 37.2,
+        "rainForecast7": 12.9,
+        "minForecast7": 15.2,
+        "alerts": []
+      },
+      {
+        "key": "chanchamayo",
+        "name": "Chanchamayo",
+        "country": "Peru",
+        "species": "Arabica",
+        "lat": -11.05,
+        "lon": -75.33,
+        "current": {
+          "date": "2026-11-12",
+          "tMax": 31.1,
+          "tMin": 20,
+          "rain": 5.7,
+          "code": 80,
+          "cloud": 49,
+          "observed": true
+        },
+        "condition": "very-wet",
+        "conditionLabel": "Very wet",
+        "rain14": 103.4,
+        "rainForecast7": 43.6,
+        "minForecast7": 20.1,
+        "alerts": []
+      }
+    ],
+    "sources": [
+      {
+        "name": "Open-Meteo forecast API",
+        "url": "https://open-meteo.com/",
+        "role": "observed + forecast temperature, precipitation and weather code"
+      }
+    ]
+  },
   "news": {
     "originWire": {
-      "fetchedAt": "2026-11-13T13:44:57.278Z",
+      "fetchedAt": "2026-11-13T23:47:09.002Z",
       "lookbackHours": 504,
       "headlines": [
         {
@@ -3290,20 +3616,20 @@
           "published": "Thu, 12 Nov 2026 13:58:49 GMT"
         },
         {
-          "title": "El Salvador deploys armed robots to fight gangs in Haiti",
-          "summary": "El Salvador’s President Nayib Bukele has released a video showing armed robots during an operation against gangs.",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/el-salvador-deploys-armed-robots-to-fight-gangs-in-haiti?traffic_source=rss",
+          "title": "Pope Leo cheered on return to Peru city where he served as bishop",
+          "summary": "An estimated 1.5 million people have welcomed Pope Leo XIV back to the city in Peru where he once served as bishop.",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/pope-leo-cheered-on-return-to-peru-city-where-he-served-as-bishop?traffic_source=rss",
           "publisher": "Al Jazeera",
           "region": "South & Central America",
-          "published": "Fri, 13 Nov 2026 10:57:20 +0000"
+          "published": "Fri, 13 Nov 2026 20:52:31 +0000"
         },
         {
-          "title": "Kenyan building collapse near Nairobi kills six people",
-          "summary": "Five people reportedly survive as emergency crews search for anyone still trapped in the rubble.",
-          "url": "https://www.aljazeera.com/news/2026/11/13/kenyan-building-collapse-near-nairobi-kills-six-people?traffic_source=rss",
-          "publisher": "Al Jazeera",
+          "title": "Salah scores twice as Egypt and Nigeria win Afcon 2027 qualifiers",
+          "summary": "Nigeria beat Tanzania to boost their hopes of reaching the 2027 Africa Cup of Nations, while Mohamed Salah scores twice as Egypt cruise to victory over Malawi.",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cw1md9jx2r3po?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
           "region": "East Africa",
-          "published": "Fri, 13 Nov 2026 13:11:24 +0000"
+          "published": "Fri, 13 Nov 2026 22:11:27 GMT"
         },
         {
           "title": "2 travelers from Brazil arrested with $610,000 in cocaine at Bangkok airport",
@@ -3338,12 +3664,12 @@
           "published": "Tue, 27 Oct 2026 17:55:04 GMT"
         },
         {
-          "title": "Pope Leo gets rapturous welcome on return to Peru: ‘This visit is like a big party’",
-          "summary": "Pontiff is visiting the country, where he spent nearly a decade as bishop, during an 11-day South American tour The walls in Chiclayo have been painted with colourful murals and banners welcoming Pope Leo XIV , but he is better known to residents of this city…",
-          "url": "https://www.theguardian.com/world/2026/nov/12/pope-leo-peru-visit",
-          "publisher": "The Guardian",
+          "title": "Pope thanks crowds on emotional return to ‘second home’ in Peru’s Chiclayo",
+          "summary": "The Chicago-born pope was welcomed by huge crowds in the coastal city, on the final leg of his South America tour.",
+          "url": "https://www.aljazeera.com/news/2026/11/13/pope-thanks-crowds-on-emotional-return-to-second-home-in-perus-chiclayo?traffic_source=rss",
+          "publisher": "Al Jazeera",
           "region": "South & Central America",
-          "published": "Fri, 13 Nov 2026 03:53:40 GMT"
+          "published": "Fri, 13 Nov 2026 20:28:20 +0000"
         },
         {
           "title": "Neither war nor peace in Tigray - is Ethiopia's latest conflict really over?",
@@ -3377,7 +3703,7 @@
     },
     "roundup": {
       "source": "assembled",
-      "fetchedAt": "2026-11-13T13:44:56.567Z",
+      "fetchedAt": "2026-11-13T23:47:08.477Z",
       "windowDays": 7,
       "publishers": [
         "Daily Coffee News",
@@ -3386,6 +3712,33 @@
         "World Coffee Portal"
       ],
       "items": [
+        {
+          "headline": "Joe & The Juice continues international rollout with Oman launch",
+          "summary": "The Copenhagen-based coffee and hospitality group now operates in nine markets across the Middle East and North Africa region – with a tenth to come in the next few weeks",
+          "url": "https://www.worldcoffeeportal.com/news/joe-the-juice-continues-international-rollout-with-oman-launch/",
+          "publisher": "World Coffee Portal",
+          "published": "Fri, 13 Nov 2026 15:03:41 GMT",
+          "date": "Fri, 13 Nov",
+          "section": "Roasting & retail"
+        },
+        {
+          "headline": "Ohio’s Branch Street Cafe Becomes Denizen as Managers Take Ownership",
+          "summary": "After more than a decade of serving guests at their independent coffee shop in Boardman, Ohio, the owners of Branch Street Coffee Roasters have handed the keys to two longtime...",
+          "url": "https://dailycoffeenews.com/2026/11/13/ohios-branch-street-cafe-becomes-denizen-as-managers-take-ownership/",
+          "publisher": "Daily Coffee News",
+          "published": "Fri, 13 Nov 2026 14:39:55 +0000",
+          "date": "Fri, 13 Nov",
+          "section": "Roasting & retail"
+        },
+        {
+          "headline": "Weekly Coffee News: New Coffee Education Certificate + ICO Price Edges Down",
+          "summary": "Welcome to DCN’s Weekly Coffee News! Subscribe here for all the latest coffee industry news. Also, check out the latest career opportunities at CoffeeIndustryJobs.com. Cover Your Assets Unveils Major Software...",
+          "url": "https://dailycoffeenews.com/2026/11/13/weekly-coffee-news-new-coffee-education-certificate-ico-price-edges-down/",
+          "publisher": "Daily Coffee News",
+          "published": "Fri, 13 Nov 2026 13:41:57 +0000",
+          "date": "Fri, 13 Nov",
+          "section": "Top stories of the week"
+        },
         {
           "headline": "The coffee farmers finding flavour and fortune",
           "summary": "Producers and scientists around the world are investing in ultra-rare coffees, some chasing unique sensory experiences, others confronting the existential challenges of a changing climate. Many are charging a small fortune, reports Cristiana Couto from Brazil",
@@ -3441,24 +3794,6 @@
           "section": "Roasting & retail"
         },
         {
-          "headline": "FairWave Opens Modular Coffee Lab in Kansas City",
-          "summary": "Kansas City, Missouri-based specialty coffee group FairWave Specialty Coffee Collective opened an appointment-only equipment showroom and training center last month called The Collective Lab for coffee professionals within its network...",
-          "url": "https://dailycoffeenews.com/2026/11/12/fairwave-opens-modular-coffee-lab-in-kansas-city/",
-          "publisher": "Daily Coffee News",
-          "published": "Thu, 12 Nov 2026 12:40:01 +0000",
-          "date": "Thu, 12 Nov",
-          "section": "Roasting & retail"
-        },
-        {
-          "headline": "Researchers Make Membrane That Decaffeinates Liquid Coffee",
-          "summary": "Researchers in Australia have developed an experimental filter that removes nearly half the caffeine from coffee after it has been prepared, potentially opening a new path for decaffeination after brewing...",
-          "url": "https://dailycoffeenews.com/2026/11/11/researchers-make-membrane-that-decaffeinates-liquid-coffee/",
-          "publisher": "Daily Coffee News",
-          "published": "Wed, 11 Nov 2026 14:34:21 +0000",
-          "date": "Wed, 11 Nov",
-          "section": "Roasting & retail"
-        },
-        {
           "headline": "Starbucks ready for a “new chapter of growth” in Brazil",
           "summary": "The world’s largest coffee chain has identified the South American country as a strategic market for long-term expansion",
           "url": "https://www.worldcoffeeportal.com/news/starbucks-ready-for-a-new-chapter-of-growth-in-brazil/",
@@ -3474,15 +3809,6 @@
           "publisher": "Daily Coffee News",
           "published": "Tue, 10 Nov 2026 17:00:09 +0000",
           "date": "Tue, 10 Nov",
-          "section": "Top stories of the week"
-        },
-        {
-          "headline": "Brazil Study Field-Tests the Economics of Regenerative Coffee",
-          "summary": "A new study of seven Brazilian coffee farms suggests that beyond significant environmental benefits, regenerative agriculture can be economically competitive while maintaining strong productivity. Led by the Brazil arm of...",
-          "url": "https://dailycoffeenews.com/2026/11/09/brazil-study-field-tests-the-economics-of-regenerative-coffee/",
-          "publisher": "Daily Coffee News",
-          "published": "Mon, 09 Nov 2026 16:43:29 +0000",
-          "date": "Mon, 9 Nov",
           "section": "Top stories of the week"
         },
         {
@@ -3504,13 +3830,13 @@
       "note": "Assembled from the coffee trade press over the past seven days, ranked by relevance to the physical trade. Headlines and links are each publisher’s own."
     },
     "dailyRead": {
-      "fetchedAt": "2026-11-13T13:44:55.469Z",
+      "fetchedAt": "2026-11-13T23:47:06.509Z",
       "article": {
-        "title": "GCP Reports Drop in Sustainable Purchasing Among Large Green Coffee Buyers",
-        "summary": "Approximately 69% of green coffee purchased by 14 major coffee roasters and retailers in 2025 met a recognized baseline sustainability standard, down from 75% the previous year, according to the...",
-        "url": "https://dailycoffeenews.com/2026/11/10/gcp-reports-drop-in-sustainable-purchasing-among-large-green-coffee-buyers/",
+        "title": "Weekly Coffee News: New Coffee Education Certificate + ICO Price Edges Down",
+        "summary": "Welcome to DCN’s Weekly Coffee News! Subscribe here for all the latest coffee industry news. Also, check out the latest career opportunities at CoffeeIndustryJobs.com. Cover Your Assets Unveils Major Software...",
+        "url": "https://dailycoffeenews.com/2026/11/13/weekly-coffee-news-new-coffee-education-certificate-ico-price-edges-down/",
         "publisher": "Daily Coffee News",
-        "published": "Tue, 10 Nov 2026 17:00:09 +0000"
+        "published": "Fri, 13 Nov 2026 13:41:57 +0000"
       },
       "considered": 10
     }
@@ -3830,41 +4156,40 @@
   },
   "status": [
     {
-      "source": "arabica-futures",
+      "source": "weather",
       "ok": true,
-      "ms": 479
+      "ms": 374
     },
     {
       "source": "daily-read",
       "ok": true,
-      "ms": 539
+      "ms": 404
     },
     {
-      "source": "weekly-recap",
+      "source": "arabica-futures",
       "ok": true,
-      "ms": 1640
+      "ms": 800
     },
     {
       "source": "fx",
       "ok": true,
-      "ms": 2340
+      "ms": 1456
+    },
+    {
+      "source": "weekly-recap",
+      "ok": true,
+      "ms": 2375
     },
     {
       "source": "origin-wire",
       "ok": true,
-      "ms": 2355
+      "ms": 2901
     },
     {
       "source": "ico-report",
       "ok": false,
-      "ms": 3655,
+      "ms": 3154,
       "error": "Table 1 (indicator prices) not found"
-    },
-    {
-      "source": "weather",
-      "ok": false,
-      "ms": 33273,
-      "error": "fetch failed"
     }
   ]
 }

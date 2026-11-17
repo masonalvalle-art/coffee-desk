@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T01:59:08.403Z",
+  "generatedAt": "2026-11-17T15:20:31.776Z",
   "schema": 5,
   "schedule": {
     "slotsUtc": [
@@ -26,8 +26,8 @@
       "frontMonth": {
         "code": "KCZ26",
         "label": "Dec 2026",
-        "close": 280.7,
-        "volume": 5456
+        "close": 282.95,
+        "volume": 2865
       },
       "rolled": false,
       "mostActive": "KCH27",
@@ -35,66 +35,58 @@
         {
           "code": "KCZ26",
           "label": "Dec 2026",
-          "close": 280.7,
-          "volume": 5456
+          "close": 282.95,
+          "volume": 2865
         },
         {
           "code": "KCH27",
           "label": "Mar 2027",
-          "close": 274.9,
-          "volume": 16798
+          "close": 276.45,
+          "volume": 11882
         },
         {
           "code": "KCK27",
           "label": "May 2027",
-          "close": 270.55,
-          "volume": 4518
+          "close": 271.45,
+          "volume": 3171
         },
         {
           "code": "KCN27",
           "label": "Jul 2027",
-          "close": 267.3,
-          "volume": 2246
+          "close": 267.7,
+          "volume": 1771
         },
         {
           "code": "KCU27",
           "label": "Sep 2027",
-          "close": 264.25,
-          "volume": 655
+          "close": 264.45,
+          "volume": 537
         },
         {
           "code": "KCZ27",
           "label": "Dec 2027",
-          "close": 260.7,
-          "volume": 286
+          "close": 260.55,
+          "volume": 271
         },
         {
           "code": "KCH28",
           "label": "Mar 2028",
-          "close": 257.55,
-          "volume": 112
+          "close": 257.2,
+          "volume": 100
         }
       ],
       "quote": {
-        "last": 274.4,
-        "open": 270.8500061035156,
-        "high": 278.3999938964844,
-        "low": 270.75,
-        "previousClose": 273.5,
-        "change": 0.9,
-        "changePct": 0.329,
-        "volume": 0,
-        "asOf": "2026-11-16T18:29:56.000Z"
+        "last": 277.05,
+        "open": 273.54998779296875,
+        "high": 282.25,
+        "low": 273.54998779296875,
+        "previousClose": 274.8999938964844,
+        "change": 2.15,
+        "changePct": 0.782,
+        "volume": 11549,
+        "asOf": "2026-11-17T15:00:22.000Z"
       },
       "bars": [
-        {
-          "date": "2025-08-11",
-          "open": 268.1499938964844,
-          "high": 279.6000061035156,
-          "low": 267.8500061035156,
-          "close": 277.95001220703125,
-          "volume": 335
-        },
         {
           "date": "2025-08-12",
           "open": 278.75,
@@ -2644,15 +2636,23 @@
           "open": 270.8500061035156,
           "high": 278.3999938964844,
           "low": 270.75,
-          "close": 274.3999938964844,
-          "volume": 0
+          "close": 274.8999938964844,
+          "volume": 17133
+        },
+        {
+          "date": "2026-11-17",
+          "open": 273.54998779296875,
+          "high": 282.25,
+          "low": 273.54998779296875,
+          "close": 277.04998779296875,
+          "volume": 11549
         }
       ],
       "crossCheck": {
-        "tradingView": 274.9,
-        "yahoo": 274.4,
-        "diff": 0.5,
-        "diffPct": 0.182,
+        "tradingView": 276.45,
+        "yahoo": 277.05,
+        "diff": -0.6,
+        "diffPct": -0.217,
         "agree": true
       },
       "sources": [
@@ -2668,24 +2668,28 @@
         }
       ],
       "technicals": {
-        "observations": 502,
-        "sma20": 278.7174987792969,
-        "sma50": 279.60699951171875,
-        "sma200": 276.7359997558594,
-        "rsi14": 46.435733274141576,
+        "observations": 503,
+        "sma20": 277.64499816894534,
+        "sma50": 279.50499938964845,
+        "sma200": 276.6522497558594,
+        "rsi14": 49.27436823544702,
         "macd": {
-          "line": -4.002309982101906,
-          "signal": -3.778004498592834,
-          "histogram": -0.2243054835090721
+          "line": -3.393029506459527,
+          "signal": -3.694627733784408,
+          "histogram": 0.30159822732488095
         },
-        "atr14": 8.228674066594417,
+        "atr14": 8.262341076625619,
         "donchian20": {
-          "high": 304.45001220703125,
+          "high": 303.79998779296875,
           "low": 262.1499938964844,
           "period": 20
         },
         "levels": {
           "support": [
+            {
+              "price": 276.45001220703125,
+              "date": "2026-10-12"
+            },
             {
               "price": 270,
               "date": "2026-02-06"
@@ -2693,17 +2697,9 @@
             {
               "price": 268.20001220703125,
               "date": "2025-04-07"
-            },
-            {
-              "price": 262.6000061035156,
-              "date": "2026-09-23"
             }
           ],
           "resistance": [
-            {
-              "price": 275.04998779296875,
-              "date": "2026-05-05"
-            },
             {
               "price": 280.8500061035156,
               "date": "2026-03-26"
@@ -2711,6 +2707,10 @@
             {
               "price": 281.6000061035156,
               "date": "2026-03-09"
+            },
+            {
+              "price": 282.04998779296875,
+              "date": "2026-04-24"
             }
           ]
         },
@@ -2719,29 +2719,25 @@
           "low": 222.75
         },
         "method": "Wilder RSI(14); MACD(12,26,9) on EMA; ATR(14); pivots = 5-bar swing highs/lows; Donchian(20).",
-        "basis": "502 daily bars for KCH27"
+        "basis": "503 daily bars for KCH27"
       },
       "barsPublished": 320,
-      "barsAnalysed": 502
+      "barsAnalysed": 503
     }
   },
   "fx": {
-    "asOf": "2026-11-16",
+    "asOf": "2026-11-17",
     "pairs": {
       "GBPUSD": {
         "pair": "GBP/USD",
-        "rate": 1.3198,
-        "previous": 1.3227,
+        "rate": 1.3191,
+        "previous": 1.3198,
         "dp": 4,
         "note": "Sterling stronger means a dollar-priced contract costs a UK buyer less.",
-        "change": -0.0029,
-        "changePct": -0.219,
-        "change1m": -1.03,
+        "change": -0.0007,
+        "changePct": -0.053,
+        "change1m": -1.05,
         "history": [
-          {
-            "date": "2026-08-25",
-            "rate": 1.3632
-          },
           {
             "date": "2026-08-26",
             "rate": 1.363
@@ -2977,23 +2973,23 @@
           {
             "date": "2026-11-16",
             "rate": 1.3198
+          },
+          {
+            "date": "2026-11-17",
+            "rate": 1.3191
           }
         ]
       },
       "USDBRL": {
         "pair": "USD/BRL",
-        "rate": 5.7053,
-        "previous": 5.6637,
+        "rate": 5.7821,
+        "previous": 5.7053,
         "dp": 4,
         "note": "A weaker real encourages Brazilian producer selling.",
-        "change": 0.0416,
-        "changePct": 0.735,
-        "change1m": 12.25,
+        "change": 0.0768,
+        "changePct": 1.346,
+        "change1m": 14.6,
         "history": [
-          {
-            "date": "2026-08-25",
-            "rate": 5.158
-          },
           {
             "date": "2026-08-26",
             "rate": 5.1465
@@ -3229,6 +3225,10 @@
           {
             "date": "2026-11-16",
             "rate": 5.7053
+          },
+          {
+            "date": "2026-11-17",
+            "rate": 5.7821
           }
         ]
       }
@@ -3252,7 +3252,7 @@
     ]
   },
   "weather": {
-    "fetchedAt": "2026-11-17T01:59:03.435Z",
+    "fetchedAt": "2026-11-17T15:20:27.583Z",
     "thresholds": {
       "frostC": 4,
       "heavyRainMm": 50,
@@ -3279,17 +3279,17 @@
         "current": {
           "date": "2026-11-16",
           "tMax": 25.5,
-          "tMin": 17.4,
+          "tMin": 17.5,
           "rain": 15.9,
           "code": 81,
-          "cloud": 75,
+          "cloud": 74,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 68.9,
-        "rainForecast7": 11.7,
-        "minForecast7": 16.5,
+        "rain14": 56.7,
+        "rainForecast7": 32.8,
+        "minForecast7": 16.8,
         "alerts": []
       },
       {
@@ -3305,14 +3305,14 @@
           "tMin": 18.3,
           "rain": 10.6,
           "code": 95,
-          "cloud": 74,
+          "cloud": 77,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 81.3,
-        "rainForecast7": 30.8,
-        "minForecast7": 17.5,
+        "rain14": 77.7,
+        "rainForecast7": 40,
+        "minForecast7": 18.1,
         "alerts": []
       },
       {
@@ -3326,21 +3326,21 @@
           "date": "2026-11-16",
           "tMax": 29,
           "tMin": 22.8,
-          "rain": 14.4,
+          "rain": 11.6,
           "code": 95,
           "cloud": 96,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 100.5,
-        "rainForecast7": 94.7,
+        "rain14": 85.2,
+        "rainForecast7": 64.6,
         "minForecast7": 22.8,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "95 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "65 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3363,8 +3363,8 @@
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
         "rain14": 36.9,
-        "rainForecast7": 2.2,
-        "minForecast7": 22.6,
+        "rainForecast7": 0.5,
+        "minForecast7": 22.3,
         "alerts": []
       },
       {
@@ -3386,8 +3386,8 @@
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
         "rain14": 35.9,
-        "rainForecast7": 11.1,
-        "minForecast7": 17,
+        "rainForecast7": 8.8,
+        "minForecast7": 16.4,
         "alerts": []
       },
       {
@@ -3403,15 +3403,21 @@
           "tMin": 17.2,
           "rain": 2.6,
           "code": 53,
-          "cloud": 76,
+          "cloud": 74,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 67.1,
-        "rainForecast7": 47.4,
-        "minForecast7": 17.3,
-        "alerts": []
+        "rain14": 59.9,
+        "rainForecast7": 51.5,
+        "minForecast7": 17.6,
+        "alerts": [
+          {
+            "type": "wet",
+            "severity": "watch",
+            "text": "52 mm forecast over 7 days — harvest/drying disruption risk."
+          }
+        ]
       },
       {
         "key": "antioquia",
@@ -3423,18 +3429,24 @@
         "current": {
           "date": "2026-11-16",
           "tMax": 27.1,
-          "tMin": 17.2,
-          "rain": 7.1,
+          "tMin": 18.3,
+          "rain": 7.8,
           "code": 81,
           "cloud": 100,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 50,
-        "rainForecast7": 29.1,
-        "minForecast7": 16.3,
-        "alerts": []
+        "rain14": 49.4,
+        "rainForecast7": 51.6,
+        "minForecast7": 16.2,
+        "alerts": [
+          {
+            "type": "wet",
+            "severity": "watch",
+            "text": "52 mm forecast over 7 days — harvest/drying disruption risk."
+          }
+        ]
       },
       {
         "key": "gayo",
@@ -3455,13 +3467,13 @@
         "condition": "very-wet",
         "conditionLabel": "Very wet",
         "rain14": 212.2,
-        "rainForecast7": 100.6,
-        "minForecast7": 16.6,
+        "rainForecast7": 80.5,
+        "minForecast7": 16.3,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "101 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "81 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3484,8 +3496,8 @@
         "condition": "very-wet",
         "conditionLabel": "Very wet",
         "rain14": 55,
-        "rainForecast7": 54.3,
-        "minForecast7": 24.2,
+        "rainForecast7": 54.2,
+        "minForecast7": 24.4,
         "alerts": [
           {
             "type": "wet",
@@ -3513,8 +3525,8 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 101.1,
-        "rainForecast7": 4.3,
-        "minForecast7": 12.8,
+        "rainForecast7": 6.3,
+        "minForecast7": 13.3,
         "alerts": []
       },
       {
@@ -3528,15 +3540,15 @@
           "date": "2026-11-16",
           "tMax": 26.6,
           "tMin": 17,
-          "rain": 0.5,
+          "rain": 0.6,
           "code": 51,
-          "cloud": 61,
+          "cloud": 58,
           "observed": true
         },
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
-        "rain14": 39.2,
-        "rainForecast7": 10.9,
+        "rain14": 35.4,
+        "rainForecast7": 13.2,
         "minForecast7": 17.1,
         "alerts": []
       },
@@ -3551,16 +3563,16 @@
           "date": "2026-11-16",
           "tMax": 34,
           "tMin": 21.2,
-          "rain": 4,
+          "rain": 3.5,
           "code": 55,
-          "cloud": 32,
+          "cloud": 34,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 114.4,
-        "rainForecast7": 24.4,
-        "minForecast7": 20.1,
+        "rain14": 103.3,
+        "rainForecast7": 33,
+        "minForecast7": 20,
         "alerts": []
       }
     ],
@@ -3574,24 +3586,24 @@
   },
   "news": {
     "originWire": {
-      "fetchedAt": "2026-11-17T01:59:05.613Z",
+      "fetchedAt": "2026-11-17T15:20:29.425Z",
       "lookbackHours": 504,
       "headlines": [
         {
-          "title": "Ronaldinho makes comeback in Ravenna win",
-          "summary": "Brazil legend Ronaldinho makes his comeback aged 46 for Ravenna, playing the first half of their Italian third-tier derby against Forli.",
-          "url": "https://www.bbc.co.uk/sport/football/articles/ckregz4g823xo?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
+          "title": "Brazil defeat Singapore 7-0 as Vinicius scores first-half hat-trick",
+          "summary": "Brazil's star forward scored a 12-minute hat-trick in the record world champions' thumping of the hosts in a friendly.",
+          "url": "https://www.aljazeera.com/sports/2026/11/17/brazil-defeat-singapore-7-0-as-vinicius-scores-first-half-hat-trick?traffic_source=rss",
+          "publisher": "Al Jazeera",
           "region": "Brazil",
-          "published": "Sun, 15 Nov 2026 19:31:48 GMT"
+          "published": "Tue, 17 Nov 2026 12:54:04 +0000"
         },
         {
-          "title": "Future of banking begins with people: Ooi Huey Tyng",
-          "summary": "Eximbank independent director Ooi Huey Tyng says the future of banking in Vietnam will depend on understanding customers, using technology to meet their needs and building trust through sound corporate governance.",
-          "url": "https://e.vnexpress.net/news/business/future-of-banking-begins-with-people-ooi-huey-tyng-5140068.html",
+          "title": "Vietnam's top leader To Lam holds talks with Xi Jinping in Shenzhen",
+          "summary": "Party General Secretary and President To Lam proposed that Vietnam and China jointly take their economic and trade cooperation to new heights during talks with Chinese President Xi Jinping in Shenzhen on Tuesday.",
+          "url": "https://e.vnexpress.net/news/news/politics/vietnam-s-top-leader-to-lam-holds-talks-with-xi-jinping-in-shenzhen-5145738.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Tue, 17 Nov 2026 08:00:00 +0700"
+          "published": "Tue, 17 Nov 2026 15:48:41 +0700"
         },
         {
           "title": "Indonesia apologizes to Malaysia, Singapore as wildfire haze sickens hundreds of thousands",
@@ -3610,52 +3622,12 @@
           "published": "Tue, 27 Oct 2026 17:55:04 GMT"
         },
         {
-          "title": "Paraguay ex-president moved to military jail amid special treatment reports",
-          "summary": "Santiago Pena has been accused of corruption following the collapse of Ueno Bank earlier this month.",
-          "url": "https://www.aljazeera.com/news/2026/11/16/paraguay-ex-president-moved-to-military-jail-amid-special-treatment-reports?traffic_source=rss",
-          "publisher": "Al Jazeera",
-          "region": "South & Central America",
-          "published": "Mon, 16 Nov 2026 23:44:32 +0000"
-        },
-        {
-          "title": "EU countries announce migrant deportation centre in Rwanda",
-          "summary": "Germany, Austria, the Netherlands, Denmark and Greece have announced that Rwanda will be used as a deportation centre.",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/eu-countries-announce-migrant-deportation-centre-in-rwanda?traffic_source=rss",
-          "publisher": "Al Jazeera",
-          "region": "East Africa",
-          "published": "Tue, 17 Nov 2026 01:12:28 +0000"
-        },
-        {
-          "title": "Chapecoense air crash survivor wins promotion in final game",
-          "summary": "Alan Ruschel, one of six survivors in the 2016 plane crash that was carrying members of the Chapecoense team, wins promotion to Brazil‘s Serie A in his final match before retiring.",
-          "url": "https://www.bbc.co.uk/sport/football/articles/ckp8017p1e3go?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
-          "region": "Brazil",
-          "published": "Sun, 15 Nov 2026 17:10:24 GMT"
-        },
-        {
-          "title": "Vietnam's biggest forex fraud boss 'Mr Pips' gets life in prison for $60M scam",
-          "summary": "A Hanoi court sentenced Pho Duc Nam, known as Mr Pips, to life in prison on Monday for masterminding a VND1.547 trillion (US$60 million) fraud and ordered him to pay VND822 billion to victims.",
-          "url": "https://e.vnexpress.net/news/news/crime/vietnam-s-biggest-forex-fraud-boss-mr-pips-gets-life-in-prison-for-60m-scam-5145352.html",
-          "publisher": "VnExpress International",
-          "region": "Vietnam",
-          "published": "Mon, 16 Nov 2026 16:54:59 +0700"
-        },
-        {
-          "title": "LNG plant backed by Indonesian billionaire Sukanto Tanoto receives $140M grant from Canada",
-          "summary": "Canada has announced a C$200 million (US$140 million) grant for Woodfibre LNG, a liquefied natural gas project on the country's west coast backed by Indonesian billionaire Sukanto Tanoto.",
-          "url": "https://e.vnexpress.net/news/business/companies/lng-plant-backed-by-indonesian-billionaire-sukanto-tanoto-receives-140m-grant-from-canada-5145167.html",
-          "publisher": "VnExpress International",
-          "region": "Indonesia",
-          "published": "Mon, 16 Nov 2026 11:16:22 +0700"
-        },
-        {
-          "title": "‘These men feel protected’: how Mexico’s first femicide squad is turning the tide on record killings",
-          "summary": "The female-led unit in Mexico City has cut gender-based murders from a historic high in 2021. Now, there are hopes to appoint specialist teams and prosecutors nationwide Paz Rodríguez woke up about 5am at her home in Milpa Alta, a suburb of Mexico City, on 20…",
-          "url": "https://www.theguardian.com/global-development/2026/nov/16/femicide-crisis-mexico-judge-killed-my-mother-one-more-time",
+          "title": "Bows and old guns: Indigenous militias left to fight Peru’s cocaine gangs alone",
+          "summary": "Decades after Lima armed them to fight Shining Path rebels, the Asháninka are still defending their Amazon rainforest, but now against drug traffickers – and without any help Shielding his eyes from the tropical sun, Irmeo Sánchez Gómez – better known by his…",
+          "url": "https://www.theguardian.com/global-development/2026/nov/17/indigenous-groups-ashaninka-amazon-peru-crime-drug-gangs",
           "publisher": "The Guardian",
           "region": "South & Central America",
-          "published": "Mon, 16 Nov 2026 13:00:01 GMT"
+          "published": "Tue, 17 Nov 2026 12:00:36 GMT"
         },
         {
           "title": "Five EU states announce plans for immigration ‘return hubs’ in Rwanda",
@@ -3666,20 +3638,60 @@
           "published": "Tue, 17 Nov 2026 01:10:59 GMT"
         },
         {
-          "title": "Two skulls likely belonging to enslaved people returned to Brazil after Harvard used them in eugenics studies",
-          "summary": "Remains believed to have belonged to Africans or Afro-Brazilians repatriated after being flown back by diplomats Two skulls, including that of a man believed to have taken part in Brazil’s greatest slave revolt but whose remains were taken to the United…",
-          "url": "https://www.theguardian.com/news/2026/nov/11/harvard-skulls-repatriated-brazil",
+          "title": "European-made pesticides named in 1,605 poisoning reports in Brazil last year",
+          "summary": "About a third of cases involved chemicals banned for use on EU farms, according to investigation by Unearthed and Public Eye Pesticides sold by European chemical companies were named in more than 1,600 poisoning reports in Brazil last year, an investigation…",
+          "url": "https://www.theguardian.com/environment/2026/nov/17/european-made-pesticides-named-1605-brazil-poisoning-reports",
           "publisher": "The Guardian",
           "region": "Brazil",
-          "published": "Wed, 11 Nov 2026 22:50:37 GMT"
+          "published": "Tue, 17 Nov 2026 06:00:05 GMT"
         },
         {
-          "title": "1.8 tonnes of cannabis smuggled from Thailand to Vietnam in baskets of dried longan",
-          "summary": "A smuggling ring moved more than 1.8 tonnes of cannabis from Thailand into Vietnam in vacuum-sealed bags tied to the bottom of baskets of dried longan, police said.",
-          "url": "https://e.vnexpress.net/news/news/crime/1-8-tonnes-of-cannabis-smuggled-from-thailand-to-vietnam-in-baskets-of-dried-longan-5145279.html",
+          "title": "HCMC's largest steel flyover takes shape at four-level interchange",
+          "summary": "The VND3.4 trillion (US$132.09 million) My Thuy Interchange, featuring Ho Chi Minh City's largest steel flyover, is expected to be completed in the first quarter of 2027, easing congestion near Cat Lai Port.",
+          "url": "https://e.vnexpress.net/photo/traffic/hcmcs-largest-steel-flyover-takes-shape-at-four-level-interchange-5145622.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Mon, 16 Nov 2026 15:17:53 +0700"
+          "published": "Tue, 17 Nov 2026 15:30:00 +0700"
+        },
+        {
+          "title": "LNG plant backed by Indonesian billionaire Sukanto Tanoto receives $140M grant from Canada",
+          "summary": "Canada has announced a C$200 million (US$140 million) grant for Woodfibre LNG, a liquefied natural gas project on the country's west coast backed by Indonesian billionaire Sukanto Tanoto.",
+          "url": "https://e.vnexpress.net/news/business/companies/lng-plant-backed-by-indonesian-billionaire-sukanto-tanoto-receives-140m-grant-from-canada-5145167.html",
+          "publisher": "VnExpress International",
+          "region": "Indonesia",
+          "published": "Mon, 16 Nov 2026 11:16:22 +0700"
+        },
+        {
+          "title": "Gunmen kill Costa Rican journalist who reported on drugs trade",
+          "summary": "Rodríguez had denounced alleged links between criminal organisations and powerful figures in Costa Rica.",
+          "url": "https://www.bbc.co.uk/news/articles/c6ly7g5lx7gyo?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
+          "region": "South & Central America",
+          "published": "Tue, 17 Nov 2026 11:58:16 GMT"
+        },
+        {
+          "title": "Five EU countries announce migrant deportation centre in Rwanda",
+          "summary": "Germany, Denmark, Austria, Greece and the Netherlands have announced a \"return hub\" for failed asylum seekers.",
+          "url": "https://www.bbc.co.uk/news/articles/cw987343352go?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
+          "region": "East Africa",
+          "published": "Mon, 16 Nov 2026 23:20:45 GMT"
+        },
+        {
+          "title": "Ronaldinho makes comeback in Ravenna win",
+          "summary": "Brazil legend Ronaldinho makes his comeback aged 46 for Ravenna, playing the first half of their Italian third-tier derby against Forli.",
+          "url": "https://www.bbc.co.uk/sport/football/articles/ckregz4g823xo?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
+          "region": "Brazil",
+          "published": "Sun, 15 Nov 2026 19:31:48 GMT"
+        },
+        {
+          "title": "'Zombie fish' covered in blisters found in Mekong",
+          "summary": "Catfish covered in blisters and sores, dubbed \"zombie fish\" by villagers, are turning up in Thailand's stretch of the Mekong River, raising fears that mines upstream are polluting the water with arsenic and other heavy metals.",
+          "url": "https://e.vnexpress.net/news/news/environment/zombie-fish-covered-in-blisters-found-in-mekong-5145678.html",
+          "publisher": "VnExpress International",
+          "region": "Vietnam",
+          "published": "Tue, 17 Nov 2026 14:25:38 +0700"
         },
         {
           "title": "‘It’s an architect’s dream’: five beautiful eco buildings around the world",
@@ -3690,14 +3702,14 @@
           "published": "Sat, 14 Nov 2026 13:00:46 GMT"
         }
       ],
-      "totalTagged": 117,
+      "totalTagged": 111,
       "feedsQueried": 14,
       "errors": [],
       "note": "General headlines from the growing regions, taken from outlets of record and tagged to a region by the countries and cities they name."
     },
     "roundup": {
       "source": "assembled",
-      "fetchedAt": "2026-11-17T01:59:04.731Z",
+      "fetchedAt": "2026-11-17T15:20:28.798Z",
       "windowDays": 7,
       "publishers": [
         "Daily Coffee News",
@@ -3706,6 +3718,33 @@
         "World Coffee Portal"
       ],
       "items": [
+        {
+          "headline": "Canada’s specialty coffee market is on the up – and % Arabica wants to lead it",
+          "summary": "The boutique café group wants to triple its Canadian footprint over the next two years, but domestic and international specialty coffee rivals are also investing in growth",
+          "url": "https://www.worldcoffeeportal.com/news/canadas-specialty-coffee-market-is-on-the-up-and-arabica-wants-to-lead-it/",
+          "publisher": "World Coffee Portal",
+          "published": "Tue, 17 Nov 2026 14:18:59 GMT",
+          "date": "Tue, 17 Nov",
+          "section": "Top stories of the week"
+        },
+        {
+          "headline": "Franke brings usage-based cleaning to professional coffee operations",
+          "summary": "Great coffee starts with a clean machine. Franke’s IndividualClean cleaning system automates hygiene routines, ensuring predictable cleaning and high coffee quality – all while using fewer resources and reducing downtime",
+          "url": "https://www.worldcoffeeportal.com/news/franke-brings-usage-based-cleaning-to-professional-coffee-operations/",
+          "publisher": "World Coffee Portal",
+          "published": "Tue, 17 Nov 2026 09:35:49 GMT",
+          "date": "Tue, 17 Nov",
+          "section": "Roasting & retail"
+        },
+        {
+          "headline": "Coffee Decoded: The Volatile Magic of Coffee Aroma: How Coffee’s Smell Reaches Your Nose",
+          "summary": "Welcome to Coffee, Decoded, the Specialty Coffee Association’s weekly column on science, research, and all things coffee knowledge. PETER GIULIANO, the SCA's Senior Advisor for Scientific Communication explains volatile compounds in coffee and why we can…",
+          "url": "https://sca.coffee/sca-news/coffee-decoded-25-coffee-volatile-aroma-compounds",
+          "publisher": "Specialty Coffee Association",
+          "published": "Tue, 17 Nov 2026 06:55:40 +0000",
+          "date": "Tue, 17 Nov",
+          "section": "Roasting & retail"
+        },
         {
           "headline": "Forced Labor Import Bans Are Reaching the Coffee Sector. Are Companies Ready?",
           "summary": "For years, forced labor import bans have been viewed by many coffee companies as a remote legal concern. That perspective is changing, and quickly. U.S. Customs and Border Protection (CBP)...",
@@ -3752,24 +3791,6 @@
           "section": "Roasting & retail"
         },
         {
-          "headline": "Joe & The Juice continues international rollout with Oman launch",
-          "summary": "The Copenhagen-based coffee and hospitality group now operates in nine markets across the Middle East and North Africa region – with a tenth to come in the next few weeks",
-          "url": "https://www.worldcoffeeportal.com/news/joe-the-juice-continues-international-rollout-with-oman-launch/",
-          "publisher": "World Coffee Portal",
-          "published": "Fri, 13 Nov 2026 15:03:41 GMT",
-          "date": "Fri, 13 Nov",
-          "section": "Roasting & retail"
-        },
-        {
-          "headline": "Ohio’s Branch Street Cafe Becomes Denizen as Managers Take Ownership",
-          "summary": "After more than a decade of serving guests at their independent coffee shop in Boardman, Ohio, the owners of Branch Street Coffee Roasters have handed the keys to two longtime...",
-          "url": "https://dailycoffeenews.com/2026/11/13/ohios-branch-street-cafe-becomes-denizen-as-managers-take-ownership/",
-          "publisher": "Daily Coffee News",
-          "published": "Fri, 13 Nov 2026 14:39:55 +0000",
-          "date": "Fri, 13 Nov",
-          "section": "Roasting & retail"
-        },
-        {
           "headline": "Weekly Coffee News: New Coffee Education Certificate + ICO Price Edges Down",
           "summary": "Welcome to DCN’s Weekly Coffee News! Subscribe here for all the latest coffee industry news. Also, check out the latest career opportunities at CoffeeIndustryJobs.com. Cover Your Assets Unveils Major Software...",
           "url": "https://dailycoffeenews.com/2026/11/13/weekly-coffee-news-new-coffee-education-certificate-ico-price-edges-down/",
@@ -3803,7 +3824,7 @@
           "publisher": "Specialty Coffee Association",
           "published": "Fri, 13 Nov 2026 12:30:32 +0000",
           "date": "Fri, 13 Nov",
-          "section": "Top stories of the week"
+          "section": "Trade & production"
         },
         {
           "headline": "GCP Reports Drop in Sustainable Purchasing Among Large Green Coffee Buyers",
@@ -3824,7 +3845,7 @@
       "note": "Assembled from the coffee trade press over the past seven days, ranked by relevance to the physical trade. Headlines and links are each publisher’s own."
     },
     "dailyRead": {
-      "fetchedAt": "2026-11-17T01:59:03.148Z",
+      "fetchedAt": "2026-11-17T15:20:27.557Z",
       "article": {
         "title": "Forced Labor Import Bans Are Reaching the Coffee Sector. Are Companies Ready?",
         "summary": "For years, forced labor import bans have been viewed by many coffee companies as a remote legal concern. That perspective is changing, and quickly. U.S. Customs and Border Protection (CBP)...",
@@ -4152,37 +4173,37 @@
     {
       "source": "daily-read",
       "ok": true,
-      "ms": 455
-    },
-    {
-      "source": "arabica-futures",
-      "ok": true,
-      "ms": 769
+      "ms": 339
     },
     {
       "source": "weather",
       "ok": true,
-      "ms": 747
+      "ms": 370
+    },
+    {
+      "source": "arabica-futures",
+      "ok": true,
+      "ms": 740
     },
     {
       "source": "weekly-recap",
       "ok": true,
-      "ms": 2040
-    },
-    {
-      "source": "fx",
-      "ok": true,
-      "ms": 2603
+      "ms": 1582
     },
     {
       "source": "origin-wire",
       "ok": true,
-      "ms": 2924
+      "ms": 2211
+    },
+    {
+      "source": "fx",
+      "ok": true,
+      "ms": 2585
     },
     {
       "source": "ico-report",
       "ok": false,
-      "ms": 5708,
+      "ms": 4555,
       "error": "HTTP 404 for https://www.ico.org/documents/cy2025-26/cmr-1026-e.pdf"
     }
   ]

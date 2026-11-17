@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T14:28:58.437Z",
+  "generatedAt": "2026-11-17T01:59:08.403Z",
   "schema": 5,
   "schedule": {
     "slotsUtc": [
@@ -26,8 +26,8 @@
       "frontMonth": {
         "code": "KCZ26",
         "label": "Dec 2026",
-        "close": 282.5,
-        "volume": 2580
+        "close": 280.7,
+        "volume": 5456
       },
       "rolled": false,
       "mostActive": "KCH27",
@@ -35,56 +35,56 @@
         {
           "code": "KCZ26",
           "label": "Dec 2026",
-          "close": 282.5,
-          "volume": 2580
+          "close": 280.7,
+          "volume": 5456
         },
         {
           "code": "KCH27",
           "label": "Mar 2027",
-          "close": 276.6,
-          "volume": 6556
+          "close": 274.9,
+          "volume": 16798
         },
         {
           "code": "KCK27",
           "label": "May 2027",
-          "close": 272.35,
-          "volume": 1763
+          "close": 270.55,
+          "volume": 4518
         },
         {
           "code": "KCN27",
           "label": "Jul 2027",
-          "close": 268.9,
-          "volume": 806
+          "close": 267.3,
+          "volume": 2246
         },
         {
           "code": "KCU27",
           "label": "Sep 2027",
-          "close": 265.9,
-          "volume": 251
+          "close": 264.25,
+          "volume": 655
         },
         {
           "code": "KCZ27",
           "label": "Dec 2027",
-          "close": 262.3,
-          "volume": 122
+          "close": 260.7,
+          "volume": 286
         },
         {
           "code": "KCH28",
           "label": "Mar 2028",
-          "close": 258.3,
-          "volume": 70
+          "close": 257.55,
+          "volume": 112
         }
       ],
       "quote": {
-        "last": 275.9,
+        "last": 274.4,
         "open": 270.8500061035156,
-        "high": 277.45001220703125,
+        "high": 278.3999938964844,
         "low": 270.75,
         "previousClose": 273.5,
-        "change": 2.4,
-        "changePct": 0.878,
-        "volume": 6293,
-        "asOf": "2026-11-16T14:08:44.000Z"
+        "change": 0.9,
+        "changePct": 0.329,
+        "volume": 0,
+        "asOf": "2026-11-16T18:29:56.000Z"
       },
       "bars": [
         {
@@ -2637,22 +2637,22 @@
           "high": 279.20001220703125,
           "low": 272.3500061035156,
           "close": 273.5,
-          "volume": 32751
+          "volume": 17133
         },
         {
           "date": "2026-11-16",
           "open": 270.8500061035156,
-          "high": 277.45001220703125,
+          "high": 278.3999938964844,
           "low": 270.75,
-          "close": 275.8999938964844,
-          "volume": 6293
+          "close": 274.3999938964844,
+          "volume": 0
         }
       ],
       "crossCheck": {
-        "tradingView": 276.6,
-        "yahoo": 275.9,
-        "diff": 0.7,
-        "diffPct": 0.254,
+        "tradingView": 274.9,
+        "yahoo": 274.4,
+        "diff": 0.5,
+        "diffPct": 0.182,
         "agree": true
       },
       "sources": [
@@ -2669,16 +2669,16 @@
       ],
       "technicals": {
         "observations": 502,
-        "sma20": 278.79249877929686,
-        "sma50": 279.6369995117187,
-        "sma200": 276.7434997558594,
-        "rsi14": 47.9865215920729,
+        "sma20": 278.7174987792969,
+        "sma50": 279.60699951171875,
+        "sma200": 276.7359997558594,
+        "rsi14": 46.435733274141576,
         "macd": {
-          "line": -3.882651862443822,
-          "signal": -3.754072874661217,
-          "histogram": -0.12857898778260513
+          "line": -4.002309982101906,
+          "signal": -3.778004498592834,
+          "histogram": -0.2243054835090721
         },
-        "atr14": 8.16081823163348,
+        "atr14": 8.228674066594417,
         "donchian20": {
           "high": 304.45001220703125,
           "low": 262.1499938964844,
@@ -2701,16 +2701,16 @@
           ],
           "resistance": [
             {
+              "price": 275.04998779296875,
+              "date": "2026-05-05"
+            },
+            {
               "price": 280.8500061035156,
               "date": "2026-03-26"
             },
             {
               "price": 281.6000061035156,
               "date": "2026-03-09"
-            },
-            {
-              "price": 282.04998779296875,
-              "date": "2026-04-24"
             }
           ]
         },
@@ -2726,22 +2726,18 @@
     }
   },
   "fx": {
-    "asOf": "2026-11-13",
+    "asOf": "2026-11-16",
     "pairs": {
       "GBPUSD": {
         "pair": "GBP/USD",
-        "rate": 1.3227,
-        "previous": 1.3256,
+        "rate": 1.3198,
+        "previous": 1.3227,
         "dp": 4,
         "note": "Sterling stronger means a dollar-priced contract costs a UK buyer less.",
         "change": -0.0029,
         "changePct": -0.219,
-        "change1m": -0.15,
+        "change1m": -1.03,
         "history": [
-          {
-            "date": "2026-08-24",
-            "rate": 1.3634
-          },
           {
             "date": "2026-08-25",
             "rate": 1.3632
@@ -2977,23 +2973,23 @@
           {
             "date": "2026-11-13",
             "rate": 1.3227
+          },
+          {
+            "date": "2026-11-16",
+            "rate": 1.3198
           }
         ]
       },
       "USDBRL": {
         "pair": "USD/BRL",
-        "rate": 5.6637,
-        "previous": 5.6169,
+        "rate": 5.7053,
+        "previous": 5.6637,
         "dp": 4,
         "note": "A weaker real encourages Brazilian producer selling.",
-        "change": 0.0468,
-        "changePct": 0.833,
-        "change1m": 12,
+        "change": 0.0416,
+        "changePct": 0.735,
+        "change1m": 12.25,
         "history": [
-          {
-            "date": "2026-08-24",
-            "rate": 5.1499
-          },
           {
             "date": "2026-08-25",
             "rate": 5.158
@@ -3229,14 +3225,18 @@
           {
             "date": "2026-11-13",
             "rate": 5.6637
+          },
+          {
+            "date": "2026-11-16",
+            "rate": 5.7053
           }
         ]
       }
     },
     "ptax": {
-      "buy": 5.6512,
-      "sell": 5.6518,
-      "quotedAt": "2026-11-13 13:03:27.375047"
+      "buy": 5.7318,
+      "sell": 5.7324,
+      "quotedAt": "2026-11-16 13:06:32.509132"
     },
     "sources": [
       {
@@ -3251,10 +3251,330 @@
       }
     ]
   },
-  "weather": null,
+  "weather": {
+    "fetchedAt": "2026-11-17T01:59:03.435Z",
+    "thresholds": {
+      "frostC": 4,
+      "heavyRainMm": 50,
+      "dryMm": 5
+    },
+    "countryOrder": [
+      "Brazil",
+      "Vietnam",
+      "Colombia",
+      "Indonesia",
+      "Ethiopia",
+      "Honduras",
+      "Peru"
+    ],
+    "conditionMethod": "The condition icon reads the last three observed days: 30 mm of rain in total, 20 mm in any one day, or a heavy-rain code is very wet; 5 mm is wet; 60% mean cloud cover is cloudy; anything else is clear.",
+    "regions": [
+      {
+        "key": "sul-de-minas",
+        "name": "Sul de Minas",
+        "country": "Brazil",
+        "species": "Arabica",
+        "lat": -21.55,
+        "lon": -45.43,
+        "current": {
+          "date": "2026-11-16",
+          "tMax": 25.5,
+          "tMin": 17.4,
+          "rain": 15.9,
+          "code": 81,
+          "cloud": 75,
+          "observed": true
+        },
+        "condition": "wet",
+        "conditionLabel": "Wet",
+        "rain14": 68.9,
+        "rainForecast7": 11.7,
+        "minForecast7": 16.5,
+        "alerts": []
+      },
+      {
+        "key": "cerrado",
+        "name": "Cerrado Mineiro",
+        "country": "Brazil",
+        "species": "Arabica",
+        "lat": -18.94,
+        "lon": -46.99,
+        "current": {
+          "date": "2026-11-16",
+          "tMax": 25.6,
+          "tMin": 18.3,
+          "rain": 10.6,
+          "code": 95,
+          "cloud": 74,
+          "observed": true
+        },
+        "condition": "very-wet",
+        "conditionLabel": "Very wet",
+        "rain14": 81.3,
+        "rainForecast7": 30.8,
+        "minForecast7": 17.5,
+        "alerts": []
+      },
+      {
+        "key": "espirito-santo",
+        "name": "Espírito Santo",
+        "country": "Brazil",
+        "species": "Robusta",
+        "lat": -19.39,
+        "lon": -40.07,
+        "current": {
+          "date": "2026-11-16",
+          "tMax": 29,
+          "tMin": 22.8,
+          "rain": 14.4,
+          "code": 95,
+          "cloud": 96,
+          "observed": true
+        },
+        "condition": "very-wet",
+        "conditionLabel": "Very wet",
+        "rain14": 100.5,
+        "rainForecast7": 94.7,
+        "minForecast7": 22.8,
+        "alerts": [
+          {
+            "type": "wet",
+            "severity": "watch",
+            "text": "95 mm forecast over 7 days — harvest/drying disruption risk."
+          }
+        ]
+      },
+      {
+        "key": "dak-lak",
+        "name": "Dak Lak",
+        "country": "Vietnam",
+        "species": "Robusta",
+        "lat": 12.68,
+        "lon": 108.05,
+        "current": {
+          "date": "2026-11-16",
+          "tMax": 31.2,
+          "tMin": 22,
+          "rain": 0,
+          "code": 3,
+          "cloud": 87,
+          "observed": true
+        },
+        "condition": "cloudy",
+        "conditionLabel": "Cloudy",
+        "rain14": 36.9,
+        "rainForecast7": 2.2,
+        "minForecast7": 22.6,
+        "alerts": []
+      },
+      {
+        "key": "lam-dong",
+        "name": "Lam Dong",
+        "country": "Vietnam",
+        "species": "Robusta",
+        "lat": 11.55,
+        "lon": 107.81,
+        "current": {
+          "date": "2026-11-16",
+          "tMax": 28.8,
+          "tMin": 20,
+          "rain": 0,
+          "code": 45,
+          "cloud": 93,
+          "observed": true
+        },
+        "condition": "cloudy",
+        "conditionLabel": "Cloudy",
+        "rain14": 35.9,
+        "rainForecast7": 11.1,
+        "minForecast7": 17,
+        "alerts": []
+      },
+      {
+        "key": "huila",
+        "name": "Huila",
+        "country": "Colombia",
+        "species": "Arabica",
+        "lat": 1.85,
+        "lon": -76.05,
+        "current": {
+          "date": "2026-11-16",
+          "tMax": 28.7,
+          "tMin": 17.2,
+          "rain": 2.6,
+          "code": 53,
+          "cloud": 76,
+          "observed": true
+        },
+        "condition": "wet",
+        "conditionLabel": "Wet",
+        "rain14": 67.1,
+        "rainForecast7": 47.4,
+        "minForecast7": 17.3,
+        "alerts": []
+      },
+      {
+        "key": "antioquia",
+        "name": "Antioquia",
+        "country": "Colombia",
+        "species": "Arabica",
+        "lat": 6.25,
+        "lon": -75.56,
+        "current": {
+          "date": "2026-11-16",
+          "tMax": 27.1,
+          "tMin": 17.2,
+          "rain": 7.1,
+          "code": 81,
+          "cloud": 100,
+          "observed": true
+        },
+        "condition": "wet",
+        "conditionLabel": "Wet",
+        "rain14": 50,
+        "rainForecast7": 29.1,
+        "minForecast7": 16.3,
+        "alerts": []
+      },
+      {
+        "key": "gayo",
+        "name": "Gayo Highlands",
+        "country": "Indonesia",
+        "species": "Arabica",
+        "lat": 4.63,
+        "lon": 96.85,
+        "current": {
+          "date": "2026-11-16",
+          "tMax": 24.8,
+          "tMin": 17.4,
+          "rain": 11.8,
+          "code": 95,
+          "cloud": 97,
+          "observed": true
+        },
+        "condition": "very-wet",
+        "conditionLabel": "Very wet",
+        "rain14": 212.2,
+        "rainForecast7": 100.6,
+        "minForecast7": 16.6,
+        "alerts": [
+          {
+            "type": "wet",
+            "severity": "watch",
+            "text": "101 mm forecast over 7 days — harvest/drying disruption risk."
+          }
+        ]
+      },
+      {
+        "key": "lampung",
+        "name": "Lampung",
+        "country": "Indonesia",
+        "species": "Robusta",
+        "lat": -5.45,
+        "lon": 105.27,
+        "current": {
+          "date": "2026-11-16",
+          "tMax": 33,
+          "tMin": 25.5,
+          "rain": 8.8,
+          "code": 95,
+          "cloud": 95,
+          "observed": true
+        },
+        "condition": "very-wet",
+        "conditionLabel": "Very wet",
+        "rain14": 55,
+        "rainForecast7": 54.3,
+        "minForecast7": 24.2,
+        "alerts": [
+          {
+            "type": "wet",
+            "severity": "watch",
+            "text": "54 mm forecast over 7 days — harvest/drying disruption risk."
+          }
+        ]
+      },
+      {
+        "key": "jimma",
+        "name": "Jimma",
+        "country": "Ethiopia",
+        "species": "Arabica",
+        "lat": 7.67,
+        "lon": 36.83,
+        "current": {
+          "date": "2026-11-16",
+          "tMax": 24.8,
+          "tMin": 12.9,
+          "rain": 0.7,
+          "code": 51,
+          "cloud": 9,
+          "observed": true
+        },
+        "condition": "wet",
+        "conditionLabel": "Wet",
+        "rain14": 101.1,
+        "rainForecast7": 4.3,
+        "minForecast7": 12.8,
+        "alerts": []
+      },
+      {
+        "key": "marcala",
+        "name": "Marcala",
+        "country": "Honduras",
+        "species": "Arabica",
+        "lat": 14.16,
+        "lon": -88.02,
+        "current": {
+          "date": "2026-11-16",
+          "tMax": 26.6,
+          "tMin": 17,
+          "rain": 0.5,
+          "code": 51,
+          "cloud": 61,
+          "observed": true
+        },
+        "condition": "cloudy",
+        "conditionLabel": "Cloudy",
+        "rain14": 39.2,
+        "rainForecast7": 10.9,
+        "minForecast7": 17.1,
+        "alerts": []
+      },
+      {
+        "key": "chanchamayo",
+        "name": "Chanchamayo",
+        "country": "Peru",
+        "species": "Arabica",
+        "lat": -11.05,
+        "lon": -75.33,
+        "current": {
+          "date": "2026-11-16",
+          "tMax": 34,
+          "tMin": 21.2,
+          "rain": 4,
+          "code": 55,
+          "cloud": 32,
+          "observed": true
+        },
+        "condition": "wet",
+        "conditionLabel": "Wet",
+        "rain14": 114.4,
+        "rainForecast7": 24.4,
+        "minForecast7": 20.1,
+        "alerts": []
+      }
+    ],
+    "sources": [
+      {
+        "name": "Open-Meteo forecast API",
+        "url": "https://open-meteo.com/",
+        "role": "observed + forecast temperature, precipitation and weather code"
+      }
+    ]
+  },
   "news": {
     "originWire": {
-      "fetchedAt": "2026-11-16T14:28:56.998Z",
+      "fetchedAt": "2026-11-17T01:59:05.613Z",
       "lookbackHours": 504,
       "headlines": [
         {
@@ -3266,12 +3586,12 @@
           "published": "Sun, 15 Nov 2026 19:31:48 GMT"
         },
         {
-          "title": "Vietnam's biggest forex fraud boss 'Mr Pips' gets life in prison for $60M scam",
-          "summary": "A Hanoi court sentenced Pho Duc Nam, known as Mr Pips, to life in prison on Monday for masterminding a VND1.547 trillion (US$60 million) fraud and ordered him to pay VND822 billion to victims.",
-          "url": "https://e.vnexpress.net/news/news/crime/vietnam-s-biggest-forex-fraud-boss-mr-pips-gets-life-in-prison-for-60m-scam-5145352.html",
+          "title": "Future of banking begins with people: Ooi Huey Tyng",
+          "summary": "Eximbank independent director Ooi Huey Tyng says the future of banking in Vietnam will depend on understanding customers, using technology to meet their needs and building trust through sound corporate governance.",
+          "url": "https://e.vnexpress.net/news/business/future-of-banking-begins-with-people-ooi-huey-tyng-5140068.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Mon, 16 Nov 2026 16:54:59 +0700"
+          "published": "Tue, 17 Nov 2026 08:00:00 +0700"
         },
         {
           "title": "Indonesia apologizes to Malaysia, Singapore as wildfire haze sickens hundreds of thousands",
@@ -3290,20 +3610,20 @@
           "published": "Tue, 27 Oct 2026 17:55:04 GMT"
         },
         {
-          "title": "‘These men feel protected’: how Mexico’s first femicide squad is turning the tide on record killings",
-          "summary": "The female-led unit in Mexico City has cut gender-based murders from a historic high in 2021. Now, there are hopes to appoint specialist teams and prosecutors nationwide Paz Rodríguez woke up about 5am at her home in Milpa Alta, a suburb of Mexico City, on 20…",
-          "url": "https://www.theguardian.com/global-development/2026/nov/16/femicide-crisis-mexico-judge-killed-my-mother-one-more-time",
-          "publisher": "The Guardian",
+          "title": "Paraguay ex-president moved to military jail amid special treatment reports",
+          "summary": "Santiago Pena has been accused of corruption following the collapse of Ueno Bank earlier this month.",
+          "url": "https://www.aljazeera.com/news/2026/11/16/paraguay-ex-president-moved-to-military-jail-amid-special-treatment-reports?traffic_source=rss",
+          "publisher": "Al Jazeera",
           "region": "South & Central America",
-          "published": "Mon, 16 Nov 2026 13:00:01 GMT"
+          "published": "Mon, 16 Nov 2026 23:44:32 +0000"
         },
         {
-          "title": "Beyond the Horizon: Searching for Kenya’s elusive black leopard",
-          "summary": "Maasai photographer Latei Moses searches Kenya for the rare wild cat, telling his own story through his lens.",
-          "url": "https://www.aljazeera.com/video/witness/2026/11/16/beyond-the-horizon-searching-for-kenyas-elusive-black-leopard?traffic_source=rss",
+          "title": "EU countries announce migrant deportation centre in Rwanda",
+          "summary": "Germany, Austria, the Netherlands, Denmark and Greece have announced that Rwanda will be used as a deportation centre.",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/eu-countries-announce-migrant-deportation-centre-in-rwanda?traffic_source=rss",
           "publisher": "Al Jazeera",
           "region": "East Africa",
-          "published": "Mon, 16 Nov 2026 13:30:00 +0000"
+          "published": "Tue, 17 Nov 2026 01:12:28 +0000"
         },
         {
           "title": "Chapecoense air crash survivor wins promotion in final game",
@@ -3314,12 +3634,12 @@
           "published": "Sun, 15 Nov 2026 17:10:24 GMT"
         },
         {
-          "title": "1.8 tonnes of cannabis smuggled from Thailand to Vietnam in baskets of dried longan",
-          "summary": "A smuggling ring moved more than 1.8 tonnes of cannabis from Thailand into Vietnam in vacuum-sealed bags tied to the bottom of baskets of dried longan, police said.",
-          "url": "https://e.vnexpress.net/news/news/crime/1-8-tonnes-of-cannabis-smuggled-from-thailand-to-vietnam-in-baskets-of-dried-longan-5145279.html",
+          "title": "Vietnam's biggest forex fraud boss 'Mr Pips' gets life in prison for $60M scam",
+          "summary": "A Hanoi court sentenced Pho Duc Nam, known as Mr Pips, to life in prison on Monday for masterminding a VND1.547 trillion (US$60 million) fraud and ordered him to pay VND822 billion to victims.",
+          "url": "https://e.vnexpress.net/news/news/crime/vietnam-s-biggest-forex-fraud-boss-mr-pips-gets-life-in-prison-for-60m-scam-5145352.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Mon, 16 Nov 2026 15:17:53 +0700"
+          "published": "Mon, 16 Nov 2026 16:54:59 +0700"
         },
         {
           "title": "LNG plant backed by Indonesian billionaire Sukanto Tanoto receives $140M grant from Canada",
@@ -3330,20 +3650,20 @@
           "published": "Mon, 16 Nov 2026 11:16:22 +0700"
         },
         {
-          "title": "Ashes of exiled Nobel Laureate Miguel Ángel Asturias returned to Guatemala",
-          "summary": "The poet, writer and diplomat died in Europe in 1974 having been forced to leave his native country.",
-          "url": "https://www.bbc.co.uk/news/articles/cvde1klewg88o?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
+          "title": "‘These men feel protected’: how Mexico’s first femicide squad is turning the tide on record killings",
+          "summary": "The female-led unit in Mexico City has cut gender-based murders from a historic high in 2021. Now, there are hopes to appoint specialist teams and prosecutors nationwide Paz Rodríguez woke up about 5am at her home in Milpa Alta, a suburb of Mexico City, on 20…",
+          "url": "https://www.theguardian.com/global-development/2026/nov/16/femicide-crisis-mexico-judge-killed-my-mother-one-more-time",
+          "publisher": "The Guardian",
           "region": "South & Central America",
-          "published": "Mon, 16 Nov 2026 12:42:14 GMT"
+          "published": "Mon, 16 Nov 2026 13:00:01 GMT"
         },
         {
-          "title": "Five EU countries expected to announce migrant deportation centre in Rwanda",
-          "summary": "Germany, Denmark, Austria, Greece and the Netherlands are expected to announce a \"return hub\" for failed asylum seekers.",
-          "url": "https://www.bbc.co.uk/news/articles/cw987343352go?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
+          "title": "Five EU states announce plans for immigration ‘return hubs’ in Rwanda",
+          "summary": "Germany, Austria, Netherlands, Denmark and Greece likely to face challenges to policy criticised as ‘grave moral failing’ Five EU member states have announced plans to set up an offshore centre in Rwanda for people with no legal right to stay in Europe, in a…",
+          "url": "https://www.theguardian.com/world/2026/nov/16/eu-states-immigration-return-hubs-rwanda",
+          "publisher": "The Guardian",
           "region": "East Africa",
-          "published": "Mon, 16 Nov 2026 12:54:44 GMT"
+          "published": "Tue, 17 Nov 2026 01:10:59 GMT"
         },
         {
           "title": "Two skulls likely belonging to enslaved people returned to Brazil after Harvard used them in eugenics studies",
@@ -3354,12 +3674,12 @@
           "published": "Wed, 11 Nov 2026 22:50:37 GMT"
         },
         {
-          "title": "Dollar gains over dong",
-          "summary": "The U.S. dollar strengthened against the Vietnamese dong on Monday morning.",
-          "url": "https://e.vnexpress.net/news/business/markets/dollar-gains-over-dong-5145186.html",
+          "title": "1.8 tonnes of cannabis smuggled from Thailand to Vietnam in baskets of dried longan",
+          "summary": "A smuggling ring moved more than 1.8 tonnes of cannabis from Thailand into Vietnam in vacuum-sealed bags tied to the bottom of baskets of dried longan, police said.",
+          "url": "https://e.vnexpress.net/news/news/crime/1-8-tonnes-of-cannabis-smuggled-from-thailand-to-vietnam-in-baskets-of-dried-longan-5145279.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Mon, 16 Nov 2026 14:32:12 +0700"
+          "published": "Mon, 16 Nov 2026 15:17:53 +0700"
         },
         {
           "title": "‘It’s an architect’s dream’: five beautiful eco buildings around the world",
@@ -3377,7 +3697,7 @@
     },
     "roundup": {
       "source": "assembled",
-      "fetchedAt": "2026-11-16T14:28:56.484Z",
+      "fetchedAt": "2026-11-17T01:59:04.731Z",
       "windowDays": 7,
       "publishers": [
         "Daily Coffee News",
@@ -3386,6 +3706,15 @@
         "World Coffee Portal"
       ],
       "items": [
+        {
+          "headline": "Forced Labor Import Bans Are Reaching the Coffee Sector. Are Companies Ready?",
+          "summary": "For years, forced labor import bans have been viewed by many coffee companies as a remote legal concern. That perspective is changing, and quickly. U.S. Customs and Border Protection (CBP)...",
+          "url": "https://dailycoffeenews.com/2026/11/16/forced-labor-import-bans-are-reaching-the-coffee-sector-are-companies-ready/",
+          "publisher": "Daily Coffee News",
+          "published": "Mon, 16 Nov 2026 14:00:10 +0000",
+          "date": "Mon, 16 Nov",
+          "section": "Top stories of the week"
+        },
         {
           "headline": "Crema Coffee Roasters Rises Again in Nashville with New Roastery",
           "summary": "Continually rising like its velvety, golden-brown namesake, Tennessee-based Crema Coffee Roasters recently moved into a 2,400-square-foot standalone roastery in East Nashville. Boosting capacity for its growing wholesale, retail and online...",
@@ -3483,7 +3812,7 @@
           "publisher": "Daily Coffee News",
           "published": "Tue, 10 Nov 2026 17:00:09 +0000",
           "date": "Tue, 10 Nov",
-          "section": "Top stories of the week"
+          "section": "Trade & production"
         }
       ],
       "errors": [
@@ -3495,13 +3824,13 @@
       "note": "Assembled from the coffee trade press over the past seven days, ranked by relevance to the physical trade. Headlines and links are each publisher’s own."
     },
     "dailyRead": {
-      "fetchedAt": "2026-11-16T14:28:55.763Z",
+      "fetchedAt": "2026-11-17T01:59:03.148Z",
       "article": {
-        "title": "Weekly Coffee News: New Coffee Education Certificate + ICO Price Edges Down",
-        "summary": "Welcome to DCN’s Weekly Coffee News! Subscribe here for all the latest coffee industry news. Also, check out the latest career opportunities at CoffeeIndustryJobs.com. Cover Your Assets Unveils Major Software...",
-        "url": "https://dailycoffeenews.com/2026/11/13/weekly-coffee-news-new-coffee-education-certificate-ico-price-edges-down/",
+        "title": "Forced Labor Import Bans Are Reaching the Coffee Sector. Are Companies Ready?",
+        "summary": "For years, forced labor import bans have been viewed by many coffee companies as a remote legal concern. That perspective is changing, and quickly. U.S. Customs and Border Protection (CBP)...",
+        "url": "https://dailycoffeenews.com/2026/11/16/forced-labor-import-bans-are-reaching-the-coffee-sector-are-companies-ready/",
         "publisher": "Daily Coffee News",
-        "published": "Fri, 13 Nov 2026 13:41:57 +0000"
+        "published": "Mon, 16 Nov 2026 14:00:10 +0000"
       },
       "considered": 10
     }
@@ -3823,38 +4152,37 @@
     {
       "source": "daily-read",
       "ok": true,
-      "ms": 105
+      "ms": 455
     },
     {
       "source": "arabica-futures",
       "ok": true,
-      "ms": 360
+      "ms": 769
+    },
+    {
+      "source": "weather",
+      "ok": true,
+      "ms": 747
     },
     {
       "source": "weekly-recap",
       "ok": true,
-      "ms": 828
-    },
-    {
-      "source": "origin-wire",
-      "ok": true,
-      "ms": 1346
+      "ms": 2040
     },
     {
       "source": "fx",
       "ok": true,
-      "ms": 1760
+      "ms": 2603
     },
     {
-      "source": "weather",
-      "ok": false,
-      "ms": 1918,
-      "error": "HTTP 429 for https://api.open-meteo.com/v1/forecast?latitude=-21.55,-18.94,-19.39,12.68,11.55,1.85,6.25,4.63,-5.45,7.67,14.16,-11.05&longitude=-45.43,-46.99,-40.07,108.05,107.81,-76.05,-75.56,96.85,105.27,36.83,-88.02,-75.33&daily=temperature_2m_max,temperature_2m_min,precipitation_sum,weather_code,cloud_cover_mean&timezone=auto&past_days=14&forecast_days=7"
+      "source": "origin-wire",
+      "ok": true,
+      "ms": 2924
     },
     {
       "source": "ico-report",
       "ok": false,
-      "ms": 2776,
+      "ms": 5708,
       "error": "HTTP 404 for https://www.ico.org/documents/cy2025-26/cmr-1026-e.pdf"
     }
   ]

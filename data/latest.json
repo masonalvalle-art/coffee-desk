@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T01:12:01.986Z",
+  "generatedAt": "2026-11-18T14:55:16.325Z",
   "schema": 5,
   "schedule": {
     "slotsUtc": [
@@ -26,8 +26,8 @@
       "frontMonth": {
         "code": "KCZ26",
         "label": "Dec 2026",
-        "close": 285,
-        "volume": 5022
+        "close": 280.15,
+        "volume": 2160
       },
       "rolled": false,
       "mostActive": "KCH27",
@@ -35,66 +35,58 @@
         {
           "code": "KCZ26",
           "label": "Dec 2026",
-          "close": 285,
-          "volume": 5022
+          "close": 280.15,
+          "volume": 2160
         },
         {
           "code": "KCH27",
           "label": "Mar 2027",
-          "close": 279.95,
-          "volume": 22328
+          "close": 276.3,
+          "volume": 8925
         },
         {
           "code": "KCK27",
           "label": "May 2027",
-          "close": 273.35,
-          "volume": 8133
+          "close": 269.95,
+          "volume": 3252
         },
         {
           "code": "KCN27",
           "label": "Jul 2027",
-          "close": 269,
-          "volume": 4176
+          "close": 265.5,
+          "volume": 1514
         },
         {
           "code": "KCU27",
           "label": "Sep 2027",
-          "close": 265.4,
-          "volume": 1549
+          "close": 262,
+          "volume": 574
         },
         {
           "code": "KCZ27",
           "label": "Dec 2027",
-          "close": 261.2,
-          "volume": 876
+          "close": 257.75,
+          "volume": 253
         },
         {
           "code": "KCH28",
           "label": "Mar 2028",
-          "close": 257.65,
-          "volume": 326
+          "close": 254.35,
+          "volume": 134
         }
       ],
       "quote": {
-        "last": 279.95,
-        "open": 273.54998779296875,
-        "high": 282.25,
-        "low": 273.54998779296875,
-        "previousClose": 274.8999938964844,
-        "change": 5.05,
-        "changePct": 1.837,
-        "volume": 0,
-        "asOf": "2026-11-17T18:29:55.000Z"
+        "last": 277.9,
+        "open": 278,
+        "high": 280.45001220703125,
+        "low": 274.25,
+        "previousClose": 281.3999938964844,
+        "change": -3.5,
+        "changePct": -1.244,
+        "volume": 8623,
+        "asOf": "2026-11-18T14:35:02.000Z"
       },
       "bars": [
-        {
-          "date": "2025-08-12",
-          "open": 278.75,
-          "high": 278.75,
-          "low": 270.5,
-          "close": 272.45001220703125,
-          "volume": 197
-        },
         {
           "date": "2025-08-13",
           "open": 274.79998779296875,
@@ -2644,15 +2636,23 @@
           "open": 273.54998779296875,
           "high": 282.25,
           "low": 273.54998779296875,
-          "close": 279.95001220703125,
-          "volume": 0
+          "close": 281.3999938964844,
+          "volume": 16798
+        },
+        {
+          "date": "2026-11-18",
+          "open": 278,
+          "high": 280.45001220703125,
+          "low": 274.25,
+          "close": 277.8999938964844,
+          "volume": 8623
         }
       ],
       "crossCheck": {
-        "tradingView": 279.95,
-        "yahoo": 279.95,
-        "diff": 0,
-        "diffPct": 0,
+        "tradingView": 276.3,
+        "yahoo": 277.9,
+        "diff": -1.6,
+        "diffPct": -0.576,
         "agree": true
       },
       "sources": [
@@ -2668,19 +2668,19 @@
         }
       ],
       "technicals": {
-        "observations": 503,
-        "sma20": 277.7899993896484,
-        "sma50": 279.5629998779297,
-        "sma200": 276.6667498779297,
-        "rsi14": 52.09082258195682,
+        "observations": 504,
+        "sma20": 276.6949981689453,
+        "sma50": 279.47699951171876,
+        "sma200": 276.6517497253418,
+        "rsi14": 49.88238138472806,
         "macd": {
-          "line": -3.1616885275599884,
-          "signal": -3.6483595380045006,
-          "histogram": 0.4866710104445122
+          "line": -2.572530341377501,
+          "signal": -3.4146868098792442,
+          "histogram": 0.8421564685017433
         },
-        "atr14": 8.262341076625619,
+        "atr14": 8.18288770661553,
         "donchian20": {
-          "high": 303.79998779296875,
+          "high": 300.1000061035156,
           "low": 262.1499938964844,
           "period": 20
         },
@@ -2719,10 +2719,10 @@
           "low": 222.75
         },
         "method": "Wilder RSI(14); MACD(12,26,9) on EMA; ATR(14); pivots = 5-bar swing highs/lows; Donchian(20).",
-        "basis": "503 daily bars for KCH27"
+        "basis": "504 daily bars for KCH27"
       },
       "barsPublished": 320,
-      "barsAnalysed": 503
+      "barsAnalysed": 504
     }
   },
   "fx": {
@@ -3252,7 +3252,7 @@
     ]
   },
   "weather": {
-    "fetchedAt": "2026-11-18T01:11:56.537Z",
+    "fetchedAt": "2026-11-18T14:55:12.691Z",
     "thresholds": {
       "frostC": 4,
       "heavyRainMm": 50,
@@ -3282,15 +3282,21 @@
           "tMin": 16.8,
           "rain": 0.8,
           "code": 51,
-          "cloud": 41,
+          "cloud": 37,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 57.5,
-        "rainForecast7": 22.4,
-        "minForecast7": 18.1,
-        "alerts": []
+        "rain14": 57,
+        "rainForecast7": 62.3,
+        "minForecast7": 18.6,
+        "alerts": [
+          {
+            "type": "wet",
+            "severity": "watch",
+            "text": "62 mm forecast over 7 days — harvest/drying disruption risk."
+          }
+        ]
       },
       {
         "key": "cerrado",
@@ -3305,15 +3311,21 @@
           "tMin": 18.1,
           "rain": 4.1,
           "code": 55,
-          "cloud": 70,
+          "cloud": 69,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 81.8,
-        "rainForecast7": 31.6,
-        "minForecast7": 18.6,
-        "alerts": []
+        "rain14": 81.7,
+        "rainForecast7": 53.7,
+        "minForecast7": 17.7,
+        "alerts": [
+          {
+            "type": "wet",
+            "severity": "watch",
+            "text": "54 mm forecast over 7 days — harvest/drying disruption risk."
+          }
+        ]
       },
       {
         "key": "espirito-santo",
@@ -3326,21 +3338,21 @@
           "date": "2026-11-17",
           "tMax": 31.1,
           "tMin": 22.8,
-          "rain": 12.8,
+          "rain": 11.7,
           "code": 95,
-          "cloud": 53,
+          "cloud": 56,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 98,
-        "rainForecast7": 80,
-        "minForecast7": 22.5,
+        "rain14": 96.9,
+        "rainForecast7": 74.7,
+        "minForecast7": 22.9,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "80 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "75 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3363,8 +3375,8 @@
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
         "rain14": 28.2,
-        "rainForecast7": 1.1,
-        "minForecast7": 22,
+        "rainForecast7": 0.5,
+        "minForecast7": 21.7,
         "alerts": []
       },
       {
@@ -3386,8 +3398,8 @@
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
         "rain14": 26,
-        "rainForecast7": 11.3,
-        "minForecast7": 16.9,
+        "rainForecast7": 13.3,
+        "minForecast7": 17.1,
         "alerts": []
       },
       {
@@ -3401,17 +3413,23 @@
           "date": "2026-11-17",
           "tMax": 28.5,
           "tMin": 18.2,
-          "rain": 1.8,
-          "code": 53,
-          "cloud": 70,
+          "rain": 1.4,
+          "code": 51,
+          "cloud": 67,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 61.7,
-        "rainForecast7": 18.2,
-        "minForecast7": 17.1,
-        "alerts": []
+        "rain14": 59.2,
+        "rainForecast7": 50.7,
+        "minForecast7": 17.5,
+        "alerts": [
+          {
+            "type": "wet",
+            "severity": "watch",
+            "text": "51 mm forecast over 7 days — harvest/drying disruption risk."
+          }
+        ]
       },
       {
         "key": "antioquia",
@@ -3426,15 +3444,21 @@
           "tMin": 17.2,
           "rain": 0.3,
           "code": 51,
-          "cloud": 84,
+          "cloud": 82,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 49.7,
-        "rainForecast7": 40.7,
-        "minForecast7": 15.9,
-        "alerts": []
+        "rain14": 46.3,
+        "rainForecast7": 71.8,
+        "minForecast7": 16.3,
+        "alerts": [
+          {
+            "type": "wet",
+            "severity": "watch",
+            "text": "72 mm forecast over 7 days — harvest/drying disruption risk."
+          }
+        ]
       },
       {
         "key": "gayo",
@@ -3455,13 +3479,13 @@
         "condition": "very-wet",
         "conditionLabel": "Very wet",
         "rain14": 221.8,
-        "rainForecast7": 101.7,
-        "minForecast7": 17,
+        "rainForecast7": 104.6,
+        "minForecast7": 16.8,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "102 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "105 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3484,9 +3508,15 @@
         "condition": "very-wet",
         "conditionLabel": "Very wet",
         "rain14": 53.9,
-        "rainForecast7": 48.6,
-        "minForecast7": 24.4,
-        "alerts": []
+        "rainForecast7": 85.6,
+        "minForecast7": 23.7,
+        "alerts": [
+          {
+            "type": "wet",
+            "severity": "watch",
+            "text": "86 mm forecast over 7 days — harvest/drying disruption risk."
+          }
+        ]
       },
       {
         "key": "jimma",
@@ -3507,8 +3537,8 @@
         "condition": "dry",
         "conditionLabel": "Clear / dry",
         "rain14": 101.2,
-        "rainForecast7": 6.3,
-        "minForecast7": 13,
+        "rainForecast7": 7,
+        "minForecast7": 13.1,
         "alerts": []
       },
       {
@@ -3522,16 +3552,16 @@
           "date": "2026-11-17",
           "tMax": 26.2,
           "tMin": 17.3,
-          "rain": 0.8,
+          "rain": 1.1,
           "code": 51,
-          "cloud": 73,
+          "cloud": 76,
           "observed": true
         },
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
-        "rain14": 36.2,
-        "rainForecast7": 9,
-        "minForecast7": 16.4,
+        "rain14": 35.3,
+        "rainForecast7": 9.2,
+        "minForecast7": 16.8,
         "alerts": []
       },
       {
@@ -3545,16 +3575,16 @@
           "date": "2026-11-17",
           "tMax": 30.9,
           "tMin": 21.3,
-          "rain": 2.8,
+          "rain": 2.7,
           "code": 53,
-          "cloud": 60,
+          "cloud": 59,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 106.1,
-        "rainForecast7": 18.1,
-        "minForecast7": 20.7,
+        "rain14": 102.1,
+        "rainForecast7": 35.5,
+        "minForecast7": 20.9,
         "alerts": []
       }
     ],
@@ -3568,7 +3598,7 @@
   },
   "news": {
     "originWire": {
-      "fetchedAt": "2026-11-18T01:11:59.393Z",
+      "fetchedAt": "2026-11-18T14:55:14.565Z",
       "lookbackHours": 504,
       "headlines": [
         {
@@ -3580,12 +3610,12 @@
           "published": "Tue, 17 Nov 2026 21:40:56 GMT"
         },
         {
-          "title": "Vietnam's top leader To Lam holds talks with Xi Jinping in Shenzhen",
-          "summary": "Party General Secretary and President To Lam proposed that Vietnam and China jointly take their economic and trade cooperation to new heights during talks with Chinese President Xi Jinping in Shenzhen on Tuesday.",
-          "url": "https://e.vnexpress.net/news/news/politics/vietnam-s-top-leader-to-lam-holds-talks-with-xi-jinping-in-shenzhen-5145738.html",
+          "title": "Vietnam’s top leader To Lam meets with Russian President Vladimir Putin",
+          "summary": "Vietnam's Party General Secretary and President To Lam met with Russian President Vladimir Putin on Wednesday on the sidelines of the APEC Economic Leaders’ Week 2026 in Shenzhen, China.",
+          "url": "https://e.vnexpress.net/news/news/politics/vietnam-s-top-leader-to-lam-meets-with-russian-president-vladimir-putin-5146300.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Tue, 17 Nov 2026 15:48:41 +0700"
+          "published": "Wed, 18 Nov 2026 21:37:39 +0700"
         },
         {
           "title": "Indonesia apologizes to Malaysia, Singapore as wildfire haze sickens hundreds of thousands",
@@ -3596,20 +3626,20 @@
           "published": "Mon, 16 Nov 2026 11:42:49 +0700"
         },
         {
-          "title": "Ecuadorian fishermen sue Trump administration over drone strike",
-          "summary": "Crew say their boat was attacked by drones launched from US-operated vessel as part of 'manifestly unlawful' campaign.",
-          "url": "https://www.aljazeera.com/news/2026/11/18/ecuadorian-fishermen-sue-trump-administration-over-drone-strike?traffic_source=rss",
-          "publisher": "Al Jazeera",
+          "title": "‘The sea washed away trees, then a whole row of houses. I knew it was time to get out’ – This is climate breakdown",
+          "summary": "She noticed the trees going first. Slowly she understood that the sea was going to take the whole village. This is Guadalupe Cobos Pacheco’s story Location: El Bosque, Mexico Disaster: Sea encroachment The fishing village of El Bosque was the first community…",
+          "url": "https://www.theguardian.com/environment/ng-interactive/2026/nov/18/el-bosque-mexico-displaced-sea-level-this-is-climate-breakdown",
+          "publisher": "The Guardian",
           "region": "South & Central America",
-          "published": "Wed, 18 Nov 2026 01:04:43 +0000"
+          "published": "Wed, 18 Nov 2026 12:00:58 GMT"
         },
         {
-          "title": "Five EU states announce plans for immigration ‘return hubs’ in Rwanda",
-          "summary": "Germany, Austria, Netherlands, Denmark and Greece likely to face challenges to policy criticised as ‘grave moral failing’ Five EU member states have announced plans to set up an offshore centre in Rwanda for people with no legal right to stay in Europe, in a…",
-          "url": "https://www.theguardian.com/world/2026/nov/16/eu-states-immigration-return-hubs-rwanda",
-          "publisher": "The Guardian",
+          "title": "Rwanda and DRC: What is holding up the Washington peace process?",
+          "summary": "The two sides remain divided over key security commitments under the Washington Accords.",
+          "url": "https://www.aljazeera.com/news/2026/11/18/rwanda-and-drc-what-is-holding-up-the-washington-peace-process?traffic_source=rss",
+          "publisher": "Al Jazeera",
           "region": "East Africa",
-          "published": "Tue, 17 Nov 2026 01:10:59 GMT"
+          "published": "Wed, 18 Nov 2026 12:27:23 +0000"
         },
         {
           "title": "European-made pesticides named in 1,605 poisoning reports in Brazil last year",
@@ -3620,12 +3650,12 @@
           "published": "Tue, 17 Nov 2026 06:00:05 GMT"
         },
         {
-          "title": "HCMC's largest steel flyover takes shape at four-level interchange",
-          "summary": "The VND3.4 trillion (US$132.09 million) My Thuy Interchange, featuring Ho Chi Minh City's largest steel flyover, is expected to be completed in the first quarter of 2027, easing congestion near Cat Lai Port.",
-          "url": "https://e.vnexpress.net/photo/traffic/hcmcs-largest-steel-flyover-takes-shape-at-four-level-interchange-5145622.html",
+          "title": "Dollar slides against dong",
+          "summary": "The U.S. dollar weakened against the Vietnamese dong on Wednesday.",
+          "url": "https://e.vnexpress.net/news/business/markets/dollar-slides-against-dong-5146086.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Tue, 17 Nov 2026 15:30:00 +0700"
+          "published": "Wed, 18 Nov 2026 14:47:27 +0700"
         },
         {
           "title": "LNG plant backed by Indonesian billionaire Sukanto Tanoto receives $140M grant from Canada",
@@ -3636,36 +3666,36 @@
           "published": "Mon, 16 Nov 2026 11:16:22 +0700"
         },
         {
-          "title": "Haitians protest in support of El Salvador’s anti-gang troop deployment",
-          "summary": "El Salvador's security minister has confirmed the troops will leave once kidnapped technicians are rescued.",
-          "url": "https://www.aljazeera.com/news/2026/11/17/haitians-protest-in-support-of-el-salvadors-anti-gang-troop-deployment?traffic_source=rss",
-          "publisher": "Al Jazeera",
+          "title": "Venezuelan ex-world boxing champion Linares in ICE detention",
+          "summary": "Former three-weight world champion Jorge Linares remains in the custody of US immigration authorities in Texas and is facing deportation.",
+          "url": "https://www.bbc.co.uk/sport/boxing/articles/cknv4q197dymo?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
           "region": "South & Central America",
-          "published": "Tue, 17 Nov 2026 23:09:00 +0000"
+          "published": "Wed, 18 Nov 2026 07:34:53 GMT"
         },
         {
-          "title": "Five EU countries announce migrant deportation centre in Rwanda",
-          "summary": "Germany, Denmark, Austria, Greece and the Netherlands have announced a \"return hub\" for failed asylum seekers.",
-          "url": "https://www.bbc.co.uk/news/articles/cw987343352go?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
+          "title": "‘Partnership buys silence’: Fears grow over EU-Rwanda deportation plans",
+          "summary": "A British immigration lawyer, Rwandan journalist, rights groups and leading politicians decry the proposal as inhumane.",
+          "url": "https://www.aljazeera.com/news/2026/11/18/partnership-buys-silence-fears-grow-over-eu-rwanda-deportation-plans?traffic_source=rss",
+          "publisher": "Al Jazeera",
           "region": "East Africa",
-          "published": "Mon, 16 Nov 2026 23:20:45 GMT"
+          "published": "Wed, 18 Nov 2026 11:58:10 +0000"
         },
         {
-          "title": "Ronaldinho makes comeback in Ravenna win",
-          "summary": "Brazil legend Ronaldinho makes his comeback aged 46 for Ravenna, playing the first half of their Italian third-tier derby against Forli.",
-          "url": "https://www.bbc.co.uk/sport/football/articles/ckregz4g823xo?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
+          "title": "Two skulls likely belonging to enslaved people returned to Brazil after Harvard used them in eugenics studies",
+          "summary": "Remains believed to have belonged to Africans or Afro-Brazilians repatriated after being flown back by diplomats Two skulls, including that of a man believed to have taken part in Brazil’s greatest revolt of enslaved people but whose remains were taken to the…",
+          "url": "https://www.theguardian.com/news/2026/nov/11/harvard-skulls-repatriated-brazil",
+          "publisher": "The Guardian",
           "region": "Brazil",
-          "published": "Sun, 15 Nov 2026 19:31:48 GMT"
+          "published": "Wed, 11 Nov 2026 22:50:37 GMT"
         },
         {
-          "title": "'Zombie fish' covered in blisters found in Mekong",
-          "summary": "Catfish covered in blisters and sores, dubbed \"zombie fish\" by villagers, are turning up in Thailand's stretch of the Mekong River, raising fears that mines upstream are polluting the water with arsenic and other heavy metals.",
-          "url": "https://e.vnexpress.net/news/news/environment/zombie-fish-covered-in-blisters-found-in-mekong-5145678.html",
+          "title": "Hanoi shuts streets around central lake for 6 days for Vietnam's first Culture Day",
+          "summary": "Hanoi police are closing streets around Hoan Kiem Lake to traffic from Wednesday until Monday next week for the opening of Vietnam Culture Day celebrations.",
+          "url": "https://e.vnexpress.net/news/news/traffic/hanoi-shuts-streets-around-central-lake-for-6-days-for-vietnam-s-first-culture-day-5146100.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Tue, 17 Nov 2026 14:25:38 +0700"
+          "published": "Wed, 18 Nov 2026 14:40:18 +0700"
         },
         {
           "title": "‘It’s an architect’s dream’: five beautiful eco buildings around the world",
@@ -3676,12 +3706,12 @@
           "published": "Sat, 14 Nov 2026 13:00:46 GMT"
         },
         {
-          "title": "‘Zero transparency’: Inside Trump’s plans for Venezuela’s oil money",
-          "summary": "Democrats say they plan to investigate Trump's dealings with Venezuela after winning control of Congress.",
-          "url": "https://www.aljazeera.com/news/2026/11/17/zero-transparency-inside-trumps-plans-for-venezuelas-oil-money?traffic_source=rss",
-          "publisher": "Al Jazeera",
+          "title": "Costa Rican journalist shot dead in first such killing in 25 years",
+          "summary": "Camilo Rodriguez’s death comes as the country grapples with a surge in drug violence The Costa Rican journalist Camilo Rodríguez, who gained prominence for publishing allegations against ⁠suspected drug traffickers and politicians, was shot dead on Monday…",
+          "url": "https://www.theguardian.com/world/2026/nov/17/costa-rica-journalist-camilo-rodriguez-shot-dead",
+          "publisher": "The Guardian",
           "region": "South & Central America",
-          "published": "Tue, 17 Nov 2026 21:26:42 +0000"
+          "published": "Tue, 17 Nov 2026 17:19:12 GMT"
         }
       ],
       "totalTagged": 108,
@@ -3691,7 +3721,7 @@
     },
     "roundup": {
       "source": "assembled",
-      "fetchedAt": "2026-11-18T01:11:58.946Z",
+      "fetchedAt": "2026-11-18T14:55:14.124Z",
       "windowDays": 7,
       "publishers": [
         "Daily Coffee News",
@@ -3700,6 +3730,24 @@
         "World Coffee Portal"
       ],
       "items": [
+        {
+          "headline": "The Smile Test Will Tell You if Your Hospitality Training Works",
+          "summary": "You can’t easily measure hospitality, but you can watch for it. The smile test shows you how quickly your guests warm up, and whether your training is working. The post The Smile Test Will Tell You if Your Hospitality Training Works appeared first on Fresh…",
+          "url": "https://freshcup.com/the-smile-test-will-tell-you-if-your-hospitality-training-works/",
+          "publisher": "Fresh Cup",
+          "published": "Wed, 18 Nov 2026 12:35:00 +0000",
+          "date": "Wed, 18 Nov",
+          "section": "Roasting & retail"
+        },
+        {
+          "headline": "Roasting Partner Launches an Operating System for Roasters",
+          "summary": "A new software platform called Roasting Partner opened to outside coffee roasting businesses in October, offering tools designed to organize production, inventory, sales, cafe operations and other day-to-day roastery data...",
+          "url": "https://dailycoffeenews.com/2026/11/18/roasting-partner-launches-an-operating-system-for-roasters/",
+          "publisher": "Daily Coffee News",
+          "published": "Wed, 18 Nov 2026 12:08:31 +0000",
+          "date": "Wed, 18 Nov",
+          "section": "Top stories of the week"
+        },
         {
           "headline": "Study Says Genes May Determine Coffee’s Link to Parkinson’s Risk",
           "summary": "While drinking coffee has been occasionally associated with reduced risk of Parkinson’s disease, a new study suggests how and why that association may differ depending on the individual. Researchers analyzing...",
@@ -3764,15 +3812,6 @@
           "section": "Roasting & retail"
         },
         {
-          "headline": "Coffee Decoded: The Volatile Magic of Coffee Aroma: How Coffee’s Smell Reaches Your Nose",
-          "summary": "Welcome to Coffee, Decoded, the Specialty Coffee Association’s weekly column on science, research, and all things coffee knowledge. PETER GIULIANO, the SCA's Senior Advisor for Scientific Communication explains volatile compounds in coffee and why we can…",
-          "url": "https://sca.coffee/sca-news/coffee-decoded-25-coffee-volatile-aroma-compounds",
-          "publisher": "Specialty Coffee Association",
-          "published": "Tue, 17 Nov 2026 06:55:40 +0000",
-          "date": "Tue, 17 Nov",
-          "section": "Roasting & retail"
-        },
-        {
           "headline": "Forced Labor Import Bans Are Reaching the Coffee Sector. Are Companies Ready?",
           "summary": "For years, forced labor import bans have been viewed by many coffee companies as a remote legal concern. That perspective is changing, and quickly. U.S. Customs and Border Protection (CBP)...",
           "url": "https://dailycoffeenews.com/2026/11/16/forced-labor-import-bans-are-reaching-the-coffee-sector-are-companies-ready/",
@@ -3797,7 +3836,7 @@
           "publisher": "Daily Coffee News",
           "published": "Fri, 13 Nov 2026 13:41:57 +0000",
           "date": "Fri, 13 Nov",
-          "section": "Top stories of the week"
+          "section": "Trade & production"
         },
         {
           "headline": "Seeds of Change in Colombia’s Caldas Department",
@@ -3827,13 +3866,13 @@
       "note": "Assembled from the coffee trade press over the past seven days, ranked by relevance to the physical trade. Headlines and links are each publisher’s own."
     },
     "dailyRead": {
-      "fetchedAt": "2026-11-18T01:11:56.813Z",
+      "fetchedAt": "2026-11-18T14:55:12.758Z",
       "article": {
-        "title": "Forced Labor Import Bans Are Reaching the Coffee Sector. Are Companies Ready?",
-        "summary": "For years, forced labor import bans have been viewed by many coffee companies as a remote legal concern. That perspective is changing, and quickly. U.S. Customs and Border Protection (CBP)...",
-        "url": "https://dailycoffeenews.com/2026/11/16/forced-labor-import-bans-are-reaching-the-coffee-sector-are-companies-ready/",
+        "title": "Roasting Partner Launches an Operating System for Roasters",
+        "summary": "A new software platform called Roasting Partner opened to outside coffee roasting businesses in October, offering tools designed to organize production, inventory, sales, cafe operations and other day-to-day roastery data...",
+        "url": "https://dailycoffeenews.com/2026/11/18/roasting-partner-launches-an-operating-system-for-roasters/",
         "publisher": "Daily Coffee News",
-        "published": "Mon, 16 Nov 2026 14:00:10 +0000"
+        "published": "Wed, 18 Nov 2026 12:08:31 +0000"
       },
       "considered": 10
     }
@@ -4155,37 +4194,37 @@
     {
       "source": "weather",
       "ok": true,
-      "ms": 429
+      "ms": 409
     },
     {
       "source": "daily-read",
       "ok": true,
-      "ms": 697
+      "ms": 467
     },
     {
       "source": "arabica-futures",
       "ok": true,
-      "ms": 934
+      "ms": 678
     },
     {
       "source": "weekly-recap",
       "ok": true,
-      "ms": 2833
+      "ms": 1837
     },
     {
       "source": "fx",
       "ok": true,
-      "ms": 2871
+      "ms": 2269
     },
     {
       "source": "origin-wire",
       "ok": true,
-      "ms": 3284
+      "ms": 2281
     },
     {
       "source": "ico-report",
       "ok": false,
-      "ms": 5864,
+      "ms": 4030,
       "error": "HTTP 404 for https://www.ico.org/documents/cy2025-26/cmr-1026-e.pdf"
     }
   ]

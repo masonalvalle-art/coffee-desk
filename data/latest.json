@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T14:55:16.325Z",
+  "generatedAt": "2026-11-19T00:40:32.132Z",
   "schema": 5,
   "schedule": {
     "slotsUtc": [
@@ -26,8 +26,8 @@
       "frontMonth": {
         "code": "KCZ26",
         "label": "Dec 2026",
-        "close": 280.15,
-        "volume": 2160
+        "close": 281.3,
+        "volume": 5164
       },
       "rolled": false,
       "mostActive": "KCH27",
@@ -35,56 +35,56 @@
         {
           "code": "KCZ26",
           "label": "Dec 2026",
-          "close": 280.15,
-          "volume": 2160
+          "close": 281.3,
+          "volume": 5164
         },
         {
           "code": "KCH27",
           "label": "Mar 2027",
-          "close": 276.3,
-          "volume": 8925
+          "close": 276.05,
+          "volume": 20559
         },
         {
           "code": "KCK27",
           "label": "May 2027",
-          "close": 269.95,
-          "volume": 3252
+          "close": 269.45,
+          "volume": 7550
         },
         {
           "code": "KCN27",
           "label": "Jul 2027",
-          "close": 265.5,
-          "volume": 1514
+          "close": 265.2,
+          "volume": 2941
         },
         {
           "code": "KCU27",
           "label": "Sep 2027",
-          "close": 262,
-          "volume": 574
+          "close": 261.6,
+          "volume": 1262
         },
         {
           "code": "KCZ27",
           "label": "Dec 2027",
-          "close": 257.75,
-          "volume": 253
+          "close": 257.6,
+          "volume": 639
         },
         {
           "code": "KCH28",
           "label": "Mar 2028",
-          "close": 254.35,
-          "volume": 134
+          "close": 253.65,
+          "volume": 216
         }
       ],
       "quote": {
-        "last": 277.9,
+        "last": 276.05,
         "open": 278,
         "high": 280.45001220703125,
-        "low": 274.25,
+        "low": 272.04998779296875,
         "previousClose": 281.3999938964844,
-        "change": -3.5,
-        "changePct": -1.244,
-        "volume": 8623,
-        "asOf": "2026-11-18T14:35:02.000Z"
+        "change": -5.35,
+        "changePct": -1.901,
+        "volume": 0,
+        "asOf": "2026-11-18T18:29:55.000Z"
       },
       "bars": [
         {
@@ -2643,16 +2643,16 @@
           "date": "2026-11-18",
           "open": 278,
           "high": 280.45001220703125,
-          "low": 274.25,
-          "close": 277.8999938964844,
-          "volume": 8623
+          "low": 272.04998779296875,
+          "close": 276.04998779296875,
+          "volume": 0
         }
       ],
       "crossCheck": {
-        "tradingView": 276.3,
-        "yahoo": 277.9,
-        "diff": -1.6,
-        "diffPct": -0.576,
+        "tradingView": 276.05,
+        "yahoo": 276.05,
+        "diff": 0,
+        "diffPct": 0,
         "agree": true
       },
       "sources": [
@@ -2669,16 +2669,16 @@
       ],
       "technicals": {
         "observations": 504,
-        "sma20": 276.6949981689453,
-        "sma50": 279.47699951171876,
-        "sma200": 276.6517497253418,
-        "rsi14": 49.88238138472806,
+        "sma20": 276.60249786376954,
+        "sma50": 279.43999938964845,
+        "sma200": 276.6424996948242,
+        "rsi14": 48.21048459348153,
         "macd": {
-          "line": -2.572530341377501,
-          "signal": -3.4146868098792442,
-          "histogram": 0.8421564685017433
+          "line": -2.7201091758458915,
+          "signal": -3.4442025767729225,
+          "histogram": 0.724093400927031
         },
-        "atr14": 8.18288770661553,
+        "atr14": 8.340031435689191,
         "donchian20": {
           "high": 300.1000061035156,
           "low": 262.1499938964844,
@@ -2687,16 +2687,16 @@
         "levels": {
           "support": [
             {
-              "price": 276.45001220703125,
-              "date": "2026-10-12"
-            },
-            {
               "price": 270,
               "date": "2026-02-06"
             },
             {
               "price": 268.20001220703125,
               "date": "2025-04-07"
+            },
+            {
+              "price": 262.6000061035156,
+              "date": "2026-09-23"
             }
           ],
           "resistance": [
@@ -2726,22 +2726,18 @@
     }
   },
   "fx": {
-    "asOf": "2026-11-17",
+    "asOf": "2026-11-18",
     "pairs": {
       "GBPUSD": {
         "pair": "GBP/USD",
-        "rate": 1.3191,
-        "previous": 1.3198,
+        "rate": 1.3168,
+        "previous": 1.3191,
         "dp": 4,
         "note": "Sterling stronger means a dollar-priced contract costs a UK buyer less.",
-        "change": -0.0007,
-        "changePct": -0.053,
-        "change1m": -1.05,
+        "change": -0.0023,
+        "changePct": -0.174,
+        "change1m": -1.34,
         "history": [
-          {
-            "date": "2026-08-26",
-            "rate": 1.363
-          },
           {
             "date": "2026-08-27",
             "rate": 1.3582
@@ -2977,23 +2973,23 @@
           {
             "date": "2026-11-17",
             "rate": 1.3191
+          },
+          {
+            "date": "2026-11-18",
+            "rate": 1.3168
           }
         ]
       },
       "USDBRL": {
         "pair": "USD/BRL",
-        "rate": 5.7821,
-        "previous": 5.7053,
+        "rate": 5.8186,
+        "previous": 5.7821,
         "dp": 4,
         "note": "A weaker real encourages Brazilian producer selling.",
-        "change": 0.0768,
-        "changePct": 1.346,
-        "change1m": 14.6,
+        "change": 0.0365,
+        "changePct": 0.631,
+        "change1m": 15.83,
         "history": [
-          {
-            "date": "2026-08-26",
-            "rate": 5.1465
-          },
           {
             "date": "2026-08-27",
             "rate": 5.142
@@ -3229,14 +3225,18 @@
           {
             "date": "2026-11-17",
             "rate": 5.7821
+          },
+          {
+            "date": "2026-11-18",
+            "rate": 5.8186
           }
         ]
       }
     },
     "ptax": {
-      "buy": 5.7845,
-      "sell": 5.7851,
-      "quotedAt": "2026-11-17 13:07:26.01516"
+      "buy": 5.8096,
+      "sell": 5.8102,
+      "quotedAt": "2026-11-18 13:08:44.271245"
     },
     "sources": [
       {
@@ -3252,7 +3252,7 @@
     ]
   },
   "weather": {
-    "fetchedAt": "2026-11-18T14:55:12.691Z",
+    "fetchedAt": "2026-11-19T00:40:28.800Z",
     "thresholds": {
       "frostC": 4,
       "heavyRainMm": 50,
@@ -3277,26 +3277,20 @@
         "lat": -21.55,
         "lon": -45.43,
         "current": {
-          "date": "2026-11-17",
-          "tMax": 28,
-          "tMin": 16.8,
-          "rain": 0.8,
-          "code": 51,
-          "cloud": 37,
+          "date": "2026-11-18",
+          "tMax": 28.7,
+          "tMin": 18.8,
+          "rain": 11.7,
+          "code": 95,
+          "cloud": 91,
           "observed": true
         },
-        "condition": "wet",
-        "conditionLabel": "Wet",
-        "rain14": 57,
-        "rainForecast7": 62.3,
+        "condition": "very-wet",
+        "conditionLabel": "Very wet",
+        "rain14": 68.7,
+        "rainForecast7": 43.1,
         "minForecast7": 18.6,
-        "alerts": [
-          {
-            "type": "wet",
-            "severity": "watch",
-            "text": "62 mm forecast over 7 days — harvest/drying disruption risk."
-          }
-        ]
+        "alerts": []
       },
       {
         "key": "cerrado",
@@ -3306,24 +3300,24 @@
         "lat": -18.94,
         "lon": -46.99,
         "current": {
-          "date": "2026-11-17",
-          "tMax": 27.5,
-          "tMin": 18.1,
-          "rain": 4.1,
-          "code": 55,
-          "cloud": 69,
+          "date": "2026-11-18",
+          "tMax": 27.1,
+          "tMin": 17.7,
+          "rain": 10.5,
+          "code": 81,
+          "cloud": 91,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 81.7,
-        "rainForecast7": 53.7,
-        "minForecast7": 17.7,
+        "rain14": 92.2,
+        "rainForecast7": 56.7,
+        "minForecast7": 18.6,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "54 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "57 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3335,24 +3329,24 @@
         "lat": -19.39,
         "lon": -40.07,
         "current": {
-          "date": "2026-11-17",
-          "tMax": 31.1,
-          "tMin": 22.8,
-          "rain": 11.7,
-          "code": 95,
-          "cloud": 56,
+          "date": "2026-11-18",
+          "tMax": 32.5,
+          "tMin": 23.4,
+          "rain": 0.8,
+          "code": 51,
+          "cloud": 82,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 96.9,
-        "rainForecast7": 74.7,
-        "minForecast7": 22.9,
+        "rain14": 97.7,
+        "rainForecast7": 56.4,
+        "minForecast7": 23,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "75 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "56 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3364,19 +3358,19 @@
         "lat": 12.68,
         "lon": 108.05,
         "current": {
-          "date": "2026-11-17",
-          "tMax": 30.4,
-          "tMin": 22.8,
-          "rain": 0.2,
-          "code": 51,
-          "cloud": 45,
+          "date": "2026-11-18",
+          "tMax": 29.8,
+          "tMin": 22.6,
+          "rain": 0,
+          "code": 3,
+          "cloud": 62,
           "observed": true
         },
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
-        "rain14": 28.2,
-        "rainForecast7": 0.5,
-        "minForecast7": 21.7,
+        "rain14": 27.7,
+        "rainForecast7": 1.3,
+        "minForecast7": 22.2,
         "alerts": []
       },
       {
@@ -3387,19 +3381,19 @@
         "lat": 11.55,
         "lon": 107.81,
         "current": {
-          "date": "2026-11-17",
+          "date": "2026-11-18",
           "tMax": 29.1,
-          "tMin": 18.8,
-          "rain": 0.2,
-          "code": 51,
-          "cloud": 52,
+          "tMin": 17.5,
+          "rain": 0,
+          "code": 45,
+          "cloud": 28,
           "observed": true
         },
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
-        "rain14": 26,
-        "rainForecast7": 13.3,
-        "minForecast7": 17.1,
+        "rain14": 24.1,
+        "rainForecast7": 18.2,
+        "minForecast7": 17.3,
         "alerts": []
       },
       {
@@ -3410,26 +3404,20 @@
         "lat": 1.85,
         "lon": -76.05,
         "current": {
-          "date": "2026-11-17",
-          "tMax": 28.5,
-          "tMin": 18.2,
-          "rain": 1.4,
-          "code": 51,
-          "cloud": 67,
+          "date": "2026-11-18",
+          "tMax": 26.7,
+          "tMin": 18.4,
+          "rain": 5.5,
+          "code": 81,
+          "cloud": 92,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 59.2,
-        "rainForecast7": 50.7,
-        "minForecast7": 17.5,
-        "alerts": [
-          {
-            "type": "wet",
-            "severity": "watch",
-            "text": "51 mm forecast over 7 days — harvest/drying disruption risk."
-          }
-        ]
+        "rain14": 64.7,
+        "rainForecast7": 24.9,
+        "minForecast7": 16.6,
+        "alerts": []
       },
       {
         "key": "antioquia",
@@ -3439,26 +3427,20 @@
         "lat": 6.25,
         "lon": -75.56,
         "current": {
-          "date": "2026-11-17",
-          "tMax": 28.6,
-          "tMin": 17.2,
-          "rain": 0.3,
-          "code": 51,
-          "cloud": 82,
+          "date": "2026-11-18",
+          "tMax": 28.8,
+          "tMin": 17.4,
+          "rain": 5.3,
+          "code": 80,
+          "cloud": 85,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 46.3,
-        "rainForecast7": 71.8,
+        "rain14": 51.6,
+        "rainForecast7": 41.9,
         "minForecast7": 16.3,
-        "alerts": [
-          {
-            "type": "wet",
-            "severity": "watch",
-            "text": "72 mm forecast over 7 days — harvest/drying disruption risk."
-          }
-        ]
+        "alerts": []
       },
       {
         "key": "gayo",
@@ -3468,24 +3450,24 @@
         "lat": 4.63,
         "lon": 96.85,
         "current": {
-          "date": "2026-11-17",
-          "tMax": 24.6,
-          "tMin": 17.1,
-          "rain": 17,
+          "date": "2026-11-18",
+          "tMax": 23.6,
+          "tMin": 17.7,
+          "rain": 28.3,
           "code": 81,
-          "cloud": 97,
+          "cloud": 95,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 221.8,
-        "rainForecast7": 104.6,
-        "minForecast7": 16.8,
+        "rain14": 236.7,
+        "rainForecast7": 93.7,
+        "minForecast7": 17,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "105 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "94 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3497,24 +3479,24 @@
         "lat": -5.45,
         "lon": 105.27,
         "current": {
-          "date": "2026-11-17",
-          "tMax": 30.6,
-          "tMin": 26,
-          "rain": 3.4,
-          "code": 80,
-          "cloud": 96,
+          "date": "2026-11-18",
+          "tMax": 30.7,
+          "tMin": 26.1,
+          "rain": 4.1,
+          "code": 55,
+          "cloud": 99,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 53.9,
-        "rainForecast7": 85.6,
-        "minForecast7": 23.7,
+        "rain14": 50,
+        "rainForecast7": 51.2,
+        "minForecast7": 24.2,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "86 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "51 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3526,19 +3508,19 @@
         "lat": 7.67,
         "lon": 36.83,
         "current": {
-          "date": "2026-11-17",
-          "tMax": 24.3,
-          "tMin": 13.4,
-          "rain": 0.1,
-          "code": 51,
-          "cloud": 50,
+          "date": "2026-11-18",
+          "tMax": 24.8,
+          "tMin": 13.9,
+          "rain": 0,
+          "code": 3,
+          "cloud": 67,
           "observed": true
         },
-        "condition": "dry",
-        "conditionLabel": "Clear / dry",
+        "condition": "cloudy",
+        "conditionLabel": "Cloudy",
         "rain14": 101.2,
-        "rainForecast7": 7,
-        "minForecast7": 13.1,
+        "rainForecast7": 13.9,
+        "minForecast7": 12.9,
         "alerts": []
       },
       {
@@ -3549,19 +3531,19 @@
         "lat": 14.16,
         "lon": -88.02,
         "current": {
-          "date": "2026-11-17",
-          "tMax": 26.2,
-          "tMin": 17.3,
-          "rain": 1.1,
-          "code": 51,
-          "cloud": 76,
+          "date": "2026-11-18",
+          "tMax": 24.2,
+          "tMin": 17.1,
+          "rain": 2.6,
+          "code": 53,
+          "cloud": 71,
           "observed": true
         },
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
-        "rain14": 35.3,
-        "rainForecast7": 9.2,
-        "minForecast7": 16.8,
+        "rain14": 37.9,
+        "rainForecast7": 6.2,
+        "minForecast7": 16.2,
         "alerts": []
       },
       {
@@ -3572,19 +3554,19 @@
         "lat": -11.05,
         "lon": -75.33,
         "current": {
-          "date": "2026-11-17",
-          "tMax": 30.9,
-          "tMin": 21.3,
+          "date": "2026-11-18",
+          "tMax": 30.1,
+          "tMin": 21.9,
           "rain": 2.7,
-          "code": 53,
-          "cloud": 59,
+          "code": 55,
+          "cloud": 77,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 102.1,
-        "rainForecast7": 35.5,
-        "minForecast7": 20.9,
+        "rain14": 104.8,
+        "rainForecast7": 26.9,
+        "minForecast7": 20.7,
         "alerts": []
       }
     ],
@@ -3598,7 +3580,7 @@
   },
   "news": {
     "originWire": {
-      "fetchedAt": "2026-11-18T14:55:14.565Z",
+      "fetchedAt": "2026-11-19T00:40:30.340Z",
       "lookbackHours": 504,
       "headlines": [
         {
@@ -3610,12 +3592,12 @@
           "published": "Tue, 17 Nov 2026 21:40:56 GMT"
         },
         {
-          "title": "Vietnam’s top leader To Lam meets with Russian President Vladimir Putin",
-          "summary": "Vietnam's Party General Secretary and President To Lam met with Russian President Vladimir Putin on Wednesday on the sidelines of the APEC Economic Leaders’ Week 2026 in Shenzhen, China.",
-          "url": "https://e.vnexpress.net/news/news/politics/vietnam-s-top-leader-to-lam-meets-with-russian-president-vladimir-putin-5146300.html",
+          "title": "Vietnam no longer Japan's largest source of visa overstayers as violations drop",
+          "summary": "Thais have overtaken Vietnamese as the largest group of visa overstayers in Japan after Vietnamese numbers fell 12.6% in the first half of the year.",
+          "url": "https://e.vnexpress.net/news/news/vietnam-no-longer-japan-s-largest-source-of-visa-overstayers-as-violations-drop-5145366.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Wed, 18 Nov 2026 21:37:39 +0700"
+          "published": "Thu, 19 Nov 2026 06:04:13 +0700"
         },
         {
           "title": "Indonesia apologizes to Malaysia, Singapore as wildfire haze sickens hundreds of thousands",
@@ -3626,20 +3608,20 @@
           "published": "Mon, 16 Nov 2026 11:42:49 +0700"
         },
         {
-          "title": "‘The sea washed away trees, then a whole row of houses. I knew it was time to get out’ – This is climate breakdown",
-          "summary": "She noticed the trees going first. Slowly she understood that the sea was going to take the whole village. This is Guadalupe Cobos Pacheco’s story Location: El Bosque, Mexico Disaster: Sea encroachment The fishing village of El Bosque was the first community…",
-          "url": "https://www.theguardian.com/environment/ng-interactive/2026/nov/18/el-bosque-mexico-displaced-sea-level-this-is-climate-breakdown",
-          "publisher": "The Guardian",
+          "title": "US and Venezuela to expand military co-operation to target drug trafficking",
+          "summary": "Defence secretary Pete Hegseth says two nations will ‘hunt’, ‘find’ and ‘kill’ ‘narcoterrorists’ during trip to Caracas",
+          "url": "https://www.ft.com/content/5144ce59-b928-46ba-b6b6-d7e77eb79d5b?syn-25a6b1a6=1",
+          "publisher": "Financial Times",
           "region": "South & Central America",
-          "published": "Wed, 18 Nov 2026 12:00:58 GMT"
+          "published": "Wed, 18 Nov 2026 23:22:04 GMT"
         },
         {
-          "title": "Rwanda and DRC: What is holding up the Washington peace process?",
-          "summary": "The two sides remain divided over key security commitments under the Washington Accords.",
-          "url": "https://www.aljazeera.com/news/2026/11/18/rwanda-and-drc-what-is-holding-up-the-washington-peace-process?traffic_source=rss",
-          "publisher": "Al Jazeera",
+          "title": "Five EU states announce plans for immigration ‘return hubs’ in Rwanda",
+          "summary": "Germany, Austria, Netherlands, Denmark and Greece likely to face challenges to policy criticised as ‘grave moral failing’ Five EU member states have announced plans to set up an offshore centre in Rwanda for people with no legal right to stay in Europe, in a…",
+          "url": "https://www.theguardian.com/world/2026/nov/16/eu-states-immigration-return-hubs-rwanda",
+          "publisher": "The Guardian",
           "region": "East Africa",
-          "published": "Wed, 18 Nov 2026 12:27:23 +0000"
+          "published": "Tue, 17 Nov 2026 01:10:59 GMT"
         },
         {
           "title": "European-made pesticides named in 1,605 poisoning reports in Brazil last year",
@@ -3650,12 +3632,12 @@
           "published": "Tue, 17 Nov 2026 06:00:05 GMT"
         },
         {
-          "title": "Dollar slides against dong",
-          "summary": "The U.S. dollar weakened against the Vietnamese dong on Wednesday.",
-          "url": "https://e.vnexpress.net/news/business/markets/dollar-slides-against-dong-5146086.html",
+          "title": "Vietnam’s top leader To Lam meets with Russian President Vladimir Putin",
+          "summary": "Vietnam's Party General Secretary and President To Lam met with Russian President Vladimir Putin on Wednesday on the sidelines of the APEC Economic Leaders’ Week 2026 in Shenzhen, China.",
+          "url": "https://e.vnexpress.net/news/news/politics/vietnam-s-top-leader-to-lam-meets-with-russian-president-vladimir-putin-5146300.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Wed, 18 Nov 2026 14:47:27 +0700"
+          "published": "Wed, 18 Nov 2026 21:37:39 +0700"
         },
         {
           "title": "LNG plant backed by Indonesian billionaire Sukanto Tanoto receives $140M grant from Canada",
@@ -3666,20 +3648,20 @@
           "published": "Mon, 16 Nov 2026 11:16:22 +0700"
         },
         {
-          "title": "Venezuelan ex-world boxing champion Linares in ICE detention",
-          "summary": "Former three-weight world champion Jorge Linares remains in the custody of US immigration authorities in Texas and is facing deportation.",
-          "url": "https://www.bbc.co.uk/sport/boxing/articles/cknv4q197dymo?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
+          "title": "Russian accused of spying on Palantir over assistance to Ukraine",
+          "summary": "Prosecutors say suspect entered US from Mexico and stalked employees at Silicon Valley tech group",
+          "url": "https://www.ft.com/content/4972f4c7-fe8d-4fdd-b0fd-0db2360cda2a?syn-25a6b1a6=1",
+          "publisher": "Financial Times",
           "region": "South & Central America",
-          "published": "Wed, 18 Nov 2026 07:34:53 GMT"
+          "published": "Wed, 18 Nov 2026 21:44:59 GMT"
         },
         {
-          "title": "‘Partnership buys silence’: Fears grow over EU-Rwanda deportation plans",
-          "summary": "A British immigration lawyer, Rwandan journalist, rights groups and leading politicians decry the proposal as inhumane.",
-          "url": "https://www.aljazeera.com/news/2026/11/18/partnership-buys-silence-fears-grow-over-eu-rwanda-deportation-plans?traffic_source=rss",
-          "publisher": "Al Jazeera",
+          "title": "‘Like many men of his generation, he tends to push his feelings down from his heart to his toes’: Meera Sodha on her father’s homecoming",
+          "summary": "After a childhood of grief, hardship and hunger, the Guardian food writer’s father Raj always resisted going back to Uganda. What happened when he finally agreed to accompany her on a bittersweet journey into the past? The moment I step off the plane and on…",
+          "url": "https://www.theguardian.com/lifeandstyle/2026/nov/15/meera-sodha-father-homecoming-uganda",
+          "publisher": "The Guardian",
           "region": "East Africa",
-          "published": "Wed, 18 Nov 2026 11:58:10 +0000"
+          "published": "Sun, 15 Nov 2026 06:00:07 GMT"
         },
         {
           "title": "Two skulls likely belonging to enslaved people returned to Brazil after Harvard used them in eugenics studies",
@@ -3690,12 +3672,12 @@
           "published": "Wed, 11 Nov 2026 22:50:37 GMT"
         },
         {
-          "title": "Hanoi shuts streets around central lake for 6 days for Vietnam's first Culture Day",
-          "summary": "Hanoi police are closing streets around Hoan Kiem Lake to traffic from Wednesday until Monday next week for the opening of Vietnam Culture Day celebrations.",
-          "url": "https://e.vnexpress.net/news/news/traffic/hanoi-shuts-streets-around-central-lake-for-6-days-for-vietnam-s-first-culture-day-5146100.html",
+          "title": "Dollar slides against dong",
+          "summary": "The U.S. dollar weakened against the Vietnamese dong on Wednesday.",
+          "url": "https://e.vnexpress.net/news/business/markets/dollar-slides-against-dong-5146086.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Wed, 18 Nov 2026 14:40:18 +0700"
+          "published": "Wed, 18 Nov 2026 14:47:27 +0700"
         },
         {
           "title": "‘It’s an architect’s dream’: five beautiful eco buildings around the world",
@@ -3706,22 +3688,22 @@
           "published": "Sat, 14 Nov 2026 13:00:46 GMT"
         },
         {
-          "title": "Costa Rican journalist shot dead in first such killing in 25 years",
-          "summary": "Camilo Rodriguez’s death comes as the country grapples with a surge in drug violence The Costa Rican journalist Camilo Rodríguez, who gained prominence for publishing allegations against ⁠suspected drug traffickers and politicians, was shot dead on Monday…",
-          "url": "https://www.theguardian.com/world/2026/nov/17/costa-rica-journalist-camilo-rodriguez-shot-dead",
-          "publisher": "The Guardian",
+          "title": "US Defence Secretary Hegseth reveals military partnership on Venezuela trip",
+          "summary": "Pete Hegseth says the agreement will include joint training and intelligence sharing with the Venezuelan military.",
+          "url": "https://www.aljazeera.com/news/2026/11/18/us-defence-secretary-announces-military-partnership-on-trip-to-venezuela?traffic_source=rss",
+          "publisher": "Al Jazeera",
           "region": "South & Central America",
-          "published": "Tue, 17 Nov 2026 17:19:12 GMT"
+          "published": "Wed, 18 Nov 2026 21:01:05 +0000"
         }
       ],
-      "totalTagged": 108,
+      "totalTagged": 105,
       "feedsQueried": 14,
       "errors": [],
       "note": "General headlines from the growing regions, taken from outlets of record and tagged to a region by the countries and cities they name."
     },
     "roundup": {
       "source": "assembled",
-      "fetchedAt": "2026-11-18T14:55:14.124Z",
+      "fetchedAt": "2026-11-19T00:40:29.925Z",
       "windowDays": 7,
       "publishers": [
         "Daily Coffee News",
@@ -3730,6 +3712,24 @@
         "World Coffee Portal"
       ],
       "items": [
+        {
+          "headline": "FDA Revokes Some Methylene Chloride Use, But Decaf Decision Still Pending",
+          "summary": "The U.S. Food and Drug Administration (FDA) is revoking several authorizations for methylene chloride in food-related applications, citing evidence that the chemical causes cancer in laboratory animals. Announced Nov. 9...",
+          "url": "https://dailycoffeenews.com/2026/11/18/fda-revokes-some-methylene-chloride-use-but-decaf-decision-still-pending/",
+          "publisher": "Daily Coffee News",
+          "published": "Wed, 18 Nov 2026 14:45:34 +0000",
+          "date": "Wed, 18 Nov",
+          "section": "Roasting & retail"
+        },
+        {
+          "headline": "Fair Trade USA Raising Minimum Coffee Prices to New Fairtrade Levels",
+          "summary": "Fair Trade USA is raising its minimum price for washed arabica coffee from $1.40 to $2 per pound, marking a significant shift three years after the certification organization opted against...",
+          "url": "https://dailycoffeenews.com/2026/11/18/fair-trade-usa-raising-minimum-coffee-prices-to-new-fairtrade-levels/",
+          "publisher": "Daily Coffee News",
+          "published": "Wed, 18 Nov 2026 14:41:43 +0000",
+          "date": "Wed, 18 Nov",
+          "section": "Top stories of the week"
+        },
         {
           "headline": "The Smile Test Will Tell You if Your Hospitality Training Works",
           "summary": "You can’t easily measure hospitality, but you can watch for it. The smile test shows you how quickly your guests warm up, and whether your training is working. The post The Smile Test Will Tell You if Your Hospitality Training Works appeared first on Fresh…",
@@ -3803,22 +3803,13 @@
           "section": "Top stories of the week"
         },
         {
-          "headline": "Franke brings usage-based cleaning to professional coffee operations",
-          "summary": "Great coffee starts with a clean machine. Franke’s IndividualClean cleaning system automates hygiene routines, ensuring predictable cleaning and high coffee quality – all while using fewer resources and reducing downtime",
-          "url": "https://www.worldcoffeeportal.com/news/franke-brings-usage-based-cleaning-to-professional-coffee-operations/",
-          "publisher": "World Coffee Portal",
-          "published": "Tue, 17 Nov 2026 09:35:49 GMT",
-          "date": "Tue, 17 Nov",
-          "section": "Roasting & retail"
-        },
-        {
           "headline": "Forced Labor Import Bans Are Reaching the Coffee Sector. Are Companies Ready?",
           "summary": "For years, forced labor import bans have been viewed by many coffee companies as a remote legal concern. That perspective is changing, and quickly. U.S. Customs and Border Protection (CBP)...",
           "url": "https://dailycoffeenews.com/2026/11/16/forced-labor-import-bans-are-reaching-the-coffee-sector-are-companies-ready/",
           "publisher": "Daily Coffee News",
           "published": "Mon, 16 Nov 2026 14:00:10 +0000",
           "date": "Mon, 16 Nov",
-          "section": "Top stories of the week"
+          "section": "Trade & production"
         },
         {
           "headline": "Coffee News Club: November 16th",
@@ -3866,7 +3857,7 @@
       "note": "Assembled from the coffee trade press over the past seven days, ranked by relevance to the physical trade. Headlines and links are each publisher’s own."
     },
     "dailyRead": {
-      "fetchedAt": "2026-11-18T14:55:12.758Z",
+      "fetchedAt": "2026-11-19T00:40:28.643Z",
       "article": {
         "title": "Roasting Partner Launches an Operating System for Roasters",
         "summary": "A new software platform called Roasting Partner opened to outside coffee roasting businesses in October, offering tools designed to organize production, inventory, sales, cafe operations and other day-to-day roastery data...",
@@ -4192,39 +4183,39 @@
   },
   "status": [
     {
-      "source": "weather",
-      "ok": true,
-      "ms": 409
-    },
-    {
       "source": "daily-read",
       "ok": true,
-      "ms": 467
+      "ms": 125
+    },
+    {
+      "source": "weather",
+      "ok": true,
+      "ms": 288
     },
     {
       "source": "arabica-futures",
       "ok": true,
-      "ms": 678
+      "ms": 409
     },
     {
       "source": "weekly-recap",
       "ok": true,
-      "ms": 1837
-    },
-    {
-      "source": "fx",
-      "ok": true,
-      "ms": 2269
+      "ms": 1410
     },
     {
       "source": "origin-wire",
       "ok": true,
-      "ms": 2281
+      "ms": 1827
+    },
+    {
+      "source": "fx",
+      "ok": true,
+      "ms": 2190
     },
     {
       "source": "ico-report",
       "ok": false,
-      "ms": 4030,
+      "ms": 3611,
       "error": "HTTP 404 for https://www.ico.org/documents/cy2025-26/cmr-1026-e.pdf"
     }
   ]

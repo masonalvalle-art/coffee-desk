@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T00:40:32.132Z",
+  "generatedAt": "2026-11-19T15:01:25.570Z",
   "schema": 5,
   "schedule": {
     "slotsUtc": [
@@ -26,75 +26,67 @@
       "frontMonth": {
         "code": "KCZ26",
         "label": "Dec 2026",
-        "close": 281.3,
-        "volume": 5164
+        "close": 283.35,
+        "volume": 430
       },
-      "rolled": false,
+      "rolled": true,
       "mostActive": "KCH27",
       "curve": [
         {
           "code": "KCZ26",
           "label": "Dec 2026",
-          "close": 281.3,
-          "volume": 5164
+          "close": 283.35,
+          "volume": 430
         },
         {
           "code": "KCH27",
           "label": "Mar 2027",
-          "close": 276.05,
-          "volume": 20559
+          "close": 278.35,
+          "volume": 11028
         },
         {
           "code": "KCK27",
           "label": "May 2027",
-          "close": 269.45,
-          "volume": 7550
+          "close": 270.5,
+          "volume": 4517
         },
         {
           "code": "KCN27",
           "label": "Jul 2027",
-          "close": 265.2,
-          "volume": 2941
+          "close": 264.65,
+          "volume": 1995
         },
         {
           "code": "KCU27",
           "label": "Sep 2027",
-          "close": 261.6,
-          "volume": 1262
+          "close": 259.7,
+          "volume": 831
         },
         {
           "code": "KCZ27",
           "label": "Dec 2027",
-          "close": 257.6,
-          "volume": 639
+          "close": 254.1,
+          "volume": 314
         },
         {
           "code": "KCH28",
           "label": "Mar 2028",
-          "close": 253.65,
-          "volume": 216
+          "close": 249.6,
+          "volume": 90
         }
       ],
       "quote": {
-        "last": 276.05,
-        "open": 278,
-        "high": 280.45001220703125,
-        "low": 272.04998779296875,
-        "previousClose": 281.3999938964844,
-        "change": -5.35,
-        "changePct": -1.901,
-        "volume": 0,
-        "asOf": "2026-11-18T18:29:55.000Z"
+        "last": 277.25,
+        "open": 273.04998779296875,
+        "high": 280.8999938964844,
+        "low": 270.29998779296875,
+        "previousClose": 275.45001220703125,
+        "change": 1.8,
+        "changePct": 0.653,
+        "volume": 10455,
+        "asOf": "2026-11-19T14:41:05.000Z"
       },
       "bars": [
-        {
-          "date": "2025-08-13",
-          "open": 274.79998779296875,
-          "high": 278.1000061035156,
-          "low": 274.79998779296875,
-          "close": 276.1499938964844,
-          "volume": 462
-        },
         {
           "date": "2025-08-14",
           "open": 277.75,
@@ -2637,22 +2629,30 @@
           "high": 282.25,
           "low": 273.54998779296875,
           "close": 281.3999938964844,
-          "volume": 16798
+          "volume": 22328
         },
         {
           "date": "2026-11-18",
           "open": 278,
           "high": 280.45001220703125,
           "low": 272.04998779296875,
-          "close": 276.04998779296875,
-          "volume": 0
+          "close": 275.45001220703125,
+          "volume": 22328
+        },
+        {
+          "date": "2026-11-19",
+          "open": 273.04998779296875,
+          "high": 280.8999938964844,
+          "low": 270.29998779296875,
+          "close": 277.25,
+          "volume": 10455
         }
       ],
       "crossCheck": {
-        "tradingView": 276.05,
-        "yahoo": 276.05,
-        "diff": 0,
-        "diffPct": 0,
+        "tradingView": 278.35,
+        "yahoo": 277.25,
+        "diff": 1.1,
+        "diffPct": 0.397,
         "agree": true
       },
       "sources": [
@@ -2669,23 +2669,27 @@
       ],
       "technicals": {
         "observations": 504,
-        "sma20": 276.60249786376954,
-        "sma50": 279.43999938964845,
-        "sma200": 276.6424996948242,
-        "rsi14": 48.21048459348153,
+        "sma20": 275.56249847412107,
+        "sma50": 279.3839996337891,
+        "sma200": 276.6272497558594,
+        "rsi14": 49.4483193176388,
         "macd": {
-          "line": -2.7201091758458915,
-          "signal": -3.4442025767729225,
-          "histogram": 0.724093400927031
+          "line": -2.374992444464624,
+          "signal": -3.2380183583597058,
+          "histogram": 0.8630259138950818
         },
-        "atr14": 8.340031435689191,
+        "atr14": 8.501458197676794,
         "donchian20": {
-          "high": 300.1000061035156,
+          "high": 299.29998779296875,
           "low": 262.1499938964844,
           "period": 20
         },
         "levels": {
           "support": [
+            {
+              "price": 276.45001220703125,
+              "date": "2026-10-12"
+            },
             {
               "price": 270,
               "date": "2026-02-06"
@@ -2693,10 +2697,6 @@
             {
               "price": 268.20001220703125,
               "date": "2025-04-07"
-            },
-            {
-              "price": 262.6000061035156,
-              "date": "2026-09-23"
             }
           ],
           "resistance": [
@@ -2726,22 +2726,18 @@
     }
   },
   "fx": {
-    "asOf": "2026-11-18",
+    "asOf": "2026-11-19",
     "pairs": {
       "GBPUSD": {
         "pair": "GBP/USD",
-        "rate": 1.3168,
-        "previous": 1.3191,
+        "rate": 1.3151,
+        "previous": 1.3168,
         "dp": 4,
         "note": "Sterling stronger means a dollar-priced contract costs a UK buyer less.",
-        "change": -0.0023,
-        "changePct": -0.174,
-        "change1m": -1.34,
+        "change": -0.0017,
+        "changePct": -0.129,
+        "change1m": -1.87,
         "history": [
-          {
-            "date": "2026-08-27",
-            "rate": 1.3582
-          },
           {
             "date": "2026-08-28",
             "rate": 1.3583
@@ -2977,23 +2973,23 @@
           {
             "date": "2026-11-18",
             "rate": 1.3168
+          },
+          {
+            "date": "2026-11-19",
+            "rate": 1.3151
           }
         ]
       },
       "USDBRL": {
         "pair": "USD/BRL",
-        "rate": 5.8186,
-        "previous": 5.7821,
+        "rate": 5.892,
+        "previous": 5.8186,
         "dp": 4,
         "note": "A weaker real encourages Brazilian producer selling.",
-        "change": 0.0365,
-        "changePct": 0.631,
-        "change1m": 15.83,
+        "change": 0.0734,
+        "changePct": 1.261,
+        "change1m": 17.29,
         "history": [
-          {
-            "date": "2026-08-27",
-            "rate": 5.142
-          },
           {
             "date": "2026-08-28",
             "rate": 5.1641
@@ -3229,6 +3225,10 @@
           {
             "date": "2026-11-18",
             "rate": 5.8186
+          },
+          {
+            "date": "2026-11-19",
+            "rate": 5.892
           }
         ]
       }
@@ -3252,7 +3252,7 @@
     ]
   },
   "weather": {
-    "fetchedAt": "2026-11-19T00:40:28.800Z",
+    "fetchedAt": "2026-11-19T15:01:21.280Z",
     "thresholds": {
       "frostC": 4,
       "heavyRainMm": 50,
@@ -3280,16 +3280,16 @@
           "date": "2026-11-18",
           "tMax": 28.7,
           "tMin": 18.8,
-          "rain": 11.7,
+          "rain": 9.9,
           "code": 95,
           "cloud": 91,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 68.7,
-        "rainForecast7": 43.1,
-        "minForecast7": 18.6,
+        "rain14": 66.7,
+        "rainForecast7": 44,
+        "minForecast7": 18.3,
         "alerts": []
       },
       {
@@ -3305,19 +3305,19 @@
           "tMin": 17.7,
           "rain": 10.5,
           "code": 81,
-          "cloud": 91,
+          "cloud": 92,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 92.2,
-        "rainForecast7": 56.7,
-        "minForecast7": 18.6,
+        "rain14": 91.6,
+        "rainForecast7": 60.5,
+        "minForecast7": 18.2,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "57 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "61 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3339,14 +3339,14 @@
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 97.7,
-        "rainForecast7": 56.4,
-        "minForecast7": 23,
+        "rain14": 96.1,
+        "rainForecast7": 84.2,
+        "minForecast7": 22.8,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "56 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "84 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3369,8 +3369,8 @@
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
         "rain14": 27.7,
-        "rainForecast7": 1.3,
-        "minForecast7": 22.2,
+        "rainForecast7": 1,
+        "minForecast7": 22.1,
         "alerts": []
       },
       {
@@ -3392,8 +3392,8 @@
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
         "rain14": 24.1,
-        "rainForecast7": 18.2,
-        "minForecast7": 17.3,
+        "rainForecast7": 15.8,
+        "minForecast7": 17.2,
         "alerts": []
       },
       {
@@ -3406,7 +3406,7 @@
         "current": {
           "date": "2026-11-18",
           "tMax": 26.7,
-          "tMin": 18.4,
+          "tMin": 18.8,
           "rain": 5.5,
           "code": 81,
           "cloud": 92,
@@ -3414,9 +3414,9 @@
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 64.7,
-        "rainForecast7": 24.9,
-        "minForecast7": 16.6,
+        "rain14": 61.7,
+        "rainForecast7": 33.5,
+        "minForecast7": 16.8,
         "alerts": []
       },
       {
@@ -3430,15 +3430,15 @@
           "date": "2026-11-18",
           "tMax": 28.8,
           "tMin": 17.4,
-          "rain": 5.3,
-          "code": 80,
-          "cloud": 85,
+          "rain": 2.9,
+          "code": 55,
+          "cloud": 84,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 51.6,
-        "rainForecast7": 41.9,
+        "rain14": 44.1,
+        "rainForecast7": 46.7,
         "minForecast7": 16.3,
         "alerts": []
       },
@@ -3461,13 +3461,13 @@
         "condition": "very-wet",
         "conditionLabel": "Very wet",
         "rain14": 236.7,
-        "rainForecast7": 93.7,
-        "minForecast7": 17,
+        "rainForecast7": 78.3,
+        "minForecast7": 17.1,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "94 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "78 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3490,13 +3490,13 @@
         "condition": "very-wet",
         "conditionLabel": "Very wet",
         "rain14": 50,
-        "rainForecast7": 51.2,
+        "rainForecast7": 62.3,
         "minForecast7": 24.2,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "51 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "62 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3519,8 +3519,8 @@
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
         "rain14": 101.2,
-        "rainForecast7": 13.9,
-        "minForecast7": 12.9,
+        "rainForecast7": 11.1,
+        "minForecast7": 13.2,
         "alerts": []
       },
       {
@@ -3534,16 +3534,16 @@
           "date": "2026-11-18",
           "tMax": 24.2,
           "tMin": 17.1,
-          "rain": 2.6,
+          "rain": 2.5,
           "code": 53,
-          "cloud": 71,
+          "cloud": 70,
           "observed": true
         },
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
-        "rain14": 37.9,
-        "rainForecast7": 6.2,
-        "minForecast7": 16.2,
+        "rain14": 37.5,
+        "rainForecast7": 8,
+        "minForecast7": 16.4,
         "alerts": []
       },
       {
@@ -3556,18 +3556,24 @@
         "current": {
           "date": "2026-11-18",
           "tMax": 30.1,
-          "tMin": 21.9,
-          "rain": 2.7,
+          "tMin": 22,
+          "rain": 3,
           "code": 55,
-          "cloud": 77,
+          "cloud": 73,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 104.8,
-        "rainForecast7": 26.9,
+        "rain14": 104.7,
+        "rainForecast7": 68,
         "minForecast7": 20.7,
-        "alerts": []
+        "alerts": [
+          {
+            "type": "wet",
+            "severity": "watch",
+            "text": "68 mm forecast over 7 days — harvest/drying disruption risk."
+          }
+        ]
       }
     ],
     "sources": [
@@ -3580,7 +3586,7 @@
   },
   "news": {
     "originWire": {
-      "fetchedAt": "2026-11-19T00:40:30.340Z",
+      "fetchedAt": "2026-11-19T15:01:23.941Z",
       "lookbackHours": 504,
       "headlines": [
         {
@@ -3592,12 +3598,12 @@
           "published": "Tue, 17 Nov 2026 21:40:56 GMT"
         },
         {
-          "title": "Vietnam no longer Japan's largest source of visa overstayers as violations drop",
-          "summary": "Thais have overtaken Vietnamese as the largest group of visa overstayers in Japan after Vietnamese numbers fell 12.6% in the first half of the year.",
-          "url": "https://e.vnexpress.net/news/news/vietnam-no-longer-japan-s-largest-source-of-visa-overstayers-as-violations-drop-5145366.html",
+          "title": "Vietnam's top leader To Lam meets US President Trump on APEC sidelines in Shenzhen",
+          "summary": "Party General Secretary and President To Lam called on the U.S. to support Vietnam in successfully hosting APEC 2027 when he met President Donald Trump on the sidelines of the APEC 2026 Economic Leaders' Week in Shenzhen, China, on Thursday.",
+          "url": "https://e.vnexpress.net/news/news/politics/vietnam-s-top-leader-to-lam-meets-us-president-trump-on-apec-sidelines-in-shenzhen-5146791.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Thu, 19 Nov 2026 06:04:13 +0700"
+          "published": "Thu, 19 Nov 2026 20:32:31 +0700"
         },
         {
           "title": "Indonesia apologizes to Malaysia, Singapore as wildfire haze sickens hundreds of thousands",
@@ -3608,20 +3614,20 @@
           "published": "Mon, 16 Nov 2026 11:42:49 +0700"
         },
         {
-          "title": "US and Venezuela to expand military co-operation to target drug trafficking",
-          "summary": "Defence secretary Pete Hegseth says two nations will ‘hunt’, ‘find’ and ‘kill’ ‘narcoterrorists’ during trip to Caracas",
-          "url": "https://www.ft.com/content/5144ce59-b928-46ba-b6b6-d7e77eb79d5b?syn-25a6b1a6=1",
-          "publisher": "Financial Times",
+          "title": "Venezuela signs military deal with US less than a year after Maduro's removal",
+          "summary": "The US Secretary of Defence says Venezuela has 'gone from our most aggressive regional threat to a compliant security partner'.",
+          "url": "https://www.bbc.co.uk/news/articles/cmwy8pyqlq5vo?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
           "region": "South & Central America",
-          "published": "Wed, 18 Nov 2026 23:22:04 GMT"
+          "published": "Thu, 19 Nov 2026 13:31:23 GMT"
         },
         {
-          "title": "Five EU states announce plans for immigration ‘return hubs’ in Rwanda",
-          "summary": "Germany, Austria, Netherlands, Denmark and Greece likely to face challenges to policy criticised as ‘grave moral failing’ Five EU member states have announced plans to set up an offshore centre in Rwanda for people with no legal right to stay in Europe, in a…",
-          "url": "https://www.theguardian.com/world/2026/nov/16/eu-states-immigration-return-hubs-rwanda",
-          "publisher": "The Guardian",
+          "title": "Somalia expels UAE ambassador, accuses Abu Dhabi of violating sovereignty",
+          "summary": "Somalia says the UAE is interfering in its internal affairs with actions that amount to an 'open invasion'.",
+          "url": "https://www.aljazeera.com/news/2026/11/19/somalia-expels-uae-ambassador-accuses-abu-dhabi-of-violating-sovereignty?traffic_source=rss",
+          "publisher": "Al Jazeera",
           "region": "East Africa",
-          "published": "Tue, 17 Nov 2026 01:10:59 GMT"
+          "published": "Thu, 19 Nov 2026 14:34:22 +0000"
         },
         {
           "title": "European-made pesticides named in 1,605 poisoning reports in Brazil last year",
@@ -3632,12 +3638,12 @@
           "published": "Tue, 17 Nov 2026 06:00:05 GMT"
         },
         {
-          "title": "Vietnam’s top leader To Lam meets with Russian President Vladimir Putin",
-          "summary": "Vietnam's Party General Secretary and President To Lam met with Russian President Vladimir Putin on Wednesday on the sidelines of the APEC Economic Leaders’ Week 2026 in Shenzhen, China.",
-          "url": "https://e.vnexpress.net/news/news/politics/vietnam-s-top-leader-to-lam-meets-with-russian-president-vladimir-putin-5146300.html",
+          "title": "Four unfinished projects could put Christmas opening of Vietnam's largest airport Long Thanh at risk",
+          "summary": "With just over a month to go before its planned commercial opening on Dec. 24, Long Thanh International Airport still has large volumes of work to finish, from its passenger terminal and internal roads to acceptance checks and licensing.",
+          "url": "https://e.vnexpress.net/news/news/traffic/four-unfinished-projects-could-put-christmas-opening-of-vietnam-s-largest-airport-long-thanh-at-risk-5146761.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Wed, 18 Nov 2026 21:37:39 +0700"
+          "published": "Thu, 19 Nov 2026 19:00:00 +0700"
         },
         {
           "title": "LNG plant backed by Indonesian billionaire Sukanto Tanoto receives $140M grant from Canada",
@@ -3648,20 +3654,20 @@
           "published": "Mon, 16 Nov 2026 11:16:22 +0700"
         },
         {
-          "title": "Russian accused of spying on Palantir over assistance to Ukraine",
-          "summary": "Prosecutors say suspect entered US from Mexico and stalked employees at Silicon Valley tech group",
-          "url": "https://www.ft.com/content/4972f4c7-fe8d-4fdd-b0fd-0db2360cda2a?syn-25a6b1a6=1",
-          "publisher": "Financial Times",
+          "title": "Argentina mourns teen footballer Nunez who died after on-pitch collision",
+          "summary": "Abel Nunez, 16, died after suffering a severe blow to the head during a youth football match for his club, Ezeiza.",
+          "url": "https://www.aljazeera.com/sports/2026/11/19/argentina-mourns-teen-footballer-nunez-who-died-after-on-pitch-collision?traffic_source=rss",
+          "publisher": "Al Jazeera",
           "region": "South & Central America",
-          "published": "Wed, 18 Nov 2026 21:44:59 GMT"
+          "published": "Thu, 19 Nov 2026 11:57:34 +0000"
         },
         {
-          "title": "‘Like many men of his generation, he tends to push his feelings down from his heart to his toes’: Meera Sodha on her father’s homecoming",
-          "summary": "After a childhood of grief, hardship and hunger, the Guardian food writer’s father Raj always resisted going back to Uganda. What happened when he finally agreed to accompany her on a bittersweet journey into the past? The moment I step off the plane and on…",
-          "url": "https://www.theguardian.com/lifeandstyle/2026/nov/15/meera-sodha-father-homecoming-uganda",
-          "publisher": "The Guardian",
+          "title": "Kenya awards prized rare earth deposit to US group",
+          "summary": "Deal is a win for the Trump administration’s efforts to counter China’s dominance of the metals used for magnets",
+          "url": "https://www.ft.com/content/913e3748-6bf2-4c59-b2b6-31bf58a166ab?syn-25a6b1a6=1",
+          "publisher": "Financial Times",
           "region": "East Africa",
-          "published": "Sun, 15 Nov 2026 06:00:07 GMT"
+          "published": "Thu, 19 Nov 2026 13:53:19 GMT"
         },
         {
           "title": "Two skulls likely belonging to enslaved people returned to Brazil after Harvard used them in eugenics studies",
@@ -3672,12 +3678,12 @@
           "published": "Wed, 11 Nov 2026 22:50:37 GMT"
         },
         {
-          "title": "Dollar slides against dong",
-          "summary": "The U.S. dollar weakened against the Vietnamese dong on Wednesday.",
-          "url": "https://e.vnexpress.net/news/business/markets/dollar-slides-against-dong-5146086.html",
+          "title": "Stavian Group recognized for workforce development and profitability in 2026",
+          "summary": "Stavian Group has earned recognition for its workplace environment, employee development and business performance, including a place in Vietnam's 100 Best Places to Work ranking and accreditation from the Association of Chartered Certified Accountants (ACCA).",
+          "url": "https://e.vnexpress.net/news/business/stavian-group-recognized-for-workforce-development-and-profitability-in-2026-5146701.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Wed, 18 Nov 2026 14:47:27 +0700"
+          "published": "Thu, 19 Nov 2026 17:00:00 +0700"
         },
         {
           "title": "‘It’s an architect’s dream’: five beautiful eco buildings around the world",
@@ -3688,22 +3694,22 @@
           "published": "Sat, 14 Nov 2026 13:00:46 GMT"
         },
         {
-          "title": "US Defence Secretary Hegseth reveals military partnership on Venezuela trip",
-          "summary": "Pete Hegseth says the agreement will include joint training and intelligence sharing with the Venezuelan military.",
-          "url": "https://www.aljazeera.com/news/2026/11/18/us-defence-secretary-announces-military-partnership-on-trip-to-venezuela?traffic_source=rss",
-          "publisher": "Al Jazeera",
+          "title": "Mexican president is internet star in China for 21-hour economy flight",
+          "summary": "Mexican President Claudia Sheinbaum has become a social media star in China after flying in economy class for 21 hours to attend the 2026 Asia-Pacific Economic Cooperation summit in Shenzhen.",
+          "url": "https://e.vnexpress.net/news/news/mexican-president-is-internet-star-in-china-for-21-hour-economy-flight-5146578.html",
+          "publisher": "VnExpress International",
           "region": "South & Central America",
-          "published": "Wed, 18 Nov 2026 21:01:05 +0000"
+          "published": "Thu, 19 Nov 2026 13:47:28 +0700"
         }
       ],
-      "totalTagged": 105,
+      "totalTagged": 106,
       "feedsQueried": 14,
       "errors": [],
       "note": "General headlines from the growing regions, taken from outlets of record and tagged to a region by the countries and cities they name."
     },
     "roundup": {
       "source": "assembled",
-      "fetchedAt": "2026-11-19T00:40:29.925Z",
+      "fetchedAt": "2026-11-19T15:01:23.021Z",
       "windowDays": 7,
       "publishers": [
         "Daily Coffee News",
@@ -3712,6 +3718,33 @@
         "World Coffee Portal"
       ],
       "items": [
+        {
+          "headline": "Three Questions with “The Little Bean That Grew to Brew” Author and Artist Wendra Lynne",
+          "summary": "Author and illustrator Wendra Lynne has released her second picture book, “The Little Bean That Grew to Brew,” following a successful Kickstarter campaign for the independently published project. The story...",
+          "url": "https://dailycoffeenews.com/2026/11/19/three-questions-with-the-little-bean-that-grew-to-brew-author-and-artist-wendra-lynne/",
+          "publisher": "Daily Coffee News",
+          "published": "Thu, 19 Nov 2026 13:57:24 +0000",
+          "date": "Thu, 19 Nov",
+          "section": "Roasting & retail"
+        },
+        {
+          "headline": "Arabica Market Falls to Its Lowest Since June",
+          "summary": "An election in Brazil, a weakened real against the dollar, and a strong harvest have pushed prices downward. The post Arabica Market Falls to Its Lowest Since June appeared first on Fresh Cup .",
+          "url": "https://freshcup.com/arabica-market-falls-to-its-lowest-since-june/",
+          "publisher": "Fresh Cup",
+          "published": "Thu, 19 Nov 2026 13:02:00 +0000",
+          "date": "Thu, 19 Nov",
+          "section": "Top stories of the week"
+        },
+        {
+          "headline": "Juan Valdez to ramp up Latin America expansion after reaching new growth milestone",
+          "summary": "Latin America sales outside of the Colombian coffee group’s home market have grown 24% year-on-year so far in 2026",
+          "url": "https://www.worldcoffeeportal.com/news/juan-valdez-to-ramp-up-latin-america-expansion-after-reaching-new-growth-milestone/",
+          "publisher": "World Coffee Portal",
+          "published": "Thu, 19 Nov 2026 11:16:40 GMT",
+          "date": "Thu, 19 Nov",
+          "section": "Top stories of the week"
+        },
         {
           "headline": "FDA Revokes Some Methylene Chloride Use, But Decaf Decision Still Pending",
           "summary": "The U.S. Food and Drug Administration (FDA) is revoking several authorizations for methylene chloride in food-related applications, citing evidence that the chemical causes cancer in laboratory animals. Announced Nov. 9...",
@@ -3728,7 +3761,7 @@
           "publisher": "Daily Coffee News",
           "published": "Wed, 18 Nov 2026 14:41:43 +0000",
           "date": "Wed, 18 Nov",
-          "section": "Top stories of the week"
+          "section": "Trade & production"
         },
         {
           "headline": "The Smile Test Will Tell You if Your Hospitality Training Works",
@@ -3785,22 +3818,13 @@
           "section": "Trade & production"
         },
         {
-          "headline": "Founder Eileen Rinaldi Comes Full Circle at Ritual Coffee’s New San Francisco Cafe",
-          "summary": "San Francisco-based roaster-retailer Ritual Coffee opened a new cafe in the city’s Financial District in late October in the very same place where founder and CEO Eileen Rinaldi worked her...",
-          "url": "https://dailycoffeenews.com/2026/11/17/founder-eileen-rinaldi-comes-full-circle-at-ritual-coffees-new-san-francisco-cafe/",
-          "publisher": "Daily Coffee News",
-          "published": "Tue, 17 Nov 2026 14:43:57 +0000",
-          "date": "Tue, 17 Nov",
-          "section": "Roasting & retail"
-        },
-        {
           "headline": "Canada’s specialty coffee market is on the up – and % Arabica wants to lead it",
           "summary": "The boutique café group wants to triple its Canadian footprint over the next two years, but domestic and international specialty coffee rivals are also investing in growth",
           "url": "https://www.worldcoffeeportal.com/news/canadas-specialty-coffee-market-is-on-the-up-and-arabica-wants-to-lead-it/",
           "publisher": "World Coffee Portal",
           "published": "Tue, 17 Nov 2026 14:18:59 GMT",
           "date": "Tue, 17 Nov",
-          "section": "Top stories of the week"
+          "section": "Trade & production"
         },
         {
           "headline": "Forced Labor Import Bans Are Reaching the Coffee Sector. Are Companies Ready?",
@@ -3819,15 +3843,6 @@
           "published": "Mon, 16 Nov 2026 12:55:00 +0000",
           "date": "Mon, 16 Nov",
           "section": "Top stories of the week"
-        },
-        {
-          "headline": "Weekly Coffee News: New Coffee Education Certificate + ICO Price Edges Down",
-          "summary": "Welcome to DCN’s Weekly Coffee News! Subscribe here for all the latest coffee industry news. Also, check out the latest career opportunities at CoffeeIndustryJobs.com. Cover Your Assets Unveils Major Software...",
-          "url": "https://dailycoffeenews.com/2026/11/13/weekly-coffee-news-new-coffee-education-certificate-ico-price-edges-down/",
-          "publisher": "Daily Coffee News",
-          "published": "Fri, 13 Nov 2026 13:41:57 +0000",
-          "date": "Fri, 13 Nov",
-          "section": "Trade & production"
         },
         {
           "headline": "Seeds of Change in Colombia’s Caldas Department",
@@ -3857,7 +3872,7 @@
       "note": "Assembled from the coffee trade press over the past seven days, ranked by relevance to the physical trade. Headlines and links are each publisher’s own."
     },
     "dailyRead": {
-      "fetchedAt": "2026-11-19T00:40:28.643Z",
+      "fetchedAt": "2026-11-19T15:01:21.415Z",
       "article": {
         "title": "Roasting Partner Launches an Operating System for Roasters",
         "summary": "A new software platform called Roasting Partner opened to outside coffee roasting businesses in October, offering tools designed to organize production, inventory, sales, cafe operations and other day-to-day roastery data...",
@@ -4183,39 +4198,39 @@
   },
   "status": [
     {
-      "source": "daily-read",
-      "ok": true,
-      "ms": 125
-    },
-    {
       "source": "weather",
       "ok": true,
-      "ms": 288
+      "ms": 490
+    },
+    {
+      "source": "daily-read",
+      "ok": true,
+      "ms": 616
     },
     {
       "source": "arabica-futures",
       "ok": true,
-      "ms": 409
+      "ms": 835
     },
     {
       "source": "weekly-recap",
       "ok": true,
-      "ms": 1410
-    },
-    {
-      "source": "origin-wire",
-      "ok": true,
-      "ms": 1827
+      "ms": 2226
     },
     {
       "source": "fx",
       "ok": true,
-      "ms": 2190
+      "ms": 2653
+    },
+    {
+      "source": "origin-wire",
+      "ok": true,
+      "ms": 3150
     },
     {
       "source": "ico-report",
       "ok": false,
-      "ms": 3611,
+      "ms": 4766,
       "error": "HTTP 404 for https://www.ico.org/documents/cy2025-26/cmr-1026-e.pdf"
     }
   ]

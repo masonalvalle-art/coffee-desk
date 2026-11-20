@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T15:01:25.570Z",
+  "generatedAt": "2026-11-20T00:50:31.303Z",
   "schema": 5,
   "schedule": {
     "slotsUtc": [
@@ -26,8 +26,8 @@
       "frontMonth": {
         "code": "KCZ26",
         "label": "Dec 2026",
-        "close": 283.35,
-        "volume": 430
+        "close": 282.3,
+        "volume": 460
       },
       "rolled": true,
       "mostActive": "KCH27",
@@ -35,56 +35,56 @@
         {
           "code": "KCZ26",
           "label": "Dec 2026",
-          "close": 283.35,
-          "volume": 430
+          "close": 282.3,
+          "volume": 460
         },
         {
           "code": "KCH27",
           "label": "Mar 2027",
-          "close": 278.35,
-          "volume": 11028
+          "close": 275.5,
+          "volume": 21895
         },
         {
           "code": "KCK27",
           "label": "May 2027",
-          "close": 270.5,
-          "volume": 4517
+          "close": 267.75,
+          "volume": 9088
         },
         {
           "code": "KCN27",
           "label": "Jul 2027",
-          "close": 264.65,
-          "volume": 1995
+          "close": 261.45,
+          "volume": 4354
         },
         {
           "code": "KCU27",
           "label": "Sep 2027",
-          "close": 259.7,
-          "volume": 831
+          "close": 256.55,
+          "volume": 2016
         },
         {
           "code": "KCZ27",
           "label": "Dec 2027",
-          "close": 254.1,
-          "volume": 314
+          "close": 251.55,
+          "volume": 896
         },
         {
           "code": "KCH28",
           "label": "Mar 2028",
-          "close": 249.6,
-          "volume": 90
+          "close": 246.7,
+          "volume": 324
         }
       ],
       "quote": {
-        "last": 277.25,
+        "last": 275.5,
         "open": 273.04998779296875,
-        "high": 280.8999938964844,
+        "high": 283,
         "low": 270.29998779296875,
         "previousClose": 275.45001220703125,
-        "change": 1.8,
-        "changePct": 0.653,
-        "volume": 10455,
-        "asOf": "2026-11-19T14:41:05.000Z"
+        "change": 0.05,
+        "changePct": 0.018,
+        "volume": 0,
+        "asOf": "2026-11-19T18:29:59.000Z"
       },
       "bars": [
         {
@@ -2642,17 +2642,17 @@
         {
           "date": "2026-11-19",
           "open": 273.04998779296875,
-          "high": 280.8999938964844,
+          "high": 283,
           "low": 270.29998779296875,
-          "close": 277.25,
-          "volume": 10455
+          "close": 275.5,
+          "volume": 0
         }
       ],
       "crossCheck": {
-        "tradingView": 278.35,
-        "yahoo": 277.25,
-        "diff": 1.1,
-        "diffPct": 0.397,
+        "tradingView": 275.5,
+        "yahoo": 275.5,
+        "diff": 0,
+        "diffPct": 0,
         "agree": true
       },
       "sources": [
@@ -2669,16 +2669,16 @@
       ],
       "technicals": {
         "observations": 504,
-        "sma20": 275.56249847412107,
-        "sma50": 279.3839996337891,
-        "sma200": 276.6272497558594,
-        "rsi14": 49.4483193176388,
+        "sma20": 275.4749984741211,
+        "sma50": 279.34899963378905,
+        "sma200": 276.6184997558594,
+        "rsi14": 47.74249849740025,
         "macd": {
-          "line": -2.374992444464624,
-          "signal": -3.2380183583597058,
-          "histogram": 0.8630259138950818
+          "line": -2.5145935840657785,
+          "signal": -3.265938586279937,
+          "histogram": 0.7513450022141583
         },
-        "atr14": 8.501458197676794,
+        "atr14": 8.651458633642195,
         "donchian20": {
           "high": 299.29998779296875,
           "low": 262.1499938964844,
@@ -2687,16 +2687,16 @@
         "levels": {
           "support": [
             {
-              "price": 276.45001220703125,
-              "date": "2026-10-12"
-            },
-            {
               "price": 270,
               "date": "2026-02-06"
             },
             {
               "price": 268.20001220703125,
               "date": "2025-04-07"
+            },
+            {
+              "price": 262.6000061035156,
+              "date": "2026-09-23"
             }
           ],
           "resistance": [
@@ -3234,9 +3234,9 @@
       }
     },
     "ptax": {
-      "buy": 5.8096,
-      "sell": 5.8102,
-      "quotedAt": "2026-11-18 13:08:44.271245"
+      "buy": 5.8883,
+      "sell": 5.8889,
+      "quotedAt": "2026-11-19 13:04:18.325373"
     },
     "sources": [
       {
@@ -3251,359 +3251,27 @@
       }
     ]
   },
-  "weather": {
-    "fetchedAt": "2026-11-19T15:01:21.280Z",
-    "thresholds": {
-      "frostC": 4,
-      "heavyRainMm": 50,
-      "dryMm": 5
-    },
-    "countryOrder": [
-      "Brazil",
-      "Vietnam",
-      "Colombia",
-      "Indonesia",
-      "Ethiopia",
-      "Honduras",
-      "Peru"
-    ],
-    "conditionMethod": "The condition icon reads the last three observed days: 30 mm of rain in total, 20 mm in any one day, or a heavy-rain code is very wet; 5 mm is wet; 60% mean cloud cover is cloudy; anything else is clear.",
-    "regions": [
-      {
-        "key": "sul-de-minas",
-        "name": "Sul de Minas",
-        "country": "Brazil",
-        "species": "Arabica",
-        "lat": -21.55,
-        "lon": -45.43,
-        "current": {
-          "date": "2026-11-18",
-          "tMax": 28.7,
-          "tMin": 18.8,
-          "rain": 9.9,
-          "code": 95,
-          "cloud": 91,
-          "observed": true
-        },
-        "condition": "very-wet",
-        "conditionLabel": "Very wet",
-        "rain14": 66.7,
-        "rainForecast7": 44,
-        "minForecast7": 18.3,
-        "alerts": []
-      },
-      {
-        "key": "cerrado",
-        "name": "Cerrado Mineiro",
-        "country": "Brazil",
-        "species": "Arabica",
-        "lat": -18.94,
-        "lon": -46.99,
-        "current": {
-          "date": "2026-11-18",
-          "tMax": 27.1,
-          "tMin": 17.7,
-          "rain": 10.5,
-          "code": 81,
-          "cloud": 92,
-          "observed": true
-        },
-        "condition": "very-wet",
-        "conditionLabel": "Very wet",
-        "rain14": 91.6,
-        "rainForecast7": 60.5,
-        "minForecast7": 18.2,
-        "alerts": [
-          {
-            "type": "wet",
-            "severity": "watch",
-            "text": "61 mm forecast over 7 days — harvest/drying disruption risk."
-          }
-        ]
-      },
-      {
-        "key": "espirito-santo",
-        "name": "Espírito Santo",
-        "country": "Brazil",
-        "species": "Robusta",
-        "lat": -19.39,
-        "lon": -40.07,
-        "current": {
-          "date": "2026-11-18",
-          "tMax": 32.5,
-          "tMin": 23.4,
-          "rain": 0.8,
-          "code": 51,
-          "cloud": 82,
-          "observed": true
-        },
-        "condition": "very-wet",
-        "conditionLabel": "Very wet",
-        "rain14": 96.1,
-        "rainForecast7": 84.2,
-        "minForecast7": 22.8,
-        "alerts": [
-          {
-            "type": "wet",
-            "severity": "watch",
-            "text": "84 mm forecast over 7 days — harvest/drying disruption risk."
-          }
-        ]
-      },
-      {
-        "key": "dak-lak",
-        "name": "Dak Lak",
-        "country": "Vietnam",
-        "species": "Robusta",
-        "lat": 12.68,
-        "lon": 108.05,
-        "current": {
-          "date": "2026-11-18",
-          "tMax": 29.8,
-          "tMin": 22.6,
-          "rain": 0,
-          "code": 3,
-          "cloud": 62,
-          "observed": true
-        },
-        "condition": "cloudy",
-        "conditionLabel": "Cloudy",
-        "rain14": 27.7,
-        "rainForecast7": 1,
-        "minForecast7": 22.1,
-        "alerts": []
-      },
-      {
-        "key": "lam-dong",
-        "name": "Lam Dong",
-        "country": "Vietnam",
-        "species": "Robusta",
-        "lat": 11.55,
-        "lon": 107.81,
-        "current": {
-          "date": "2026-11-18",
-          "tMax": 29.1,
-          "tMin": 17.5,
-          "rain": 0,
-          "code": 45,
-          "cloud": 28,
-          "observed": true
-        },
-        "condition": "cloudy",
-        "conditionLabel": "Cloudy",
-        "rain14": 24.1,
-        "rainForecast7": 15.8,
-        "minForecast7": 17.2,
-        "alerts": []
-      },
-      {
-        "key": "huila",
-        "name": "Huila",
-        "country": "Colombia",
-        "species": "Arabica",
-        "lat": 1.85,
-        "lon": -76.05,
-        "current": {
-          "date": "2026-11-18",
-          "tMax": 26.7,
-          "tMin": 18.8,
-          "rain": 5.5,
-          "code": 81,
-          "cloud": 92,
-          "observed": true
-        },
-        "condition": "wet",
-        "conditionLabel": "Wet",
-        "rain14": 61.7,
-        "rainForecast7": 33.5,
-        "minForecast7": 16.8,
-        "alerts": []
-      },
-      {
-        "key": "antioquia",
-        "name": "Antioquia",
-        "country": "Colombia",
-        "species": "Arabica",
-        "lat": 6.25,
-        "lon": -75.56,
-        "current": {
-          "date": "2026-11-18",
-          "tMax": 28.8,
-          "tMin": 17.4,
-          "rain": 2.9,
-          "code": 55,
-          "cloud": 84,
-          "observed": true
-        },
-        "condition": "wet",
-        "conditionLabel": "Wet",
-        "rain14": 44.1,
-        "rainForecast7": 46.7,
-        "minForecast7": 16.3,
-        "alerts": []
-      },
-      {
-        "key": "gayo",
-        "name": "Gayo Highlands",
-        "country": "Indonesia",
-        "species": "Arabica",
-        "lat": 4.63,
-        "lon": 96.85,
-        "current": {
-          "date": "2026-11-18",
-          "tMax": 23.6,
-          "tMin": 17.7,
-          "rain": 28.3,
-          "code": 81,
-          "cloud": 95,
-          "observed": true
-        },
-        "condition": "very-wet",
-        "conditionLabel": "Very wet",
-        "rain14": 236.7,
-        "rainForecast7": 78.3,
-        "minForecast7": 17.1,
-        "alerts": [
-          {
-            "type": "wet",
-            "severity": "watch",
-            "text": "78 mm forecast over 7 days — harvest/drying disruption risk."
-          }
-        ]
-      },
-      {
-        "key": "lampung",
-        "name": "Lampung",
-        "country": "Indonesia",
-        "species": "Robusta",
-        "lat": -5.45,
-        "lon": 105.27,
-        "current": {
-          "date": "2026-11-18",
-          "tMax": 30.7,
-          "tMin": 26.1,
-          "rain": 4.1,
-          "code": 55,
-          "cloud": 99,
-          "observed": true
-        },
-        "condition": "very-wet",
-        "conditionLabel": "Very wet",
-        "rain14": 50,
-        "rainForecast7": 62.3,
-        "minForecast7": 24.2,
-        "alerts": [
-          {
-            "type": "wet",
-            "severity": "watch",
-            "text": "62 mm forecast over 7 days — harvest/drying disruption risk."
-          }
-        ]
-      },
-      {
-        "key": "jimma",
-        "name": "Jimma",
-        "country": "Ethiopia",
-        "species": "Arabica",
-        "lat": 7.67,
-        "lon": 36.83,
-        "current": {
-          "date": "2026-11-18",
-          "tMax": 24.8,
-          "tMin": 13.9,
-          "rain": 0,
-          "code": 3,
-          "cloud": 67,
-          "observed": true
-        },
-        "condition": "cloudy",
-        "conditionLabel": "Cloudy",
-        "rain14": 101.2,
-        "rainForecast7": 11.1,
-        "minForecast7": 13.2,
-        "alerts": []
-      },
-      {
-        "key": "marcala",
-        "name": "Marcala",
-        "country": "Honduras",
-        "species": "Arabica",
-        "lat": 14.16,
-        "lon": -88.02,
-        "current": {
-          "date": "2026-11-18",
-          "tMax": 24.2,
-          "tMin": 17.1,
-          "rain": 2.5,
-          "code": 53,
-          "cloud": 70,
-          "observed": true
-        },
-        "condition": "cloudy",
-        "conditionLabel": "Cloudy",
-        "rain14": 37.5,
-        "rainForecast7": 8,
-        "minForecast7": 16.4,
-        "alerts": []
-      },
-      {
-        "key": "chanchamayo",
-        "name": "Chanchamayo",
-        "country": "Peru",
-        "species": "Arabica",
-        "lat": -11.05,
-        "lon": -75.33,
-        "current": {
-          "date": "2026-11-18",
-          "tMax": 30.1,
-          "tMin": 22,
-          "rain": 3,
-          "code": 55,
-          "cloud": 73,
-          "observed": true
-        },
-        "condition": "wet",
-        "conditionLabel": "Wet",
-        "rain14": 104.7,
-        "rainForecast7": 68,
-        "minForecast7": 20.7,
-        "alerts": [
-          {
-            "type": "wet",
-            "severity": "watch",
-            "text": "68 mm forecast over 7 days — harvest/drying disruption risk."
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "Open-Meteo forecast API",
-        "url": "https://open-meteo.com/",
-        "role": "observed + forecast temperature, precipitation and weather code"
-      }
-    ]
-  },
+  "weather": null,
   "news": {
     "originWire": {
-      "fetchedAt": "2026-11-19T15:01:23.941Z",
+      "fetchedAt": "2026-11-20T00:50:00.812Z",
       "lookbackHours": 504,
       "headlines": [
         {
-          "title": "Isolated Brazilian tribe emerges amid alarm over threats to group’s way of life",
-          "summary": "Indigenous Awá people of Amazon make contact with villagers and accept food to take back to territory About 20 Indigenous people emerged from isolation in Brazil’s Amazon rainforest, several organizations reported on Tuesday, raising the alarm about increased…",
-          "url": "https://www.theguardian.com/world/2026/nov/17/brazil-amazon-isolated-indigenous-people",
-          "publisher": "The Guardian",
+          "title": "Brazil’s central bank steps in to stem real’s slide since Lula’s re-election",
+          "summary": "Currency has slipped from R$5 to R$5.90 to the dollar following leftwinger’s victory last month",
+          "url": "https://www.ft.com/content/94379926-211c-4ca6-a53a-f7e4df1a2675?syn-25a6b1a6=1",
+          "publisher": "Financial Times",
           "region": "Brazil",
-          "published": "Tue, 17 Nov 2026 21:40:56 GMT"
+          "published": "Thu, 19 Nov 2026 19:25:18 GMT"
         },
         {
-          "title": "Vietnam's top leader To Lam meets US President Trump on APEC sidelines in Shenzhen",
-          "summary": "Party General Secretary and President To Lam called on the U.S. to support Vietnam in successfully hosting APEC 2027 when he met President Donald Trump on the sidelines of the APEC 2026 Economic Leaders' Week in Shenzhen, China, on Thursday.",
-          "url": "https://e.vnexpress.net/news/news/politics/vietnam-s-top-leader-to-lam-meets-us-president-trump-on-apec-sidelines-in-shenzhen-5146791.html",
+          "title": "Two internationally wanted men caught in Ho Chi Minh City during routine checks on foreigners",
+          "summary": "Two Chinese men wanted internationally by Chinese police have been arrested in Ho Chi Minh City after officers flagged them during routine checks on foreign residents.",
+          "url": "https://e.vnexpress.net/news/news/crime/two-internationally-wanted-men-caught-in-ho-chi-minh-city-during-routine-checks-on-foreigners-5146548.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Thu, 19 Nov 2026 20:32:31 +0700"
+          "published": "Fri, 20 Nov 2026 07:27:55 +0700"
         },
         {
           "title": "Indonesia apologizes to Malaysia, Singapore as wildfire haze sickens hundreds of thousands",
@@ -3614,52 +3282,20 @@
           "published": "Mon, 16 Nov 2026 11:42:49 +0700"
         },
         {
-          "title": "Venezuela signs military deal with US less than a year after Maduro's removal",
-          "summary": "The US Secretary of Defence says Venezuela has 'gone from our most aggressive regional threat to a compliant security partner'.",
-          "url": "https://www.bbc.co.uk/news/articles/cmwy8pyqlq5vo?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
-          "region": "South & Central America",
-          "published": "Thu, 19 Nov 2026 13:31:23 GMT"
-        },
-        {
-          "title": "Somalia expels UAE ambassador, accuses Abu Dhabi of violating sovereignty",
-          "summary": "Somalia says the UAE is interfering in its internal affairs with actions that amount to an 'open invasion'.",
-          "url": "https://www.aljazeera.com/news/2026/11/19/somalia-expels-uae-ambassador-accuses-abu-dhabi-of-violating-sovereignty?traffic_source=rss",
+          "title": "‘On the same page’: Hegseth hails US ties with Colombia’s de la Espriella",
+          "summary": "The US defence secretary praised security cooperation with Colombia as country joins Americas Counter Cartel Coalition.",
+          "url": "https://www.aljazeera.com/news/2026/11/19/on-the-same-page-hegseth-hails-us-ties-with-colombias-de-la-espriella?traffic_source=rss",
           "publisher": "Al Jazeera",
-          "region": "East Africa",
-          "published": "Thu, 19 Nov 2026 14:34:22 +0000"
+          "region": "Colombia",
+          "published": "Thu, 19 Nov 2026 19:53:24 +0000"
         },
         {
-          "title": "European-made pesticides named in 1,605 poisoning reports in Brazil last year",
-          "summary": "About a third of cases involved chemicals banned for use on EU farms, according to investigation by Unearthed and Public Eye Pesticides sold by European chemical companies were named in more than 1,600 poisoning reports in Brazil last year, an investigation…",
-          "url": "https://www.theguardian.com/environment/2026/nov/17/european-made-pesticides-named-1605-brazil-poisoning-reports",
-          "publisher": "The Guardian",
-          "region": "Brazil",
-          "published": "Tue, 17 Nov 2026 06:00:05 GMT"
-        },
-        {
-          "title": "Four unfinished projects could put Christmas opening of Vietnam's largest airport Long Thanh at risk",
-          "summary": "With just over a month to go before its planned commercial opening on Dec. 24, Long Thanh International Airport still has large volumes of work to finish, from its passenger terminal and internal roads to acceptance checks and licensing.",
-          "url": "https://e.vnexpress.net/news/news/traffic/four-unfinished-projects-could-put-christmas-opening-of-vietnam-s-largest-airport-long-thanh-at-risk-5146761.html",
-          "publisher": "VnExpress International",
-          "region": "Vietnam",
-          "published": "Thu, 19 Nov 2026 19:00:00 +0700"
-        },
-        {
-          "title": "LNG plant backed by Indonesian billionaire Sukanto Tanoto receives $140M grant from Canada",
-          "summary": "Canada has announced a C$200 million (US$140 million) grant for Woodfibre LNG, a liquefied natural gas project on the country's west coast backed by Indonesian billionaire Sukanto Tanoto.",
-          "url": "https://e.vnexpress.net/news/business/companies/lng-plant-backed-by-indonesian-billionaire-sukanto-tanoto-receives-140m-grant-from-canada-5145167.html",
-          "publisher": "VnExpress International",
-          "region": "Indonesia",
-          "published": "Mon, 16 Nov 2026 11:16:22 +0700"
-        },
-        {
-          "title": "Argentina mourns teen footballer Nunez who died after on-pitch collision",
-          "summary": "Abel Nunez, 16, died after suffering a severe blow to the head during a youth football match for his club, Ezeiza.",
-          "url": "https://www.aljazeera.com/sports/2026/11/19/argentina-mourns-teen-footballer-nunez-who-died-after-on-pitch-collision?traffic_source=rss",
+          "title": "US appeals court lets Trump end TPS deportation protections for Venezuelans",
+          "summary": "The appeals court's ruling prevents a lower-court decision from taking effect, which would block Trump from lifting TPS.",
+          "url": "https://www.aljazeera.com/news/2026/11/19/us-appeals-court-lets-trump-end-tps-deportation-protections-for-venezuelans?traffic_source=rss",
           "publisher": "Al Jazeera",
           "region": "South & Central America",
-          "published": "Thu, 19 Nov 2026 11:57:34 +0000"
+          "published": "Thu, 19 Nov 2026 21:11:45 +0000"
         },
         {
           "title": "Kenya awards prized rare earth deposit to US group",
@@ -3670,20 +3306,60 @@
           "published": "Thu, 19 Nov 2026 13:53:19 GMT"
         },
         {
-          "title": "Two skulls likely belonging to enslaved people returned to Brazil after Harvard used them in eugenics studies",
-          "summary": "Remains believed to have belonged to Africans or Afro-Brazilians repatriated after being flown back by diplomats Two skulls, including that of a man believed to have taken part in Brazil’s greatest revolt of enslaved people but whose remains were taken to the…",
-          "url": "https://www.theguardian.com/news/2026/nov/11/harvard-skulls-repatriated-brazil",
+          "title": "Isolated Brazilian tribe emerges amid alarm over threats to group’s way of life",
+          "summary": "Indigenous Awá people of Amazon make contact with villagers and accept food to take back to territory About 20 Indigenous people emerged from isolation in Brazil’s Amazon rainforest, several organizations reported on Tuesday, raising the alarm about increased…",
+          "url": "https://www.theguardian.com/world/2026/nov/17/brazil-amazon-isolated-indigenous-people",
           "publisher": "The Guardian",
           "region": "Brazil",
-          "published": "Wed, 11 Nov 2026 22:50:37 GMT"
+          "published": "Tue, 17 Nov 2026 21:40:56 GMT"
         },
         {
-          "title": "Stavian Group recognized for workforce development and profitability in 2026",
-          "summary": "Stavian Group has earned recognition for its workplace environment, employee development and business performance, including a place in Vietnam's 100 Best Places to Work ranking and accreditation from the Association of Chartered Certified Accountants (ACCA).",
-          "url": "https://e.vnexpress.net/news/business/stavian-group-recognized-for-workforce-development-and-profitability-in-2026-5146701.html",
+          "title": "Solar power, clean water reach remote school in central Vietnam",
+          "summary": "Twenty-two students at the A Ky school site in Thuong Trach Commune now have access to electricity and clean water after years of studying without either.",
+          "url": "https://e.vnexpress.net/photo/news/solar-power-clean-water-reach-remote-school-in-central-vietnam-5146628.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Thu, 19 Nov 2026 17:00:00 +0700"
+          "published": "Fri, 20 Nov 2026 07:21:50 +0700"
+        },
+        {
+          "title": "LNG plant backed by Indonesian billionaire Sukanto Tanoto receives $140M grant from Canada",
+          "summary": "Canada has announced a C$200 million (US$140 million) grant for Woodfibre LNG, a liquefied natural gas project on the country's west coast backed by Indonesian billionaire Sukanto Tanoto.",
+          "url": "https://e.vnexpress.net/news/business/companies/lng-plant-backed-by-indonesian-billionaire-sukanto-tanoto-receives-140m-grant-from-canada-5145167.html",
+          "publisher": "VnExpress International",
+          "region": "Indonesia",
+          "published": "Mon, 16 Nov 2026 11:16:22 +0700"
+        },
+        {
+          "title": "Why are Bukele’s Salvadoran troops in Haiti and what have they achieved?",
+          "summary": "With crowds rallying behind El Salvador's deployment in Haiti, analysts question whether civilians are any safer.",
+          "url": "https://www.aljazeera.com/news/2026/11/19/why-are-bukeles-salvadoran-troops-in-haiti-and-what-have-they-achieved?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "region": "South & Central America",
+          "published": "Thu, 19 Nov 2026 20:54:08 +0000"
+        },
+        {
+          "title": "US consortium wins huge Kenya mining deal, beating Chinese rivals",
+          "summary": "The Mrima Hill site is estimated to hold deposits of critical minerals worth more than $60bn (£45bn).",
+          "url": "https://www.bbc.co.uk/news/articles/cm9q84gp0gr3o?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
+          "region": "East Africa",
+          "published": "Thu, 19 Nov 2026 12:56:30 GMT"
+        },
+        {
+          "title": "European-made pesticides named in 1,605 poisoning reports in Brazil last year",
+          "summary": "About a third of cases involved chemicals banned for use on EU farms, according to investigation by Unearthed and Public Eye Pesticides sold by European chemical companies were named in more than 1,600 poisoning reports in Brazil last year, an investigation…",
+          "url": "https://www.theguardian.com/environment/2026/nov/17/european-made-pesticides-named-1605-brazil-poisoning-reports",
+          "publisher": "The Guardian",
+          "region": "Brazil",
+          "published": "Tue, 17 Nov 2026 06:00:05 GMT"
+        },
+        {
+          "title": "HCMC's Dong Khoi one of two Southeast Asian retail streets among world's 20 most expensive",
+          "summary": "Downtown Ho Chi Minh City's Dong Khoi Street has been ranked the 17th most expensive retail street in the world, with only one other Southeast Asian street in the top 20.",
+          "url": "https://e.vnexpress.net/news/business/property/hcmc-s-dong-khoi-one-of-two-southeast-asian-retail-streets-among-world-s-20-most-expensive-5146143.html",
+          "publisher": "VnExpress International",
+          "region": "Vietnam",
+          "published": "Fri, 20 Nov 2026 06:10:51 +0700"
         },
         {
           "title": "‘It’s an architect’s dream’: five beautiful eco buildings around the world",
@@ -3692,24 +3368,16 @@
           "publisher": "The Guardian",
           "region": "Indonesia",
           "published": "Sat, 14 Nov 2026 13:00:46 GMT"
-        },
-        {
-          "title": "Mexican president is internet star in China for 21-hour economy flight",
-          "summary": "Mexican President Claudia Sheinbaum has become a social media star in China after flying in economy class for 21 hours to attend the 2026 Asia-Pacific Economic Cooperation summit in Shenzhen.",
-          "url": "https://e.vnexpress.net/news/news/mexican-president-is-internet-star-in-china-for-21-hour-economy-flight-5146578.html",
-          "publisher": "VnExpress International",
-          "region": "South & Central America",
-          "published": "Thu, 19 Nov 2026 13:47:28 +0700"
         }
       ],
-      "totalTagged": 106,
+      "totalTagged": 108,
       "feedsQueried": 14,
       "errors": [],
       "note": "General headlines from the growing regions, taken from outlets of record and tagged to a region by the countries and cities they name."
     },
     "roundup": {
       "source": "assembled",
-      "fetchedAt": "2026-11-19T15:01:23.021Z",
+      "fetchedAt": "2026-11-20T00:50:00.407Z",
       "windowDays": 7,
       "publishers": [
         "Daily Coffee News",
@@ -3718,6 +3386,33 @@
         "World Coffee Portal"
       ],
       "items": [
+        {
+          "headline": "Christmas comes early for Starbucks as holiday launch delivers record US sales",
+          "summary": "Peppermint Mochas, Sugar Cookie Lattes and Tiramisu Velvet Cold Brews have rung in the festive season for Starbucks, which has recorded the most successful Red Cup Day launch in its history",
+          "url": "https://www.worldcoffeeportal.com/news/christmas-comes-early-for-starbucks-as-holiday-launch-delivers-record-us-sales/",
+          "publisher": "World Coffee Portal",
+          "published": "Thu, 19 Nov 2026 18:41:33 GMT",
+          "date": "Thu, 19 Nov",
+          "section": "Roasting & retail"
+        },
+        {
+          "headline": "KCOFFEE can propel Yum China to bold new growth target",
+          "summary": "With Luckin Coffee’s like-for-like sales faltering and Cotti Coffee and Lucky Cup experiencing growing pains, there is an opportunity emerging for KCOFFEE to quickly gain share in the booming Chinese branded coffee shop market",
+          "url": "https://www.worldcoffeeportal.com/news/kcoffee-can-propel-yum-china-to-bold-new-growth-target/",
+          "publisher": "World Coffee Portal",
+          "published": "Thu, 19 Nov 2026 17:51:58 GMT",
+          "date": "Thu, 19 Nov",
+          "section": "Trade & production"
+        },
+        {
+          "headline": "Brazil’s Record Coffee Harvest Comes with Quality and Stock Concerns",
+          "summary": "Brazil’s completed 2026/27 coffee harvest is now estimated at a record-high 72.5 million 60-kilogram bags, up 15.1% from the previous market year, although heavy rains reduced arabica quality, according to...",
+          "url": "https://dailycoffeenews.com/2026/11/19/brazils-record-coffee-harvest-comes-with-quality-and-stock-concerns/",
+          "publisher": "Daily Coffee News",
+          "published": "Thu, 19 Nov 2026 15:10:49 +0000",
+          "date": "Thu, 19 Nov",
+          "section": "Top stories of the week"
+        },
         {
           "headline": "Three Questions with “The Little Bean That Grew to Brew” Author and Artist Wendra Lynne",
           "summary": "Author and illustrator Wendra Lynne has released her second picture book, “The Little Bean That Grew to Brew,” following a successful Kickstarter campaign for the independently published project. The story...",
@@ -3743,7 +3438,7 @@
           "publisher": "World Coffee Portal",
           "published": "Thu, 19 Nov 2026 11:16:40 GMT",
           "date": "Thu, 19 Nov",
-          "section": "Top stories of the week"
+          "section": "Trade & production"
         },
         {
           "headline": "FDA Revokes Some Methylene Chloride Use, But Decaf Decision Still Pending",
@@ -3798,15 +3493,6 @@
           "published": "Tue, 17 Nov 2026 16:35:31 GMT",
           "date": "Tue, 17 Nov",
           "section": "Top stories of the week"
-        },
-        {
-          "headline": "Bad Ass Coffee of Hawaii CEO steps down",
-          "summary": "Former management consultant draws the curtains on a near decade-long association with the US coffee, the last seven of which he has served as CEO",
-          "url": "https://www.worldcoffeeportal.com/news/bad-ass-coffee-of-hawaii-ceo-steps-down/",
-          "publisher": "World Coffee Portal",
-          "published": "Tue, 17 Nov 2026 16:00:13 GMT",
-          "date": "Tue, 17 Nov",
-          "section": "Roasting & retail"
         },
         {
           "headline": "Design Details: A Pavilion Renewed at Hygge Cafe in Jakarta, Indonesia",
@@ -3872,13 +3558,13 @@
       "note": "Assembled from the coffee trade press over the past seven days, ranked by relevance to the physical trade. Headlines and links are each publisher’s own."
     },
     "dailyRead": {
-      "fetchedAt": "2026-11-19T15:01:21.415Z",
+      "fetchedAt": "2026-11-20T00:49:58.414Z",
       "article": {
-        "title": "Roasting Partner Launches an Operating System for Roasters",
-        "summary": "A new software platform called Roasting Partner opened to outside coffee roasting businesses in October, offering tools designed to organize production, inventory, sales, cafe operations and other day-to-day roastery data...",
-        "url": "https://dailycoffeenews.com/2026/11/18/roasting-partner-launches-an-operating-system-for-roasters/",
+        "title": "Brazil’s Record Coffee Harvest Comes with Quality and Stock Concerns",
+        "summary": "Brazil’s completed 2026/27 coffee harvest is now estimated at a record-high 72.5 million 60-kilogram bags, up 15.1% from the previous market year, although heavy rains reduced arabica quality, according to...",
+        "url": "https://dailycoffeenews.com/2026/11/19/brazils-record-coffee-harvest-comes-with-quality-and-stock-concerns/",
         "publisher": "Daily Coffee News",
-        "published": "Wed, 18 Nov 2026 12:08:31 +0000"
+        "published": "Thu, 19 Nov 2026 15:10:49 +0000"
       },
       "considered": 10
     }
@@ -4198,40 +3884,41 @@
   },
   "status": [
     {
-      "source": "weather",
-      "ok": true,
-      "ms": 490
-    },
-    {
       "source": "daily-read",
       "ok": true,
-      "ms": 616
+      "ms": 378
     },
     {
       "source": "arabica-futures",
       "ok": true,
-      "ms": 835
+      "ms": 798
     },
     {
       "source": "weekly-recap",
       "ok": true,
-      "ms": 2226
+      "ms": 2374
     },
     {
       "source": "fx",
       "ok": true,
-      "ms": 2653
+      "ms": 2642
     },
     {
       "source": "origin-wire",
       "ok": true,
-      "ms": 3150
+      "ms": 2783
     },
     {
       "source": "ico-report",
       "ok": false,
-      "ms": 4766,
+      "ms": 4064,
       "error": "HTTP 404 for https://www.ico.org/documents/cy2025-26/cmr-1026-e.pdf"
+    },
+    {
+      "source": "weather",
+      "ok": false,
+      "ms": 33272,
+      "error": "fetch failed"
     }
   ]
 }

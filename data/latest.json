@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T14:43:53.570Z",
+  "generatedAt": "2026-11-21T00:08:02.237Z",
   "schema": 5,
   "schedule": {
     "slotsUtc": [
@@ -26,8 +26,8 @@
       "frontMonth": {
         "code": "KCZ26",
         "label": "Dec 2026",
-        "close": 277.1,
-        "volume": 14
+        "close": 273.35,
+        "volume": 44
       },
       "rolled": true,
       "mostActive": "KCH27",
@@ -35,56 +35,56 @@
         {
           "code": "KCZ26",
           "label": "Dec 2026",
-          "close": 277.1,
-          "volume": 14
+          "close": 273.35,
+          "volume": 44
         },
         {
           "code": "KCH27",
           "label": "Mar 2027",
-          "close": 270.35,
-          "volume": 6953
+          "close": 268.7,
+          "volume": 15512
         },
         {
           "code": "KCK27",
           "label": "May 2027",
-          "close": 263.6,
-          "volume": 3664
+          "close": 262.6,
+          "volume": 7844
         },
         {
           "code": "KCN27",
           "label": "Jul 2027",
-          "close": 258,
-          "volume": 1400
+          "close": 257.5,
+          "volume": 3824
         },
         {
           "code": "KCU27",
           "label": "Sep 2027",
-          "close": 253.9,
-          "volume": 571
+          "close": 253.8,
+          "volume": 1233
         },
         {
           "code": "KCZ27",
           "label": "Dec 2027",
-          "close": 249.3,
-          "volume": 346
+          "close": 249.75,
+          "volume": 725
         },
         {
           "code": "KCH28",
           "label": "Mar 2028",
-          "close": 245.25,
-          "volume": 80
+          "close": 245.85,
+          "volume": 188
         }
       ],
       "quote": {
-        "last": 271.45,
+        "last": 268.7,
         "open": 273.8999938964844,
-        "high": 273.95001220703125,
-        "low": 268.8500061035156,
+        "high": 275.8999938964844,
+        "low": 268,
         "previousClose": 276,
-        "change": -4.55,
-        "changePct": -1.649,
-        "volume": 6674,
-        "asOf": "2026-11-20T14:23:35.000Z"
+        "change": -7.3,
+        "changePct": -2.645,
+        "volume": 15512,
+        "asOf": "2026-11-20T18:29:59.000Z"
       },
       "bars": [
         {
@@ -2642,17 +2642,17 @@
         {
           "date": "2026-11-20",
           "open": 273.8999938964844,
-          "high": 273.95001220703125,
-          "low": 268.8500061035156,
-          "close": 271.45001220703125,
-          "volume": 6674
+          "high": 275.8999938964844,
+          "low": 268,
+          "close": 268.70001220703125,
+          "volume": 15512
         }
       ],
       "crossCheck": {
-        "tradingView": 270.35,
-        "yahoo": 271.45,
-        "diff": -1.1,
-        "diffPct": -0.405,
+        "tradingView": 268.7,
+        "yahoo": 268.7,
+        "diff": 0,
+        "diffPct": 0,
         "agree": true
       },
       "sources": [
@@ -2669,16 +2669,16 @@
       ],
       "technicals": {
         "observations": 504,
-        "sma20": 274.4024993896484,
-        "sma50": 279.2439996337891,
-        "sma200": 276.58524978637695,
-        "rsi14": 44.1133408931442,
+        "sma20": 274.26499938964844,
+        "sma50": 279.1889996337891,
+        "sma200": 276.57149978637693,
+        "rsi14": 41.94399440079113,
         "macd": {
-          "line": -2.5797033325984557,
-          "signal": -3.1223097691618764,
-          "histogram": 0.5426064365634207
+          "line": -2.799076551971723,
+          "signal": -3.1661844130365298,
+          "histogram": 0.36710786106480686
         },
-        "atr14": 8.567425842955938,
+        "atr14": 8.628140564635626,
         "donchian20": {
           "high": 289.6499938964844,
           "low": 262.1499938964844,
@@ -2687,16 +2687,16 @@
         "levels": {
           "support": [
             {
-              "price": 270,
-              "date": "2026-02-06"
-            },
-            {
               "price": 268.20001220703125,
               "date": "2025-04-07"
             },
             {
               "price": 262.6000061035156,
               "date": "2026-09-23"
+            },
+            {
+              "price": 262.1499938964844,
+              "date": "2026-11-11"
             }
           ],
           "resistance": [
@@ -2726,22 +2726,18 @@
     }
   },
   "fx": {
-    "asOf": "2026-11-19",
+    "asOf": "2026-11-20",
     "pairs": {
       "GBPUSD": {
         "pair": "GBP/USD",
-        "rate": 1.3151,
-        "previous": 1.3168,
+        "rate": 1.3125,
+        "previous": 1.3151,
         "dp": 4,
         "note": "Sterling stronger means a dollar-priced contract costs a UK buyer less.",
-        "change": -0.0017,
-        "changePct": -0.129,
-        "change1m": -1.87,
+        "change": -0.0026,
+        "changePct": -0.198,
+        "change1m": -1.88,
         "history": [
-          {
-            "date": "2026-08-28",
-            "rate": 1.3583
-          },
           {
             "date": "2026-08-31",
             "rate": 1.3539
@@ -2977,23 +2973,23 @@
           {
             "date": "2026-11-19",
             "rate": 1.3151
+          },
+          {
+            "date": "2026-11-20",
+            "rate": 1.3125
           }
         ]
       },
       "USDBRL": {
         "pair": "USD/BRL",
-        "rate": 5.892,
-        "previous": 5.8186,
+        "rate": 5.938,
+        "previous": 5.892,
         "dp": 4,
         "note": "A weaker real encourages Brazilian producer selling.",
-        "change": 0.0734,
-        "changePct": 1.261,
-        "change1m": 17.29,
+        "change": 0.046,
+        "changePct": 0.781,
+        "change1m": 17.61,
         "history": [
-          {
-            "date": "2026-08-28",
-            "rate": 5.1641
-          },
           {
             "date": "2026-08-31",
             "rate": 5.1718
@@ -3229,6 +3225,10 @@
           {
             "date": "2026-11-19",
             "rate": 5.892
+          },
+          {
+            "date": "2026-11-20",
+            "rate": 5.938
           }
         ]
       }
@@ -3251,348 +3251,10 @@
       }
     ]
   },
-  "weather": {
-    "fetchedAt": "2026-11-20T14:43:50.813Z",
-    "thresholds": {
-      "frostC": 4,
-      "heavyRainMm": 50,
-      "dryMm": 5
-    },
-    "countryOrder": [
-      "Brazil",
-      "Vietnam",
-      "Colombia",
-      "Indonesia",
-      "Ethiopia",
-      "Honduras",
-      "Peru"
-    ],
-    "conditionMethod": "The condition icon reads the last three observed days: 30 mm of rain in total, 20 mm in any one day, or a heavy-rain code is very wet; 5 mm is wet; 60% mean cloud cover is cloudy; anything else is clear.",
-    "regions": [
-      {
-        "key": "sul-de-minas",
-        "name": "Sul de Minas",
-        "country": "Brazil",
-        "species": "Arabica",
-        "lat": -21.55,
-        "lon": -45.43,
-        "current": {
-          "date": "2026-11-19",
-          "tMax": 28.3,
-          "tMin": 19.4,
-          "rain": 0.8,
-          "code": 51,
-          "cloud": 89,
-          "observed": true
-        },
-        "condition": "very-wet",
-        "conditionLabel": "Very wet",
-        "rain14": 63.9,
-        "rainForecast7": 73,
-        "minForecast7": 17,
-        "alerts": [
-          {
-            "type": "wet",
-            "severity": "watch",
-            "text": "73 mm forecast over 7 days — harvest/drying disruption risk."
-          }
-        ]
-      },
-      {
-        "key": "cerrado",
-        "name": "Cerrado Mineiro",
-        "country": "Brazil",
-        "species": "Arabica",
-        "lat": -18.94,
-        "lon": -46.99,
-        "current": {
-          "date": "2026-11-19",
-          "tMax": 27.1,
-          "tMin": 18.2,
-          "rain": 5.6,
-          "code": 95,
-          "cloud": 89,
-          "observed": true
-        },
-        "condition": "very-wet",
-        "conditionLabel": "Very wet",
-        "rain14": 93.4,
-        "rainForecast7": 73.5,
-        "minForecast7": 19,
-        "alerts": [
-          {
-            "type": "wet",
-            "severity": "watch",
-            "text": "74 mm forecast over 7 days — harvest/drying disruption risk."
-          }
-        ]
-      },
-      {
-        "key": "espirito-santo",
-        "name": "Espírito Santo",
-        "country": "Brazil",
-        "species": "Robusta",
-        "lat": -19.39,
-        "lon": -40.07,
-        "current": {
-          "date": "2026-11-19",
-          "tMax": 29.1,
-          "tMin": 24.1,
-          "rain": 25.5,
-          "code": 95,
-          "cloud": 99,
-          "observed": true
-        },
-        "condition": "very-wet",
-        "conditionLabel": "Very wet",
-        "rain14": 121.6,
-        "rainForecast7": 55.8,
-        "minForecast7": 21.7,
-        "alerts": [
-          {
-            "type": "wet",
-            "severity": "watch",
-            "text": "56 mm forecast over 7 days — harvest/drying disruption risk."
-          }
-        ]
-      },
-      {
-        "key": "dak-lak",
-        "name": "Dak Lak",
-        "country": "Vietnam",
-        "species": "Robusta",
-        "lat": 12.68,
-        "lon": 108.05,
-        "current": {
-          "date": "2026-11-19",
-          "tMax": 29.5,
-          "tMin": 22.6,
-          "rain": 0.1,
-          "code": 51,
-          "cloud": 74,
-          "observed": true
-        },
-        "condition": "cloudy",
-        "conditionLabel": "Cloudy",
-        "rain14": 27.5,
-        "rainForecast7": 1.9,
-        "minForecast7": 21.7,
-        "alerts": []
-      },
-      {
-        "key": "lam-dong",
-        "name": "Lam Dong",
-        "country": "Vietnam",
-        "species": "Robusta",
-        "lat": 11.55,
-        "lon": 107.81,
-        "current": {
-          "date": "2026-11-19",
-          "tMax": 28.4,
-          "tMin": 17.7,
-          "rain": 0,
-          "code": 45,
-          "cloud": 63,
-          "observed": true
-        },
-        "condition": "cloudy",
-        "conditionLabel": "Cloudy",
-        "rain14": 24.1,
-        "rainForecast7": 22.7,
-        "minForecast7": 17.1,
-        "alerts": []
-      },
-      {
-        "key": "huila",
-        "name": "Huila",
-        "country": "Colombia",
-        "species": "Arabica",
-        "lat": 1.85,
-        "lon": -76.05,
-        "current": {
-          "date": "2026-11-19",
-          "tMax": 28.7,
-          "tMin": 18.7,
-          "rain": 4.9,
-          "code": 80,
-          "cloud": 95,
-          "observed": true
-        },
-        "condition": "wet",
-        "conditionLabel": "Wet",
-        "rain14": 58.1,
-        "rainForecast7": 39.1,
-        "minForecast7": 16.7,
-        "alerts": []
-      },
-      {
-        "key": "antioquia",
-        "name": "Antioquia",
-        "country": "Colombia",
-        "species": "Arabica",
-        "lat": 6.25,
-        "lon": -75.56,
-        "current": {
-          "date": "2026-11-19",
-          "tMax": 26.4,
-          "tMin": 18.8,
-          "rain": 6.3,
-          "code": 80,
-          "cloud": 89,
-          "observed": true
-        },
-        "condition": "wet",
-        "conditionLabel": "Wet",
-        "rain14": 36.9,
-        "rainForecast7": 37.3,
-        "minForecast7": 16.5,
-        "alerts": []
-      },
-      {
-        "key": "gayo",
-        "name": "Gayo Highlands",
-        "country": "Indonesia",
-        "species": "Arabica",
-        "lat": 4.63,
-        "lon": 96.85,
-        "current": {
-          "date": "2026-11-19",
-          "tMax": 24.3,
-          "tMin": 17.2,
-          "rain": 13,
-          "code": 81,
-          "cloud": 97,
-          "observed": true
-        },
-        "condition": "very-wet",
-        "conditionLabel": "Very wet",
-        "rain14": 246.4,
-        "rainForecast7": 87.2,
-        "minForecast7": 16.9,
-        "alerts": [
-          {
-            "type": "wet",
-            "severity": "watch",
-            "text": "87 mm forecast over 7 days — harvest/drying disruption risk."
-          }
-        ]
-      },
-      {
-        "key": "lampung",
-        "name": "Lampung",
-        "country": "Indonesia",
-        "species": "Robusta",
-        "lat": -5.45,
-        "lon": 105.27,
-        "current": {
-          "date": "2026-11-19",
-          "tMax": 30.9,
-          "tMin": 26.2,
-          "rain": 14.1,
-          "code": 95,
-          "cloud": 97,
-          "observed": true
-        },
-        "condition": "very-wet",
-        "conditionLabel": "Very wet",
-        "rain14": 60.7,
-        "rainForecast7": 51.6,
-        "minForecast7": 24.3,
-        "alerts": [
-          {
-            "type": "wet",
-            "severity": "watch",
-            "text": "52 mm forecast over 7 days — harvest/drying disruption risk."
-          }
-        ]
-      },
-      {
-        "key": "jimma",
-        "name": "Jimma",
-        "country": "Ethiopia",
-        "species": "Arabica",
-        "lat": 7.67,
-        "lon": 36.83,
-        "current": {
-          "date": "2026-11-19",
-          "tMax": 24.6,
-          "tMin": 13.9,
-          "rain": 0.8,
-          "code": 51,
-          "cloud": 43,
-          "observed": true
-        },
-        "condition": "cloudy",
-        "conditionLabel": "Cloudy",
-        "rain14": 102,
-        "rainForecast7": 9.1,
-        "minForecast7": 13.1,
-        "alerts": []
-      },
-      {
-        "key": "marcala",
-        "name": "Marcala",
-        "country": "Honduras",
-        "species": "Arabica",
-        "lat": 14.16,
-        "lon": -88.02,
-        "current": {
-          "date": "2026-11-19",
-          "tMax": 25.3,
-          "tMin": 16.4,
-          "rain": 1.3,
-          "code": 51,
-          "cloud": 68,
-          "observed": true
-        },
-        "condition": "cloudy",
-        "conditionLabel": "Cloudy",
-        "rain14": 37.7,
-        "rainForecast7": 14.4,
-        "minForecast7": 16.3,
-        "alerts": []
-      },
-      {
-        "key": "chanchamayo",
-        "name": "Chanchamayo",
-        "country": "Peru",
-        "species": "Arabica",
-        "lat": -11.05,
-        "lon": -75.33,
-        "current": {
-          "date": "2026-11-19",
-          "tMax": 34.4,
-          "tMin": 22.1,
-          "rain": 5.2,
-          "code": 80,
-          "cloud": 68,
-          "observed": true
-        },
-        "condition": "wet",
-        "conditionLabel": "Wet",
-        "rain14": 103.5,
-        "rainForecast7": 87,
-        "minForecast7": 20.3,
-        "alerts": [
-          {
-            "type": "wet",
-            "severity": "watch",
-            "text": "87 mm forecast over 7 days — harvest/drying disruption risk."
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "Open-Meteo forecast API",
-        "url": "https://open-meteo.com/",
-        "role": "observed + forecast temperature, precipitation and weather code"
-      }
-    ]
-  },
+  "weather": null,
   "news": {
     "originWire": {
-      "fetchedAt": "2026-11-20T14:43:53.268Z",
+      "fetchedAt": "2026-11-21T00:07:30.869Z",
       "lookbackHours": 504,
       "headlines": [
         {
@@ -3620,20 +3282,20 @@
           "published": "Fri, 20 Nov 2026 01:48:08 GMT"
         },
         {
-          "title": "‘They’re struggling for oxygen’: children pay the price as countries allow measles to surge again",
-          "summary": "The US, Mexico and Bolivia this week joined the unenviable club of nations that have lost their measles-free status Deaths caused by measles are not peaceful. In his hospital in Uganda, Dr Eric Wobudeya treats young infants after the virus has attacked their…",
-          "url": "https://www.theguardian.com/global-development/2026/nov/20/children-measles-surges-us-mexico-bolivia",
-          "publisher": "The Guardian",
+          "title": "Two Salvadoran soldiers killed in Haiti while handling explosives",
+          "summary": "Two others were injured in the explosion, marking the first deaths among troops deployed to Haiti since late October.",
+          "url": "https://www.aljazeera.com/news/2026/11/20/two-salvadoran-soldiers-killed-in-haiti-while-handling-explosives?traffic_source=rss",
+          "publisher": "Al Jazeera",
           "region": "South & Central America",
-          "published": "Fri, 20 Nov 2026 13:38:57 GMT"
+          "published": "Fri, 20 Nov 2026 20:59:04 +0000"
         },
         {
-          "title": "Kenya’s growing doping crisis overshadows legacy as athletics powerhouse",
-          "summary": "More than 140 Kenyan athletes suspended by the Athletics Integrity Unit since 2017, most of them distance runners.",
-          "url": "https://www.aljazeera.com/sports/2026/11/20/kenyas-growing-doping-crisis-overshadows-legacy-as-athletics-powerhouse?traffic_source=rss",
-          "publisher": "Al Jazeera",
+          "title": "US consortium wins huge Kenya mining deal, beating Chinese rivals",
+          "summary": "The Mrima Hill site is estimated to hold deposits of critical minerals worth more than $60bn (£45bn).",
+          "url": "https://www.bbc.co.uk/news/articles/cm9q84gp0gr3o?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
           "region": "East Africa",
-          "published": "Fri, 20 Nov 2026 09:16:30 +0000"
+          "published": "Thu, 19 Nov 2026 12:56:30 GMT"
         },
         {
           "title": "European-made pesticides named in 1,605 poisoning reports in Brazil last year",
@@ -3660,20 +3322,20 @@
           "published": "Mon, 16 Nov 2026 11:42:49 +0700"
         },
         {
-          "title": "‘The hand of god’ and all that: Lineker, Shilton et al look back at 1986 England-Argentina clash – The Match review",
-          "summary": "Argentinian co-directors Juan Cabral and Santiago Franco work hard to appear impartial in account that situates the game in a long continuum of conflict Here is a football documentary that is a cut above the drain-clogging content that loiters in streaming…",
-          "url": "https://www.theguardian.com/film/2026/nov/20/the-match-review-conciliatory-look-back-at-englands-hand-of-god-clash-with-argentina",
+          "title": "‘They’re struggling for oxygen’: children pay the price as countries allow measles to surge again",
+          "summary": "The US, Mexico and Bolivia this week joined the unenviable club of nations that have lost their measles-free status Deaths caused by measles are not peaceful. In his hospital in Uganda, Dr Eric Wobudeya treats young infants after the virus has attacked their…",
+          "url": "https://www.theguardian.com/global-development/2026/nov/20/children-measles-surges-us-mexico-bolivia",
           "publisher": "The Guardian",
           "region": "South & Central America",
-          "published": "Fri, 20 Nov 2026 11:00:29 GMT"
+          "published": "Fri, 20 Nov 2026 13:38:57 GMT"
         },
         {
-          "title": "US consortium wins huge Kenya mining deal, beating Chinese rivals",
-          "summary": "The Mrima Hill site is estimated to hold deposits of critical minerals worth more than $60bn (£45bn).",
-          "url": "https://www.bbc.co.uk/news/articles/cm9q84gp0gr3o?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
+          "title": "Mentors, colleagues and friends: tributes paid to the ‘Eritrea 16’ who disappeared 25 years ago",
+          "summary": "Families of journalists who vanished into state prisons on ‘Black Tuesday’ in 2001 do not know whether they are even still alive When Fisseha Yirgalem stepped on to the podium and began reading from a letter written to a man who may never hear it, the room…",
+          "url": "https://www.theguardian.com/global-development/2026/nov/19/eritrea-16-journalists-jailed-press-freedom-award-cpj-censorship-warning",
+          "publisher": "The Guardian",
           "region": "East Africa",
-          "published": "Thu, 19 Nov 2026 12:56:30 GMT"
+          "published": "Thu, 19 Nov 2026 10:00:24 GMT"
         },
         {
           "title": "Two skulls likely belonging to enslaved people returned to Brazil after Harvard used them in eugenics studies",
@@ -3700,22 +3362,22 @@
           "published": "Mon, 16 Nov 2026 11:16:22 +0700"
         },
         {
-          "title": "Race to be next UN secretary general exposes divisions among world powers",
-          "summary": "Debate about dominance of permanent five members could reignite if major powers block Costa Rican frontrunner The race to become the next UN secretary general could reach a decisive moment on Friday when a UN security council vote is likely to reveal whether…",
-          "url": "https://www.theguardian.com/world/2026/nov/20/race-to-be-next-un-secretary-general-exposes-divisions-among-world-powers",
+          "title": "‘The hand of god’ and all that: Lineker, Shilton et al look back at 1986 England-Argentina clash – The Match review",
+          "summary": "Argentinian co-directors Juan Cabral and Santiago Franco work hard to appear impartial in account that situates the game in a long continuum of conflict Here is a football documentary that is a cut above the drain-clogging content that loiters in streaming…",
+          "url": "https://www.theguardian.com/film/2026/nov/20/the-match-review-conciliatory-look-back-at-englands-hand-of-god-clash-with-argentina",
           "publisher": "The Guardian",
           "region": "South & Central America",
-          "published": "Fri, 20 Nov 2026 05:00:24 GMT"
+          "published": "Fri, 20 Nov 2026 11:00:29 GMT"
         }
       ],
-      "totalTagged": 104,
+      "totalTagged": 101,
       "feedsQueried": 14,
       "errors": [],
       "note": "General headlines from the growing regions, taken from outlets of record and tagged to a region by the countries and cities they name."
     },
     "roundup": {
       "source": "assembled",
-      "fetchedAt": "2026-11-20T14:43:52.482Z",
+      "fetchedAt": "2026-11-21T00:07:30.544Z",
       "windowDays": 7,
       "publishers": [
         "Daily Coffee News",
@@ -3723,6 +3385,15 @@
         "World Coffee Portal"
       ],
       "items": [
+        {
+          "headline": "BRITA Professional: 60 years of crystal clear water solutions",
+          "summary": "Water makes up 98% of every cup of coffee, yet it remains one of the most overlooked elements for coffee businesses. As BRITA Professional marks six decades in water filtration, Business Account Manager, Emma Field, explains how proactive water management…",
+          "url": "https://www.worldcoffeeportal.com/feature/brita-professional-60-years-of-crystal-clear-water-solutions/",
+          "publisher": "World Coffee Portal",
+          "published": "Fri, 20 Nov 2026 16:09:25 GMT",
+          "date": "Fri, 20 Nov",
+          "section": "Roasting & retail"
+        },
         {
           "headline": "Weekly Coffee News: Rocket Showroom in Geneva + New Labor Abuse Case",
           "summary": "Rocket Introduces Modular Retail Concept With Chronic Coffee in Geneva Italian espresso machine maker Rocket Espresso has introduced a new retail concept inside Chronic Coffee Roasters at Rue Argand 2...",
@@ -3776,15 +3447,6 @@
           "published": "Thu, 19 Nov 2026 15:10:49 +0000",
           "date": "Thu, 19 Nov",
           "section": "Top stories of the week"
-        },
-        {
-          "headline": "Three Questions with “The Little Bean That Grew to Brew” Author and Artist Wendra Lynne",
-          "summary": "Author and illustrator Wendra Lynne has released her second picture book, “The Little Bean That Grew to Brew,” following a successful Kickstarter campaign for the independently published project. The story...",
-          "url": "https://dailycoffeenews.com/2026/11/19/three-questions-with-the-little-bean-that-grew-to-brew-author-and-artist-wendra-lynne/",
-          "publisher": "Daily Coffee News",
-          "published": "Thu, 19 Nov 2026 13:57:24 +0000",
-          "date": "Thu, 19 Nov",
-          "section": "Roasting & retail"
         },
         {
           "headline": "Arabica Market Falls to Its Lowest Since June",
@@ -3877,7 +3539,7 @@
       "note": "Assembled from the coffee trade press over the past seven days, ranked by relevance to the physical trade. Headlines and links are each publisher’s own."
     },
     "dailyRead": {
-      "fetchedAt": "2026-11-20T14:43:50.819Z",
+      "fetchedAt": "2026-11-21T00:07:29.308Z",
       "article": {
         "title": "Brazil’s Record Coffee Harvest Comes with Quality and Stock Concerns",
         "summary": "Brazil’s completed 2026/27 coffee harvest is now estimated at a record-high 72.5 million 60-kilogram bags, up 15.1% from the previous market year, although heavy rains reduced arabica quality, according to...",
@@ -4203,40 +3865,41 @@
   },
   "status": [
     {
-      "source": "weather",
-      "ok": true,
-      "ms": 342
-    },
-    {
       "source": "daily-read",
       "ok": true,
-      "ms": 339
+      "ms": 333
     },
     {
       "source": "arabica-futures",
       "ok": true,
-      "ms": 659
-    },
-    {
-      "source": "fx",
-      "ok": true,
-      "ms": 1267
+      "ms": 652
     },
     {
       "source": "weekly-recap",
       "ok": true,
-      "ms": 2005
+      "ms": 1572
     },
     {
       "source": "origin-wire",
       "ok": true,
-      "ms": 2795
+      "ms": 1901
+    },
+    {
+      "source": "fx",
+      "ok": true,
+      "ms": 2994
     },
     {
       "source": "ico-report",
       "ok": false,
-      "ms": 3086,
+      "ms": 4814,
       "error": "HTTP 404 for https://www.ico.org/documents/cy2025-26/cmr-1026-e.pdf"
+    },
+    {
+      "source": "weather",
+      "ok": false,
+      "ms": 33267,
+      "error": "fetch failed"
     }
   ]
 }

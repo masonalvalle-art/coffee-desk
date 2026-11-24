@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T17:03:11.564Z",
+  "generatedAt": "2026-11-24T04:02:05.422Z",
   "schema": 5,
   "schedule": {
     "slotsUtc": [
@@ -26,8 +26,8 @@
       "frontMonth": {
         "code": "KCZ26",
         "label": "Dec 2026",
-        "close": 273.75,
-        "volume": 30
+        "close": 274.35,
+        "volume": 32
       },
       "rolled": true,
       "mostActive": "KCH27",
@@ -35,56 +35,56 @@
         {
           "code": "KCZ26",
           "label": "Dec 2026",
-          "close": 273.75,
-          "volume": 30
+          "close": 274.35,
+          "volume": 32
         },
         {
           "code": "KCH27",
           "label": "Mar 2027",
-          "close": 267.45,
-          "volume": 11321
+          "close": 267.75,
+          "volume": 14004
         },
         {
           "code": "KCK27",
           "label": "May 2027",
-          "close": 261,
-          "volume": 4071
+          "close": 261.15,
+          "volume": 5382
         },
         {
           "code": "KCN27",
           "label": "Jul 2027",
-          "close": 255.85,
-          "volume": 2016
+          "close": 256.05,
+          "volume": 2745
         },
         {
           "code": "KCU27",
           "label": "Sep 2027",
-          "close": 252.2,
-          "volume": 936
+          "close": 252.15,
+          "volume": 1282
         },
         {
           "code": "KCZ27",
           "label": "Dec 2027",
-          "close": 247.45,
-          "volume": 221
+          "close": 247.65,
+          "volume": 372
         },
         {
           "code": "KCH28",
           "label": "Mar 2028",
-          "close": 243.35,
-          "volume": 68
+          "close": 243.75,
+          "volume": 100
         }
       ],
       "quote": {
-        "last": 266.1,
+        "last": 267.35,
         "open": 268.5,
         "high": 275.45001220703125,
         "low": 265.6499938964844,
         "previousClose": 268.5,
-        "change": -2.4,
-        "changePct": -0.894,
-        "volume": 11163,
-        "asOf": "2026-11-23T16:43:04.000Z"
+        "change": -1.15,
+        "changePct": -0.428,
+        "volume": 0,
+        "asOf": "2026-11-23T18:29:57.000Z"
       },
       "bars": [
         {
@@ -2637,22 +2637,22 @@
           "high": 275.8999938964844,
           "low": 268,
           "close": 268.5,
-          "volume": 21895
+          "volume": 15512
         },
         {
           "date": "2026-11-23",
           "open": 268.5,
           "high": 275.45001220703125,
           "low": 265.6499938964844,
-          "close": 266.1000061035156,
-          "volume": 11163
+          "close": 267.3500061035156,
+          "volume": 0
         }
       ],
       "crossCheck": {
-        "tradingView": 267.45,
-        "yahoo": 266.1,
-        "diff": 1.35,
-        "diffPct": 0.507,
+        "tradingView": 267.75,
+        "yahoo": 267.35,
+        "diff": 0.4,
+        "diffPct": 0.15,
         "agree": true
       },
       "sources": [
@@ -2669,14 +2669,14 @@
       ],
       "technicals": {
         "observations": 502,
-        "sma20": 273.2999984741211,
-        "sma50": 278.88099975585936,
-        "sma200": 276.5404997253418,
-        "rsi14": 39.95443299015731,
+        "sma20": 273.3624984741211,
+        "sma50": 278.9059997558594,
+        "sma200": 276.5467497253418,
+        "rsi14": 40.89211533412699,
         "macd": {
-          "line": -3.2410402341695317,
-          "signal": -3.1837084396206827,
-          "histogram": -0.05733179454884896
+          "line": -3.141325134454405,
+          "signal": -3.1637654196776572,
+          "histogram": 0.022440285223252143
         },
         "atr14": 8.711846117915,
         "donchian20": {
@@ -3252,7 +3252,7 @@
     ]
   },
   "weather": {
-    "fetchedAt": "2026-11-23T17:03:07.739Z",
+    "fetchedAt": "2026-11-24T04:02:01.163Z",
     "thresholds": {
       "frostC": 4,
       "heavyRainMm": 50,
@@ -3277,24 +3277,24 @@
         "lat": -21.55,
         "lon": -45.43,
         "current": {
-          "date": "2026-11-22",
-          "tMax": 29.8,
-          "tMin": 20.1,
-          "rain": 2.1,
-          "code": 51,
-          "cloud": 89,
+          "date": "2026-11-23",
+          "tMax": 29.5,
+          "tMin": 19.6,
+          "rain": 9.3,
+          "code": 81,
+          "cloud": 82,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 66.3,
-        "rainForecast7": 129,
-        "minForecast7": 16.9,
+        "rain14": 75.3,
+        "rainForecast7": 122.8,
+        "minForecast7": 17.3,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "129 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "123 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3306,19 +3306,19 @@
         "lat": -18.94,
         "lon": -46.99,
         "current": {
-          "date": "2026-11-22",
-          "tMax": 27.8,
-          "tMin": 18.6,
-          "rain": 9.3,
-          "code": 95,
-          "cloud": 94,
+          "date": "2026-11-23",
+          "tMax": 28,
+          "tMin": 20.2,
+          "rain": 4.5,
+          "code": 53,
+          "cloud": 88,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 88.6,
-        "rainForecast7": 100.8,
-        "minForecast7": 19.4,
+        "rain14": 70.1,
+        "rainForecast7": 101.1,
+        "minForecast7": 19.6,
         "alerts": [
           {
             "type": "wet",
@@ -3335,19 +3335,19 @@
         "lat": -19.39,
         "lon": -40.07,
         "current": {
-          "date": "2026-11-22",
-          "tMax": 34,
-          "tMin": 24.8,
-          "rain": 15.1,
+          "date": "2026-11-23",
+          "tMax": 33.4,
+          "tMin": 24.6,
+          "rain": 2,
           "code": 95,
-          "cloud": 86,
+          "cloud": 93,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 148.8,
-        "rainForecast7": 14.1,
-        "minForecast7": 22.9,
+        "rain14": 146.5,
+        "rainForecast7": 10,
+        "minForecast7": 23,
         "alerts": []
       },
       {
@@ -3358,19 +3358,19 @@
         "lat": 12.68,
         "lon": 108.05,
         "current": {
-          "date": "2026-11-22",
-          "tMax": 28.7,
-          "tMin": 22,
-          "rain": 0.1,
-          "code": 51,
-          "cloud": 64,
+          "date": "2026-11-23",
+          "tMax": 29.5,
+          "tMin": 21.4,
+          "rain": 0,
+          "code": 3,
+          "cloud": 68,
           "observed": true
         },
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
         "rain14": 25.8,
-        "rainForecast7": 49.4,
-        "minForecast7": 21.4,
+        "rainForecast7": 31.4,
+        "minForecast7": 22,
         "alerts": []
       },
       {
@@ -3381,24 +3381,24 @@
         "lat": 11.55,
         "lon": 107.81,
         "current": {
-          "date": "2026-11-22",
-          "tMax": 29.5,
-          "tMin": 18.6,
-          "rain": 1.1,
+          "date": "2026-11-23",
+          "tMax": 29.8,
+          "tMin": 18.8,
+          "rain": 0.8,
           "code": 53,
-          "cloud": 55,
+          "cloud": 61,
           "observed": true
         },
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
-        "rain14": 24.6,
-        "rainForecast7": 58.2,
-        "minForecast7": 17.1,
+        "rain14": 25.4,
+        "rainForecast7": 75.6,
+        "minForecast7": 17.6,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "58 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "76 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3410,18 +3410,18 @@
         "lat": 1.85,
         "lon": -76.05,
         "current": {
-          "date": "2026-11-22",
-          "tMax": 27.7,
-          "tMin": 18.5,
-          "rain": 1,
-          "code": 51,
-          "cloud": 89,
+          "date": "2026-11-23",
+          "tMax": 29.2,
+          "tMin": 17.2,
+          "rain": 6.4,
+          "code": 81,
+          "cloud": 55,
           "observed": true
         },
-        "condition": "cloudy",
-        "conditionLabel": "Cloudy",
-        "rain14": 42.1,
-        "rainForecast7": 27.4,
+        "condition": "wet",
+        "conditionLabel": "Wet",
+        "rain14": 48.5,
+        "rainForecast7": 31.5,
         "minForecast7": 17.2,
         "alerts": []
       },
@@ -3433,19 +3433,19 @@
         "lat": 6.25,
         "lon": -75.56,
         "current": {
-          "date": "2026-11-22",
-          "tMax": 27.5,
-          "tMin": 17.9,
-          "rain": 5.2,
-          "code": 80,
-          "cloud": 92,
+          "date": "2026-11-23",
+          "tMax": 28.7,
+          "tMin": 18.1,
+          "rain": 1,
+          "code": 51,
+          "cloud": 69,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 31.1,
-        "rainForecast7": 39.5,
-        "minForecast7": 16.9,
+        "rain14": 32.1,
+        "rainForecast7": 27.5,
+        "minForecast7": 17.6,
         "alerts": []
       },
       {
@@ -3456,24 +3456,24 @@
         "lat": 4.63,
         "lon": 96.85,
         "current": {
-          "date": "2026-11-22",
-          "tMax": 24.7,
-          "tMin": 17.6,
-          "rain": 10.9,
+          "date": "2026-11-23",
+          "tMax": 24.4,
+          "tMin": 17.9,
+          "rain": 12.9,
           "code": 81,
-          "cloud": 90,
+          "cloud": 96,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 199.5,
-        "rainForecast7": 131.1,
-        "minForecast7": 17.6,
+        "rain14": 212.4,
+        "rainForecast7": 135.9,
+        "minForecast7": 17,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "131 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "136 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3485,24 +3485,24 @@
         "lat": -5.45,
         "lon": 105.27,
         "current": {
-          "date": "2026-11-22",
-          "tMax": 32.7,
-          "tMin": 26,
-          "rain": 8.9,
-          "code": 95,
-          "cloud": 70,
+          "date": "2026-11-23",
+          "tMax": 32.4,
+          "tMin": 25.7,
+          "rain": 6,
+          "code": 55,
+          "cloud": 85,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 80.6,
-        "rainForecast7": 83.9,
-        "minForecast7": 24.4,
+        "rain14": 86.6,
+        "rainForecast7": 64.8,
+        "minForecast7": 23.7,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "84 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "65 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3514,19 +3514,19 @@
         "lat": 7.67,
         "lon": 36.83,
         "current": {
-          "date": "2026-11-22",
-          "tMax": 25.1,
-          "tMin": 13.6,
-          "rain": 0,
-          "code": 3,
-          "cloud": 30,
+          "date": "2026-11-23",
+          "tMax": 24.7,
+          "tMin": 13.5,
+          "rain": 0.1,
+          "code": 51,
+          "cloud": 56,
           "observed": true
         },
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
-        "rain14": 91.3,
-        "rainForecast7": 4.7,
-        "minForecast7": 13,
+        "rain14": 85.3,
+        "rainForecast7": 4.2,
+        "minForecast7": 13.5,
         "alerts": []
       },
       {
@@ -3537,19 +3537,19 @@
         "lat": 14.16,
         "lon": -88.02,
         "current": {
-          "date": "2026-11-22",
-          "tMax": 27.1,
-          "tMin": 17.5,
-          "rain": 0.1,
+          "date": "2026-11-23",
+          "tMax": 26.9,
+          "tMin": 18.1,
+          "rain": 1.1,
           "code": 51,
-          "cloud": 52,
+          "cloud": 58,
           "observed": true
         },
-        "condition": "cloudy",
-        "conditionLabel": "Cloudy",
-        "rain14": 20.4,
-        "rainForecast7": 21.4,
-        "minForecast7": 15.1,
+        "condition": "dry",
+        "conditionLabel": "Clear / dry",
+        "rain14": 21.5,
+        "rainForecast7": 21.8,
+        "minForecast7": 14.1,
         "alerts": []
       },
       {
@@ -3560,24 +3560,24 @@
         "lat": -11.05,
         "lon": -75.33,
         "current": {
-          "date": "2026-11-22",
-          "tMax": 32.2,
-          "tMin": 21.6,
-          "rain": 2.6,
-          "code": 55,
-          "cloud": 99,
+          "date": "2026-11-23",
+          "tMax": 32.6,
+          "tMin": 21.5,
+          "rain": 3.2,
+          "code": 51,
+          "cloud": 81,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 90.5,
-        "rainForecast7": 88.3,
-        "minForecast7": 20.3,
+        "rain14": 93.7,
+        "rainForecast7": 71.1,
+        "minForecast7": 20.4,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "88 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "71 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       }
@@ -3592,57 +3592,9 @@
   },
   "news": {
     "originWire": {
-      "fetchedAt": "2026-11-23T17:03:10.501Z",
+      "fetchedAt": "2026-11-24T04:02:03.890Z",
       "lookbackHours": 504,
       "headlines": [
-        {
-          "title": "Brazil coach mistaken for pitch invader, put in headlock",
-          "summary": "Footage shows Parana Clube coach Tcheco being grabbed by security guard after celebrating a goal with fans.",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/brazil-coach-mistaken-for-pitch-invader-put-in-headlock?traffic_source=rss",
-          "publisher": "Al Jazeera",
-          "region": "Brazil",
-          "published": "Mon, 23 Nov 2026 15:15:36 +0000"
-        },
-        {
-          "title": "Redrawing Ho Chi Minh City's megacity",
-          "summary": "Over the past five decades, four master plans adopted in 1993, 1998, 2010 and 2025 have fallen short of their goals of easing population pressure on Ho Chi Minh City center and developing satellite cities. Those ambitions are being revived under a newly…",
-          "url": "https://e.vnexpress.net/news/news/redrawing-ho-chi-minh-citys-megacity-5148151.html",
-          "publisher": "VnExpress International",
-          "region": "Vietnam",
-          "published": "Mon, 23 Nov 2026 17:28:43 +0700"
-        },
-        {
-          "title": "Search continues for dozens missing after Indonesia candy factory fire",
-          "summary": "Rescuers are searching for around 30 missing workers after a candy factory fire killed at least 24 people in Banten.",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/search-continues-for-dozens-missing-after-indonesia-candy-factory-fire?traffic_source=rss",
-          "publisher": "Al Jazeera",
-          "region": "Indonesia",
-          "published": "Mon, 23 Nov 2026 12:23:19 +0000"
-        },
-        {
-          "title": "Argentina footballer Paredes collapses during post-match interview",
-          "summary": "Argentinian footballer Leandro Paredes collapsed during a post-match interview after their win in Colombia.",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/argentina-footballer-paredes-collapses-during-post-match-interview?traffic_source=rss",
-          "publisher": "Al Jazeera",
-          "region": "Colombia",
-          "published": "Mon, 23 Nov 2026 12:40:21 +0000"
-        },
-        {
-          "title": "Mexican soldiers attacked in wake of drug lord's arrest",
-          "summary": "Eight suspects are arrested after firing on soldiers trying to re-establish order following the arrest of 'El Chapo Isidro'.",
-          "url": "https://www.bbc.co.uk/news/articles/c5rmgkv2lk73o?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
-          "region": "South & Central America",
-          "published": "Mon, 23 Nov 2026 14:54:03 GMT"
-        },
-        {
-          "title": "Kenya and DR Congo agree to restore ties after tensions over conflict",
-          "summary": "The two leaders committed to upholding sovereignty and \"non-interference in the internal affairs of states\".",
-          "url": "https://www.bbc.co.uk/news/articles/cmvg2qnn95vro?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
-          "region": "East Africa",
-          "published": "Mon, 23 Nov 2026 08:53:01 GMT"
-        },
         {
           "title": "The footballer-turned-BookTuber who made an obscure Tolstoy novella a belated bestseller",
           "summary": "Once named the best player in Brazil, Gustavo Scarpa’s literature obsession has inspired thousands to become bookworms Julián Scatolaro noticed something odd was occurring when several people came into his bookshop over the space of a few days, all asking for…",
@@ -3652,12 +3604,12 @@
           "published": "Sun, 22 Nov 2026 15:00:29 GMT"
         },
         {
-          "title": "Vietnam's 13 paid public holidays in 2027 after two new additions",
-          "summary": "Workers in Vietnam will have 13 paid days off for public holidays across eight occasions in 2027, following the addition of National Gratitude Day – War Invalids and Martyrs' Day on July 27 and Vietnam Culture Day on Nov. 24. The break is longer when combined…",
-          "url": "https://e.vnexpress.net/infographics/news/vietnams-13-paid-public-holidays-in-2027-after-two-new-additions-5148028.html",
+          "title": "Hanoi eatery explosion kills two, injures six",
+          "summary": "Two people were killed and six injured Tuesday morning when an explosion brought down a two-story building housing a pork offal porridge eatery in Hanoi.",
+          "url": "https://e.vnexpress.net/news/news/hanoi-eatery-explosion-kills-two-injures-six-5148312.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Mon, 23 Nov 2026 15:23:44 +0700"
+          "published": "Tue, 24 Nov 2026 09:46:26 +0700"
         },
         {
           "title": "Three passengers caught trying to smuggle 26 kg of gold on flights to Malaysia",
@@ -3668,20 +3620,28 @@
           "published": "Mon, 23 Nov 2026 15:23:18 +0700"
         },
         {
-          "title": "Seattle airport operator 'outraged' over ICE arrest of two Mexican passengers",
-          "summary": "ICE said a man and a woman, who are said to be father and daughter and both Mexican nationals, were arrested for allegedly overstaying their visas.",
-          "url": "https://www.bbc.co.uk/news/articles/cmwy479wz91no?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
-          "region": "South & Central America",
-          "published": "Mon, 23 Nov 2026 12:50:57 GMT"
+          "title": "Drone attack on police base in Colombia injures three, including infant",
+          "summary": "Far-right President De la Espriella steps up offensive as rebel groups strike back with drone strikes, roadside bombs.",
+          "url": "https://www.aljazeera.com/news/2026/11/23/drone-attack-on-colombia-police-base-injures-civilians-including-infant?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "region": "Colombia",
+          "published": "Mon, 23 Nov 2026 23:49:37 +0000"
         },
         {
-          "title": "Mentors, colleagues and friends: tributes paid to the ‘Eritrea 16’ who disappeared 25 years ago",
-          "summary": "Families of journalists who vanished into state prisons on ‘Black Tuesday’ in 2001 do not know whether they are even still alive When Fisseha Yirgalem stepped on to the podium and began reading from a letter written to a man who may never hear it, the room…",
-          "url": "https://www.theguardian.com/global-development/2026/nov/19/eritrea-16-journalists-jailed-press-freedom-award-cpj-censorship-warning",
-          "publisher": "The Guardian",
+          "title": "Mexico to try ‘El Chapo Isidro’ despite US extradition request",
+          "summary": "Fausto Meza Flores faces drug trafficking and weapons charges after his capture in a violent Sinaloa operation.",
+          "url": "https://www.aljazeera.com/news/2026/11/24/mexico-to-try-el-chapo-isidro-despite-us-extradition-request?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "region": "South & Central America",
+          "published": "Tue, 24 Nov 2026 03:20:55 +0000"
+        },
+        {
+          "title": "Kenya and DR Congo agree to restore ties after tensions over conflict",
+          "summary": "The two leaders committed to upholding sovereignty and \"non-interference in the internal affairs of states\".",
+          "url": "https://www.bbc.co.uk/news/articles/cmvg2qnn95vro?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
           "region": "East Africa",
-          "published": "Thu, 19 Nov 2026 10:00:24 GMT"
+          "published": "Mon, 23 Nov 2026 08:53:01 GMT"
         },
         {
           "title": "Isolated Brazilian tribe emerges amid alarm over threats to group’s way of life",
@@ -3692,12 +3652,12 @@
           "published": "Tue, 17 Nov 2026 21:40:56 GMT"
         },
         {
-          "title": "HCMC issues master plan to become attractive, sustainable global city by 2050",
-          "summary": "Ho Chi Minh City on Monday announced the master plan for the 2025-2050 period, with a 100-year vision, to make itself one of the most liveable cities worldwide.",
-          "url": "https://e.vnexpress.net/news/news/hcmc-issues-master-plan-to-become-attractive-sustainable-global-city-by-2050-5148065.html",
+          "title": "How well-prepared are fresh graduates for the workplace?",
+          "summary": "The Vietnam Employability Report 2026 finds that fresh graduates meet employer expectations in only one of seven core skill areas: digital literacy.",
+          "url": "https://e.vnexpress.net/infographics/education/how-well-prepared-are-fresh-graduates-for-the-workplace-5145635.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Mon, 23 Nov 2026 14:59:31 +0700"
+          "published": "Tue, 24 Nov 2026 08:00:00 +0700"
         },
         {
           "title": "At least 24 killed and dozens missing in confectionery factory fire in Indonesia",
@@ -3706,28 +3666,82 @@
           "publisher": "The Guardian",
           "region": "Indonesia",
           "published": "Mon, 23 Nov 2026 05:45:12 GMT"
-        }
-      ],
-      "totalTagged": 102,
-      "feedsQueried": 14,
-      "errors": [
+        },
         {
-          "feed": "The Guardian / Americas",
-          "error": "HTTP 403 for https://www.theguardian.com/world/americas/rss"
+          "title": "Bukele shares details on deaths of Salvadoran troops in Haiti intervention",
+          "summary": "Bukele's military intervention in Haiti comes after four Salvadoran technicians were kidnapped by gangs in October.",
+          "url": "https://www.aljazeera.com/news/2026/11/24/bukele-shares-details-on-deaths-of-salvadoran-troops-in-haiti-intervention?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "region": "South & Central America",
+          "published": "Tue, 24 Nov 2026 01:06:00 +0000"
+        },
+        {
+          "title": "Mentors, colleagues and friends: tributes paid to the ‘Eritrea 16’ who disappeared 25 years ago",
+          "summary": "Families of journalists who vanished into state prisons on ‘Black Tuesday’ in 2001 do not know whether they are even still alive When Fisseha Yirgalem stepped on to the podium and began reading from a letter written to a man who may never hear it, the room…",
+          "url": "https://www.theguardian.com/global-development/2026/nov/19/eritrea-16-journalists-jailed-press-freedom-award-cpj-censorship-warning",
+          "publisher": "The Guardian",
+          "region": "East Africa",
+          "published": "Thu, 19 Nov 2026 10:00:24 GMT"
+        },
+        {
+          "title": "European-made pesticides named in 1,605 poisoning reports in Brazil last year",
+          "summary": "About a third of cases involved chemicals banned for use on EU farms, according to investigation by Unearthed and Public Eye Pesticides sold by European chemical companies were named in more than 1,600 poisoning reports in Brazil last year, an investigation…",
+          "url": "https://www.theguardian.com/environment/2026/nov/17/european-made-pesticides-named-1605-brazil-poisoning-reports",
+          "publisher": "The Guardian",
+          "region": "Brazil",
+          "published": "Tue, 17 Nov 2026 06:00:05 GMT"
+        },
+        {
+          "title": "Redrawing Ho Chi Minh City's megacity",
+          "summary": "Over the past five decades, four master plans adopted in 1993, 1998, 2010 and 2025 have fallen short of their goals of easing population pressure on Ho Chi Minh City center and developing satellite cities. Those ambitions are being revived under a newly…",
+          "url": "https://e.vnexpress.net/news/news/redrawing-ho-chi-minh-citys-megacity-5148151.html",
+          "publisher": "VnExpress International",
+          "region": "Vietnam",
+          "published": "Mon, 23 Nov 2026 17:28:43 +0700"
+        },
+        {
+          "title": "Search for Indonesia factory fire missing resumes Monday, police remove 24 body bags",
+          "summary": "Indonesian police removed 24 body bags from a factory destroyed by fire in ​Java on Sunday as firefighters battled remaining hotspots a day after the ‌blaze tore through the building and a search for dozens of missing workers was suspended overnight.",
+          "url": "https://e.vnexpress.net/news/news/search-for-indonesia-factory-fire-missing-resumes-monday-police-remove-24-body-bags-5147891.html",
+          "publisher": "VnExpress International",
+          "region": "Indonesia",
+          "published": "Mon, 23 Nov 2026 10:26:18 +0700"
         }
       ],
+      "totalTagged": 113,
+      "feedsQueried": 14,
+      "errors": [],
       "note": "General headlines from the growing regions, taken from outlets of record and tagged to a region by the countries and cities they name."
     },
     "roundup": {
       "source": "assembled",
-      "fetchedAt": "2026-11-23T17:03:08.768Z",
+      "fetchedAt": "2026-11-24T04:02:02.640Z",
       "windowDays": 7,
       "publishers": [
         "Daily Coffee News",
         "Fresh Cup",
+        "Specialty Coffee Association",
         "World Coffee Portal"
       ],
       "items": [
+        {
+          "headline": "Coffee Decoded: Coffee that Tastes Like Potatoes? Explaining Potato Taste Defect",
+          "summary": "Welcome to Coffee, Decoded, the Specialty Coffee Association’s weekly column on science, research, and all things coffee knowledge. This week, LAUREL CARMICHAEL explains recent research on Potato Taste Defect—a sensory defect that can make coffee taste…",
+          "url": "https://sca.coffee/sca-news/coffee-decoded-26-potato-taste-defect",
+          "publisher": "Specialty Coffee Association",
+          "published": "Mon, 23 Nov 2026 23:01:40 +0000",
+          "date": "Mon, 23 Nov",
+          "section": "Roasting & retail"
+        },
+        {
+          "headline": "Meta-Analysis Links Coffee to Lower Odds of Depression",
+          "summary": "Coffee stood out as one of the few beverage categories associated with lower odds of depression in a sweeping new academic review involving more than 2 million people. The analysis...",
+          "url": "https://dailycoffeenews.com/2026/11/23/meta-analysis-links-coffee-to-lower-odds-of-depression/",
+          "publisher": "Daily Coffee News",
+          "published": "Mon, 23 Nov 2026 16:19:02 +0000",
+          "date": "Mon, 23 Nov",
+          "section": "Roasting & retail"
+        },
         {
           "headline": "Investment Firms Acquiring Parent Company of Italy’s Evoca Group",
           "summary": "Global investment firms Carlyle and Park Square Capital are acquiring the parent company of Italian coffee equipment manufacturer Evoca Group. The agreement, announced Nov. 18, calls for Carlyle and Park...",
@@ -3762,24 +3776,6 @@
           "publisher": "World Coffee Portal",
           "published": "Mon, 23 Nov 2026 11:17:13 GMT",
           "date": "Mon, 23 Nov",
-          "section": "Roasting & retail"
-        },
-        {
-          "headline": "Birds, seeds, bees... and now coffees and teas for Canada’s The DIG Collective",
-          "summary": "The consumer brand group has acquired 132-year-old coffee and tea merchant Murchie’s for an undisclosed sum Canada’s The DIG Collective has made its first foray into coffee by acquiring one of the country’s oldest coffee and tea",
-          "url": "https://www.worldcoffeeportal.com/news/birds-seeds-bees-and-now-coffees-and-teas-for-canadas-the-dig-collective/",
-          "publisher": "World Coffee Portal",
-          "published": "Mon, 23 Nov 2026 09:11:34 GMT",
-          "date": "Mon, 23 Nov",
-          "section": "Roasting & retail"
-        },
-        {
-          "headline": "BRITA Professional: 60 years of crystal clear water solutions",
-          "summary": "Water makes up 98% of every cup of coffee, yet it remains one of the most overlooked elements for coffee businesses. As BRITA Professional marks six decades in water filtration, Business Account Manager, Emma Field, explains how proactive water management…",
-          "url": "https://www.worldcoffeeportal.com/feature/brita-professional-60-years-of-crystal-clear-water-solutions/",
-          "publisher": "World Coffee Portal",
-          "published": "Fri, 20 Nov 2026 16:09:25 GMT",
-          "date": "Fri, 20 Nov",
           "section": "Roasting & retail"
         },
         {
@@ -3835,15 +3831,6 @@
           "published": "Wed, 18 Nov 2026 12:08:31 +0000",
           "date": "Wed, 18 Nov",
           "section": "Top stories of the week"
-        },
-        {
-          "headline": "Design Details: A Pavilion Renewed at Hygge Cafe in Jakarta, Indonesia",
-          "summary": "Welcome to Design Details, an ongoing editorial feature in Daily Coffee News focused on individual examples of coffee shop architecture, interior design, packaging design or branding. If you are a...",
-          "url": "https://dailycoffeenews.com/2026/11/17/design-details-a-pavilion-renewed-at-hygge-cafe-in-jakarta-indonesia/",
-          "publisher": "Daily Coffee News",
-          "published": "Tue, 17 Nov 2026 14:59:06 +0000",
-          "date": "Tue, 17 Nov",
-          "section": "Trade & production"
         }
       ],
       "errors": [
@@ -3855,7 +3842,7 @@
       "note": "Assembled from the coffee trade press over the past seven days, ranked by relevance to the physical trade. Headlines and links are each publisher’s own."
     },
     "dailyRead": {
-      "fetchedAt": "2026-11-23T17:03:07.701Z",
+      "fetchedAt": "2026-11-24T04:02:01.247Z",
       "article": {
         "title": "Brazil’s Record Coffee Harvest Comes with Quality and Stock Concerns",
         "summary": "Brazil’s completed 2026/27 coffee harvest is now estimated at a record-high 72.5 million 60-kilogram bags, up 15.1% from the previous market year, although heavy rains reduced arabica quality, according to...",
@@ -4181,40 +4168,40 @@
   },
   "status": [
     {
-      "source": "daily-read",
-      "ok": true,
-      "ms": 158
-    },
-    {
       "source": "weather",
       "ok": true,
-      "ms": 203
+      "ms": 154
+    },
+    {
+      "source": "daily-read",
+      "ok": true,
+      "ms": 233
     },
     {
       "source": "arabica-futures",
       "ok": true,
-      "ms": 422
+      "ms": 653
     },
     {
       "source": "weekly-recap",
       "ok": true,
-      "ms": 1228
-    },
-    {
-      "source": "fx",
-      "ok": true,
-      "ms": 2541
+      "ms": 1628
     },
     {
       "source": "origin-wire",
       "ok": true,
-      "ms": 2964
+      "ms": 2881
     },
     {
       "source": "ico-report",
       "ok": false,
-      "ms": 4019,
+      "ms": 3331,
       "error": "HTTP 404 for https://www.ico.org/documents/cy2025-26/cmr-1026-e.pdf"
+    },
+    {
+      "source": "fx",
+      "ok": true,
+      "ms": 4414
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T04:02:05.422Z",
+  "generatedAt": "2026-11-24T16:49:54.129Z",
   "schema": 5,
   "schedule": {
     "slotsUtc": [
@@ -26,8 +26,8 @@
       "frontMonth": {
         "code": "KCZ26",
         "label": "Dec 2026",
-        "close": 274.35,
-        "volume": 32
+        "close": 271,
+        "volume": 13
       },
       "rolled": true,
       "mostActive": "KCH27",
@@ -35,66 +35,58 @@
         {
           "code": "KCZ26",
           "label": "Dec 2026",
-          "close": 274.35,
-          "volume": 32
+          "close": 271,
+          "volume": 13
         },
         {
           "code": "KCH27",
           "label": "Mar 2027",
-          "close": 267.75,
-          "volume": 14004
+          "close": 261.15,
+          "volume": 13131
         },
         {
           "code": "KCK27",
           "label": "May 2027",
-          "close": 261.15,
-          "volume": 5382
+          "close": 255.85,
+          "volume": 6923
         },
         {
           "code": "KCN27",
           "label": "Jul 2027",
-          "close": 256.05,
-          "volume": 2745
+          "close": 251.5,
+          "volume": 2262
         },
         {
           "code": "KCU27",
           "label": "Sep 2027",
-          "close": 252.15,
-          "volume": 1282
+          "close": 247.6,
+          "volume": 1038
         },
         {
           "code": "KCZ27",
           "label": "Dec 2027",
-          "close": 247.65,
-          "volume": 372
+          "close": 244.5,
+          "volume": 345
         },
         {
           "code": "KCH28",
           "label": "Mar 2028",
-          "close": 243.75,
-          "volume": 100
+          "close": 241.35,
+          "volume": 71
         }
       ],
       "quote": {
-        "last": 267.35,
-        "open": 268.5,
-        "high": 275.45001220703125,
-        "low": 265.6499938964844,
-        "previousClose": 268.5,
-        "change": -1.15,
-        "changePct": -0.428,
-        "volume": 0,
-        "asOf": "2026-11-23T18:29:57.000Z"
+        "last": 263.95,
+        "open": 266.75,
+        "high": 266.75,
+        "low": 261.75,
+        "previousClose": 267.75,
+        "change": -3.8,
+        "changePct": -1.419,
+        "volume": 11797,
+        "asOf": "2026-11-24T16:29:44.000Z"
       },
       "bars": [
-        {
-          "date": "2025-08-18",
-          "open": 289.79998779296875,
-          "high": 294.70001220703125,
-          "low": 287.6499938964844,
-          "close": 292.75,
-          "volume": 182
-        },
         {
           "date": "2025-08-19",
           "open": 296.29998779296875,
@@ -2643,17 +2635,25 @@
           "date": "2026-11-23",
           "open": 268.5,
           "high": 275.45001220703125,
-          "low": 265.6499938964844,
-          "close": 267.3500061035156,
-          "volume": 0
+          "low": 265.54998779296875,
+          "close": 267.75,
+          "volume": 15512
+        },
+        {
+          "date": "2026-11-24",
+          "open": 266.75,
+          "high": 266.75,
+          "low": 261.75,
+          "close": 263.95001220703125,
+          "volume": 11797
         }
       ],
       "crossCheck": {
-        "tradingView": 267.75,
-        "yahoo": 267.35,
-        "diff": 0.4,
-        "diffPct": 0.15,
-        "agree": true
+        "tradingView": 261.15,
+        "yahoo": 263.95,
+        "diff": -2.8,
+        "diffPct": -1.061,
+        "agree": false
       },
       "sources": [
         {
@@ -2668,20 +2668,20 @@
         }
       ],
       "technicals": {
-        "observations": 502,
-        "sma20": 273.3624984741211,
-        "sma50": 278.9059997558594,
-        "sma200": 276.5467497253418,
-        "rsi14": 40.89211533412699,
+        "observations": 503,
+        "sma20": 272.5249984741211,
+        "sma50": 278.69200012207034,
+        "sma200": 276.4844998168945,
+        "rsi14": 38.241123136981074,
         "macd": {
-          "line": -3.141325134454405,
-          "signal": -3.1637654196776572,
-          "histogram": 0.022440285223252143
+          "line": -3.607758168840178,
+          "signal": -3.247458634307173,
+          "histogram": -0.3602995345330049
         },
-        "atr14": 8.711846117915,
+        "atr14": 8.524775881664457,
         "donchian20": {
-          "high": 289.5,
-          "low": 262.1499938964844,
+          "high": 285.29998779296875,
+          "low": 261.75,
           "period": 20
         },
         "levels": {
@@ -2701,16 +2701,16 @@
           ],
           "resistance": [
             {
+              "price": 264.8999938964844,
+              "date": "2025-07-28"
+            },
+            {
+              "price": 264.95001220703125,
+              "date": "2026-06-18"
+            },
+            {
               "price": 268.6000061035156,
               "date": "2025-07-16"
-            },
-            {
-              "price": 272.6499938964844,
-              "date": "2026-04-15"
-            },
-            {
-              "price": 275.04998779296875,
-              "date": "2026-05-05"
             }
           ]
         },
@@ -2719,29 +2719,25 @@
           "low": 222.75
         },
         "method": "Wilder RSI(14); MACD(12,26,9) on EMA; ATR(14); pivots = 5-bar swing highs/lows; Donchian(20).",
-        "basis": "502 daily bars for KCH27"
+        "basis": "503 daily bars for KCH27"
       },
       "barsPublished": 320,
-      "barsAnalysed": 502
+      "barsAnalysed": 503
     }
   },
   "fx": {
-    "asOf": "2026-11-23",
+    "asOf": "2026-11-24",
     "pairs": {
       "GBPUSD": {
         "pair": "GBP/USD",
-        "rate": 1.3074,
-        "previous": 1.3125,
+        "rate": 1.3098,
+        "previous": 1.3074,
         "dp": 4,
         "note": "Sterling stronger means a dollar-priced contract costs a UK buyer less.",
-        "change": -0.0051,
-        "changePct": -0.389,
-        "change1m": -2.2,
+        "change": 0.0024,
+        "changePct": 0.184,
+        "change1m": -1.87,
         "history": [
-          {
-            "date": "2026-09-01",
-            "rate": 1.3531
-          },
           {
             "date": "2026-09-02",
             "rate": 1.3483
@@ -2977,23 +2973,23 @@
           {
             "date": "2026-11-23",
             "rate": 1.3074
+          },
+          {
+            "date": "2026-11-24",
+            "rate": 1.3098
           }
         ]
       },
       "USDBRL": {
         "pair": "USD/BRL",
-        "rate": 5.9979,
-        "previous": 5.938,
+        "rate": 5.8697,
+        "previous": 5.9979,
         "dp": 4,
         "note": "A weaker real encourages Brazilian producer selling.",
-        "change": 0.0599,
-        "changePct": 1.009,
-        "change1m": 18.85,
+        "change": -0.1282,
+        "changePct": -2.137,
+        "change1m": 5.03,
         "history": [
-          {
-            "date": "2026-09-01",
-            "rate": 5.1989
-          },
           {
             "date": "2026-09-02",
             "rate": 5.1507
@@ -3229,14 +3225,18 @@
           {
             "date": "2026-11-23",
             "rate": 5.9979
+          },
+          {
+            "date": "2026-11-24",
+            "rate": 5.8697
           }
         ]
       }
     },
     "ptax": {
-      "buy": 5.9702,
-      "sell": 5.9708,
-      "quotedAt": "2026-11-23 13:06:23.798289"
+      "buy": 5.8567,
+      "sell": 5.8573,
+      "quotedAt": "2026-11-24 13:07:40.485706"
     },
     "sources": [
       {
@@ -3252,7 +3252,7 @@
     ]
   },
   "weather": {
-    "fetchedAt": "2026-11-24T04:02:01.163Z",
+    "fetchedAt": "2026-11-24T16:49:51.466Z",
     "thresholds": {
       "frostC": 4,
       "heavyRainMm": 50,
@@ -3280,21 +3280,21 @@
           "date": "2026-11-23",
           "tMax": 29.5,
           "tMin": 19.6,
-          "rain": 9.3,
+          "rain": 13.9,
           "code": 81,
           "cloud": 82,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 75.3,
-        "rainForecast7": 122.8,
-        "minForecast7": 17.3,
+        "rain14": 79.9,
+        "rainForecast7": 133.8,
+        "minForecast7": 17.2,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "123 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "134 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3309,21 +3309,21 @@
           "date": "2026-11-23",
           "tMax": 28,
           "tMin": 20.2,
-          "rain": 4.5,
+          "rain": 5.5,
           "code": 53,
           "cloud": 88,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 70.1,
-        "rainForecast7": 101.1,
-        "minForecast7": 19.6,
+        "rain14": 71.1,
+        "rainForecast7": 99.9,
+        "minForecast7": 19.5,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "101 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "100 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3346,8 +3346,8 @@
         "condition": "very-wet",
         "conditionLabel": "Very wet",
         "rain14": 146.5,
-        "rainForecast7": 10,
-        "minForecast7": 23,
+        "rainForecast7": 6.6,
+        "minForecast7": 23.4,
         "alerts": []
       },
       {
@@ -3369,8 +3369,8 @@
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
         "rain14": 25.8,
-        "rainForecast7": 31.4,
-        "minForecast7": 22,
+        "rainForecast7": 19.6,
+        "minForecast7": 22.2,
         "alerts": []
       },
       {
@@ -3392,13 +3392,13 @@
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
         "rain14": 25.4,
-        "rainForecast7": 75.6,
-        "minForecast7": 17.6,
+        "rainForecast7": 60.9,
+        "minForecast7": 17.9,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "76 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "61 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3413,16 +3413,16 @@
           "date": "2026-11-23",
           "tMax": 29.2,
           "tMin": 17.2,
-          "rain": 6.4,
+          "rain": 6.3,
           "code": 81,
-          "cloud": 55,
+          "cloud": 53,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 48.5,
-        "rainForecast7": 31.5,
-        "minForecast7": 17.2,
+        "rain14": 47.6,
+        "rainForecast7": 46.8,
+        "minForecast7": 17.7,
         "alerts": []
       },
       {
@@ -3438,14 +3438,14 @@
           "tMin": 18.1,
           "rain": 1,
           "code": 51,
-          "cloud": 69,
+          "cloud": 68,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 32.1,
-        "rainForecast7": 27.5,
-        "minForecast7": 17.6,
+        "rain14": 32,
+        "rainForecast7": 40.8,
+        "minForecast7": 16.5,
         "alerts": []
       },
       {
@@ -3467,13 +3467,13 @@
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 212.4,
-        "rainForecast7": 135.9,
+        "rainForecast7": 134.4,
         "minForecast7": 17,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "136 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "134 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3496,15 +3496,9 @@
         "condition": "very-wet",
         "conditionLabel": "Very wet",
         "rain14": 86.6,
-        "rainForecast7": 64.8,
-        "minForecast7": 23.7,
-        "alerts": [
-          {
-            "type": "wet",
-            "severity": "watch",
-            "text": "65 mm forecast over 7 days — harvest/drying disruption risk."
-          }
-        ]
+        "rainForecast7": 34.2,
+        "minForecast7": 23.8,
+        "alerts": []
       },
       {
         "key": "jimma",
@@ -3525,8 +3519,8 @@
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
         "rain14": 85.3,
-        "rainForecast7": 4.2,
-        "minForecast7": 13.5,
+        "rainForecast7": 6.7,
+        "minForecast7": 13.2,
         "alerts": []
       },
       {
@@ -3542,14 +3536,14 @@
           "tMin": 18.1,
           "rain": 1.1,
           "code": 51,
-          "cloud": 58,
+          "cloud": 56,
           "observed": true
         },
         "condition": "dry",
         "conditionLabel": "Clear / dry",
-        "rain14": 21.5,
-        "rainForecast7": 21.8,
-        "minForecast7": 14.1,
+        "rain14": 14.9,
+        "rainForecast7": 17,
+        "minForecast7": 13.8,
         "alerts": []
       },
       {
@@ -3562,22 +3556,22 @@
         "current": {
           "date": "2026-11-23",
           "tMax": 32.6,
-          "tMin": 21.5,
-          "rain": 3.2,
+          "tMin": 22.3,
+          "rain": 3.7,
           "code": 51,
-          "cloud": 81,
+          "cloud": 82,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 93.7,
-        "rainForecast7": 71.1,
-        "minForecast7": 20.4,
+        "rain14": 74,
+        "rainForecast7": 133.5,
+        "minForecast7": 20.6,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "71 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "134 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       }
@@ -3592,24 +3586,24 @@
   },
   "news": {
     "originWire": {
-      "fetchedAt": "2026-11-24T04:02:03.890Z",
+      "fetchedAt": "2026-11-24T16:49:54.127Z",
       "lookbackHours": 504,
       "headlines": [
         {
-          "title": "The footballer-turned-BookTuber who made an obscure Tolstoy novella a belated bestseller",
-          "summary": "Once named the best player in Brazil, Gustavo Scarpa’s literature obsession has inspired thousands to become bookworms Julián Scatolaro noticed something odd was occurring when several people came into his bookshop over the space of a few days, all asking for…",
-          "url": "https://www.theguardian.com/world/2026/nov/22/the-football-superstar-turned-booktuber-who-made-an-obscure-tolstoy-novella-a-belated-bestseller",
-          "publisher": "The Guardian",
+          "title": "How Brazil’s mosquitoes are helping to fight dengue",
+          "summary": "Scientists are increasingly using novel ways to re-engineer mosquitoes and use them to battle the diseases they spread.",
+          "url": "https://www.aljazeera.com/news/2026/11/24/how-brazils-mosquitoes-are-helping-to-fight?traffic_source=rss",
+          "publisher": "Al Jazeera",
           "region": "Brazil",
-          "published": "Sun, 22 Nov 2026 15:00:29 GMT"
+          "published": "Tue, 24 Nov 2026 15:09:00 +0000"
         },
         {
-          "title": "Hanoi eatery explosion kills two, injures six",
-          "summary": "Two people were killed and six injured Tuesday morning when an explosion brought down a two-story building housing a pork offal porridge eatery in Hanoi.",
-          "url": "https://e.vnexpress.net/news/news/hanoi-eatery-explosion-kills-two-injures-six-5148312.html",
+          "title": "Hanoi eatery blast leaves row of houses damaged",
+          "summary": "An explosion at a Hanoi eatery killed three people Tuesday morning and left a row of about 10 homes badly damaged, with roll-up shutters torn from their frames, corrugated metal roofs caved in and motorcycles knocked over.",
+          "url": "https://e.vnexpress.net/photo/news/hanoi-eatery-blast-leaves-row-of-houses-damaged-5148344.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Tue, 24 Nov 2026 09:46:26 +0700"
+          "published": "Tue, 24 Nov 2026 12:14:08 +0700"
         },
         {
           "title": "Three passengers caught trying to smuggle 26 kg of gold on flights to Malaysia",
@@ -3620,20 +3614,68 @@
           "published": "Mon, 23 Nov 2026 15:23:18 +0700"
         },
         {
-          "title": "Drone attack on police base in Colombia injures three, including infant",
-          "summary": "Far-right President De la Espriella steps up offensive as rebel groups strike back with drone strikes, roadside bombs.",
-          "url": "https://www.aljazeera.com/news/2026/11/23/drone-attack-on-colombia-police-base-injures-civilians-including-infant?traffic_source=rss",
+          "title": "Ten years after its 2016 peace deal, Colombia faces a return to conflict",
+          "summary": "Critics fear that a security crackdown under Abelardo de la Espriella could unravel gains made under the 2016 deal.",
+          "url": "https://www.aljazeera.com/news/longform/2026/11/24/ten-years-after-its-2016-peace-deal-colombia-faces-a-return-to-conflict?traffic_source=rss",
           "publisher": "Al Jazeera",
           "region": "Colombia",
-          "published": "Mon, 23 Nov 2026 23:49:37 +0000"
+          "published": "Tue, 24 Nov 2026 13:35:51 +0000"
         },
         {
-          "title": "Mexico to try ‘El Chapo Isidro’ despite US extradition request",
-          "summary": "Fausto Meza Flores faces drug trafficking and weapons charges after his capture in a violent Sinaloa operation.",
-          "url": "https://www.aljazeera.com/news/2026/11/24/mexico-to-try-el-chapo-isidro-despite-us-extradition-request?traffic_source=rss",
-          "publisher": "Al Jazeera",
+          "title": "Watch: Moment troops raid home and capture Mexican drug lord",
+          "summary": "Newly-released bodycam footage shows the moment troops detained 'El Chapo Isidro', who had managed to evade capture for years.",
+          "url": "https://www.bbc.co.uk/news/videos/cm62p9y3y04qo?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
           "region": "South & Central America",
-          "published": "Tue, 24 Nov 2026 03:20:55 +0000"
+          "published": "Tue, 24 Nov 2026 09:09:41 GMT"
+        },
+        {
+          "title": "DR Congo says military aircraft missing as rebels claim to shoot down plane",
+          "summary": "A South African fighter pilot and a Ugandan officer are reportedly among those aboard the downed plane.",
+          "url": "https://www.bbc.co.uk/news/articles/cwy7r5z8gg65o?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
+          "region": "East Africa",
+          "published": "Tue, 24 Nov 2026 16:31:26 GMT"
+        },
+        {
+          "title": "The footballer-turned-BookTuber who made an obscure Tolstoy novella a belated bestseller",
+          "summary": "Once named the best player in Brazil, Gustavo Scarpa’s literature obsession has inspired thousands to become bookworms Julián Scatolaro noticed something odd was occurring when several people came into his bookshop over the space of a few days, all asking for…",
+          "url": "https://www.theguardian.com/world/2026/nov/22/the-football-superstar-turned-booktuber-who-made-an-obscure-tolstoy-novella-a-belated-bestseller",
+          "publisher": "The Guardian",
+          "region": "Brazil",
+          "published": "Sun, 22 Nov 2026 15:00:29 GMT"
+        },
+        {
+          "title": "Outlet centers and duty-free shops proposed for Vietnam’s largest airport Long Thanh",
+          "summary": "Authorities in southern Vietnam are seeking feedback on a plan to develop outlet shopping centers, duty-free shops and VAT refund outlets at Long Thanh International Airport and other sites.",
+          "url": "https://e.vnexpress.net/news/business/economy/outlet-centers-and-duty-free-shops-proposed-for-vietnam-s-largest-airport-long-thanh-5148294.html",
+          "publisher": "VnExpress International",
+          "region": "Vietnam",
+          "published": "Tue, 24 Nov 2026 11:13:17 +0700"
+        },
+        {
+          "title": "At least 24 killed and dozens missing in confectionery factory fire in Indonesia",
+          "summary": "Rescuers brave unstable structures in search for missing as DNA needed to identify victims Indonesia has confirmed the deaths of 24 people in a fire that tore ⁠through a factory, as rescuers braved unstable structures in the burned wreckage to search for…",
+          "url": "https://www.theguardian.com/world/2026/nov/22/fire-confectionary-factory-indonesia-jakarta",
+          "publisher": "The Guardian",
+          "region": "Indonesia",
+          "published": "Mon, 23 Nov 2026 05:45:12 GMT"
+        },
+        {
+          "title": "Car bomb tears through Colombian city wounding more than 20",
+          "summary": "The explosion is the latest in a string of attacks on buildings housing the security forces and government offices.",
+          "url": "https://www.bbc.co.uk/news/articles/cjqlq2n4np7do?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
+          "region": "Colombia",
+          "published": "Tue, 24 Nov 2026 11:45:52 GMT"
+        },
+        {
+          "title": "Everything Else Is Noise review – a musician attempts to raise her art above the cacophony of city noise",
+          "summary": "A TV shoot is beset with barking dogs, power cuts and personal animosities in Nicolás Pereda’s docufiction exploring the fight for artistic space in a world of distractions This latest docufiction from Mexican-Canadian film-maker Nicolás Pereda finds rhythm…",
+          "url": "https://www.theguardian.com/film/2026/nov/24/everything-else-is-noise-review-a-musician-attempts-to-raise-her-art-above-the-cacophony-of-city-noise",
+          "publisher": "The Guardian",
+          "region": "South & Central America",
+          "published": "Tue, 24 Nov 2026 07:00:09 GMT"
         },
         {
           "title": "Kenya and DR Congo agree to restore ties after tensions over conflict",
@@ -3652,70 +3694,22 @@
           "published": "Tue, 17 Nov 2026 21:40:56 GMT"
         },
         {
-          "title": "How well-prepared are fresh graduates for the workplace?",
-          "summary": "The Vietnam Employability Report 2026 finds that fresh graduates meet employer expectations in only one of seven core skill areas: digital literacy.",
-          "url": "https://e.vnexpress.net/infographics/education/how-well-prepared-are-fresh-graduates-for-the-workplace-5145635.html",
+          "title": "Death toll from Hanoi eatery blast rises to 7",
+          "summary": "Seven people were killed and nine others injured when an explosion brought down a hotpot restaurant in Hanoi on Tuesday morning.",
+          "url": "https://e.vnexpress.net/news/news/death-toll-from-hanoi-eatery-blast-rises-to-7-5148312.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
-          "published": "Tue, 24 Nov 2026 08:00:00 +0700"
-        },
-        {
-          "title": "At least 24 killed and dozens missing in confectionery factory fire in Indonesia",
-          "summary": "Rescuers brave unstable structures in search for missing as DNA needed to identify victims Indonesia has confirmed the deaths of 24 people in a fire that tore ⁠through a factory, as rescuers braved unstable structures in the burned wreckage to search for…",
-          "url": "https://www.theguardian.com/world/2026/nov/22/fire-confectionary-factory-indonesia-jakarta",
-          "publisher": "The Guardian",
-          "region": "Indonesia",
-          "published": "Mon, 23 Nov 2026 05:45:12 GMT"
-        },
-        {
-          "title": "Bukele shares details on deaths of Salvadoran troops in Haiti intervention",
-          "summary": "Bukele's military intervention in Haiti comes after four Salvadoran technicians were kidnapped by gangs in October.",
-          "url": "https://www.aljazeera.com/news/2026/11/24/bukele-shares-details-on-deaths-of-salvadoran-troops-in-haiti-intervention?traffic_source=rss",
-          "publisher": "Al Jazeera",
-          "region": "South & Central America",
-          "published": "Tue, 24 Nov 2026 01:06:00 +0000"
-        },
-        {
-          "title": "Mentors, colleagues and friends: tributes paid to the ‘Eritrea 16’ who disappeared 25 years ago",
-          "summary": "Families of journalists who vanished into state prisons on ‘Black Tuesday’ in 2001 do not know whether they are even still alive When Fisseha Yirgalem stepped on to the podium and began reading from a letter written to a man who may never hear it, the room…",
-          "url": "https://www.theguardian.com/global-development/2026/nov/19/eritrea-16-journalists-jailed-press-freedom-award-cpj-censorship-warning",
-          "publisher": "The Guardian",
-          "region": "East Africa",
-          "published": "Thu, 19 Nov 2026 10:00:24 GMT"
-        },
-        {
-          "title": "European-made pesticides named in 1,605 poisoning reports in Brazil last year",
-          "summary": "About a third of cases involved chemicals banned for use on EU farms, according to investigation by Unearthed and Public Eye Pesticides sold by European chemical companies were named in more than 1,600 poisoning reports in Brazil last year, an investigation…",
-          "url": "https://www.theguardian.com/environment/2026/nov/17/european-made-pesticides-named-1605-brazil-poisoning-reports",
-          "publisher": "The Guardian",
-          "region": "Brazil",
-          "published": "Tue, 17 Nov 2026 06:00:05 GMT"
-        },
-        {
-          "title": "Redrawing Ho Chi Minh City's megacity",
-          "summary": "Over the past five decades, four master plans adopted in 1993, 1998, 2010 and 2025 have fallen short of their goals of easing population pressure on Ho Chi Minh City center and developing satellite cities. Those ambitions are being revived under a newly…",
-          "url": "https://e.vnexpress.net/news/news/redrawing-ho-chi-minh-citys-megacity-5148151.html",
-          "publisher": "VnExpress International",
-          "region": "Vietnam",
-          "published": "Mon, 23 Nov 2026 17:28:43 +0700"
-        },
-        {
-          "title": "Search for Indonesia factory fire missing resumes Monday, police remove 24 body bags",
-          "summary": "Indonesian police removed 24 body bags from a factory destroyed by fire in ​Java on Sunday as firefighters battled remaining hotspots a day after the ‌blaze tore through the building and a search for dozens of missing workers was suspended overnight.",
-          "url": "https://e.vnexpress.net/news/news/search-for-indonesia-factory-fire-missing-resumes-monday-police-remove-24-body-bags-5147891.html",
-          "publisher": "VnExpress International",
-          "region": "Indonesia",
-          "published": "Mon, 23 Nov 2026 10:26:18 +0700"
+          "published": "Tue, 24 Nov 2026 09:46:26 +0700"
         }
       ],
-      "totalTagged": 113,
+      "totalTagged": 109,
       "feedsQueried": 14,
       "errors": [],
       "note": "General headlines from the growing regions, taken from outlets of record and tagged to a region by the countries and cities they name."
     },
     "roundup": {
       "source": "assembled",
-      "fetchedAt": "2026-11-24T04:02:02.640Z",
+      "fetchedAt": "2026-11-24T16:49:52.318Z",
       "windowDays": 7,
       "publishers": [
         "Daily Coffee News",
@@ -3724,6 +3718,60 @@
         "World Coffee Portal"
       ],
       "items": [
+        {
+          "headline": "Italy’s illycaffè reportedly working towards 2027 public listing",
+          "summary": "CEO Cristina Scocchia has repeatedly highlighted a stock market debut as a strategic option for the premium coffee roaster",
+          "url": "https://www.worldcoffeeportal.com/news/italys-illycaffe-reportedly-working-towards-2027-public-listing/",
+          "publisher": "World Coffee Portal",
+          "published": "Tue, 24 Nov 2026 15:23:22 GMT",
+          "date": "Tue, 24 Nov",
+          "section": "Top stories of the week"
+        },
+        {
+          "headline": "Very Hot Coffee and Tea Linked to Higher Esophageal Cancer Risk",
+          "summary": "People who prefer their coffee or tea very hot may face more than three times the risk of a particular type of esophageal cancer compared to people who drink their...",
+          "url": "https://dailycoffeenews.com/2026/11/24/very-hot-coffee-and-tea-linked-to-higher-esophageal-cancer-risk/",
+          "publisher": "Daily Coffee News",
+          "published": "Tue, 24 Nov 2026 14:11:39 +0000",
+          "date": "Tue, 24 Nov",
+          "section": "Top stories of the week"
+        },
+        {
+          "headline": "Design Details: Ripples of Time at Yeonheun Roasters in Seoul",
+          "summary": "Welcome to Design Details, an ongoing editorial feature in Daily Coffee News focused on individual examples of coffee shop architecture, interior design, packaging design or branding. If you are a...",
+          "url": "https://dailycoffeenews.com/2026/11/24/design-details-ripples-of-time-at-yeonheun-roasters-in-seoul/",
+          "publisher": "Daily Coffee News",
+          "published": "Tue, 24 Nov 2026 14:05:54 +0000",
+          "date": "Tue, 24 Nov",
+          "section": "Roasting & retail"
+        },
+        {
+          "headline": "Free Drinks and a Boycott Truck: Starbucks Workers Try a New Playbook",
+          "summary": "Instead of strikes alone, Starbucks Workers United is asking customers to boycott, touring a coffee truck, and rallying at more than 40 campuses. The post Free Drinks and a Boycott Truck: Starbucks Workers Try a New Playbook appeared first on Fresh Cup .",
+          "url": "https://freshcup.com/free-drinks-and-a-boycott-truck-starbucks-workers-try-a-new-playbook/",
+          "publisher": "Fresh Cup",
+          "published": "Tue, 24 Nov 2026 13:01:00 +0000",
+          "date": "Tue, 24 Nov",
+          "section": "Roasting & retail"
+        },
+        {
+          "headline": "Verlinvest to become Oatly’s largest shareholder",
+          "summary": "The investment firm’s proposed buyout of joint venture partner China Resources comes as Oatly explores a potential carve-out of its Greater China business",
+          "url": "https://www.worldcoffeeportal.com/news/verlinvest-to-become-oatlys-largest-shareholder/",
+          "publisher": "World Coffee Portal",
+          "published": "Tue, 24 Nov 2026 12:46:55 GMT",
+          "date": "Tue, 24 Nov",
+          "section": "Roasting & retail"
+        },
+        {
+          "headline": "USDA Cuts Colombia Coffee Export Forecast by 760,000 Bags",
+          "summary": "Colombia’s coffee production is forecast to increase by 5.9% to 13.4 million 60-kilogram bags in market year 2026/27, but the country’s export forecast has been cut by 760,000 bags from...",
+          "url": "https://dailycoffeenews.com/2026/11/24/usda-cuts-colombia-coffee-export-forecast-by-760000-bags/",
+          "publisher": "Daily Coffee News",
+          "published": "Tue, 24 Nov 2026 12:42:54 +0000",
+          "date": "Tue, 24 Nov",
+          "section": "Top stories of the week"
+        },
         {
           "headline": "Coffee Decoded: Coffee that Tastes Like Potatoes? Explaining Potato Taste Defect",
           "summary": "Welcome to Coffee, Decoded, the Specialty Coffee Association’s weekly column on science, research, and all things coffee knowledge. This week, LAUREL CARMICHAEL explains recent research on Potato Taste Defect—a sensory defect that can make coffee taste…",
@@ -3743,48 +3791,12 @@
           "section": "Roasting & retail"
         },
         {
-          "headline": "Investment Firms Acquiring Parent Company of Italy’s Evoca Group",
-          "summary": "Global investment firms Carlyle and Park Square Capital are acquiring the parent company of Italian coffee equipment manufacturer Evoca Group. The agreement, announced Nov. 18, calls for Carlyle and Park...",
-          "url": "https://dailycoffeenews.com/2026/11/23/investment-firms-acquiring-parent-company-of-italys-evoca-group/",
-          "publisher": "Daily Coffee News",
-          "published": "Mon, 23 Nov 2026 15:34:21 +0000",
-          "date": "Mon, 23 Nov",
-          "section": "Roasting & retail"
-        },
-        {
-          "headline": "Design Details: The Organic Forms of X Coffee Tools by Pose Bureau",
-          "summary": "Welcome to Design Details, an ongoing editorial feature in Daily Coffee News focused on individual examples of coffee shop architecture, interior design, packaging design or branding. If you are a coffee...",
-          "url": "https://dailycoffeenews.com/2026/11/23/design-details-the-organic-forms-of-x-coffee-tools-by-pose-bureau/",
-          "publisher": "Daily Coffee News",
-          "published": "Mon, 23 Nov 2026 13:44:41 +0000",
-          "date": "Mon, 23 Nov",
-          "section": "Roasting & retail"
-        },
-        {
           "headline": "Coffee News Club: November 23rd",
           "summary": "This year’s hottest coffee brewer is plastic-free. Plus, Fair Trade USA raises minimum prices, and the Starbucks Workers United boycott truck is on tour. The post Coffee News Club: November 23rd appeared first on Fresh Cup .",
           "url": "https://freshcup.com/coffee-news-club-november-23rd/",
           "publisher": "Fresh Cup",
           "published": "Mon, 23 Nov 2026 12:50:00 +0000",
           "date": "Mon, 23 Nov",
-          "section": "Top stories of the week"
-        },
-        {
-          "headline": "The Week in Coffee, 16-22 November 2026",
-          "summary": "Your weekly round-up of the five biggest stories from across the global coffee industry...",
-          "url": "https://www.worldcoffeeportal.com/news/the-week-in-coffee-16-22-november-2026/",
-          "publisher": "World Coffee Portal",
-          "published": "Mon, 23 Nov 2026 11:17:13 GMT",
-          "date": "Mon, 23 Nov",
-          "section": "Roasting & retail"
-        },
-        {
-          "headline": "KCOFFEE can propel Yum China to bold new growth target",
-          "summary": "With Luckin Coffee’s like-for-like sales faltering and Cotti Coffee and Lucky Cup experiencing growing pains, there is an opportunity emerging for KCOFFEE to quickly gain share in the booming Chinese branded coffee shop market",
-          "url": "https://www.worldcoffeeportal.com/news/kcoffee-can-propel-yum-china-to-bold-new-growth-target/",
-          "publisher": "World Coffee Portal",
-          "published": "Thu, 19 Nov 2026 17:51:58 GMT",
-          "date": "Thu, 19 Nov",
           "section": "Top stories of the week"
         },
         {
@@ -3804,33 +3816,6 @@
           "published": "Thu, 19 Nov 2026 13:02:00 +0000",
           "date": "Thu, 19 Nov",
           "section": "Top stories of the week"
-        },
-        {
-          "headline": "Juan Valdez to ramp up Latin America expansion after reaching new growth milestone",
-          "summary": "Latin America sales outside of the Colombian coffee group’s home market have grown 24% year-on-year so far in 2026",
-          "url": "https://www.worldcoffeeportal.com/news/juan-valdez-to-ramp-up-latin-america-expansion-after-reaching-new-growth-milestone/",
-          "publisher": "World Coffee Portal",
-          "published": "Thu, 19 Nov 2026 11:16:40 GMT",
-          "date": "Thu, 19 Nov",
-          "section": "Top stories of the week"
-        },
-        {
-          "headline": "Fair Trade USA Raising Minimum Coffee Prices to New Fairtrade Levels",
-          "summary": "Fair Trade USA is raising its minimum price for washed arabica coffee from $1.40 to $2 per pound, marking a significant shift three years after the certification organization opted against...",
-          "url": "https://dailycoffeenews.com/2026/11/18/fair-trade-usa-raising-minimum-coffee-prices-to-new-fairtrade-levels/",
-          "publisher": "Daily Coffee News",
-          "published": "Wed, 18 Nov 2026 14:41:43 +0000",
-          "date": "Wed, 18 Nov",
-          "section": "Trade & production"
-        },
-        {
-          "headline": "Roasting Partner Launches an Operating System for Roasters",
-          "summary": "A new software platform called Roasting Partner opened to outside coffee roasting businesses in October, offering tools designed to organize production, inventory, sales, cafe operations and other day-to-day roastery data...",
-          "url": "https://dailycoffeenews.com/2026/11/18/roasting-partner-launches-an-operating-system-for-roasters/",
-          "publisher": "Daily Coffee News",
-          "published": "Wed, 18 Nov 2026 12:08:31 +0000",
-          "date": "Wed, 18 Nov",
-          "section": "Top stories of the week"
         }
       ],
       "errors": [
@@ -3842,13 +3827,13 @@
       "note": "Assembled from the coffee trade press over the past seven days, ranked by relevance to the physical trade. Headlines and links are each publisher’s own."
     },
     "dailyRead": {
-      "fetchedAt": "2026-11-24T04:02:01.247Z",
+      "fetchedAt": "2026-11-24T16:49:51.508Z",
       "article": {
-        "title": "Brazil’s Record Coffee Harvest Comes with Quality and Stock Concerns",
-        "summary": "Brazil’s completed 2026/27 coffee harvest is now estimated at a record-high 72.5 million 60-kilogram bags, up 15.1% from the previous market year, although heavy rains reduced arabica quality, according to...",
-        "url": "https://dailycoffeenews.com/2026/11/19/brazils-record-coffee-harvest-comes-with-quality-and-stock-concerns/",
+        "title": "USDA Cuts Colombia Coffee Export Forecast by 760,000 Bags",
+        "summary": "Colombia’s coffee production is forecast to increase by 5.9% to 13.4 million 60-kilogram bags in market year 2026/27, but the country’s export forecast has been cut by 760,000 bags from...",
+        "url": "https://dailycoffeenews.com/2026/11/24/usda-cuts-colombia-coffee-export-forecast-by-760000-bags/",
         "publisher": "Daily Coffee News",
-        "published": "Thu, 19 Nov 2026 15:10:49 +0000"
+        "published": "Tue, 24 Nov 2026 12:42:54 +0000"
       },
       "considered": 10
     }
@@ -4170,38 +4155,38 @@
     {
       "source": "weather",
       "ok": true,
-      "ms": 154
-    },
-    {
-      "source": "daily-read",
-      "ok": true,
-      "ms": 233
+      "ms": 262
     },
     {
       "source": "arabica-futures",
       "ok": true,
-      "ms": 653
+      "ms": 350
     },
     {
-      "source": "weekly-recap",
+      "source": "daily-read",
       "ok": true,
-      "ms": 1628
-    },
-    {
-      "source": "origin-wire",
-      "ok": true,
-      "ms": 2881
-    },
-    {
-      "source": "ico-report",
-      "ok": false,
-      "ms": 3331,
-      "error": "HTTP 404 for https://www.ico.org/documents/cy2025-26/cmr-1026-e.pdf"
+      "ms": 295
     },
     {
       "source": "fx",
       "ok": true,
-      "ms": 4414
+      "ms": 695
+    },
+    {
+      "source": "weekly-recap",
+      "ok": true,
+      "ms": 1109
+    },
+    {
+      "source": "ico-report",
+      "ok": false,
+      "ms": 2745,
+      "error": "HTTP 404 for https://www.ico.org/documents/cy2025-26/cmr-1026-e.pdf"
+    },
+    {
+      "source": "origin-wire",
+      "ok": true,
+      "ms": 2922
     }
   ]
 }

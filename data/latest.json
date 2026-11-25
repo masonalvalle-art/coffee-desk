@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T16:49:54.129Z",
+  "generatedAt": "2026-11-25T02:43:56.581Z",
   "schema": 5,
   "schedule": {
     "slotsUtc": [
@@ -26,8 +26,8 @@
       "frontMonth": {
         "code": "KCZ26",
         "label": "Dec 2026",
-        "close": 271,
-        "volume": 13
+        "close": 268.55,
+        "volume": 14
       },
       "rolled": true,
       "mostActive": "KCH27",
@@ -35,56 +35,56 @@
         {
           "code": "KCZ26",
           "label": "Dec 2026",
-          "close": 271,
-          "volume": 13
+          "close": 268.55,
+          "volume": 14
         },
         {
           "code": "KCH27",
           "label": "Mar 2027",
-          "close": 261.15,
-          "volume": 13131
+          "close": 262.6,
+          "volume": 18935
         },
         {
           "code": "KCK27",
           "label": "May 2027",
-          "close": 255.85,
-          "volume": 6923
+          "close": 257.4,
+          "volume": 10702
         },
         {
           "code": "KCN27",
           "label": "Jul 2027",
-          "close": 251.5,
-          "volume": 2262
+          "close": 252.8,
+          "volume": 3530
         },
         {
           "code": "KCU27",
           "label": "Sep 2027",
-          "close": 247.6,
-          "volume": 1038
+          "close": 249.15,
+          "volume": 1900
         },
         {
           "code": "KCZ27",
           "label": "Dec 2027",
-          "close": 244.5,
-          "volume": 345
+          "close": 244.75,
+          "volume": 702
         },
         {
           "code": "KCH28",
           "label": "Mar 2028",
-          "close": 241.35,
-          "volume": 71
+          "close": 241.1,
+          "volume": 140
         }
       ],
       "quote": {
-        "last": 263.95,
+        "last": 260.4,
         "open": 266.75,
         "high": 266.75,
-        "low": 261.75,
+        "low": 260.04998779296875,
         "previousClose": 267.75,
-        "change": -3.8,
-        "changePct": -1.419,
-        "volume": 11797,
-        "asOf": "2026-11-24T16:29:44.000Z"
+        "change": -7.35,
+        "changePct": -2.745,
+        "volume": 0,
+        "asOf": "2026-11-24T18:29:55.000Z"
       },
       "bars": [
         {
@@ -2637,23 +2637,23 @@
           "high": 275.45001220703125,
           "low": 265.54998779296875,
           "close": 267.75,
-          "volume": 15512
+          "volume": 14004
         },
         {
           "date": "2026-11-24",
           "open": 266.75,
           "high": 266.75,
-          "low": 261.75,
-          "close": 263.95001220703125,
-          "volume": 11797
+          "low": 260.04998779296875,
+          "close": 260.3999938964844,
+          "volume": 0
         }
       ],
       "crossCheck": {
-        "tradingView": 261.15,
-        "yahoo": 263.95,
-        "diff": -2.8,
-        "diffPct": -1.061,
-        "agree": false
+        "tradingView": 262.6,
+        "yahoo": 260.4,
+        "diff": 2.2,
+        "diffPct": 0.845,
+        "agree": true
       },
       "sources": [
         {
@@ -2669,34 +2669,34 @@
       ],
       "technicals": {
         "observations": 503,
-        "sma20": 272.5249984741211,
-        "sma50": 278.69200012207034,
-        "sma200": 276.4844998168945,
-        "rsi14": 38.241123136981074,
+        "sma20": 272.3474975585938,
+        "sma50": 278.6209997558594,
+        "sma200": 276.4667497253418,
+        "rsi14": 35.835640308808976,
         "macd": {
-          "line": -3.607758168840178,
-          "signal": -3.247458634307173,
-          "histogram": -0.3602995345330049
+          "line": -3.8909505127014654,
+          "signal": -3.3040971030794304,
+          "histogram": -0.586853409622035
         },
-        "atr14": 8.524775881664457,
+        "atr14": 8.646205325023832,
         "donchian20": {
           "high": 285.29998779296875,
-          "low": 261.75,
+          "low": 260.04998779296875,
           "period": 20
         },
         "levels": {
           "support": [
             {
-              "price": 262.6000061035156,
-              "date": "2026-09-23"
+              "price": 259,
+              "date": "2025-02-26"
             },
             {
-              "price": 262.1499938964844,
-              "date": "2026-11-11"
+              "price": 258.95001220703125,
+              "date": "2026-02-24"
             },
             {
-              "price": 261.1000061035156,
-              "date": "2026-03-16"
+              "price": 257.25,
+              "date": "2026-04-21"
             }
           ],
           "resistance": [
@@ -3252,7 +3252,7 @@
     ]
   },
   "weather": {
-    "fetchedAt": "2026-11-24T16:49:51.466Z",
+    "fetchedAt": "2026-11-25T02:43:53.002Z",
     "thresholds": {
       "frostC": 4,
       "heavyRainMm": 50,
@@ -3277,24 +3277,24 @@
         "lat": -21.55,
         "lon": -45.43,
         "current": {
-          "date": "2026-11-23",
-          "tMax": 29.5,
-          "tMin": 19.6,
-          "rain": 13.9,
-          "code": 81,
-          "cloud": 82,
+          "date": "2026-11-24",
+          "tMax": 28.6,
+          "tMin": 20,
+          "rain": 11.7,
+          "code": 95,
+          "cloud": 92,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 79.9,
-        "rainForecast7": 133.8,
-        "minForecast7": 17.2,
+        "rain14": 91.6,
+        "rainForecast7": 107,
+        "minForecast7": 17.4,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "134 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "107 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3306,24 +3306,24 @@
         "lat": -18.94,
         "lon": -46.99,
         "current": {
-          "date": "2026-11-23",
-          "tMax": 28,
+          "date": "2026-11-24",
+          "tMax": 27.6,
           "tMin": 20.2,
-          "rain": 5.5,
-          "code": 53,
-          "cloud": 88,
+          "rain": 13.5,
+          "code": 80,
+          "cloud": 95,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 71.1,
-        "rainForecast7": 99.9,
-        "minForecast7": 19.5,
+        "rain14": 84.6,
+        "rainForecast7": 55.7,
+        "minForecast7": 19.3,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "100 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "56 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3335,19 +3335,19 @@
         "lat": -19.39,
         "lon": -40.07,
         "current": {
-          "date": "2026-11-23",
-          "tMax": 33.4,
-          "tMin": 24.6,
-          "rain": 2,
-          "code": 95,
-          "cloud": 93,
+          "date": "2026-11-24",
+          "tMax": 33.7,
+          "tMin": 25,
+          "rain": 0.5,
+          "code": 51,
+          "cloud": 91,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 146.5,
-        "rainForecast7": 6.6,
-        "minForecast7": 23.4,
+        "rain14": 147,
+        "rainForecast7": 6.5,
+        "minForecast7": 23.5,
         "alerts": []
       },
       {
@@ -3358,18 +3358,18 @@
         "lat": 12.68,
         "lon": 108.05,
         "current": {
-          "date": "2026-11-23",
-          "tMax": 29.5,
-          "tMin": 21.4,
-          "rain": 0,
-          "code": 3,
-          "cloud": 68,
+          "date": "2026-11-24",
+          "tMax": 29.6,
+          "tMin": 22.7,
+          "rain": 0.2,
+          "code": 51,
+          "cloud": 70,
           "observed": true
         },
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
-        "rain14": 25.8,
-        "rainForecast7": 19.6,
+        "rain14": 24.9,
+        "rainForecast7": 5.6,
         "minForecast7": 22.2,
         "alerts": []
       },
@@ -3381,26 +3381,20 @@
         "lat": 11.55,
         "lon": 107.81,
         "current": {
-          "date": "2026-11-23",
-          "tMax": 29.8,
-          "tMin": 18.8,
-          "rain": 0.8,
-          "code": 53,
-          "cloud": 61,
+          "date": "2026-11-24",
+          "tMax": 28.5,
+          "tMin": 19.3,
+          "rain": 0.6,
+          "code": 51,
+          "cloud": 85,
           "observed": true
         },
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
-        "rain14": 25.4,
-        "rainForecast7": 60.9,
-        "minForecast7": 17.9,
-        "alerts": [
-          {
-            "type": "wet",
-            "severity": "watch",
-            "text": "61 mm forecast over 7 days — harvest/drying disruption risk."
-          }
-        ]
+        "rain14": 22.6,
+        "rainForecast7": 31.6,
+        "minForecast7": 17.5,
+        "alerts": []
       },
       {
         "key": "huila",
@@ -3410,19 +3404,19 @@
         "lat": 1.85,
         "lon": -76.05,
         "current": {
-          "date": "2026-11-23",
-          "tMax": 29.2,
-          "tMin": 17.2,
-          "rain": 6.3,
-          "code": 81,
-          "cloud": 53,
+          "date": "2026-11-24",
+          "tMax": 28.5,
+          "tMin": 18.6,
+          "rain": 2.3,
+          "code": 53,
+          "cloud": 85,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 47.6,
-        "rainForecast7": 46.8,
-        "minForecast7": 17.7,
+        "rain14": 49.9,
+        "rainForecast7": 38.7,
+        "minForecast7": 17.3,
         "alerts": []
       },
       {
@@ -3433,19 +3427,19 @@
         "lat": 6.25,
         "lon": -75.56,
         "current": {
-          "date": "2026-11-23",
-          "tMax": 28.7,
-          "tMin": 18.1,
-          "rain": 1,
-          "code": 51,
-          "cloud": 68,
+          "date": "2026-11-24",
+          "tMax": 29.2,
+          "tMin": 17.9,
+          "rain": 7.6,
+          "code": 81,
+          "cloud": 77,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 32,
-        "rainForecast7": 40.8,
-        "minForecast7": 16.5,
+        "rain14": 39.6,
+        "rainForecast7": 30.9,
+        "minForecast7": 17.3,
         "alerts": []
       },
       {
@@ -3456,24 +3450,24 @@
         "lat": 4.63,
         "lon": 96.85,
         "current": {
-          "date": "2026-11-23",
-          "tMax": 24.4,
-          "tMin": 17.9,
-          "rain": 12.9,
+          "date": "2026-11-24",
+          "tMax": 25.3,
+          "tMin": 17.6,
+          "rain": 33.8,
           "code": 81,
-          "cloud": 96,
+          "cloud": 93,
           "observed": true
         },
-        "condition": "wet",
-        "conditionLabel": "Wet",
-        "rain14": 212.4,
-        "rainForecast7": 134.4,
-        "minForecast7": 17,
+        "condition": "very-wet",
+        "conditionLabel": "Very wet",
+        "rain14": 218.3,
+        "rainForecast7": 107.4,
+        "minForecast7": 16.6,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "134 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "107 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3485,19 +3479,19 @@
         "lat": -5.45,
         "lon": 105.27,
         "current": {
-          "date": "2026-11-23",
-          "tMax": 32.4,
-          "tMin": 25.7,
-          "rain": 6,
-          "code": 55,
-          "cloud": 85,
+          "date": "2026-11-24",
+          "tMax": 31.4,
+          "tMin": 26.4,
+          "rain": 1.5,
+          "code": 53,
+          "cloud": 98,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 86.6,
-        "rainForecast7": 34.2,
-        "minForecast7": 23.8,
+        "rain14": 86.7,
+        "rainForecast7": 48.5,
+        "minForecast7": 23.7,
         "alerts": []
       },
       {
@@ -3508,19 +3502,19 @@
         "lat": 7.67,
         "lon": 36.83,
         "current": {
-          "date": "2026-11-23",
-          "tMax": 24.7,
-          "tMin": 13.5,
+          "date": "2026-11-24",
+          "tMax": 24.6,
+          "tMin": 13.9,
           "rain": 0.1,
           "code": 51,
-          "cloud": 56,
+          "cloud": 53,
           "observed": true
         },
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
-        "rain14": 85.3,
-        "rainForecast7": 6.7,
-        "minForecast7": 13.2,
+        "rain14": 80,
+        "rainForecast7": 9.4,
+        "minForecast7": 13.5,
         "alerts": []
       },
       {
@@ -3531,19 +3525,19 @@
         "lat": 14.16,
         "lon": -88.02,
         "current": {
-          "date": "2026-11-23",
-          "tMax": 26.9,
-          "tMin": 18.1,
-          "rain": 1.1,
-          "code": 51,
-          "cloud": 56,
+          "date": "2026-11-24",
+          "tMax": 28.6,
+          "tMin": 17.8,
+          "rain": 1.5,
+          "code": 53,
+          "cloud": 70,
           "observed": true
         },
         "condition": "dry",
         "conditionLabel": "Clear / dry",
-        "rain14": 14.9,
-        "rainForecast7": 17,
-        "minForecast7": 13.8,
+        "rain14": 16.4,
+        "rainForecast7": 16.3,
+        "minForecast7": 15.2,
         "alerts": []
       },
       {
@@ -3554,24 +3548,24 @@
         "lat": -11.05,
         "lon": -75.33,
         "current": {
-          "date": "2026-11-23",
-          "tMax": 32.6,
-          "tMin": 22.3,
-          "rain": 3.7,
-          "code": 51,
-          "cloud": 82,
+          "date": "2026-11-24",
+          "tMax": 32.4,
+          "tMin": 21.1,
+          "rain": 5.9,
+          "code": 80,
+          "cloud": 61,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 74,
-        "rainForecast7": 133.5,
-        "minForecast7": 20.6,
+        "rain14": 79.9,
+        "rainForecast7": 92.3,
+        "minForecast7": 20.4,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "134 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "92 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       }
@@ -3586,20 +3580,20 @@
   },
   "news": {
     "originWire": {
-      "fetchedAt": "2026-11-24T16:49:54.127Z",
+      "fetchedAt": "2026-11-25T02:43:56.577Z",
       "lookbackHours": 504,
       "headlines": [
         {
-          "title": "How Brazil’s mosquitoes are helping to fight dengue",
-          "summary": "Scientists are increasingly using novel ways to re-engineer mosquitoes and use them to battle the diseases they spread.",
-          "url": "https://www.aljazeera.com/news/2026/11/24/how-brazils-mosquitoes-are-helping-to-fight?traffic_source=rss",
+          "title": "Brazil doctor uses surfboard and sledgehammer in flood rescue",
+          "summary": "A Brazilian doctor is being hailed a hero after rescuing an old man from severe flooding using a surfboard",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/24/brazil-doctor-uses-surfboard-and-sledgehammer-in-flood-rescue?traffic_source=rss",
           "publisher": "Al Jazeera",
           "region": "Brazil",
-          "published": "Tue, 24 Nov 2026 15:09:00 +0000"
+          "published": "Tue, 24 Nov 2026 20:58:41 +0000"
         },
         {
           "title": "Hanoi eatery blast leaves row of houses damaged",
-          "summary": "An explosion at a Hanoi eatery killed three people Tuesday morning and left a row of about 10 homes badly damaged, with roll-up shutters torn from their frames, corrugated metal roofs caved in and motorcycles knocked over.",
+          "summary": "An explosion at a Hanoi eatery left a row of about 10 homes badly damaged, with roll-up shutters torn from their frames, corrugated metal roofs caved in and motorcycles knocked over.",
           "url": "https://e.vnexpress.net/photo/news/hanoi-eatery-blast-leaves-row-of-houses-damaged-5148344.html",
           "publisher": "VnExpress International",
           "region": "Vietnam",
@@ -3614,36 +3608,28 @@
           "published": "Mon, 23 Nov 2026 15:23:18 +0700"
         },
         {
-          "title": "Ten years after its 2016 peace deal, Colombia faces a return to conflict",
-          "summary": "Critics fear that a security crackdown under Abelardo de la Espriella could unravel gains made under the 2016 deal.",
-          "url": "https://www.aljazeera.com/news/longform/2026/11/24/ten-years-after-its-2016-peace-deal-colombia-faces-a-return-to-conflict?traffic_source=rss",
+          "title": "Gunmen hold dozens hostage in Colombia supermarket",
+          "summary": "A group of armed men is holding around 20 people hostage in Cartagena, Colombia.",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/gunmen-hold-dozens-hostage-in-colombia-supermarket?traffic_source=rss",
           "publisher": "Al Jazeera",
           "region": "Colombia",
-          "published": "Tue, 24 Nov 2026 13:35:51 +0000"
+          "published": "Wed, 25 Nov 2026 00:49:35 +0000"
         },
         {
-          "title": "Watch: Moment troops raid home and capture Mexican drug lord",
-          "summary": "Newly-released bodycam footage shows the moment troops detained 'El Chapo Isidro', who had managed to evade capture for years.",
-          "url": "https://www.bbc.co.uk/news/videos/cm62p9y3y04qo?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
+          "title": "Argentina expected to suffer technical recession in blow to Milei",
+          "summary": "President’s crusade against inflation weighs down economy as he prepares to mount re-election bid next year",
+          "url": "https://www.ft.com/content/7ad64c80-64d2-4516-9400-1fbad546b0fe?syn-25a6b1a6=1",
+          "publisher": "Financial Times",
           "region": "South & Central America",
-          "published": "Tue, 24 Nov 2026 09:09:41 GMT"
+          "published": "Tue, 24 Nov 2026 20:54:16 GMT"
         },
         {
-          "title": "DR Congo says military aircraft missing as rebels claim to shoot down plane",
-          "summary": "A South African fighter pilot and a Ugandan officer are reportedly among those aboard the downed plane.",
-          "url": "https://www.bbc.co.uk/news/articles/cwy7r5z8gg65o?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
+          "title": "Rebel group retreats in DR Congo after heavy clashes with government forces",
+          "summary": "CRP halts advance towards Bunia, citing commitments made during Ugandan-mediated talks with government.",
+          "url": "https://www.aljazeera.com/news/2026/11/24/rebel-group-retreats-in-dr-congo-after-heavy-clashes-with-government-forces?traffic_source=rss",
+          "publisher": "Al Jazeera",
           "region": "East Africa",
-          "published": "Tue, 24 Nov 2026 16:31:26 GMT"
-        },
-        {
-          "title": "The footballer-turned-BookTuber who made an obscure Tolstoy novella a belated bestseller",
-          "summary": "Once named the best player in Brazil, Gustavo Scarpa’s literature obsession has inspired thousands to become bookworms Julián Scatolaro noticed something odd was occurring when several people came into his bookshop over the space of a few days, all asking for…",
-          "url": "https://www.theguardian.com/world/2026/nov/22/the-football-superstar-turned-booktuber-who-made-an-obscure-tolstoy-novella-a-belated-bestseller",
-          "publisher": "The Guardian",
-          "region": "Brazil",
-          "published": "Sun, 22 Nov 2026 15:00:29 GMT"
+          "published": "Tue, 24 Nov 2026 23:39:13 +0000"
         },
         {
           "title": "Outlet centers and duty-free shops proposed for Vietnam’s largest airport Long Thanh",
@@ -3662,36 +3648,28 @@
           "published": "Mon, 23 Nov 2026 05:45:12 GMT"
         },
         {
-          "title": "Car bomb tears through Colombian city wounding more than 20",
-          "summary": "The explosion is the latest in a string of attacks on buildings housing the security forces and government offices.",
-          "url": "https://www.bbc.co.uk/news/articles/cjqlq2n4np7do?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
+          "title": "Colombian president blames ex-FARC rebels for car bomb blast",
+          "summary": "Colombian President De la Espriella blames the FARC for plotting a bombing that injured tens and pledges to retaliate.",
+          "url": "https://www.aljazeera.com/news/2026/11/24/colombian-president-blames-ex-farc-rebels-for-car-bomb-blast?traffic_source=rss",
+          "publisher": "Al Jazeera",
           "region": "Colombia",
-          "published": "Tue, 24 Nov 2026 11:45:52 GMT"
+          "published": "Tue, 24 Nov 2026 21:45:42 +0000"
         },
         {
-          "title": "Everything Else Is Noise review – a musician attempts to raise her art above the cacophony of city noise",
-          "summary": "A TV shoot is beset with barking dogs, power cuts and personal animosities in Nicolás Pereda’s docufiction exploring the fight for artistic space in a world of distractions This latest docufiction from Mexican-Canadian film-maker Nicolás Pereda finds rhythm…",
-          "url": "https://www.theguardian.com/film/2026/nov/24/everything-else-is-noise-review-a-musician-attempts-to-raise-her-art-above-the-cacophony-of-city-noise",
-          "publisher": "The Guardian",
+          "title": "Venezuela unveils $240bn debt pile ahead of historic restructuring",
+          "summary": "Finance ministry publishes ‘clear and credible’ economic plan 10 months after US removed Nicolás Maduro from power",
+          "url": "https://www.ft.com/content/5975ac9e-20a2-4c20-a0e8-805892253272?syn-25a6b1a6=1",
+          "publisher": "Financial Times",
           "region": "South & Central America",
-          "published": "Tue, 24 Nov 2026 07:00:09 GMT"
+          "published": "Tue, 24 Nov 2026 17:53:01 GMT"
         },
         {
-          "title": "Kenya and DR Congo agree to restore ties after tensions over conflict",
-          "summary": "The two leaders committed to upholding sovereignty and \"non-interference in the internal affairs of states\".",
-          "url": "https://www.bbc.co.uk/news/articles/cmvg2qnn95vro?at_medium=RSS&amp;at_campaign=rss",
+          "title": "DR Congo says military aircraft missing as rebels claim to shoot down plane",
+          "summary": "A South African fighter pilot and a Ugandan officer are reportedly among those aboard the downed plane.",
+          "url": "https://www.bbc.co.uk/news/articles/cwy7r5z8gg65o?at_medium=RSS&amp;at_campaign=rss",
           "publisher": "BBC News",
           "region": "East Africa",
-          "published": "Mon, 23 Nov 2026 08:53:01 GMT"
-        },
-        {
-          "title": "Isolated Brazilian tribe emerges amid alarm over threats to group’s way of life",
-          "summary": "Indigenous Awá people of Amazon make contact with villagers and accept food to take back to territory About 20 Indigenous people emerged from isolation in Brazil’s Amazon rainforest, several organizations reported on Tuesday, raising the alarm about increased…",
-          "url": "https://www.theguardian.com/world/2026/nov/17/brazil-amazon-isolated-indigenous-people",
-          "publisher": "The Guardian",
-          "region": "Brazil",
-          "published": "Tue, 17 Nov 2026 21:40:56 GMT"
+          "published": "Tue, 24 Nov 2026 19:27:23 GMT"
         },
         {
           "title": "Death toll from Hanoi eatery blast rises to 7",
@@ -3700,16 +3678,45 @@
           "publisher": "VnExpress International",
           "region": "Vietnam",
           "published": "Tue, 24 Nov 2026 09:46:26 +0700"
+        },
+        {
+          "title": "Search for Indonesia factory fire missing resumes Monday, police remove 24 body bags",
+          "summary": "Indonesian police removed 24 body bags from a factory destroyed by fire in ​Java on Sunday as firefighters battled remaining hotspots a day after the ‌blaze tore through the building and a search for dozens of missing workers was suspended overnight.",
+          "url": "https://e.vnexpress.net/news/news/search-for-indonesia-factory-fire-missing-resumes-monday-police-remove-24-body-bags-5147891.html",
+          "publisher": "VnExpress International",
+          "region": "Indonesia",
+          "published": "Mon, 23 Nov 2026 10:26:18 +0700"
+        },
+        {
+          "title": "Armed men hold hostages at supermarket in top Colombian tourist destination",
+          "summary": "Police say at least 20 held in supermarket and Cartagena incident stems from botched robbery by ‘common criminals’ Armed and masked men are holding at least 20 people hostage in a supermarket in Cartagena, one of Colombia’s most popular tourist cities. About…",
+          "url": "https://www.theguardian.com/world/2026/nov/24/cartagena-colombia-hostages-supermarket",
+          "publisher": "The Guardian",
+          "region": "Colombia",
+          "published": "Tue, 24 Nov 2026 21:06:37 GMT"
         }
       ],
-      "totalTagged": 109,
+      "totalTagged": 101,
       "feedsQueried": 14,
-      "errors": [],
+      "errors": [
+        {
+          "feed": "The Guardian / Africa",
+          "error": "HTTP 403 for https://www.theguardian.com/world/africa/rss"
+        },
+        {
+          "feed": "The Guardian / Brazil",
+          "error": "HTTP 403 for https://www.theguardian.com/world/brazil/rss"
+        },
+        {
+          "feed": "The Guardian / Colombia",
+          "error": "HTTP 403 for https://www.theguardian.com/world/colombia/rss"
+        }
+      ],
       "note": "General headlines from the growing regions, taken from outlets of record and tagged to a region by the countries and cities they name."
     },
     "roundup": {
       "source": "assembled",
-      "fetchedAt": "2026-11-24T16:49:52.318Z",
+      "fetchedAt": "2026-11-25T02:43:54.394Z",
       "windowDays": 7,
       "publishers": [
         "Daily Coffee News",
@@ -3827,7 +3834,7 @@
       "note": "Assembled from the coffee trade press over the past seven days, ranked by relevance to the physical trade. Headlines and links are each publisher’s own."
     },
     "dailyRead": {
-      "fetchedAt": "2026-11-24T16:49:51.508Z",
+      "fetchedAt": "2026-11-25T02:43:53.258Z",
       "article": {
         "title": "USDA Cuts Colombia Coffee Export Forecast by 760,000 Bags",
         "summary": "Colombia’s coffee production is forecast to increase by 5.9% to 13.4 million 60-kilogram bags in market year 2026/27, but the country’s export forecast has been cut by 760,000 bags from...",
@@ -4155,38 +4162,38 @@
     {
       "source": "weather",
       "ok": true,
-      "ms": 262
-    },
-    {
-      "source": "arabica-futures",
-      "ok": true,
-      "ms": 350
+      "ms": 194
     },
     {
       "source": "daily-read",
       "ok": true,
-      "ms": 295
+      "ms": 442
     },
     {
-      "source": "fx",
+      "source": "arabica-futures",
       "ok": true,
-      "ms": 695
+      "ms": 879
     },
     {
       "source": "weekly-recap",
       "ok": true,
-      "ms": 1109
+      "ms": 1581
+    },
+    {
+      "source": "fx",
+      "ok": true,
+      "ms": 1961
     },
     {
       "source": "ico-report",
       "ok": false,
-      "ms": 2745,
+      "ms": 3265,
       "error": "HTTP 404 for https://www.ico.org/documents/cy2025-26/cmr-1026-e.pdf"
     },
     {
       "source": "origin-wire",
       "ok": true,
-      "ms": 2922
+      "ms": 3768
     }
   ]
 }

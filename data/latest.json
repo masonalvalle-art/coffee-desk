@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T16:10:14.696Z",
+  "generatedAt": "2026-11-27T01:53:20.322Z",
   "schema": 5,
   "schedule": {
     "slotsUtc": [
@@ -3234,9 +3234,9 @@
       }
     },
     "ptax": {
-      "buy": 5.8819,
-      "sell": 5.8825,
-      "quotedAt": "2026-11-25 13:02:42.418138"
+      "buy": 5.744,
+      "sell": 5.7446,
+      "quotedAt": "2026-11-26 13:11:27.937451"
     },
     "sources": [
       {
@@ -3252,7 +3252,7 @@
     ]
   },
   "weather": {
-    "fetchedAt": "2026-11-26T16:10:12.209Z",
+    "fetchedAt": "2026-11-27T01:53:17.312Z",
     "thresholds": {
       "frostC": 4,
       "heavyRainMm": 50,
@@ -3277,24 +3277,24 @@
         "lat": -21.55,
         "lon": -45.43,
         "current": {
-          "date": "2026-11-25",
-          "tMax": 27.8,
-          "tMin": 20.5,
-          "rain": 14.4,
-          "code": 81,
-          "cloud": 96,
+          "date": "2026-11-26",
+          "tMax": 28.1,
+          "tMin": 18.1,
+          "rain": 3.7,
+          "code": 80,
+          "cloud": 82,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 100.7,
-        "rainForecast7": 81.3,
-        "minForecast7": 16.5,
+        "rain14": 104.4,
+        "rainForecast7": 76.8,
+        "minForecast7": 16.1,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "81 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "77 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3306,26 +3306,20 @@
         "lat": -18.94,
         "lon": -46.99,
         "current": {
-          "date": "2026-11-25",
-          "tMax": 27.1,
-          "tMin": 20,
-          "rain": 9.9,
+          "date": "2026-11-26",
+          "tMax": 28.9,
+          "tMin": 20.3,
+          "rain": 11.7,
           "code": 95,
-          "cloud": 98,
+          "cloud": 89,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 93.1,
-        "rainForecast7": 60.9,
-        "minForecast7": 19.6,
-        "alerts": [
-          {
-            "type": "wet",
-            "severity": "watch",
-            "text": "61 mm forecast over 7 days — harvest/drying disruption risk."
-          }
-        ]
+        "rain14": 104.8,
+        "rainForecast7": 41.5,
+        "minForecast7": 18.9,
+        "alerts": []
       },
       {
         "key": "espirito-santo",
@@ -3335,19 +3329,19 @@
         "lat": -19.39,
         "lon": -40.07,
         "current": {
-          "date": "2026-11-25",
-          "tMax": 34.8,
-          "tMin": 24.5,
-          "rain": 0.1,
+          "date": "2026-11-26",
+          "tMax": 34.9,
+          "tMin": 23.6,
+          "rain": 0.4,
           "code": 51,
-          "cloud": 79,
+          "cloud": 94,
           "observed": true
         },
-        "condition": "very-wet",
-        "conditionLabel": "Very wet",
-        "rain14": 130.8,
-        "rainForecast7": 6.3,
-        "minForecast7": 23,
+        "condition": "cloudy",
+        "conditionLabel": "Cloudy",
+        "rain14": 131.2,
+        "rainForecast7": 9.8,
+        "minForecast7": 21.9,
         "alerts": []
       },
       {
@@ -3358,42 +3352,19 @@
         "lat": 12.68,
         "lon": 108.05,
         "current": {
-          "date": "2026-11-25",
-          "tMax": 30.2,
-          "tMin": 22.3,
-          "rain": 0,
-          "code": 3,
-          "cloud": 68,
+          "date": "2026-11-26",
+          "tMax": 29.2,
+          "tMin": 22.1,
+          "rain": 0.5,
+          "code": 51,
+          "cloud": 80,
           "observed": true
         },
         "condition": "cloudy",
         "conditionLabel": "Cloudy",
-        "rain14": 14.7,
-        "rainForecast7": 34.7,
-        "minForecast7": 21.5,
-        "alerts": []
-      },
-      {
-        "key": "lam-dong",
-        "name": "Lam Dong",
-        "country": "Vietnam",
-        "species": "Robusta",
-        "lat": 11.55,
-        "lon": 107.81,
-        "current": {
-          "date": "2026-11-25",
-          "tMax": 28.8,
-          "tMin": 18.2,
-          "rain": 1.9,
-          "code": 80,
-          "cloud": 76,
-          "observed": true
-        },
-        "condition": "cloudy",
-        "conditionLabel": "Cloudy",
-        "rain14": 22.7,
-        "rainForecast7": 54.6,
-        "minForecast7": 16.7,
+        "rain14": 11.7,
+        "rainForecast7": 55.1,
+        "minForecast7": 22,
         "alerts": [
           {
             "type": "wet",
@@ -3403,6 +3374,29 @@
         ]
       },
       {
+        "key": "lam-dong",
+        "name": "Lam Dong",
+        "country": "Vietnam",
+        "species": "Robusta",
+        "lat": 11.55,
+        "lon": 107.81,
+        "current": {
+          "date": "2026-11-26",
+          "tMax": 28.8,
+          "tMin": 19.1,
+          "rain": 1.5,
+          "code": 53,
+          "cloud": 79,
+          "observed": true
+        },
+        "condition": "cloudy",
+        "conditionLabel": "Cloudy",
+        "rain14": 23.3,
+        "rainForecast7": 48.6,
+        "minForecast7": 18.1,
+        "alerts": []
+      },
+      {
         "key": "huila",
         "name": "Huila",
         "country": "Colombia",
@@ -3410,19 +3404,19 @@
         "lat": 1.85,
         "lon": -76.05,
         "current": {
-          "date": "2026-11-25",
-          "tMax": 29.3,
-          "tMin": 18.2,
-          "rain": 4.7,
-          "code": 80,
-          "cloud": 93,
+          "date": "2026-11-26",
+          "tMax": 27.5,
+          "tMin": 18.4,
+          "rain": 10.1,
+          "code": 95,
+          "cloud": 86,
           "observed": true
         },
-        "condition": "wet",
-        "conditionLabel": "Wet",
-        "rain14": 49.6,
-        "rainForecast7": 49.6,
-        "minForecast7": 17.8,
+        "condition": "very-wet",
+        "conditionLabel": "Very wet",
+        "rain14": 59.7,
+        "rainForecast7": 31.9,
+        "minForecast7": 16.7,
         "alerts": []
       },
       {
@@ -3433,24 +3427,24 @@
         "lat": 6.25,
         "lon": -75.56,
         "current": {
-          "date": "2026-11-25",
-          "tMax": 27.8,
-          "tMin": 18.2,
-          "rain": 2.1,
-          "code": 55,
-          "cloud": 83,
+          "date": "2026-11-26",
+          "tMax": 28.6,
+          "tMin": 18.5,
+          "rain": 0,
+          "code": 45,
+          "cloud": 60,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
         "rain14": 41.8,
-        "rainForecast7": 71.8,
-        "minForecast7": 17.1,
+        "rainForecast7": 80.8,
+        "minForecast7": 17.2,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "72 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "81 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3462,24 +3456,24 @@
         "lat": 4.63,
         "lon": 96.85,
         "current": {
-          "date": "2026-11-25",
-          "tMax": 21.9,
-          "tMin": 18.1,
-          "rain": 13.8,
-          "code": 81,
-          "cloud": 97,
+          "date": "2026-11-26",
+          "tMax": 24.4,
+          "tMin": 17.6,
+          "rain": 13.1,
+          "code": 95,
+          "cloud": 98,
           "observed": true
         },
         "condition": "very-wet",
         "conditionLabel": "Very wet",
-        "rain14": 211.6,
-        "rainForecast7": 71.4,
-        "minForecast7": 16.8,
+        "rain14": 206,
+        "rainForecast7": 83.6,
+        "minForecast7": 17,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "71 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "84 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3491,24 +3485,24 @@
         "lat": -5.45,
         "lon": 105.27,
         "current": {
-          "date": "2026-11-25",
-          "tMax": 31.8,
-          "tMin": 26.6,
-          "rain": 0.9,
-          "code": 51,
-          "cloud": 93,
+          "date": "2026-11-26",
+          "tMax": 30.7,
+          "tMin": 26.9,
+          "rain": 6.4,
+          "code": 81,
+          "cloud": 99,
           "observed": true
         },
         "condition": "wet",
         "conditionLabel": "Wet",
-        "rain14": 84,
-        "rainForecast7": 63.8,
-        "minForecast7": 24.1,
+        "rain14": 85,
+        "rainForecast7": 58.6,
+        "minForecast7": 24.2,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "64 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "59 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       },
@@ -3520,19 +3514,19 @@
         "lat": 7.67,
         "lon": 36.83,
         "current": {
-          "date": "2026-11-25",
-          "tMax": 23.8,
-          "tMin": 13.2,
-          "rain": 1.1,
-          "code": 53,
-          "cloud": 45,
+          "date": "2026-11-26",
+          "tMax": 24.5,
+          "tMin": 14,
+          "rain": 0.1,
+          "code": 51,
+          "cloud": 31,
           "observed": true
         },
         "condition": "dry",
         "conditionLabel": "Clear / dry",
-        "rain14": 58.4,
-        "rainForecast7": 3.2,
-        "minForecast7": 13.2,
+        "rain14": 30.1,
+        "rainForecast7": 4.1,
+        "minForecast7": 13.6,
         "alerts": []
       },
       {
@@ -3543,19 +3537,19 @@
         "lat": 14.16,
         "lon": -88.02,
         "current": {
-          "date": "2026-11-25",
-          "tMax": 23.7,
-          "tMin": 16.5,
-          "rain": 2.2,
-          "code": 51,
-          "cloud": 82,
+          "date": "2026-11-26",
+          "tMax": 21.1,
+          "tMin": 15.2,
+          "rain": 7.2,
+          "code": 53,
+          "cloud": 99,
           "observed": true
         },
-        "condition": "cloudy",
-        "conditionLabel": "Cloudy",
-        "rain14": 18,
-        "rainForecast7": 16.9,
-        "minForecast7": 14.9,
+        "condition": "wet",
+        "conditionLabel": "Wet",
+        "rain14": 25.2,
+        "rainForecast7": 10.8,
+        "minForecast7": 15,
         "alerts": []
       },
       {
@@ -3566,24 +3560,24 @@
         "lat": -11.05,
         "lon": -75.33,
         "current": {
-          "date": "2026-11-25",
-          "tMax": 31.6,
-          "tMin": 21,
-          "rain": 7.2,
-          "code": 80,
-          "cloud": 53,
+          "date": "2026-11-26",
+          "tMax": 30.4,
+          "tMin": 20.8,
+          "rain": 24.1,
+          "code": 82,
+          "cloud": 92,
           "observed": true
         },
-        "condition": "wet",
-        "conditionLabel": "Wet",
-        "rain14": 69.4,
-        "rainForecast7": 84.9,
+        "condition": "very-wet",
+        "conditionLabel": "Very wet",
+        "rain14": 93.5,
+        "rainForecast7": 74.4,
         "minForecast7": 20.7,
         "alerts": [
           {
             "type": "wet",
             "severity": "watch",
-            "text": "85 mm forecast over 7 days — harvest/drying disruption risk."
+            "text": "74 mm forecast over 7 days — harvest/drying disruption risk."
           }
         ]
       }
@@ -3598,16 +3592,16 @@
   },
   "news": {
     "originWire": {
-      "fetchedAt": "2026-11-26T16:10:14.694Z",
+      "fetchedAt": "2026-11-27T01:53:20.320Z",
       "lookbackHours": 504,
       "headlines": [
         {
-          "title": "China reserves right to take ‘necessary measures’ after Trump’s new tariff proposals",
-          "summary": "Beijing says new levies amount to ‘political manipulation’, while Brazil ‘will not yield to this type of threat’ Trump proposing new tariffs on 14 partners including China and EU Beijing has said it reserves the right to take “necessary measures” after Donald…",
-          "url": "https://www.theguardian.com/us-news/2026/nov/26/brazil-china-react-to-new-trump-tariffs-threat",
-          "publisher": "The Guardian",
+          "title": "Lula names banker as Brazil finance minister in attempt to calm markets",
+          "summary": "Luiz Carlos Trabuco’s appointment follows a sell-off in the country’s assets",
+          "url": "https://www.ft.com/content/94f93408-476b-479c-be0e-d7f7942f9491?syn-25a6b1a6=1",
+          "publisher": "Financial Times",
           "region": "Brazil",
-          "published": "Thu, 26 Nov 2026 12:00:22 GMT"
+          "published": "Fri, 27 Nov 2026 00:59:07 GMT"
         },
         {
           "title": "Vietnam makes unprecedented commitments in US trade talks: ministry",
@@ -3618,12 +3612,12 @@
           "published": "Thu, 26 Nov 2026 21:01:22 +0700"
         },
         {
-          "title": "Thirteen dead as mine disaster highlights illegal hunt for gold",
-          "summary": "Indonesian authorities say another 13 are missing in the illegal gold mine, which flooded on Monday.",
-          "url": "https://www.bbc.co.uk/news/articles/cmde1zr0nlyro?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
+          "title": "Indonesia confiscates nearly 40 kg of gold in money laundering case tied to ‘nickel king’",
+          "summary": "Indonesian investigators have named “nickel king” Arif Kurniawan a suspect in a money laundering scheme and seized 37.8 kilograms of gold among assets linked to the case.",
+          "url": "https://e.vnexpress.net/news/business/economy/indonesia-confiscates-nearly-40-kg-of-gold-in-money-laundering-case-tied-to-nickel-king-5149238.html",
+          "publisher": "VnExpress International",
           "region": "Indonesia",
-          "published": "Thu, 26 Nov 2026 07:31:24 GMT"
+          "published": "Fri, 27 Nov 2026 06:45:36 +0700"
         },
         {
           "title": "All hostages rescued after Colombian security forces storm supermarket, police say",
@@ -3634,12 +3628,60 @@
           "published": "Wed, 25 Nov 2026 20:20:23 GMT"
         },
         {
-          "title": "Kilmar Ábrego García arrives in Spain, ending Trump deportation battle",
-          "summary": "His deportation to and return from El Salvador became a flashpoint in the debate the US president's immigration agenda.",
-          "url": "https://www.bbc.co.uk/news/articles/c6808pyy5dl9o?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
+          "title": "Argentina bars Central Bank from printing money to fund government spending",
+          "summary": "The South American country's Senate also advances proposal to suspend primary elections ahead of 2027 presidential race.",
+          "url": "https://www.aljazeera.com/news/2026/11/27/argentina-bars-central-bank-from-printing-money-to-fund-government-spending?traffic_source=rss",
+          "publisher": "Al Jazeera",
           "region": "South & Central America",
-          "published": "Wed, 25 Nov 2026 19:22:18 GMT"
+          "published": "Fri, 27 Nov 2026 00:11:16 +0000"
+        },
+        {
+          "title": "Met Police ruined my life, says Kenyan man wrongly sentenced over attack on UK couple",
+          "summary": "Evidence from a British police officer helped convict Ali Kololo over a 2011 attack in the Kenyan resort of Lamu.",
+          "url": "https://www.bbc.co.uk/news/articles/cqvg2nlr8kd8o?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
+          "region": "East Africa",
+          "published": "Fri, 27 Nov 2026 00:48:11 GMT"
+        },
+        {
+          "title": "China reserves right to take ‘necessary measures’ after Trump’s new tariff proposals",
+          "summary": "Beijing says new levies amount to ‘political manipulation’, while Brazil ‘will not yield to this type of threat’ Trump proposing new tariffs on 14 partners including China and EU Beijing has said it reserves the right to take “necessary measures” after Donald…",
+          "url": "https://www.theguardian.com/us-news/2026/nov/26/brazil-china-react-to-new-trump-tariffs-threat",
+          "publisher": "The Guardian",
+          "region": "Brazil",
+          "published": "Thu, 26 Nov 2026 12:00:22 GMT"
+        },
+        {
+          "title": "Vietnamese billionaires lose nearly $3B as stocks tumble after US tariff proposal",
+          "summary": "Vietnam's eight billionaires lost nearly US$3 billion in combined wealth on Thursday as stocks suffered their steepest fall in four months, with Vingroup chairman Pham Nhat Vuong alone losing $2.2 billion.",
+          "url": "https://e.vnexpress.net/news/business/billionaires/vietnamese-billionaires-lose-nearly-3b-as-stocks-tumble-after-us-tariff-proposal-5149346.html",
+          "publisher": "VnExpress International",
+          "region": "Vietnam",
+          "published": "Thu, 26 Nov 2026 18:46:43 +0700"
+        },
+        {
+          "title": "Thirteen dead as mine disaster highlights illegal hunt for gold",
+          "summary": "Indonesian authorities say another 13 are missing in the illegal gold mine, which flooded on Monday.",
+          "url": "https://www.bbc.co.uk/news/articles/cmde1zr0nlyro?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
+          "region": "Indonesia",
+          "published": "Thu, 26 Nov 2026 07:31:24 GMT"
+        },
+        {
+          "title": "Colombian police storm supermarket to free 76 held hostage for 17 hours",
+          "summary": "One gunman was killed after what the country's president described as a robbery of a cash-laden armoured car gone wrong.",
+          "url": "https://www.bbc.co.uk/news/articles/ckp80mjr9emyo?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
+          "region": "Colombia",
+          "published": "Wed, 25 Nov 2026 18:41:33 GMT"
+        },
+        {
+          "title": "Mexico seeks US talks about suspected SpaceX debris",
+          "summary": "Mexico concerned as SpaceX ramps up rocket launches from Starbase near border in Texas.",
+          "url": "https://www.aljazeera.com/news/2026/11/26/mexico-seeks-us-talks-about-suspected-spacex-debris?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "region": "South & Central America",
+          "published": "Thu, 26 Nov 2026 20:31:50 +0000"
         },
         {
           "title": "DR Congo demands answers over Ugandan general's threats",
@@ -3658,54 +3700,6 @@
           "published": "Wed, 25 Nov 2026 13:00:27 GMT"
         },
         {
-          "title": "Vietnamese billionaires lose nearly $3B as stocks tumble after US tariff proposal",
-          "summary": "Vietnam's eight billionaires lost nearly US$3 billion in combined wealth on Thursday as stocks suffered their steepest fall in four months, with Vingroup chairman Pham Nhat Vuong alone losing $2.2 billion.",
-          "url": "https://e.vnexpress.net/news/business/billionaires/vietnamese-billionaires-lose-nearly-3b-as-stocks-tumble-after-us-tariff-proposal-5149346.html",
-          "publisher": "VnExpress International",
-          "region": "Vietnam",
-          "published": "Thu, 26 Nov 2026 18:46:43 +0700"
-        },
-        {
-          "title": "Indonesian coal miner Bayan Resources names new president director to replace billionaire Low Tuck Kwong",
-          "summary": "Singapore-born Indonesian billionaire Low Tuck Kwong has been replaced as president director at his coal mining firm PT Bayan Resources, following a 30.25% stake sale by him and his daughter.",
-          "url": "https://e.vnexpress.net/news/business/companies/indonesian-coal-miner-bayan-resources-names-new-president-director-to-replace-billionaire-low-tuck-kwong-5148608.html",
-          "publisher": "VnExpress International",
-          "region": "Indonesia",
-          "published": "Wed, 25 Nov 2026 10:48:48 +0700"
-        },
-        {
-          "title": "Colombian police storm supermarket to free 76 held hostage for 17 hours",
-          "summary": "One gunman was killed after what the country's president described as a robbery of a cash-laden armoured car gone wrong.",
-          "url": "https://www.bbc.co.uk/news/articles/ckp80mjr9emyo?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
-          "region": "Colombia",
-          "published": "Wed, 25 Nov 2026 18:41:33 GMT"
-        },
-        {
-          "title": "Watch: Moment troops raid home and capture Mexican drug lord",
-          "summary": "Newly-released bodycam footage shows the moment troops detained 'El Chapo Isidro', who had managed to evade capture for years.",
-          "url": "https://www.bbc.co.uk/news/videos/cm62p9y3y04qo?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
-          "region": "South & Central America",
-          "published": "Tue, 24 Nov 2026 09:09:41 GMT"
-        },
-        {
-          "title": "As foreign troops withdraw from Somalia, could al-Shabab take over?",
-          "summary": "Somalia relies heavily on foreign funding and military support for its very survival.",
-          "url": "https://www.bbc.co.uk/news/articles/ck62y23z58yeo?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
-          "region": "East Africa",
-          "published": "Thu, 26 Nov 2026 02:06:10 GMT"
-        },
-        {
-          "title": "The footballer-turned-BookTuber who made an obscure Tolstoy novella a belated bestseller",
-          "summary": "Once named the best player in Brazil, Gustavo Scarpa’s literature obsession has inspired thousands to become bookworms Julián Scatolaro noticed something odd was occurring when several people came into his bookshop over the space of a few days, all asking for…",
-          "url": "https://www.theguardian.com/world/2026/nov/22/the-football-superstar-turned-booktuber-who-made-an-obscure-tolstoy-novella-a-belated-bestseller",
-          "publisher": "The Guardian",
-          "region": "Brazil",
-          "published": "Sun, 22 Nov 2026 15:00:29 GMT"
-        },
-        {
           "title": "Vietnamese property tycoon who deceived 519 homebuyers gets suspended sentence",
           "summary": "A Hanoi court handed Le Thanh Than, former chairman of property group Muong Thanh, a 30-month suspended sentence on Thursday for deceiving buyers of apartments built without legal status, citing his old age and his companies' social contributions.",
           "url": "https://e.vnexpress.net/news/news/crime/vietnamese-property-tycoon-who-deceived-519-homebuyers-gets-suspended-sentence-5149289.html",
@@ -3714,14 +3708,14 @@
           "published": "Thu, 26 Nov 2026 16:41:36 +0700"
         }
       ],
-      "totalTagged": 110,
+      "totalTagged": 112,
       "feedsQueried": 14,
       "errors": [],
       "note": "General headlines from the growing regions, taken from outlets of record and tagged to a region by the countries and cities they name."
     },
     "roundup": {
       "source": "assembled",
-      "fetchedAt": "2026-11-26T16:10:13.912Z",
+      "fetchedAt": "2026-11-27T01:53:18.183Z",
       "windowDays": 7,
       "publishers": [
         "Daily Coffee News",
@@ -3838,7 +3832,7 @@
       "note": "Assembled from the coffee trade press over the past seven days, ranked by relevance to the physical trade. Headlines and links are each publisher’s own."
     },
     "dailyRead": {
-      "fetchedAt": "2026-11-26T16:10:12.170Z",
+      "fetchedAt": "2026-11-27T01:53:17.358Z",
       "article": {
         "title": "Indonesia Coffee Production Down 8.2% Due to Weather",
         "summary": "Indonesia’s green coffee production is forecast to decline 8.2% to 11.35 million 60-kilogram bags in market year 2026/27, due primarily to weather events including flooding and extended dry spells, according...",
@@ -4164,40 +4158,40 @@
   },
   "status": [
     {
-      "source": "daily-read",
-      "ok": true,
-      "ms": 246
-    },
-    {
       "source": "weather",
       "ok": true,
-      "ms": 292
+      "ms": 273
+    },
+    {
+      "source": "daily-read",
+      "ok": true,
+      "ms": 310
     },
     {
       "source": "arabica-futures",
       "ok": true,
-      "ms": 684
+      "ms": 460
     },
     {
       "source": "weekly-recap",
       "ok": true,
-      "ms": 1991
-    },
-    {
-      "source": "ico-report",
-      "ok": false,
-      "ms": 2271,
-      "error": "Table 5 (certified stocks) not found"
+      "ms": 1138
     },
     {
       "source": "fx",
       "ok": true,
-      "ms": 2496
+      "ms": 1548
+    },
+    {
+      "source": "ico-report",
+      "ok": false,
+      "ms": 2738,
+      "error": "Table 5 (certified stocks) not found"
     },
     {
       "source": "origin-wire",
       "ok": true,
-      "ms": 2776
+      "ms": 3280
     }
   ]
 }

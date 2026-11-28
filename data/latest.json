@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T15:56:37.119Z",
+  "generatedAt": "2026-11-28T01:36:26.828Z",
   "schema": 5,
   "schedule": {
     "slotsUtc": [
@@ -26,7 +26,7 @@
       "frontMonth": {
         "code": "KCZ26",
         "label": "Dec 2026",
-        "close": 275.65,
+        "close": 280.85,
         "volume": 1
       },
       "rolled": true,
@@ -35,56 +35,56 @@
         {
           "code": "KCZ26",
           "label": "Dec 2026",
-          "close": 275.65,
+          "close": 280.85,
           "volume": 1
         },
         {
           "code": "KCH27",
           "label": "Mar 2027",
-          "close": 276.55,
-          "volume": 12699
+          "close": 275.55,
+          "volume": 17633
         },
         {
           "code": "KCK27",
           "label": "May 2027",
-          "close": 269.55,
-          "volume": 5604
+          "close": 268.85,
+          "volume": 9027
         },
         {
           "code": "KCN27",
           "label": "Jul 2027",
-          "close": 264.4,
-          "volume": 1741
+          "close": 263.7,
+          "volume": 3065
         },
         {
           "code": "KCU27",
           "label": "Sep 2027",
-          "close": 259.85,
-          "volume": 588
+          "close": 259.15,
+          "volume": 1351
         },
         {
           "code": "KCZ27",
           "label": "Dec 2027",
-          "close": 254,
-          "volume": 167
+          "close": 253.5,
+          "volume": 438
         },
         {
           "code": "KCH28",
           "label": "Mar 2028",
-          "close": 251.7,
-          "volume": 28
+          "close": 248.8,
+          "volume": 77
         }
       ],
       "quote": {
-        "last": 275.85,
+        "last": 275.55,
         "open": 260,
         "high": 281.45001220703125,
-        "low": 273.8500061035156,
+        "low": 273.54998779296875,
         "previousClose": 270,
-        "change": 5.85,
-        "changePct": 2.167,
-        "volume": 12343,
-        "asOf": "2026-11-27T15:36:33.000Z"
+        "change": 5.55,
+        "changePct": 2.056,
+        "volume": 17632,
+        "asOf": "2026-11-27T18:29:56.000Z"
       },
       "bars": [
         {
@@ -2643,16 +2643,16 @@
           "date": "2026-11-27",
           "open": 260,
           "high": 281.45001220703125,
-          "low": 273.8500061035156,
-          "close": 275.8500061035156,
-          "volume": 12343
+          "low": 273.54998779296875,
+          "close": 275.54998779296875,
+          "volume": 17632
         }
       ],
       "crossCheck": {
-        "tradingView": 276.55,
-        "yahoo": 275.85,
-        "diff": 0.7,
-        "diffPct": 0.254,
+        "tradingView": 275.55,
+        "yahoo": 275.55,
+        "diff": 0,
+        "diffPct": 0,
         "agree": true
       },
       "sources": [
@@ -2668,15 +2668,15 @@
         }
       ],
       "technicals": {
-        "observations": 503,
-        "sma20": 272.10249786376954,
-        "sma50": 278.74400024414064,
-        "sma200": 276.45024978637696,
-        "rsi14": 50.70021671092523,
+        "observations": 502,
+        "sma20": 272.0874969482422,
+        "sma50": 278.73799987792967,
+        "sma200": 276.44874969482424,
+        "rsi14": 50.45031416318182,
         "macd": {
-          "line": -2.9267354223497364,
-          "signal": -3.2467228621740922,
-          "histogram": 0.31998743982435585
+          "line": -2.9506685069517857,
+          "signal": -3.251509479094502,
+          "histogram": 0.3008409721427161
         },
         "atr14": 9.148515456728935,
         "donchian20": {
@@ -2719,10 +2719,10 @@
           "low": 222.75
         },
         "method": "Wilder RSI(14); MACD(12,26,9) on EMA; ATR(14); pivots = 5-bar swing highs/lows; Donchian(20).",
-        "basis": "503 daily bars for KCH27"
+        "basis": "502 daily bars for KCH27"
       },
       "barsPublished": 320,
-      "barsAnalysed": 503
+      "barsAnalysed": 502
     }
   },
   "fx": {
@@ -3234,9 +3234,9 @@
       }
     },
     "ptax": {
-      "buy": 5.744,
-      "sell": 5.7446,
-      "quotedAt": "2026-11-26 13:11:27.937451"
+      "buy": 5.5424,
+      "sell": 5.543,
+      "quotedAt": "2026-11-27 13:21:50.538969"
     },
     "sources": [
       {
@@ -3251,344 +3251,60 @@
       }
     ]
   },
-  "weather": {
-    "fetchedAt": "2026-11-27T15:56:34.476Z",
-    "thresholds": {
-      "frostC": 4,
-      "heavyRainMm": 50,
-      "dryMm": 5
-    },
-    "countryOrder": [
-      "Brazil",
-      "Vietnam",
-      "Colombia",
-      "Indonesia",
-      "Ethiopia",
-      "Honduras",
-      "Peru"
-    ],
-    "conditionMethod": "The condition icon reads the last three observed days: 30 mm of rain in total, 20 mm in any one day, or a heavy-rain code is very wet; 5 mm is wet; 60% mean cloud cover is cloudy; anything else is clear.",
-    "regions": [
-      {
-        "key": "sul-de-minas",
-        "name": "Sul de Minas",
-        "country": "Brazil",
-        "species": "Arabica",
-        "lat": -21.55,
-        "lon": -45.43,
-        "current": {
-          "date": "2026-11-26",
-          "tMax": 28.1,
-          "tMin": 18.8,
-          "rain": 3.7,
-          "code": 80,
-          "cloud": 90,
-          "observed": true
-        },
-        "condition": "very-wet",
-        "conditionLabel": "Very wet",
-        "rain14": 100.3,
-        "rainForecast7": 90.8,
-        "minForecast7": 17.2,
-        "alerts": [
-          {
-            "type": "wet",
-            "severity": "watch",
-            "text": "91 mm forecast over 7 days — harvest/drying disruption risk."
-          }
-        ]
-      },
-      {
-        "key": "cerrado",
-        "name": "Cerrado Mineiro",
-        "country": "Brazil",
-        "species": "Arabica",
-        "lat": -18.94,
-        "lon": -46.99,
-        "current": {
-          "date": "2026-11-26",
-          "tMax": 28.9,
-          "tMin": 20.3,
-          "rain": 12.7,
-          "code": 95,
-          "cloud": 90,
-          "observed": true
-        },
-        "condition": "very-wet",
-        "conditionLabel": "Very wet",
-        "rain14": 102,
-        "rainForecast7": 16.1,
-        "minForecast7": 19.6,
-        "alerts": []
-      },
-      {
-        "key": "espirito-santo",
-        "name": "Espírito Santo",
-        "country": "Brazil",
-        "species": "Robusta",
-        "lat": -19.39,
-        "lon": -40.07,
-        "current": {
-          "date": "2026-11-26",
-          "tMax": 34.9,
-          "tMin": 23.6,
-          "rain": 0.4,
-          "code": 51,
-          "cloud": 95,
-          "observed": true
-        },
-        "condition": "cloudy",
-        "conditionLabel": "Cloudy",
-        "rain14": 122.6,
-        "rainForecast7": 5.4,
-        "minForecast7": 22.2,
-        "alerts": []
-      },
-      {
-        "key": "dak-lak",
-        "name": "Dak Lak",
-        "country": "Vietnam",
-        "species": "Robusta",
-        "lat": 12.68,
-        "lon": 108.05,
-        "current": {
-          "date": "2026-11-26",
-          "tMax": 29.2,
-          "tMin": 22.1,
-          "rain": 0.5,
-          "code": 51,
-          "cloud": 80,
-          "observed": true
-        },
-        "condition": "cloudy",
-        "conditionLabel": "Cloudy",
-        "rain14": 11.7,
-        "rainForecast7": 24,
-        "minForecast7": 22,
-        "alerts": []
-      },
-      {
-        "key": "lam-dong",
-        "name": "Lam Dong",
-        "country": "Vietnam",
-        "species": "Robusta",
-        "lat": 11.55,
-        "lon": 107.81,
-        "current": {
-          "date": "2026-11-26",
-          "tMax": 28.8,
-          "tMin": 19.1,
-          "rain": 1.5,
-          "code": 53,
-          "cloud": 79,
-          "observed": true
-        },
-        "condition": "cloudy",
-        "conditionLabel": "Cloudy",
-        "rain14": 23.3,
-        "rainForecast7": 37.2,
-        "minForecast7": 18.1,
-        "alerts": []
-      },
-      {
-        "key": "huila",
-        "name": "Huila",
-        "country": "Colombia",
-        "species": "Arabica",
-        "lat": 1.85,
-        "lon": -76.05,
-        "current": {
-          "date": "2026-11-26",
-          "tMax": 27.5,
-          "tMin": 18.4,
-          "rain": 11.4,
-          "code": 95,
-          "cloud": 83,
-          "observed": true
-        },
-        "condition": "very-wet",
-        "conditionLabel": "Very wet",
-        "rain14": 55.9,
-        "rainForecast7": 45.5,
-        "minForecast7": 17.5,
-        "alerts": []
-      },
-      {
-        "key": "antioquia",
-        "name": "Antioquia",
-        "country": "Colombia",
-        "species": "Arabica",
-        "lat": 6.25,
-        "lon": -75.56,
-        "current": {
-          "date": "2026-11-26",
-          "tMax": 28.6,
-          "tMin": 18.5,
-          "rain": 0,
-          "code": 45,
-          "cloud": 63,
-          "observed": true
-        },
-        "condition": "wet",
-        "conditionLabel": "Wet",
-        "rain14": 40.8,
-        "rainForecast7": 90.8,
-        "minForecast7": 17.4,
-        "alerts": [
-          {
-            "type": "wet",
-            "severity": "watch",
-            "text": "91 mm forecast over 7 days — harvest/drying disruption risk."
-          }
-        ]
-      },
-      {
-        "key": "gayo",
-        "name": "Gayo Highlands",
-        "country": "Indonesia",
-        "species": "Arabica",
-        "lat": 4.63,
-        "lon": 96.85,
-        "current": {
-          "date": "2026-11-26",
-          "tMax": 24.4,
-          "tMin": 17.6,
-          "rain": 13.1,
-          "code": 95,
-          "cloud": 98,
-          "observed": true
-        },
-        "condition": "very-wet",
-        "conditionLabel": "Very wet",
-        "rain14": 206,
-        "rainForecast7": 87.7,
-        "minForecast7": 16.8,
-        "alerts": [
-          {
-            "type": "wet",
-            "severity": "watch",
-            "text": "88 mm forecast over 7 days — harvest/drying disruption risk."
-          }
-        ]
-      },
-      {
-        "key": "lampung",
-        "name": "Lampung",
-        "country": "Indonesia",
-        "species": "Robusta",
-        "lat": -5.45,
-        "lon": 105.27,
-        "current": {
-          "date": "2026-11-26",
-          "tMax": 30.7,
-          "tMin": 26.9,
-          "rain": 6.4,
-          "code": 81,
-          "cloud": 99,
-          "observed": true
-        },
-        "condition": "wet",
-        "conditionLabel": "Wet",
-        "rain14": 85,
-        "rainForecast7": 60.6,
-        "minForecast7": 24.3,
-        "alerts": [
-          {
-            "type": "wet",
-            "severity": "watch",
-            "text": "61 mm forecast over 7 days — harvest/drying disruption risk."
-          }
-        ]
-      },
-      {
-        "key": "jimma",
-        "name": "Jimma",
-        "country": "Ethiopia",
-        "species": "Arabica",
-        "lat": 7.67,
-        "lon": 36.83,
-        "current": {
-          "date": "2026-11-26",
-          "tMax": 24.5,
-          "tMin": 14,
-          "rain": 0.1,
-          "code": 51,
-          "cloud": 31,
-          "observed": true
-        },
-        "condition": "dry",
-        "conditionLabel": "Clear / dry",
-        "rain14": 30.1,
-        "rainForecast7": 13.9,
-        "minForecast7": 12.9,
-        "alerts": []
-      },
-      {
-        "key": "marcala",
-        "name": "Marcala",
-        "country": "Honduras",
-        "species": "Arabica",
-        "lat": 14.16,
-        "lon": -88.02,
-        "current": {
-          "date": "2026-11-26",
-          "tMax": 21.1,
-          "tMin": 15.4,
-          "rain": 7.4,
-          "code": 53,
-          "cloud": 99,
-          "observed": true
-        },
-        "condition": "wet",
-        "conditionLabel": "Wet",
-        "rain14": 23.4,
-        "rainForecast7": 18.9,
-        "minForecast7": 14.3,
-        "alerts": []
-      },
-      {
-        "key": "chanchamayo",
-        "name": "Chanchamayo",
-        "country": "Peru",
-        "species": "Arabica",
-        "lat": -11.05,
-        "lon": -75.33,
-        "current": {
-          "date": "2026-11-26",
-          "tMax": 30.4,
-          "tMin": 20.8,
-          "rain": 8,
-          "code": 81,
-          "cloud": 90,
-          "observed": true
-        },
-        "condition": "wet",
-        "conditionLabel": "Wet",
-        "rain14": 71.7,
-        "rainForecast7": 58.7,
-        "minForecast7": 20.3,
-        "alerts": [
-          {
-            "type": "wet",
-            "severity": "watch",
-            "text": "59 mm forecast over 7 days — harvest/drying disruption risk."
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "Open-Meteo forecast API",
-        "url": "https://open-meteo.com/",
-        "role": "observed + forecast temperature, precipitation and weather code"
-      }
-    ]
-  },
+  "weather": null,
   "news": {
     "originWire": {
-      "fetchedAt": "2026-11-27T15:56:37.117Z",
+      "fetchedAt": "2026-11-28T01:35:55.482Z",
       "lookbackHours": 504,
       "headlines": [
+        {
+          "title": "Brazil pushes back on Macron calling its meat 'doped'",
+          "summary": "France's president made the comment while speaking to French farming representatives, months after the EU banned Brazil beef and poultry products.",
+          "url": "https://www.bbc.co.uk/news/articles/c6rrg28npvzeo?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
+          "region": "Brazil",
+          "published": "Fri, 27 Nov 2026 15:54:15 GMT"
+        },
+        {
+          "title": "Heavy rain at peak tide leaves Ho Chi Minh City roads under half a meter of water",
+          "summary": "An hour of rain at peak tide left many streets in Ho Chi Minh City under half a meter of water, disrupting traffic on Friday night.",
+          "url": "https://e.vnexpress.net/photo/environment/heavy-rain-at-peak-tide-leaves-ho-chi-minh-city-roads-under-half-a-meter-of-water-5149825.html",
+          "publisher": "VnExpress International",
+          "region": "Vietnam",
+          "published": "Sat, 28 Nov 2026 02:22:43 +0700"
+        },
+        {
+          "title": "Indonesia confiscates nearly 40 kg of gold in money laundering case tied to ‘nickel king’",
+          "summary": "Indonesian investigators have named “nickel king” Arif Kurniawan a suspect in a money laundering scheme and seized 37.8 kilograms of gold among assets linked to the case.",
+          "url": "https://e.vnexpress.net/news/business/economy/indonesia-confiscates-nearly-40-kg-of-gold-in-money-laundering-case-tied-to-nickel-king-5149238.html",
+          "publisher": "VnExpress International",
+          "region": "Indonesia",
+          "published": "Fri, 27 Nov 2026 06:45:36 +0700"
+        },
+        {
+          "title": "All hostages rescued after Colombian security forces storm supermarket, police say",
+          "summary": "Unclear if ‘hostage-taker’ who was killed may have been a hostage as daylong siege in Cartagena shopping centre ends Colombian police have stormed a supermarket in one of the country’s most popular tourist cities, ending a daylong siege in which all the…",
+          "url": "https://www.theguardian.com/world/2026/nov/25/hostages-freed-colombia-security-forces-storm-cartagena-supermarket",
+          "publisher": "The Guardian",
+          "region": "Colombia",
+          "published": "Wed, 25 Nov 2026 20:20:23 GMT"
+        },
+        {
+          "title": "Francesca Albanese seeks apology from Costa Rica after entry ban",
+          "summary": "UN Special Rapporteur Francesca Albanese accuses Costa Rican authorities of defamation after being denied entry.",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/28/francesca-albanese-seeks-apology-from-costa-rica-after-entry-ban?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "region": "South & Central America",
+          "published": "Sat, 28 Nov 2026 00:12:20 +0000"
+        },
+        {
+          "title": "Kenyan cult leader guilty of manslaughter more than 123 starvation deaths",
+          "summary": "Paul Mackenzie, already serving 200 years, is the founder and pastor of the Good News International Church.",
+          "url": "https://www.aljazeera.com/news/2026/11/27/kenyan-cult-leader-guilty-of-manslaughter-more-than-123-starvation-deaths?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "region": "East Africa",
+          "published": "Fri, 27 Nov 2026 22:33:17 +0000"
+        },
         {
           "title": "China reserves right to take ‘necessary measures’ after Trump’s new tariff proposals",
           "summary": "Beijing says new levies amount to ‘political manipulation’, while Brazil ‘will not yield to this type of threat’ Trump proposing new tariffs on 14 partners including China and EU Beijing has said it reserves the right to take “necessary measures” after Donald…",
@@ -3606,36 +3322,36 @@
           "published": "Fri, 27 Nov 2026 15:53:05 +0700"
         },
         {
-          "title": "Indonesia arrests three over alleged ‘deep fried’ market manipulation",
-          "summary": "Move follows MSCI’s threat to downgrade country to standalone market status",
-          "url": "https://www.ft.com/content/50626b00-6d7b-47ac-b1f2-4b150ff9417e?syn-25a6b1a6=1",
-          "publisher": "Financial Times",
+          "title": "Thirteen dead as mine disaster highlights illegal hunt for gold",
+          "summary": "Indonesian authorities say another 13 are missing in the illegal gold mine, which flooded on Monday.",
+          "url": "https://www.bbc.co.uk/news/articles/cmde1zr0nlyro?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
           "region": "Indonesia",
-          "published": "Fri, 27 Nov 2026 10:54:42 GMT"
+          "published": "Thu, 26 Nov 2026 07:31:24 GMT"
         },
         {
-          "title": "All hostages rescued after Colombian security forces storm supermarket, police say",
-          "summary": "Unclear if ‘hostage-taker’ who was killed may have been a hostage as daylong siege in Cartagena shopping centre ends Colombian police have stormed a supermarket in one of the country’s most popular tourist cities, ending a daylong siege in which all the…",
-          "url": "https://www.theguardian.com/world/2026/nov/25/hostages-freed-colombia-security-forces-storm-cartagena-supermarket",
-          "publisher": "The Guardian",
+          "title": "Colombian police storm supermarket to free 76 held hostage for 17 hours",
+          "summary": "One gunman was killed after what the country's president described as a robbery of a cash-laden armoured car gone wrong.",
+          "url": "https://www.bbc.co.uk/news/articles/ckp80mjr9emyo?at_medium=RSS&amp;at_campaign=rss",
+          "publisher": "BBC News",
           "region": "Colombia",
-          "published": "Wed, 25 Nov 2026 20:20:23 GMT"
+          "published": "Wed, 25 Nov 2026 18:41:33 GMT"
         },
         {
-          "title": "Why is Israel celebrating Costa Rica’s ban on Francesca Albanese?",
-          "summary": "Costa Rica is under pressure over its decision to bar the UN expert who has documented Israel's genocidal war on Gaza.",
-          "url": "https://www.aljazeera.com/news/2026/11/27/why-is-israel-celebrating-costa-ricas-ban-on-francesca-albanese?traffic_source=rss",
+          "title": "Venezuela to repeal law that bans opposition figures from office",
+          "summary": "It comes a month after opposition leader Maria Corina Machado returned to Venezuela.",
+          "url": "https://www.aljazeera.com/news/2026/11/27/venezuela-to-repeal-law-that-bans-opposition-figures-from-office?traffic_source=rss",
           "publisher": "Al Jazeera",
           "region": "South & Central America",
-          "published": "Fri, 27 Nov 2026 14:17:25 +0000"
+          "published": "Fri, 27 Nov 2026 20:44:03 +0000"
         },
         {
-          "title": "Ex-Kenyan governor jailed for 25 years over pregnant girlfriend's murder",
-          "summary": "The pregnant student was murdered after leaving a hotel with a journalist she had contacted to discuss her affair with the governor.",
-          "url": "https://www.bbc.co.uk/news/articles/crx209ekq5xdo?at_medium=RSS&amp;at_campaign=rss",
+          "title": "Kenyan doomsday cult leader convicted over further 123 deaths",
+          "summary": "Paul Mackenzie is found guilty of killing his followers, weeks after being jailed for the mass murder of children.",
+          "url": "https://www.bbc.co.uk/news/articles/cmy49de4xx1zo?at_medium=RSS&amp;at_campaign=rss",
           "publisher": "BBC News",
           "region": "East Africa",
-          "published": "Fri, 27 Nov 2026 11:22:02 GMT"
+          "published": "Fri, 27 Nov 2026 17:19:31 GMT"
         },
         {
           "title": "How datacentres are driving an illegal mining rush in the Amazon ‘more devastating than gold’",
@@ -3652,57 +3368,9 @@
           "publisher": "VnExpress International",
           "region": "Vietnam",
           "published": "Fri, 27 Nov 2026 15:16:40 +0700"
-        },
-        {
-          "title": "Indonesia confiscates nearly 40 kg of gold in money laundering case tied to ‘nickel king’",
-          "summary": "Indonesian investigators have named “nickel king” Arif Kurniawan a suspect in a money laundering scheme and seized 37.8 kilograms of gold among assets linked to the case.",
-          "url": "https://e.vnexpress.net/news/business/economy/indonesia-confiscates-nearly-40-kg-of-gold-in-money-laundering-case-tied-to-nickel-king-5149238.html",
-          "publisher": "VnExpress International",
-          "region": "Indonesia",
-          "published": "Fri, 27 Nov 2026 06:45:36 +0700"
-        },
-        {
-          "title": "Colombian police storm supermarket to free 76 held hostage for 17 hours",
-          "summary": "One gunman was killed after what the country's president described as a robbery of a cash-laden armoured car gone wrong.",
-          "url": "https://www.bbc.co.uk/news/articles/ckp80mjr9emyo?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
-          "region": "Colombia",
-          "published": "Wed, 25 Nov 2026 18:41:33 GMT"
-        },
-        {
-          "title": "Kilmar Ábrego García arrives in Spain, ending Trump deportation battle",
-          "summary": "His deportation to and return from El Salvador became a flashpoint in the debate the US president's immigration agenda.",
-          "url": "https://www.bbc.co.uk/news/articles/c6808pyy5dl9o?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
-          "region": "South & Central America",
-          "published": "Wed, 25 Nov 2026 19:22:18 GMT"
-        },
-        {
-          "title": "Uganda to withdraw troops from DR Congo town amid diplomatic row",
-          "summary": "The Ugandan army is helping the Congolese military fight an Islamist militant group in the east of the country.",
-          "url": "https://www.bbc.co.uk/news/articles/cq4gnj2ldkyzo?at_medium=RSS&amp;at_campaign=rss",
-          "publisher": "BBC News",
-          "region": "East Africa",
-          "published": "Fri, 27 Nov 2026 10:39:31 GMT"
-        },
-        {
-          "title": "The footballer-turned-BookTuber who made an obscure Tolstoy novella a belated bestseller",
-          "summary": "Once named the best player in Brazil, Gustavo Scarpa’s literature obsession has inspired thousands to become bookworms Julián Scatolaro noticed something odd was occurring when several people came into his bookshop over the space of a few days, all asking for…",
-          "url": "https://www.theguardian.com/world/2026/nov/22/the-football-superstar-turned-booktuber-who-made-an-obscure-tolstoy-novella-a-belated-bestseller",
-          "publisher": "The Guardian",
-          "region": "Brazil",
-          "published": "Sun, 22 Nov 2026 15:00:29 GMT"
-        },
-        {
-          "title": "Vietnam's growing affection for pets challenges longstanding dog and cat meat trade",
-          "summary": "At a roadside market on Hanoi's outskirts, Kieu Minh Phuong searches for his missing 9-year-old calico ​among dozens of cages crammed with animal, cats, dogs, rabbits, fighting roosters, destined for anything from sale as pets to slaughter for meat.",
-          "url": "https://e.vnexpress.net/news/news/vietnam-s-growing-affection-for-pets-challenges-longstanding-dog-and-cat-meat-trade-5149636.html",
-          "publisher": "VnExpress International",
-          "region": "Vietnam",
-          "published": "Fri, 27 Nov 2026 14:58:04 +0700"
         }
       ],
-      "totalTagged": 101,
+      "totalTagged": 106,
       "feedsQueried": 14,
       "errors": [
         {
@@ -3714,7 +3382,7 @@
     },
     "roundup": {
       "source": "assembled",
-      "fetchedAt": "2026-11-27T15:56:36.252Z",
+      "fetchedAt": "2026-11-28T01:35:54.777Z",
       "windowDays": 7,
       "publishers": [
         "Daily Coffee News",
@@ -3722,6 +3390,15 @@
         "World Coffee Portal"
       ],
       "items": [
+        {
+          "headline": "Weekly Coffee News: Coffee Barometer Germany + The Lefty Pourover",
+          "summary": "Welcome to DCN’s Weekly Coffee News! Subscribe here for all the latest coffee industry news. Also, check out the latest career opportunities at CoffeeIndustryJobs.com. The Coffee Barometer Visits Germany Zooming...",
+          "url": "https://dailycoffeenews.com/2026/11/27/weekly-coffee-news-coffee-barometer-germany-the-lefty-pourover/",
+          "publisher": "Daily Coffee News",
+          "published": "Fri, 27 Nov 2026 20:06:16 +0000",
+          "date": "Fri, 27 Nov",
+          "section": "Top stories of the week"
+        },
         {
           "headline": "Fresh Cup’s 2026 Coffee Gift Guide",
           "summary": "The Fresh Cup team and contributors share their favorite coffee gifts this year including a buy-it-for-life bottle, a rising star home coffee grinder, and an instant chai. The post Fresh Cup’s 2026 Coffee Gift Guide appeared first on Fresh Cup .",
@@ -3738,7 +3415,7 @@
           "publisher": "World Coffee Portal",
           "published": "Fri, 27 Nov 2026 12:57:42 GMT",
           "date": "Fri, 27 Nov",
-          "section": "Top stories of the week"
+          "section": "Roasting & retail"
         },
         {
           "headline": "Lavazza gets green light for 2027 IVS Group takeover",
@@ -3786,15 +3463,6 @@
           "section": "Roasting & retail"
         },
         {
-          "headline": "Chicago Specialty Coffee Shop Closes Amid Alleged ICE Connection",
-          "summary": "Chicago specialty coffee roaster and cafe Tasa Coffee Roasters appears to have permanently closed following an employee walkout and boycott calls over allegations that the owner’s husband works for U.S....",
-          "url": "https://dailycoffeenews.com/2026/11/25/chicago-specialty-coffee-shop-closes-amid-alleged-ice-connection/",
-          "publisher": "Daily Coffee News",
-          "published": "Wed, 25 Nov 2026 14:13:31 +0000",
-          "date": "Wed, 25 Nov",
-          "section": "Roasting & retail"
-        },
-        {
           "headline": "Italy’s illycaffè reportedly working towards 2027 public listing",
           "summary": "CEO Cristina Scocchia has repeatedly highlighted a stock market debut as a strategic option for the premium coffee roaster",
           "url": "https://www.worldcoffeeportal.com/news/italys-illycaffe-reportedly-working-towards-2027-public-listing/",
@@ -3831,7 +3499,7 @@
       "note": "Assembled from the coffee trade press over the past seven days, ranked by relevance to the physical trade. Headlines and links are each publisher’s own."
     },
     "dailyRead": {
-      "fetchedAt": "2026-11-27T15:56:34.515Z",
+      "fetchedAt": "2026-11-28T01:35:53.704Z",
       "article": {
         "title": "Indonesia Coffee Production Down 8.2% Due to Weather",
         "summary": "Indonesia’s green coffee production is forecast to decline 8.2% to 11.35 million 60-kilogram bags in market year 2026/27, due primarily to weather events including flooding and extended dry spells, according...",
@@ -4157,40 +3825,41 @@
   },
   "status": [
     {
-      "source": "weather",
-      "ok": true,
-      "ms": 362
-    },
-    {
       "source": "daily-read",
       "ok": true,
-      "ms": 396
+      "ms": 156
     },
     {
       "source": "arabica-futures",
       "ok": true,
-      "ms": 825
+      "ms": 408
     },
     {
       "source": "weekly-recap",
       "ok": true,
-      "ms": 2135
-    },
-    {
-      "source": "fx",
-      "ok": true,
-      "ms": 2698
-    },
-    {
-      "source": "ico-report",
-      "ok": false,
-      "ms": 2943,
-      "error": "Table 5 (certified stocks) not found"
+      "ms": 1231
     },
     {
       "source": "origin-wire",
       "ok": true,
-      "ms": 3003
+      "ms": 1939
+    },
+    {
+      "source": "fx",
+      "ok": true,
+      "ms": 2209
+    },
+    {
+      "source": "ico-report",
+      "ok": false,
+      "ms": 2457,
+      "error": "Table 5 (certified stocks) not found"
+    },
+    {
+      "source": "weather",
+      "ok": false,
+      "ms": 33283,
+      "error": "fetch failed"
     }
   ]
 }
